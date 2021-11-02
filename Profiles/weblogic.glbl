@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>weblogic</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Variable global logueo</description>
+      <initValue>'http://192.168.2.54:7001/saraweb'</initValue>
+      <name>G_Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tiempo espera largo</description>
+      <initValue>30</initValue>
+      <name>G_TimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tiempo espera corto</description>
+      <initValue>15</initValue>
+      <name>G_TimeShort</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tiempo espera recalculo total</description>
+      <initValue>270</initValue>
+      <name>G_TimeNomina</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Ruta LOCAL de archivos requeridos para pruebas</description>
+      <initValue>'E:\\unionweb14\\'</initValue>
+      <name>G_rutaarchivos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario en la pantalla de logueo</description>
+      <initValue>'weblogic'</initValue>
+      <name>G_Usuario</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

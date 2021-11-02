@@ -1,0 +1,49 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('Tareas Administracion Compensacion/Tarea Generacion Entidad Pago'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Traer'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Traer'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/label_Periodo Fuera de Nomina'))
+
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/input_Fecha_form_popUpTraer'), 
+    '01/06/2021')
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Aplicar (1)'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/span_Bogota_ui-chkbox-icon ui-icon ui-icon-blank ui-c'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Liquidar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Continua'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Reversar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Reversar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar (1)'))
+
+WebUI.getText(findTestObject('Alerta/Alerta'))
+
+WebUI.closeBrowser()
+

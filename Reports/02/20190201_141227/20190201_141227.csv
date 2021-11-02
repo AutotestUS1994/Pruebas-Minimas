@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+02,Chrome 71.0.3578.98,,2019-02-01 14:12:29,2019-02-01 14:12:58,"28,681s",PASSED
+,,,,,,
+Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida,Chrome 71.0.3578.98,,2019-02-01 14:12:29,2019-02-01 14:12:57,"27,763s",PASSED
+"callTestCase(findTestCase(""1.1-Tareas Principales/Listado hojas de Vida""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-02-01 14:12:29,2019-02-01 14:12:47,"17,650s",PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-01 14:12:47,2019-02-01 14:12:49,"2,002s",PASSED
+"setText(findTestObject(""Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_ho""), ""354968431354"")",Chrome 71.0.3578.98,,2019-02-01 14:12:49,2019-02-01 14:12:49,"0,180s",PASSED
+"sendKeys(findTestObject(""Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_ho""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-02-01 14:12:49,2019-02-01 14:12:49,"0,055s",PASSED
+"click(findTestObject(""Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_354968431354""))",Chrome 71.0.3578.98,,2019-02-01 14:12:49,2019-02-01 14:12:50,"0,651s",PASSED
+"click(findTestObject(""Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Imprimir""))",Chrome 71.0.3578.98,,2019-02-01 14:12:50,2019-02-01 14:12:51,"1,527s",PASSED
+"click(findTestObject(""Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si""))",Chrome 71.0.3578.98,,2019-02-01 14:12:51,2019-02-01 14:12:57,"5,361s",PASSED

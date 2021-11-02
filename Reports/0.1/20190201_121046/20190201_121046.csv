@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+0.1,Chrome 71.0.3578.98,,2019-02-01 12:10:47,2019-02-01 12:10:55,"7,866s",PASSED
+,,,,,,
+Test Cases/0.1-Login,Chrome 71.0.3578.98,,2019-02-01 12:10:48,2019-02-01 12:10:55,"7,055s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-01 12:10:48,2019-02-01 12:10:51,"3,094s",PASSED
+"lst = [""http://localhost:8080/saraweb/webcommon/acceso.jsf"", ""http://192.168.2.38:8080/saraweb/webcommon/acceso.jsf""]",Chrome 71.0.3578.98,,2019-02-01 12:10:51,2019-02-01 12:10:51,"0,000s",PASSED
+for (String i : lst),Chrome 71.0.3578.98,,2019-02-01 12:10:51,2019-02-01 12:10:52,"1,308s",PASSED
+"setText(findTestObject(""Login/input_USUARIO_loginusuario""), ""saraadmin"")",Chrome 71.0.3578.98,,2019-02-01 12:10:52,2019-02-01 12:10:52,"0,141s",PASSED
+"setEncryptedText(findTestObject(""Login/input_CLAVE_loginpassword""), ""MkG4/TYiCFC3cb2driP7+Q=="")",Chrome 71.0.3578.98,,2019-02-01 12:10:52,2019-02-01 12:10:53,"0,144s",PASSED
+delay(2),Chrome 71.0.3578.98,,2019-02-01 12:10:53,2019-02-01 12:10:55,"2,015s",PASSED
+"click(findTestObject(""Login/span_Ingresar""))",Chrome 71.0.3578.98,,2019-02-01 12:10:55,2019-02-01 12:10:55,"0,095s",PASSED
