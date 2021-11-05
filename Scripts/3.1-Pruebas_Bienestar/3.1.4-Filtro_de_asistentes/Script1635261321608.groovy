@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt282j_idt29'))
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/label_bienestar'))
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_evento'))
+WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Prueba-S'))
 

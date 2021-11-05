@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-//WebUI.callTestCase(findTestCase('Modulos/Modulo Hoja de Vida'), [:], FailureHandling.STOP_ON_FAILURE) debe borrar todo lo que sea Modulos
+//WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo Hoja de Vida'), [:], FailureHandling.STOP_ON_FAILURE) debe borrar todo lo que sea Modulos
 //WebUI.delay(2) debe reemplazar por wait for elemento /objet
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

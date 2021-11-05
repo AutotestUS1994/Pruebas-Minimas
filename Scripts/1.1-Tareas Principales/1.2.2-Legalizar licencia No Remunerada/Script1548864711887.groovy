@@ -19,7 +19,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.callTestCase(findTestCase('Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     0)
@@ -188,10 +188,6 @@ WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/a_Guardar_archivo'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/a_Guardar_1'))
-
-WebUI.getText(findTestObject('Alerta/Alerta'))
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/span_Regresar'))
 
 WebUI.closeBrowser()
 

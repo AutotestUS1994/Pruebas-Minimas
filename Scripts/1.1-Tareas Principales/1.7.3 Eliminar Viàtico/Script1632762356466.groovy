@@ -54,8 +54,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     1)) {
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_01072021'))
 
-    WebUI.click(findTestObject(null))
-
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
         0)
 
@@ -67,19 +65,30 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Guardar'))
 
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Complementario'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 45 EMPLEADO'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 45 EMPLEADO'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Complementario'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si'))
+    }
+    
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Costos'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'), 
-        0)
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'))
-
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar'))
-
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar'))
+    }
+    
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Programacin'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
-        0)
+    if(WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
+        1)) {
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'))
 
@@ -115,7 +124,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_eliminar Programacion'))
-
+}
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'), 
         0)
 
@@ -132,19 +141,30 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Prueba Plan Inversin'))
 
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Complementario'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 45 EMPLEADO'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 45 EMPLEADO'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Complementario'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si'))
+    }
+    
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Costos'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'), 
-        0)
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_QUINTERO 5 EMPLEADO'))
-
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar'))
-
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar'))
+    }
+    
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Programacin'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
-        0)
+    if(WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
+        1)) {
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'))
 
@@ -180,12 +200,12 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_eliminar Programacion'))
-
+    }
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'), 
         0)
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'))
-
+    
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_viaticos2'))
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'))

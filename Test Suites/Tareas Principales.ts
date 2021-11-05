@@ -342,6 +342,12 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ace1d588-158c-448a-84d2-e81be49104ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.3 Eliminar Viàtico</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>211690a2-962a-4e40-a421-a502c1b42035</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

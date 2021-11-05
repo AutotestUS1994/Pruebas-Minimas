@@ -6,12 +6,11 @@
    <elementGuidId>ccddbf9e-cc5d-4ee9-9c38-f6c639085843</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='LiquidacionNomina:tabla_ln_data']/tr/td[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[2]/td/div/div/table/tbody/tr/td[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

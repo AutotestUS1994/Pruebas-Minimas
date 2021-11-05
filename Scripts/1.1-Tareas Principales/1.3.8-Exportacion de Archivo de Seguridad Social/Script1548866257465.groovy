@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Tareas Administracion Compensacion/Tarea Seguridad Social'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Seguridad Social'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/td_Planilla Empleados Empresa'), 
     GlobalVariable.G_TimeOut)

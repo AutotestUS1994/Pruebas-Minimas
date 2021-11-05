@@ -18,7 +18,7 @@ import com.sun.org.apache.bcel.internal.generic.RETURN
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Tareas Actos Administrativos/Acto Cambio del Empleado'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Hutilidades/Tareas Actos Administrativos/Acto Cambio del Empleado'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input__form_actoIngresoj_idt10120fecha_input'), 
     '01/12/2018')

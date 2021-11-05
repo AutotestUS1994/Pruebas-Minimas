@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td/a</value>
+         <value>//*/text()[normalize-space(.)='Momento Eventos']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>j_idt116:j_idt117:j_idt119:j_idt2494</value>
+      <value>j_idt116:j_idt117:j_idt119:j_idt2439</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.addSubmitParam('j_idt116',{'j_idt116:j_idt117:j_idt119:j_idt2494':'j_idt116:j_idt117:j_idt119:j_idt2494'}).submit('j_idt116');return false;</value>
+      <value>PrimeFaces.addSubmitParam('j_idt116',{'j_idt116:j_idt117:j_idt119:j_idt2439':'j_idt116:j_idt117:j_idt119:j_idt2439'}).submit('j_idt116');return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt116:j_idt117:j_idt119:j_idt2494&quot;)</value>
+      <value>id(&quot;j_idt116:j_idt117:j_idt119:j_idt2439&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='j_idt116:j_idt117:j_idt119:j_idt2494']</value>
+      <value>//a[@id='j_idt116:j_idt117:j_idt119:j_idt2439']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='j_idt116:j_idt117:j_idt119:j_idt2484']/table[2]/tbody/tr/td/a</value>
+      <value>//div[@id='j_idt116:j_idt117:j_idt119:j_idt2429']/table[2]/tbody/tr/td/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='bienestar'])[1]/following::a[15]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='parametros'])[1]/following::a[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +134,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='j_idt116:j_idt117:j_idt119:j_idt2494']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='j_idt116:j_idt117:j_idt119:j_idt2484']/table[2]/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bienestar'])[1]/following::a[15]</value>
    </webElementXpaths>
 </WebElementEntity>

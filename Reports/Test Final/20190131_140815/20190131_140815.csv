@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Test Final,Chrome 71.0.3578.98,,2019-01-31 14:08:17,2019-01-31 14:08:49,"32,025s",FAILED
-,,,,,,
-Test Cases/0.0.1-Test Final,Chrome 71.0.3578.98,,2019-01-31 14:08:18,2019-01-31 14:08:49,"31,237s",FAILED
-"callTestCase(findTestCase(""1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-31 14:08:18,2019-01-31 14:08:49,"30,732s",FAILED

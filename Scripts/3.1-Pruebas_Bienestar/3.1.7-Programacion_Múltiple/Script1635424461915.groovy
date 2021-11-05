@@ -59,18 +59,7 @@ String Fechaini = (((Dia + '/') + MesN) + '/') + AñoN
 
 String Fechafin = (((DiaF + '/') + Mes) + '/') + Año
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
-    0)
-
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
-    'evento (bie)')
-
-WebUI.delay(1)
-
-WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S'))
 

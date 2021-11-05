@@ -57,18 +57,31 @@ if (MesF > 12) {
     MesF = 1
 }
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Listado Hojas De Vida_form_templatej_idt282j_idt29'))
+String FechaF = (((DiaF + '/') + Mes) + '/') + Año
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/label_bienestar'))
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_evento'))
+WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'), 1)) {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_02112021'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_02112021'))
+
+        if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582'))
+
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar'))
+        }
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Fecha Inscripcin_ui-icon ui-icon-closethick'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
 
@@ -94,6 +107,8 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Evento grupo Bienestar MultipleEvento Grupo Bienestar Multiple SIEvento Grupo Bienestar nicoEvento Individual Multiple SS'), 
     5)
 
+WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aplicar'), 0)
+
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aplicar'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre'), 
@@ -102,10 +117,10 @@ WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre'), 'Prueba-S')
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Inicial Desarrollo_formEventosfechaIn_input'), 
-    (((Dia + '/') + MesN) + '/') + AñoN)
+    FechaI)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Final Desarrollo_formEventosfechaFin_input'), 
-    (((DiaF + '/') + Mes) + '/') + Año)
+    FechaF)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar'))
 
@@ -137,10 +152,10 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
     2)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
-    (((Dia + '/') + MesN) + '/') + AñoN)
+    FechaI)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'), 
-    (((DiaF + '/') + Mes) + '/') + Año)
+    FechaF)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar1'))
 
@@ -165,10 +180,10 @@ WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre'), 'Prueba-S-SH')
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Inicial Desarrollo_formEventosfechaIn_input'), 
-    '01/07/2021')
+    FechaI)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Final Desarrollo_formEventosfechaFin_input'), 
-    '10/07/2021')
+    FechaF)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar'))
 
@@ -203,10 +218,10 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
     2)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
-    '01/07/2021')
+    FechaI)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'), 
-    '10/07/2021')
+    FechaF)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar1'))
 

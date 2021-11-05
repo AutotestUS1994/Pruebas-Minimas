@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Tareas Actos Administrativos/Tarea Actos Administrativos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Hutilidades/Tareas Actos Administrativos/Tarea Actos Administrativos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/i_Acto Movimento de planta_gly'), 
     GlobalVariable.G_TimeOut)

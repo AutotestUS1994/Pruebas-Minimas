@@ -17,18 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Programación/input_Evento Bienestar_form_templatej_idt24_input'), 
-    0)
-
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programación/input_Evento Bienestar_form_templatej_idt24_input'), 
-    'evento (bie)')
-
-WebUI.delay(1)
-
-WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programación/input_Evento Bienestar_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/td_Evento Salud Unico'))
 

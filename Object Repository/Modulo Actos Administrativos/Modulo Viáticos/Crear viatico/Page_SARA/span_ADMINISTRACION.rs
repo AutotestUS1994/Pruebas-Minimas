@@ -6,11 +6,11 @@
    <elementGuidId>006d34a9-dc15-4053-9b4b-7374888880a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='form_detalleviaticos:tabla_ventana_unidadUsuario_data']/tr/td[2]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='ADMINISTRACION']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

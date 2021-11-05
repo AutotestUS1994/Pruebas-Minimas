@@ -11,14 +11,13 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable
-
-import org.junit.After
+import internal.GlobalVariable as GlobalVariable
+import org.junit.After as After
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud/input_Identificacin_listadoEmp'), 
     0)
@@ -52,9 +51,9 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud/a
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud/input_Se ha cargado el archivo_popupDocumentoNovedad'), 
     0)
-//String creado para redireccionar  los archivos requeridos por el test//
 
-String ruta=GlobalVariable.G_rutaarchivos+"certificado_personal_planta.txt";
+//String creado para redireccionar  los archivos requeridos por el test//
+String ruta = GlobalVariable.G_rutaarchivos + 'certificado_personal_planta.txt'
 
 WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud/input_Se ha cargado el archivo_popupDocumentoNovedad'), 
     ruta)

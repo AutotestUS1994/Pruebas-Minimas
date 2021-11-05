@@ -51,8 +51,7 @@ WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nueva_sección/input_Orden_se
 
 WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneBienes'), '2')
 
-WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneAreas de experiencia'), 
-    '5')
+WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneAreas de experiencia'), '5')
 
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje'), 'PRUEBA')
 
