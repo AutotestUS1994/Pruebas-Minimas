@@ -25,7 +25,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+
+
 String i = GlobalVariable.G_Login
+
+
 
 URL url = new URL(i)
 
@@ -36,6 +40,8 @@ HttpURLConnection connection = ((url.openConnection()) as HttpURLConnection)
 connection.setRequestMethod('GET')
 
 connection.setReadTimeout(2 * 1000)
+
+
 
 try {
     connection.connect()
@@ -58,6 +64,8 @@ if (flag) {
 }
 
 def a() {
+	
+	
     WebUI.setText(findTestObject('Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario)
 
     WebUI.setEncryptedText(findTestObject('Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
@@ -73,3 +81,4 @@ def a() {
 	//element = WebUiCommonHelper.findWebElement(findTestObject('Login/a_Ir_2'), 30)
 		
 }
+

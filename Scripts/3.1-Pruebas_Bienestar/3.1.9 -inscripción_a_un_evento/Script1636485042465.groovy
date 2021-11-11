@@ -19,29 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/td_Prueba-S'))
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
+    'Inscripcion evento (bie)')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_Publicacin'))
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab_form_publicacionEventotabla10j_idt241'), 
-    1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab_form_publicacionEventotabla10j_idt241'))
-
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_Si'))
-}
-
-//String creado para redireccionar  los archivos requeridos por el test//
-String ruta = GlobalVariable.G_rutaarchivos + 'fondo.jpg'
-
-WebUI.uploadFile(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input'), 
-    ruta)
-
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Evento Bienestar_form_templatej_idt24_input'), 
-    'inscripcion evento')
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)'))
+WebUI.comment('NO  SE MUESTRAN TODOS LOS EVENTOS')
 
 WebUI.closeBrowser()
 
