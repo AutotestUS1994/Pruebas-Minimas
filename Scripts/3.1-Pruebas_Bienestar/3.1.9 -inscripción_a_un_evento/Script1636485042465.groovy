@@ -24,7 +24,27 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
 
-WebUI.comment('NO  SE MUESTRAN TODOS LOS EVENTOS')
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Inscripcin'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Nombre_formListadoEventosj_idt185'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/td_'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --prueba-S-SH'), 
+    1)
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Referencia Pago_formListadoEventospIReferencia'), 
+    '5')
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor'), 
+    '100')
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
+    '5')
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'))
+
+WebUI.comment('Solo funciona en firefox o en resolucion mayor a 1366 *768')
 

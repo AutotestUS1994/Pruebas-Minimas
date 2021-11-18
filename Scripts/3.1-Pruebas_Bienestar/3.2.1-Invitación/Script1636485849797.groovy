@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/div_Participant
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Invitacin'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
-    '4')
+    '1')
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Unidad_invitacionEventosPopupFormj_idt1309'))
 

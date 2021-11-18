@@ -53,7 +53,7 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Inscrip
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción masiva/a_Inscribirse_Menu'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Inscripción masiva/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
-    4)
+    1)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción masiva/a_Filtrar'))
 
@@ -65,4 +65,6 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción masiva/span_Mo
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción masiva/span_Pagina Actual'))
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción masiva/a_Inscribirse'))
+
+WebUI.closeBrowser()
 

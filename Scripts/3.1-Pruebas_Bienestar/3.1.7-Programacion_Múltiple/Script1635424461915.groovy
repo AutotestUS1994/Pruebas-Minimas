@@ -121,3 +121,67 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Ic
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Guardar'))
 
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Regresar'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S-SH'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/td_prueba'))
+
+if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Aceptar_Eliminar'))
+}
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
+    Fechaini)
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'), 
+    Fechafin)
+
+WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
+    0)
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
+    Fechaini)
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
+    0)
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
+    Fechafin)
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/label_MAR'), 0)
+
+WebUI.check(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/label_MAR'))
+
+WebUI.check(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/label_MIE'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/select_01'), 5)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/select_02'), 6)
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_mas_Horario'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/td_LUN-MAR 0500-0600'), 2)
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Aplicar'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Icon_mas_principal'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Guardar'))
+
+WebUI.closeBrowser()
+

@@ -6,12 +6,11 @@
    <elementGuidId>19568460-163b-427a-8ff1-4c9c72e603ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='inscripcionEventosPopupForm:j_idt1252:j_idt1256:P']/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Pagina Actual']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

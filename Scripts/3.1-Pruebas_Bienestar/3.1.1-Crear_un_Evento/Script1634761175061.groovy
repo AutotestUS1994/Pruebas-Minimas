@@ -66,6 +66,14 @@ WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'),
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'), 1)) {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'))
 
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_CostoEvento'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_SALON 1'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_TEST FB_form_costoEventolistaCostoEvento0j_idt663'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar -1'))
+    }
+    
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos'))
 
     if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_02112021'), 1)) {
@@ -83,6 +91,14 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro'))
 
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_MAR-MIE 0500-0600'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Boto borrar'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar 0'))
+
+        WebUI.delay(2)
+    }
+    
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar2'))
@@ -143,7 +159,7 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
     1)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo'), 
-    '2')
+    '100')
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo'), 
     '1')
@@ -206,7 +222,7 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
     1)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo'), 
-    '2')
+    '100')
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo'), 
     '1')

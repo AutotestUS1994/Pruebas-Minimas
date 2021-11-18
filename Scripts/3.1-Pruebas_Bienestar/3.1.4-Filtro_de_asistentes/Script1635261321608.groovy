@@ -41,6 +41,30 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(s
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBj_idt794'))
 
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Regresar'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Prueba-S-SH'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_DirigidoA'))
+
+if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt793'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt793'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Aceptar_Eliminar'))
+}
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/select_-- Seleccione --CargoCargos'), 
+    6)
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMinima'), 
+    '1')
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMaxima'), 
+    '80')
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBj_idt794'))
+
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/div_Participante'))
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Invitacin'))

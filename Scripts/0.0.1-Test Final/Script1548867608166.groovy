@@ -16,9 +16,27 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.7 Descargar Nomina Electronica'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.2-Ingresar_instructores'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.3-Ingresar entidades'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.4-Filtro_de_asistentes'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.5-Publicación_del_evento'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.6-Programación'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.8-Calendario'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.8-Deducción_de_costos_al_plan_inversión'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.9 -inscripción_a_un_evento'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.2.1-Invitación'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.2.2-Inscripción_masiva'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
