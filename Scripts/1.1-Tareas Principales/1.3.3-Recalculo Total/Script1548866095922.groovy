@@ -44,7 +44,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/span_Si'))
 
-WebUI.delay(15)
+WebUI.delay(28)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
 

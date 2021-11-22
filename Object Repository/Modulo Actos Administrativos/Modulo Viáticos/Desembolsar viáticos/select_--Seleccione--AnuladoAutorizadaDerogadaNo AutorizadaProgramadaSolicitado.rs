@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='form_listadoviaticos:j_idt91']</value>
+         <value>//td[4]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

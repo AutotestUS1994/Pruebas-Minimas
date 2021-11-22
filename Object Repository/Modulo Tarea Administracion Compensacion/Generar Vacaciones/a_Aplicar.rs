@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[4]/tbody/tr/td/a</value>
+         <value>(//a[contains(text(),'Aplicar')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

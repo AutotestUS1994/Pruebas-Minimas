@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='organigrama:arbolUnidad:0_1_0:j_idt63']/span</value>
+         <value>
+//li[2]/ul/li/span/span[3]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

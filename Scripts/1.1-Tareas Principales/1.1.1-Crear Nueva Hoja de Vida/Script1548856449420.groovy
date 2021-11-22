@@ -51,6 +51,9 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Listado Hojas de Vida/Cre
 
 WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva Solicitud'))
 
+WebUI.waitForElementPresent(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845'), 
+    0)
+
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845'), 
     identificacion)
 
@@ -106,6 +109,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida
 
 WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar'), FailureHandling.STOP_ON_FAILURE)
 
-return identificacion;
+return identificacion
+
 WebUI.closeBrowser()
 

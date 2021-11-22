@@ -17,12 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Evento Capacitacin_form_templatej_idt24_input'), 
-    'Control Evento Capacitacion (cap)')
-
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/li_Control Evento Capacitacion (cap)'))
+WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
     1)) {

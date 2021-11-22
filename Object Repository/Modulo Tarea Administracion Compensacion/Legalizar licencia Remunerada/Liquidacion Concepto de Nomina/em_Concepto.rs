@@ -6,12 +6,13 @@
    <elementGuidId>18849449-f342-404e-8a45-e4fa37ca144e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='calculoNomina:tab']/ul/li[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//em[starts-with(@id, 'calculoNomina:') and (text() = 'Concepto' or . = 'Concepto')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

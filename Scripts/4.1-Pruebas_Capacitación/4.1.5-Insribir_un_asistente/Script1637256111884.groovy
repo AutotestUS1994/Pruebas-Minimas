@@ -17,12 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/input_Evento Capacitacin_form_templatej_idt24_input'), 
-    'Control Evento Capacitacion')
-
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/li_Control Evento Capacitacion (cap)'))
+WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/td_Prueba'))
 
@@ -30,14 +25,15 @@ WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/a_Registro'))
 
-if(WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/td_prueba ka Pruebas'), 1))
-{
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/td_prueba ka Pruebas'))
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/td_prueba ka Pruebas'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/td_prueba ka Pruebas'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/a_Eliminar'))
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/a_Eliminar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/a_Aceptar_eliminar'))
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/a_Aceptar_eliminar'))
 }
+
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/a_Nuevo'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/select_SeleccioneExternoInterno'), 
@@ -64,7 +60,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistent
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
     '3')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/select_SeleccionePrueba'), '1')
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/select_SeleccionePrueba'), 
+    '1')
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Inscribir_un_asistente/select_SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 
     '1')

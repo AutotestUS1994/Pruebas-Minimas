@@ -6,12 +6,12 @@
    <elementGuidId>edae4258-c6a6-4774-9072-ec08dcf54303</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr/td[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[starts-with(@id, 'calculoNomina:') and (text() = 'Liquidar' or . = 'Liquidar')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset/div/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

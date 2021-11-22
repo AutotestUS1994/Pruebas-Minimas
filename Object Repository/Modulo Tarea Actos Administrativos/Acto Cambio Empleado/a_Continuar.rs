@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[5]/td/table/tbody/tr/td/a</value>
+         <value>//a[contains(text(),'Continuar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

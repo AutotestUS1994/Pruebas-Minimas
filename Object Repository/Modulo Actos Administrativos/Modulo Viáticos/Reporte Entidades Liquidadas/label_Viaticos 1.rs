@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Viaticos']/parent::*</value>
+         <value>//li[2]/label</value>
       </entry>
       <entry>
          <key>CSS</key>

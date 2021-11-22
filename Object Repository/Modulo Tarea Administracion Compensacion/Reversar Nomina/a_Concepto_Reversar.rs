@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='calculoNomina:tab']/ul/li[2]/a</value>
+         <value>//a[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

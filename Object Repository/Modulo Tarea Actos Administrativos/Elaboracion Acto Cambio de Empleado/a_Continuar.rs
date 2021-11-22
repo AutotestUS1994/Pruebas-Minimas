@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[5]/td/table/tbody/tr/td[2]/a</value>
+         <value>
+//tr[4]/td/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -14,8 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.sun.org.apache.bcel.internal.generic.RETURN
-
+import com.sun.org.apache.bcel.internal.generic.RETURN as RETURN
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Hutilidades/Tareas Actos Administrativos/Acto Cambio del Empleado'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -120,6 +119,29 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos
     GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_Fc - Colfondos'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_PAGO DE NOMINA'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Sucursal_entidadempleado_formtabj_idt1219'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_Ccf - Cafam'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/select_--Seleccione--003 Familia Popayan'), 
+    2)
+
+WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input_Cuenta_entidadempleado_formtabtablaCampos0referencia'), 
+    '12345678910')
+
+WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input_Bco Destino_entidadempleado_formtabtablaCampos1valor'), 
+    '5')
+
+WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input_Tipo de cuenta_entidadempleado_formtabtablaCampos2sucReferencia'), 
+    'corriente')
+
+WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input_Tipo Cuenta 1ahorro 2 corr_entidadempleado_formtabtablaCampos4tipo'), 
+    '1')
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Aplicar2'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_CAJA DE COMPENSACION'), 
     GlobalVariable.G_TimeOut)
