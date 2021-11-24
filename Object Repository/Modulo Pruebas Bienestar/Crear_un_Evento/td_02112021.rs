@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/table/tbody/tr/td[3]</value>
+         <value>//*/text()[normalize-space(.)='02/11/2021']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -84,7 +83,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='02/11/2021']/parent::*</value>
+      <value>v</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

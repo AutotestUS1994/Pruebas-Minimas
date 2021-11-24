@@ -24,6 +24,49 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/li_Informe Accidente de Trabajo (sst)'))
 
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Prueba'), 1)) {
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Prueba'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Recomendaciones_Eliminar'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Camine con Precaucin_eliminar'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Camine con Precaucin_eliminar'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar0'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar0'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Testigo_Eliminar'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_DIAZ BLANCO GUISELL'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_DIAZ BLANCO GUISELL'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar1'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accidentado_Eliminar'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_DIAZ BLANCO GUISELL_Eliminar'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_DIAZ BLANCO GUISELL_Eliminar'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar2'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar2'))
+    }
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accidente'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar_3'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar3'))
+    
+}
+
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nuevo'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- Seleccin --GrupalIndividual'), 
@@ -34,10 +77,10 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accidente'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --'), 
-    null)
+    1)
 
-WebUI.deselectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --desFAMILIAR Tipo AccidenteLABORALPERSONAL'), 
-    null)
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --desFAMILIAR Tipo AccidenteLABORALPERSONAL'), 
+    3)
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/label_Si'))
 
@@ -48,23 +91,127 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Sede Suba'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --RECREATIVO O CULTURALPROPIOS DEL TRABAJODEPORTIVOTRANSITOVIOLENCIAPROVOCADOIMPRUDENCIA'), 
-    null)
+    4)
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --AREAS DE PRODUCCIONAREAS RECREATIVAS O DEPORTIVAS'), 
-    null)
+    9)
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Ubicacin Geogrfica Accidente_form_detalleAccidentej_idt1189'))
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt1544'), 
-    '')
+    'Bogotá')
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt1545'), 
-    '')
+    'colombia')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_COLO      COLOMBIA'))
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Persona Informa_form_detalleAccidentej_idt1196'))
 
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1557'), 
+    'guisell')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1557'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Diaz Blanco Guisell'))
+
 WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/textarea_Descripcin_form_detalleAccidentedescripcionAcci'), 
-    '')
+    'Prueba')
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Guardar'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Testigo'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nuevo3'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nombre Testigo_form_popupTestigoAccidentej_idt157'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt15573'), 
+    'guisell')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt15573'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Diaz Blanco Guisell3'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Telfono_form_popupTestigoAccidentetelefono'), 
+    '1234567890')
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/textarea_Versin Testigo_form_popupTestigoAccidenteversion'), 
+    'Prueba')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Guardar3'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accidentado'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nuevo2'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Identificacin_form_datosAccidentadoj_idt1642'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Bsqueda_form_datosAccidentadoj_idt1816'), 
+    'Guisell')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Bsqueda_form_datosAccidentadoj_idt1816'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Diaz Blanco Guisell2'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Fecha Reporte_form_datosAccidentadoreporte_input'), 
+    '01/07/2021')
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Fecha Radicado_form_datosAccidentadofecharadicado_input'), 
+    '10/07/2021')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --COOPERADOESTUDIANTE O APRENDIZINDEPENDIENTEMISIONPLANTA'), 
+    5)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --AREAS DE RIESGOAREAS SIN RIESGOPRUEBA SILVIA'), 
+    4)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR ---'), 
+    1)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --AGENTES  NO CLASIFICADOSAMBIENTES DE TRABAJO(SUPERFICIES DE TRANSITO Y TRABAJO'), 
+    2)
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/label_Si2'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --Lesin GraveLesin MedianaLesin Mnima'), 
+    3)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --DIURNAMIXTANOCTURNAPOR TURNOS'), 
+    1)
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/label_No'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Guardar2'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Recomendaciones'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nuevo4'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_ActivoCanceladoCumplidoNo Cumplido'), 
+    0)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --Camine con PrecaucinCapacitacinTrate de no correr'), 
+    1)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --Recomendacin Atep 2Recomendacin Atep 1'), 
+    1)
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Responsable Recomendaciones_form_popupSeguimientotabRecomendacionj_idt200'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt15574'), 
+    'Guisell')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt15574'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Diaz Blanco Guisell4'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/textarea_Observacin_form_popupSeguimientotabRecomendacionobservacion'), 
+    'PRUEBA')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Guardar4'))
 
