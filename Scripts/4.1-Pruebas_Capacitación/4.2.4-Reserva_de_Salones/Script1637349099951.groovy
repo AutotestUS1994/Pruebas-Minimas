@@ -9,17 +9,14 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-WebUI.comment('No funciona en pantallas con resolucion 1366 x 768')
-
-WebUI.comment('boton guardar no es accesible por katalon')
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,14 +27,17 @@ WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/td_Sala de Juntas'))
 
-if(WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka'), 1))
-{
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka'))
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka'), 1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Eliminar'))
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Eliminar'), 
+        30)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Aceptar'))
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Aceptar'))
 }
+
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_----'))
 
 WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Tema_popup_form_reservaSalonestema'), 
@@ -74,5 +74,14 @@ WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/i
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_A A A'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Guardar'))
+WebUI.executeJavaScript('document.body.style.zoom=\'100%\'', null)
+
+WebUI.delay(2)
+
+WebUI.scrollToPosition(400, 4000)
+
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Guardar'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 

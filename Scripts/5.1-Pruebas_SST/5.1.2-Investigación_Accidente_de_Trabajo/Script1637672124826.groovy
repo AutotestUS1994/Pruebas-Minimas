@@ -9,15 +9,20 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.executeJavaScript('document.body.style.zoom=\'98%\'', null)
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Informes de Accidentes e Incidentes de Trabajo_form_templatej_idt24_input'), 
     'Informe Accidente de Trabajo')
@@ -34,6 +39,16 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Traba
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_DIAZ BLANCO GUISELL'))
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Investigaciones'))
+
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Prueba2'), 1)) {
+    WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Prueba2'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Eliminar'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Aceptar_Eliminar'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Investigaciones'))
+}
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Nuevo'))
 
@@ -140,7 +155,23 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Tra
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Responsable_form_popupRecomendacionInvvpanel_principal_23j_idt405'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_ALMANZA NOVOA JOHN ALEXANDRE'))
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/label_Responsable'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_ALMANZA NOVOA JOHN ALEXANDRE'), 
+    0)
+
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_ALMANZA NOVOA JOHN ALEXANDRE'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/div_Responsable'), 
+    1)) {
+    WebUI.waitForElementClickable(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_ALMANZA NOVOA JOHN ALEXANDRE'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_ALMANZA NOVOA JOHN ALEXANDRE'))
+}
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Responsable De Accin_form_popupRecomendacionInvvpanel_principal_23j_idt409'))
 
@@ -214,9 +245,9 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Traba
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Seguimiento'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/div_PrevNextJanFebMarAprMayJunJulAugSepOctNovDec'))
-
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Observacin_form_popupRecomendacionInvvpanel_principal_23j_idt464j_idt480'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/label_Tipo  Control'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Tipo Control'))
 
@@ -229,5 +260,38 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Traba
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Actualizar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Efectuado_ui-icon ui-icon-closethick'))
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Equipo de investigacin'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Nivel del Cargo_j_idt1810tabInvestigacionAccidentadotablaEquipoj_idt2013'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2086'), 
+    'a')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2086'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_A A A2'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Nivel del Cargo_j_idt1810tabInvestigacionAccidentadotablaEquipofechaaccidente_input'), 
+    '01/07/2021')
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Nivel del Cargo_j_idt1810tabInvestigacionAccidentadotablaEquiporol'), 
+    'prueba')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Nivel del Cargo_j_idt1810tabInvestigacionAccidentadotablaEquipoj_idt2022'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Anexos'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Descargar_j_idt1810tabInvestigacionAccidentadotablaAnexosj_idt2030'))
+
+//String creado para redireccionar  los archivos requeridos por el test//
+String ruta = GlobalVariable.G_rutaarchivos + 'prueba.pdf'
+
+WebUI.uploadFile(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
+    ruta)
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Descargar_j_idt1810tabInvestigacionAccidentadotablaAnexosdescripcionAnexo'), 
+    'Prueba')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Descargar_j_idt1810tabInvestigacionAccidentadotablaAnexosj_idt2037'))
 

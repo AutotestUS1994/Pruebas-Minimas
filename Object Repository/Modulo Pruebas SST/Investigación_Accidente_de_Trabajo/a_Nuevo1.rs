@@ -6,12 +6,11 @@
    <elementGuidId>25ebedc7-2f96-406a-8dd0-11b636e7363c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='j_idt1827:tabInvestigacionAccidentado:j_idt2019']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

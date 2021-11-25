@@ -6,12 +6,11 @@
    <elementGuidId>d28ce043-0a72-4e75-9862-9a263eaf404a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Individual']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='j_idt116:j_idt117:j_idt119:j_idt2362']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

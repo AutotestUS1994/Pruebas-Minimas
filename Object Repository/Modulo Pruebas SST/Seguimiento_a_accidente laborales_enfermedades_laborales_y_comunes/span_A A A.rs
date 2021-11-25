@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_ALMANZA NOVOA JOHN ALEXANDRE</name>
+   <name>span_A A A</name>
    <tag></tag>
-   <elementGuidId>fab3ee9e-ca15-4051-ac71-2f9794e0dbc9</elementGuidId>
+   <elementGuidId>93df2643-d2c7-4c2b-8640-b7e8c24c4949</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div/table/tbody/tr/td/span</value>
+         <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace > td > span.valor_campo</value>
+         <value>span.valor_campo_none</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,62 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>valor_campo</value>
+      <value>valor_campo_none</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ALMANZA NOVOA JOHN ALEXANDRE</value>
+      <value>A A A</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_popupRecomendacionInvv:tabla_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
+      <value>id(&quot;formPopupHojaVida:listaHojaVida_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[2]/span[@class=&quot;valor_campo_none&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='form_popupRecomendacionInvv:tabla_data']/tr/td/span</value>
+      <value>//tbody[@id='formPopupHojaVida:listaHojaVida_data']/tr/td[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responsable'])[3]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro Hoja de Vida'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responsable'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diagnóstico Preliminar*'])[1]/following::span[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AYA SILVA CINDY XIMENA'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='codigoxyz'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ALMANZA NOVOA JOHN ALEXANDRE']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aalfalfa Aalfalfa Aalfalfa'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/table/tbody/tr/td/span</value>
+      <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>
