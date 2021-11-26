@@ -1,0 +1,2 @@
+certificado_personal_planta.txt
+archivo requerido para ejecucion pruebas minimas sara

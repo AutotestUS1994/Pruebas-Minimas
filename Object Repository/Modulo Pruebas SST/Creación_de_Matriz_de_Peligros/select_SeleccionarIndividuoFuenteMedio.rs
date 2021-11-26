@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Si</name>
+   <name>select_SeleccionarIndividuoFuenteMedio</name>
    <tag></tag>
-   <elementGuidId>9a547a69-7430-40f5-bcf2-6800e69a490e</elementGuidId>
+   <elementGuidId>98f7a21a-95f1-40e9-a432-4068e5137a1b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.us-boton.btn-descargar</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+         <value>//select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,104 +21,101 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c62c38c65c35c61c33c38c34c37c32c37c34c38c65c63c38c63c65c61c62c61c64c64c65c36c61c38c33c61c38c35&amp;E=</value>
+      <value>form_listadoPeligroListadoActividadd:tab:listaClaseMedControl</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>target</name>
+      <name>name</name>
       <type>Main</type>
-      <value>_black</value>
+      <value>form_listadoPeligroListadoActividadd:tab:listaClaseMedControl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-descargar</value>
+      <value>valor_campo_estandar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Si</value>
+      <value>	Seleccionar
+	Individuo
+	Fuente
+	Medio
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;confirmacionGenerar:j_idt496_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-descargar&quot;]</value>
+      <value>id(&quot;form_listadoPeligroListadoActividadd:tab:listaClaseMedControl&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_listadoPeligroListadoActividadd:tab:listaClaseMedControl']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='confirmacionGenerar:j_idt496_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Si')]</value>
+      <value>//div[@id='form_listadoPeligroListadoActividadd:tab:j_idt887']/table[2]/tbody/tr/td[2]/table/tbody/tr/td/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea Descargar el formato unico de hoja de vida'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo *'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción*'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c62c38c65c35c61c33c38c34c37c32c37c34c38c65c63c38c63c65c61c62c61c64c64c65c36c61c38c33c61c38c35&amp;E=')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

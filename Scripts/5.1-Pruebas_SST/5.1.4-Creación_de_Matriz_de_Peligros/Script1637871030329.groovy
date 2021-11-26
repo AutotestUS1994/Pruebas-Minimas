@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros
     'prueba')
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_SeleccionarNo VigenteVigente'), 
-    1)
+    2)
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/input_Fecha Vigencia_form_datosMatrizPeligrofechaVigencia_input'), 
     '01/07/2021')
@@ -66,4 +66,41 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros
     'Pruebas k')
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Guardar'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Nuevo3'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_SeleccionarFsicoPrueba cdigo repetidoCondiciones de SeguridadPsicosocialBiomecnicoAuditivoFenmenos NaturalesVisualMotriz'), 
+    '1')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_Seleccionar'), '1')
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/textarea_Efecto Posible_form_listadoPeligroListadoActividaddtabconsecuencia'), 
+    'prueba k')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Guardar'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Controles Existentes'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Nuevo4'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_SeleccionarIndividuoFuenteMedio'), 
+    1)
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/textarea_Descripcin_form_listadoPeligroListadoActividaddtabdescripcionMedControl'), 
+    'pruebas k')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Guardar4'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Niveles de Riesgo'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Nuevo5'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/input_Fecha Original_form_listadoPeligroListadoActividaddtabtab2fechaOriginal_input'), 
+    '01/07/2021')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_Seleccionar5'), null)
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Guardar5'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Seguimiento'))
 

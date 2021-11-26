@@ -36,9 +36,13 @@ WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modul
 
 WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Listado Viticos_cerrar_menu'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/label_Viaticos'))
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+    'costos pendientes')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Listado Costos Pendientes'))
+WebUI.delay(1)
+
+WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/select_--Seleccione--Nota Reembolso'), 
     0)

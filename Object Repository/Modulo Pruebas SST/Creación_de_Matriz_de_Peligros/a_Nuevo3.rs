@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Si</name>
+   <name>a_Nuevo3</name>
    <tag></tag>
-   <elementGuidId>9a547a69-7430-40f5-bcf2-6800e69a490e</elementGuidId>
+   <elementGuidId>4cd5e2c6-466d-4265-93b4-96bfab3987da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-boton.btn-descargar</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Nuevo')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,99 +26,113 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c62c38c65c35c61c33c38c34c37c32c37c34c38c65c63c38c63c65c61c62c61c64c64c65c36c61c38c33c61c38c35&amp;E=</value>
+      <value>form_listadoPeligroListadoActividadd:j_idt851</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>target</name>
+      <name>href</name>
       <type>Main</type>
-      <value>_black</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-boton btn-descargar</value>
+      <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_listadoPeligroListadoActividadd:j_idt851&quot;,f:&quot;form_listadoPeligroListadoActividadd&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Si</value>
+      <value>Nuevo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;confirmacionGenerar:j_idt496_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-descargar&quot;]</value>
+      <value>id(&quot;form_listadoPeligroListadoActividadd:j_idt851&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_listadoPeligroListadoActividadd:j_idt851']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='confirmacionGenerar:j_idt496_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <value>//span[@id='form_listadoPeligroListadoActividadd:tablaPeligro']/table/tbody/tr/td/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Si')]</value>
+      <value>//a[contains(text(),'Nuevo')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea Descargar el formato unico de hoja de vida'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc34c62c38c65c35c61c33c38c34c37c32c37c34c38c65c63c38c63c65c61c62c61c64c64c65c36c61c38c33c61c38c35&amp;E=')]</value>
+      <value>(//a[contains(@href, '#')])[30]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <value>//span/table/tbody/tr/td/a</value>
    </webElementXpaths>
 </WebElementEntity>
