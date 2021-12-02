@@ -6,12 +6,12 @@
    <elementGuidId>a66ebb06-5771-4b23-afc1-9259b52ece1a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ui-tabs-header.ui-state-default.ui-corner-top.ui-state-hover > a</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Niveles de Riesgo')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/ul/li[3]/a</value>
+         <key>CSS</key>
+         <value>li.ui-tabs-header.ui-state-default.ui-corner-top.ui-state-hover > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

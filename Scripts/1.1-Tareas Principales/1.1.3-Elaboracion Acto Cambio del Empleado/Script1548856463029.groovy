@@ -36,8 +36,6 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_Motivo ingreso'))
 
-WebUI.acceptAlert()
-
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/select_10 - Ingreso Puesto Nuevo'), 
     '1')
 

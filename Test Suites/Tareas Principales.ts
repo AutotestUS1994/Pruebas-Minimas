@@ -353,4 +353,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/Listado hojas de Vida</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>14d7b817-7e0e-4e18-98fd-521fcf5e9116</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.5 Ejecucion Diseño Reporte</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>522e4beb-af84-404c-add1-edc9f7b6b53e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.6-Generacion_Interfaz_Contable</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
