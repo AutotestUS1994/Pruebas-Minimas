@@ -14,6 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -41,6 +43,8 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Nuevo'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Adicionar entidad de AFC'))
+
+WebUI.delay(30)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Desde_form_novedadesEmpl'), '01/12/2018')
 
