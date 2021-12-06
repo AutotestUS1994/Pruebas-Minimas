@@ -61,9 +61,9 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Histrico'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21_Historico'), 
+if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Enfermedad General 21_Historico'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21_Historico'))
+    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Enfermedad General 21_Historico'))
 
     WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Eliminar'), 0)
 

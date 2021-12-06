@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Ruta archivos pruebas</description>
-      <initValue>'E:\\unionweb14\\'</initValue>
+      <initValue>'/home/andreamoreno/Documentos/Pruebas-Minimas-master/1.Requerimientos/Documento para pruebas/'</initValue>
       <name>G_rutaarchivos</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

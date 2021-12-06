@@ -42,10 +42,11 @@ WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensaci
 
 WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_Acumular valorAdicionar'), 
     'I', true)
+/*------------------------*/
+String ruta = GlobalVariable.G_rutaarchivos + 'ArchivoPlanoLiquidacionNomina.txt'
 
-WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
-    'E:\\unionweb14\\ArchivoPlanoLiquidacionNomina.txt')
-
+WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'),
+	ruta)
 filePath = WebUI.getAttribute(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
     'value')
 

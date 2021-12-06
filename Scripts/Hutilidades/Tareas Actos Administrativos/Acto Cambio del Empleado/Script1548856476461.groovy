@@ -11,8 +11,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.sun.org.apache.bcel.internal.generic.RETURN
-
+import com.sun.org.apache.bcel.internal.generic.RETURN as RETURN
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -31,9 +30,9 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Acto cambio del Empleado_form'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_nomina'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Nomina'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_nomina'))
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Nomina'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_ingreso definitivo indefinido salario basico'), 
     GlobalVariable.G_TimeOut)
@@ -64,4 +63,6 @@ WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Emple
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Continuar'), GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Continuar'))
-return identificacion;
+
+return identificacion
+

@@ -6,12 +6,12 @@
    <elementGuidId>cbe7ce42-ae38-4e8c-b52f-3fc4812330f1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.valor_campo_estandar</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nomina']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/a/span</value>
+         <key>CSS</key>
+         <value>span.valor_campo_estandar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
