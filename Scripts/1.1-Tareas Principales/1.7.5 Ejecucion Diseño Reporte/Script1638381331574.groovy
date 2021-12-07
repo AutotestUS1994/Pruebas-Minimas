@@ -40,17 +40,5 @@ WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/label_Xlsdata'))
 
 WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/a_Reporte'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/span_E_ui-icon ui-icon-closethick'))
-
-WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/a_Imprimir'))
-
-WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/label_Pdf'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/span_E_ui-icon ui-icon-closethick'))
-
 WebUI.closeBrowser()
 
