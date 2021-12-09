@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Listado Hojas De Vida_form_templatej_idt24_input</name>
+   <name>input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input</name>
    <tag></tag>
-   <elementGuidId>8f4f8de4-093c-40b9-85fd-200e23b0c059</elementGuidId>
+   <elementGuidId>0d3daf2e-2bb1-4024-a8ba-c3f640f10e22</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -48,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-focus</value>
+      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,13 +71,6 @@
       <name>onclick</name>
       <type>Main</type>
       <value>this.value='';</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Listado Hojas de Vida (hoj)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

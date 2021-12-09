@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Listado Hojas De Vida_form_templatej_idt24_input</name>
+   <name>input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722</name>
    <tag></tag>
-   <elementGuidId>8f4f8de4-093c-40b9-85fd-200e23b0c059</elementGuidId>
+   <elementGuidId>ea604757-ddec-4cf7-adcc-bb3f3b1d6528</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//td/form/div/div[2]/div[2]/table/tbody/tr/td/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span/input</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>formPopupHojaVida:j_idt1722</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>formPopupHojaVida:j_idt1722</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,37 +47,30 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>value</name>
       <type>Main</type>
-      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-focus</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>class</name>
       <type>Main</type>
-      <value>off</value>
+      <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-focus ui-state-hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
-      <value>305</value>
+      <value>30</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>this.value='';</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Listado Hojas de Vida (hoj)</value>
+      <value>PrimeFaces.ab({s:&quot;formPopupHojaVida:j_idt1722&quot;,e:&quot;valueChange&quot;,f:&quot;formPopupHojaVida&quot;,p:&quot;formPopupHojaVida:j_idt1722&quot;,u:&quot;formPopupHojaVida&quot;});</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,36 +96,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-autocomplete</name>
-      <type>Main</type>
-      <value>list</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_template:j_idt24_input&quot;)</value>
+      <value>id(&quot;formPopupHojaVida:j_idt1722&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='form_template:j_idt24_input']</value>
+      <value>//input[@id='formPopupHojaVida:j_idt1722']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='form_template:j_idt24']/input</value>
+      <value>//div[@id='formPopupHojaVida:dialog_popupHojaVida_content']/div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//td/form/div/div[2]/div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>
