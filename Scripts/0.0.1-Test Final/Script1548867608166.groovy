@@ -16,27 +16,31 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.2-Ingresar_instructores'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.9 Crear Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.3-Ingresar entidades'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.1 Costos de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.4-Filtro_de_asistentes'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.2 Complementario de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.5-Publicación_del_evento'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.3 Desembolsar Viático'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.6-Programación'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.4 Derrogacion Viático'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.5 Modificar Solicitud de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.8-Calendario'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.6 Anulación y Legalización de viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.8-Deducción_de_costos_al_plan_inversión'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.7 Modificar retroactivos viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.9 -inscripción_a_un_evento'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.8 Guardar retroactivo de viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.2.1-Invitación'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.2.2-Inscripción_masiva'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.1 Crear Histórico Vacaciones'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

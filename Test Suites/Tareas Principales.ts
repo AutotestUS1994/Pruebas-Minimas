@@ -189,7 +189,7 @@
       <guid>98dbb7dc-014a-460c-ae37-404876b06110</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.4.1-Liquidar Conceptos y Variables</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.4.1-Liquidacion_de_contrato</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0395a0c9-16d8-4332-9599-bd69c5b09092</guid>

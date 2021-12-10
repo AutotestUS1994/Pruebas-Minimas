@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_INTERFAZ PROVISIONES'))
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha_generacionInterfazfechacomprobante_input'), 
-    '01/07/2021')
+    '01/07/2017')
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Filtrar'))
 
@@ -57,7 +57,7 @@ WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacio
     '01/07/2017')
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha Final_popupGeneracionInterfazfinal_input'), 
-    '30/07/2017')
+    '31/07/2017')
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha Proceso_popupGeneracionInterfazfechaProceso_input'), 
     '01/07/2017')

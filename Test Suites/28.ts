@@ -15,6 +15,6 @@
       <guid>622150e2-741b-4ffd-b4ba-7a1eee222537</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.4.1-Liquidar Conceptos y Variables</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.4.1-Liquidacion_de_contrato</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

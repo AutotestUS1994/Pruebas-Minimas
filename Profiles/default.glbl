@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>Variable global logueo</description>
-      <initValue>'http://192.168.2.80:8380/saraweb/'</initValue>
+      <initValue>'http://localhost:8380/saraweb/\r\n'</initValue>
       <name>G_Login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Ruta archivos pruebas</description>
-      <initValue>'/home/andreamoreno/Documentos/Pruebas-Minimas-master/1.Requerimientos/Documento para pruebas/'</initValue>
+      <initValue>'E:\\unionweb14\\'</initValue>
       <name>G_rutaarchivos</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
