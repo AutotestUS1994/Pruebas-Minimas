@@ -120,30 +120,5 @@ WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensa
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/a_Regresar'))
 
-WebUI.acceptAlert()
-
-try {
-    String a = '65173e58e5fe483e8781783078c8c0dc'
-
-    boolean b = true
-
-    if ((findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob') != 
-    a) && b) {
-        WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
-    } else {
-        WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
-            '65173e58e5fe483e8781783078c8c0dc', true)
-
-        WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/span_Prestaciones Sociales'))
-
-        WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/span_Reporte'))
-
-        WebUI.getText(findTestObject('Alerta/Alerta'))
-    }
-}
-catch (Exception e) {
-    e.printStackTrace('error', e)
-} 
-
 WebUI.closeBrowser()
 

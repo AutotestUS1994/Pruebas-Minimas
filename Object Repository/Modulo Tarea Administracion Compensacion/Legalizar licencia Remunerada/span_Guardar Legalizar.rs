@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value> //div/div/div/table[6]/tbody/tr/td/a</value>
+         <value>//a[contains(text(),'Guardar Legalizar')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -6,12 +6,11 @@
    <elementGuidId>6ff3a546-1d96-4211-9941-eba3a9620019</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='cancelacion_contrato:j_idt2059']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Regresar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,14 +33,11 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_
 
 if (WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_01072017'), 
     1)) {
+    WebUI.check(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/div_-_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover0'))
+
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Ver'))
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Reversar'))
-
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Aceptar'))
-
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Aceptar'), 
-        0)
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Aceptar'))
 }
@@ -91,4 +88,6 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
+
+WebUI.closeBrowser()
 

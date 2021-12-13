@@ -43,13 +43,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Aceptar_Eliminar Licencia'))
 }
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Nuevo'), 
-    0)
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Nuevo'))
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_LICENCIA REMUNERADA'))
-
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Histrico'))
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Licencia Remunerada_Historico'), 
@@ -72,8 +65,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_LICENCIA REMUNERADA'))
 }
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Prorroga_form_licenciaEm'))
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Fecha Salida_form_licenc'), 
     '01/12/2018')

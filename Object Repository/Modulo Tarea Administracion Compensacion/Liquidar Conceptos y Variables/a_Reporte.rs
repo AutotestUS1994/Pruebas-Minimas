@@ -6,12 +6,11 @@
    <elementGuidId>d805f306-ab2d-4b3a-b9c2-7360e6adbeb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='cancelacion_contrato:tab:j_idt1964']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Reporte')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

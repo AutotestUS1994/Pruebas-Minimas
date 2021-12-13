@@ -51,7 +51,14 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/a_Guardar'))
 
-WebUI.getText(findTestObject('Alerta/Alerta'))
+String x = WebUI.getText(findTestObject('Alerta/Alerta'))
 
-WebUI.closeBrowser()
+if(x.equals("Se modifico el registro satisfactoriamente"))
+{
+	WebUI.closeBrowser()
+}else
+{
+	throw Exception("No se obtuvo mensaje esperado="+x);
+}
+	
 

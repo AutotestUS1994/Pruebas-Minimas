@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Ver')]</value>
+         <value>//a[contains(text(),'Reversar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
