@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_listadoSolicitudElemento:tablacaso:0:j_idt88']</value>
+         <value>//a[contains(text(),'Dictamen')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

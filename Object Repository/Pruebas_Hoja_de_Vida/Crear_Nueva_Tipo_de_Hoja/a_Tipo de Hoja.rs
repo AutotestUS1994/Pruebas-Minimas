@@ -6,12 +6,11 @@
    <elementGuidId>1c1097dc-036c-4565-916c-0fb7ea6b534a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[13]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Tipo de Hoja')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

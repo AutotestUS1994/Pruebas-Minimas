@@ -6,12 +6,11 @@
    <elementGuidId>ead66f3c-d662-4e96-9ce9-574b5b8c439e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='hojaVida:seccion:j_idt423']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'nuevo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

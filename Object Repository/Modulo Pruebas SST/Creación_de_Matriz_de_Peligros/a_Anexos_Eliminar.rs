@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_listadoPeligroListadoActividadd:tab']/ul/li[6]/a</value>
+         <value>//a[contains(text(),'Anexos')]</value>
       </entry>
       <entry>
          <key>CSS</key>

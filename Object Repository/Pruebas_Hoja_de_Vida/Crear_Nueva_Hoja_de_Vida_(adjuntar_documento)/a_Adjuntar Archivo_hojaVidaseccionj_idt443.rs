@@ -6,12 +6,11 @@
    <elementGuidId>8e1622ed-61d4-40d3-8c40-cdb329b5f2bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='hojaVida:seccion:j_idt443']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[2]/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

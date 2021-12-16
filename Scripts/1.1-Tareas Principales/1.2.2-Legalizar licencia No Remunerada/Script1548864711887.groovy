@@ -107,7 +107,7 @@ WebUI.setText(findTestObject('Object Repository/Modulo Tarea Administracion Comp
     '01/01/2021')
 
 WebUI.sendKeys(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/input_Fecha Salida_form_licenc'), 
-    Keys.chord(Keys.ENTER))
+    Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/input_Fecha Salida Nomina_form'), 
     '28/02/2021')
@@ -188,6 +188,4 @@ WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/a_Guardar_archivo'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/a_Guardar_1'))
-
-WebUI.closeBrowser()
 

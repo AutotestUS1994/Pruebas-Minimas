@@ -6,12 +6,11 @@
    <elementGuidId>22bd7acf-0093-4b1a-b942-768932e2cbc5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//nav[@id='j_idt39:main']/ul/li[3]/label</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nueva Hoja Vida']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_listadoPeligroListadoActividadd:tab:j_idt1116']</value>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

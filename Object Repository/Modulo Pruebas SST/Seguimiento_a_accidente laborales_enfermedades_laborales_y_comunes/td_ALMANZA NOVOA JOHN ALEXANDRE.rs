@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='form_listadoSolicitudElemento:j_idt858_data']/tr/td[3]</value>
+         <value>//*/text()[normalize-space(.)='ALMANZA NOVOA JOHN ALEXANDRE']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

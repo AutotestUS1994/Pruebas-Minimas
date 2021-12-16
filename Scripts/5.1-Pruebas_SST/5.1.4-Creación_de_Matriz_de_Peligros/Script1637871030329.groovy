@@ -56,7 +56,7 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_
     
     WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Niveles de Riesgo_Eliminar'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_1'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_1'), 1)) {
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_1'))
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Eliminar1'))
@@ -66,8 +66,8 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_
     
     WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Controles Existentes_Eliminar'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Pruebas k'), 2)) {
-        WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Pruebas k'))
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Individuo'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Individuo'))
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Eliminar2'))
 

@@ -25,6 +25,73 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/in
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/li_Grupos de Apoyo (sst)'))
 
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Descripcin_form_equipoTrabajoSalfiltroGrupoApoyo0'), 
+    'Katalon')
+
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/td_PRUEBAS KATALON0'), 1)) {
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/td_PRUEBAS KATALON0'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Anexos'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_prueba.pdf_form_equipoTrabajoSaltabtablaAnexos0j_idt208'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_prueba.pdf_form_equipoTrabajoSaltabtablaAnexos0j_idt208'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_Si0'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Compromisos'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_Trate de no correr'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_Trate de no correr'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Eliminar0'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Aceptar0'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Actividades'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_A A A'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_A A A'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Asistentes'))
+
+        if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_JEFE DE BRIGADA_form_popupSeguimientotabPopupSeguimientolistaAsistentesIntegrantes0j_idt309'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_JEFE DE BRIGADA_form_popupSeguimientotabPopupSeguimientolistaAsistentesIntegrantes0j_idt309'))
+
+            WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_Si1'))
+        }
+        
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Grupo Actividad'))
+
+        WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Eliminar1'), 
+            30)
+
+        WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Aceptar1'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Integrantes'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Eliminar2'))
+
+        WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Aceptar2'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Grupo Apoyo'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Eliminar3'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Aceptar4'))
+}
+
 WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Nuevo'))
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Nombre Grupo Apoyo_form_equipoTrabajoSaltabdescripcion'), 
@@ -95,6 +162,13 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/te
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/select_-- SELECCIONAR --Trate de no correr'), 
     1)
 
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Guardar'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/td_Trate de no correr'))
+
 WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Asistentes'))
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Rol_form_popupSeguimientotabPopupSeguimientolistaAsistentesIntegrantesj_idt304'))
@@ -111,8 +185,50 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Ro
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Grupo Actividad'))
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Guardar'), 
-    30)
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_No se encontr registros_ui-icon ui-icon-closethick'))
 
-WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Compromisos'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Nuevo3'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Responsable_form_popupSeguimientoComj_idt323'))
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8402'), 
+    'guisell')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8402'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_Diaz Blanco Guisell2'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/select_-- SELECCIONAR --Trate de no correr2'), 
+    1)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/select_-- SELECCIONAR --ProgramadoCumplidoCancelado'), 
+    1)
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/textarea_Observacin_form_popupSeguimientoComobservacion'), 
+    'pruebas katalon')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Guardar'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Anexos'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Descargar_form_equipoTrabajoSaltabtablaAnexosj_idt202'))
+
+//String creado para redireccionar  los archivos requeridos por el test//
+String ruta = GlobalVariable.G_rutaarchivos + 'prueba.pdf'
+
+WebUI.uploadFile(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
+    ruta)
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Descargar_form_equipoTrabajoSaltabtablaAnexosfecha_input'), 
+    '01/07/2021')
+
+WebUI.setText(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Descargar_form_equipoTrabajoSaltabtablaAnexosdescripcionAnexo'), 
+    'pruebas k')
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Descargar_form_equipoTrabajoSaltabtablaAnexosj_idt209'))
+
+WebUI.closeBrowser()
 

@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import java.util.Date as Date
 import java.util.Calendar as Calendar
 import java.time.LocalDateTime as LocalDateTime
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 Date fecha = new Date()
 
@@ -95,6 +97,9 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacio
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     Fechafin)
 
+WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -157,8 +162,10 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacio
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     Fechafin)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     Keys.chord(Keys.ENTER))

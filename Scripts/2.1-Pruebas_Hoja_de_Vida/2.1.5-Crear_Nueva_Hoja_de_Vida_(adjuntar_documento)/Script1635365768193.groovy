@@ -50,9 +50,6 @@ WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adj
 
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo_hojaVidaseccionj_idt443'), 
-    FailureHandling.STOP_ON_FAILURE)
-
 //String creado para redireccionar  los archivos requeridos por el test//
 String ruta = GlobalVariable.G_rutaarchivos + 'HojaDeVida.txt'
 

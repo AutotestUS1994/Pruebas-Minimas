@@ -30,6 +30,8 @@ WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_
 
 WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Tipo de Hoja'), 0)
 
+WebUI.scrollToElement(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Tipo de Hoja'), 0)
+
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Tipo de Hoja'))
 
 if (WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/span_P1'), 1)) {

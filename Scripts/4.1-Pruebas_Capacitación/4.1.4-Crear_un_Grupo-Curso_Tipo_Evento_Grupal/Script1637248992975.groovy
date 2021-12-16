@@ -27,7 +27,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/C
 
     WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
         1)) {
         WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
 
@@ -42,7 +42,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/C
         '5')
 
     WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Descripcin_popupGruposEvento_formdescripcion'), 
-        'Prueba')
+        'Pruebas k')
 
     WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Horario_popupGruposEvento_formhorario'), 
         '16:00')

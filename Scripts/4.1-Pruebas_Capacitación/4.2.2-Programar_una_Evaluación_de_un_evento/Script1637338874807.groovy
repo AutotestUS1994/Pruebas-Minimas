@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('OMITIR PRUEBA.')
+
+WebUI.comment('genera error al eliminar el evento')
+
 WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/td_Prueba'))
@@ -45,4 +49,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluac
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/a_Aplicar'))
 
 WebUI.closeBrowser()
+
+WebUI.comment('OMITIR PRUEBA.')
+
+WebUI.comment('genera error al eliminar el evento')
 

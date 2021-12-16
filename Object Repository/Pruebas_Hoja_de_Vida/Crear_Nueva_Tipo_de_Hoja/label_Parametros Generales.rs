@@ -6,12 +6,12 @@
    <elementGuidId>3db61a16-abf9-420c-912b-e2045f49d9b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Parametros Generales']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

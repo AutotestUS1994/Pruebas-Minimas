@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_un_evento/div
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_un_evento/a_Programacin'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Programar_un_evento/td_PRUEBA DE MODULO'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Capacitación/Programar_un_evento/td_24122021'), 1)) {
     WebUI.check(findTestObject('Modulo Pruebas Capacitación/Programar_un_evento/div_Ubicacin_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
     WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_un_evento/a_Eliminar'))

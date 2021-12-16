@@ -9,24 +9,98 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_prueba'), 1)) {
     WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_prueba'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Eliminar'), 0)
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Evaluacin'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Eliminar'))
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Evento'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar'))
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt766'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt766'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar4'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Programacin'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Programacin0'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_24122021'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Ubicacin_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Eliminar2'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar2'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Costo'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Registro2'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar3'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Recursos'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Logsticos'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt606'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt606'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar2'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Asistentes'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Registro1'))
+
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_prueba ka Pruebas'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_prueba ka Pruebas'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Eliminar1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar1'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Grupos'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Registro0'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_Pruebas k'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_Pruebas k'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Eliminar0'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar0'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/div_Evento'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Registro3'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Eliminar3'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Aceptar5'))
 }
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Nuevo'))
@@ -104,10 +178,10 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Evento_de
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/a__formRegistroEventoj_idt18910j_idt229'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1714'), 
+WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt23111'), 
     'A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1714'), 
+WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt23111'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/span_A A A'))

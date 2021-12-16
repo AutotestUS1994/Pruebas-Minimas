@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment(' OMITIR PRUEBA. genera problemas al eliminar el evento omitir')
+
 WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/td_Prueba-S-SH'))
@@ -38,4 +40,6 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/tex
     'Prueba')
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/a_Actualizar'))
+
+WebUI.comment('OMITIR PRUEBA. genera problemas al eliminar el evento omitir')
 

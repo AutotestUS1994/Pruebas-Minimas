@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Total Otro_ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover'))
 

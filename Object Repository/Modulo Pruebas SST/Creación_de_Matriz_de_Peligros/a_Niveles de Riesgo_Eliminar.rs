@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_listadoPeligroListadoActividadd:tab']/ul/li[3]/a</value>
+         <value>//a[contains(text(),'Niveles de Riesgo')]</value>
       </entry>
       <entry>
          <key>CSS</key>

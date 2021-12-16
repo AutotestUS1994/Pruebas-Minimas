@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/di
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_Registro'))
 
-if(WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/td_REFRIGERIO'), 1))
+if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'), 1))
 {
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'))
 

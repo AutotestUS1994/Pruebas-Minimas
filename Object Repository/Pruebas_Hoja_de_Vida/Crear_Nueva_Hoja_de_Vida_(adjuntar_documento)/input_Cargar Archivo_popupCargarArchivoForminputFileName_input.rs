@@ -6,12 +6,11 @@
    <elementGuidId>bb77a464-dbad-47e1-ab01-9b4177be7a1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='popupCargarArchivoForm:inputFileName_input']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[2]/div/div/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

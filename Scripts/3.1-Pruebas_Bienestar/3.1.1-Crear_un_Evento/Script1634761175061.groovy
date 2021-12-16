@@ -159,7 +159,7 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
     1)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo'), 
-    '100')
+    '150')
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo'), 
     '1')
@@ -222,7 +222,7 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_un_Even
     1)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo'), 
-    '100')
+    '150')
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo'), 
     '1')

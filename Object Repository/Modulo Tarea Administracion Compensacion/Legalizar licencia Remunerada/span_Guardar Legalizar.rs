@@ -6,12 +6,12 @@
    <elementGuidId>de070dd3-6256-41d4-9a35-88034879cb6d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Guardar Legalizar')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[starts-with(@id, 'form_licenciaEmpleado') and (text() = 'Guardar Legalizar' or . = 'Guardar Legalizar')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

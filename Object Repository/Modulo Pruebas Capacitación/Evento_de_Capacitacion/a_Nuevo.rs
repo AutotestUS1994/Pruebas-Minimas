@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
+         <value>//a[contains(text(),'Nuevo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

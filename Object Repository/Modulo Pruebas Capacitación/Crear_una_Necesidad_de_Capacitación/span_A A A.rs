@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[3]/div/div[2]/div[2]/div/div/table/tbody/tr/td[2]/span</value>
+         <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

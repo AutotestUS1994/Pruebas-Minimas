@@ -6,12 +6,11 @@
    <elementGuidId>421d4349-6835-4e82-959c-1311d73043fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Eliminar']/parent::*</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
