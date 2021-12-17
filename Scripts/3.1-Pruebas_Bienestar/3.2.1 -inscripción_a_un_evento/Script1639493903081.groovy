@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,5 +44,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
     '5')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 

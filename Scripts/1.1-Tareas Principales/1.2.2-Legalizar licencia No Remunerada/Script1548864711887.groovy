@@ -76,7 +76,7 @@ WebUI.click(findTestObject('Object Repository/Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/a_Histrico'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/span_01012021'), 
+if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/span_01012021'), 
     1)) {
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/span_01012021'))
 

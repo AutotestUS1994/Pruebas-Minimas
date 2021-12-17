@@ -6,12 +6,12 @@
    <elementGuidId>c41c5e91-1dac-427c-9ac7-fbee1d6be74e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.glyphicons.glyphicons-article</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporte'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

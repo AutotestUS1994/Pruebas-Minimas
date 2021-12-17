@@ -6,12 +6,11 @@
    <elementGuidId>6dd16c9b-c8cb-4f3a-8064-6c88ff69646c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Imprimir')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

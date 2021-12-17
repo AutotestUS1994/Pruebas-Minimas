@@ -81,6 +81,69 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Re
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
 
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xlsData'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_pdf'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xml'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Actos Administrativos_ejecutarReporte'), 
     0)
 
@@ -184,6 +247,66 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Re
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
 
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xlsData'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_pdf'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xml'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Actos Administrativos_ejecutarReporte'), 
     0)
 
@@ -245,6 +368,66 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Re
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
 
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xlsData'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_pdf'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xml'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Actos Administrativos_ejecutarReporte'), 
     0)
 
@@ -277,6 +460,66 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_html'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xlsData'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_pdf'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xml'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
 
@@ -326,6 +569,66 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Re
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
 
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xlsData'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_pdf'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xml'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Actos Administrativos_ejecutarReporte'), 
     'ACE - ACUMULADO MENSUAL CONCEPTOS DE NOMINA (PAGADO)')
 
@@ -355,6 +658,66 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_html'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xlsData'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_pdf'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Aplicar'))
+
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/span_Reporte_glyphicons glyphicons-article'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/label_xml'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/a_Generar Reporte'))
 

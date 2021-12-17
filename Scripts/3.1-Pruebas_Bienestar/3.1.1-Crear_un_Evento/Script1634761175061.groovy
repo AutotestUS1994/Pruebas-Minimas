@@ -23,6 +23,8 @@ import java.util.Date as Date
 import java.util.Calendar as Calendar
 import java.time.LocalDateTime as LocalDateTime
 
+WebUI.comment('PENDIENTE Eliminar Registro')
+
 Date fecha = new Date()
 
 Number Dia = fecha.getDate()

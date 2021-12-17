@@ -98,7 +98,5 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
 
     WebUI.delay(2)
-
-    WebUI.closeBrowser()
 }
 

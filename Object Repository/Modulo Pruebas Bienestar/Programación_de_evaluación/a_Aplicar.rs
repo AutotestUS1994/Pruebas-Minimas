@@ -6,12 +6,11 @@
    <elementGuidId>d9b361c6-cce0-4d2a-ac28-8ef4b8c5fa8c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Aplicar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

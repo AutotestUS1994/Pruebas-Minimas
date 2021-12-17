@@ -25,5 +25,5 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Particip
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Individual'))
 
-WebUI.comment('Se requiere reparar problema de cupos llenos de evento')
+WebUI.comment('El campo "estado" esta bloqueado para modificar')
 

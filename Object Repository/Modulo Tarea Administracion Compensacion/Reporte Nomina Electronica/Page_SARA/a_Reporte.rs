@@ -6,12 +6,11 @@
    <elementGuidId>fd0c615b-d2e9-41d7-b8c0-6105f2af7107</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Reporte')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
