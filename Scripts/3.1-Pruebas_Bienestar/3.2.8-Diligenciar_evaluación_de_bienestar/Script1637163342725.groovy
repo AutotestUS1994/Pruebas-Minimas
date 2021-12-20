@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.comment('NO SE MUESTRA LA EVALUACION PROGRAMADA')
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Diligenciar_evaluación_de_bienestar/input_Evento Bienestar_form_templatej_idt24_input'), 
     'Evaluacion Bienestar')

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/td_Prueba'), 1)) {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/td_Prueba'))

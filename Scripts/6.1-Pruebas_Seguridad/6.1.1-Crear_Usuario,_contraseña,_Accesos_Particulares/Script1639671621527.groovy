@@ -32,7 +32,7 @@ random_double = Math.round(random_double * 1000)
 String identificacion = random_double.toString().replace('.0', '')
 
 /*----------------------------------------------------------------------------*/
-WebUI.callTestCase(findTestCase('Hutilidades/Login_Seguridad/Login-Seguridad'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Usuario_form_templatej_idt24_input'), 'Usuario')
 

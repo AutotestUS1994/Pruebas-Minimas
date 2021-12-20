@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.comment(' OMITIR PRUEBA. genera problemas al eliminar el evento omitir')
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/td_Prueba-S-SH'))
 

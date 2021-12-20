@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateForma
 
-WebUI.callTestCase(findTestCase('Hutilidades/Login_Seguridad/Login-Seguridad'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Usuario_form_templatej_idt24_input'), 'Roles')
 

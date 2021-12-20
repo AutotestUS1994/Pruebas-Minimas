@@ -22,7 +22,7 @@ String todaysDate = today.format('dd/MM/yyyy')
 
 String projectName = 'Regression Project ' + todaysDate
 
-WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Mantenimieto Periodo Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Mantenimieto Periodo Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/span_NOMINA MENSUAL'), 
     GlobalVariable.G_TimeOut)

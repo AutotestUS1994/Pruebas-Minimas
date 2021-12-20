@@ -61,7 +61,7 @@ String Fechaini = (((Dia + '/') + MesN) + '/') + AñoN
 
 String Fechafin = (((DiaF + '/') + Mes) + '/') + Año
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S'))
 

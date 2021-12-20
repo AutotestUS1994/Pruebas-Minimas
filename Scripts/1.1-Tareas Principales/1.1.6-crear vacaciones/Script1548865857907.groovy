@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Dias con Permisos Pasivos Permitidos/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     '1234567890')
@@ -56,7 +56,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
     1)) {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.2.1-Reversar Vacaciones'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Dias con Permisos Pasivos Permitidos/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
         '1234567890')

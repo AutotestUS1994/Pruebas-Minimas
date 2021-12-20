@@ -63,7 +63,7 @@ String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
 String FechaF = (((DiaF + '/') + Mes) + '/') + Año
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'), 1)) {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'))

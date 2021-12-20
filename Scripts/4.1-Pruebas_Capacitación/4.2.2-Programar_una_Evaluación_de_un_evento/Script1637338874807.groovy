@@ -21,7 +21,7 @@ WebUI.comment('OMITIR PRUEBA.')
 
 WebUI.comment('genera error al eliminar el evento')
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/td_Prueba'))
 

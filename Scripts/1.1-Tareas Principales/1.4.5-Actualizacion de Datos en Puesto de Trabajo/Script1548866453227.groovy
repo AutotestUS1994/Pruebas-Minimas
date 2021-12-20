@@ -23,7 +23,7 @@ random_double = Math.round((random_double * 100) + 1000000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-WebUI.callTestCase(findTestCase('Hutilidades/Tareas Administracion Compensacion/Tarea Planta Personal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Planta Personal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Administracion'), 
     0)

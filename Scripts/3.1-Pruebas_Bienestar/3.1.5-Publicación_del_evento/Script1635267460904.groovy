@@ -62,7 +62,7 @@ String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 String FechaF = (((DiaF + '/') + Mes) + '/') + Año
 
 /*-----------------------------------------------------------------------------------------------*/
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/td_Prueba-S'))
 
@@ -115,7 +115,7 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/li_
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Hutilidades/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/td_Prueba-S-SH'))
 
