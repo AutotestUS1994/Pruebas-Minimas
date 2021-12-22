@@ -87,44 +87,44 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Programacin'))
 
-    if(WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
         1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'))
+        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'), 
+            0)
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'), 
-        0)
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_ archivo'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_ archivo'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Aceptar'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Aceptar'))
+        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'), 
+            0)
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'), 
-        0)
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Otras Entidades'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Otras Entidades'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_Otras Entidades'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_Otras Entidades'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Entidades Vigiladas'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Entidades Vigiladas'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'))
+        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'), 
+            0)
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'), 
-        0)
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
-
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_eliminar Programacion'))
-}
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_eliminar Programacion'))
+    }
+    
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'), 
         0)
 
@@ -138,6 +138,9 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 
     WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
         2)
+
+    if(WebUI.waitForElementPresent(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Prueba Plan Inversin'), 
+        1)) {
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Prueba Plan Inversin'))
 
@@ -163,53 +166,89 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Programacin'))
 
-    if(WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'), 
         1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_5'))
+        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'), 
+            0)
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'), 
-        0)
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Archivo'))
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_ archivo'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_ archivo'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_ archivo'))
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Aceptar'))
+        }
+        
+        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'), 
+            0)
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Aceptar'))
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'), 
-        0)
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Otras Entidades'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Otras Entidades'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Otras Entidades'))
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_Otras Entidades'))
+        }
+        
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Entidades Vigiladas'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Otras Entidades'))
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_Otras Entidades'))
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'))
+        }
+        
+        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'), 
+            0)
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Entidades Vigiladas'))
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'))
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'))
-
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'), 
-        0)
-
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'))
-
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Programacion'))
-
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_eliminar Programacion'))
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_eliminar Programacion'))
+        }
     }
+    
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'), 
         0)
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_viaticos2'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_viaticos2'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'))
+    }
     
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_viaticos2'))
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'))
+        if (WebUI.waitForElementPresent(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar'))
 
+            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si'))
+        }
+    }
+    
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Viatico'))
+
+        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'))
+    }
+    }    
     WebUI.closeBrowser()
 }
 

@@ -16,31 +16,13 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.9 Crear Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.2.5-Solicitud'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.1 Costos de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.6 Reporte Nomina Electronica'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.2 Complementario de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.7 Descargar Nomina Electronica'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.3 Desembolsar Viático'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.4 Derrogacion Viático'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.5 Modificar Solicitud de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.6 Anulación y Legalización de viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.7 Modificar retroactivos viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.8 Guardar retroactivo de viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.1 Crear Histórico Vacaciones'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

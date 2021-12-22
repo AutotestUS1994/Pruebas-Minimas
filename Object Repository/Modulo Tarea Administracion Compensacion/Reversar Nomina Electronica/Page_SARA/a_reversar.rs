@@ -6,11 +6,11 @@
    <elementGuidId>82703711-5583-4c42-96b2-8b2b225348eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[5]/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Reversar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -90,7 +90,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'��reversar!!')]</value>
+      <value>//a[contains(text(),'reversar!!')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

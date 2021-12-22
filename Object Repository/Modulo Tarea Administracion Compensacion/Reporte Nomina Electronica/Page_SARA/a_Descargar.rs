@@ -6,12 +6,12 @@
    <elementGuidId>207dbaba-d3d0-4555-8459-c698c05986fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Descargar')])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-boton.btn-descargar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Descargar')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

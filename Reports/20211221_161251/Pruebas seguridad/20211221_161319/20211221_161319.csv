@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pruebas seguridad,Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:38:41,"2m - 14,424s",FAILED
+,,,,,,,
+"Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares",Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:37:14,"47,018s",FAILED
+today = new java.util.Date(),Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:36:27,"0,009s",PASSED
+"todaysDate = today.format(""dd/MM/yyyy HH:mm"")",Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:36:27,"0,003s",PASSED
+random_double = Math.random() * 9999 + 999,Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:36:27,"0,016s",PASSED
+random_double = Math.round(random_double * 1000),Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:36:27,"0,002s",PASSED
+"identificacion = toString().replace("".0"", """")",Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:36:27,"0,003s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 16:36:27,2021-12-21 16:36:37,"9,291s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Usuario_form_templatej_idt24_input""), ""Usuario"")",Chrome 96.0.4664.110,,,2021-12-21 16:36:37,2021-12-21 16:36:37,"0,706s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/span_Usuario""))",Chrome 96.0.4664.110,,,2021-12-21 16:36:37,2021-12-21 16:36:39,"1,465s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/span_Pruebas Katalon""), 1))",Chrome 96.0.4664.110,,,2021-12-21 16:36:39,2021-12-21 16:37:14,"34,979s",PASSED
+,,,,,,,
+Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles,Chrome 96.0.4664.110,,,2021-12-21 16:37:14,2021-12-21 16:37:59,"44,837s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 16:37:14,2021-12-21 16:37:20,"5,951s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Usuario_form_templatej_idt24_input""), ""Roles"")",Chrome 96.0.4664.110,,,2021-12-21 16:37:20,2021-12-21 16:37:21,"0,800s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/li_Roles""))",Chrome 96.0.4664.110,,,2021-12-21 16:37:21,2021-12-21 16:37:22,"1,470s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61""), ""pruebas katalon"")",Chrome 96.0.4664.110,,,2021-12-21 16:37:22,2021-12-21 16:37:24,"1,522s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-21 16:37:24,2021-12-21 16:37:25,"0,789s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon""), 1))",Chrome 96.0.4664.110,,,2021-12-21 16:37:25,2021-12-21 16:37:59,"33,928s",PASSED
+,,,,,,,
+Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa,Chrome 96.0.4664.110,,,2021-12-21 16:37:59,2021-12-21 16:38:41,"42,254s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 16:37:59,2021-12-21 16:38:05,"5,879s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Empresa"")",Chrome 96.0.4664.110,,,2021-12-21 16:38:05,2021-12-21 16:38:06,"0,702s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/span_Empresa""))",Chrome 96.0.4664.110,,,2021-12-21 16:38:06,2021-12-21 16:38:07,"1,450s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon""), 0)",Chrome 96.0.4664.110,,,2021-12-21 16:38:07,2021-12-21 16:38:08,"1,036s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon""))",Chrome 96.0.4664.110,,,2021-12-21 16:38:08,2021-12-21 16:38:09,"0,366s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/a_Eliminar""))",Chrome 96.0.4664.110,,,2021-12-21 16:38:09,2021-12-21 16:38:09,"0,920s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/a_link_aceptar""))",Chrome 96.0.4664.110,,,2021-12-21 16:38:09,2021-12-21 16:38:41,"31,512s",FAILED

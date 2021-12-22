@@ -6,12 +6,11 @@
    <elementGuidId>f9ee8f7f-430f-44ec-b2a6-ee4d5f12ec5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='listado_nominaelectronica:listaNominaElectronica_data']/tr/td[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='2021-07-01']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
