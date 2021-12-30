@@ -6,13 +6,13 @@
    <elementGuidId>346adbd7-903b-4ec2-9b00-40d802f56d84</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/form[1]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[1]/div/div[2]/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//input[starts-with(@id, 'LiquidacionNomina') and contains(@name, ':0:') and @type = 'checkbox']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//div/table/tbody/tr/td/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

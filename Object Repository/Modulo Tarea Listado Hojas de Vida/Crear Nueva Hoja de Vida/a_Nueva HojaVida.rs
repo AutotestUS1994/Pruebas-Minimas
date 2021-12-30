@@ -6,11 +6,11 @@
    <elementGuidId>1335856b-b691-4cc7-870b-ceb2ca456383</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='listado_hojaVida:j_idt88']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Nueva HojaVida')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

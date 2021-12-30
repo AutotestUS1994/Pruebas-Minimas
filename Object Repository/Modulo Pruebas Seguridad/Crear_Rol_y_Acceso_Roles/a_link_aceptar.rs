@@ -6,12 +6,12 @@
    <elementGuidId>02810c9e-80bf-47d4-8c59-3140897528e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'��link_aceptar!!')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.us-btn-si.us-btn-popup</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Aceptar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

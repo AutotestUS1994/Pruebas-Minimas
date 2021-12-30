@@ -6,12 +6,11 @@
    <elementGuidId>b974dc90-c2eb-4c0b-8a88-b5d84a9b9124</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='ejecutarReportePlanilla:j_idt73']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[2]/table/tbody/tr/td[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

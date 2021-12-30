@@ -175,8 +175,6 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Ep
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_1393138 - CONSTA BELFEGORD  JHON1393138'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Finalizar Encuesta'))
-
 WebUI.comment('FALTA CONDICION PARA ELIMINAR REGISTRO.')
 
 WebUI.comment('conflicto con base de datos no permite eliminar registro')

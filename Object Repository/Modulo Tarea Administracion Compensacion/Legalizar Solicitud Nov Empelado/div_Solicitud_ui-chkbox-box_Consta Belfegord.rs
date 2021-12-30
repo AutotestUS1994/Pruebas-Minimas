@@ -6,12 +6,11 @@
    <elementGuidId>33499496-98da-4b05-9850-6d2ab9fdc4c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='aplicaNovedadProceso:tablaFiltro:6:j_idt190']/div[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Consta Belfegord . Jhon'])[1]/preceding::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

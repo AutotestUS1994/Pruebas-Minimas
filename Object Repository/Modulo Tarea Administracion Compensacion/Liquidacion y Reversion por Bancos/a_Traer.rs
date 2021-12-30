@@ -6,12 +6,11 @@
    <elementGuidId>ae51a524-0bf8-431c-8d55-e851f22480cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='pagoEntidadExterna:j_idt60:j_idt62:j_idt68']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Traer')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

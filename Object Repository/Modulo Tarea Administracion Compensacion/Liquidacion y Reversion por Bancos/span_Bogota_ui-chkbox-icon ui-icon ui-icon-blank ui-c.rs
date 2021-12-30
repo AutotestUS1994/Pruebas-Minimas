@@ -6,12 +6,11 @@
    <elementGuidId>19f7444f-d737-4da0-a153-bab255464d00</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pagoEntidadExterna:tabla_entrada:4:j_idt91']/div[2]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[5]/td/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

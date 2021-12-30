@@ -49,3 +49,5 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pru
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
+WebUI.closeBrowser()
+

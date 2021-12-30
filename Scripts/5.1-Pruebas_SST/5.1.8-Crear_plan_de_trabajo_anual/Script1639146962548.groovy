@@ -52,7 +52,7 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de
         if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Cronograma'), 1)) {
             WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Cronograma'))
 
-            if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/td_Programado0'), 
+            if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/td_Programado0'), 
                 1)) {
                 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/td_Programado0'))
 

@@ -14,52 +14,48 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import groovy.ui.SystemOutputInterceptor as SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.util.Date as Date
-import java.util.Calendar as Calendar
-import java.time.LocalDateTime as LocalDateTime
+import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+Date today = new Date()
+/*--------------------------------------------*/
 
-Date fecha = new Date()
+Number Dia = ((today.format('dd')) as Integer)
+Number Mes = ((today.format('MM')) as Integer)
+Number MesN = ((today.format('MM')) as Integer)
+Number Año = ((today.format('yyyy')) as Integer)
+Number AñoN = ((today.format('yyyy')) as Integer)
+/*-----------------------------------------------*/
 
-Number Dia = fecha.getDate()
+Number sumaD = Dia + 10
+Number sumaM = Mes + 1
+Number sumaA = Año + 1
+/*--------------------------*/
 
-Number Mes = fecha.getMonth() + 1
+if (sumaD > 30) {
+	sumaD = (sumaD - Dia)
 
-Number MesN = fecha.getMonth() + 1
-
-Number Año = fecha.getYear() + 1900
-
-Number AñoN = fecha.getYear() + 1900
-
-Number DiaF = Dia + 10
-
-Number MesF = Mes + 1
-
-Number AñoF = Año + 1
-
-if (DiaF > 30) {
-    DiaF = (DiaF - Dia)
-
-    Mes = MesF
+	Mes = sumaM
 } else {
-    DiaF
-
-    Mes
+	sumaD
+	Mes
 }
+/*--------------------------*/
 
-if (MesF > 12) {
-    año = AñoF
-
-    MesF = 1
+if (sumaM > 12) {
+	Año = sumaA
+	Mes = 1
 }
+/*---------------------------*/
 
-String Fechaini = (((Dia + '/') + MesN) + '/') + AñoN
+String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
+String FechaF = (((sumaD + '/') + Mes) + '/') + Año
+/*----------------------------------------------------*/
 
-String Fechafin = (((DiaF + '/') + Mes) + '/') + Año
+
+
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -77,16 +73,16 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Progr
 }
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
-    Fechaini)
+    FechaI)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'), 
-    Fechafin)
+    FechaF)
 
 WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     0)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
-    Fechaini)
+    FechaI)
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     Keys.chord(Keys.ENTER))
@@ -95,7 +91,7 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacio
     0)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
-    Fechafin)
+    FechaF)
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     Keys.chord(Keys.ESCAPE))
@@ -142,16 +138,16 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Progr
 }
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
-    Fechaini)
+    FechaI)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'), 
-    Fechafin)
+    FechaF)
 
 WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     0)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
-    Fechaini)
+    FechaI)
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     Keys.chord(Keys.ENTER))
@@ -160,7 +156,7 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacio
     0)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
-    Fechafin)
+    FechaF)
 
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
     30)

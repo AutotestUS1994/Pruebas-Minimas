@@ -6,11 +6,11 @@
    <elementGuidId>0b3a0249-0016-4c45-9591-c8b67e84faae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[1]/td/table/tbody/tr[3]/td/div/form[2]/div/div[2]/div[2]/a[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -23,6 +23,16 @@ random_double = Math.round(random_double - 10)
 
 String identificacion = random_double.toString().replace('.0', '')
 
+String identificacion1 = 0 + identificacion
+
+/*-------------------------------------------------------------------------------------------*/
+if (identificacion < 10) {
+    identificacion = identificacion1
+} else {
+    identificacion
+}
+
+/*-------------------------------------------------------------------------------------------*/
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
@@ -45,7 +55,7 @@ WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vid
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/td_354968431354'))
 
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'), 
-    identificacion + '/09/2013')
+    identificacion1 + '/09/2013')
 
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
 

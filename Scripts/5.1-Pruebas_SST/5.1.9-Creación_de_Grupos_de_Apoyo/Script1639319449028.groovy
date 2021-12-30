@@ -77,7 +77,7 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de 
     
     WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Integrantes'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), 1)) {
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Eliminar2'))

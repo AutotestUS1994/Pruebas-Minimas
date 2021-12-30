@@ -15,7 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     GlobalVariable.G_TimeOut)
@@ -38,15 +39,20 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/span_Archivo Plano'))
 
 WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_ddMMyyddMMyyyyyyMMddyyy'), 
-    'dd/MM/yyyy', true)
+    'dd/MM/yy', true)
 
 WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_Acumular valorAdicionar'), 
     'I', true)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/select_Acumular valorAdicionar nicamenteReemplazar valor'), 
+    1)
+
 /*------------------------*/
 String ruta = GlobalVariable.G_rutaarchivos + 'ArchivoPlanoLiquidacionNomina.txt'
 
-WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'),
-	ruta)
+WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
+    ruta)
+
 filePath = WebUI.getAttribute(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
     'value')
 

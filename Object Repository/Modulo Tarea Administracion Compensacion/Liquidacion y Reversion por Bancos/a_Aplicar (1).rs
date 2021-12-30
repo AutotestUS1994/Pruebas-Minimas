@@ -6,12 +6,11 @@
    <elementGuidId>e6853e78-0995-46ea-94e6-33a09d84bea0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_popUpTraerGeneracionEntidadBancoBean:j_idt363']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -87,7 +87,7 @@
       <guid>74694bca-adcd-480f-bc2d-fb2361cb6a94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.4-Cambiar_estado</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.5-Cambiar_estado</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>31ccf3ae-d5b2-43d2-a62f-d7bf937afd71</guid>
@@ -99,36 +99,36 @@
       <guid>e513d6bc-bbd1-451a-a43a-084ce5363906</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.5-Sancionados</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.6-Sancionados</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a2e491f8-b04a-4c6e-a19e-11f26f6586df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.7-Programación_de_evaluación</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.8-Programación_de_evaluación</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e002a82e-7795-4803-a018-ad9c59563c71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.8-Diligenciar_evaluación_de_bienestar</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.9-Diligenciar_evaluación_de_bienestar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>be398ea0-5851-4e62-93fc-ff3d10be4535</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.2.9-Recursos</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.3.1-Recursos</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3a24b0b5-bbb6-43e5-ac57-77d4dffbcec2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.3.1-Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.3.2-Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ac5f3447-851a-4c1e-a28f-5d236aeb6759</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.3.2-Filtro_sección</testCaseId>
+      <testCaseId>Test Cases/3.1-Pruebas_Bienestar/3.3.3-Filtro_sección</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>8bd17898-1e54-45d2-ba9c-5a552278c843</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='aplicaNovedadProceso:tablaFiltro:0:j_idt190']/div[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//table[2]/tbody/tr/td/div/div/table/tbody/tr/td/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

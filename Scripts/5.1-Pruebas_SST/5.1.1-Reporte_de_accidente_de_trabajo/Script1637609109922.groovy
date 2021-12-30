@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -55,16 +57,108 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Reporte_de_ac
         1)) {
         WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_DIAZ BLANCO GUISELL_Eliminar'))
 
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Investigaciones'))
+
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Prueba0'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Prueba0'))
+
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accin2'))
+
+            if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Tipo Accion'), 
+                1)) {
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Tipo Accion'))
+
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Control'))
+
+                if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Efectuado_form_popupRecomendacionInvvpanel_principal_23tablaControl0j_idt460'), 
+                    1)) {
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Efectuado_form_popupRecomendacionInvvpanel_principal_23tablaControl0j_idt460'))
+
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/label_Confirmacin'), 
+                        FailureHandling.STOP_ON_FAILURE)
+
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_eliminar accion'))
+                }
+                
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accin'))
+
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar'))
+
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_eliminar accion'))
+            }
+            
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Determinacin de Causas'))
+
+            if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Causas Bsicas'), 
+                1)) {
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Anexos'))
+
+                if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_prueba.pdf_j_idt1841tabInvestigacionAccidentadotablaAnexos0j_idt2142'), 
+                    1)) {
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_prueba.pdf_j_idt1841tabInvestigacionAccidentadotablaAnexos0j_idt2142'))
+
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Si'))
+                }
+                
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Determinacin de Causas'))
+
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Causas Bsicas'))
+
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Eliminar'))
+
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar_causaInve'))
+            }
+            
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Anlisis Causal'))
+
+            if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Anexos'), 
+                1)) {
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Anexos'))
+
+                if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_prueba.pdf_j_idt1841tabInvestigacionAccidentadotablaAnexos0j_idt2142'), 
+                    1)) {
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_prueba.pdf_j_idt1841tabInvestigacionAccidentadotablaAnexos0j_idt2142'))
+
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Si'))
+                }
+                
+                WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Anlisis Causal'))
+
+                if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_Metodologa 1'), 
+                    1)) {
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_Metodologa 1'))
+					/*--------------------------------------------------------------------------------------------------------*/
+					WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_EliminarNv2'),
+						30)
+					
+					WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+					/*---------------------------------------------------------------------------------------------------------*/
+                    
+
+                    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar_causal'))
+                }
+            }
+            
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Datos de Investigacin Accidentado'))
+
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar'))
+
+            WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_eliminar datos investigacion'))
+        }
+        
+        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Datos Bsicos'))
+
         WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar2'))
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar2'))
     }
-        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accidente'))
-
-        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar_3'))
-
-        WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar3'))
     
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Accidente'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Eliminar_3'))
+
+    WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar3'))
 }
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nuevo'))

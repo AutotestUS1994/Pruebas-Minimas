@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Individuo']/parent::*</value>
+         <value>//span/div/div/table/tbody/tr/td</value>
       </entry>
       <entry>
          <key>CSS</key>

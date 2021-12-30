@@ -6,12 +6,11 @@
    <elementGuidId>70f28234-33e5-4970-a386-4d800cbd047d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_popupSeleccionDerogar:j_idt134']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr/td/table/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

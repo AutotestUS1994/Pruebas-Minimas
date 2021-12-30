@@ -191,3 +191,5 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Seguimiento_a_accidente laborales
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/span_No se encontr registros_ui-icon ui-icon-closethick'))
 
+WebUI.closeBrowser()
+

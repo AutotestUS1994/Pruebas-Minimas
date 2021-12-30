@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Parametros Generales']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Parametros Generales']/parent::*
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

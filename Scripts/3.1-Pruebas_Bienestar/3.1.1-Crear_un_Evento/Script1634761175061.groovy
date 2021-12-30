@@ -14,55 +14,56 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import groovy.ui.SystemOutputInterceptor as SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
-import sun.util.resources.CalendarData as CalendarData
-import org.eclipse.osgi.internal.framework.SystemBundleActivator as SystemBundleActivator
 import org.openqa.selenium.Keys as Keys
-import java.util.Date as Date
-import java.util.Calendar as Calendar
-import java.time.LocalDateTime as LocalDateTime
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
-WebUI.comment('PENDIENTE Eliminar Registro')
+Date today = new Date()
 
-Date fecha = new Date()
+/*--------------------------------------------*/
+Number Dia = ((today.format('dd')) as Integer)
 
-Number Dia = fecha.getDate()
+Number Mes = ((today.format('MM')) as Integer)
 
-Number Mes = fecha.getMonth() + 1
+Number MesN = ((today.format('MM')) as Integer)
 
-Number MesN = fecha.getMonth() + 1
+Number Año = ((today.format('yyyy')) as Integer)
 
-Number Año = fecha.getYear() + 1900
+Number AñoN = ((today.format('yyyy')) as Integer)
 
-Number AñoN = fecha.getYear() + 1900
+/*-----------------------------------------------*/
+Number sumaD = Dia + 10
 
-Number DiaF = Dia + 10
+Number sumaM = Mes + 1
 
-Number MesF = Mes + 1
+Number sumaA = Año + 1
 
-Number AñoF = Año + 1
+/*--------------------------*/
+if (sumaD > 30) {
+    sumaD = (sumaD - Dia)
 
-if (DiaF > 30) {
-    DiaF = (DiaF - Dia)
-
-    Mes = MesF
+    Mes = sumaM
 } else {
-    DiaF
+    sumaD
 
     Mes
 }
 
-if (MesF > 12) {
-    año = AñoF
+/*--------------------------*/
+if (sumaM > 12) {
+    Año = sumaA
 
-    MesF = 1
+    Mes = 1
 }
 
+/*---------------------------*/
 String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
-String FechaF = (((DiaF + '/') + Mes) + '/') + Año
+String FechaF = (((sumaD + '/') + Mes) + '/') + Año
 
+/*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'), 1)) {
@@ -87,9 +88,66 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
 
             WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar'))
         }
+        
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Fecha Inscripcin_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Evaluacin'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Evento0'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_1010220596'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Participante'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Grupo'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_PRUEBAS K'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_PRUEBAS K'))
+
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Integrantes'), 1)) {
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Integrantes'))
+
+            if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Administracion_grupoEventopanel_principal_2pGListaIntegrantes0j_idt390'), 
+                1)) {
+                WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Administracion_grupoEventopanel_principal_2pGListaIntegrantes0j_idt390'))
+
+                WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar1'))
+            }
+            
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Grupo_pestaa'))
+
+            /*-------------------------------------------------------------------------------------*/
+            WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar0'), 
+                30)
+
+            WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+            /*-------------------------------------------------------------------------------------*/
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar3'))
+        }
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Evaluacin'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Evento0'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
+    }
+    
+    WebUI.click(findTestObject(null))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro'))
 
@@ -108,6 +166,101 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S-SH'), 1)) {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S-SH'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Participante'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Sancionados'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt645'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt645'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_Sancionados'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_A A A0'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_A A A0'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_A A A'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_AAA'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_AAA'))
+    }
+    
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Diaz Blanco Guisell0'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Diaz Blanco Guisell0'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_guisell'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_guisell'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_guisel'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Individual'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_A A A1'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_A A A1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_AAA1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_AAA1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_AAA1'))
+    }
+    
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Diaz Blanco Guisell1'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_guisell1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_guisell1'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_guisell1'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_DirigidoA'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt797'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt797'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_dirigidoA'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Instructores'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Instructores_form_entrenadorlistaEntrenadores0j_idt620'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Instructores_form_entrenadorlistaEntrenadores0j_idt620'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_instructor'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos'))
+
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_prueba-S-SH1'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_prueba-S-SH1'))
+
+        if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1586'), 
+            1)) {
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1586'), 
+                FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE0'))
+        }
+        
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_momentoE'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro0'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
 

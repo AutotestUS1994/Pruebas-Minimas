@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Diaz Blanco Guisell']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Diaz Blanco Guisell12']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

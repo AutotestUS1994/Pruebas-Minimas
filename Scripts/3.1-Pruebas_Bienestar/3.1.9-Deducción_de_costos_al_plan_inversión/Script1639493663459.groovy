@@ -19,44 +19,42 @@ import org.openqa.selenium.Keys as Keys
 import java.util.Date as Date
 import java.util.Calendar as Calendar
 import java.time.LocalDateTime as LocalDateTime
+import java.text.SimpleDateFormat as SimpleDateFormat
 
-Date fecha = new Date()
+Date today = new Date()
+/*--------------------------------------------*/
 
-Number Dia = fecha.getDate()
+Number Dia = ((today.format('dd')) as Integer)
+Number Mes = ((today.format('MM')) as Integer)
+Number MesN = ((today.format('MM')) as Integer)
+Number Año = ((today.format('yyyy')) as Integer)
+Number AñoN = ((today.format('yyyy')) as Integer)
+/*-----------------------------------------------*/
 
-Number Mes = fecha.getMonth() + 1
+Number sumaD = Dia + 10
+Number sumaM = Mes + 1
+Number sumaA = Año + 1
+/*--------------------------*/
 
-Number MesN = fecha.getMonth() + 1
+if (sumaD > 30) {
+	sumaD = (sumaD - Dia)
 
-Number Año = fecha.getYear() + 1900
-
-Number AñoN = fecha.getYear() + 1900
-
-Number DiaF = Dia + 10
-
-Number MesF = Mes + 1
-
-Number AñoF = Año + 1
-
-if (DiaF > 30) {
-    DiaF = (DiaF - Dia)
-
-    Mes = MesF
+	Mes = sumaM
 } else {
-    DiaF
-
-    Mes
+	sumaD
+	Mes
 }
+/*--------------------------*/
 
-if (MesF > 12) {
-    año = AñoF
-
-    MesF = 1
+if (sumaM > 12) {
+	Año = sumaA
+	Mes = 1
 }
+/*---------------------------*/
 
 String Fechaini = (((Dia + '/') + MesN) + '/') + AñoN
-
-String Fechafin = (((DiaF + '/') + Mes) + '/') + Año
+String Fechafin = (((sumaD + '/') + Mes) + '/') + Año
+/*----------------------------------------------------*/
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 

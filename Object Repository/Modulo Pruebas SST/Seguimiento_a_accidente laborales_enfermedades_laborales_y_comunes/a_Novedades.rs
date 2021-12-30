@@ -6,12 +6,11 @@
    <elementGuidId>91dc9a2f-fb1a-4743-b45e-ad570874cc0a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_listadoSolicitudElemento:tablacaso:0:j_idt85']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Novedades')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

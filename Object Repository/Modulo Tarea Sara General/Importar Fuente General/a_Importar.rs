@@ -6,12 +6,12 @@
    <elementGuidId>f9e33f84-a219-47a5-8978-1ebd10e14545</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@class = 'us-boton btn-filtrar' and @href = '#' and starts-with(@id, 'formImportarFuente:') and (text() = 'Importar' or . = 'Importar')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Importar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

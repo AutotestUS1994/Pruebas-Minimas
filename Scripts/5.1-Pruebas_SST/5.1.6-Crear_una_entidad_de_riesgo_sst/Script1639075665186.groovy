@@ -48,10 +48,12 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_una_ent
     
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Entidad de Riesgo'))
 
+    if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 1))
+    {
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
 
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
-
+    }
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Regresar'))
 }
 

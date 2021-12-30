@@ -6,12 +6,11 @@
    <elementGuidId>95760304-3841-4b07-9f17-6dc9876f2edd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='form_popupInscritos:tab:tablaSeguimiento:j_idt197']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

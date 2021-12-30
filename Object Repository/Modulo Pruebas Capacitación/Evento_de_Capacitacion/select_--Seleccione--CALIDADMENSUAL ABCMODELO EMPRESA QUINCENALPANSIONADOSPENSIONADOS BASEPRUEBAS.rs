@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='formRegistroEvento:j_idt189:1:idTexto7']</value>
+         <value>//td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

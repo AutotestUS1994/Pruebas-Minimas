@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import javax.swing.JFrame as JFrame
+import javax.swing.JOptionPane as JOptionPane
+import javax.swing.ImageIcon as ImageIcon
+import javax.swing.*
+import java.awt.event.*
+import java.awt.*
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -24,6 +30,10 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_com
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/div_Participante'))
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Individual'))
+
+String ventana = JOptionPane.showMessageDialog(WebUI.closeBrowser(), 'no se puede modificar estado')
+
+
 
 WebUI.comment('Se requiere reparar problema de cupos llenos de evento')
 

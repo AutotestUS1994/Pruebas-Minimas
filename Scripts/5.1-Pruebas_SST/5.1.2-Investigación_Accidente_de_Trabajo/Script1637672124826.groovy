@@ -226,7 +226,7 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Tra
     '01/07/2021')
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Estado_form_popupRecomendacionInvvpanel_principal_23tablaControlfechaEditable_input'), 
-    Keys.chord(Keys.ENTER))
+    Keys.chord(Keys.ESCAPE))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/select_SeleccionarTipo Control'), 
     '1')
@@ -242,6 +242,8 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Investigación_Acci
     1)
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Estado_form_popupRecomendacionInvvpanel_principal_23tablaControlj_idt462'))
+
+WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/label_Accin'))
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Seguimiento'))
 
@@ -294,4 +296,6 @@ WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Tra
     'Prueba')
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Descargar_j_idt1810tabInvestigacionAccidentadotablaAnexosj_idt2037'))
+
+WebUI.closeBrowser()
 

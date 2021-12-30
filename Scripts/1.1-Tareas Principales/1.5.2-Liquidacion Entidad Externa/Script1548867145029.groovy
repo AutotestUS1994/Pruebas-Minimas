@@ -49,33 +49,15 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Seguimiento_popupConfirm'))
-
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Contrato_popupConfirmaci'), 
-    '1241')
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Si'))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Generar'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Continuar'))
-
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_close'), 
-    0)
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_close'))
-
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Ver'), 
-    0)
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Ver'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Imprimir'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Csv_form_popupSeleccionR'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Reporte'), 
-    0)
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Reporte'))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Generar'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Descargar'), 
     0)

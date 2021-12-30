@@ -1,0 +1,167 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+5-Pruebas SST,Chrome 96.0.4664.110,,,2021-12-30 07:22:36,2021-12-30 07:31:13,"8m - 37,046s",FAILED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.1-Reporte_de_accidente_de_trabajo,Chrome 96.0.4664.110,,,2021-12-30 07:22:36,2021-12-30 07:23:34,"58,288s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:22:37,2021-12-30 07:22:47,"9,934s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Informe accidente de trabajo"")",Chrome 96.0.4664.110,,,2021-12-30 07:22:47,2021-12-30 07:22:48,"1,210s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/li_Informe Accidente de Trabajo (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:22:48,2021-12-30 07:22:49,"1,441s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/span_Prueba""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:22:49,2021-12-30 07:23:03,"13,830s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Nuevo""))",Chrome 96.0.4664.110,,,2021-12-30 07:23:03,2021-12-30 07:23:34,"31,307s",FAILED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.2-Investigación_Accidente_de_Trabajo,Chrome 96.0.4664.110,,,2021-12-30 07:23:34,2021-12-30 07:24:21,"46,249s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:23:35,2021-12-30 07:23:43,"7,863s",PASSED
+"executeJavaScript(""document.body.style.zoom='98%'"", null)",Chrome 96.0.4664.110,,,2021-12-30 07:23:43,2021-12-30 07:23:43,"0,024s",PASSED
+delay(1),Chrome 96.0.4664.110,,,2021-12-30 07:23:43,2021-12-30 07:23:44,"1,025s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Informes de Accidentes e Incidentes de Trabajo_form_templatej_idt24_input""), ""Informe Accidente de Trabajo"")",Chrome 96.0.4664.110,,,2021-12-30 07:23:44,2021-12-30 07:23:45,"0,698s",PASSED
+"waitForElementPresent(findTestObject(""Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Informe Accidente de Trabajo (sst)""), 0)",Chrome 96.0.4664.110,,,2021-12-30 07:23:45,2021-12-30 07:23:46,"1,353s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Informe Accidente de Trabajo (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:23:46,2021-12-30 07:23:47,"0,581s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_Prueba""))",Chrome 96.0.4664.110,,,2021-12-30 07:23:47,2021-12-30 07:23:48,"1,568s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/a_Accidentado""))",Chrome 96.0.4664.110,,,2021-12-30 07:23:48,2021-12-30 07:23:49,"1,142s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/span_DIAZ BLANCO GUISELL""))",Chrome 96.0.4664.110,,,2021-12-30 07:23:49,2021-12-30 07:24:21,"31,388s",FAILED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.3-Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes,Chrome 96.0.4664.110,,,2021-12-30 07:24:21,2021-12-30 07:25:18,"56,903s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:24:21,2021-12-30 07:24:29,"7,602s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Registrar / Nov"")",Chrome 96.0.4664.110,,,2021-12-30 07:24:29,2021-12-30 07:24:30,"1,213s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/li_Registrar  Nov. Caso Atep (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:24:30,2021-12-30 07:24:31,"1,372s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/select_-- SELECCIONAR --SEDE NORTESEDE OCCIDENTESEDE SUR1""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:24:31,2021-12-30 07:24:34,"2,481s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/a_Nombre_form_listadoSolicitudElementoj_idt65""))",Chrome 96.0.4664.110,,,2021-12-30 07:24:34,2021-12-30 07:24:35,"0,805s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt7951""), ""A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:24:35,2021-12-30 07:24:36,"1,005s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt7951""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:24:36,2021-12-30 07:24:36,"0,415s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/span_A A A""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:24:36,2021-12-30 07:25:18,"41,564s",PASSED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.4-Creación_de_Matriz_de_Peligros,Chrome 96.0.4664.110,,,2021-12-30 07:25:18,2021-12-30 07:26:05,"47,230s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:25:18,2021-12-30 07:25:26,"7,694s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/input_Listado Caso Atep_form_templatej_idt24_input""), ""Matriz de peligros"")",Chrome 96.0.4664.110,,,2021-12-30 07:25:26,2021-12-30 07:25:27,"1,217s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/li_Matriz de peligros (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:25:27,2021-12-30 07:25:28,"1,474s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_Periodo_principal""), 2)",Chrome 96.0.4664.110,,,2021-12-30 07:25:28,2021-12-30 07:25:31,"2,158s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_Empresa_principal""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:25:31,2021-12-30 07:25:33,"2,027s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_PRUEBA KATALON""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:25:33,2021-12-30 07:26:05,"32,306s",PASSED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.5-Diligenciar_una_inspección,Chrome 96.0.4664.110,,,2021-12-30 07:26:05,2021-12-30 07:26:52,"47,141s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:26:05,2021-12-30 07:26:13,"7,333s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Inspecciones"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:13,2021-12-30 07:26:14,"1,247s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/li_Inspecciones (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:14,2021-12-30 07:26:15,"1,379s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/td_PRUEBAS KATALON""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:26:15,2021-12-30 07:26:24,"8,844s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Nuevo""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:24,2021-12-30 07:26:25,"0,505s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/textarea_Descripcin_form_datobasicoinspecciondescripcion""), ""PRUEBAS KATALON"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:25,2021-12-30 07:26:26,"1,032s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/select_SeleccionarDe rea o punto crticoNo planeadaPlaneada""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:26:26,2021-12-30 07:26:27,"0,997s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/select_SeleccionarSEDE NORTESEDE OCCIDENTESEDE SUR""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:26:27,2021-12-30 07:26:28,"1,087s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/select_SeleccionarMENSUALBIMESTRALANUALSEMANALTRIMESTRALSEMESTRALDIARIA""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:26:28,2021-12-30 07:26:29,"1,098s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha Inicial_form_datobasicoinspeccionfechaInPeriodicidad_input""), ""01/07/2021"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:29,2021-12-30 07:26:30,"1,090s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha Final_form_datobasicoinspeccionfechaFnPeriodicidad_input""), ""10/07/2021"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:30,2021-12-30 07:26:31,"0,878s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Responsable_form_datobasicoinspeccionj_idt599""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:31,2021-12-30 07:26:31,"0,535s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt895""), ""A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:31,2021-12-30 07:26:32,"1,065s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt895""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:26:32,2021-12-30 07:26:33,"0,384s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/span_A A A""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:33,2021-12-30 07:26:34,"1,023s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/select_Seleccionar001002003GESTIN HSE1""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:26:34,2021-12-30 07:26:35,"1,310s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Formulario_form_datobasicoinspeccionj_idt6181""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:35,2021-12-30 07:26:36,"0,637s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8951""), "" A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:36,2021-12-30 07:26:37,"1,426s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8951""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:26:37,2021-12-30 07:26:38,"0,416s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/span_A A A""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:38,2021-12-30 07:26:39,"1,027s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha_form_datobasicoinspeccionfecha_input""), ""01/07/2021"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:39,2021-12-30 07:26:40,"1,032s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Guardar""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:40,2021-12-30 07:26:40,"0,530s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Programacin""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:40,2021-12-30 07:26:42,"1,564s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Nuevo1""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:42,2021-12-30 07:26:42,"0,669s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Responsable_form_detalleProgramacionXj_idt714""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:42,2021-12-30 07:26:43,"0,659s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8953""), ""A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:43,2021-12-30 07:26:44,"1,058s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8953""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:26:44,2021-12-30 07:26:45,"0,440s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/span_A A A3""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:45,2021-12-30 07:26:45,"0,732s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha Programacin_form_detalleProgramacionXprogramacionf_input""), ""01/07/2021"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:45,2021-12-30 07:26:46,"1,058s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Nmero_form_detalleProgramacionXnumero""), ""5"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:46,2021-12-30 07:26:47,"0,926s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Guardar1""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:47,2021-12-30 07:26:48,"0,411s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Evidencias""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:48,2021-12-30 07:26:48,"0,643s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_subir""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:48,2021-12-30 07:26:49,"0,840s",PASSED
+"ruta = G_rutaarchivos + ""prueba.pdf""",Chrome 96.0.4664.110,,,2021-12-30 07:26:49,2021-12-30 07:26:49,"0,000s",PASSED
+"uploadFile(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Cargar Archivo_popupCargarArchivoForminputFileName_input""), ruta)",Chrome 96.0.4664.110,,,2021-12-30 07:26:49,2021-12-30 07:26:50,"0,755s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/input_Descargar_form_evidenciastabladescripcion""), ""pruebas k"")",Chrome 96.0.4664.110,,,2021-12-30 07:26:50,2021-12-30 07:26:51,"1,074s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Diligenciar_una_inspección/a_Descargar_form_evidenciastablaj_idt776""))",Chrome 96.0.4664.110,,,2021-12-30 07:26:51,2021-12-30 07:26:51,"0,401s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-30 07:26:51,2021-12-30 07:26:52,"0,685s",PASSED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.6-Crear_una_entidad_de_riesgo_sst,Chrome 96.0.4664.110,,,2021-12-30 07:26:52,2021-12-30 07:28:05,"1m - 12,466s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:26:52,2021-12-30 07:27:00,"7,052s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""entidades riesgo"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:00,2021-12-30 07:27:01,"1,467s",PASSED
+delay(2),Chrome 96.0.4664.110,,,2021-12-30 07:27:01,2021-12-30 07:27:03,"2,004s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/li_Entidades Riesgo (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:03,2021-12-30 07:27:03,"0,436s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59""), ""pruebas k"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:03,2021-12-30 07:27:06,"2,106s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:27:06,2021-12-30 07:27:06,"0,371s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:27:06,2021-12-30 07:27:13,"7,533s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:13,2021-12-30 07:27:14,"0,690s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Cdigo_form_detalleEntidadRiesgocodigoInterno""), ""5"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:14,2021-12-30 07:27:15,"1,000s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_detalleEntidadRiesgodescripcion""), ""PRUEBAS K"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:15,2021-12-30 07:27:16,"0,744s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Unidad Organizacional_form_detalleEntidadRiesgoj_idt6210""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:16,2021-12-30 07:27:16,"0,389s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones0""), ""ADMINISTRACION"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:16,2021-12-30 07:27:18,"1,444s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones0""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:27:18,2021-12-30 07:27:18,"0,367s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_ADMINISTRACION""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:18,2021-12-30 07:27:19,"0,982s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_SeleccionarAREAS DE RIESGOAREAS SIN RIESGOPRUEBA SILVIA 1PRUEBA SILVIA 2""), 5)",Chrome 96.0.4664.110,,,2021-12-30 07:27:19,2021-12-30 07:27:20,"1,327s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_-- SELECCIONAR --SEDE NORTESEDE OCCIDENTESEDE SUR""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:27:20,2021-12-30 07:27:22,"1,840s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:27:22,2021-12-30 07:27:23,"1,028s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Responsable_form_detalleEntidadRiesgoj_idt6320""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:23,2021-12-30 07:27:24,"0,424s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270""), ""A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:24,2021-12-30 07:27:25,"0,983s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:27:25,2021-12-30 07:27:25,"0,356s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1010220596""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:25,2021-12-30 07:27:26,"0,912s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:26,2021-12-30 07:27:26,"0,575s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Personas""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:26,2021-12-30 07:27:27,"0,763s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Persona_form_detalleEntidadRiesgoj_idt692""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:27,2021-12-30 07:27:28,"0,933s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700""), ""A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:28,2021-12-30 07:27:29,"0,987s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:27:29,2021-12-30 07:27:30,"0,381s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1010220596""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:30,2021-12-30 07:27:30,"0,739s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:30,2021-12-30 07:27:31,"0,696s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Identificacin_form_popupHojaVidaEntidadj_idt838""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:31,2021-12-30 07:27:32,"0,696s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700""), ""GUISELL"")",Chrome 96.0.4664.110,,,2021-12-30 07:27:32,2021-12-30 07:27:33,"1,039s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:27:33,2021-12-30 07:27:33,"0,386s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_Diaz Blanco Guisell""))",Chrome 96.0.4664.110,,,2021-12-30 07:27:33,2021-12-30 07:28:05,"31,414s",FAILED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.7-Crear_un_Sistema_de_Vigilancia_Epidemiologica,Chrome 96.0.4664.110,,,2021-12-30 07:28:05,2021-12-30 07:29:07,"1m - 2,865s",FAILED
+today = new java.util.Date(),Chrome 96.0.4664.110,,,2021-12-30 07:28:05,2021-12-30 07:28:05,"0,009s",PASSED
+"todaysDate = today.format(""dd/MM/yyyy HH:mm"")",Chrome 96.0.4664.110,,,2021-12-30 07:28:05,2021-12-30 07:28:05,"0,006s",PASSED
+"comment(""FALTA CONDICION PARA ELIMINAR REGISTRO."")",Chrome 96.0.4664.110,,,2021-12-30 07:28:05,2021-12-30 07:28:05,"0,010s",PASSED
+"comment(""conflicto con base de datos no permite eliminar registro"")",Chrome 96.0.4664.110,,,2021-12-30 07:28:05,2021-12-30 07:28:05,"0,001s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:28:05,2021-12-30 07:28:12,"7,078s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Entidad de Riesgo_form_templatej_idt24_input""), ""vigilancia epidemiologica"")",Chrome 96.0.4664.110,,,2021-12-30 07:28:12,2021-12-30 07:28:13,"1,210s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/li_Programas de Vigilancia Epidemiologica (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:13,2021-12-30 07:28:15,"1,354s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_PRUEBAS K""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:15,2021-12-30 07:28:19,"4,595s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo0""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:19,2021-12-30 07:28:20,"1,063s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_--Seleccione--PRUEBAS KATALON""), ""1"")",Chrome 96.0.4664.110,,,2021-12-30 07:28:20,2021-12-30 07:28:22,"1,359s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Descripcin_form_programaVigilanciatabdescripcion""), ""pruebas k "" + todaysDate)",Chrome 96.0.4664.110,,,2021-12-30 07:28:22,2021-12-30 07:28:22,"0,881s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/label_SI""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:22,2021-12-30 07:28:23,"0,366s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:23,2021-12-30 07:28:23,"0,423s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Personas""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:23,2021-12-30 07:28:24,"1,009s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo_personas""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:24,2021-12-30 07:28:25,"0,985s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneSEDE NORTESEDE OCCIDENTESEDE SUR""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:28:25,2021-12-30 07:28:27,"1,477s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Identificacin_form_popupInscritostabj_idt117""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:27,2021-12-30 07:28:27,"0,453s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722""), ""A A A"")",Chrome 96.0.4664.110,,,2021-12-30 07:28:27,2021-12-30 07:28:28,"1,077s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:28:28,2021-12-30 07:28:29,"0,410s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_A A A""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:29,2021-12-30 07:28:29,"0,786s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneAula InteligenteSala de JuntasSalon ExternoSalon Principal""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:28:29,2021-12-30 07:28:31,"1,385s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_Remitido EPS_ui-chkbox-icon ui-icon ui-icon-blank ui-c""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:31,2021-12-30 07:28:31,"0,402s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion""), ""pruebas k"")",Chrome 96.0.4664.110,,,2021-12-30 07:28:31,2021-12-30 07:28:32,"0,761s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:32,2021-12-30 07:28:32,"0,437s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Grupos""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:32,2021-12-30 07:28:33,"0,931s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Personas Entidad de Riesgo""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:33,2021-12-30 07:28:34,"0,805s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_Seleccione234ENTIDAD DE RIESGO 01idad y Salud en el Trabajo""), 26)",Chrome 96.0.4664.110,,,2021-12-30 07:28:34,2021-12-30 07:28:36,"1,773s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_DIAZ BLANCO GUISELL_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 96.0.4664.110,,,2021-12-30 07:28:36,2021-12-30 07:29:07,"31,421s",FAILED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.8-Crear_plan_de_trabajo_anual,Chrome 96.0.4664.110,,,2021-12-30 07:29:07,2021-12-30 07:30:04,"56,537s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:29:08,2021-12-30 07:29:15,"7,574s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Crear_plan_de_trabajo_anual/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Plan de trabajo anual"")",Chrome 96.0.4664.110,,,2021-12-30 07:29:15,2021-12-30 07:29:17,"1,207s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Crear_plan_de_trabajo_anual/li_Plan de Trabajo Anual (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:29:17,2021-12-30 07:29:18,"1,466s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas katalon""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:29:18,2021-12-30 07:30:04,"45,914s",PASSED
+,,,,,,,
+Test Cases/5.1-Pruebas_SST/5.1.9-Creación_de_Grupos_de_Apoyo,Chrome 96.0.4664.110,,,2021-12-30 07:30:04,2021-12-30 07:31:13,"1m - 8,940s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-30 07:30:04,2021-12-30 07:30:12,"7,347s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""grupos de apoyo"")",Chrome 96.0.4664.110,,,2021-12-30 07:30:12,2021-12-30 07:30:13,"1,196s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/li_Grupos de Apoyo (sst)""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:13,2021-12-30 07:30:14,"1,402s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Descripcin_form_equipoTrabajoSalfiltroGrupoApoyo0""), ""Katalon"")",Chrome 96.0.4664.110,,,2021-12-30 07:30:14,2021-12-30 07:30:16,"2,059s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/td_PRUEBAS KATALON0""), 1))",Chrome 96.0.4664.110,,,2021-12-30 07:30:16,2021-12-30 07:30:32,"15,821s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Nuevo""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:32,2021-12-30 07:30:33,"0,556s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Nombre Grupo Apoyo_form_equipoTrabajoSaltabdescripcion""), ""PRUEBAS KATALON"")",Chrome 96.0.4664.110,,,2021-12-30 07:30:33,2021-12-30 07:30:34,"1,083s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/select_-- SELECCIONAR --BRIGADA DE PRIMEROS AUXILIOS""), 4)",Chrome 96.0.4664.110,,,2021-12-30 07:30:34,2021-12-30 07:30:35,"1,011s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/select_SeleccioneSEDE NORTESEDE OCCIDENTESEDE SUR""), 1)",Chrome 96.0.4664.110,,,2021-12-30 07:30:35,2021-12-30 07:30:36,"1,092s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/textarea_Objetivo_form_equipoTrabajoSaltabobjetivo""), ""null"")",Chrome 96.0.4664.110,,,2021-12-30 07:30:36,2021-12-30 07:30:37,"0,776s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Guardar""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:37,2021-12-30 07:30:37,"0,426s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Integrantes""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:37,2021-12-30 07:30:39,"1,658s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Nuevo0""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:39,2021-12-30 07:30:40,"0,654s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/a_Identificacin_form_popupGrupoApoyoIntegrantej_idt217""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:40,2021-12-30 07:30:40,"0,632s",PASSED
+"setText(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt840""), ""Diaz Blanco Guisell"")",Chrome 96.0.4664.110,,,2021-12-30 07:30:40,2021-12-30 07:30:41,"1,006s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt840""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2021-12-30 07:30:41,2021-12-30 07:30:42,"0,406s",PASSED
+"click(findTestObject(""Modulo Pruebas SST/Creación de Grupos de Apoyo/span_Diaz Blanco Guisell""))",Chrome 96.0.4664.110,,,2021-12-30 07:30:42,2021-12-30 07:31:13,"31,351s",FAILED

@@ -233,5 +233,5 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_Empresa_principal'), 
     1)
 
-WebUI.comment('Pendiente por fallas')
+WebUI.closeBrowser()
 
