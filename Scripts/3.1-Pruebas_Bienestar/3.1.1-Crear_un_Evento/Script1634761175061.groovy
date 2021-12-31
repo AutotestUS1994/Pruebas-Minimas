@@ -145,8 +145,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
     }
     
-    WebUI.click(findTestObject(null))
-
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro'))

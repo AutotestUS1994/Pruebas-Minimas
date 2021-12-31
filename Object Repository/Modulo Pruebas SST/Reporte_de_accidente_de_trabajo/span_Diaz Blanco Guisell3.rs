@@ -6,12 +6,12 @@
    <elementGuidId>a83a562f-7c10-4c13-a308-522d04f08664</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.valor_campo_none</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Diaz Blanco Guisell']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Diaz Blanco Guisell12']/parent::*</value>
+         <key>CSS</key>
+         <value>span.valor_campo_none</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

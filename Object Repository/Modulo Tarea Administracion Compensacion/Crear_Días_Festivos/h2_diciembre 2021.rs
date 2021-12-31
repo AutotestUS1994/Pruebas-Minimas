@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_DIAZ BLANCO GUISELL</name>
+   <name>h2_diciembre 2021</name>
    <tag></tag>
-   <elementGuidId>09276ce0-7743-484f-8602-190e257846c6</elementGuidId>
+   <elementGuidId>e29e755b-63ed-43d7-820f-f8dc975bc28b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='DIAZ BLANCO GUISELL']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='diciembre 2021']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,62 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>gridcell</value>
+      <value>h2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>DIAZ BLANCO GUISELL</value>
+      <value>diciembre 2021</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_detalleTestigo:tablaTestigo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
+      <value>id(&quot;calendario&quot;)/div[@class=&quot;fc-toolbar&quot;]/div[@class=&quot;fc-center&quot;]/h2[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tbody[@id='form_detalleTestigo:tablaTestigo_data']/tr/td[2]</value>
+      <value>//div[@id='calendario']/div/div[3]/h2</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Testigo'])[1]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mes'])[1]/following::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modo'])[1]/following::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='lun.'])[1]/preceding::h2[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mar.'])[1]/preceding::h2[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='diciembre 2021']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/table/tbody/tr/td[2]</value>
+      <value>//h2</value>
    </webElementXpaths>
 </WebElementEntity>

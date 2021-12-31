@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+/*librerias para ejecutar botones con java sript*/
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -67,8 +70,13 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_
     WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Controles Existentes_Eliminar'))
 
     if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Individuo'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Individuo'))
+        /*--------------------------------------------------------------------------------------------*/
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Individuo'),
+			30)
 
+		WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+		WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/td_Individuo'))
+		/*--------------------------------------------------------------------------------------------*/
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Eliminar2'))
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/a_Aceptar_Eliminar2'))
