@@ -10,9 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table[2]/tbody/tr/td/div/div[1]/table/tbody/tr[1]/td[2]/span
-</value>
+         <value>//table[2]/tbody/tr/td/div/div/table/tbody/tr/td[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

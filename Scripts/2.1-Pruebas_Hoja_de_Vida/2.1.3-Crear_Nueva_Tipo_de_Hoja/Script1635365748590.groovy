@@ -19,20 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/input_Secciones_form_templatej_idt286j_idt29'))
+WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/input_Empresa 1_form_templatej_idt24_input'), 
+    'Tipo de Hoja')
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
-
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_Parametros Generales'), 
-    0)
-
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_Parametros Generales'))
-
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Tipo de Hoja'), 0)
-
-WebUI.scrollToElement(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Tipo de Hoja'), 0)
-
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Tipo de Hoja'))
+WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/span_Tipo de Hoja'))
 
 if (WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/span_P1'), 1)) {
     WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/span_P1'))

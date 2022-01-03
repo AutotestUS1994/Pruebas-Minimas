@@ -39,4 +39,9 @@
       <initValue>'http://192.168.2.80:8380/seguridadweb/'</initValue>
       <name>G_Login_Seguridad</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario para test 2.1.8-Aprobación_Novedades</description>
+      <initValue>'1057596487'</initValue>
+      <name>G_Usuario2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

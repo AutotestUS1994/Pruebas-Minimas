@@ -128,14 +128,14 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Reporte_de_ac
                 if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_Metodologa 1'), 
                     1)) {
                     WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/td_Metodologa 1'))
-					/*--------------------------------------------------------------------------------------------------------*/
-					WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_EliminarNv2'),
-						30)
-					
-					WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-					/*---------------------------------------------------------------------------------------------------------*/
-                    
 
+                    /*--------------------------------------------------------------------------------------------------------*/
+                    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_EliminarNv2'), 
+                        30)
+
+                    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+                    /*---------------------------------------------------------------------------------------------------------*/
                     WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Aceptar_Eliminar_causal'))
                 }
             }

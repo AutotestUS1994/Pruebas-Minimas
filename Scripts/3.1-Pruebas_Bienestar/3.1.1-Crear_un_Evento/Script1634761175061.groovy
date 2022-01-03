@@ -38,9 +38,10 @@ Number sumaD = Dia + 10
 
 Number sumaM = Mes + 1
 
-Number sumaA = Año + 1
+Number sumaA = Año + 1;
 
 /*--------------------------*/
+
 if (sumaD > 30) {
     sumaD = (sumaD - Dia)
 

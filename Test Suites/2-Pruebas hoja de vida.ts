@@ -69,6 +69,6 @@
       <guid>95668c9c-d3d5-48e8-872f-3b7cfb953068</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.9-Notificar_Novedades_Hoja_Vida</testCaseId>
+      <testCaseId>Test Cases/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

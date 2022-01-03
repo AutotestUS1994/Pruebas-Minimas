@@ -25,11 +25,12 @@ String identificacion = random_double.toString().replace('.0', '')
 
 String identificacion1 = 0 + identificacion
 
+int identificacion0 = Integer.parseInt(identificacion)
 /*-------------------------------------------------------------------------------------------*/
-if (identificacion < 10) {
+if (identificacion0 < 10) {
     identificacion = identificacion1
 } else {
-    identificacion
+    identificacion0
 }
 
 /*-------------------------------------------------------------------------------------------*/
