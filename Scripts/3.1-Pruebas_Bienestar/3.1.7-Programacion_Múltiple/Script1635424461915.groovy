@@ -32,6 +32,7 @@ Number AñoN = ((today.format('yyyy')) as Integer)
 Number sumaD = Dia + 10
 Number sumaM = Mes + 1
 Number sumaA = Año + 1
+
 /*--------------------------*/
 
 if (sumaD > 30) {
@@ -49,9 +50,32 @@ if (sumaM > 12) {
 	Mes = 1
 }
 /*---------------------------*/
-
+Number Dia0 = Dia + 1
+Number restaD0 = sumaD -1
+/*----------------------------*/
+if(Dia0 > 30) {
+	Dia0 = Dia0 - Dia
+	MesN = sumaM
+}
+	else {
+		Dia0
+		MesN
+	}
+/*----------------------------*/
+	if(restaD0 < 1) {
+		restaD0 = 1
+		Mes = Mes - 1
+	}
+	else {
+		restaD0;
+		Mes;
+	}
+		
+/*----------------------------*/	
 String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 String FechaF = (((sumaD + '/') + Mes) + '/') + Año
+String FechaI0 = (((Dia0 + '/') + MesN) + '/') + AñoN
+String FechaF0 = (((restaD0 + '/') + Mes) + '/') + Año
 /*----------------------------------------------------*/
 
 
@@ -147,7 +171,7 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacio
     0)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
-    FechaI)
+    FechaI0)
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     Keys.chord(Keys.ENTER))
@@ -156,7 +180,7 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Programacio
     0)
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
-    FechaF)
+    FechaF0)
 
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
     30)

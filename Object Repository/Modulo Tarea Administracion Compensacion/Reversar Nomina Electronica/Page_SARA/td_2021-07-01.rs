@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='2021-07-01']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='2022-07-01']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
