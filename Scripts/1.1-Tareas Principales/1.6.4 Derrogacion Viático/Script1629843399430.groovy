@@ -31,6 +31,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modul
 WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Nuevo'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/span_Solicita derogacin de una solicitud'), 

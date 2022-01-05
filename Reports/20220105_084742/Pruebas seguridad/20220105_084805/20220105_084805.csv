@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pruebas seguridad,Chrome 96.0.4664.110,,,2022-01-05 09:11:14,2022-01-05 09:12:32,"1m - 17,415s",PASSED
+,,,,,,,
+"Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares",Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:48,"33,508s",PASSED
+today = new java.util.Date(),Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:15,"0,008s",PASSED
+"todaysDate = today.format(""dd/MM/yyyy HH:mm"")",Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:15,"0,002s",PASSED
+random_double = Math.random() * 9999 + 999,Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:15,"0,015s",PASSED
+random_double = Math.round(random_double * 1000),Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:15,"0,002s",PASSED
+"identificacion = toString().replace("".0"", """")",Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:15,"0,002s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2022-01-05 09:11:15,2022-01-05 09:11:24,"9,106s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Usuario_form_templatej_idt24_input""), ""Usuario"")",Chrome 96.0.4664.110,,,2022-01-05 09:11:24,2022-01-05 09:11:25,"0,687s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/span_Usuario""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:25,2022-01-05 09:11:27,"1,988s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/span_Pruebas Katalon""), 1))",Chrome 96.0.4664.110,,,2022-01-05 09:11:27,2022-01-05 09:11:34,"6,564s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Nuevo""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:34,2022-01-05 09:11:34,"0,551s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Sesin_usuarioformatablogin""), todaysDate)",Chrome 96.0.4664.110,,,2022-01-05 09:11:34,2022-01-05 09:11:35,"1,063s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Documento_usuarioformatabdocumento""), identificacion)",Chrome 96.0.4664.110,,,2022-01-05 09:11:35,2022-01-05 09:11:36,"0,749s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Nombre_usuarioformatabnombre""), ""Pruebas Katalon"")",Chrome 96.0.4664.110,,,2022-01-05 09:11:36,2022-01-05 09:11:37,"0,835s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Correo_usuarioformatabemail""), identificacion + ""noodle@gmail.com"")",Chrome 96.0.4664.110,,,2022-01-05 09:11:37,2022-01-05 09:11:38,"0,784s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/label_Activo""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:38,2022-01-05 09:11:38,"0,425s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/select_-- Seleccione --Grupo a""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:11:38,2022-01-05 09:11:39,"1,151s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Guardar""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:39,2022-01-05 09:11:40,"0,415s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Contrasea""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:40,2022-01-05 09:11:40,"0,704s",PASSED
+"setEncryptedText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Contrasea_usuarioformatabpasswordNuevo""), ""MkG4/TYiCFC3cb2driP7+Q=="")",Chrome 96.0.4664.110,,,2022-01-05 09:11:40,2022-01-05 09:11:41,"0,458s",PASSED
+"setEncryptedText(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Confirmar_usuarioformatabpasswordConfirma""), ""MkG4/TYiCFC3cb2driP7+Q=="")",Chrome 96.0.4664.110,,,2022-01-05 09:11:41,2022-01-05 09:11:41,"0,456s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Actualizar""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:41,2022-01-05 09:11:42,"0,423s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Acceso Particular""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:42,2022-01-05 09:11:42,"0,640s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/select_Seleccione1ADMINISTRADORADMINISTRADOR_MASIVO""), 15)",Chrome 96.0.4664.110,,,2022-01-05 09:11:42,2022-01-05 09:11:43,"1,256s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/select_SeleccioneEmpresa 1Empresa 1""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:11:43,2022-01-05 09:11:44,"1,007s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/select_SeleccioneSaraDS_Jboss (CompensacionDS)SaraDS_weblogic (CompensacionDS)seguridad jdbcSeguridadDS_Jboss""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:11:44,2022-01-05 09:11:46,"1,057s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA PRIMESARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA""), 2)",Chrome 96.0.4664.110,,,2022-01-05 09:11:46,2022-01-05 09:11:47,"1,425s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Aplicacin_usuarioformatabtabla_rolesj_idt148""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:47,2022-01-05 09:11:47,"0,423s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2022-01-05 09:11:47,2022-01-05 09:11:48,"0,771s",PASSED
+,,,,,,,
+Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles,Chrome 96.0.4664.110,,,2022-01-05 09:11:48,2022-01-05 09:12:14,"25,861s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2022-01-05 09:11:49,2022-01-05 09:11:54,"4,963s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Usuario_form_templatej_idt24_input""), ""Roles"")",Chrome 96.0.4664.110,,,2022-01-05 09:11:54,2022-01-05 09:11:54,"0,681s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/li_Roles""))",Chrome 96.0.4664.110,,,2022-01-05 09:11:54,2022-01-05 09:11:56,"1,471s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61""), ""pruebas katalon"")",Chrome 96.0.4664.110,,,2022-01-05 09:11:56,2022-01-05 09:11:57,"1,355s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61""), Keys.chord(ENTER))",Chrome 96.0.4664.110,,,2022-01-05 09:11:57,2022-01-05 09:11:58,"0,695s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon""), 1))",Chrome 96.0.4664.110,,,2022-01-05 09:11:58,2022-01-05 09:12:04,"5,889s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Nuevo""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:04,2022-01-05 09:12:04,"0,560s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Descripcin_formtabdescripcion""), ""Pruebas katalon"")",Chrome 96.0.4664.110,,,2022-01-05 09:12:04,2022-01-05 09:12:05,"1,066s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_Seleccin Tipo TolRol ClienteRol Funcional""), 2)",Chrome 96.0.4664.110,,,2022-01-05 09:12:05,2022-01-05 09:12:06,"1,074s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Alias_formtabalias""), ""pruebas k"")",Chrome 96.0.4664.110,,,2022-01-05 09:12:06,2022-01-05 09:12:07,"0,745s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_-- Seleccione --Grupo a""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:12:07,2022-01-05 09:12:08,"1,055s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Guardar""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:08,2022-01-05 09:12:09,"0,430s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Acceso Roles""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:09,2022-01-05 09:12:09,"0,622s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneEmpresa 1Empresa 1""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:12:09,2022-01-05 09:12:11,"1,334s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneSaraDS_Jboss (CompensacionDS)SaraDS_weblogic (CompensacionDS)seguridad jdbcSeguridadDS_Jboss""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:12:11,2022-01-05 09:12:12,"1,073s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA PRIMESARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA""), 2)",Chrome 96.0.4664.110,,,2022-01-05 09:12:12,2022-01-05 09:12:13,"1,009s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Filter by Aplicacin_formtabtabla_rolesj_idt135""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:13,2022-01-05 09:12:13,"0,715s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2022-01-05 09:12:13,2022-01-05 09:12:14,"0,727s",PASSED
+,,,,,,,
+Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa,Chrome 96.0.4664.110,,,2022-01-05 09:12:14,2022-01-05 09:12:32,"17,690s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad""), [:], STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2022-01-05 09:12:14,2022-01-05 09:12:19,"5,006s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Empresa"")",Chrome 96.0.4664.110,,,2022-01-05 09:12:19,2022-01-05 09:12:20,"0,688s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/span_Empresa""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:20,2022-01-05 09:12:22,"1,474s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon""), 0)",Chrome 96.0.4664.110,,,2022-01-05 09:12:22,2022-01-05 09:12:22,"0,870s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:22,2022-01-05 09:12:23,"0,387s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/a_Eliminar""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:23,2022-01-05 09:12:24,"0,769s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/a_link_aceptar""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:24,2022-01-05 09:12:25,"1,338s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/a_Nuevo""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:25,2022-01-05 09:12:25,"0,500s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/input_Cdigo_empresa_formcodigoEmpresa""), ""5"")",Chrome 96.0.4664.110,,,2022-01-05 09:12:25,2022-01-05 09:12:27,"1,796s",PASSED
+"setText(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/input_Nombre_empresa_formnombreEmpresa""), ""Pruebas katalon"")",Chrome 96.0.4664.110,,,2022-01-05 09:12:27,2022-01-05 09:12:28,"0,746s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --generalMexico""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:12:28,2022-01-05 09:12:29,"1,027s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Aspirantes CALIDADSitio Calidad""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:12:29,2022-01-05 09:12:30,"1,136s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Grupo a""), 1)",Chrome 96.0.4664.110,,,2022-01-05 09:12:30,2022-01-05 09:12:31,"1,136s",PASSED
+"click(findTestObject(""Modulo Pruebas Seguridad/Crear_Empresa/a_Actualizar""))",Chrome 96.0.4664.110,,,2022-01-05 09:12:31,2022-01-05 09:12:32,"0,460s",PASSED

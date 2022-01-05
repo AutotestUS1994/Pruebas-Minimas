@@ -6,12 +6,11 @@
    <elementGuidId>a7eea241-96c3-4268-881a-0544037b5ad8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='popupManejoReporte_form:tipoReporte']/tbody/tr[2]/td/label</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='xls']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

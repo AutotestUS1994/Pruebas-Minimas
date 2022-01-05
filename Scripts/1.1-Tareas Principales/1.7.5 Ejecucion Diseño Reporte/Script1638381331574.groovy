@@ -40,5 +40,7 @@ WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/label_Xlsdata'))
 
 WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/a_Reporte'))
 
+WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/span_E_ui-icon ui-icon-closethick'))
+
 WebUI.closeBrowser()
 

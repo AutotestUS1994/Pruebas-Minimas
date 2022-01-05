@@ -78,6 +78,12 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
     2)
 
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    Keys.chord(Keys.ENTER))
+
 if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/span_01072021'), 
     1)) {
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/span_01072021'))

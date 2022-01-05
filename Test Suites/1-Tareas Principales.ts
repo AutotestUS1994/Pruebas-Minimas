@@ -12,357 +12,405 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>bfc343f7-3c85-4e3b-b7d9-011454cd91ba</testSuiteGuid>
    <testCaseLink>
-      <guid>c3f822cb-1640-494a-8aa0-409b3a31ced4</guid>
+      <guid>a4231878-e26a-46e8-ac33-802f07bfaf8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8938182f-c982-4498-bba5-810a176ce730</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6bf4e4ec-f287-4005-b6d3-bad6adbcb4b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>feb8d428-429f-417c-bdc9-800f77091728</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>93f8de50-ff24-4c0c-a760-b4b44a085c0f</guid>
+      <guid>18db7d8b-13cc-4f2d-b1bd-f2848015031b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b18292b9-c9e2-4a00-bac5-ecbc04529e52</guid>
+      <guid>1c8ca1ba-5e3d-4909-b1fe-03cdf770b717</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.3-Elaboracion Acto Cambio del Empleado</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>185f58a7-0f13-40fa-9636-09ca82071446</guid>
+      <guid>e25df8ff-6689-48f3-a91c-c65f0451acce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.4-Crear Periodos Internos de cada Nomina</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9d76c483-4541-4ae6-8b43-1d0783721078</guid>
+      <guid>f94d7cd0-1600-4919-b89f-8350f534f876</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.5-Generacion Periodos Internos de cada Nomina</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ce86ab7-4386-4337-8b04-436fcc90f63d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.1 Crear Histórico Vacaciones</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4f08dbd3-d677-4e8c-9a10-e32cd48061a0</guid>
+      <guid>34de4dae-1fa9-4743-ae60-9851e093e942</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.6-crear vacaciones</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f127b09-89c0-4126-bbf5-affadeb5f25f</guid>
+      <guid>48393df3-bd40-4a5d-92f1-f3e84e4305c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.7-Generar Vacaciones</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>23c90fc9-d0d4-4938-a9ed-fc98a9de5eeb</guid>
+      <guid>be475a8c-64c8-4d37-ae56-6e5b308a6e57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.8-Mantenimiento de Vacaciones Reliquidar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e59ad3ba-cee0-42e6-af75-4fa2152d6ebc</guid>
+      <guid>5cdbdec6-24b9-4555-89dc-33123f5f6990</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.1.9-Imprimir comprobante de vacaciones</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bb4612ec-ee15-4586-9632-f42354143ce2</guid>
+      <guid>71bb9d5c-66a8-460b-964b-e5df1d0a7e0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.1-Reversar Vacaciones</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0d48996-fd00-4ada-82b4-99bad20ecebf</guid>
+      <guid>b9e64b08-c0ba-4c7b-a001-2f837c96a79c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.2-Legalizar licencia No Remunerada</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d44aeae5-d176-4111-9cbb-08806f0b93af</guid>
+      <guid>c80111ac-64a0-473a-acbd-95bad0b810d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.3-Legalizar Licencia Remunerada</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f290cfd2-f30c-465f-947c-49f9b2ef8045</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>717e0d43-e2c4-4476-a353-174fe671ca4a</guid>
+      <guid>fad80fc0-91e4-4506-a4ec-b59a091b48e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.4-Incapacidad</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2b4f9eb-d436-4b14-a8df-d2326a214dcc</guid>
+      <guid>d55406dd-4ae3-4d6b-966b-2892d2dae7c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.5-Solicitud</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>10bd2324-5812-44aa-932d-9a92c4f0d71e</guid>
+      <guid>f46651df-2927-42a2-858d-1cdc2f0f9c02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.6-Legalizar Solicitud Nov Empelado</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc18bd1e-1559-45bf-9851-2e43037cdb07</guid>
+      <guid>39b933dc-17a5-4437-9a7e-4a7193755f2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.7-Liquidacion Periodica</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e81412c-6a0c-46ee-8f37-b2f20cd29ede</guid>
+      <guid>f6ae018e-63a3-425a-a56e-ce755ebd6e69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.8-Embargos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d288108-d107-4880-855d-73882de3ab09</guid>
+      <guid>8d93e4f0-b806-4ffa-818e-ddb768b8743b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.2.9-Novedad</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>feae0bfa-8eda-4d8e-93ba-f490993f9fbf</guid>
+      <guid>e9605b6e-55e9-4ef7-bd9c-64297f154876</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.1-Periodo en Proceso - Archivo Plano</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>51d5cad9-a127-43a1-a5e9-45c9442d0dac</guid>
+      <guid>b7346bf7-63fc-4eff-8e97-bf66992721d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.2-Recalculo Seleccion</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e5e4f716-1637-4e0f-868b-86f597f6bd01</guid>
+      <guid>ae58e9e8-a651-478c-a57d-d43d7f56ac3d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.3-Recalculo Total</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e1ca9a3-6558-41f4-a964-1215e58c4c12</guid>
+      <guid>55ddc966-9833-4be8-a399-f58b5ef36a61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.4-Reporte de Recalculo Total</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>819f5486-3aeb-4ab5-8d84-53f233f77f42</guid>
+      <guid>64273b0f-3949-482e-95ff-58432e269779</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.5-Comprobante de Pago</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>06268473-47eb-48f2-a7d4-a35df2e75705</guid>
+      <guid>b8cf4a63-5b75-41dc-8173-343aa0e8a12c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.6-Reversar Nomina</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>802e317c-18d8-4d3e-8993-09ca7195558a</guid>
+      <guid>48c6ecf4-1ad3-4893-a335-722e445ba2ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.7-Liquidacion y reversion por bancos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff01627b-d2a3-41fa-a911-5474147fa970</guid>
+      <guid>266e33df-d2d1-4472-bdce-a08b9747bafd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.8-Exportacion de Archivo de Seguridad Social</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e53fdc85-21db-4845-9365-a97f16bf4425</guid>
+      <guid>e0cca86f-864e-4a7e-bac3-1df45ed69a0e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.3.9-Archivo Cargue Operador</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>98dbb7dc-014a-460c-ae37-404876b06110</guid>
+      <guid>bc8fcb64-dcdf-44bc-88da-c032b6709fe0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.1-Liquidacion_de_contrato</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0395a0c9-16d8-4332-9599-bd69c5b09092</guid>
+      <guid>19f0a81c-7bb1-40c6-83fe-98c92f86dd01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.2-Acto Retiro Empleado</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e888094-d344-4b9c-875f-3ccf73123f9c</guid>
+      <guid>28d2bd36-ebff-4e2a-8505-ec6a1c15345d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.3-Generacion Interfaz</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>166790c7-3d30-469e-baff-6314680614f9</guid>
+      <guid>8a55f58f-5abb-4ecc-9288-d4a926815ebf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.4-Crear Puesto de Trabajo</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0cee1673-9e16-4bdb-8459-1361a6d5118f</guid>
+      <guid>9328e3f4-1ab7-4eb6-b388-c013fbaccf63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.5-Actualizacion de Datos en Puesto de Trabajo</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ad582ff-be19-4c89-8a68-c8fe7f204642</guid>
+      <guid>a7d03861-0c6c-42ed-9dae-86b003633cd7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.6-Prestamo Liquidacion Periodica</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>329f0166-4ee7-44f2-b62e-aa1be7a40f12</guid>
+      <guid>d25a29b7-e1ce-40bb-9698-15ddf70ad5a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.7-Liquidacion concepto de Nomina</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e0736fad-e8de-4804-b532-1fcc8f5a11b7</guid>
+      <guid>dbf222d8-ef22-4d32-b998-c588a6ad70d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.8-Tarea Importar Fuente general</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>47ad0da3-ad29-4213-abcf-09415a16927e</guid>
+      <guid>8721336c-5a8b-4a32-b3c3-42cee8127186</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.4.9-Verificacion de campo Total Abonado</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e0c2661-5900-48a6-9f45-faa061ece3a9</guid>
+      <guid>0e6eeb8e-7f32-4780-aaa9-2f94c57e82f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.1-Administracion embargos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e447d353-fa85-4d3d-91ba-03b02698352f</guid>
+      <guid>02cdafe9-5db3-4d27-86e4-3b283e5cb5ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.2-Liquidacion Entidad Externa</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>12be64cd-98f4-438e-8abc-dbde28a19bb3</guid>
+      <guid>4d712ffa-d372-48e7-a5e7-d93bd1ff1fd5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.3-Reporte Planilla</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5560183e-b7b8-430c-8bdc-bc5d96af06f7</guid>
+      <guid>7ef921ad-1448-4a1c-b141-f68c122482d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.4-Ejecutar Reporte Plantilla</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ea4e7f22-bf4e-448f-a790-cccfc5f0c60e</guid>
+      <guid>11a13799-08f7-49b4-8c0b-3847cee5cf3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c6faec02-0a82-428b-b070-618e60746b91</guid>
+      <guid>1e2cc691-14d1-4762-a835-a189697aff51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.6 Reporte Nomina Electronica</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4318becc-1c4e-4546-9350-95b017a2247a</guid>
+      <guid>dca43e06-1f4f-43a5-90f0-167861b9cdfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.7 Descargar Nomina Electronica</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50e0abdc-c270-4436-b5c3-139bc5638cc4</guid>
+      <guid>9dfea49f-ac44-4817-90e2-678a7a2d8a6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f0c9ead5-4eab-4823-9c46-fa9ab2352976</guid>
+      <guid>98c315e3-63a9-4420-82e5-02bcf9ac5ce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.5.9 Crear Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8c6b744-047a-44c4-bf7c-70e67e01fe02</guid>
+      <guid>9619eb47-b525-48c6-8ce0-ec596c16a17e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.1 Costos de Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>95574491-d3ca-4ce9-9f82-eb26e21134a8</guid>
+      <guid>c31013ff-7864-408c-a0cf-f6f776d01259</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.2 Complementario de Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>14c55339-3574-4527-b487-703e15e013c9</guid>
+      <guid>35e3ca59-be30-4402-9a00-0a57ce944eab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.3 Desembolsar Viático</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1e5c702-c4cf-4e10-84de-27ee8783b6ea</guid>
+      <guid>e2890b19-00e4-4a74-9171-28f83488a381</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.5 Modificar Solicitud de Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>080f41a4-6824-4fe6-952a-86a1acd237d4</guid>
+      <guid>8cb72879-beb6-4abf-ba8b-f57ce0b6a3f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.6 Anulación y Legalización de viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dfc29ba6-a733-4191-92ab-99256a4e2bfb</guid>
+      <guid>9acd2294-d0ee-42e1-9a49-ee80268f2b54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.7 Modificar retroactivos viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f063317c-7899-40fb-9bae-59d5ed82c420</guid>
+      <guid>99a8323f-a6a0-458b-9d7d-f55f4ac755c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.8 Guardar retroactivo de viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e06aaa13-f151-49d6-b7bf-ba11868f8971</guid>
+      <guid>7e85d5d5-44f1-444a-9861-b25418df024f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ace1d588-158c-448a-84d2-e81be49104ac</guid>
+      <guid>bc510f5a-559b-4529-8ed0-4d52a3754f58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.1 Crear Histórico Vacaciones</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f00d509-9503-489d-8198-8bb9cbcff5ae</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f53f36b8-3b2b-40f7-af7f-848add6a7dda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.7.3 Eliminar Viàtico</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>211690a2-962a-4e40-a421-a502c1b42035</guid>
+      <guid>6e0d359e-cf74-4967-9548-d1276772237b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/Listado hojas de Vida</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.4-Datos_Básicos_del_Empleado</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>14d7b817-7e0e-4e18-98fd-521fcf5e9116</guid>
+      <guid>4ca6fdf8-bfbf-4653-aad0-a3ed23ef69b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.7.5 Ejecucion Diseño Reporte</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>522e4beb-af84-404c-add1-edc9f7b6b53e</guid>
+      <guid>360f36b2-540a-4174-b696-39eb0d33ee93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.7.6-Generacion_Interfaz_Contable</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0604c90-630e-499e-8f2c-0eb8dc2d3e56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.7-Crear_Días_Festivos</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>79819a2f-0a52-4c65-bfdc-8595995a32c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/Listado hojas de Vida</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac53d403-1553-4661-96c6-e2a29c50c14c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>015d4db8-6f9a-45eb-9018-cad8a2be93b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34e132bf-3a29-444e-9cc3-dc1690b8b4b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

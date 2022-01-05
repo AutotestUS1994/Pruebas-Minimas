@@ -32,12 +32,228 @@ WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modul
 WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/select_--Seleccione--Estado'), 
     2)
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/span_01.07.2021'), 
     1)) {
-    WebUI.closeBrowser() //String creado para redireccionar  los archivos requeridos por el test//
+    WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Creacin de una solicitud de vitico'), 
+        0)
+
+    WebUI.doubleClick(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Creacin de una solicitud de vitico'))
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+        '01/07/2021')
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Nmero_form_detalleviaticosNumero'), 
+        '5')
+
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+        Keys.chord(Keys.ESCAPE))
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Destino --Barranquilla'), 
+        '3')
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione Tipo Comisin --ADMINISTRATIVO'), 
+        0)
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione Tipo Comisin --ADMINISTRATIVO'), 
+        '1')
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione Tipo Comisin --ADMINISTRATIVO'), 
+        0)
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --NACIONAL 1'), 
+        '3')
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Rubro_form_detalleviaticosj_idt1295'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_Prueba Plan Inversin'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_Prueba Plan Inversin'))
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Unidad Solicita_form_detalleviaticosj_idt1299'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Unidad_form_detalleviaticosj_idt1487'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Unidad_form_detalleviaticosj_idt1487'), 
+        'A1')
+
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Unidad_form_detalleviaticosj_idt1487'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_ADMINISTRACION'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_ADMINISTRACION'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Centro Costo_form_detalleviaticosj_idt1307'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Centro Costo_form_detalleviaticosj_idt1307'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Centro Costo de Prueba'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Centro Costo de Prueba'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/textarea_Objeto_form_detalleviaticosObjeto'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/textarea_Objeto_form_detalleviaticosObjeto'), 
+        'prueba')
+
+    WebUI.selectAllOption(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione --BUITRAGO BUITRAGO ANDREA'))
+
+    WebUI.selectAllOption(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione --COQUINTERO 5 EMPLEADO'))
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/textarea_Observacin_form_detalleviaticosObservacion'), 
+        'prueba')
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Guardar'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Programacin'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Programacin'))
+
+    WebUI.waitForElementNotHasAttribute(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo2'), 
+        '', 0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo2'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Funcionario_form_popupprogramacionviaticospestaniasj_idt1559'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Funcionario_form_popupprogramacionviaticospestaniasj_idt1559'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+        'Quintero 5 Empleado')
+
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Quintero 5 Empleado'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Quintero 5 Empleado'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Inicial_form_popupprogramacionviaticospestaniasfechainicial_input'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Inicial_form_popupprogramacionviaticospestaniasfechainicial_input'), 
+        '01/07/2021')
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
+        '01/10/2021')
+
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
+        Keys.chord(Keys.ESCAPE))
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Destino --Barranquilla'), 
+        '3')
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione Tipo Comisin --ADMINISTRATIVO2'), 
+        '1')
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Entidad_form_popupprogramacionviaticospestaniasj_idt1581'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --EXTERIOR 1EXTERIOR 2NACIONAL 1'), 
+        0)
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --EXTERIOR 1EXTERIOR 2NACIONAL 1'), 
+        '3')
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Guardar2'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Guardar2'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Entidades Vigiladas'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Entidades Vigiladas'))
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Fecha Final_form_Entidad_entidades_vigiladas'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123_entidades vigiladas'), 
+        0)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123_entidades vigiladas'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha Inicial_form_entidades vigiladas'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha Inicial_form_entidades vigiladas'), 
+        '01/07/2021')
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha Final_form_entidades vigiladas'), 
+        '01/11/2021')
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Fecha Final_form_popupprogramacionviaticospestaniasotrasEntidadesTablaj'))
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Otras Entidades'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha entidad_form'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha entidad_form'), 
+        '5')
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha Inicial_form_otras_entidades'), 
+        '01/07/2021')
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Fecha Final_form_otras_entidades'), 
+        '01/11/2021')
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Fecha Final_form_'))
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo_Archivo'))
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Archivo'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo_Archivo'), 
+        1)
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo_Archivo'))
+
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivosubir'))
+
+    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
+        0)
+
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
+        'prueba')
+
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
+        Keys.chord(Keys.ENTER))
+
+    String ruta = GlobalVariable.G_rutaarchivos + 'viaticos.pdf'
+
+    WebUI.uploadFile(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
+        ruta)
+
+    WebUI.getText(findTestObject('Alerta/Alerta'))
 } else {
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo'))
 

@@ -31,6 +31,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modul
 WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
     2)
 
