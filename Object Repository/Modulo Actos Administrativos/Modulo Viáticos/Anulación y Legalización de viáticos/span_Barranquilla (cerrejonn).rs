@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Destino:'])[3]/following::span[1]</value>
+         <value>//*/text()[normalize-space(.)='Barranquilla (cerrejón)']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

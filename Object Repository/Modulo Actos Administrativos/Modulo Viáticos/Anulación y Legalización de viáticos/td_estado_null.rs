@@ -6,15 +6,15 @@
    <elementGuidId>89d4221d-1bad-4549-9127-13b0b3c56d7c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;form_detalleviaticos:j_idt1377_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[6]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Plan Inversión'])[1]/following::td[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Viatico prueba'])[1]/following::td[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;form_detalleviaticos:j_idt1377_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

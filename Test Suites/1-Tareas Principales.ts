@@ -12,24 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>bfc343f7-3c85-4e3b-b7d9-011454cd91ba</testSuiteGuid>
    <testCaseLink>
-      <guid>a4231878-e26a-46e8-ac33-802f07bfaf8f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8938182f-c982-4498-bba5-810a176ce730</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6bf4e4ec-f287-4005-b6d3-bad6adbcb4b5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>feb8d428-429f-417c-bdc9-800f77091728</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -360,12 +342,6 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f53f36b8-3b2b-40f7-af7f-848add6a7dda</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.3 Eliminar Viàtico</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6e0d359e-cf74-4967-9548-d1276772237b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -394,23 +370,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/Listado hojas de Vida</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ac53d403-1553-4661-96c6-e2a29c50c14c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>015d4db8-6f9a-45eb-9018-cad8a2be93b2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>34e132bf-3a29-444e-9cc3-dc1690b8b4b1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

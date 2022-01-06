@@ -230,6 +230,9 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
             1)) {
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_viaticos2'))
 
+            WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'), 
+                0)
+
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'))
         }
         
@@ -249,10 +252,14 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
             1)) {
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Registro'))
 
+            if(WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Viatico'), 
+                1)) {
+
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Eliminar_Viatico'))
 
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar_viatico'))
-        }
+            }
+			}
     }
 }
 

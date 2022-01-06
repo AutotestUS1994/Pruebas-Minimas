@@ -6,12 +6,12 @@
    <elementGuidId>95a7293d-cbdc-408a-8a06-2062665403c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/ul/li[4]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.ui-tabs-header.ui-state-default.ui-corner-top.ui-state-hover > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Concepto')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

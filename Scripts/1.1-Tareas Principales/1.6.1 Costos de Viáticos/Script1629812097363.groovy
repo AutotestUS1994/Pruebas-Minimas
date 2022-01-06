@@ -111,7 +111,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/span_Modificar una solicitud de vitico'))
 
     WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
-        '01/07/2021')
+        '01/12/2021')
 
     WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
         Keys.chord(Keys.ENTER))
