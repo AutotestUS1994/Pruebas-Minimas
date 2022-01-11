@@ -27,7 +27,7 @@
       <guid>1c8ca1ba-5e3d-4909-b1fe-03cdf770b717</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.3-Elaboracion Acto Cambio del Empleado</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.1.3-Elaboracion Acto Cambio del Empleado y derrogacion</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e25df8ff-6689-48f3-a91c-c65f0451acce</guid>

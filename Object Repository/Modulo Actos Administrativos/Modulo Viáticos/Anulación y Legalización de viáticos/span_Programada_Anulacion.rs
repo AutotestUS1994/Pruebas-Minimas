@@ -6,12 +6,11 @@
    <elementGuidId>2ef52db1-cf73-46de-ad20-6363c3cb2db7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='form_listadoviaticos:tabla_listado_viaticos_multiple_data']/tr[3]/td[5]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[2]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

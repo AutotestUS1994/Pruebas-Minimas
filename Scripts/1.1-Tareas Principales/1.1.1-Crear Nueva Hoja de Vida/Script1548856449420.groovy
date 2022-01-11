@@ -58,10 +58,10 @@ WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoj
     identificacion)
 
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8351j_idt845'), 
-    'jhon' + identificacion)
+    'Empleado' + identificacion)
 
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8352j_idt845'), 
-    'consta belfegord')
+    ' Pruebas_Automaticas')
 
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input'), 
     '30/08/1995')

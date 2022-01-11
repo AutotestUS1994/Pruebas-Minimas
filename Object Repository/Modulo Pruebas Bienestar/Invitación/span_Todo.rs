@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='invitacionEventosPopupForm:j_idt1366:j_idt1370:T']/span</value>
+         <value>//*/text()[normalize-space(.)='Todo']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

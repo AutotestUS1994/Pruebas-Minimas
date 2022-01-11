@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='form_popupprogramacionviaticos:planesInversion_data']/tr[2]/td[2]</value>
+         <value>//tr[2]/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

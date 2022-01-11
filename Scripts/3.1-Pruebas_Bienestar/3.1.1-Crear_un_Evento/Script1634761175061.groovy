@@ -38,10 +38,9 @@ Number sumaD = Dia + 10
 
 Number sumaM = Mes + 1
 
-Number sumaA = Año + 1;
+Number sumaA = Año + 1
 
 /*--------------------------*/
-
 if (sumaD > 30) {
     sumaD = (sumaD - Dia)
 
@@ -148,6 +147,14 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
     
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
 
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Publicacin'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_http'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_http'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si'))
+    }
+    
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro'))
 
     if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_MAR-MIE 0500-0600'), 1)) {
@@ -257,6 +264,14 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_momentoE'))
 
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Publicacin'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_http'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_http'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si'))
     }
     
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro0'))
