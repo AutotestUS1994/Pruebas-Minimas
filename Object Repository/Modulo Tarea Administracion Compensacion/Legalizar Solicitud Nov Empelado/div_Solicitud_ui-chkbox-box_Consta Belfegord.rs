@@ -6,11 +6,11 @@
    <elementGuidId>33499496-98da-4b05-9850-6d2ab9fdc4c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Constantino . Jhon'])[1]/preceding::div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Consta Belfegord . Jhon'])[1]/preceding::div[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
