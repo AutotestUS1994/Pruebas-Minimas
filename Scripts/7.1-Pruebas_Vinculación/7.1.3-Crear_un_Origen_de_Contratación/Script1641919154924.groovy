@@ -26,6 +26,15 @@ WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contr
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Origen Contratacin'))
 
+if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'), 
+    1))
+{
+WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'))
+
+WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Eliminar'))
+
+WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Aceptar'))
+}
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Nuevo'))
 
 WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Cdigo_form_origencontratacioncodigo'), 
@@ -35,12 +44,12 @@ WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Con
     'Pruebas katalon')
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Hoja Vida ExisteIngresa Hoja Manual'), 
-    null)
+    '0')
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Datos de un RequerimientoDatos de una SeleccionNo aplica'), 
-    null)
+    2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo'), null)
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo'), 1)
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Guardar'))
 

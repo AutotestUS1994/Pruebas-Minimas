@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>local</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Variable global logueo</description>
+      <initValue>'http://localhost:8380/saraweb/\r\n'</initValue>
+      <name>G_Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tiempo espera largo</description>
+      <initValue>10</initValue>
+      <name>G_TimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tiempo espera corto</description>
+      <initValue>5</initValue>
+      <name>G_TimeShort</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tiempo espera recalculo total</description>
+      <initValue>90</initValue>
+      <name>G_TimeNomina</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Ruta archivos pruebas</description>
+      <initValue>'E:\\unionweb14\\'</initValue>
+      <name>G_rutaarchivos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>usuario en la pantalla de logueo</description>
+      <initValue>'saraadmin'</initValue>
+      <name>G_Usuario</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Variable global logueo seguridad</description>
+      <initValue>'http://192.168.2.80:8380/seguridadweb/'</initValue>
+      <name>G_Login_Seguridad</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario para test 2.1.8-Aprobación_Novedades</description>
+      <initValue>'1057596487'</initValue>
+      <name>G_Usuario2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
