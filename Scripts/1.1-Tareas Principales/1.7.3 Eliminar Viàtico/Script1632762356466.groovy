@@ -56,7 +56,7 @@ WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eli
 WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Documento_form_listadoviaticosfechaViat_input'), 
     Keys.chord(Keys.ESCAPE))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_01072021'), 
+if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_01072021'), 
     1)) {
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_01072021'))
 

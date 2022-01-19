@@ -1,0 +1,157 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2-Pruebas hoja de vida,Chrome 97.0.4692.71,,,2022-01-13 10:58:52,2022-01-13 11:03:27,"4m - 34,735s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.0-Nueva_Categoria,Chrome 97.0.4692.71,,,2022-01-13 10:58:53,2022-01-13 10:59:16,"22,726s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 10:58:53,2022-01-13 10:59:03,"9,665s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search""), 0)",Chrome 97.0.4692.71,,,2022-01-13 10:59:03,2022-01-13 10:59:04,"1,032s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search""), ""categoria"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:04,2022-01-13 10:59:05,"0,696s",PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-13 10:59:05,2022-01-13 10:59:06,"1,021s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 10:59:06,2022-01-13 10:59:07,"0,894s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:07,2022-01-13 10:59:08,"1,596s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 10:59:08,2022-01-13 10:59:09,"0,936s",PASSED
+"if (waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/span_prueba""), 1))",Chrome 97.0.4692.71,,,2022-01-13 10:59:09,2022-01-13 10:59:12,"2,779s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/a_Nuevo""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:12,2022-01-13 10:59:12,"0,558s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/input_Descripcin_form_categoriaSecciondescripcion""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:12,2022-01-13 10:59:14,"1,104s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden""), ""5"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:14,2022-01-13 10:59:14,"0,703s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_Categoria/a_Guardar""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:14,2022-01-13 10:59:15,"0,437s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-13 10:59:15,2022-01-13 10:59:15,"0,768s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.1-Nueva_Seccion,Chrome 97.0.4692.71,,,2022-01-13 10:59:16,2022-01-13 10:59:42,"26,964s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 10:59:16,2022-01-13 10:59:22,"6,493s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:22,2022-01-13 10:59:24,"1,909s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:24,2022-01-13 10:59:25,"0,531s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/label_Parametros de Formularios""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:25,2022-01-13 10:59:25,"0,426s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/a_Seccion""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:25,2022-01-13 10:59:26,"0,381s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""), 0)",Chrome 97.0.4692.71,,,2022-01-13 10:59:26,2022-01-13 10:59:27,"1,282s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:27,2022-01-13 10:59:27,"0,481s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:27,2022-01-13 10:59:28,"0,846s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 10:59:28,2022-01-13 10:59:29,"0,851s",PASSED
+"if (waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/span_Prueba""), 1))",Chrome 97.0.4692.71,,,2022-01-13 10:59:29,2022-01-13 10:59:31,"1,541s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/a_Nuevo""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:31,2022-01-13 10:59:32,"0,906s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion""), ""Prueba"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:32,2022-01-13 10:59:33,"1,067s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Orden_seccion_formtaborden""), ""12345"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:33,2022-01-13 10:59:33,"0,776s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneBienes""), ""2"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:33,2022-01-13 10:59:34,"1,079s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneAreas de experiencia""), ""5"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:34,2022-01-13 10:59:36,"1,209s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje""), ""PRUEBA"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:36,2022-01-13 10:59:37,"1,022s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/textarea_Mensaje Final_seccion_formtabmensaje_final""), ""PRUEBA"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:37,2022-01-13 10:59:38,"0,775s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/textarea_Texto Confirmar_seccion_formtabmensaje_aceptacion""), ""PRUEBA"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:38,2022-01-13 10:59:38,"0,806s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneMultiplex AnexosNo solicitarnico anexo""), ""2"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:38,2022-01-13 10:59:39,"1,177s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/select_SeleccioneSiNo""), ""1"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:39,2022-01-13 10:59:41,"1,055s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/input_Externo_seccion_formtabexterno""), ""PRUEBA"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:41,2022-01-13 10:59:41,"0,790s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nueva_sección/a_Guardar""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:41,2022-01-13 10:59:42,"0,417s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-13 10:59:42,2022-01-13 10:59:42,"0,734s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.2-Nuevo_Formulario_Hoja_de_vida,Chrome 97.0.4692.71,,,2022-01-13 10:59:42,2022-01-13 11:00:01,"18,705s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 10:59:43,2022-01-13 10:59:50,"7,034s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:50,2022-01-13 10:59:51,"1,410s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:51,2022-01-13 10:59:52,"0,533s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:52,2022-01-13 10:59:52,"0,397s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:52,2022-01-13 10:59:53,"0,376s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:53,2022-01-13 10:59:54,"1,333s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 10:59:54,2022-01-13 10:59:55,"0,853s",PASSED
+"if (waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba""), 1))",Chrome 97.0.4692.71,,,2022-01-13 10:59:55,2022-01-13 10:59:58,"3,017s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo""))",Chrome 97.0.4692.71,,,2022-01-13 10:59:58,2022-01-13 10:59:58,"0,541s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:58,2022-01-13 10:59:59,"1,014s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo""), ""123"")",Chrome 97.0.4692.71,,,2022-01-13 10:59:59,2022-01-13 11:00:00,"0,671s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:00,2022-01-13 11:00:00,"0,396s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-13 11:00:00,2022-01-13 11:00:01,"0,749s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.3-Crear_Nueva_Tipo_de_Hoja,Chrome 97.0.4692.71,,,2022-01-13 11:00:01,2022-01-13 11:00:24,"22,913s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:00:02,2022-01-13 11:00:09,"7,069s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/input_Empresa 1_form_templatej_idt24_input""), ""Tipo de Hoja"")",Chrome 97.0.4692.71,,,2022-01-13 11:00:09,2022-01-13 11:00:10,"1,368s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/span_Tipo de Hoja""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:10,2022-01-13 11:00:12,"1,559s",PASSED
+"if (waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/span_P1""), 1))",Chrome 97.0.4692.71,,,2022-01-13 11:00:12,2022-01-13 11:00:15,"3,727s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Nuevo""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:15,2022-01-13 11:00:16,"0,515s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/input_Tipo Relacin Hoja_form_tipohojavinculacion""), ""P1"")",Chrome 97.0.4692.71,,,2022-01-13 11:00:16,2022-01-13 11:00:17,"0,994s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/input_Descripcin_form_tipohojadescripcion""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 11:00:17,2022-01-13 11:00:18,"0,863s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Directa""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:18,2022-01-13 11:00:18,"0,401s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_Si_Crear Hoja""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:18,2022-01-13 11:00:19,"0,435s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Aprobada""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:19,2022-01-13 11:00:19,"0,369s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Rechazada""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:19,2022-01-13 11:00:19,"0,434s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/select_Formulario Asociados""), 8)",Chrome 97.0.4692.71,,,2022-01-13 11:00:19,2022-01-13 11:00:20,"1,171s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/select_Hoja Asociar""), 3)",Chrome 97.0.4692.71,,,2022-01-13 11:00:20,2022-01-13 11:00:22,"1,102s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/select_Gestion Periodo""), 2)",Chrome 97.0.4692.71,,,2022-01-13 11:00:22,2022-01-13 11:00:23,"1,052s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/select_Modo""), 1)",Chrome 97.0.4692.71,,,2022-01-13 11:00:23,2022-01-13 11:00:24,"1,054s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Tipo_de_Hoja/a_Guardar""))",Chrome 97.0.4692.71,,,2022-01-13 11:00:24,2022-01-13 11:00:24,"0,429s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.4-Crear_Nueva_Hoja_de_Vida,Chrome 97.0.4692.71,,,2022-01-13 11:00:24,2022-01-13 11:00:59,"34,685s",PASSED
+"callTestCase(findTestCase(""1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:00:24,2022-01-13 11:00:59,"34,341s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.5-Crear_Nueva_Hoja_de_Vida_(adjuntar_documento),Chrome 97.0.4692.71,,,2022-01-13 11:00:59,2022-01-13 11:01:23,"23,865s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:00:59,2022-01-13 11:01:07,"7,707s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:07,2022-01-13 11:01:09,"1,553s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:09,2022-01-13 11:01:09,"0,537s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida""), 0)",Chrome 97.0.4692.71,,,2022-01-13 11:01:09,2022-01-13 11:01:09,"0,351s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:09,2022-01-13 11:01:10,"0,365s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida""), 0)",Chrome 97.0.4692.71,,,2022-01-13 11:01:10,2022-01-13 11:01:10,"0,360s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:10,2022-01-13 11:01:11,"0,395s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63""), ""355682169"")",Chrome 97.0.4692.71,,,2022-01-13 11:01:11,2022-01-13 11:01:13,"2,071s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 11:01:13,2022-01-13 11:01:13,"0,384s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:13,2022-01-13 11:01:14,"0,637s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:14,2022-01-13 11:01:15,"0,846s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:15,2022-01-13 11:01:15,"0,630s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion""), ""prueba"")",Chrome 97.0.4692.71,,,2022-01-13 11:01:15,2022-01-13 11:01:16,"1,114s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:16,2022-01-13 11:01:17,"0,368s",PASSED
+"ruta = G_rutaarchivos + ""HojaDeVida.txt""",Chrome 97.0.4692.71,,,2022-01-13 11:01:17,2022-01-13 11:01:17,"0,000s",PASSED
+"uploadFile(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input""), ruta)",Chrome 97.0.4692.71,,,2022-01-13 11:01:17,2022-01-13 11:01:20,"3,535s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba""), 0)",Chrome 97.0.4692.71,,,2022-01-13 11:01:20,2022-01-13 11:01:21,"0,703s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:21,2022-01-13 11:01:21,"0,432s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:21,2022-01-13 11:01:22,"0,630s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-13 11:01:22,2022-01-13 11:01:23,"0,751s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.6-Impresión_Hoja_Vida_Plantilla,Chrome 97.0.4692.71,,,2022-01-13 11:01:23,2022-01-13 11:01:42,"19,009s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:01:23,2022-01-13 11:01:30,"6,930s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:30,2022-01-13 11:01:31,"1,350s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:31,2022-01-13 11:01:32,"0,497s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:32,2022-01-13 11:01:32,"0,377s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida""), 0)",Chrome 97.0.4692.71,,,2022-01-13 11:01:32,2022-01-13 11:01:33,"0,344s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:33,2022-01-13 11:01:33,"0,413s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63""), 0)",Chrome 97.0.4692.71,,,2022-01-13 11:01:33,2022-01-13 11:01:35,"1,620s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63""), ""355682169"")",Chrome 97.0.4692.71,,,2022-01-13 11:01:35,2022-01-13 11:01:35,"0,820s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 11:01:35,2022-01-13 11:01:36,"0,372s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/td_355682169""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:36,2022-01-13 11:01:36,"0,617s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Generar""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:36,2022-01-13 11:01:37,"0,782s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:37,2022-01-13 11:01:38,"0,848s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar""))",Chrome 97.0.4692.71,,,2022-01-13 11:01:38,2022-01-13 11:01:39,"0,884s",PASSED
+delay(2),Chrome 97.0.4692.71,,,2022-01-13 11:01:39,2022-01-13 11:01:41,"2,010s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-13 11:01:41,2022-01-13 11:01:42,"0,810s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.7-Impresión_Hoja_Vida_Función_Pública,Chrome 97.0.4692.71,,,2022-01-13 11:01:42,2022-01-13 11:02:23,"40,906s",PASSED
+"callTestCase(findTestCase(""1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:01:42,2022-01-13 11:02:23,"40,551s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.1.8-Aprobación_Novedades,Chrome 97.0.4692.71,,,2022-01-13 11:02:23,2022-01-13 11:03:10,"46,906s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:02:23,2022-01-13 11:02:30,"6,985s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 97.0.4692.71,,,2022-01-13 11:02:30,2022-01-13 11:02:31,"1,431s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 97.0.4692.71,,,2022-01-13 11:02:31,2022-01-13 11:02:32,"0,506s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/label_Nueva Hoja Vida""))",Chrome 97.0.4692.71,,,2022-01-13 11:02:32,2022-01-13 11:02:32,"0,375s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Novedades""))",Chrome 97.0.4692.71,,,2022-01-13 11:02:32,2022-01-13 11:02:33,"0,388s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada""), 3)",Chrome 97.0.4692.71,,,2022-01-13 11:02:33,2022-01-13 11:02:34,"1,737s",PASSED
+"if (waitForElementVisible(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL""), 1))",Chrome 97.0.4692.71,,,2022-01-13 11:02:34,2022-01-13 11:02:37,"2,237s",PASSED
+else,Chrome 97.0.4692.71,,,2022-01-13 11:02:37,2022-01-13 11:02:54,"17,334s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:02:54,2022-01-13 11:03:00,"6,441s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:00,2022-01-13 11:03:02,"1,384s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:02,2022-01-13 11:03:02,"0,518s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/label_Nueva Hoja Vida""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:02,2022-01-13 11:03:03,"0,376s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Novedades""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:03,2022-01-13 11:03:03,"0,399s",PASSED
+"selectOptionByIndex(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada""), 3)",Chrome 97.0.4692.71,,,2022-01-13 11:03:03,2022-01-13 11:03:05,"1,742s",PASSED
+"if (waitForElementVisible(findTestObject(""Pruebas_Hoja_de_Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL""), 1))",Chrome 97.0.4692.71,,,2022-01-13 11:03:05,2022-01-13 11:03:10,"4,669s",PASSED
+,,,,,,,
+Test Cases/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida,Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:27,"17,619s",PASSED
+random_double = Math.random() * 31,Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:10,"0,001s",PASSED
+random_double = Math.round(random_double - 10),Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:10,"0,000s",PASSED
+"identificacion = toString().replace("".0"", """")",Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:10,"0,000s",PASSED
+identificacion1 = 0 + identificacion,Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:10,"0,000s",PASSED
+identificacion0 = Integer.parseInt(identificacion),Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:10,"0,001s",PASSED
+if (identificacion0 < 10),Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:10,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-13 11:03:10,2022-01-13 11:03:16,"6,515s",PASSED
+"waitForElementClickable(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), 0)",Chrome 97.0.4692.71,,,2022-01-13 11:03:16,2022-01-13 11:03:17,"1,020s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Listado Hojas De Vida"")",Chrome 97.0.4692.71,,,2022-01-13 11:03:17,2022-01-13 11:03:18,"0,754s",PASSED
+delay(1),Chrome 97.0.4692.71,,,2022-01-13 11:03:18,2022-01-13 11:03:19,"1,009s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 11:03:19,2022-01-13 11:03:20,"0,367s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63""), ""354968431354"")",Chrome 97.0.4692.71,,,2022-01-13 11:03:20,2022-01-13 11:03:22,"2,059s",PASSED
+"sendKeys(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63""), Keys.chord(ENTER))",Chrome 97.0.4692.71,,,2022-01-13 11:03:22,2022-01-13 11:03:22,"0,347s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/td_354968431354""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:22,2022-01-13 11:03:23,"0,593s",PASSED
+"setText(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input""), identificacion1 + ""/09/2013"")",Chrome 97.0.4692.71,,,2022-01-13 11:03:23,2022-01-13 11:03:24,"1,350s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/a_Guardar""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:24,2022-01-13 11:03:24,"0,549s",PASSED
+"click(findTestObject(""Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/a_Aceptar""))",Chrome 97.0.4692.71,,,2022-01-13 11:03:24,2022-01-13 11:03:26,"1,969s",PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-13 11:03:26,2022-01-13 11:03:27,"0,717s",PASSED

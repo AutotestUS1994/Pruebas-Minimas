@@ -330,6 +330,12 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>3aae4738-eeb2-4f14-9d01-6fe9c89d46a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.6.4 Derrogacion Viático</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>bc510f5a-559b-4529-8ed0-4d52a3754f58</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

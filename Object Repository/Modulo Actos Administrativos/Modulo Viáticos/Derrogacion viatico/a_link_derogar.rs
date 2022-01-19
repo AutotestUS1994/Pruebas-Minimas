@@ -6,12 +6,11 @@
    <elementGuidId>6c3b09a7-e9be-4a52-a881-573fddd94214</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Derogar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

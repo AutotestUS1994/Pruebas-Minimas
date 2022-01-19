@@ -24,17 +24,37 @@ WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de C
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/li_Listado Contratacion (tal)'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Ver_ui-icon ui-icon-closethick'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_-- Seleccione --ANULADOCERRADOELIMINADOSOLICITADO'), 
+    4)
+
+WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Nombre Persona_listado_contratacionj_idt68'))
+
+WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt13270'), 
+    'A A A')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt13270'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'))
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/td_A A A'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Ver_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/td_A A A'))
+
+    WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/textarea_Motivo_form_contratacionpanelTabmotivo'), 
+        'PRUEBAS KATALON')
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_--Seleccione--NOSI'), 
+        1)
+
+    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Anular Proceso'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Aceptar'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Regresar'))
 }
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Nuevo'))
-
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Ver_ui-icon ui-icon-closethick'), 
-    1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Ver_ui-icon ui-icon-closethick'))
-}
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/td_Pruebas katalon'))
 
@@ -104,20 +124,21 @@ WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Con
 WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Ubicacin Fsica_j_idt1379parametroBusquedaUbicacion'), 
     'BOGOTÁ')
 
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Ubicacin Fsica_j_idt1379parametroBusquedaUbicacion'), 
+WebUI.sendKeys(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Ubicacin Fsica_j_idt1379parametroBusquedaUbicacion'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_BOGOT'))
-
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Puesto Trabajo_btn_popupInformacion'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_-- Seleccione Linea --ADMINISTRATIVONO RELACIONADASUBCENTROS'), 
     1)
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_--Seleccione--EmpalmeNormal'), 
-    3)
+    2)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_12kataloonkataloonNOMINA CATORCENALNOMINA'), 
+    8)
 
 WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Guardar'))
+
+WebUI.closeBrowser()
 

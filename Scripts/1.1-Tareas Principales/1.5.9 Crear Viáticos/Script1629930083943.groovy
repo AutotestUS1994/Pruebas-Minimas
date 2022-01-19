@@ -45,6 +45,29 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     1)) {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
 
+    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+        '2021')
+
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/select_--Seleccione--Estado'), 
+        2)
+
+    while (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/span_01.07.2021'), 
+        1)) {
+        WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+            '2021')
+
+        WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+            Keys.chord(Keys.ENTER))
+
+        WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/select_--Seleccione--Estado'), 
+            2)
+    }
+    
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo'))
 
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/span_Creacin de una solicitud de vitico'), 

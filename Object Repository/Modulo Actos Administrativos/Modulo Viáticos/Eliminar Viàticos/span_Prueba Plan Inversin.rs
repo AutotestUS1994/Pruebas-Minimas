@@ -6,11 +6,11 @@
    <elementGuidId>d3c6b73e-99ac-470b-9416-f7f225bafd44</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Plan Inversion']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[1]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
