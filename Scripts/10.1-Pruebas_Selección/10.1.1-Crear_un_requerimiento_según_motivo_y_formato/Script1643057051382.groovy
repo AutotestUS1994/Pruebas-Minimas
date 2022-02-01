@@ -33,9 +33,14 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_un_reque
     WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
 }
 
-WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/div_Requerimiento Personal'))
+if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
+} else {
+    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/div_Requerimiento Personal'))
 
-WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
+    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
+}
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin Convencional62'), 
     3)
@@ -56,4 +61,6 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimien
     1)
 
 WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Guardar Directo'))
+
+WebUI.closeBrowser()
 

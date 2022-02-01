@@ -24,5 +24,24 @@ WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_ev
 
 WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_Periodo Evaluaciones'))
 
-WebUI.comment('NO APARECE BOTON NUEVO')
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/td_Pruebas katalon'))
+
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_PRUEBAS K'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_PRUEBAS K'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Eliminar'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Aceptar'))
+}
+
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Nuevo'))
+
+WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/input_Descripcin_form_popupperiodoevaluaciondescripcion'), 
+    'PRUEBAS K')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/select_Periodo fijo, control de fechaPeriodo fijo de tiempoNo hay un rango definido'), 
+    2)
+
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Guardar'))
 

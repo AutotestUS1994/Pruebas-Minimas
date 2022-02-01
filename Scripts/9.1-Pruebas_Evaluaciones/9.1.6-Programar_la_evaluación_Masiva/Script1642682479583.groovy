@@ -19,5 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva/input_Empresa 1_form_templatej_idt24_input'), 
+    'periodo evaluaciones')
+
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva/li_Periodo Evaluaciones (tal)'))
+
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/td_Pruebas katalon'))
+
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Nuevo'))
+
+WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/input_Descripcin_form_popupperiodoevaluaciondescripcion'), 
+    'PRUEBAS K')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/select_Periodo fijo, control de fechaPeriodo fijo de tiempoNo hay un rango definido'), 
+    2)
+
+WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Guardar'))
+
 WebUI.comment('NO hay permisos para realizar la acción')
 
