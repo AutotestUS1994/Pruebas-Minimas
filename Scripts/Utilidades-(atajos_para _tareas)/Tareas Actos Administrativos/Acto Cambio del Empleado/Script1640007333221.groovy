@@ -14,11 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.sun.org.apache.bcel.internal.generic.RETURN as RETURN
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 String identificacion = ((WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida'), [:], 
         FailureHandling.STOP_ON_FAILURE)) as String)
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Tarea Actos Administrativos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Tarea Actos Administrativos'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/i_Actos_glyphicons glyphicons-group'), 
     GlobalVariable.G_TimeOut)
