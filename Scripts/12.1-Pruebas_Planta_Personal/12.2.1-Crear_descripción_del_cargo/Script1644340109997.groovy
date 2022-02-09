@@ -19,27 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/a_Salgado . Paula_organigramaj_idt111'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Salgado . Paula_organigramaj_idt111'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/a_Aceptar'), 1)) {
-    WebUI.click(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/a_Aceptar'))
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Aceptar'), 1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Aceptar'))
 }
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15140idTexto5'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15140idTexto5'), 
     'pruebas k')
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15141idTexto5'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15141idTexto5'), 
     'pruebas automaticas')
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15142idTexto5'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15142idTexto5'), 
     'NULL')
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15143idTexto5'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15143idTexto5'), 
     'NULL')
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/a_Guardar'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Guardar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Planta de Personal/Crear_descripción_del_cargo/p_Se ha actualizado el registro'), 
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/p_Se ha actualizado el registro'), 
     1)) {
     WebUI.closeBrowser()
 }

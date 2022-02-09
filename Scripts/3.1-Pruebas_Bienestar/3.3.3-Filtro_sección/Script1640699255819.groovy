@@ -27,13 +27,13 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/td_PRUEBAS 
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_Filtro Seccin'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'), 
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'), 
     1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'))
-
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_Aceptar'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/a_Aceptar'))
 }
+
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Filtro_sección/select_--Seleccione--DiscapacidadEdadGeneroParentesco'), 
     4)
 

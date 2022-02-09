@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_una_unidad_transversal/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/input_Empresa 1_form_templatej_idt24_input'), 
     'planta personal (tal)')
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_una_unidad/span_No Relacionada'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionada'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_una_unidad/span_Organigrama'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_una_unidad_transversal/a_Organigrama_organigramacrearUnidadTransversal'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/a_Organigrama_organigramacrearUnidadTransversal'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione Unidad Transicional--3            - CALIDAD1'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione Unidad Transicional--3            - CALIDAD1'), 
     7)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione Sucursal--NO RELACIONADABOGOTA'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione Sucursal--NO RELACIONADABOGOTA'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione el Estado--SINO'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione el Estado--SINO'), 
     1)
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_una_unidad_transversal/a_Actualizar'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/a_Actualizar'))
 
 WebUI.comment('No se sabe como eliminar para evitar dato repetido')
 

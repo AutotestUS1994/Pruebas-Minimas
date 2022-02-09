@@ -19,62 +19,62 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/input_Empresa 1_form_templatej_idt24_input'), 
     'Planta personal (tal)')
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_Planta Personal (tal)'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_No Relacionada'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_No Relacionada'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_Posicion'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Posicion'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/td_- No Relacionado'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/td_- No Relacionado'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/a_Posicion_organigramanuevoPuestoTrabajo'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Posicion_organigramanuevoPuestoTrabajo'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/a_Cargo_datosPuestoTrabajo_formj_idt931'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Cargo_datosPuestoTrabajo_formj_idt931'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_ABOGADO'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_ABOGADO'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --Planta Dinamica                (1)Planta Fija                    (B1)'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --Planta Dinamica                (1)Planta Fija                    (B1)'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --Ampleado                       (Z3)Empleado                       (B3)Mapa'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --Ampleado                       (Z3)Empleado                       (B3)Mapa'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --BloqueadoEliminadoOcupado y disponible'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --BloqueadoEliminadoOcupado y disponible'), 
     3)
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/label_No es responsable de la Unidad'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/label_No es responsable de la Unidad'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/label_No'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/label_No'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_Actualizar'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Actualizar'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/a_Zona Econmica_datosPuestoTrabajo_formj_idt1061'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Zona Econmica_datosPuestoTrabajo_formj_idt1061'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_ADMINISTRATIVA'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_ADMINISTRATIVA'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione empleados_lineacosto --ADMINISTRATIVO -- 1NO RELACIONADA'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione empleados_lineacosto --ADMINISTRATIVO -- 1NO RELACIONADA'), 
     1)
 
-WebUI.selectOptionByLabel(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione Ubicacin Fsica --ABEJORRALABREGOACACIASACANDIACEVEDOACHIAGRADO'), 
+WebUI.selectOptionByLabel(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione Ubicacin Fsica --ABEJORRALABREGOACACIASACANDIACEVEDOACHIAGRADO'), 
     'BOGOTÁ', false)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_12kataloonkataloonNOMINA CATORCENALNOMINA'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_12kataloonkataloonNOMINA CATORCENALNOMINA'), 
     3)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_0.5APRENDIZ ETAPA LECTIVA6APRENDIZ ETAPA PRODUCTIVA'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_0.5APRENDIZ ETAPA LECTIVA6APRENDIZ ETAPA PRODUCTIVA'), 
     7)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS'), 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/input_Mesada_datosPuestoTrabajo_formsueldo'), 
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/input_Mesada_datosPuestoTrabajo_formsueldo'), 
     '150000')
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Crear_un_puesto_de_trabajo/span_Actualizar'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Actualizar'))
 

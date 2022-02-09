@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Solicitar_requerimiento/a_Salgado . Paula_organigramaj_idt110'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Solicitar_requerimiento/a_Salgado . Paula_organigramaj_idt110'))
 
 WebUI.delay(2)
 

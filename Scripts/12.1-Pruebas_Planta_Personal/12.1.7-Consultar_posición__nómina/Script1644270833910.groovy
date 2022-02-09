@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Consultar_posición__nómina/span_Salgado . Paula'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Salgado . Paula'))
 
-WebUI.scrollToElement(findTestObject('Modulo Planta de Personal/Consultar_posición__nómina/div_Salgado . Paula 40 Mil Staff'), 
+WebUI.scrollToElement(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/div_Salgado . Paula 40 Mil Staff'), 
     0)
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Consultar_posición__nómina/a_Salgado . Paula_organigramaj_idt113'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/a_Salgado . Paula_organigramaj_idt113'))
 
-WebUI.scrollToElement(findTestObject('Modulo Planta de Personal/Consultar_posición__nómina/span_Actualizar'), 0)
+WebUI.scrollToElement(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Actualizar'), 0)
 
 WebUI.delay(2)
 

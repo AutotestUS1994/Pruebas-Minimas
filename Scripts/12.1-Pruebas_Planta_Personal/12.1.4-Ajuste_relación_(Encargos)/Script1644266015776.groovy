@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'Planta Personal (tal)')
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Ajuste_relación_(Encargos)/span_Planta Personal (ta'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/span_Planta Personal (ta'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Ajuste_relación_(Encargos)/a_Actos Administrativos_organigramaajusterelacion'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Actos Administrativos_organigramaajusterelacion'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Ajuste_relación_(Encargos)/a_Ajuste Relacion'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Ajuste Relacion'))
 
-WebUI.click(findTestObject('Modulo Planta de Personal/Ajuste_relación_(Encargos)/a_Aceptar'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Aceptar'))
 
 WebUI.closeBrowser()
 
