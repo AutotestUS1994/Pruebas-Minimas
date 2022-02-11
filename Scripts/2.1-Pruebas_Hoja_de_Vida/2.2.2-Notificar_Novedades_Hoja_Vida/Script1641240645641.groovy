@@ -32,7 +32,9 @@ if (identificacion0 < 10) {
 } else {
     identificacion0
 }
-
+if (identificacion1 == '0') {
+	identificacion1 = 1
+}
 /*-------------------------------------------------------------------------------------------*/
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

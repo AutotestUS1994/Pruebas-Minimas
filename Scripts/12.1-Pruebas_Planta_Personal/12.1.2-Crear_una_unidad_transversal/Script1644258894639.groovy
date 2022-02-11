@@ -24,7 +24,7 @@ WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionada'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/span_Administracion'))
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
 

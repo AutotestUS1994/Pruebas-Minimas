@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
 WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 

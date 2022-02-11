@@ -19,15 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Empresa 1_form_templatej_idt24_input'), 'planta personal (tal)')
+WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Empresa 1_form_templatej_idt24_input'), 
+    'planta personal (tal)')
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionada'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Administracion'))
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama'))
+
+WebUI.getText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon'))
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Pruebas  Katalon_organigramaj_idt1422modificar'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Eliminar'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Si'))
+}
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Organigrama_organigramacrearUnidad'))
 
@@ -47,6 +59,4 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crea
     1)
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Actualizar'))
-
-WebUI.comment('no se encuentra donde eliminar para evitar datos repetidos')
 
