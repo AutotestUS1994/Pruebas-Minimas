@@ -35,7 +35,9 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Program
     if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/td_Administracion'), 
         1)) {
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick'))
-    } else {
+    } /*---------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------*/
+    else {
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt376'))
 
         WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
@@ -50,8 +52,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Program
 
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick'))
     }
-    /*---------------------------------------------------------------------------------------------------*/
-    /*------------------------------------------------------------------------------------------------*/
 } else {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/a_Nuevo'))
 
@@ -114,6 +114,8 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Programación
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/div_Grupo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación_de_evaluación/a_Aplicar0'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

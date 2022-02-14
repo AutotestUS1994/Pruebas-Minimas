@@ -31,9 +31,31 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_com
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Individual'))
 
-String ventana = JOptionPane.showMessageDialog(WebUI.closeBrowser(), 'no se puede modificar estado')
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/td_354968431354'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/td_354968431354'))
 
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Cambiar Datos'))
 
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Eliminar'))
 
-WebUI.comment('Se requiere reparar problema de cupos llenos de evento')
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/span_Si'))
+}
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Nuevo'))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Nombre_grupoEventoj_idt431'))
+
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
+    'constantino')
+
+WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/span_Constantino  Jhon'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/select_-- Seleccione --prueba-S-SH'), 
+    1)
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Guardar'))
 

@@ -78,7 +78,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Publi
 }
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ruta = GlobalVariable.G_rutaarchivos + 'FondoUn.jpg'
+String ruta = GlobalVariable.G_rutaarchivos + 'logo_union_soluciones.jpg'
 
 WebUI.uploadFile(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input'), 
     ruta)
@@ -125,13 +125,13 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_P
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab_form_publicacionEventotabla10j_idt241'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab_form_publicacionEventotabla10j_idt241'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_http192.168.2.808380sarawebrepodocrecursosuid1b4c2139c049d55efdb2cd1490277527_form_publicacionEventotabla10j_idt245'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_Si'))
 }
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ruta2 = GlobalVariable.G_rutaarchivos + 'usuario.jpg'
+String ruta2 = GlobalVariable.G_rutaarchivos + 'saraapp.png'
 
 WebUI.uploadFile(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input'), 
     ruta2)
@@ -157,6 +157,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/i
     FechaF)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar'))
+
+WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Evento Bienestar_form_templatej_idt24_input'), 
     'inscripcion evento')

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_DirigidoA</name>
+   <name>select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado</name>
    <tag></tag>
-   <elementGuidId>76d612b7-d94f-494a-933a-a94dc26c5987</elementGuidId>
+   <elementGuidId>2338c96f-cd24-4805-87d7-c12155ed6eeb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'DirigidoA')]</value>
+         <value>//td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,132 +21,128 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>j_idt120:j_idt121:j_idt123:j_idt2283</value>
+      <value>cambiarEstadoPopupForm:estadoAsistente</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>name</name>
       <type>Main</type>
-      <value>#</value>
+      <value>cambiarEstadoPopupForm:estadoAsistente</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget</value>
+      <value>caja_texto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>size</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;j_idt120:j_idt121:j_idt123:j_idt2283&quot;,f:&quot;j_idt120&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>DirigidoA </value>
+      <value>	--Seleccione--
+	Aceptado
+	Cancelado
+	Finalizado
+	Inscrito
+	No Aceptado
+	No Finalizado
+	Solicitado
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt120:j_idt121:j_idt123:j_idt2283&quot;)</value>
+      <value>id(&quot;cambiarEstadoPopupForm:estadoAsistente&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='j_idt120:j_idt121:j_idt123:j_idt2283']</value>
+      <value>//select[@id='cambiarEstadoPopupForm:estadoAsistente']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='j_idt120:j_idt121:j_idt123:j_idt2248']/table[7]/tbody/tr/td/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'DirigidoA')]</value>
+      <value>//div[@id='cambiarEstadoPopupForm:j_idt1157_content']/div[2]/table/tbody/tr/td[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos Evento'])[1]/following::a[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado*'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[13]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[4]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Participante'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notificar'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación'])[1]/preceding::a[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='DirigidoA']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[30]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Bienestar'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[7]/tbody/tr/td/a</value>
+      <value>//td[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'j_idt120:j_idt121:j_idt123:j_idt2283' and @href = '#' and (text() = 'DirigidoA ' or . = 'DirigidoA ')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación'])[1]/preceding::a[7]</value>
+      <value>//select[@id = 'cambiarEstadoPopupForm:estadoAsistente' and @name = 'cambiarEstadoPopupForm:estadoAsistente' and (text() = '	--Seleccione--
+	Aceptado
+	Cancelado
+	Finalizado
+	Inscrito
+	No Aceptado
+	No Finalizado
+	Solicitado
+' or . = '	--Seleccione--
+	Aceptado
+	Cancelado
+	Finalizado
+	Inscrito
+	No Aceptado
+	No Finalizado
+	Solicitado
+')]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -41,8 +41,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
 
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Etapa'))
 
-    WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/span_Orden_ui-icon ui-icon-closethick'))
-
     if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'), 1)) {
         WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'))
 

@@ -32,19 +32,16 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Particip
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Individual'))
 
 if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/td_1010220596'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/td_A A A'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar0'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar Datos'))
+    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
+        4)
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
 
     WebUI.delay(2)
-
-    String ventana = JOptionPane.showMessageDialog(null, 'No se puede modificar el campo Estado')
-
-    if (ventana == null) {
-        WebUI.closeBrowser()
-    }
 } else {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Nuevo'))
 
@@ -63,20 +60,17 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Cambiar
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Guardar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/td_A A A'))
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar0'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar Datos'))
+    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
+        4)
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
 
     WebUI.delay(2)
-
-    String ventana = JOptionPane.showMessageDialog(null, 'No se puede modificar el campo Estado')
-
-    if (ventana == null) {
-        WebUI.closeBrowser()
-    }
 }
 
-WebUI.comment('El campo "estado" esta bloqueado para modificar')
+WebUI.comment('cupos llenos, apezar de no tener inscrito  a nadie')
 

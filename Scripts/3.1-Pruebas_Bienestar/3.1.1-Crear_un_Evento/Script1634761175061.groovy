@@ -155,6 +155,39 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si'))
     }
     
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Entidades'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_US_form_entidadlistaEntidades0j_idt630'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_US_form_entidadlistaEntidades0j_idt630'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_Entidades'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_DirigidoA'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt797'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt797'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_DirigidoA'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Recursos'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Logsticos'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt951'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt951'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_Logisticos'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
+
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro'))
 
     if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_MAR-MIE 0500-0600'), 1)) {
@@ -274,6 +307,39 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si'))
     }
     
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Entidades'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_US_form_entidadlistaEntidades0j_idt630'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_US_form_entidadlistaEntidades0j_idt630'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_Entidades'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_DirigidoA'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt797'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt797'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_DirigidoA'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Recursos'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Logsticos'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt951'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt951'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_Logisticos'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
+
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro0'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))

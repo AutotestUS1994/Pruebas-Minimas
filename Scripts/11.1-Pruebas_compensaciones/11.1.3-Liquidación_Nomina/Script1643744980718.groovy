@@ -40,7 +40,11 @@ WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/td_Aya Sil
 
 WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Liquidacin Periodica'))
 
-WebUI.comment('No aparece registros en liquidación periodica')
+WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/span_Prestamo Compaa'))
 
-WebUI.comment('pendiente por terminar')
+WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Ver'))
 
+if(WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 1))
+{
+WebUI.closeBrowser()
+}

@@ -24,11 +24,11 @@ WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_No Relacionada'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Administracion'))
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Posicion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/td_- No Relacionado'))
+WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Administracion'))
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Posicion_organigramanuevoPuestoTrabajo'))
 
