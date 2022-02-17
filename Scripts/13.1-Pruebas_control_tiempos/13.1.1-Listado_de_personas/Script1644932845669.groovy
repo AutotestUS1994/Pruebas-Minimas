@@ -74,5 +74,3 @@ WebUI.selectOptionByIndex(findTestObject('Modulo control tiempo/Listado de Perso
 
 WebUI.click(findTestObject('a_Guardar'))
 
-WebUI.closeBrowser()
-
