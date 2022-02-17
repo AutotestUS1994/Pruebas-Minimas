@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo control tiempo/Listado de Personas/input_Empresa 1_form_templatej_idt24_input'), 'listado persona')
+WebUI.setText(findTestObject('Modulo control tiempo/Listado de Personas/input_Empresa 1_form_templatej_idt24_input'), 'Listado Persona')
 
 WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/span_Listado Persona'))
 
