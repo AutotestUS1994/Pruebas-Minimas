@@ -19,3 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'), 'Historico Evento')
+
+WebUI.click(findTestObject('Modulo control tiempo/Historico_Evento/li_Historico Evento (get)'))
+
+WebUI.scrollToElement(findTestObject('Modulo control tiempo/Historico_Evento/a_1'), 0)
+
+WebUI.click(findTestObject('Modulo control tiempo/Historico_Evento/a_1'))
+
+WebUI.scrollToElement(findTestObject('Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71'), 
+    0)
+
+WebUI.scrollToElement(findTestObject('Modulo control tiempo/Historico_Evento/a_2'), 0)
+
+WebUI.click(findTestObject('Modulo control tiempo/Historico_Evento/a_2'))
+
+WebUI.scrollToElement(findTestObject('Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71'), 
+    0)
+
+WebUI.closeBrowser()
+

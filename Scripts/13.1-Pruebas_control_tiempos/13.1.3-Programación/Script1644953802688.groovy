@@ -66,6 +66,6 @@ WebUI.click(findTestObject('Modulo control tiempo/Programación/a_Guardar'))
 if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Programación/p_Registro guardado'), 1)) {
     WebUI.closeBrowser()
 }
-    WebUI.comment('no se muestra programacion por día')
 
+WebUI.comment('no se muestra programacion por día')
 
