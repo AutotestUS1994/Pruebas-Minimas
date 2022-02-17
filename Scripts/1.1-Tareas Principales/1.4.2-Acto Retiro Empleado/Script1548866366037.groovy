@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Tarea Actos Administrativos'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -70,5 +72,21 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aplicar'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_Si'))
 
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aceptar0'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Elaborar_form_ActosAdministrativostabla_principal_11j_idt79'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/td_66666'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aplicar1'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_Si1'))
+
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aceptar1'))
+
+if(WebUI.waitForElementVisible(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/p_No existen datos'), 1))
+{
+WebUI.closeBrowser()
+}

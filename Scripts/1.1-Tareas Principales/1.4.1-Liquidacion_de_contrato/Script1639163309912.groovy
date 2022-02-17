@@ -16,7 +16,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/input_Identificacin_listadoEmp'), 
     0)
@@ -56,9 +57,9 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensaci
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/input_Fecha Pago_cancelacion_c'), 
     '31/07/2021')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/span_Calculo Nomina'))
-
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/span_Calculo Nomina'))
 
 WebUI.selectOptionByLabel(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
     'comprobante planilla liquidacacion', false)

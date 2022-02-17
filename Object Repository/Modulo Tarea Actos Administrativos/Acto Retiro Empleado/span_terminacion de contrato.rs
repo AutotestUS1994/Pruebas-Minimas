@@ -6,12 +6,12 @@
    <elementGuidId>9847734c-adcd-4352-a674-313f3d432635</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[2]/span/span[3]/div/a/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[@class = 'valor_campo_estandar' and contains(@id, 'form_ActosAdministrativos:arbolFormato') and (text() = 'terminacion de contrato ' or . = 'terminacion de contrato ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='terminacion de contrato']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

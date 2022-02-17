@@ -204,13 +204,13 @@ WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Defin
 WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_NOMINA MENSUALNOMINA QUINCENAL'), 
     2)
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar'))
 
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Descargar pdf'))
 
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar - Copy'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Cancelar'))
 
 WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'), 
     'Actos administrativos')

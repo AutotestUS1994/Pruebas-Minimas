@@ -158,8 +158,6 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/i
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar'))
 
-WebUI.acceptAlert()
-
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Evento Bienestar_form_templatej_idt24_input'), 
     'inscripcion evento')
 

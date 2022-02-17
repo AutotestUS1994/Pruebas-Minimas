@@ -93,7 +93,7 @@
       <guid>d55406dd-4ae3-4d6b-966b-2892d2dae7c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.2.5-Solicitud</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.2.5-Solicitud_Certificado</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f46651df-2927-42a2-858d-1cdc2f0f9c02</guid>

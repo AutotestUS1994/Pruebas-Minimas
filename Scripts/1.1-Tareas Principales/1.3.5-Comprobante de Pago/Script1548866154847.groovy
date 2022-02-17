@@ -66,7 +66,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
     0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_-- Seleccione --Comprob'), 
-    '3', FailureHandling.STOP_ON_FAILURE)
+    '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Generar'))
 
