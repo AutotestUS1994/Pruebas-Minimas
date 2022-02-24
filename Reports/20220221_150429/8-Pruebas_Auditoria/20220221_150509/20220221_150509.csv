@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+8-Pruebas_Auditoria,Chrome 98.0.4758.102,,,2022-02-21 15:44:42,2022-02-21 15:47:02,"2m - 19,400s",FAILED
+,,,,,,,
+Test Cases/8.1-Pruebas_Auditoria/8.1.1-Seguimiento_a_objeto_Succeso_Adicion,Chrome 98.0.4758.102,,,2022-02-21 15:44:43,2022-02-21 15:45:03,"20,604s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-21 15:44:43,2022-02-21 15:44:56,"12,673s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Suceso Adicion""))",Chrome 98.0.4758.102,,,2022-02-21 15:44:56,2022-02-21 15:44:58,"2,422s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_concepto_con""))",Chrome 98.0.4758.102,,,2022-02-21 15:44:58,2022-02-21 15:44:59,"0,695s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Aplicar""))",Chrome 98.0.4758.102,,,2022-02-21 15:44:59,2022-02-21 15:45:00,"1,402s",PASSED
+"codigo = getText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456""))",Chrome 98.0.4758.102,,,2022-02-21 15:45:00,2022-02-21 15:45:01,"0,547s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/input_codigo_form_sucesoadiciontablaFiltros0j_idt234""), codigo)",Chrome 98.0.4758.102,,,2022-02-21 15:45:01,2022-02-21 15:45:02,"0,735s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Aplicar""))",Chrome 98.0.4758.102,,,2022-02-21 15:45:02,2022-02-21 15:45:03,"0,808s",PASSED
+"codigoR = getText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456""))",Chrome 98.0.4758.102,,,2022-02-21 15:45:03,2022-02-21 15:45:03,"0,473s",PASSED
+if (codigo == codigoR),Chrome 98.0.4758.102,,,2022-02-21 15:45:03,2022-02-21 15:45:03,"0,290s",FAILED
+,,,,,,,
+Test Cases/8.1-Pruebas_Auditoria/8.1.2-Seguimiento_a_objeto_Succeso_Actualización,Chrome 98.0.4758.102,,,2022-02-21 15:45:03,2022-02-21 15:45:22,"18,820s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-21 15:45:04,2022-02-21 15:45:14,"9,990s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/a_Suceso Actualizacin""))",Chrome 98.0.4758.102,,,2022-02-21 15:45:14,2022-02-21 15:45:15,"0,941s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Inicial_form_visorj_idt253fechaInicial_input""), ""10/12/2018 10:34:00"")",Chrome 98.0.4758.102,,,2022-02-21 15:45:15,2022-02-21 15:45:16,"1,231s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input""), ""10/12/2018 10:35:00"")",Chrome 98.0.4758.102,,,2022-02-21 15:45:16,2022-02-21 15:45:18,"1,679s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-21 15:45:18,2022-02-21 15:45:18,"0,658s",PASSED
+delay(3),Chrome 98.0.4758.102,,,2022-02-21 15:45:18,2022-02-21 15:45:21,"3,041s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-21 15:45:21,2022-02-21 15:45:22,"0,809s",PASSED
+,,,,,,,
+Test Cases/8.1-Pruebas_Auditoria/8.1.3-Seguimiento_a_objeto_Succeso_Borrado,Chrome 98.0.4758.102,,,2022-02-21 15:45:22,2022-02-21 15:45:38,"15,404s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-21 15:45:23,2022-02-21 15:45:32,"9,655s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/a_Suceso Borrado""))",Chrome 98.0.4758.102,,,2022-02-21 15:45:32,2022-02-21 15:45:33,"0,950s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257""), ""saraadmin"")",Chrome 98.0.4758.102,,,2022-02-21 15:45:33,2022-02-21 15:45:34,"1,168s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-21 15:45:34,2022-02-21 15:45:35,"0,407s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_06122021 075237""), 0)",Chrome 98.0.4758.102,,,2022-02-21 15:45:35,2022-02-21 15:45:35,"0,627s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257""), ""weblogic"")",Chrome 98.0.4758.102,,,2022-02-21 15:45:35,2022-02-21 15:45:37,"1,155s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-21 15:45:37,2022-02-21 15:45:37,"0,392s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_14012022 093405""), 0)",Chrome 98.0.4758.102,,,2022-02-21 15:45:37,2022-02-21 15:45:38,"0,591s",PASSED
+,,,,,,,
+Test Cases/8.1-Pruebas_Auditoria/8.1.4-Seguimiento_a_objeto_Succeso_Acceso,Chrome 98.0.4758.102,,,2022-02-21 15:45:38,2022-02-21 15:46:39,"1m - 1,748s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-21 15:45:38,2022-02-21 15:45:46,"8,295s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/a_Suceso Acceso""))",Chrome 98.0.4758.102,,,2022-02-21 15:45:46,2022-02-21 15:45:48,"1,472s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306""), ""saraadmin"")",Chrome 98.0.4758.102,,,2022-02-21 15:45:48,2022-02-21 15:45:49,"1,673s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_18012022 092902""), 0)",Chrome 98.0.4758.102,,,2022-02-21 15:45:49,2022-02-21 15:46:21,"31,318s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/div_Fecha_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:21,2022-02-21 15:46:21,"0,407s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_csv""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:21,2022-02-21 15:46:23,"2,219s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_PDF""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:23,2022-02-21 15:46:26,"2,549s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:26,2022-02-21 15:46:32,"6,170s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306""), ""weblogic"")",Chrome 98.0.4758.102,,,2022-02-21 15:46:32,2022-02-21 15:46:34,"1,681s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-21 15:46:34,2022-02-21 15:46:34,"0,375s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_17012022 031118""), 0)",Chrome 98.0.4758.102,,,2022-02-21 15:46:34,2022-02-21 15:46:35,"0,727s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:35,2022-02-21 15:46:35,"0,437s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_csv""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:35,2022-02-21 15:46:36,"0,692s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_PDF""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:36,2022-02-21 15:46:37,"0,771s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:37,2022-02-21 15:46:38,"0,883s",PASSED
+delay(1),Chrome 98.0.4758.102,,,2022-02-21 15:46:38,2022-02-21 15:46:39,"1,007s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-21 15:46:39,2022-02-21 15:46:39,"0,670s",PASSED
+,,,,,,,
+Test Cases/8.1-Pruebas_Auditoria/8.1.5-Seguimiento_a_objeto_Succeso_Petición,Chrome 98.0.4758.102,,,2022-02-21 15:46:39,2022-02-21 15:47:02,"22,386s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-21 15:46:40,2022-02-21 15:46:49,"9,656s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/a_Suceso Peticin""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-21 15:46:49,2022-02-21 15:46:50,"0,964s",PASSED
+"Cedula = getText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/td_712854829""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:50,2022-02-21 15:46:53,"2,248s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340""), Cedula)",Chrome 98.0.4758.102,,,2022-02-21 15:46:53,2022-02-21 15:46:54,"0,837s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-21 15:46:54,2022-02-21 15:46:54,"0,369s",PASSED
+delay(1),Chrome 98.0.4758.102,,,2022-02-21 15:46:54,2022-02-21 15:46:55,"1,016s",PASSED
+"click(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/a_Conexin_btn-limpiar-campo""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:55,2022-02-21 15:46:58,"3,394s",PASSED
+"Cedula1 = getText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/td_1907626860""))",Chrome 98.0.4758.102,,,2022-02-21 15:46:58,2022-02-21 15:46:59,"0,521s",PASSED
+"setText(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340""), Cedula1)",Chrome 98.0.4758.102,,,2022-02-21 15:46:59,2022-02-21 15:47:00,"0,806s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-21 15:47:00,2022-02-21 15:47:00,"0,396s",PASSED
+delay(1),Chrome 98.0.4758.102,,,2022-02-21 15:47:00,2022-02-21 15:47:01,"1,010s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-21 15:47:01,2022-02-21 15:47:02,"0,725s",PASSED

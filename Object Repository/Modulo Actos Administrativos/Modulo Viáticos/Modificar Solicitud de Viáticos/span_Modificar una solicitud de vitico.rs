@@ -6,12 +6,12 @@
    <elementGuidId>30b4eb38-7026-46de-91c2-099524a8f1e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='form_listadoviaticos:tabla_data']/tr[2]/td/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.ui-state-highlight.fila_tabla_ace > td > span.valor_campo</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Modificar una solicitud de viático']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

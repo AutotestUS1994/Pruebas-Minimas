@@ -6,11 +6,11 @@
    <elementGuidId>93fa8e5c-b7e2-4ce3-bd4a-ca19ffbd6c2a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='form_popupprogramacionviaticos:planesInversion_data']/tr[2]/td[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='123']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -338,6 +338,32 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_Logisticos'))
     }
     
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Evaluacin'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Evento0'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt885'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt885'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar evento'))
+    }
+    
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Participante'))
+
+    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Noborrar Usuario Portal'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/td_Noborrar Usuario Portal'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar_Cambiar'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/span_Si_Cambiar'))
+    }
+    
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Registro0'))

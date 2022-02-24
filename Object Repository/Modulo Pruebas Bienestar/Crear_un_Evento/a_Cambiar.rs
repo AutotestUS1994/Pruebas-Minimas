@@ -6,12 +6,12 @@
    <elementGuidId>19544136-e407-4d2a-a60c-365adae65251</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Cambiar')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>j_idt120:j_idt121:j_idt123:j_idt2310</value>
+      <value>j_idt120:j_idt121:j_idt123:j_idt2312</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;j_idt120:j_idt121:j_idt123:j_idt2310&quot;,f:&quot;j_idt120&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;j_idt120:j_idt121:j_idt123:j_idt2312&quot;,f:&quot;j_idt120&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,14 +63,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt120:j_idt121:j_idt123:j_idt2310&quot;)</value>
+      <value>id(&quot;j_idt120:j_idt121:j_idt123:j_idt2312&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='j_idt120:j_idt121:j_idt123:j_idt2310']</value>
+      <value>//a[@id='j_idt120:j_idt121:j_idt123:j_idt2312']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +134,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/table[4]/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'j_idt120:j_idt121:j_idt123:j_idt2312' and @href = '#' and (text() = 'Cambiar ' or . = 'Cambiar ')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='j_idt120:j_idt121:j_idt123:j_idt2310']</value>
    </webElementXpaths>
 </WebElementEntity>

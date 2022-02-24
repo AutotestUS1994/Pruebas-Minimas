@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='ANALISTA CONTABLE']/parent::*</value>
+         <value>//div[2]/div/div/table/tbody/tr[4]/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -109,13 +109,13 @@ WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Defin
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar'))
 
 WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input'), 
-    '01/12/2018')
+    '01/07/2021')
 
 WebUI.sendKeys(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input'), 
-    '01/12/2018')
+    '01/07/2021')
 
 WebUI.sendKeys(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input'), 
     Keys.chord(Keys.ENTER))
@@ -232,6 +232,77 @@ WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Def
 
 WebUI.sendKeys(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis 149223e7'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar0'))
+
+WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoAusentismoj_idt15770fecha_input'), 
+    '02/07/2021')
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar1'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar1'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si1'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar1'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Eliminar_form_ActosAdministrativostabla_principal_12j_idt79'))
+
+WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filter by Identificacin_form_ActosAdministrativostabla_principal_actosj_idt118filter'), 
+    identificacion)
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Cc'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar3'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar3'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si3'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar3'))
+
+WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'), 
+    'Listado de Empleados')
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Empleados'))
+
+WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
+    identificacion)
+
+WebUI.sendKeys(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Terminar Contrato'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Liquidar'))
+
+WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Fecha de Retiro_cancelacion_contratofecharetiro_input'), 
+    '02/07/2021')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO'), 
+    '5')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_---SELECCIONE ---DirectoEntidad de PagoPeriodo de Nomina'), 
+    3)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--SELECCIONE--PM202106PM202107'), 
+    2)
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Calculo Nomina'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si'))
+
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Reporte'))
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Regresar'), 1)) {
+    WebUI.closeBrowser()
+}
 
 WebUI.comment('no se sabe a que  usuario terminarle contrato')
 

@@ -1,0 +1,188 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+12-Pruebas_Planta_Personal,Chrome 98.0.4758.102,,,2022-02-23 12:12:25,2022-02-23 12:18:12,"5m - 47,008s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.1-Crear_una_unidad,Chrome 98.0.4758.102,,,2022-02-23 12:12:25,2022-02-23 12:12:54,"28,937s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:12:26,2022-02-23 12:12:35,"9,390s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Empresa 1_form_templatej_idt24_input""), ""planta personal (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:12:35,2022-02-23 12:12:36,"1,201s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:36,2022-02-23 12:12:38,"1,375s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Administracion""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:38,2022-02-23 12:12:39,"1,302s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:39,2022-02-23 12:12:41,"2,076s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:41,2022-02-23 12:12:42,"0,410s",PASSED
+"getText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:42,2022-02-23 12:12:43,"1,622s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:12:43,2022-02-23 12:12:47,"4,232s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Organigrama_organigramacrearUnidad""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:47,2022-02-23 12:12:49,"1,183s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Unidad Organizacional_popupUnidadOrganizacional_formcodigoUnidadPopup""), ""27"")",Chrome 98.0.4758.102,,,2022-02-23 12:12:49,2022-02-23 12:12:50,"1,254s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/select_--Seleccione Tipo Unidad--COORDINACIONPRESIDENCIAVICEPRESIDENCIA""), 5)",Chrome 98.0.4758.102,,,2022-02-23 12:12:50,2022-02-23 12:12:51,"1,081s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Descripcin_popupUnidadOrganizacional_formnombreUnidadPopup""), ""Pruebas  Katalon"")",Chrome 98.0.4758.102,,,2022-02-23 12:12:51,2022-02-23 12:12:52,"0,744s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/select_--Seleccione Sucursal--NO RELACIONADABOGOTA""), 2)",Chrome 98.0.4758.102,,,2022-02-23 12:12:52,2022-02-23 12:12:53,"1,079s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/select_--Seleccione el Estado--SINO""), 1)",Chrome 98.0.4758.102,,,2022-02-23 12:12:53,2022-02-23 12:12:54,"1,077s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Actualizar""))",Chrome 98.0.4758.102,,,2022-02-23 12:12:54,2022-02-23 12:12:54,"0,383s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.3-Crear_un_puesto_de_trabajo,Chrome 98.0.4758.102,,,2022-02-23 12:12:54,2022-02-23 12:13:25,"30,349s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:12:55,2022-02-23 12:13:01,"6,222s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/input_Empresa 1_form_templatej_idt24_input""), ""Planta personal (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:13:01,2022-02-23 12:13:02,"1,545s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Planta Personal (tal)""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:02,2022-02-23 12:13:04,"1,376s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Administracion""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:04,2022-02-23 12:13:06,"2,620s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Posicion""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:06,2022-02-23 12:13:07,"0,879s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Administracion""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:07,2022-02-23 12:13:08,"0,374s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Posicion_organigramanuevoPuestoTrabajo""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:08,2022-02-23 12:13:09,"0,917s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Cargo_datosPuestoTrabajo_formj_idt931""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:09,2022-02-23 12:13:10,"1,442s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_ABOGADO""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:10,2022-02-23 12:13:11,"0,597s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --Planta Dinamica                (1)Planta Fija                    (B1)""), 1)",Chrome 98.0.4758.102,,,2022-02-23 12:13:11,2022-02-23 12:13:12,"1,333s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --Ampleado                       (Z3)Empleado                       (B3)Mapa""), 2)",Chrome 98.0.4758.102,,,2022-02-23 12:13:12,2022-02-23 12:13:13,"1,056s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --BloqueadoEliminadoOcupado y disponible""), 3)",Chrome 98.0.4758.102,,,2022-02-23 12:13:13,2022-02-23 12:13:14,"1,080s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/label_No es responsable de la Unidad""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:14,2022-02-23 12:13:15,"0,626s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/label_No""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:15,2022-02-23 12:13:15,"0,443s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Actualizar""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:15,2022-02-23 12:13:16,"0,420s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/a_Zona Econmica_datosPuestoTrabajo_formj_idt1061""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:16,2022-02-23 12:13:16,"0,731s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_ADMINISTRATIVA""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:16,2022-02-23 12:13:17,"0,790s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione empleados_lineacosto --ADMINISTRATIVO -- 1NO RELACIONADA""), 1)",Chrome 98.0.4758.102,,,2022-02-23 12:13:17,2022-02-23 12:13:18,"1,366s",PASSED
+"selectOptionByLabel(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione Ubicacin Fsica --ABEJORRALABREGOACACIASACANDIACEVEDOACHIAGRADO""), ""BOGOTÁ"", false)",Chrome 98.0.4758.102,,,2022-02-23 12:13:18,2022-02-23 12:13:19,"0,746s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin""), 2)",Chrome 98.0.4758.102,,,2022-02-23 12:13:19,2022-02-23 12:13:20,"1,036s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_12kataloonkataloonNOMINA CATORCENALNOMINA""), 3)",Chrome 98.0.4758.102,,,2022-02-23 12:13:20,2022-02-23 12:13:21,"1,047s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_0.5APRENDIZ ETAPA LECTIVA6APRENDIZ ETAPA PRODUCTIVA""), 7)",Chrome 98.0.4758.102,,,2022-02-23 12:13:21,2022-02-23 12:13:22,"1,085s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS""), 1)",Chrome 98.0.4758.102,,,2022-02-23 12:13:22,2022-02-23 12:13:23,"0,975s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/input_Mesada_datosPuestoTrabajo_formsueldo""), ""150000"")",Chrome 98.0.4758.102,,,2022-02-23 12:13:23,2022-02-23 12:13:24,"0,865s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/span_Actualizar""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:24,2022-02-23 12:13:25,"0,379s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.4-Ajuste_relación_(Encargos),Chrome 98.0.4758.102,,,2022-02-23 12:13:25,2022-02-23 12:13:39,"14,638s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:13:25,2022-02-23 12:13:32,"6,953s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""Planta Personal (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:13:32,2022-02-23 12:13:33,"1,136s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/span_Planta Personal (ta""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:33,2022-02-23 12:13:34,"1,393s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Actos Administrativos_organigramaajusterelacion""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:34,2022-02-23 12:13:35,"0,886s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Ajuste Relacion""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:35,2022-02-23 12:13:36,"0,723s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Aceptar""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:36,2022-02-23 12:13:38,"2,408s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-23 12:13:38,2022-02-23 12:13:39,"0,731s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.5-Buscar_Empleado,Chrome 98.0.4758.102,,,2022-02-23 12:13:39,2022-02-23 12:14:02,"22,874s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:13:40,2022-02-23 12:13:46,"6,712s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/input_Empresa 1_form_templatej_idt24_input""), ""planta personal (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:13:46,2022-02-23 12:13:47,"1,153s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/span_Planta Personal (ta""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:47,2022-02-23 12:13:49,"1,457s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/a_Actos Administrativos_organigramabuscar""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:49,2022-02-23 12:13:50,"1,223s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/select_--Seleccione--EmpleadoPuesto""), 1)",Chrome 98.0.4758.102,,,2022-02-23 12:13:50,2022-02-23 12:13:51,"1,271s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/a_Identificacin_popupBusquedaPlantaj_idt286""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:51,2022-02-23 12:13:52,"0,646s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1339""), ""mendoza cabra empleado"")",Chrome 98.0.4758.102,,,2022-02-23 12:13:52,2022-02-23 12:13:53,"1,054s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1339""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-23 12:13:53,2022-02-23 12:13:53,"0,390s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/span_Mendoza Cabra Empleado""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:53,2022-02-23 12:13:54,"0,750s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/span_65       - Asistente""))",Chrome 98.0.4758.102,,,2022-02-23 12:13:54,2022-02-23 12:13:59,"4,309s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_Empleado/a_1""), 0)",Chrome 98.0.4758.102,,,2022-02-23 12:13:59,2022-02-23 12:14:01,"2,826s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-23 12:14:01,2022-02-23 12:14:02,"0,701s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo,Chrome 98.0.4758.102,,,2022-02-23 12:14:02,2022-02-23 12:14:21,"18,600s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:14:02,2022-02-23 12:14:08,"5,927s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""planta personal (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:14:08,2022-02-23 12:14:10,"1,099s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:10,2022-02-23 12:14:11,"1,483s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Actos Administrativos_organigramabuscar""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:11,2022-02-23 12:14:12,"1,198s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/select_--Seleccione--EmpleadoPuesto""), 2)",Chrome 98.0.4758.102,,,2022-02-23 12:14:12,2022-02-23 12:14:13,"1,291s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt279""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:13,2022-02-23 12:14:14,"0,650s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Unidad Organizacional_popupBusquedaPlantaj_idt274""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:14,2022-02-23 12:14:15,"0,734s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880""), ""administracion"")",Chrome 98.0.4758.102,,,2022-02-23 12:14:15,2022-02-23 12:14:16,"1,043s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-23 12:14:16,2022-02-23 12:14:16,"0,382s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:16,2022-02-23 12:14:17,"0,647s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt2790""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:17,2022-02-23 12:14:18,"0,646s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ABOGADO""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:18,2022-02-23 12:14:18,"0,845s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_20139    - Abogado""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:18,2022-02-23 12:14:20,"1,366s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_10308""), 0)",Chrome 98.0.4758.102,,,2022-02-23 12:14:20,2022-02-23 12:14:21,"0,903s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.7-Consultar_posición__nómina,Chrome 98.0.4758.102,,,2022-02-23 12:14:21,2022-02-23 12:14:49,"28,221s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:14:21,2022-02-23 12:14:40,"19,063s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Salgado . Paula""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:40,2022-02-23 12:14:41,"0,437s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Planta de Personal/Consultar_posición__nómina/div_Salgado . Paula 40 Mil Staff""), 0)",Chrome 98.0.4758.102,,,2022-02-23 12:14:41,2022-02-23 12:14:42,"1,846s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Consultar_posición__nómina/a_Salgado . Paula_organigramaj_idt113""))",Chrome 98.0.4758.102,,,2022-02-23 12:14:42,2022-02-23 12:14:43,"0,432s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Actualizar""), 0)",Chrome 98.0.4758.102,,,2022-02-23 12:14:43,2022-02-23 12:14:46,"3,299s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-02-23 12:14:46,2022-02-23 12:14:48,"2,035s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-23 12:14:48,2022-02-23 12:14:49,"0,723s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.8-Solicitar_requerimiento,Chrome 98.0.4758.102,,,2022-02-23 12:14:49,2022-02-23 12:15:11,"22,135s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:14:49,2022-02-23 12:15:08,"18,574s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Solicitar_requerimiento/a_Salgado . Paula_organigramaj_idt110""))",Chrome 98.0.4758.102,,,2022-02-23 12:15:08,2022-02-23 12:15:08,"0,419s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-02-23 12:15:08,2022-02-23 12:15:10,"2,008s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-23 12:15:10,2022-02-23 12:15:11,"0,765s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.1.9-Visualizar_opción_otros,Chrome 98.0.4758.102,,,2022-02-23 12:15:11,2022-02-23 12:15:33,"21,861s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:15:11,2022-02-23 12:15:30,"18,314s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Visualizar_opción_otros/a_Salgado . Paula_organigramaj_idt109""))",Chrome 98.0.4758.102,,,2022-02-23 12:15:30,2022-02-23 12:15:30,"0,422s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-02-23 12:15:30,2022-02-23 12:15:32,"2,011s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-23 12:15:32,2022-02-23 12:15:33,"0,733s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.2.1-Crear_descripción_del_cargo,Chrome 98.0.4758.102,,,2022-02-23 12:15:33,2022-02-23 12:16:01,"27,969s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:15:33,2022-02-23 12:15:52,"19,020s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Salgado . Paula_organigramaj_idt111""))",Chrome 98.0.4758.102,,,2022-02-23 12:15:52,2022-02-23 12:15:53,"0,412s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Aceptar""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:15:53,2022-02-23 12:15:55,"2,290s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15140idTexto5""), ""pruebas k"")",Chrome 98.0.4758.102,,,2022-02-23 12:15:55,2022-02-23 12:15:56,"0,761s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15141idTexto5""), ""pruebas automaticas"")",Chrome 98.0.4758.102,,,2022-02-23 12:15:56,2022-02-23 12:15:57,"0,809s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15142idTexto5""), ""NULL"")",Chrome 98.0.4758.102,,,2022-02-23 12:15:57,2022-02-23 12:15:57,"0,758s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/textarea__descripcionCargo_formj_idt15143idTexto5""), ""NULL"")",Chrome 98.0.4758.102,,,2022-02-23 12:15:57,2022-02-23 12:15:58,"0,810s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/a_Guardar""))",Chrome 98.0.4758.102,,,2022-02-23 12:15:58,2022-02-23 12:15:59,"0,416s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo/p_Se ha actualizado el registro""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:15:59,2022-02-23 12:16:01,"2,322s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.2.2-Copiar_perfil,Chrome 98.0.4758.102,,,2022-02-23 12:16:01,2022-02-23 12:16:33,"32,036s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:16:01,2022-02-23 12:16:20,"18,604s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Salgado . Paula_organigramaj_idt111""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:20,2022-02-23 12:16:20,"0,403s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Aceptar""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:16:20,2022-02-23 12:16:23,"3,051s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Copiar Perfil""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:23,2022-02-23 12:16:24,"0,413s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Unidad Organizacional_popupCopiarPerfilj_idt2011""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:24,2022-02-23 12:16:25,"0,760s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/input_Unidad Organizacional_formPopUpUnidaddescripciones""), ""ADMIN"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:25,2022-02-23 12:16:26,"1,050s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/input_Unidad Organizacional_formPopUpUnidaddescripciones""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-23 12:16:26,2022-02-23 12:16:26,"0,363s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/td_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:26,2022-02-23 12:16:27,"0,661s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Cargo_popupCopiarPerfilj_idt2016""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:27,2022-02-23 12:16:27,"0,770s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/span_40 MIL STAFF""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:27,2022-02-23 12:16:28,"0,854s",PASSED
+"check(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/div_Puesto_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:28,2022-02-23 12:16:29,"1,103s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Continuar""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:29,2022-02-23 12:16:30,"0,638s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/div_Descripcin_ui-chkbox-box ui-widget ui-corner-all ui-state-default""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:30,2022-02-23 12:16:31,"0,815s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/a_Aplicar""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:31,2022-02-23 12:16:31,"0,617s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil/p_Se ha realizado la copia del perfil a los puestos de trabajo seleccionados""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:16:31,2022-02-23 12:16:33,"1,559s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.2.3-Crear_descripción_del_cargo_(PUESTO_TRABAJO_MULTIPLE),Chrome 98.0.4758.102,,,2022-02-23 12:16:33,2022-02-23 12:16:57,"23,765s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:16:33,2022-02-23 12:16:39,"5,307s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Empresa 1_form_templatej_idt24_input""), ""Listado Descripcion Cargo (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:39,2022-02-23 12:16:40,"1,154s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/li_Listado Descripcion Cargo (tal)""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:40,2022-02-23 12:16:42,"1,858s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:42,2022-02-23 12:16:43,"1,307s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Unidad Organizacional_form_listadoDescripcionCargoj_idt115""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:43,2022-02-23 12:16:44,"0,742s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Unidad_form_popupUnidadUsuarioj_idt612""), ""ADMINISTRACION"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:44,2022-02-23 12:16:45,"1,184s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Unidad_form_popupUnidadUsuarioj_idt612""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-23 12:16:45,2022-02-23 12:16:45,"0,352s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:45,2022-02-23 12:16:47,"1,284s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Cargo_form_listadoDescripcionCargoj_idt120""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:47,2022-02-23 12:16:47,"0,600s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_ABOGADO""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:47,2022-02-23 12:16:48,"1,009s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_20139    - Abogado""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:48,2022-02-23 12:16:49,"0,757s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input__descripcionCargo_formj_idt7270fecha_input""), ""01/07/2021"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:49,2022-02-23 12:16:51,"1,970s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7272idTexto5""), ""pruebas katalon"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:51,2022-02-23 12:16:52,"0,925s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7274idTexto5""), ""pruebas katalon"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:52,2022-02-23 12:16:53,"0,753s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7276idTexto5""), ""pruebas katalon"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:53,2022-02-23 12:16:53,"0,711s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7277idTexto5""), ""pruebas katalon"")",Chrome 98.0.4758.102,,,2022-02-23 12:16:53,2022-02-23 12:16:54,"0,804s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Guardar""))",Chrome 98.0.4758.102,,,2022-02-23 12:16:54,2022-02-23 12:16:55,"0,461s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Definir_Perfil""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:16:55,2022-02-23 12:16:57,"2,212s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo),Chrome 98.0.4758.102,,,2022-02-23 12:16:57,2022-02-23 12:17:31,"34,152s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:16:57,2022-02-23 12:17:16,"18,478s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_20145    - 40 Mil Staff""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:16,2022-02-23 12:17:16,"0,415s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/div_Salgado . Paula 40 Mil Staff""), 0)",Chrome 98.0.4758.102,,,2022-02-23 12:17:16,2022-02-23 12:17:17,"1,052s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Salgado . Paula_organigramaj_idt111""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:17,2022-02-23 12:17:18,"0,412s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Aceptar""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:17:18,2022-02-23 12:17:19,"1,957s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Copiar Perfil""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:19,2022-02-23 12:17:20,"0,722s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Unidad Organizacional_popupCopiarPerfilj_idt2011""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:20,2022-02-23 12:17:22,"1,694s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones""), ""administracion"")",Chrome 98.0.4758.102,,,2022-02-23 12:17:22,2022-02-23 12:17:23,"1,224s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-02-23 12:17:23,2022-02-23 12:17:23,"0,394s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:23,2022-02-23 12:17:24,"0,644s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Cargo_popupCopiarPerfilj_idt2016""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:24,2022-02-23 12:17:25,"0,735s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:25,2022-02-23 12:17:26,"0,936s",PASSED
+"check(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/select_Reemplazar RegistrosAdicionar Registros""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:17:26,2022-02-23 12:17:27,"0,822s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_Puesto_ui-chkbox-icon ui-icon ui-icon-check ui-c""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:27,2022-02-23 12:17:27,"0,390s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Continuar""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:27,2022-02-23 12:17:28,"0,648s",PASSED
+"check(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/div_Descripcin_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:28,2022-02-23 12:17:29,"0,836s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Aplicar""))",Chrome 98.0.4758.102,,,2022-02-23 12:17:29,2022-02-23 12:17:29,"0,649s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/p_Se ha realizado la copia del perfil a los puestos de trabajo seleccionados""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:17:29,2022-02-23 12:17:31,"1,739s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.2.5-Crear_descripción_del_cargo_(Puesto_Trabajo_Múltiple),Chrome 98.0.4758.102,,,2022-02-23 12:17:31,2022-02-23 12:17:55,"24,346s",PASSED
+"callTestCase(findTestCase(""12.1-Pruebas_Planta_Personal/12.2.3-Crear_descripción_del_cargo_(PUESTO_TRABAJO_MULTIPLE)""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:17:31,2022-02-23 12:17:55,"23,988s",PASSED
+,,,,,,,
+Test Cases/12.1-Pruebas_Planta_Personal/12.2.7-Impresión_de_descripción_del_cargo,Chrome 98.0.4758.102,,,2022-02-23 12:17:55,2022-02-23 12:18:12,"16,654s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-02-23 12:17:56,2022-02-23 12:18:00,"4,687s",PASSED
+"setText(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/input_Empresa 1_form_templatej_idt24_input""), ""Listado Descripcion Cargo (tal)"")",Chrome 98.0.4758.102,,,2022-02-23 12:18:00,2022-02-23 12:18:02,"1,633s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/li_Listado Descripcion Cargo (tal)""))",Chrome 98.0.4758.102,,,2022-02-23 12:18:02,2022-02-23 12:18:03,"1,462s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Cargo_form_listadoDescripcionCargoj_idt70""))",Chrome 98.0.4758.102,,,2022-02-23 12:18:03,2022-02-23 12:18:05,"1,282s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_40 MIL STAFF""))",Chrome 98.0.4758.102,,,2022-02-23 12:18:05,2022-02-23 12:18:05,"0,731s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021""))",Chrome 98.0.4758.102,,,2022-02-23 12:18:05,2022-02-23 12:18:06,"0,737s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Imprimir Publicacin""))",Chrome 98.0.4758.102,,,2022-02-23 12:18:06,2022-02-23 12:18:09,"2,328s",PASSED
+"click(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/td_Descripcin del Cargo1""))",Chrome 98.0.4758.102,,,2022-02-23 12:18:09,2022-02-23 12:18:09,"0,921s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Descargar archivo en formato Doc""), 1))",Chrome 98.0.4758.102,,,2022-02-23 12:18:09,2022-02-23 12:18:12,"2,493s",PASSED

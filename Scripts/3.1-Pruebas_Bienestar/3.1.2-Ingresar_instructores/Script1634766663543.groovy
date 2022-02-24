@@ -32,7 +32,7 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Ingresa
     }
     
     WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado'), 
-        5)
+        4)
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 

@@ -41,6 +41,11 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crea
     1)) {
     WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/td_A A A'))
 
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Referencia en el sistema nula, informe al administrador del sistema'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_closethick'))
+    }
+    
     WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear un Registro de Contratación/textarea_Motivo_form_contratacionpanelTabmotivo'), 
         'PRUEBAS KATALON')
 

@@ -70,15 +70,39 @@ if (WebUI.waitForElementNotVisible(findTestObject('Modulo Pruebas Evaluaciones/C
 } else {
     WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_Pruebas katalon'))
 
+    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Tipo Evaluador'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_pr.katalon'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_pr.katalon'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar_Tipo evaluador'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Aceptar_Tipo evaluador'))
+    }
+    
     WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Fase Evaluacin'))
 
     if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_PRUEBAS K'), 1)) {
         WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_PRUEBAS K'))
 
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Etapa'))
+
+        if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/span_Pruebas Ka_Etapa'), 
+            1))
+        {
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/span_Pruebas Ka_Etapa'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar_Etapa'))
+
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/span_Si_Etapa'))
+        }
+        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Detalle'))
+
         WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar'))
 
         WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Aceptar'))
-    }
+        
+		}
     
     WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Nuevo1'))
 

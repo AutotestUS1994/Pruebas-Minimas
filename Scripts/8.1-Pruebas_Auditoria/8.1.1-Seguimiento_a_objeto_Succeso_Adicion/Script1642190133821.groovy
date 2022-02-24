@@ -35,8 +35,6 @@ WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succes
 String codigoR = WebUI.getText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456'))
 
 if (codigo == codigoR) {
-    WebUI.acceptAlert()
-
     WebUI.closeBrowser()
 } else {
     FailureHandling.STOP_ON_FAILURE

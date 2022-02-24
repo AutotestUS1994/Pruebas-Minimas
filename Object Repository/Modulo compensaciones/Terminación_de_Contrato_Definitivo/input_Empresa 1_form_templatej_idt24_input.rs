@@ -6,12 +6,12 @@
    <elementGuidId>7395dbb0-3128-4f0b-a74d-2b5ac1ae9d4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Liquidacion Nomina (com)</value>
+      <value>Actos Administrativos (act)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

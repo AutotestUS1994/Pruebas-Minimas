@@ -6,12 +6,11 @@
    <elementGuidId>3d5b2651-3bc9-4f2c-86c3-1b87015d6e24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Cambiar Datos')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='grupoEvento:j_idt601']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

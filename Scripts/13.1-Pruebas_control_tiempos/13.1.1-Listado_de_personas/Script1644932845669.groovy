@@ -26,6 +26,48 @@ WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/span_Lista
 if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Listado de Personas/td_1010220596'), 1)) {
     WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/td_1010220596'))
 
+    WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Reloj'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Listado de Personas/td_20210701 1800_eliminar reloj'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/td_20210701 1800_eliminar reloj'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Eliminar_eliminar reloj'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Aceptar_eliminar reloj'))
+    }
+    
+    WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Programacin'))
+
+    if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Listado de Personas/td_Circular_Programacion1'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/td_Circular_Programacion1'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Eliminar_Programacion1'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Aceptar_Programacion1'))
+    }
+    
+    if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Listado de Personas/td_Horario Predefinido_Programacion2'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/td_Horario Predefinido_Programacion2'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Eliminar_Programacion2'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Aceptar_Programacion2'))
+    }
+    
+    if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Listado de Personas/td_Horario Predefinido_Programacion2'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/td_Horario Predefinido_Programacion2'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Eliminar_Programacion2'))
+
+        WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Aceptar_Programacion2'))
+    }
+    
+    WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Persona'))
+
     WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Eliminar'))
 
     WebUI.click(findTestObject('Modulo control tiempo/Listado de Personas/a_Aceptar'))
@@ -73,4 +115,6 @@ WebUI.selectOptionByIndex(findTestObject('Modulo control tiempo/Listado de Perso
     1)
 
 WebUI.click(findTestObject('a_Guardar'))
+
+WebUI.comment('No se puede eliminar registro pos ejecucion ')
 
