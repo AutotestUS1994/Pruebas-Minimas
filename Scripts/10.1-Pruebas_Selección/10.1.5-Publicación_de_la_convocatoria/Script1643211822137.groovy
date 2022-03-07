@@ -16,7 +16,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
+Date today = new Date()
+
+/*-----------------fecha------------------------ */
+Number Dia = ((today.format('dd')) as Integer)
+
+Number Mes = ((today.format('MM')) as Integer)
+
+Number Año = ((today.format('yyyy')) as Integer)
+
+Number AñoM = Año + 1
+
+/*-----------------------------------------------*/
+String fechaI = (((Dia + '/') + Mes) + '/') + Año
+
+String fechaF = (((Dia + '/') + Mes) + '/') + AñoM
+
+/*-----------------------------------------------*/
 WebUI.comment('no se puede finalizar prueba')
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -40,12 +60,19 @@ WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/td
 WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/a_Publicacin'))
 
 WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Publicacin_seleccion_procesofecha_publicacion_input'), 
-    '29/06/2017')
+    fechaI)
 
 WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Hasta_seleccion_procesofecha_hasta_input'), 
-    '30/06/2017')
+    fechaF)
+
+WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/div_Detalle_ql-editor ql-blank'), 'pruebas katalon 10.1.5')
 
 WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/a_Publicar'))
 
-WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/a_Aceptar'))
+if (WebUI.waitForElementNotVisible(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/p_El proceso ha sido publicado exitosamente'), 
+    1)) {
+    WebUI.acceptAlert()
+} else {
+    WebUI.closeBrowser()
+}
 

@@ -32,11 +32,11 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Aplicar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'), 
-    GlobalVariable.G_TimeOut)
+if(WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'), 
+    GlobalVariable.G_TimeOut)) {
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'))
-
+}
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/label_html'), 
     GlobalVariable.G_TimeOut)
 

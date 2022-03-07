@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+13-Pruebas_Control_Tiempos,Chrome 98.0.4758.102,,,2022-03-01 15:48:35,2022-03-01 15:53:08,"4m - 32,543s",FAILED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.1.1-Listado_de_personas,Chrome 98.0.4758.102,,,2022-03-01 15:48:35,2022-03-01 15:49:36,"1m - 0,974s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:48:36,2022-03-01 15:48:45,"9,286s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Listado de Personas/input_Empresa 1_form_templatej_idt24_input""), ""Listado Persona"")",Chrome 98.0.4758.102,,,2022-03-01 15:48:45,2022-03-01 15:48:46,"1,232s",PASSED
+"click(findTestObject(""Modulo control tiempo/Listado de Personas/span_Listado Persona""))",Chrome 98.0.4758.102,,,2022-03-01 15:48:46,2022-03-01 15:48:48,"1,558s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Listado de Personas/td_1010220596""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:48:48,2022-03-01 15:49:36,"48,418s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo,Chrome 98.0.4758.102,,,2022-03-01 15:49:36,2022-03-01 15:49:52,"16,199s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:49:37,2022-03-01 15:49:45,"7,867s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input""), ""listado persona"")",Chrome 98.0.4758.102,,,2022-03-01 15:49:45,2022-03-01 15:49:46,"1,223s",PASSED
+"click(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona""))",Chrome 98.0.4758.102,,,2022-03-01 15:49:46,2022-03-01 15:49:47,"1,402s",PASSED
+"click(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/td_1010220596""))",Chrome 98.0.4758.102,,,2022-03-01 15:49:47,2022-03-01 15:49:48,"1,188s",PASSED
+"click(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo""))",Chrome 98.0.4758.102,,,2022-03-01 15:49:48,2022-03-01 15:49:49,"0,669s",PASSED
+"click(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo""))",Chrome 98.0.4758.102,,,2022-03-01 15:49:49,2022-03-01 15:49:50,"1,095s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/td_9""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:49:50,2022-03-01 15:49:51,"1,413s",PASSED
+"click(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/span_Oficina""))",Chrome 98.0.4758.102,,,2022-03-01 15:49:51,2022-03-01 15:49:52,"0,403s",PASSED
+"element = findWebElement(findTestObject(""Modulo control tiempo/Sitios_de_Trabajo/span_Add""), 30)",Chrome 98.0.4758.102,,,2022-03-01 15:49:52,2022-03-01 15:49:52,"0,556s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 98.0.4758.102,,,2022-03-01 15:49:52,2022-03-01 15:49:52,"0,032s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.1.4-Jornada,Chrome 98.0.4758.102,,,2022-03-01 15:49:52,2022-03-01 15:50:10,"17,831s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:49:53,2022-03-01 15:49:58,"5,480s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input""), ""Listado persona"")",Chrome 98.0.4758.102,,,2022-03-01 15:49:58,2022-03-01 15:49:59,"1,194s",PASSED
+"click(findTestObject(""Modulo control tiempo/Jornada/li_Listado Persona (get)""))",Chrome 98.0.4758.102,,,2022-03-01 15:49:59,2022-03-01 15:50:01,"1,470s",PASSED
+"click(findTestObject(""Modulo control tiempo/Jornada/td_1010220596""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:01,2022-03-01 15:50:04,"2,910s",PASSED
+"click(findTestObject(""Modulo control tiempo/Jornada/a_Jornada""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:04,2022-03-01 15:50:05,"0,650s",PASSED
+"click(findTestObject(""Modulo control tiempo/Jornada/a_Liquidar0""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:05,2022-03-01 15:50:06,"1,027s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018""), 1)",Chrome 98.0.4758.102,,,2022-03-01 15:50:06,2022-03-01 15:50:07,"1,596s",PASSED
+"click(findTestObject(""Modulo control tiempo/Jornada/a_Liquidar""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:07,2022-03-01 15:50:08,"0,425s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Jornada/p_Terminacion Normal""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:50:08,2022-03-01 15:50:10,"2,740s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.1.6-Reloj,Chrome 98.0.4758.102,,,2022-03-01 15:50:10,2022-03-01 15:50:31,"20,989s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:50:11,2022-03-01 15:50:16,"4,995s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""Listado persona"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:16,2022-03-01 15:50:17,"1,149s",PASSED
+"click(findTestObject(""Modulo control tiempo/Reloj/span_Listado Persona""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:17,2022-03-01 15:50:18,"1,375s",PASSED
+"click(findTestObject(""Modulo control tiempo/Reloj/td_1010220596""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:18,2022-03-01 15:50:19,"0,963s",PASSED
+"click(findTestObject(""Modulo control tiempo/Reloj/a_Reloj""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:19,2022-03-01 15:50:20,"0,739s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Reloj/td_20210701 1800""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:50:20,2022-03-01 15:50:22,"2,360s",PASSED
+"click(findTestObject(""Modulo control tiempo/Reloj/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:22,2022-03-01 15:50:23,"0,438s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo control tiempo/Reloj/select_AbiertoCerrado""), 1)",Chrome 98.0.4758.102,,,2022-03-01 15:50:23,2022-03-01 15:50:25,"2,763s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input""), ""01/07/2021"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:25,2022-03-01 15:50:26,"1,009s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input""), ""30/07/2021"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:26,2022-03-01 15:50:27,"1,034s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni""), ""08"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:27,2022-03-01 15:50:28,"0,941s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Reloj/input__formPopupRelojminutoIni""), ""10"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:28,2022-03-01 15:50:29,"0,858s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Reloj/input__formPopupRelojhoraFin""), ""18"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:29,2022-03-01 15:50:30,"0,815s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Reloj/input__formPopupRelojminutoFin""), ""00"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:30,2022-03-01 15:50:31,"0,827s",PASSED
+"click(findTestObject(""Modulo control tiempo/Reloj/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:31,2022-03-01 15:50:31,"0,395s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.1.7-Dispositivo,Chrome 98.0.4758.102,,,2022-03-01 15:50:31,2022-03-01 15:50:48,"16,594s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:50:32,2022-03-01 15:50:38,"6,150s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""listado persona"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:38,2022-03-01 15:50:39,"1,166s",PASSED
+"click(findTestObject(""Modulo control tiempo/Dispositivo/span_Listado Persona""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:39,2022-03-01 15:50:40,"1,358s",PASSED
+"click(findTestObject(""Modulo control tiempo/Dispositivo/td_1010220596""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:40,2022-03-01 15:50:41,"1,029s",PASSED
+"click(findTestObject(""Modulo control tiempo/Dispositivo/a_dispositivo""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:41,2022-03-01 15:50:43,"1,283s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Dispositivo/td_-""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:50:43,2022-03-01 15:50:44,"1,693s",PASSED
+"click(findTestObject(""Modulo control tiempo/Dispositivo/span_Huella Digital""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:44,2022-03-01 15:50:46,"1,086s",PASSED
+"click(findTestObject(""Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:46,2022-03-01 15:50:46,"0,509s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Dispositivo/td_-""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:50:46,2022-03-01 15:50:48,"1,911s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.1.8-Funciones,Chrome 98.0.4758.102,,,2022-03-01 15:50:48,2022-03-01 15:51:05,"16,678s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:50:48,2022-03-01 15:50:54,"6,145s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""Listado persona"")",Chrome 98.0.4758.102,,,2022-03-01 15:50:54,2022-03-01 15:50:56,"1,179s",PASSED
+"click(findTestObject(""Modulo control tiempo/Funciones/span_Listado Persona""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:56,2022-03-01 15:50:57,"1,370s",PASSED
+"click(findTestObject(""Modulo control tiempo/Funciones/td_1010220596""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:57,2022-03-01 15:50:58,"1,002s",PASSED
+"click(findTestObject(""Modulo control tiempo/Funciones/a_Funciones""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:58,2022-03-01 15:50:59,"0,751s",PASSED
+"click(findTestObject(""Modulo control tiempo/Funciones/td_1""))",Chrome 98.0.4758.102,,,2022-03-01 15:50:59,2022-03-01 15:51:01,"2,379s",PASSED
+"waitForElementVisible(findTestObject(""Modulo control tiempo/Funciones/a_Cancelar""), 2)",Chrome 98.0.4758.102,,,2022-03-01 15:51:01,2022-03-01 15:51:03,"1,666s",PASSED
+"click(findTestObject(""Modulo control tiempo/Funciones/a_Cancelar""))",Chrome 98.0.4758.102,,,2022-03-01 15:51:03,2022-03-01 15:51:03,"0,447s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Funciones/td_1""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:51:03,2022-03-01 15:51:05,"1,433s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.2.2-Liquidación_reversar,Chrome 98.0.4758.102,,,2022-03-01 15:51:05,2022-03-01 15:52:19,"1m - 14,627s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:51:05,2022-03-01 15:51:11,"5,950s",PASSED
+"setText(findTestObject(""Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input""), ""Liquidacion (get)"")",Chrome 98.0.4758.102,,,2022-03-01 15:51:11,2022-03-01 15:51:12,"1,185s",PASSED
+"click(findTestObject(""Modulo control tiempo/liquidación/li_Liquidacion (get)""))",Chrome 98.0.4758.102,,,2022-03-01 15:51:12,2022-03-01 15:51:14,"1,484s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/liquidación/td_01072021""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:51:14,2022-03-01 15:52:19,"1m - 5,689s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.2.3-Aplicar,Chrome 98.0.4758.102,,,2022-03-01 15:52:19,2022-03-01 15:52:39,"19,874s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:52:20,2022-03-01 15:52:27,"7,406s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""Liquidacion"")",Chrome 98.0.4758.102,,,2022-03-01 15:52:27,2022-03-01 15:52:28,"1,185s",PASSED
+"click(findTestObject(""Modulo control tiempo/Aplicar/span_Liquidacion""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:28,2022-03-01 15:52:30,"1,505s",PASSED
+"click(findTestObject(""Modulo control tiempo/Aplicar/td_27022019""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:30,2022-03-01 15:52:31,"1,026s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Aplicar/a_Reversar Nomina""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:52:31,2022-03-01 15:52:33,"2,072s",PASSED
+"click(findTestObject(""Modulo control tiempo/Aplicar/a_Aplicar""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:33,2022-03-01 15:52:33,"0,465s",PASSED
+"click(findTestObject(""Modulo control tiempo/Aplicar/a_Aceptar""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:33,2022-03-01 15:52:34,"0,682s",PASSED
+"click(findTestObject(""Modulo control tiempo/Aplicar/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:34,2022-03-01 15:52:38,"3,902s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Aplicar/a_Reversar Nomina""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:52:38,2022-03-01 15:52:39,"1,327s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.2.4-Histórico_Evento,Chrome 98.0.4758.102,,,2022-03-01 15:52:39,2022-03-01 15:52:53,"13,479s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:52:39,2022-03-01 15:52:46,"6,510s",PASSED
+"setText(findTestObject(""Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input""), ""Historico Evento"")",Chrome 98.0.4758.102,,,2022-03-01 15:52:46,2022-03-01 15:52:47,"1,153s",PASSED
+"click(findTestObject(""Modulo control tiempo/Historico_Evento/li_Historico Evento (get)""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:47,2022-03-01 15:52:49,"1,496s",PASSED
+"scrollToElement(findTestObject(""Modulo control tiempo/Historico_Evento/a_1""), 0)",Chrome 98.0.4758.102,,,2022-03-01 15:52:49,2022-03-01 15:52:50,"1,045s",PASSED
+"click(findTestObject(""Modulo control tiempo/Historico_Evento/a_1""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:50,2022-03-01 15:52:50,"0,467s",PASSED
+"scrollToElement(findTestObject(""Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71""), 0)",Chrome 98.0.4758.102,,,2022-03-01 15:52:50,2022-03-01 15:52:50,"0,357s",PASSED
+"scrollToElement(findTestObject(""Modulo control tiempo/Historico_Evento/a_2""), 0)",Chrome 98.0.4758.102,,,2022-03-01 15:52:50,2022-03-01 15:52:51,"0,379s",PASSED
+"click(findTestObject(""Modulo control tiempo/Historico_Evento/a_2""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:51,2022-03-01 15:52:51,"0,439s",PASSED
+"scrollToElement(findTestObject(""Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71""), 0)",Chrome 98.0.4758.102,,,2022-03-01 15:52:51,2022-03-01 15:52:52,"0,585s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-01 15:52:52,2022-03-01 15:52:53,"0,728s",PASSED
+,,,,,,,
+Test Cases/13.1-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento,Chrome 98.0.4758.102,,,2022-03-01 15:52:53,2022-03-01 15:53:08,"14,914s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 15:52:53,2022-03-01 15:52:58,"4,804s",PASSED
+"setText(findTestObject(""input_Empresa 1_form_templatej_idt24_input""), ""Inconsistencias Evento"")",Chrome 98.0.4758.102,,,2022-03-01 15:52:58,2022-03-01 15:52:59,"1,204s",PASSED
+"click(findTestObject(""Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)""))",Chrome 98.0.4758.102,,,2022-03-01 15:52:59,2022-03-01 15:53:00,"1,451s",PASSED
+"click(findTestObject(""Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin""))",Chrome 98.0.4758.102,,,2022-03-01 15:53:00,2022-03-01 15:53:01,"0,881s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS""), 1))",Chrome 98.0.4758.102,,,2022-03-01 15:53:01,2022-03-01 15:53:08,"6,270s",PASSED

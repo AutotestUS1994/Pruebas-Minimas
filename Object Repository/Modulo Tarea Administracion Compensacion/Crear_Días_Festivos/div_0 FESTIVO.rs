@@ -6,12 +6,12 @@
    <elementGuidId>a4d4b7de-a767-4e2f-b950-8b8588f54b50</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='calendario']/div[2]/div/table/tbody/tr/td/div/div/div[5]/div[2]/table/tbody/tr/td[5]/a/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.fc-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[5]/td[7]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

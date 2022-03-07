@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[2]/span</value>
+         <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

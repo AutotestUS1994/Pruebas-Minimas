@@ -61,10 +61,15 @@ WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modul
 
 WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/td_01072021'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_link_derogar'), 
-    0)
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+    '01/07/2021')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_link_derogar'))
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Nmero_form_detalleviaticosNumero'), 
+    '5')
+
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 'prueba')
+
+WebUI.click(findTestObject('a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

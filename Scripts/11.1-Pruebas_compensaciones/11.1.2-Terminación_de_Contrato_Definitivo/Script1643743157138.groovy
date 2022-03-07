@@ -24,8 +24,6 @@ random_double = Math.round(random_double * 1000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-WebUI.comment('No aparece en el listado de terminacion de  contrato')
-
 /*------------------------------------------------------------------*/
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -204,6 +202,9 @@ WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Defin
 WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_NOMINA MENSUALNOMINA QUINCENAL'), 
     2)
 
+WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS'), 
+    1)
+
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar'))
 
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Descargar pdf'))
@@ -276,13 +277,16 @@ WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Def
 WebUI.sendKeys(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis_listado empleados'))
+
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Terminar Contrato'))
 
 WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Liquidar'))
 
+/*dejo de funcionar en la version 12.05.00
 WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Fecha de Retiro_cancelacion_contratofecharetiro_input'), 
     '02/07/2021')
-
+*/
 WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO'), 
     '5')
 
@@ -303,6 +307,4 @@ WebUI.click(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Defin
 if (WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Regresar'), 1)) {
     WebUI.closeBrowser()
 }
-
-WebUI.comment('no se sabe a que  usuario terminarle contrato')
 

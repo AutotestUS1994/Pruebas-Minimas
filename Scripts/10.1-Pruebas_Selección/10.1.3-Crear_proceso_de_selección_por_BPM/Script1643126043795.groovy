@@ -107,7 +107,7 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
 
     WebUI.closeBrowser()
 } else {
-    WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Nuevo'))
+    WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Nuevo - Copy'))
 
     WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/select_SeleccionarSiNo'), 
         2)
@@ -143,6 +143,9 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
     WebUI.setText(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Proceso_seleccion_procesofecha_inicio_input'), 
         '29/06/2017')
 
+    WebUI.sendKeys(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Proceso_seleccion_procesofecha_inicio_input'), 
+        Keys.chord(Keys.ESCAPE))
+
     WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/select_Concurso InternoMixtoProceso Externo'), 
         0)
 
@@ -151,6 +154,9 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
 
     WebUI.setText(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/textarea_TEST_seleccion_procesoproceso'), 
         'PRUEBAS KATALON')
+
+    WebUI.setText(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Cantidad Puesto_seleccion_procesocantidad'), 
+        '100')
 
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Guardar'))
 

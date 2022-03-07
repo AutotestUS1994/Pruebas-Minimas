@@ -57,13 +57,16 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensaci
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/input_Fecha Pago_cancelacion_c'), 
     '31/07/2021')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'))
-
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/span_Calculo Nomina'))
+
+if(WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
+    1)) {
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'))
 
 WebUI.selectOptionByLabel(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
     'comprobante planilla liquidacacion', false)
-
+}
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/a_Nuevo0'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidar Conceptos y Variables/span_SALARIO BASICO'))

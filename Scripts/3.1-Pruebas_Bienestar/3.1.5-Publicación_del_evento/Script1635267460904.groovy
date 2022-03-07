@@ -94,7 +94,7 @@ WebUI.delay(2)
 
 String Imagen = WebUI.getText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_HTML'))
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank'), Imagen)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ui-editor-button'))
 
@@ -142,7 +142,7 @@ WebUI.delay(2)
 
 String Imagen2 = WebUI.getText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_HTML'))
+WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank'), Imagen2)
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ui-editor-button'))
 
@@ -155,6 +155,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/i
 
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Fecha Final_form_publicacionEventofechaFinalPub_input'), 
     FechaF)
+
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar'))
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar'))
 

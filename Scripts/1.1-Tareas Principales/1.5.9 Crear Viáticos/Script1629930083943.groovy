@@ -38,6 +38,23 @@ WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crea
 WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/a_Nuevo_modificar'))
+
+WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/span_Modificar una solicitud de vitico'))
+
+WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Documento_popupViaticoProgramadoFormfechaViat_input'), 
+    '01/07/2021')
+
+WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Documento_popupViaticoProgramadoFormfechaViat_input'), 
+    Keys.chord(Keys.ENTER))
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/td_Programada'), 
+    1)) {
+    WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/span_Derogada_ui-icon ui-icon-closethick'))
+}
+
 WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/select_--Seleccione--Estado'), 
     2)
 

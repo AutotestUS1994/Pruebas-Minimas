@@ -18,6 +18,12 @@
       <testCaseId>Test Cases/11.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>86d86408-6750-491b-9c0c-4ab17b75348c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/11.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>185cd6c2-a7bc-48d7-ad0f-433f4e594b1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

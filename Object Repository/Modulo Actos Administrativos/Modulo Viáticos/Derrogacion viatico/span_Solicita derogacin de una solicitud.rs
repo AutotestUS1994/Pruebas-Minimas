@@ -6,12 +6,11 @@
    <elementGuidId>5c7ad34d-ae7f-4be9-af3e-2a88cdbd9ffa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[@id='form_listadoviaticos:tabla_data']/tr[3]/td/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Solicita derogación de una solicitud']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

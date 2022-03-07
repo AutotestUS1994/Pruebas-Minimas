@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_as
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/a_Registro'))
 
-if (WebUI.waitForElementNotPresent(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
+if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
     1)) {
     WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'))
 

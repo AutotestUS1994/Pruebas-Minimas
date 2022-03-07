@@ -32,7 +32,10 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidaci�
 
     WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidaci처n/a_Continuar'), 0)
 
-    WebUI.click(findTestObject('Modulo control tiempo/liquidaci처n/a_Continuar'))
+    if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidaci처n/div_Reversin realizada con xito'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo control tiempo/liquidaci처n/a_Continuar'))
+    }
 }
 
 WebUI.click(findTestObject('Modulo control tiempo/liquidaci처n/a_Nuevo'))
@@ -59,8 +62,7 @@ WebUI.click(findTestObject('Modulo control tiempo/liquidaci처n/div_Liquidacin re
 
 WebUI.click(findTestObject('Modulo control tiempo/liquidaci처n/a_Continuar'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo control tiempo/liquidaci처n/textarea_Evento del reloj entrada sin salida - Entradas sin autorizar'), 
-    1)) {
+if (WebUI.waitForElementPresent(findTestObject('Modulo control tiempo/liquidaci처n/a_Reversar'), 1)) {
     WebUI.closeBrowser()
 }
 

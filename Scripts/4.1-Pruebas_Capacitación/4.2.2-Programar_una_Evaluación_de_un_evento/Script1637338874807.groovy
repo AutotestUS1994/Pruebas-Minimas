@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.comment('OMITIR PRUEBA.')
-
-WebUI.comment('genera error al eliminar el evento')
-
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/td_Prueba'))
@@ -34,6 +30,9 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Pro
     WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt766'))
 
     WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/a_Aceptar_Eliminar'))
+
+    WebUI.verifyElementPresent(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/p_Se elimino el registro de evaluacion'), 
+        0)
 }
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/a_Programar'))
@@ -46,11 +45,10 @@ WebUI.check(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluaci�
 WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/input_Fecha Limite_popupProgramarEvento_formfechaIn_input'), 
     '31/12/2021')
 
+WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/input_Fecha Limite_popupProgramarEvento_formfechaIn_input'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/a_Aplicar'))
 
 WebUI.closeBrowser()
-
-WebUI.comment('OMITIR PRUEBA.')
-
-WebUI.comment('genera error al eliminar el evento')
 

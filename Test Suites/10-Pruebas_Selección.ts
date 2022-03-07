@@ -30,6 +30,12 @@
       <testCaseId>Test Cases/10.1-Pruebas_Selección/10.1.3-Crear_proceso_de_selección_por_BPM</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>da50df76-8e35-47ed-8d9c-00d1040ca4ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/10.1-Pruebas_Selección/10.1.4-Condición_de_derecho</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>73ab9cf5-ca58-4eca-af4a-993433ca1d99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

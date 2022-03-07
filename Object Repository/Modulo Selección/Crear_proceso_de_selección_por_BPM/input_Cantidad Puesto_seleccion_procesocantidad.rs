@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[3]/td[5]/input</value>
+         <value>//table[2]/tbody/tr/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -84,6 +84,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//form[@id='seleccion_proceso']/span/table[2]/tbody/tr/td[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[2]/tbody/tr/td[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'seleccion_proceso:cantidad' and @type = 'text' and @name = 'seleccion_proceso:cantidad']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//form[@id='seleccion_proceso']/span/table/tbody/tr[3]/td[5]/input</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -92,12 +113,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[5]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'seleccion_proceso:cantidad' and @type = 'text' and @name = 'seleccion_proceso:cantidad']</value>
    </webElementXpaths>
 </WebElementEntity>

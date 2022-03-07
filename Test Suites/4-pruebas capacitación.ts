@@ -72,6 +72,12 @@
       <testCaseId>Test Cases/4.1-Pruebas_Capacitación/4.2.1-Programar_un_evento</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ef7774a5-f2bb-44a5-bd8c-e541cfb90537</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4.1-Pruebas_Capacitación/4.2.2-Programar_una_Evaluación_de_un_evento</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb77d8df-0b1c-4ea4-89c8-b96f74f13f95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -6,12 +6,12 @@
    <elementGuidId>09394dce-1f34-413b-8424-6ef0a7ccdd71</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/ul/li/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.ui-tabs-header.ui-state-default.ui-corner-top > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Detalle')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

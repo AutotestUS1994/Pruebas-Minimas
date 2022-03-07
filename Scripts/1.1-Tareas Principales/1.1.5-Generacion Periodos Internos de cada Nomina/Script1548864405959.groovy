@@ -22,7 +22,8 @@ String todaysDate = today.format('dd/MM/yyyy')
 
 String projectName = 'Regression Project ' + todaysDate
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Mantenimieto Periodo Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Mantenimieto Periodo Nomina'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/span_NOMINA MENSUAL'), 
     GlobalVariable.G_TimeOut)
@@ -41,6 +42,15 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/a_Aceptar_ELiminar_Agosto'))
 }
 
+if(WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'), 
+    1))
+{
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
+}
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/a_Generar Periodicidad'), 
     GlobalVariable.G_TimeOut)
 
@@ -61,10 +71,10 @@ WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacio
     'PM')
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/input_Fecha Inicial_formPoGePepoGePeFechaInicial_input'), 
-    '1/08/2021')
+    '01/09/2021')
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/input_Fecha Final_formPoGePepoGePeFechaFinal_input'), 
-    '31/08/2021')
+    '30/09/2021')
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/a_Generar'), 
     GlobalVariable.G_TimeOut)
@@ -75,6 +85,15 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
     GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/a_Guardar'))
+
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'), 
+    0)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

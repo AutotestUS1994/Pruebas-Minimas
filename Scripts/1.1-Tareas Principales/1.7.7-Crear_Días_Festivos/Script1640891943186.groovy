@@ -39,7 +39,7 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Comp
 
     String Mes = leerMes
 
-    while (Mes != 'enero 2021') {
+    while (Mes != 'enero de 2021') {
         WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear_Días_Festivos/span_Modo_fc-icon fc-icon-left-single-arrow_regresarMes'), 
             FailureHandling.STOP_ON_FAILURE)
 
@@ -76,7 +76,7 @@ String leerMes = WebUI.getText(findTestObject('Modulo Tarea Administracion Compe
 
 String Mes = leerMes
 
-while (Mes != 'enero 2021') {
+while (Mes != 'enero de 2021') {
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear_Días_Festivos/span_Modo_fc-icon fc-icon-left-single-arrow_regresarMes'), 
         FailureHandling.STOP_ON_FAILURE)
 

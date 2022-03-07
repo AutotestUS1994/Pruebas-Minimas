@@ -1,0 +1,146 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+4-pruebas capacitación,Chrome 98.0.4758.102,,,2022-03-01 11:12:24,2022-03-01 11:20:10,"7m - 45,780s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.1-Nuevo_Curso,Chrome 98.0.4758.102,,,2022-03-01 11:12:24,2022-03-01 11:13:04,"40,254s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:12:25,2022-03-01 11:12:35,"10,151s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Cursos (cap)"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:35,2022-03-01 11:12:36,"1,203s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/li_Cursos (cap)""), 0)",Chrome 98.0.4758.102,,,2022-03-01 11:12:36,2022-03-01 11:12:37,"1,475s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/li_Cursos (cap)""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:12:37,2022-03-01 11:12:38,"0,436s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/td_Prueba""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:12:38,2022-03-01 11:12:44,"6,348s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/a_Nuevo""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:12:44,2022-03-01 11:12:45,"0,628s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Curso_form_cursopestaniasdescripcion""), ""Prueba"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:45,2022-03-01 11:12:46,"1,005s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_Intensidad Horaria_form_cursopestaniasintensidad""), ""12"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:46,2022-03-01 11:12:47,"0,843s",PASSED
+"check(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/label_Ambas""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:12:47,2022-03-01 11:12:47,"0,440s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_Puntaje Minimo_form_cursopestaniaspuntajeminimo""), ""10"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:47,2022-03-01 11:12:48,"1,019s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_Puntaje Aprobacin_form_cursopestaniaspuntajeaproba""), ""31"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:48,2022-03-01 11:12:49,"0,761s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Prerrequisito_form_cursopestaniasprerequisito""), ""null"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:49,2022-03-01 11:12:50,"0,765s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Metodologa_form_cursopestaniasmetodologia""), ""virtual"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:50,2022-03-01 11:12:50,"0,774s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/select_-- Seleccione --CARTAS DE RETIROCERT""), ""1"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:50,2022-03-01 11:12:52,"1,155s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/select_SeleccioneNINGUNOIcetexInstituto Caro y Cuervo.PositivaSena""), 5)",Chrome 98.0.4758.102,,,2022-03-01 11:12:52,2022-03-01 11:12:53,"1,145s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/select_ActivoCancelado""), 1)",Chrome 98.0.4758.102,,,2022-03-01 11:12:53,2022-03-01 11:12:54,"1,081s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_Asistencia Mnima Horas_form_cursopestaniasasistenciamin""), ""8"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:54,2022-03-01 11:12:55,"0,819s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_Puntaje Mximo_form_cursopestaniaspuntajemaximo""), ""50"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:55,2022-03-01 11:12:55,"0,795s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Poblacin Objeto_form_cursopestaniascobertura""), ""null"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:55,2022-03-01 11:12:56,"0,800s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Objetivo_form_cursopestaniasimpacto""), ""null"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:56,2022-03-01 11:12:57,"0,769s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Contenido_form_cursopestaniascontenido""), ""null"")",Chrome 98.0.4758.102,,,2022-03-01 11:12:57,2022-03-01 11:12:58,"0,683s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-01 11:12:58,2022-03-01 11:12:58,"0,410s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/a_Tema""))",Chrome 98.0.4758.102,,,2022-03-01 11:12:58,2022-03-01 11:13:00,"1,605s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/select_-- SELECCIONAR --GERENCIA DE PROYECTOSPLANMEACINPRUEBA DE MODULOSEGURIDAD EN EL SISTEMA DE INFORMACINTema""), 5)",Chrome 98.0.4758.102,,,2022-03-01 11:13:00,2022-03-01 11:13:01,"1,416s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/input_Orden_form_cursopestaniaslistaTemasorden""), ""1"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:01,2022-03-01 11:13:02,"0,791s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/a_Orden_form_cursopestaniaslistaTemasj_idt609""))",Chrome 98.0.4758.102,,,2022-03-01 11:13:02,2022-03-01 11:13:02,"0,452s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo_Curso/a_Regresar""))",Chrome 98.0.4758.102,,,2022-03-01 11:13:02,2022-03-01 11:13:04,"1,303s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-01 11:13:04,2022-03-01 11:13:04,"0,714s",PASSED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.2-Nuevo _Instructor-Entidad,Chrome 98.0.4758.102,,,2022-03-01 11:13:04,2022-03-01 11:13:30,"25,957s",PASSED
+today = new java.util.Date(),Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,006s",PASSED
+"Dia = today.format(""dd"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,002s",PASSED
+"Mes = today.format(""MM"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,001s",PASSED
+"MesN = today.format(""MM"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+sumaA = Año + 1,Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,001s",PASSED
+if (sumaD > 30),Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+else,Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,001s",PASSED
+if (sumaM > 12),Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + Año",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+"FechaF = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:05,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:13:05,2022-03-01 11:13:11,"6,224s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Parmetros EntidadInstructor_form_templatej_idt24_input""), ""Parametros Entidad/Instructor"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:11,2022-03-01 11:13:12,"1,180s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/li_Parametros EntidadInstructor (bie)""))",Chrome 98.0.4758.102,,,2022-03-01 11:13:12,2022-03-01 11:13:14,"1,859s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Entidad""))",Chrome 98.0.4758.102,,,2022-03-01 11:13:14,2022-03-01 11:13:15,"0,874s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/td_123456789""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:13:15,2022-03-01 11:13:18,"3,336s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-01 11:13:18,2022-03-01 11:13:19,"0,732s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Identificacin_form_entidadtabidentificacionEntidad""), ""123456789"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:19,2022-03-01 11:13:20,"1,110s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/select_--Seleccione--ActivoNo Disponible""), 1)",Chrome 98.0.4758.102,,,2022-03-01 11:13:20,2022-03-01 11:13:21,"1,121s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/textarea_Razn Social_form_entidadtabrazonsocial""), ""Prueba"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:21,2022-03-01 11:13:22,"0,770s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Contacto_form_entidadtabcontacto""), ""ninguno"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:22,2022-03-01 11:13:23,"0,796s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Direccin_form_entidadtabdireccion""), ""carrera 132 # 152 c-10"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:23,2022-03-01 11:13:24,"0,808s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Barrio_form_entidadtabbarrio""), ""ninguno"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:24,2022-03-01 11:13:24,"0,781s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Telfono_form_entidadtabtelefono""), ""319388299"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:24,2022-03-01 11:13:25,"0,820s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Ingreso_form_entidadtabfechaingreso_input""), FechaI)",Chrome 98.0.4758.102,,,2022-03-01 11:13:25,2022-03-01 11:13:26,"0,846s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Ingreso_form_entidadtabfechaingreso_input""), Keys.chord(ESCAPE))",Chrome 98.0.4758.102,,,2022-03-01 11:13:26,2022-03-01 11:13:27,"0,518s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input""), 0)",Chrome 98.0.4758.102,,,2022-03-01 11:13:27,2022-03-01 11:13:27,"0,364s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input""), FechaF)",Chrome 98.0.4758.102,,,2022-03-01 11:13:27,2022-03-01 11:13:28,"0,852s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input""), Keys.chord(ESCAPE))",Chrome 98.0.4758.102,,,2022-03-01 11:13:28,2022-03-01 11:13:28,"0,486s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/textarea_Observacin_form_entidadtabobservacion""), ""ninguna"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:28,2022-03-01 11:13:29,"0,766s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Motivo de Retiro_form_entidadtabmotivo""), ""ninguna"")",Chrome 98.0.4758.102,,,2022-03-01 11:13:29,2022-03-01 11:13:30,"0,814s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-01 11:13:30,2022-03-01 11:13:30,"0,431s",PASSED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.3-Evento_de_Capacitación,Chrome 98.0.4758.102,,,2022-03-01 11:13:30,2022-03-01 11:14:12,"41,813s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:13:31,2022-03-01 11:13:42,"10,860s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_prueba""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:13:42,2022-03-01 11:14:11,"29,136s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Capacitación/Evento_de_Capacitacion/a_Nuevo""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:14:11,2022-03-01 11:14:12,"1,424s",PASSED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.4-Crear_un_Grupo-Curso_Tipo_Evento_Grupal,Chrome 98.0.4758.102,,,2022-03-01 11:14:12,2022-03-01 11:15:01,"49,134s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:14:12,2022-03-01 11:14:23,"10,251s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:14:23,2022-03-01 11:14:25,"2,370s",PASSED
+else,Chrome 98.0.4758.102,,,2022-03-01 11:14:25,2022-03-01 11:15:01,"36,232s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.5-Insribir_un_asistente,Chrome 98.0.4758.102,,,2022-03-01 11:15:01,2022-03-01 11:15:42,"40,716s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:15:02,2022-03-01 11:15:11,"9,016s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Inscribir_un_asistente/td_Prueba""))",Chrome 98.0.4758.102,,,2022-03-01 11:15:11,2022-03-01 11:15:42,"31,410s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.6-Enviar_una_invitación,Chrome 98.0.4758.102,,,2022-03-01 11:15:42,2022-03-01 11:16:24,"41,732s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:15:42,2022-03-01 11:15:52,"10,153s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Enviar_una_invitación/td_Prueba""))",Chrome 98.0.4758.102,,,2022-03-01 11:15:52,2022-03-01 11:16:24,"31,294s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.7-Cambiar_estado_de_un_asistente,Chrome 98.0.4758.102,,,2022-03-01 11:16:24,2022-03-01 11:17:06,"42,310s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:16:24,2022-03-01 11:16:35,"10,639s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_Prueba""))",Chrome 98.0.4758.102,,,2022-03-01 11:16:35,2022-03-01 11:17:06,"31,391s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.8-Asociar_Recursos,Chrome 98.0.4758.102,,,2022-03-01 11:17:06,2022-03-01 11:17:49,"42,687s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:17:06,2022-03-01 11:17:18,"11,201s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Asociar_Recursos/td_Prueba""))",Chrome 98.0.4758.102,,,2022-03-01 11:17:18,2022-03-01 11:17:49,"31,209s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.1.9-Registrar_los_costos,Chrome 98.0.4758.102,,,2022-03-01 11:17:49,2022-03-01 11:18:31,"42,354s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:17:49,2022-03-01 11:18:00,"10,734s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Registrar_los_costos/td_Prueba""))",Chrome 98.0.4758.102,,,2022-03-01 11:18:00,2022-03-01 11:18:31,"31,338s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.2.1-Programar_un_evento,Chrome 98.0.4758.102,,,2022-03-01 11:18:31,2022-03-01 11:19:13,"41,869s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:18:31,2022-03-01 11:18:41,"10,051s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Programar_un_evento/td_Prueba""))",Chrome 98.0.4758.102,,,2022-03-01 11:18:41,2022-03-01 11:19:13,"31,536s",FAILED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.2.3-Crear_una_Necesidad_de_Capacitación,Chrome 98.0.4758.102,,,2022-03-01 11:19:13,2022-03-01 11:19:41,"27,569s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:19:13,2022-03-01 11:19:21,"7,458s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Evento Capacitacin_form_templatej_idt24_input""), ""Listado necesidad de capacitacion"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:21,2022-03-01 11:19:22,"1,145s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/li_Listado necesidad de capacitacion (cap)""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:22,2022-03-01 11:19:23,"1,517s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/td_A A A""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:19:23,2022-03-01 11:19:30,"6,474s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:30,2022-03-01 11:19:31,"0,944s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_prueba np""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:31,2022-03-01 11:19:32,"0,741s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Nombre_formj_idt628""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:32,2022-03-01 11:19:32,"0,692s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726""), ""a"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:32,2022-03-01 11:19:33,"1,092s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-01 11:19:33,2022-03-01 11:19:34,"0,426s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_A A A""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:19:34,2022-03-01 11:19:35,"1,469s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Solicitado Por_formj_idt661""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:35,2022-03-01 11:19:37,"1,560s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formj_idt723""), ""a"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:37,2022-03-01 11:19:38,"1,102s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formj_idt723""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-01 11:19:38,2022-03-01 11:19:38,"0,415s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_Aalfalfa Aalfalfa Aalfalfa""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:38,2022-03-01 11:19:39,"0,858s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:39,2022-03-01 11:19:40,"0,685s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-01 11:19:40,2022-03-01 11:19:41,"0,708s",PASSED
+,,,,,,,
+Test Cases/4.1-Pruebas_Capacitación/4.2.4-Reserva_de_Salones,Chrome 98.0.4758.102,,,2022-03-01 11:19:41,2022-03-01 11:20:10,"29,006s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:19:41,2022-03-01 11:19:46,"4,700s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/input_Listado Necesidad Capacitacin_form_templatej_idt24_input""), ""Reserva de Salones"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:46,2022-03-01 11:19:47,"1,137s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/span_Reserva de Salones""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:47,2022-03-01 11:19:48,"1,373s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/td_Sala de Juntas""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:48,2022-03-01 11:19:49,"1,029s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka""), 1))",Chrome 98.0.4758.102,,,2022-03-01 11:19:49,2022-03-01 11:19:53,"3,747s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/span_----""))",Chrome 98.0.4758.102,,,2022-03-01 11:19:53,2022-03-01 11:19:55,"2,619s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Tema_popup_form_reservaSalonestema""), ""Pruebas ka"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:55,2022-03-01 11:19:57,"1,279s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/select_0830 AM0900 AM0930""), 1)",Chrome 98.0.4758.102,,,2022-03-01 11:19:57,2022-03-01 11:19:58,"1,094s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/input_Nmero Asistentes_popup_form_reservaSalonescantidad""), ""20"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:58,2022-03-01 11:19:59,"0,866s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Requerimiento_popup_form_reservaSalonesrequerimiento""), ""Ninguno"")",Chrome 98.0.4758.102,,,2022-03-01 11:19:59,2022-03-01 11:20:00,"0,817s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Observacin_popup_form_reservaSalonesobservacion""), ""Ninguna"")",Chrome 98.0.4758.102,,,2022-03-01 11:20:00,2022-03-01 11:20:00,"0,752s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/a_Solicitante_popup_form_reservaSalonesj_idt173""))",Chrome 98.0.4758.102,,,2022-03-01 11:20:00,2022-03-01 11:20:01,"0,374s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205""), ""a"")",Chrome 98.0.4758.102,,,2022-03-01 11:20:01,2022-03-01 11:20:02,"1,323s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-01 11:20:02,2022-03-01 11:20:02,"0,408s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/td_A A A""))",Chrome 98.0.4758.102,,,2022-03-01 11:20:02,2022-03-01 11:20:03,"0,811s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/a_Responsable de reservacin_popup_form_reservaSalonesj_idt177""))",Chrome 98.0.4758.102,,,2022-03-01 11:20:03,2022-03-01 11:20:05,"1,369s",PASSED
+"setText(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205""), ""a"")",Chrome 98.0.4758.102,,,2022-03-01 11:20:05,2022-03-01 11:20:06,"1,227s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-01 11:20:06,2022-03-01 11:20:06,"0,364s",PASSED
+"click(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/span_A A A""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-01 11:20:06,2022-03-01 11:20:07,"0,869s",PASSED
+"executeJavaScript(""document.body.style.zoom='100%'"", null)",Chrome 98.0.4758.102,,,2022-03-01 11:20:07,2022-03-01 11:20:07,"0,013s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-03-01 11:20:07,2022-03-01 11:20:09,"2,017s",PASSED
+"scrollToPosition(400, 4000)",Chrome 98.0.4758.102,,,2022-03-01 11:20:09,2022-03-01 11:20:09,"0,058s",PASSED
+"element = findWebElement(findTestObject(""Modulo Pruebas Capacitación/Reserva_de_Salones/a_Guardar""), 30)",Chrome 98.0.4758.102,,,2022-03-01 11:20:09,2022-03-01 11:20:10,"0,370s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 98.0.4758.102,,,2022-03-01 11:20:10,2022-03-01 11:20:10,"0,049s",PASSED

@@ -67,7 +67,10 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Exportar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
+if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
+}
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/label_pdf'))
 
@@ -81,8 +84,11 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Exportar'))
 
+if(WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'), 
+    1))
+{
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
-
+}
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/label_xlsData'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))

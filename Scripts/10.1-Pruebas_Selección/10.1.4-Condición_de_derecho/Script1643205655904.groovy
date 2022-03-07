@@ -19,5 +19,53 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Modulo Selección/Condición_de_derecho/input_Empresa 1_form_templatej_idt24_input'), 'proceso de seleccion')
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/span_Proceso de Se'))
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/td_8028     - Analista De Sistemas'))
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_Condicin de Derecho'))
+
+if(WebUI.waitForElementVisible(findTestObject('Modulo Selección/Condición_de_derecho/a_Edad_seleccion_procesotabla_ventanaCDTB1j_idt15812'), 
+    1)) {
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_Edad_seleccion_procesotabla_ventanaCDTB1j_idt15812'))
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_Aceptar'))
+}
+if(WebUI.waitForElementVisible(findTestObject('Modulo Selección/Condición_de_derecho/a_BOGOT_seleccion_procesotabla_ventanaCDTB0j_idt1581'), 
+    1)) {
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_BOGOT_seleccion_procesotabla_ventanaCDTB0j_idt1581'))
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_Aceptar'))
+}
+WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Condición_de_derecho/select_-- Seleccione --CargoCargos MultiplesCategoriaCiudad'), 
+    4)
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1504'))
+
+WebUI.setText(findTestObject('Modulo Selección/Condición_de_derecho/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt2630'), 
+    'bogotá')
+
+WebUI.sendKeys(findTestObject('Modulo Selección/Condición_de_derecho/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt2630'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/td_11001     BOGOT'))
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1582'))
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Condición_de_derecho/select_-- Seleccione --CargoCargos MultiplesCategoriaCiudad'), 
+    6)
+
+WebUI.setText(findTestObject('Modulo Selección/Condición_de_derecho/input_BOGOT_seleccion_procesotabla_ventanaCDTBedadMinima'), 
+    '20')
+
+WebUI.setText(findTestObject('Modulo Selección/Condición_de_derecho/input_BOGOT_seleccion_procesotabla_ventanaCDTBedadMaxima'), 
+    '60')
+
+WebUI.click(findTestObject('Modulo Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1582'))
+
 WebUI.comment('NO ES CLARA LA FORMA DE VER PUBLICACIÓN  NI DE PUBLICAR UN PROCESO DE SELECCIÓN ')
 

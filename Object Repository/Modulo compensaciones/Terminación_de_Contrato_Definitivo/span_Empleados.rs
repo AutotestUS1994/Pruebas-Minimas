@@ -6,12 +6,12 @@
    <elementGuidId>214d34b8-289e-4dad-a0b2-fb7a3f9f3062</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Empleados']/parent::*</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-autocomplete-query</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

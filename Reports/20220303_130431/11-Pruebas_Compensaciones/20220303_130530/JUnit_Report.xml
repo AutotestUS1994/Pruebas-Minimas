@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="11-Pruebas_Compensaciones" time="412.281" tests="7" failures="0" errors="0">
+   <testsuite name="11-Pruebas_Compensaciones" tests="7" failures="0" errors="0" time="412.281" skipped="0" timestamp="2022-03-03 13:53:01" hostname="diego.rojas - US-AF-000371" id="Test Suites/11-Pruebas_Compensaciones">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220303_130431\\11-Pruebas_Compensaciones\\20220303_130530"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220303_130431\\11-Pruebas_Compensaciones\\20220303_130530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="6db39585c903f17d6602e7c6cd079ab9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado" time="23.563" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:53:01 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado: Test Cases/11.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado
+
+2022-03-03 13:53:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:53:02 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:53:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:53:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:53:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:53:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:53:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:53:05 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:53:06 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:53:06 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:53:07 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:53:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:53:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:53:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:53:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:53:10 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:53:10 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:53:10 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:53:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:53:10 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/input_Empresa 1_form_templatej_idt24_input"), "liquidacion nomina"): Text 'liquidacion nomina' is set on object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:53:12 - [MESSAGE][PASSED] - Text 'liquidacion nomina' is set on object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/li_Liquidacion Nomina (com)")): Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/li_Liquidacion Nomina (com)' is clicked on
+
+2022-03-03 13:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/li_Liquidacion Nomina (com)' is clicked on
+
+2022-03-03 13:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/a_Periodo Nomina_LiquidacionNominaj_idt68")): Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/a_Periodo Nomina_LiquidacionNominaj_idt68' is clicked on
+
+2022-03-03 13:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/a_Periodo Nomina_LiquidacionNominaj_idt68' is clicked on
+
+2022-03-03 13:53:16 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'
+
+2022-03-03 13:53:17 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'
+
+2022-03-03 13:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/span_P. MensualJunio2021")): Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/span_P. MensualJunio2021' is clicked on
+
+2022-03-03 13:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/span_P. MensualJunio2021' is clicked on
+
+2022-03-03 13:53:18 - [TEST_STEP][PASSED] - check(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default")): Object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default' is checked
+
+2022-03-03 13:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default' is checked
+
+2022-03-03 13:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/a_Reclculo Seleccin")): Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/a_Reclculo Seleccin' is clicked on
+
+2022-03-03 13:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/a_Reclculo Seleccin' is clicked on
+
+2022-03-03 13:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/span_Si")): Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/span_Si' is clicked on
+
+2022-03-03 13:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/span_Si' is clicked on
+
+2022-03-03 13:53:21 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo compensaciones/Recálcular_nómina_por_empleado/p_Recalculo Finalizado"), 1)): null
+
+2022-03-03 13:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Recálcular_nómina_por_empleado/p_Recalculo Finalizado' is visible
+
+2022-03-03 13:53:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-03 13:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-03 13:53:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:53:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo" time="200.012" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:53:25 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo: Test Cases/11.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo
+
+2022-03-03 13:53:25 - [TEST_STEP][PASSED] - random_double = Math.random() * 9999 + 999: null
+
+2022-03-03 13:53:25 - [TEST_STEP][PASSED] - random_double = Math.round(random_double * 1000): null
+
+2022-03-03 13:53:25 - [TEST_STEP][PASSED] - identificacion = toString().replace(".0", ""): null
+
+2022-03-03 13:53:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:53:25 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:53:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:53:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:53:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:53:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:53:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:53:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:53:27 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:53:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:53:28 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:53:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:53:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:53:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:53:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:53:30 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:53:30 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:53:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:53:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input"), "Listado Hojas de Vida"): Text 'Listado Hojas de Vida' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:53:31 - [MESSAGE][PASSED] - Text 'Listado Hojas de Vida' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-03-03 13:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-03-03 13:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva HojaVida")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva HojaVida' is clicked on
+
+2022-03-03 13:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva HojaVida' is clicked on
+
+2022-03-03 13:53:35 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_nuevahoja_formcedula"), identificacion): Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_nuevahoja_formcedula'
+
+2022-03-03 13:53:36 - [MESSAGE][PASSED] - Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_nuevahoja_formcedula'
+
+2022-03-03 13:53:36 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico"), 4): All options with index in [4] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico'
+
+2022-03-03 13:53:37 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico'
+
+2022-03-03 13:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva Solicitud")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva Solicitud' is clicked on
+
+2022-03-03 13:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva Solicitud' is clicked on
+
+2022-03-03 13:53:38 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto"), identificacion): Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto'
+
+2022-03-03 13:53:40 - [MESSAGE][PASSED] - Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto'
+
+2022-03-03 13:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2141idTexto"), "Francis " + identificacion): Text 'Francis 1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2141idTexto'
+
+2022-03-03 13:53:40 - [MESSAGE][PASSED] - Text 'Francis 1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2141idTexto'
+
+2022-03-03 13:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2142idTexto"), "Chandler"): Text 'Chandler' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2142idTexto'
+
+2022-03-03 13:53:41 - [MESSAGE][PASSED] - Text 'Chandler' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2142idTexto'
+
+2022-03-03 13:53:41 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2143fecha_input"), "08/10/1990"): Text '08/10/1990' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2143fecha_input'
+
+2022-03-03 13:53:42 - [MESSAGE][PASSED] - Text '08/10/1990' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2143fecha_input'
+
+2022-03-03 13:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__hojaVidaseccionj_idt2144j_idt254")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__hojaVidaseccionj_idt2144j_idt254' is clicked on
+
+2022-03-03 13:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__hojaVidaseccionj_idt2144j_idt254' is clicked on
+
+2022-03-03 13:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_CEDULA CIUDADANIA")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_CEDULA CIUDADANIA' is clicked on
+
+2022-03-03 13:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_CEDULA CIUDADANIA' is clicked on
+
+2022-03-03 13:53:43 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Fecha Expedicin_hojaVidaseccionj_idt2146fecha_input"), "08/10/2008"): Text '08/10/2008' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Fecha Expedicin_hojaVidaseccionj_idt2146fecha_input'
+
+2022-03-03 13:53:45 - [MESSAGE][PASSED] - Text '08/10/2008' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Fecha Expedicin_hojaVidaseccionj_idt2146fecha_input'
+
+2022-03-03 13:53:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione---- Seleccione--000000ABEJORRA"), "BOGOTÁ", false): All options with label 'BOGOTÁ' are selected in object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione---- Seleccione--000000ABEJORRA' 
+
+2022-03-03 13:53:46 - [MESSAGE][PASSED] - All options with label 'BOGOTÁ' are selected in object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione---- Seleccione--000000ABEJORRA' 
+
+2022-03-03 13:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2148idTexto"), "624564654684"): Text '624564654684' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2148idTexto'
+
+2022-03-03 13:53:46 - [MESSAGE][PASSED] - Text '624564654684' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2148idTexto'
+
+2022-03-03 13:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2149idTexto"), "noodle@gmail.com"): Text 'noodle@gmail.com' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2149idTexto'
+
+2022-03-03 13:53:47 - [MESSAGE][PASSED] - Text 'noodle@gmail.com' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2149idTexto'
+
+2022-03-03 13:53:47 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--AA-ABAB-BB-OO-"), 8): All options with index in [8] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--AA-ABAB-BB-OO-'
+
+2022-03-03 13:53:49 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--AA-ABAB-BB-OO-'
+
+2022-03-03 13:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar' is clicked on
+
+2022-03-03 13:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar' is clicked on
+
+2022-03-03 13:53:50 - [TEST_STEP][PASSED] - Nombre = getText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto")): Text of object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto' is: ''
+
+2022-03-03 13:53:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto' is: ''
+
+2022-03-03 13:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input"), "Actos administrativos"): Text 'Actos administrativos' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:53:51 - [MESSAGE][PASSED] - Text 'Actos administrativos' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-03-03 13:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-03-03 13:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/i_Actos_glyphicons glyphicons-group")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/i_Actos_glyphicons glyphicons-group' is clicked on
+
+2022-03-03 13:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/i_Actos_glyphicons glyphicons-group' is clicked on
+
+2022-03-03 13:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79' is clicked on
+
+2022-03-03 13:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79' is clicked on
+
+2022-03-03 13:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Nomina")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Nomina' is clicked on
+
+2022-03-03 13:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Nomina' is clicked on
+
+2022-03-03 13:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ingreso definitivo indefinido salario basico")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ingreso definitivo indefinido salario basico' is clicked on
+
+2022-03-03 13:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ingreso definitivo indefinido salario basico' is clicked on
+
+2022-03-03 13:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_glyphicons glyphicons-chronicle x2")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_glyphicons glyphicons-chronicle x2' is clicked on
+
+2022-03-03 13:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_glyphicons glyphicons-chronicle x2' is clicked on
+
+2022-03-03 13:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoIngresoj_idt1250")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoIngresoj_idt1250' is clicked on
+
+2022-03-03 13:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoIngresoj_idt1250' is clicked on
+
+2022-03-03 13:54:00 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762"), identificacion): Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762'
+
+2022-03-03 13:54:01 - [MESSAGE][PASSED] - Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762'
+
+2022-03-03 13:54:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762'
+
+2022-03-03 13:54:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762'
+
+2022-03-03 13:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Chandler  Francis 1537948e7")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Chandler  Francis 1537948e7' is clicked on
+
+2022-03-03 13:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Chandler  Francis 1537948e7' is clicked on
+
+2022-03-03 13:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:54:03 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input"), "01/07/2021"): Text '01/07/2021' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input'
+
+2022-03-03 13:54:05 - [MESSAGE][PASSED] - Text '01/07/2021' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input'
+
+2022-03-03 13:54:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input'
+
+2022-03-03 13:54:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input'
+
+2022-03-03 13:54:05 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input"), "01/07/2021"): Text '01/07/2021' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input'
+
+2022-03-03 13:54:06 - [MESSAGE][PASSED] - Text '01/07/2021' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input'
+
+2022-03-03 13:54:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input'
+
+2022-03-03 13:54:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input'
+
+2022-03-03 13:54:07 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_10 - Ingreso Puesto Nuevo"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_10 - Ingreso Puesto Nuevo'
+
+2022-03-03 13:54:08 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_10 - Ingreso Puesto Nuevo'
+
+2022-03-03 13:54:08 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_DIAZ BLANCO GUISELL"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_DIAZ BLANCO GUISELL'
+
+2022-03-03 13:54:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_DIAZ BLANCO GUISELL'
+
+2022-03-03 13:54:09 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/textarea__form_actoIngresoj_idt12874idTexto5"), "Magister en derecho penal"): Text 'Magister en derecho penal' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/textarea__form_actoIngresoj_idt12874idTexto5'
+
+2022-03-03 13:54:10 - [MESSAGE][PASSED] - Text 'Magister en derecho penal' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/textarea__form_actoIngresoj_idt12874idTexto5'
+
+2022-03-03 13:54:10 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --1. Actualizacin por Ascenso del Escalafn Origina2.Actualizacin por Ascenso"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --1. Actualizacin por Ascenso del Escalafn Origina2.Actualizacin por Ascenso'
+
+2022-03-03 13:54:11 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --1. Actualizacin por Ascenso del Escalafn Origina2.Actualizacin por Ascenso'
+
+2022-03-03 13:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12876idTexto"), "AAAAAA"): Text 'AAAAAA' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12876idTexto'
+
+2022-03-03 13:54:11 - [MESSAGE][PASSED] - Text 'AAAAAA' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12876idTexto'
+
+2022-03-03 13:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12877j_idt1327")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12877j_idt1327' is clicked on
+
+2022-03-03 13:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12877j_idt1327' is clicked on
+
+2022-03-03 13:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777"), "1"): Text '1' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777'
+
+2022-03-03 13:54:13 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777'
+
+2022-03-03 13:54:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777'
+
+2022-03-03 13:54:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777'
+
+2022-03-03 13:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ADMINISTRACION")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ADMINISTRACION' is clicked on
+
+2022-03-03 13:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ADMINISTRACION' is clicked on
+
+2022-03-03 13:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12878j_idt1327")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12878j_idt1327' is clicked on
+
+2022-03-03 13:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12878j_idt1327' is clicked on
+
+2022-03-03 13:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_APRENDIZ SENA PRODUCTIVA")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_APRENDIZ SENA PRODUCTIVA' is clicked on
+
+2022-03-03 13:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_APRENDIZ SENA PRODUCTIVA' is clicked on
+
+2022-03-03 13:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_VALOR4_form_actoIngresoj_idt12879idNumero1"), "3"): Text '3' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_VALOR4_form_actoIngresoj_idt12879idNumero1'
+
+2022-03-03 13:54:18 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_VALOR4_form_actoIngresoj_idt12879idNumero1'
+
+2022-03-03 13:54:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_ENTIDAD DE SALUD")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_ENTIDAD DE SALUD' is clicked on
+
+2022-03-03 13:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_ENTIDAD DE SALUD' is clicked on
+
+2022-03-03 13:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Eps - Aliansalud Eps")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Eps - Aliansalud Eps' is clicked on
+
+2022-03-03 13:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Eps - Aliansalud Eps' is clicked on
+
+2022-03-03 13:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_FONDO DE PENSIONES")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_FONDO DE PENSIONES' is clicked on
+
+2022-03-03 13:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_FONDO DE PENSIONES' is clicked on
+
+2022-03-03 13:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Afp - Colfondos")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Afp - Colfondos' is clicked on
+
+2022-03-03 13:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Afp - Colfondos' is clicked on
+
+2022-03-03 13:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ASEG. RIESGOS PROFESIONALES")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ASEG. RIESGOS PROFESIONALES' is clicked on
+
+2022-03-03 13:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ASEG. RIESGOS PROFESIONALES' is clicked on
+
+2022-03-03 13:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Arl - Seguros Bolivar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Arl - Seguros Bolivar' is clicked on
+
+2022-03-03 13:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Arl - Seguros Bolivar' is clicked on
+
+2022-03-03 13:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_FONDO DE CESANTIAS")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_FONDO DE CESANTIAS' is clicked on
+
+2022-03-03 13:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_FONDO DE CESANTIAS' is clicked on
+
+2022-03-03 13:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Fc - Colfondos")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Fc - Colfondos' is clicked on
+
+2022-03-03 13:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Fc - Colfondos' is clicked on
+
+2022-03-03 13:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_PAGO DE NOMINA")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_PAGO DE NOMINA' is clicked on
+
+2022-03-03 13:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_PAGO DE NOMINA' is clicked on
+
+2022-03-03 13:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Sucursal_entidadempleado_formtabj_idt1562")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Sucursal_entidadempleado_formtabj_idt1562' is clicked on
+
+2022-03-03 13:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Sucursal_entidadempleado_formtabj_idt1562' is clicked on
+
+2022-03-03 13:54:26 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Cafam")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Cafam' is clicked on
+
+2022-03-03 13:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Cafam' is clicked on
+
+2022-03-03 13:54:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--003 Familia Popayan"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--003 Familia Popayan'
+
+2022-03-03 13:54:28 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--003 Familia Popayan'
+
+2022-03-03 13:54:28 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Cuenta_entidadempleado_formtabtablaCampos0referencia"), "12345678910"): Text '12345678910' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Cuenta_entidadempleado_formtabtablaCampos0referencia'
+
+2022-03-03 13:54:29 - [MESSAGE][PASSED] - Text '12345678910' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Cuenta_entidadempleado_formtabtablaCampos0referencia'
+
+2022-03-03 13:54:29 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Bco Destino_entidadempleado_formtabtablaCampos1valor"), "5"): Text '5' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Bco Destino_entidadempleado_formtabtablaCampos1valor'
+
+2022-03-03 13:54:29 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Bco Destino_entidadempleado_formtabtablaCampos1valor'
+
+2022-03-03 13:54:29 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo de cuenta_entidadempleado_formtabtablaCampos2sucReferencia"), "Corriente"): Text 'Corriente' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo de cuenta_entidadempleado_formtabtablaCampos2sucReferencia'
+
+2022-03-03 13:54:30 - [MESSAGE][PASSED] - Text 'Corriente' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo de cuenta_entidadempleado_formtabtablaCampos2sucReferencia'
+
+2022-03-03 13:54:30 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo Cuenta 1ahorro 2 corr_entidadempleado_formtabtablaCampos4tipo"), "1"): Text '1' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo Cuenta 1ahorro 2 corr_entidadempleado_formtabtablaCampos4tipo'
+
+2022-03-03 13:54:31 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo Cuenta 1ahorro 2 corr_entidadempleado_formtabtablaCampos4tipo'
+
+2022-03-03 13:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar2")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar2' is clicked on
+
+2022-03-03 13:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar2' is clicked on
+
+2022-03-03 13:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_CAJA DE COMPENSACION")): Object: 'Object Repository/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_CAJA DE COMPENSACION' is clicked on
+
+2022-03-03 13:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_CAJA DE COMPENSACION' is clicked on
+
+2022-03-03 13:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Compensar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Compensar' is clicked on
+
+2022-03-03 13:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Compensar' is clicked on
+
+2022-03-03 13:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:54:34 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_10247")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_10247' is clicked on
+
+2022-03-03 13:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_10247' is clicked on
+
+2022-03-03 13:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actualizar(1)")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actualizar(1)' is clicked on
+
+2022-03-03 13:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actualizar(1)' is clicked on
+
+2022-03-03 13:54:36 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_NOMINA MENSUALNOMINA QUINCENAL"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_NOMINA MENSUALNOMINA QUINCENAL'
+
+2022-03-03 13:54:38 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_NOMINA MENSUALNOMINA QUINCENAL'
+
+2022-03-03 13:54:38 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS'
+
+2022-03-03 13:54:39 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS'
+
+2022-03-03 13:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar' is clicked on
+
+2022-03-03 13:54:39 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Descargar pdf")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Descargar pdf' is clicked on
+
+2022-03-03 13:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Descargar pdf' is clicked on
+
+2022-03-03 13:54:44 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar - Copy")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar - Copy' is clicked on
+
+2022-03-03 13:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar - Copy' is clicked on
+
+2022-03-03 13:54:46 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Cancelar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Cancelar' is clicked on
+
+2022-03-03 13:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Cancelar' is clicked on
+
+2022-03-03 13:54:49 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input"), "Actos administrativos"): Text 'Actos administrativos' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:54:53 - [MESSAGE][PASSED] - Text 'Actos administrativos' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos Administrativos")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos Administrativos' is clicked on
+
+2022-03-03 13:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos Administrativos' is clicked on
+
+2022-03-03 13:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos de Retiro del empleado")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos de Retiro del empleado' is clicked on
+
+2022-03-03 13:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos de Retiro del empleado' is clicked on
+
+2022-03-03 13:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79' is clicked on
+
+2022-03-03 13:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79' is clicked on
+
+2022-03-03 13:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_terminacion de contrato")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_terminacion de contrato' is clicked on
+
+2022-03-03 13:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_terminacion de contrato' is clicked on
+
+2022-03-03 13:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_form_popupSeleccionDerogarj_idt138")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_form_popupSeleccionDerogarj_idt138' is clicked on
+
+2022-03-03 13:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_form_popupSeleccionDerogarj_idt138' is clicked on
+
+2022-03-03 13:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoAusentismoj_idt938")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoAusentismoj_idt938' is clicked on
+
+2022-03-03 13:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoAusentismoj_idt938' is clicked on
+
+2022-03-03 13:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208"), identificacion): Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208'
+
+2022-03-03 13:55:11 - [MESSAGE][PASSED] - Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208'
+
+2022-03-03 13:55:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208'
+
+2022-03-03 13:55:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208'
+
+2022-03-03 13:55:13 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis 149223e7")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis 149223e7' is clicked on
+
+2022-03-03 13:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis 149223e7' is clicked on
+
+2022-03-03 13:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar0")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar0' is clicked on
+
+2022-03-03 13:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar0' is clicked on
+
+2022-03-03 13:55:17 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoAusentismoj_idt15770fecha_input"), "02/07/2021"): Text '02/07/2021' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoAusentismoj_idt15770fecha_input'
+
+2022-03-03 13:55:22 - [MESSAGE][PASSED] - Text '02/07/2021' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoAusentismoj_idt15770fecha_input'
+
+2022-03-03 13:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar1")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar1' is clicked on
+
+2022-03-03 13:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar1' is clicked on
+
+2022-03-03 13:55:24 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar1")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar1' is clicked on
+
+2022-03-03 13:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar1' is clicked on
+
+2022-03-03 13:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si1")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si1' is clicked on
+
+2022-03-03 13:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si1' is clicked on
+
+2022-03-03 13:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar1")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar1' is clicked on
+
+2022-03-03 13:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar1' is clicked on
+
+2022-03-03 13:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Eliminar_form_ActosAdministrativostabla_principal_12j_idt79")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Eliminar_form_ActosAdministrativostabla_principal_12j_idt79' is clicked on
+
+2022-03-03 13:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Eliminar_form_ActosAdministrativostabla_principal_12j_idt79' is clicked on
+
+2022-03-03 13:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filter by Identificacin_form_ActosAdministrativostabla_principal_actosj_idt118filter"), identificacion): Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filter by Identificacin_form_ActosAdministrativostabla_principal_actosj_idt118filter'
+
+2022-03-03 13:55:37 - [MESSAGE][PASSED] - Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filter by Identificacin_form_ActosAdministrativostabla_principal_actosj_idt118filter'
+
+2022-03-03 13:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Cc")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Cc' is clicked on
+
+2022-03-03 13:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Cc' is clicked on
+
+2022-03-03 13:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar3")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar3' is clicked on
+
+2022-03-03 13:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar3' is clicked on
+
+2022-03-03 13:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar3")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar3' is clicked on
+
+2022-03-03 13:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar3' is clicked on
+
+2022-03-03 13:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si3")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si3' is clicked on
+
+2022-03-03 13:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si3' is clicked on
+
+2022-03-03 13:55:47 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE' is clicked on
+
+2022-03-03 13:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE' is clicked on
+
+2022-03-03 13:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar3")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar3' is clicked on
+
+2022-03-03 13:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar3' is clicked on
+
+2022-03-03 13:55:51 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input"), "Listado de Empleados"): Text 'Listado de Empleados' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:55:55 - [MESSAGE][PASSED] - Text 'Listado de Empleados' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Empleados")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Empleados' is clicked on
+
+2022-03-03 13:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Empleados' is clicked on
+
+2022-03-03 13:55:58 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado"), identificacion): Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'
+
+2022-03-03 13:56:04 - [MESSAGE][PASSED] - Text '1979371' is set on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'
+
+2022-03-03 13:56:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'
+
+2022-03-03 13:56:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'
+
+2022-03-03 13:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis_listado empleados")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis_listado empleados' is clicked on
+
+2022-03-03 13:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis_listado empleados' is clicked on
+
+2022-03-03 13:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Terminar Contrato")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Terminar Contrato' is clicked on
+
+2022-03-03 13:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Terminar Contrato' is clicked on
+
+2022-03-03 13:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Liquidar")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Liquidar' is clicked on
+
+2022-03-03 13:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Liquidar' is clicked on
+
+2022-03-03 13:56:12 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO"), "5"): All options with index in [5] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO'
+
+2022-03-03 13:56:18 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO'
+
+2022-03-03 13:56:18 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_---SELECCIONE ---DirectoEntidad de PagoPeriodo de Nomina"), 3): All options with index in [3] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_---SELECCIONE ---DirectoEntidad de PagoPeriodo de Nomina'
+
+2022-03-03 13:56:25 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_---SELECCIONE ---DirectoEntidad de PagoPeriodo de Nomina'
+
+2022-03-03 13:56:25 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--SELECCIONE--PM202106PM202107"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--SELECCIONE--PM202106PM202107'
+
+2022-03-03 13:56:31 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--SELECCIONE--PM202106PM202107'
+
+2022-03-03 13:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Calculo Nomina")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Calculo Nomina' is clicked on
+
+2022-03-03 13:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Calculo Nomina' is clicked on
+
+2022-03-03 13:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales' is clicked on
+
+2022-03-03 13:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales' is clicked on
+
+2022-03-03 13:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si' is clicked on
+
+2022-03-03 13:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si' is clicked on
+
+2022-03-03 13:56:39 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Reporte")): Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Reporte' is clicked on
+
+2022-03-03 13:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Reporte' is clicked on
+
+2022-03-03 13:56:41 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Regresar"), 1)): null
+
+2022-03-03 13:56:44 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Regresar' is visible
+
+2022-03-03 13:56:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:56:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.3-Liquidación_Nomina" time="21.117" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.3-Liquidación_Nomina" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:56:45 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.3-Liquidación_Nomina: Test Cases/11.1-Pruebas_compensaciones/11.1.3-Liquidación_Nomina
+
+2022-03-03 13:56:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:56:45 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:56:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:56:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:56:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:56:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:56:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:56:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:56:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:56:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:56:48 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:56:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:56:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:56:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:56:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:56:50 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:56:50 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:56:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:56:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:56:50 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input"), "Liquidacion Nomina"): Text 'Liquidacion Nomina' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:56:52 - [MESSAGE][PASSED] - Text 'Liquidacion Nomina' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/li_Liquidacion Nomina (com)")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/li_Liquidacion Nomina (com)' is clicked on
+
+2022-03-03 13:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/li_Liquidacion Nomina (com)' is clicked on
+
+2022-03-03 13:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68' is clicked on
+
+2022-03-03 13:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68' is clicked on
+
+2022-03-03 13:56:54 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'
+
+2022-03-03 13:56:56 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'
+
+2022-03-03 13:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/span_P. MensualJulio2021")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/span_P. MensualJulio2021' is clicked on
+
+2022-03-03 13:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/span_P. MensualJulio2021' is clicked on
+
+2022-03-03 13:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124"), "1026588953"): Text '1026588953' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'
+
+2022-03-03 13:56:59 - [MESSAGE][PASSED] - Text '1026588953' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'
+
+2022-03-03 13:56:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'
+
+2022-03-03 13:57:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'
+
+2022-03-03 13:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/td_Aya Silva Cindy Ximena")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/td_Aya Silva Cindy Ximena' is clicked on
+
+2022-03-03 13:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/td_Aya Silva Cindy Ximena' is clicked on
+
+2022-03-03 13:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/a_Liquidacin Periodica")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/span_Prestamo Compaa")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/span_Prestamo Compaa' is clicked on
+
+2022-03-03 13:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/span_Prestamo Compaa' is clicked on
+
+2022-03-03 13:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina/a_Ver")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Ver' is clicked on
+
+2022-03-03 13:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Ver' is clicked on
+
+2022-03-03 13:57:03 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo compensaciones/Liquidación_Nomina/a_Pagos o Descuentos Extra"), 1)): null
+
+2022-03-03 13:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Liquidación_Nomina/a_Pagos o Descuentos Extra' is visible
+
+2022-03-03 13:57:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:57:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General" time="25.071" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:57:06 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General: Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General
+
+2022-03-03 13:57:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:57:06 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:57:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:57:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:57:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:57:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:57:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:57:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:57:08 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:57:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:57:09 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:57:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:57:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:57:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:57:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:57:11 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:57:11 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:57:11 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:57:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:57:11 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input"), "importar fuente general"): Text 'importar fuente general' is set on object 'Object Repository/Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:57:12 - [MESSAGE][PASSED] - Text 'importar fuente general' is set on object 'Object Repository/Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/li_fuente general (gna)")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/li_fuente general (gna)' is clicked on
+
+2022-03-03 13:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/li_fuente general (gna)' is clicked on
+
+2022-03-03 13:57:14 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67"), "Creación prestamos"): Text 'Creación prestamos' is set on object 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:57:16 - [MESSAGE][PASSED] - Text 'Creación prestamos' is set on object 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:57:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:57:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos")): Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos' is clicked on
+
+2022-03-03 13:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos' is clicked on
+
+2022-03-03 13:57:17 - [TEST_STEP][PASSED] - ruta = G_rutaarchivos + "carguePrestamo.txt": null
+
+2022-03-03 13:57:17 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input"), ruta): File 'E:\unionweb14\carguePrestamo.txt' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'
+
+2022-03-03 13:57:18 - [MESSAGE][PASSED] - File 'E:\unionweb14\carguePrestamo.txt' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'
+
+2022-03-03 13:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Sara General/Importar Fuente General/a_Importar")): Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/a_Importar' is clicked on
+
+2022-03-03 13:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/a_Importar' is clicked on
+
+2022-03-03 13:57:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar"), 0): Object 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is visible
+
+2022-03-03 13:57:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 13:57:23 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is visible
+
+2022-03-03 13:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Ejecutar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Ejecutar' is clicked on
+
+2022-03-03 13:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Ejecutar' is clicked on
+
+2022-03-03 13:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:57:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-03 13:57:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-03 13:57:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:57:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.5-Listado_Empleados" time="61.779" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.5-Listado_Empleados" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:57:31 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.5-Listado_Empleados: Test Cases/11.1-Pruebas_compensaciones/11.1.5-Listado_Empleados
+
+2022-03-03 13:57:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:57:31 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:57:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:57:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:57:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:57:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:57:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:57:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:57:33 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:57:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:57:34 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:57:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:57:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:57:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:57:38 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:57:38 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:57:38 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:57:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input"), "Listado de empleados"): Text 'Listado de empleados' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:57:39 - [MESSAGE][PASSED] - Text 'Listado de empleados' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)' is clicked on
+
+2022-03-03 13:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)' is clicked on
+
+2022-03-03 13:57:41 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), "Constantino"): Text 'Constantino' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:57:43 - [MESSAGE][PASSED] - Text 'Constantino' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:57:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:57:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Constantino Jhon")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:57:45 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:57:47 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:57:47 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo compensaciones/Listado_Empleados/span_281"), 1)): Web element with id: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_281' located by '//*/text()[normalize-space(.)='281']/parent::*' not found
+
+2022-03-03 13:57:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='281']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-03 13:57:49 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_281' located by '//*/text()[normalize-space(.)='281']/parent::*' not found
+
+2022-03-03 13:57:49 - [TEST_STEP][PASSED] - else: Web element with id: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_281' located by '//*/text()[normalize-space(.)='281']/parent::*' not found
+
+2022-03-03 13:57:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("11.1-Pruebas_compensaciones/11.1.4-Fuente_General"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General' successfully
+
+2022-03-03 13:57:49 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General: Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General
+
+2022-03-03 13:57:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:57:49 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:57:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:57:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-03 13:57:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:57:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:57:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:57:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:57:51 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:57:52 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:57:52 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:57:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:57:53 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:57:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:57:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:57:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:57:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:57:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:57:56 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:57:57 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:57:57 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:57:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:57:57 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input"), "importar fuente general"): Text 'importar fuente general' is set on object 'Object Repository/Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:57:58 - [MESSAGE][PASSED] - Text 'importar fuente general' is set on object 'Object Repository/Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:57:58 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/li_fuente general (gna)")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/li_fuente general (gna)' is clicked on
+
+2022-03-03 13:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/li_fuente general (gna)' is clicked on
+
+2022-03-03 13:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67"), "Creación prestamos"): Text 'Creación prestamos' is set on object 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:58:01 - [MESSAGE][PASSED] - Text 'Creación prestamos' is set on object 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:58:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:58:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos")): Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos' is clicked on
+
+2022-03-03 13:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos' is clicked on
+
+2022-03-03 13:58:02 - [TEST_STEP][PASSED] - ruta = G_rutaarchivos + "carguePrestamo.txt": null
+
+2022-03-03 13:58:02 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input"), ruta): File 'E:\unionweb14\carguePrestamo.txt' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'
+
+2022-03-03 13:58:03 - [MESSAGE][PASSED] - File 'E:\unionweb14\carguePrestamo.txt' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'
+
+2022-03-03 13:58:03 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Sara General/Importar Fuente General/a_Importar")): Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/a_Importar' is clicked on
+
+2022-03-03 13:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/a_Importar' is clicked on
+
+2022-03-03 13:58:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar"), 0): Object 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is visible
+
+2022-03-03 13:58:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 13:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is visible
+
+2022-03-03 13:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Ejecutar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Ejecutar' is clicked on
+
+2022-03-03 13:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Ejecutar' is clicked on
+
+2022-03-03 13:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:58:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-03 13:58:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-03 13:58:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:58:15 - [MESSAGE][PASSED] - Browser is closed
+
+2022-03-03 13:58:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General' successfully
+
+2022-03-03 13:58:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:58:15 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:58:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:58:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:58:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:58:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:58:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:58:17 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:58:18 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:58:18 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:58:18 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:58:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:58:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:58:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:58:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:58:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:58:21 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:58:22 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:58:22 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:58:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:58:22 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input"), "Listado de empleados"): Text 'Listado de empleados' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:58:23 - [MESSAGE][PASSED] - Text 'Listado de empleados' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)' is clicked on
+
+2022-03-03 13:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)' is clicked on
+
+2022-03-03 13:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), "Constantino"): Text 'Constantino' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:58:27 - [MESSAGE][PASSED] - Text 'Constantino' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:58:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:58:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Constantino Jhon")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:58:29 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:58:30 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:58:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo compensaciones/Listado_Empleados/span_281"), 1)): Web element with id: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_281' located by '//*/text()[normalize-space(.)='281']/parent::*' not found
+
+2022-03-03 13:58:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='281']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-03 13:58:33 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_281' located by '//*/text()[normalize-space(.)='281']/parent::*' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.6-Liquidación_Nomina" time="20.232" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.6-Liquidación_Nomina" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:58:33 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.6-Liquidación_Nomina: Test Cases/11.1-Pruebas_compensaciones/11.1.6-Liquidación_Nomina
+
+2022-03-03 13:58:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:58:33 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:58:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:58:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-03 13:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:58:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:58:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:58:35 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:58:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:58:36 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:58:37 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:58:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:58:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:58:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:58:40 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:58:41 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:58:41 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:58:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:58:41 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Liquidación_Nomina0/input_Empresa 1_form_templatej_idt24_input"), "liquidacion nomina"): Text 'liquidacion nomina' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:58:42 - [MESSAGE][PASSED] - Text 'liquidacion nomina' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina0/li_Liquidacion Nomina (com)")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/li_Liquidacion Nomina (com)' is clicked on
+
+2022-03-03 13:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/li_Liquidacion Nomina (com)' is clicked on
+
+2022-03-03 13:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina0/a_Periodo Nomina_LiquidacionNominaj_idt68")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/a_Periodo Nomina_LiquidacionNominaj_idt68' is clicked on
+
+2022-03-03 13:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/a_Periodo Nomina_LiquidacionNominaj_idt68' is clicked on
+
+2022-03-03 13:58:44 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Liquidación_Nomina0/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'
+
+2022-03-03 13:58:46 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'
+
+2022-03-03 13:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina0/span_P. MensualJulio2021")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/span_P. MensualJulio2021' is clicked on
+
+2022-03-03 13:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/span_P. MensualJulio2021' is clicked on
+
+2022-03-03 13:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina0/a_Nombre Persona_LiquidacionNominaj_idt126")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/a_Nombre Persona_LiquidacionNominaj_idt126' is clicked on
+
+2022-03-03 13:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/a_Nombre Persona_LiquidacionNominaj_idt126' is clicked on
+
+2022-03-03 13:58:47 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433"), "1026588953"): Text '1026588953' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433'
+
+2022-03-03 13:58:48 - [MESSAGE][PASSED] - Text '1026588953' is set on object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433'
+
+2022-03-03 13:58:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433'
+
+2022-03-03 13:58:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433'
+
+2022-03-03 13:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina0/span_Constantino Jhon")): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Liquidación_Nomina0/td_Aya Silva Cindy Ximena"), STOP_ON_FAILURE): Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/td_Aya Silva Cindy Ximena' is clicked on
+
+2022-03-03 13:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/td_Aya Silva Cindy Ximena' is clicked on
+
+2022-03-03 13:58:50 - [TEST_STEP][PASSED] - click(findTestObject("a_Guardar")): Object: 'Object Repository/a_Guardar' is clicked on
+
+2022-03-03 13:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Guardar' is clicked on
+
+2022-03-03 13:58:51 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo compensaciones/Liquidación_Nomina0/p_Se guardo el mensaje"), 1)): null
+
+2022-03-03 13:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Liquidación_Nomina0/p_Se guardo el mensaje' is visible
+
+2022-03-03 13:58:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:58:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11.1-Pruebas_compensaciones/11.1.7-Listado_Empleados" time="60.127" classname="Test Cases/11.1-Pruebas_compensaciones/11.1.7-Listado_Empleados" status="PASSED">
+         <system-out><![CDATA[2022-03-03 13:58:53 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.7-Listado_Empleados: Test Cases/11.1-Pruebas_compensaciones/11.1.7-Listado_Empleados
+
+2022-03-03 13:58:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:58:53 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:58:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:58:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:58:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:58:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:58:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:58:55 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:58:56 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:58:56 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:58:56 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:58:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:58:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:58:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:58:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:59:00 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:59:00 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:59:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:59:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:59:00 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input"), "Listado de Empleados"): Text 'Listado de Empleados' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:59:01 - [MESSAGE][PASSED] - Text 'Listado de Empleados' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:59:01 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)' is clicked on
+
+2022-03-03 13:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)' is clicked on
+
+2022-03-03 13:59:03 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), "Consta"): Text 'Consta' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:05 - [MESSAGE][PASSED] - Text 'Consta' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Constantino Jhon")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:59:07 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:59:08 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa' is clicked on
+
+2022-03-03 13:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa' is clicked on
+
+2022-03-03 13:59:09 - [TEST_STEP][PASSED] - totalA = getText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono"), STOP_ON_FAILURE): Text of object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono' is: ''
+
+2022-03-03 13:59:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono' is: ''
+
+2022-03-03 13:59:10 - [TEST_STEP][PASSED] - if (totalA == "10.000,00"): null
+
+2022-03-03 13:59:10 - [TEST_STEP][PASSED] - else: Browser is closed
+
+2022-03-03 13:59:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("11.1-Pruebas_compensaciones/11.1.4-Fuente_General"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General' successfully
+
+2022-03-03 13:59:10 - [TEST_CASE][PASSED] - Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General: Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General
+
+2022-03-03 13:59:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:59:10 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:59:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:59:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-03 13:59:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:59:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:59:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:59:12 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:59:13 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:59:13 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:59:13 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:59:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:59:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:59:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:59:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:59:17 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:59:18 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:59:18 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:59:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input"), "importar fuente general"): Text 'importar fuente general' is set on object 'Object Repository/Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:59:19 - [MESSAGE][PASSED] - Text 'importar fuente general' is set on object 'Object Repository/Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/li_fuente general (gna)")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/li_fuente general (gna)' is clicked on
+
+2022-03-03 13:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/li_fuente general (gna)' is clicked on
+
+2022-03-03 13:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67"), "Creación prestamos"): Text 'Creación prestamos' is set on object 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:59:21 - [MESSAGE][PASSED] - Text 'Creación prestamos' is set on object 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:59:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:59:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'
+
+2022-03-03 13:59:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos")): Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos' is clicked on
+
+2022-03-03 13:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos' is clicked on
+
+2022-03-03 13:59:23 - [TEST_STEP][PASSED] - ruta = G_rutaarchivos + "carguePrestamo.txt": null
+
+2022-03-03 13:59:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input"), ruta): File 'E:\unionweb14\carguePrestamo.txt' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'
+
+2022-03-03 13:59:23 - [MESSAGE][PASSED] - File 'E:\unionweb14\carguePrestamo.txt' sent to object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'
+
+2022-03-03 13:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Tarea Sara General/Importar Fuente General/a_Importar")): Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/a_Importar' is clicked on
+
+2022-03-03 13:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Tarea Sara General/Importar Fuente General/a_Importar' is clicked on
+
+2022-03-03 13:59:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar"), 0): Object 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is visible
+
+2022-03-03 13:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 13:59:28 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is visible
+
+2022-03-03 13:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Ejecutar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Ejecutar' is clicked on
+
+2022-03-03 13:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Ejecutar' is clicked on
+
+2022-03-03 13:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Fuente_General/a_Continuar")): Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Fuente_General/a_Continuar' is clicked on
+
+2022-03-03 13:59:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-03 13:59:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-03 13:59:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:59:36 - [MESSAGE][PASSED] - Browser is closed
+
+2022-03-03 13:59:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General' successfully
+
+2022-03-03 13:59:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:59:36 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-03 13:59:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 13:59:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-03 13:59:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-03 13:59:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 13:59:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - try: null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:59:38 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-03 13:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:59:39 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-03 13:59:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:59:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-03 13:59:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:59:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-03 13:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-03 13:59:42 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-03 13:59:43 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:59:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-03 13:59:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-03 13:59:43 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "listado de empleados"): Text 'listado de empleados' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:59:44 - [MESSAGE][PASSED] - Text 'listado de empleados' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-03 13:59:44 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Listado de Empleados")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Listado de Empleados' is clicked on
+
+2022-03-03 13:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Listado de Empleados' is clicked on
+
+2022-03-03 13:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), "consta"): Text 'consta' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:47 - [MESSAGE][PASSED] - Text 'consta' is set on object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'
+
+2022-03-03 13:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Constantino Jhon")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Constantino Jhon' is clicked on
+
+2022-03-03 13:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica' is clicked on
+
+2022-03-03 13:59:49 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:59:51 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'
+
+2022-03-03 13:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa")): Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa' is clicked on
+
+2022-03-03 13:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa' is clicked on
+
+2022-03-03 13:59:52 - [TEST_STEP][PASSED] - getText(findTestObject("Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono")): Text of object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono' is: ''
+
+2022-03-03 13:59:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono' is: ''
+
+2022-03-03 13:59:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 13:59:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-03 13:53:01 - [TEST_SUITE][PASSED] - 11-Pruebas_Compensaciones: Test Cases/11.1-Pruebas_compensaciones/11.1.7-Listado_Empleados]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,12 +6,12 @@
    <elementGuidId>2b67163f-9c03-4df2-8813-8c09c3eb4fd4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[2]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#j_idt1197 > span.ui-button-text.ui-c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

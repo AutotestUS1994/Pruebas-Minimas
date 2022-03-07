@@ -6,12 +6,11 @@
    <elementGuidId>b5c47ae3-1076-44a5-9810-6dc883d45601</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='calendarioFestivos:form_calendario_union:verEvento']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
