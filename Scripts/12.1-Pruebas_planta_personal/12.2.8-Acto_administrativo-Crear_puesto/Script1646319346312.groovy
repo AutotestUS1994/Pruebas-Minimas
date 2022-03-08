@@ -72,8 +72,10 @@ WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativ
 
 WebUI.doubleClick(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Crear_puesto/a_Aceptar'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Crear_puesto/span_crea puesto trabajo'), 
-    1))
-{
-WebUI.closeBrowser()
+WebUI.acceptAlert()
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Crear_puesto/span_crea puesto trabajo'), 
+    1)) {
+    WebUI.closeBrowser()
 }
+

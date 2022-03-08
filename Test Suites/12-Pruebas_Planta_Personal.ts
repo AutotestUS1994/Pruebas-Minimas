@@ -95,4 +95,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/12.1-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>31817cae-3a34-483c-a655-c67e767f6a6a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/12.1-Pruebas_planta_personal/12.2.8-Acto_administrativo-Crear_puesto</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>169d802a-40e6-4d63-ac72-ff9264dff70f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/12.1-Pruebas_planta_personal/12.2.9-Acto_administrativo-Traslado_puesto</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

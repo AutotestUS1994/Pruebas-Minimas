@@ -372,6 +372,18 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.7.7-Crear_Días_Festivos</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>4ec63208-82bb-4251-8523-807a68bea3b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.8-cargue_fuente_general</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7aac130c-a1c1-48f2-aaf2-08cc37c571e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.7.9-Ejecucion_reporte_general</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>79819a2f-0a52-4c65-bfdc-8595995a32c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
