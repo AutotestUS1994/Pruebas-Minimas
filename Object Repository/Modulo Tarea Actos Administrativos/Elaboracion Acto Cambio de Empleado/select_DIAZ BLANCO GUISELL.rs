@@ -6,12 +6,12 @@
    <elementGuidId>3c3cc35f-900d-4f69-af91-2705514fbe29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;form_actoIngreso:j_idt1012:3:j_idt1029&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;form_actoIngreso:j_idt1012:3:j_idt1029&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -40,8 +40,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Cambiar
         4)
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
-
-    WebUI.delay(2)
 } else {
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Nuevo'))
 

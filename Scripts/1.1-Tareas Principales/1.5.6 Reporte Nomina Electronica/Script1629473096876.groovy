@@ -56,8 +56,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
 
-    WebUI.delay(2)
-
     WebUI.closeBrowser()
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -97,6 +95,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
 
-    WebUI.delay(2)
+    WebUI.closeBrowser()
 }
 

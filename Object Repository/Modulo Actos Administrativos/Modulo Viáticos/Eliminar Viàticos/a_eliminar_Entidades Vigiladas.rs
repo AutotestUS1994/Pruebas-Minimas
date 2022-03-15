@@ -4,13 +4,19 @@
    <name>a_eliminar_Entidades Vigiladas</name>
    <tag></tag>
    <elementGuidId>25eb6a52-a8f3-4504-8a65-1cfc1e6fce1c</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[4]/a</value>
+         <value>//td[4]/a
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

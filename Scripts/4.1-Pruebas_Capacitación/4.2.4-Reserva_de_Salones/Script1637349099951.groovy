@@ -76,8 +76,6 @@ WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span
 
 WebUI.executeJavaScript('document.body.style.zoom=\'100%\'', null)
 
-WebUI.delay(2)
-
 WebUI.scrollToPosition(400, 4000)
 
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Guardar'), 

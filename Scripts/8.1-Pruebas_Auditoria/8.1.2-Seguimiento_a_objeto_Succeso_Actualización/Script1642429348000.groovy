@@ -30,7 +30,5 @@ WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succ
 WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(3)
-
 WebUI.closeBrowser()
 

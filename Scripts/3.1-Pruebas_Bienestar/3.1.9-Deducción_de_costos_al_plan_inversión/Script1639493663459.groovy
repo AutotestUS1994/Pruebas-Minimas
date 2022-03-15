@@ -22,40 +22,49 @@ import java.time.LocalDateTime as LocalDateTime
 import java.text.SimpleDateFormat as SimpleDateFormat
 
 Date today = new Date()
+
 /*--------------------------------------------*/
-
 Number Dia = ((today.format('dd')) as Integer)
+
 Number Mes = ((today.format('MM')) as Integer)
+
 Number MesN = ((today.format('MM')) as Integer)
+
 Number Año = ((today.format('yyyy')) as Integer)
+
 Number AñoN = ((today.format('yyyy')) as Integer)
+
 /*-----------------------------------------------*/
-
 Number sumaD = Dia + 10
+
 Number sumaM = Mes + 1
+
 Number sumaA = Año + 1
-/*--------------------------*/
 
+/*--------------------------*/
 if (sumaD > 30) {
-	sumaD = (sumaD - Dia)
+    sumaD = (sumaD - Dia)
 
-	Mes = sumaM
+    Mes = sumaM
 } else {
-	sumaD
-	Mes
+    sumaD
+
+    Mes
 }
+
 /*--------------------------*/
-
 if (sumaM > 12) {
-	Año = sumaA
-	Mes = 1
+    Año = sumaA
+
+    Mes = 1
 }
+
 /*---------------------------*/
-
 String Fechaini = (((Dia + '/') + MesN) + '/') + AñoN
-String Fechafin = (((sumaD + '/') + Mes) + '/') + Año
-/*----------------------------------------------------*/
 
+String Fechafin = (((sumaD + '/') + Mes) + '/') + Año
+
+/*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToPosition(0, 100)
@@ -94,10 +103,10 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al pla
 WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Evento Bienestar_form_templatej_idt24_input'), 
     'Plan Inversion Bienestar (bie)')
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Evento Bienestar_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)'))
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Sub Plan Inversion'))
 
@@ -105,7 +114,8 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al pla
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_99.966,00'))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Eliminar'), 
+    0)
 
 WebUI.closeBrowser()
 

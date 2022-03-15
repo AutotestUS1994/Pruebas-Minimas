@@ -151,10 +151,8 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Modulo Tarea Adm
 
 WebUI.click(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/a_Afiliacin Eps_form_licenciaEmpleadotabs'))
 
-WebUI.delay(2)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/td_Se ha cargado el archivo'), 
-    GlobalVariable.G_TimeOut)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/Page_SARA/div_Se ha cargado el archivo_ui-fileupload-_55cbf6'), 
+    0)
 
 //WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/input_Se ha cargado el archivo_popupDocumentoNovedad_forminputFileNameArchivo_input'))
 /*WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/input_Se ha cargado el archivo_popupDocumentoNovedad_forminputFileNameArchivo_input'), 
@@ -162,8 +160,6 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Modulo Tarea Adm
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))*/
 WebUI.click(findTestObject('Object Repository/Modulo Tarea Administracion Compensacion/Legalizar Licencia No Remunerada/Page_SARA/div_Se ha cargado el archivo_ui-fileupload-_55cbf6'))
-
-WebUI.delay(1)
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ruta = GlobalVariable.G_rutaarchivos + 'ArchivoPlanoLiquidacionNomina.txt'

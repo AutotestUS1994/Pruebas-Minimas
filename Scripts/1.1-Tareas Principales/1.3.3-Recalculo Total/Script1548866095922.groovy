@@ -15,7 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     GlobalVariable.G_TimeOut)
@@ -44,7 +45,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/span_Si'))
 
-WebUI.delay(28)
+WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
 

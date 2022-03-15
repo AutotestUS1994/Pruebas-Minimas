@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[5]/a</value>
+         <value>//tbody[@id='form_FuenteGeneral:tab:tabla_entrada_data']/tr/td[5]/a</value>
       </entry>
       <entry>
          <key>CSS</key>

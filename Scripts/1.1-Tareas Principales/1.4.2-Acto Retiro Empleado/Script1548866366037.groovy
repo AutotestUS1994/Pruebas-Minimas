@@ -47,8 +47,6 @@ WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Emple
 WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/input_Filtro Empleado_form_actoAusentismoj_idt1434'), 
     '66666')
 
-WebUI.delay(1)
-
 WebUI.sendKeys(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/input_Filtro Empleado_form_actoAusentismoj_idt1434'), 
     Keys.chord(Keys.ENTER))
 
@@ -86,7 +84,8 @@ WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Emple
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aceptar1'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/p_No existen datos'), 1))
-{
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Actos Administrativos/Acto Retiro Empleado/p_No existen datos'), 
+    1)) {
+    WebUI.closeBrowser()
 }
+

@@ -19,12 +19,12 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/input_ADMINISTRADOR DEL SISTEMA'), 
-    'Generacion interfaz')
+    'Generacion interfaz (com)')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_generacion interfaz(com)'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/input_ADMINISTRADOR DEL SISTEMA'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_generacion interfaz(com)'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_INTERFAZ NOMINA INTERFAZ'), 
     GlobalVariable.G_TimeOut)
@@ -67,7 +67,8 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion 
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Si'))
 
-WebUI.delay(7)
+
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Continuar'), 0)
 
 if ((findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Continuar') == true) && (WebUI.click(
     findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_Interfaz')) == false)) {

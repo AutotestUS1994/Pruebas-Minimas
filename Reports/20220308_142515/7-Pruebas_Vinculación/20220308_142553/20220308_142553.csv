@@ -1,0 +1,119 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+7-Pruebas_Vinculación,Chrome 98.0.4758.102,,,2022-03-08 14:34:57,2022-03-08 14:37:43,"2m - 45,379s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.1-Crear_un_tipo_Documento,Chrome 98.0.4758.102,,,2022-03-08 14:34:58,2022-03-08 14:35:22,"23,865s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:34:58,2022-03-08 14:35:08,"9,257s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/input_Empresa 1_form_templatej_idt24_input""), ""parametros contratacion"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:08,2022-03-08 14:35:09,"1,064s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/span_Parametros Contratacion""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:09,2022-03-08 14:35:10,"1,253s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/a_Tipo  Documento""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:10,2022-03-08 14:35:11,"1,151s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/input_Parmetros_form_tipodocumentofiltroTipoHoja""), ""pruebas katalon"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:11,2022-03-08 14:35:12,"0,965s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/input_Parmetros_form_tipodocumentofiltroTipoHoja""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:35:12,2022-03-08 14:35:13,"0,795s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/span_Pruebas katalon""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:35:13,2022-03-08 14:35:15,"2,456s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:15,2022-03-08 14:35:16,"0,684s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/input_Cdigo_form_tipodocumentocodigo""), ""5"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:16,2022-03-08 14:35:17,"0,883s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/textarea_Descripcin_form_tipodocumentodescripcion""), ""Pruebas katalon"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:17,2022-03-08 14:35:18,"0,859s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/select_Documento AnexoDocumento Control""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:35:18,2022-03-08 14:35:19,"1,099s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/select_--Seleccione--MODO COLOMBIA HV""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:35:19,2022-03-08 14:35:20,"1,011s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_tipo_Documento/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:20,2022-03-08 14:35:21,"0,716s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-08 14:35:21,2022-03-08 14:35:22,"0,960s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.2-Crear_un_Momento,Chrome 98.0.4758.102,,,2022-03-08 14:35:22,2022-03-08 14:35:37,"15,983s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:35:22,2022-03-08 14:35:27,"5,011s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/input_Empresa 1_form_templatej_idt24_input""), ""parametros contratacion"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:27,2022-03-08 14:35:28,"1,376s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/li_Parametros Contratacion (tal)""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:28,2022-03-08 14:35:30,"1,453s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/a_Momento""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:30,2022-03-08 14:35:31,"0,914s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/td_Pruebas katalon""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:35:31,2022-03-08 14:35:33,"2,556s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:33,2022-03-08 14:35:34,"0,658s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/input_Cdigo_form_momentopanelTabcodigo""), ""5"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:34,2022-03-08 14:35:35,"1,024s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/textarea_Descripcin_form_momentopanelTabdescripcion""), ""Pruebas katalon"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:35,2022-03-08 14:35:36,"0,821s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/select_--Seleccione--MODO COLOMBIA HV""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:35:36,2022-03-08 14:35:37,"1,257s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Momento/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:37,2022-03-08 14:35:37,"0,501s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.3-Crear_un_Origen_de_Contratación,Chrome 98.0.4758.102,,,2022-03-08 14:35:38,2022-03-08 14:35:57,"19,564s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:35:38,2022-03-08 14:35:45,"6,686s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Empresa 1_form_templatej_idt24_input""), ""Parametros Contratacion"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:45,2022-03-08 14:35:46,"1,276s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/li_Parametros Contratacion (tal)""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:46,2022-03-08 14:35:47,"1,398s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Origen Contratacin""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:47,2022-03-08 14:35:48,"0,957s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:35:48,2022-03-08 14:35:51,"2,615s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:51,2022-03-08 14:35:52,"0,653s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Cdigo_form_origencontratacioncodigo""), ""5"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:52,2022-03-08 14:35:53,"0,918s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Descripcin_form_origencontrataciondescripcion""), ""Pruebas katalon"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:53,2022-03-08 14:35:53,"0,706s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Hoja Vida ExisteIngresa Hoja Manual""), ""0"")",Chrome 98.0.4758.102,,,2022-03-08 14:35:53,2022-03-08 14:35:54,"1,067s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Datos de un RequerimientoDatos de una SeleccionNo aplica""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:35:54,2022-03-08 14:35:55,"1,038s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:35:55,2022-03-08 14:35:57,"1,328s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-08 14:35:57,2022-03-08 14:35:57,"0,391s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación,Chrome 98.0.4758.102,,,2022-03-08 14:35:57,2022-03-08 14:36:50,"52,976s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:35:57,2022-03-08 14:36:04,"6,270s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Empresa 1_form_templatej_idt24_input""), ""listado contratacion"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:04,2022-03-08 14:36:05,"1,369s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/li_Listado Contratacion (tal)""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:05,2022-03-08 14:36:07,"1,433s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_-- Seleccione --ANULADOCERRADOELIMINADOSOLICITADO""), 4)",Chrome 98.0.4758.102,,,2022-03-08 14:36:07,2022-03-08 14:36:08,"1,935s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Nombre Persona_listado_contratacionj_idt68""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:08,2022-03-08 14:36:09,"0,390s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt13270""), ""A A A"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:09,2022-03-08 14:36:10,"1,053s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt13270""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:36:10,2022-03-08 14:36:10,"0,374s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:10,2022-03-08 14:36:11,"0,706s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/td_A A A""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:36:11,2022-03-08 14:36:19,"8,367s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:19,2022-03-08 14:36:20,"0,598s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/td_Pruebas katalon""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:20,2022-03-08 14:36:21,"0,756s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Identificacin_form_contratacionpanelTabj_idt164""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:21,2022-03-08 14:36:21,"0,653s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1327""), ""A A A"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:21,2022-03-08 14:36:22,"0,921s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1327""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:36:22,2022-03-08 14:36:23,"0,355s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_A A A""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:23,2022-03-08 14:36:23,"0,733s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:36:23,2022-03-08 14:36:25,"1,729s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_0.5APRENDIZ ETAPA LECTIVA6APRENDIZ ETAPA PRODUCTIVA96ASISTENTE""), 8)",Chrome 98.0.4758.102,,,2022-03-08 14:36:25,2022-03-08 14:36:27,"1,716s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin""), 3)",Chrome 98.0.4758.102,,,2022-03-08 14:36:27,2022-03-08 14:36:28,"1,321s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Sueldo Total_form_contratacionpanelTabasignacionTotal""), ""2000000"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:28,2022-03-08 14:36:29,"0,714s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_12kataloonkataloonNOMINA CATORCENALNOMINA CATORCENALNOMINA MENSUALNOMINA QUINCENALNOMINA SEMANAL""), ""8"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:29,2022-03-08 14:36:30,"1,464s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Sueldo_form_contratacionpanelTabasignacion""), ""1000000"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:30,2022-03-08 14:36:31,"0,755s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Fecha de Ingreso_form_contratacionpanelTabfechaIngreso_input""), ""01/07/2021"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:31,2022-03-08 14:36:32,"0,789s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_--Seleccione--EmpalmeNormal""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:36:32,2022-03-08 14:36:33,"1,067s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Unidad_btn_popupInformacion""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:33,2022-03-08 14:36:33,"0,447s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Unidad Organizacional_formPopUpUnidaddescripciones""), ""ADMINISTRACION"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:33,2022-03-08 14:36:34,"1,033s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Unidad Organizacional_formPopUpUnidaddescripciones""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:36:34,2022-03-08 14:36:35,"0,372s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:35,2022-03-08 14:36:35,"0,682s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Cargo_btn_popupInformacion""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:35,2022-03-08 14:36:36,"0,641s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Cargo_popupCargo_Formj_idt1354""), ""ABOGADO"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:36,2022-03-08 14:36:39,"2,558s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Cargo_popupCargo_Formj_idt1354""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:36:39,2022-03-08 14:36:39,"0,766s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_ABOGADO""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:39,2022-03-08 14:36:40,"0,606s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Zona Econmica_btn_popupInformacion""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:40,2022-03-08 14:36:41,"0,701s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_ADMINISTRATIVA""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:41,2022-03-08 14:36:41,"0,733s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_0.5APRENDIZ ETAPA LECTIVA6APRENDIZ ETAPA PRODUCTIVA96ASISTENTE""), 8)",Chrome 98.0.4758.102,,,2022-03-08 14:36:41,2022-03-08 14:36:43,"1,265s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_Ubicacin Fsica_btn_popupInformacion""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:43,2022-03-08 14:36:43,"0,371s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Ubicacin Fsica_j_idt1379parametroBusquedaUbicacion""), ""BOGOTÁ"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:43,2022-03-08 14:36:44,"1,043s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/input_Ubicacin Fsica_j_idt1379parametroBusquedaUbicacion""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:36:44,2022-03-08 14:36:45,"0,936s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/span_BOGOT""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:45,2022-03-08 14:36:46,"0,507s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_-- Seleccione Linea --ADMINISTRATIVONO RELACIONADASUBCENTROS""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:36:46,2022-03-08 14:36:47,"1,327s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_--Seleccione--EmpalmeNormal""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:36:47,2022-03-08 14:36:48,"0,975s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/select_12kataloonkataloonNOMINA CATORCENALNOMINA""), 8)",Chrome 98.0.4758.102,,,2022-03-08 14:36:48,2022-03-08 14:36:49,"1,049s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Crear un Registro de Contratación/a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:49,2022-03-08 14:36:49,"0,377s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-08 14:36:49,2022-03-08 14:36:50,"0,701s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.5-Validar_la_creación_del_Registro_de_Contratación_por_BPM,Chrome 98.0.4758.102,,,2022-03-08 14:36:50,2022-03-08 14:37:10,"19,818s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:36:50,2022-03-08 14:36:55,"4,792s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Empresa 1_form_templatej_idt24_input""), ""proceso de seleccion"")",Chrome 98.0.4758.102,,,2022-03-08 14:36:55,2022-03-08 14:36:57,"1,274s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/span_Proceso de Seleccion""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:57,2022-03-08 14:36:59,"2,533s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Nuevo""))",Chrome 98.0.4758.102,,,2022-03-08 14:36:59,2022-03-08 14:37:00,"0,511s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_SeleccionarSiNo""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:37:00,2022-03-08 14:37:01,"1,124s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:37:01,2022-03-08 14:37:02,"1,542s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Unidad Organizacional_popupConfirmacionRequerimientoj_idt132""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:02,2022-03-08 14:37:03,"0,774s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Unidad Organizacional_formPopUpUnidaddescripciones""), ""ADMINISTRACION"")",Chrome 98.0.4758.102,,,2022-03-08 14:37:03,2022-03-08 14:37:04,"1,019s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Unidad Organizacional_formPopUpUnidaddescripciones""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:37:04,2022-03-08 14:37:04,"0,365s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/span_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:04,2022-03-08 14:37:05,"0,673s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Cargo_popupConfirmacionRequerimientoj_idt136""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:05,2022-03-08 14:37:06,"0,635s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Cargo_popupCargo_Formj_idt668""), ""ABOGADO"")",Chrome 98.0.4758.102,,,2022-03-08 14:37:06,2022-03-08 14:37:07,"1,089s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Cargo_popupCargo_Formj_idt668""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:37:07,2022-03-08 14:37:08,"0,963s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/span_ABOGADO""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:08,2022-03-08 14:37:08,"0,463s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--Primer Modelo Seleccin R. Modelo Etapa""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:37:08,2022-03-08 14:37:09,"1,229s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:09,2022-03-08 14:37:10,"0,390s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.6-Validar_Documentos,Chrome 98.0.4758.102,,,2022-03-08 14:37:10,2022-03-08 14:37:29,"18,752s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:37:10,2022-03-08 14:37:16,"6,043s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Validar_Documentos/input_Empresa 1_form_templatej_idt24_input""), ""listado contratacion"")",Chrome 98.0.4758.102,,,2022-03-08 14:37:16,2022-03-08 14:37:18,"1,729s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Validar_Documentos/li_Listado Contratacion (tal)""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:18,2022-03-08 14:37:20,"1,485s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Vinculación/Validar_Documentos/td_A A A - Copy""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:37:20,2022-03-08 14:37:29,"8,981s",PASSED
+,,,,,,,
+Test Cases/7.1-Pruebas_Vinculación/7.1.7-Elaborar_Contrato,Chrome 98.0.4758.102,,,2022-03-08 14:37:29,2022-03-08 14:37:43,"13,870s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:37:29,2022-03-08 14:37:34,"5,125s",PASSED
+"setText(findTestObject(""Modulo Pruebas Vinculación/Elaborar_Contrato/input_Empresa 1_form_templatej_idt24_input""), ""Listado Contratacion"")",Chrome 98.0.4758.102,,,2022-03-08 14:37:34,2022-03-08 14:37:35,"1,308s",PASSED
+"click(findTestObject(""Modulo Pruebas Vinculación/Elaborar_Contrato/span_Listado Contratacion""))",Chrome 98.0.4758.102,,,2022-03-08 14:37:35,2022-03-08 14:37:37,"1,905s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Vinculación/Elaborar_Contrato/td_A A A""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:37:37,2022-03-08 14:37:43,"5,150s",PASSED

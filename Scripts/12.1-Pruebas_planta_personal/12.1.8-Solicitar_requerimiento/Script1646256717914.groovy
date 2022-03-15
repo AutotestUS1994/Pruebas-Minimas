@@ -21,7 +21,8 @@ WebUI.callTestCase(findTestCase('12.1-Pruebas_planta_personal/12.1.6-Buscar_pues
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Solicitar_requerimiento/a_Salgado . Paula_organigramaj_idt110'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Solicitar_requerimiento/div_Motivo Requerimiento'), 
+    0)
 
 WebUI.closeBrowser()
 

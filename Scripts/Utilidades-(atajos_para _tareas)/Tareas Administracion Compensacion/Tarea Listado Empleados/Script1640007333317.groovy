@@ -13,14 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
     'Listado de Empleados')
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado de Empleados'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado de Empleados'))
 

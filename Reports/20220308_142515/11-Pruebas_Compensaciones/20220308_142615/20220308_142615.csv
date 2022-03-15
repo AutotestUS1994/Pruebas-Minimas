@@ -1,0 +1,208 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+11-Pruebas_Compensaciones,Chrome 98.0.4758.102,,,2022-03-08 14:40:20,2022-03-08 14:47:23,"7m - 2,940s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado,Chrome 98.0.4758.102,,,2022-03-08 14:40:21,2022-03-08 14:40:50,"29,030s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:40:21,2022-03-08 14:40:30,"9,162s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/input_Empresa 1_form_templatej_idt24_input""), ""liquidacion nomina"")",Chrome 98.0.4758.102,,,2022-03-08 14:40:30,2022-03-08 14:40:32,"1,373s",PASSED
+"click(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/li_Liquidacion Nomina (com)""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:32,2022-03-08 14:40:33,"1,456s",PASSED
+"click(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/a_Periodo Nomina_LiquidacionNominaj_idt68""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:33,2022-03-08 14:40:34,"1,008s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:40:34,2022-03-08 14:40:36,"1,293s",PASSED
+"click(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/span_P. MensualJunio2021""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:36,2022-03-08 14:40:36,"0,818s",PASSED
+"check(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:36,2022-03-08 14:40:40,"3,080s",PASSED
+"click(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/a_Reclculo Seleccin""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:40,2022-03-08 14:40:40,"0,718s",PASSED
+"click(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/span_Si""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:40,2022-03-08 14:40:41,"0,459s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo compensaciones/Recálcular_nómina_por_empleado/p_Recalculo Finalizado""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:40:41,2022-03-08 14:40:50,"8,920s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo,Chrome 98.0.4758.102,,,2022-03-08 14:40:50,2022-03-08 14:44:06,"3m - 16,363s",PASSED
+random_double = Math.random() * 9999 + 999,Chrome 98.0.4758.102,,,2022-03-08 14:40:50,2022-03-08 14:40:51,"0,074s",PASSED
+random_double = Math.round(random_double * 1000),Chrome 98.0.4758.102,,,2022-03-08 14:40:51,2022-03-08 14:40:51,"0,001s",PASSED
+"identificacion = toString().replace("".0"", """")",Chrome 98.0.4758.102,,,2022-03-08 14:40:51,2022-03-08 14:40:51,"0,001s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:40:51,2022-03-08 14:40:56,"5,889s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input""), ""Listado Hojas de Vida"")",Chrome 98.0.4758.102,,,2022-03-08 14:40:56,2022-03-08 14:40:58,"1,917s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)""))",Chrome 98.0.4758.102,,,2022-03-08 14:40:58,2022-03-08 14:41:00,"1,471s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva HojaVida""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:00,2022-03-08 14:41:03,"2,954s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_nuevahoja_formcedula""), identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:41:03,2022-03-08 14:41:04,"1,189s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico""), 4)",Chrome 98.0.4758.102,,,2022-03-08 14:41:04,2022-03-08 14:41:05,"1,109s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Nueva Solicitud""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:05,2022-03-08 14:41:06,"0,484s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto""), identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:41:06,2022-03-08 14:41:07,"1,411s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2141idTexto""), ""Francis "" + identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:41:07,2022-03-08 14:41:08,"0,747s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2142idTexto""), ""Chandler"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:08,2022-03-08 14:41:08,"0,747s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2143fecha_input""), ""08/10/1990"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:08,2022-03-08 14:41:09,"0,856s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__hojaVidaseccionj_idt2144j_idt254""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:09,2022-03-08 14:41:10,"0,525s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_CEDULA CIUDADANIA""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:10,2022-03-08 14:41:11,"0,771s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Fecha Expedicin_hojaVidaseccionj_idt2146fecha_input""), ""08/10/2008"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:11,2022-03-08 14:41:12,"1,058s",PASSED
+"selectOptionByLabel(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione---- Seleccione--000000ABEJORRA""), ""BOGOTÁ"", false)",Chrome 98.0.4758.102,,,2022-03-08 14:41:12,2022-03-08 14:41:12,"0,809s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2148idTexto""), ""624564654684"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:12,2022-03-08 14:41:13,"0,688s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2149idTexto""), ""noodle@gmail.com"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:13,2022-03-08 14:41:14,"0,684s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--AA-ABAB-BB-OO-""), 8)",Chrome 98.0.4758.102,,,2022-03-08 14:41:14,2022-03-08 14:41:15,"1,078s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:15,2022-03-08 14:41:15,"0,371s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:15,2022-03-08 14:41:16,"0,812s",PASSED
+"Nombre = getText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__hojaVidaseccionj_idt2140idTexto""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:16,2022-03-08 14:41:17,"0,711s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input""), ""Actos administrativos"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:17,2022-03-08 14:41:18,"0,718s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/li_Listado Hojas de Vida (hoj)""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:18,2022-03-08 14:41:19,"1,460s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/i_Actos_glyphicons glyphicons-group""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:19,2022-03-08 14:41:20,"0,993s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:20,2022-03-08 14:41:21,"0,620s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Nomina""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:21,2022-03-08 14:41:21,"0,642s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ingreso definitivo indefinido salario basico""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:21,2022-03-08 14:41:22,"0,613s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_glyphicons glyphicons-chronicle x2""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:22,2022-03-08 14:41:22,"0,629s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoIngresoj_idt1250""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:22,2022-03-08 14:41:24,"1,859s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762""), identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:41:24,2022-03-08 14:41:25,"0,959s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1762""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:41:25,2022-03-08 14:41:26,"0,476s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Chandler  Francis 1537948e7""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:26,2022-03-08 14:41:27,"0,724s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:27,2022-03-08 14:41:27,"0,637s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input""), ""01/07/2021"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:27,2022-03-08 14:41:28,"1,120s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12870fecha_input""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:41:28,2022-03-08 14:41:29,"0,487s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input""), ""01/07/2021"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:29,2022-03-08 14:41:29,"0,726s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12871fecha_input""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:41:29,2022-03-08 14:41:30,"0,476s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_10 - Ingreso Puesto Nuevo""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:41:30,2022-03-08 14:41:31,"0,924s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_DIAZ BLANCO GUISELL""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:41:31,2022-03-08 14:41:32,"0,968s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/textarea__form_actoIngresoj_idt12874idTexto5""), ""Magister en derecho penal"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:32,2022-03-08 14:41:33,"0,744s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_-- Seleccione --1. Actualizacin por Ascenso del Escalafn Origina2.Actualizacin por Ascenso""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:41:33,2022-03-08 14:41:34,"0,957s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoIngresoj_idt12876idTexto""), ""AAAAAA"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:34,2022-03-08 14:41:34,"0,719s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12877j_idt1327""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:34,2022-03-08 14:41:35,"0,383s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777""), ""1"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:35,2022-03-08 14:41:36,"0,972s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Unidad_form_popupUnidadUsuarioj_idt1777""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:41:36,2022-03-08 14:41:36,"0,349s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ADMINISTRACION""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:36,2022-03-08 14:41:37,"0,652s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a__form_actoIngresoj_idt12878j_idt1327""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:37,2022-03-08 14:41:38,"1,233s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_APRENDIZ SENA PRODUCTIVA""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:38,2022-03-08 14:41:39,"1,154s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_VALOR4_form_actoIngresoj_idt12879idNumero1""), ""3"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:39,2022-03-08 14:41:40,"1,030s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_ENTIDAD DE SALUD""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:40,2022-03-08 14:41:40,"0,381s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Eps - Aliansalud Eps""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:40,2022-03-08 14:41:42,"1,525s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_FONDO DE PENSIONES""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:42,2022-03-08 14:41:43,"0,660s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Afp - Colfondos""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:43,2022-03-08 14:41:43,"0,756s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_ASEG. RIESGOS PROFESIONALES""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:43,2022-03-08 14:41:44,"0,704s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Arl - Seguros Bolivar""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:44,2022-03-08 14:41:45,"0,758s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_FONDO DE CESANTIAS""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:45,2022-03-08 14:41:46,"0,741s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Fc - Colfondos""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:46,2022-03-08 14:41:46,"0,816s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_PAGO DE NOMINA""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:46,2022-03-08 14:41:47,"0,690s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Sucursal_entidadempleado_formtabj_idt1562""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:47,2022-03-08 14:41:48,"0,776s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Cafam""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:48,2022-03-08 14:41:49,"0,740s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--Seleccione--003 Familia Popayan""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:41:49,2022-03-08 14:41:50,"1,330s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Cuenta_entidadempleado_formtabtablaCampos0referencia""), ""12345678910"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:50,2022-03-08 14:41:51,"0,747s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Bco Destino_entidadempleado_formtabtablaCampos1valor""), ""5"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:51,2022-03-08 14:41:51,"0,691s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo de cuenta_entidadempleado_formtabtablaCampos2sucReferencia""), ""Corriente"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:51,2022-03-08 14:41:52,"0,684s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Tipo Cuenta 1ahorro 2 corr_entidadempleado_formtabtablaCampos4tipo""), ""1"")",Chrome 98.0.4758.102,,,2022-03-08 14:41:52,2022-03-08 14:41:53,"0,722s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar2""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:53,2022-03-08 14:41:53,"0,391s",PASSED
+"click(findTestObject(""Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_CAJA DE COMPENSACION""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:53,2022-03-08 14:41:54,"0,682s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Ccf - Compensar""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:54,2022-03-08 14:41:55,"0,713s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:55,2022-03-08 14:41:55,"0,711s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_10247""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:55,2022-03-08 14:41:57,"1,284s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actualizar(1)""))",Chrome 98.0.4758.102,,,2022-03-08 14:41:57,2022-03-08 14:41:58,"1,037s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_NOMINA MENSUALNOMINA QUINCENAL""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:41:58,2022-03-08 14:41:59,"1,321s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOS""), 1)",Chrome 98.0.4758.102,,,2022-03-08 14:41:59,2022-03-08 14:42:00,"0,973s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:00,2022-03-08 14:42:00,"0,410s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Descargar pdf""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:00,2022-03-08 14:42:09,"8,321s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar - Copy""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:09,2022-03-08 14:42:11,"2,393s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Cancelar""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:11,2022-03-08 14:42:14,"3,053s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input""), ""Actos administrativos"")",Chrome 98.0.4758.102,,,2022-03-08 14:42:14,2022-03-08 14:42:18,"3,950s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos Administrativos""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:18,2022-03-08 14:42:20,"1,965s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Actos de Retiro del empleado""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:20,2022-03-08 14:42:22,"2,028s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:22,2022-03-08 14:42:24,"1,962s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_terminacion de contrato""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:24,2022-03-08 14:42:26,"1,942s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Elaboracin_form_popupSeleccionDerogarj_idt138""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:26,2022-03-08 14:42:28,"2,108s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Identificacin_form_actoAusentismoj_idt938""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:28,2022-03-08 14:42:30,"1,987s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208""), identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:42:30,2022-03-08 14:42:34,"3,958s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filtro Empleado_form_popupEmpleadoj_idt1208""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:42:34,2022-03-08 14:42:36,"1,944s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis 149223e7""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:36,2022-03-08 14:42:38,"2,087s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar0""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:38,2022-03-08 14:42:40,"1,932s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input__form_actoAusentismoj_idt15770fecha_input""), ""02/07/2021"")",Chrome 98.0.4758.102,,,2022-03-08 14:42:40,2022-03-08 14:42:45,"5,064s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar1""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:45,2022-03-08 14:42:47,"1,917s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar1""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:47,2022-03-08 14:42:49,"2,044s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si1""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:49,2022-03-08 14:42:51,"2,054s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar1""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:51,2022-03-08 14:42:54,"2,930s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Eliminar_form_ActosAdministrativostabla_principal_12j_idt79""))",Chrome 98.0.4758.102,,,2022-03-08 14:42:54,2022-03-08 14:42:56,"2,033s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Filter by Identificacin_form_ActosAdministrativostabla_principal_actosj_idt118filter""), identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:42:56,2022-03-08 14:43:00,"3,969s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/td_Cc""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:00,2022-03-08 14:43:02,"1,957s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Continuar3""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:02,2022-03-08 14:43:05,"3,139s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aplicar3""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:05,2022-03-08 14:43:07,"1,944s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si3""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:07,2022-03-08 14:43:09,"1,942s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:09,2022-03-08 14:43:11,"2,055s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Aceptar3""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:11,2022-03-08 14:43:13,"2,025s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input""), ""Listado de Empleados"")",Chrome 98.0.4758.102,,,2022-03-08 14:43:13,2022-03-08 14:43:17,"4,003s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Empleados""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:17,2022-03-08 14:43:20,"2,911s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado""), identificacion)",Chrome 98.0.4758.102,,,2022-03-08 14:43:20,2022-03-08 14:43:26,"6,225s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/input_Identificacin_listadoEmpleadoIdentificacionEmpleado""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:43:26,2022-03-08 14:43:28,"1,796s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Chandler Francis_listado empleados""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:28,2022-03-08 14:43:30,"2,057s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Terminar Contrato""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:30,2022-03-08 14:43:32,"1,922s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Liquidar""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:32,2022-03-08 14:43:34,"2,019s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO""), ""5"")",Chrome 98.0.4758.102,,,2022-03-08 14:43:34,2022-03-08 14:43:40,"6,417s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_---SELECCIONE ---DirectoEntidad de PagoPeriodo de Nomina""), 3)",Chrome 98.0.4758.102,,,2022-03-08 14:43:40,2022-03-08 14:43:47,"6,854s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_--SELECCIONE--PM202106PM202107""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:43:47,2022-03-08 14:43:53,"5,786s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Calculo Nomina""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:53,2022-03-08 14:43:55,"1,977s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:55,2022-03-08 14:43:58,"3,004s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/span_Si""))",Chrome 98.0.4758.102,,,2022-03-08 14:43:58,2022-03-08 14:44:00,"2,008s",PASSED
+"click(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Reporte""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:00,2022-03-08 14:44:03,"2,992s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo compensaciones/Terminación_de_Contrato_Definitivo/a_Regresar""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:44:03,2022-03-08 14:44:06,"3,027s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.3-Liquidación_Nomina,Chrome 98.0.4758.102,,,2022-03-08 14:44:06,2022-03-08 14:44:33,"26,821s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:44:07,2022-03-08 14:44:20,"13,606s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input""), ""Liquidacion Nomina"")",Chrome 98.0.4758.102,,,2022-03-08 14:44:20,2022-03-08 14:44:22,"1,454s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/li_Liquidacion Nomina (com)""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:22,2022-03-08 14:44:23,"1,470s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:23,2022-03-08 14:44:25,"1,406s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:44:25,2022-03-08 14:44:26,"1,337s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/span_P. MensualJulio2021""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:26,2022-03-08 14:44:26,"0,608s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124""), ""1026588953"")",Chrome 98.0.4758.102,,,2022-03-08 14:44:26,2022-03-08 14:44:28,"1,525s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:44:28,2022-03-08 14:44:28,"0,362s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/td_Aya Silva Cindy Ximena""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:28,2022-03-08 14:44:29,"0,707s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/a_Liquidacin Periodica""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:29,2022-03-08 14:44:30,"1,040s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/span_Prestamo Compaa""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:30,2022-03-08 14:44:31,"0,597s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina/a_Ver""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:31,2022-03-08 14:44:31,"0,619s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo compensaciones/Liquidación_Nomina/a_Pagos o Descuentos Extra""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:44:31,2022-03-08 14:44:33,"1,515s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.4-Fuente_General,Chrome 98.0.4758.102,,,2022-03-08 14:44:33,2022-03-08 14:44:59,"26,578s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:44:33,2022-03-08 14:44:40,"6,800s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input""), ""importar fuente general"")",Chrome 98.0.4758.102,,,2022-03-08 14:44:40,2022-03-08 14:44:41,"1,306s",PASSED
+"click(findTestObject(""Modulo compensaciones/Fuente_General/li_fuente general (gna)""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:41,2022-03-08 14:44:43,"1,393s",PASSED
+"setText(findTestObject(""Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67""), ""Creación prestamos"")",Chrome 98.0.4758.102,,,2022-03-08 14:44:43,2022-03-08 14:44:44,"1,566s",PASSED
+"sendKeys(findTestObject(""Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:44:44,2022-03-08 14:44:45,"0,764s",PASSED
+"click(findTestObject(""Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:45,2022-03-08 14:44:46,"0,509s",PASSED
+"ruta = G_rutaarchivos + ""carguePrestamo.txt""",Chrome 98.0.4758.102,,,2022-03-08 14:44:46,2022-03-08 14:44:46,"0,000s",PASSED
+"uploadFile(findTestObject(""Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input""), ruta)",Chrome 98.0.4758.102,,,2022-03-08 14:44:46,2022-03-08 14:44:46,"0,699s",PASSED
+"click(findTestObject(""Modulo Tarea Sara General/Importar Fuente General/a_Importar""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:46,2022-03-08 14:44:47,"1,168s",PASSED
+"waitForElementVisible(findTestObject(""Modulo compensaciones/Fuente_General/a_Continuar""), 0)",Chrome 98.0.4758.102,,,2022-03-08 14:44:47,2022-03-08 14:44:51,"3,054s",PASSED
+"click(findTestObject(""Modulo compensaciones/Fuente_General/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:51,2022-03-08 14:44:51,"0,526s",PASSED
+"click(findTestObject(""Modulo compensaciones/Fuente_General/a_Ejecutar""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:51,2022-03-08 14:44:55,"3,798s",PASSED
+"click(findTestObject(""Modulo compensaciones/Fuente_General/a_Continuar""))",Chrome 98.0.4758.102,,,2022-03-08 14:44:55,2022-03-08 14:44:56,"1,154s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-03-08 14:44:56,2022-03-08 14:44:58,"2,015s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-08 14:44:58,2022-03-08 14:44:59,"1,399s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.5-Listado_Empleados,Chrome 98.0.4758.102,,,2022-03-08 14:44:59,2022-03-08 14:46:02,"1m - 2,798s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:45:00,2022-03-08 14:45:06,"5,759s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input""), ""Listado de empleados"")",Chrome 98.0.4758.102,,,2022-03-08 14:45:06,2022-03-08 14:45:07,"1,378s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)""))",Chrome 98.0.4758.102,,,2022-03-08 14:45:07,2022-03-08 14:45:09,"1,675s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64""), ""Constantino"")",Chrome 98.0.4758.102,,,2022-03-08 14:45:09,2022-03-08 14:45:10,"1,750s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:45:10,2022-03-08 14:45:11,"0,374s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/span_Constantino Jhon""))",Chrome 98.0.4758.102,,,2022-03-08 14:45:11,2022-03-08 14:45:12,"1,509s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica""))",Chrome 98.0.4758.102,,,2022-03-08 14:45:12,2022-03-08 14:45:13,"0,642s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:45:13,2022-03-08 14:45:14,"1,516s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo compensaciones/Listado_Empleados/span_281""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:45:14,2022-03-08 14:45:17,"2,152s",PASSED
+else,Chrome 98.0.4758.102,,,2022-03-08 14:45:17,2022-03-08 14:46:02,"45,636s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.6-Liquidación_Nomina,Chrome 98.0.4758.102,,,2022-03-08 14:46:02,2022-03-08 14:46:23,"20,734s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:46:03,2022-03-08 14:46:08,"5,827s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/input_Empresa 1_form_templatej_idt24_input""), ""liquidacion nomina"")",Chrome 98.0.4758.102,,,2022-03-08 14:46:08,2022-03-08 14:46:10,"1,292s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/li_Liquidacion Nomina (com)""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:10,2022-03-08 14:46:12,"2,150s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/a_Periodo Nomina_LiquidacionNominaj_idt68""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:12,2022-03-08 14:46:13,"1,157s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:46:13,2022-03-08 14:46:15,"1,420s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/span_P. MensualJulio2021""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:15,2022-03-08 14:46:15,"0,670s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/a_Nombre Persona_LiquidacionNominaj_idt126""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:15,2022-03-08 14:46:16,"1,121s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433""), ""1026588953"")",Chrome 98.0.4758.102,,,2022-03-08 14:46:16,2022-03-08 14:46:17,"1,118s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/input_Filtro Empleado_form_popupEmpleadoj_idt2433""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:46:17,2022-03-08 14:46:18,"0,406s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/span_Constantino Jhon""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:18,2022-03-08 14:46:19,"0,780s",PASSED
+"click(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/td_Aya Silva Cindy Ximena""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:46:19,2022-03-08 14:46:20,"1,209s",PASSED
+"click(findTestObject(""a_Guardar""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:20,2022-03-08 14:46:21,"1,523s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo compensaciones/Liquidación_Nomina0/p_Se guardo el mensaje""), 1))",Chrome 98.0.4758.102,,,2022-03-08 14:46:21,2022-03-08 14:46:23,"1,602s",PASSED
+,,,,,,,
+Test Cases/11.1-Pruebas_compensaciones/11.1.7-Listado_Empleados,Chrome 98.0.4758.102,,,2022-03-08 14:46:23,2022-03-08 14:47:23,"1m - 0,157s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:46:23,2022-03-08 14:46:28,"5,058s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input""), ""Listado de Empleados"")",Chrome 98.0.4758.102,,,2022-03-08 14:46:28,2022-03-08 14:46:30,"1,470s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:30,2022-03-08 14:46:31,"1,484s",PASSED
+"setText(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64""), ""Consta"")",Chrome 98.0.4758.102,,,2022-03-08 14:46:31,2022-03-08 14:46:33,"1,892s",PASSED
+"sendKeys(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64""), Keys.chord(ENTER))",Chrome 98.0.4758.102,,,2022-03-08 14:46:33,2022-03-08 14:46:34,"0,532s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/span_Constantino Jhon""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:34,2022-03-08 14:46:35,"0,988s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:35,2022-03-08 14:46:36,"0,859s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA""), 2)",Chrome 98.0.4758.102,,,2022-03-08 14:46:36,2022-03-08 14:46:37,"1,636s",PASSED
+"click(findTestObject(""Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa""))",Chrome 98.0.4758.102,,,2022-03-08 14:46:37,2022-03-08 14:46:38,"0,731s",PASSED
+"totalA = getText(findTestObject(""Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-08 14:46:38,2022-03-08 14:46:39,"0,620s",PASSED
+"if (totalA == ""10.000,00"")",Chrome 98.0.4758.102,,,2022-03-08 14:46:39,2022-03-08 14:46:39,"0,000s",PASSED
+else,Chrome 98.0.4758.102,,,2022-03-08 14:46:39,2022-03-08 14:47:23,"44,505s",PASSED

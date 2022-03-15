@@ -68,7 +68,8 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 
         WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/td_QUINTERO 5 EMPLEADO'))
 
-        WebUI.delay(1)
+        WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
+            0)
 
         WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
             '1')
@@ -336,7 +337,8 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 
         WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/td_QUINTERO 5 EMPLEADO2'))
 
-        WebUI.delay(1)
+        WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
+            0)
 
         WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
             '1')

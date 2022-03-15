@@ -29,7 +29,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succ
 WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/a_Conexin_btn-limpiar-campo'), 
+    0)
 
 WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/a_Conexin_btn-limpiar-campo'))
 
@@ -40,8 +41,6 @@ WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succ
 
 WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

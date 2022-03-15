@@ -77,7 +77,8 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/td_QUINTERO 5 EMPLEADO'))
 
-    WebUI.delay(1)
+    WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
+        0)
 
     WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
         '1')
@@ -111,7 +112,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/span_Modificar una solicitud de vitico'))
 
     WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
-        '01/12/2021')
+        '01/07/2021')
 
     WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
         Keys.chord(Keys.ENTER))
@@ -150,11 +151,12 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/a_Funcionario_form_popupComplementarioViaticoj_idt332'))
 
     WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/td_QUINTERO 5 EMPLEADO'), 
-        0)
+        1)
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/td_QUINTERO 5 EMPLEADO'))
 
-    WebUI.delay(1)
+    WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
+        0)
 
     WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--complementario'), 
         '1')

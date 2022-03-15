@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="12-Pruebas_Planta_Personal" time="21.525" tests="1" failures="0" errors="0">
+   <testsuite name="12-Pruebas_Planta_Personal" tests="1" failures="0" errors="0" time="21.525" skipped="0" timestamp="2022-03-08 14:21:59" hostname="diego.rojas - US-AF-000371" id="Test Suites/12-Pruebas_Planta_Personal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220308_142004\\12-Pruebas_Planta_Personal\\20220308_142111"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220308_142004\\12-Pruebas_Planta_Personal\\20220308_142111\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="2320e634433e8f5f747848abdf1de0d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/12.1-Pruebas_planta_personal/12.1.1-Crear_una_unidad" time="20.543" classname="Test Cases/12.1-Pruebas_planta_personal/12.1.1-Crear_una_unidad" status="INCOMPLETE">
+         <system-out><![CDATA[2022-03-08 14:22:00 - [TEST_CASE][INCOMPLETE] - Test Cases/12.1-Pruebas_planta_personal/12.1.1-Crear_una_unidad: null
+
+2022-03-08 14:22:02 - [TEST_STEP][INCOMPLETE] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): null
+
+2022-03-08 14:22:03 - [TEST_CASE][INCOMPLETE] - Test Cases/0.1-Login: null
+
+2022-03-08 14:22:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-08 14:22:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-08 14:22:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-08 14:22:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-08 14:22:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-08 14:22:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-08 14:22:15 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-08 14:22:15 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - try: null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-08 14:22:16 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-08 14:22:21 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.80:8380/saraweb' successfully
+
+2022-03-08 14:22:21 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-08 14:22:21 - [TEST_STEP][INCOMPLETE] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): null]]></system-out>
+         <system-err><![CDATA[2022-03-08 14:22:00 - [TEST_CASE][INCOMPLETE] - Test Cases/12.1-Pruebas_planta_personal/12.1.1-Crear_una_unidad: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-08 14:21:59 - [TEST_SUITE][INCOMPLETE] - 12-Pruebas_Planta_Personal: null]]></system-out>
+      <system-err><![CDATA[2022-03-08 14:21:59 - [TEST_SUITE][INCOMPLETE] - 12-Pruebas_Planta_Personal: null]]></system-err>
+   </testsuite>
+</testsuites>

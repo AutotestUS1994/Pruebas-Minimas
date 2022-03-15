@@ -63,6 +63,9 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Mod
     WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
         '01/07/2021')
 
+    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+        Keys.chord(Keys.ESCAPE))
+
     WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Nmero_form_detalleviaticosNumero'), 
         '5')
 
@@ -205,8 +208,18 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Mod
                 1)) {
                 WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'))
 
+                if(WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'), 
+                    1))
+                {
                 WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'))
-            }
+                }
+				
+                else{
+					WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas - Copy'))
+
+					WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/span_Si_Eliminar Entidades vigiladas'))
+                }
+				}
             
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Detalle'), FailureHandling.STOP_ON_FAILURE)
 

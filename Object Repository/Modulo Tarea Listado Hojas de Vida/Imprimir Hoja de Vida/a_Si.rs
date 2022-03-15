@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+         <value>//a[contains(text(),'Si')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -37,10 +37,8 @@ WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_emplea
 
 WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/span_Si'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/p_Recalculo Finalizado'), 
-    1))
-{
-WebUI.delay(2)
-
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/p_Recalculo Finalizado'), 
+    1)) {
+    WebUI.closeBrowser()
 }
+

@@ -25,10 +25,9 @@ WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Nueva_Categor
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'), 
     'categoria')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Nueva_Categoria/span_categoria'), 0)
 
-WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nueva_Categoria/span_categoria'))
 
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61'), 
     'prueba')

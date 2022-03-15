@@ -17,14 +17,13 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Identificacin_listadoEmp'), 
     0)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Identificacin_listadoEmp'), '354968431354')
-
-WebUI.delay(1)
 
 WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Identificacin_listadoEmp'), Keys.chord(
         Keys.ENTER))
@@ -44,7 +43,8 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/s
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Adicionar entidad de AFC'))
 
-WebUI.delay(30)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Desde_form_novedadesEmpl'), 
+    0)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Desde_form_novedadesEmpl'), '01/12/2018')
 

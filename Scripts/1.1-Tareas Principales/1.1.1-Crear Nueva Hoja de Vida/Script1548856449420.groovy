@@ -30,10 +30,10 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
     'Listado Hojas de Vida')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida'), 
     GlobalVariable.G_TimeOut)

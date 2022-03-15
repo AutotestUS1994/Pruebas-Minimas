@@ -52,7 +52,5 @@ WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succes
 
 WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls'))
 
-WebUI.delay(1)
-
 WebUI.closeBrowser()
 

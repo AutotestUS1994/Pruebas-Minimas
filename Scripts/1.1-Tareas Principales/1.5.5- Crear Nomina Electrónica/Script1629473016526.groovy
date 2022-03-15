@@ -47,17 +47,11 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomin
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'))
-
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
     '1')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'))
-
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'), 
     '8')
-
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_CUNDINAMARCASANTANDERBOGOTANo Usar'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_CUNDINAMARCASANTANDERBOGOTANo Usar'), 
     '3')

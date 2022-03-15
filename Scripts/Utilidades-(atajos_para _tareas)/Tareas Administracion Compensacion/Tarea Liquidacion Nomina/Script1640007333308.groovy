@@ -13,16 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/input_Listado de Empleados_'), 
     'Liquidacion Nomina')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/span_Liquidacion Nomina'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/input_Listado de Empleados_'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/span_Liquidacion Nomina'))
 

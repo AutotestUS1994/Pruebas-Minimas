@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='formListadoEvento:tablaEventos_data']/tr[5]/td[4]</value>
+         <value>//*/text()[normalize-space(.)='Prueba']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -39,6 +39,8 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida
 
 WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si'))
 
+WebUI.switchToWindowTitle('SARA')
+
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick'), 
     GlobalVariable.G_TimeOut)
 

@@ -28,7 +28,8 @@ WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posició
 
 WebUI.scrollToElement(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Actualizar'), 0)
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Actualizar'), 
+    0)
 
 WebUI.closeBrowser()
 

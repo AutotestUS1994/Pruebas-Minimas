@@ -94,17 +94,13 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de
 
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Detalle'))
 
-   
-
-
-        if(WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Eliminar'), 1))
-        {
+    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Eliminar'), 1)) {
         WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Eliminar'))
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Aceptar'))
 
         WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Regresar'))
-        }
+    }
 }
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Nuevo'))
@@ -223,6 +219,8 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de_tra
 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Descargar_form_actividadesObjetivosPlanTrabajotabsActividadestablaAnexosj_idt770'))
 
 WebUI.delay(2)
+
+WebUI.scrollToPosition(400, 400)
 
 WebUI.closeBrowser()
 

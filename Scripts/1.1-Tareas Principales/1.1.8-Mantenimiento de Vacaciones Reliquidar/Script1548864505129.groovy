@@ -24,10 +24,11 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
     'Mantenimiento de Vacaciones')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/span_mantenimiento de vacaciones reliquidar'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/span_mantenimiento de vacaciones reliquidar'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Identificacin_form_mantenimientoVacacionj_idt66'), 
     '1234567890')
@@ -43,12 +44,12 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Comp
         0)
 
     WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
-        'Mantenimiento de Vacaciones')
+        'Mantenimiento de Vacaciones (com)')
 
-    WebUI.delay(1)
+    WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/span_Mantenimiento de Vacaciones tarea'), 
+        0)
 
-    WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
-        Keys.chord(Keys.ENTER))
+    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/span_Mantenimiento de Vacaciones tarea'))
 
     WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Identificacin_form_mantenimientoVacacionj_idt66'), 
         '1234567890')

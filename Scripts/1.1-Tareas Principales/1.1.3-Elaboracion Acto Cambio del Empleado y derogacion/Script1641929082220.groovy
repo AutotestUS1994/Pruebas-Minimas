@@ -40,9 +40,6 @@ WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto 
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/select_10 - Ingreso Puesto Nuevo'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/select_DIAZ BLANCO GUISELL'), 
-    '1')
-
 WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/textarea__form_actoIngresoj_idt10124j_idt1025'), 
     'Magister en derecho penal')
 
@@ -215,9 +212,16 @@ WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto 
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/td_Ingreso Definitivo Indefinido Salario Basico'))
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Continuar3'))
+WebUI.doubleClick(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Continuar3'))
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Aplicar3'))
+if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Aplicar3'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Aplicar3'))
+} else {
+    WebUI.doubleClick(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Continuar3'))
+
+    WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Aplicar3'))
+}
 
 WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/p_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'))
 

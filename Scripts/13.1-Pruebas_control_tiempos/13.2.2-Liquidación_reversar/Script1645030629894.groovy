@@ -38,6 +38,8 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidaci�
     }
 }
 
+WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidación/a_Nuevo'), 0)
+
 WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Nuevo'))
 
 WebUI.setText(findTestObject('Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 

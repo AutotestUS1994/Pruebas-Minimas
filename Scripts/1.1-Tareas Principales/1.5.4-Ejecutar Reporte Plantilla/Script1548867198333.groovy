@@ -22,12 +22,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
     0)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Ir_nav_t66_input'), 
-    'Ejecutar Reporte Planilla')
+    'Ejecutar Reporte Planilla (com)')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/Ejecutar Reporte Planilla (com)'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Ir_nav_t66_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/Ejecutar Reporte Planilla (com)'))
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Ejecutar Reporte Planilla/input_Actos Administrativos_ejecutarReporte'), 
     0)

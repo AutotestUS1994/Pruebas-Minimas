@@ -13,15 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 
+    0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 'Planta Personal')
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 'Planta Personal (tal)')
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/span_Planta Personal (tal)'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/span_Planta Personal (tal)'))
 

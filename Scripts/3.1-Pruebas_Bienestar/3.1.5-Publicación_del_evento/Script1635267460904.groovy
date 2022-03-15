@@ -90,7 +90,8 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/inp
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir'))
 
-WebUI.delay(2)
+String Imagen = WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'), 
+    0)
 
 String Imagen = WebUI.getText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))
 
@@ -115,7 +116,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/i
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)'))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/div_IndividualArea TalentoPrograma'), 
+    0)
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -138,7 +140,8 @@ WebUI.uploadFile(findTestObject('Modulo Pruebas Bienestar/Publicación del event
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'), 
+    0)
 
 String Imagen2 = WebUI.getText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))
 
@@ -165,7 +168,8 @@ WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/i
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)'))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/div_IndividualArea TalentoPrograma'), 
+    0)
 
 WebUI.closeBrowser()
 

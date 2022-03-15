@@ -39,10 +39,10 @@ WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guarda
 WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Retroactivo viaticos')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Retroactivo Viaticos'))
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Retroactivo Viaticos'), 
+    0)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Nuevo_Guardar'), 
     0)

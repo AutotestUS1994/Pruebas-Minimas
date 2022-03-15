@@ -37,6 +37,9 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Pro
 
 WebUI.click(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/a_Programar'))
 
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/select_SeleccioneENCUESTA DE SATISFACCION CAPACITACION'), 
+    0)
+
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Programar_una_Evaluación_de_un_evento/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
     3)
 

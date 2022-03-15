@@ -24,11 +24,10 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida
     GlobalVariable.G_TimeOut)
 
 WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
-    'Listado Hojas de Vida')
+    'Listado Hojas de Vida (hoj)')
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'), 
+    0)
 
-//WebUI.delay(2)
-WebUI.sendKeys(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'))
 

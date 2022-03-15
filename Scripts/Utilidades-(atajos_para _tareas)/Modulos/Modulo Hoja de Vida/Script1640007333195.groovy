@@ -15,9 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Hoja de Vida/span_Hoja de Vida'), 0)
 
 WebUI.click(findTestObject('Modulo Hoja de Vida/span_Hoja de Vida'))
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Roles de Inicio/Empresa1_CompensacionDS_Administrador'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Roles de Inicio/Empresa1_CompensacionDS_Administrador'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 

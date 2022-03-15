@@ -16,13 +16,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Seguridad Social/input_Ir_nav_t66_input'), 
+    0)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Seguridad Social/input_Ir_nav_t66_input'), 
     'Seguridad Social')
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Seguridad Social/span_Seguridad Social'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Seguridad Social/input_Ir_nav_t66_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Seguridad Social/span_Seguridad Social'))
 

@@ -26,15 +26,18 @@ String identificacion = random_double.toString().replace('.0', '')
 String identificacion1 = 0 + identificacion
 
 int identificacion0 = Integer.parseInt(identificacion)
+
 /*-------------------------------------------------------------------------------------------*/
 if (identificacion0 < 10) {
     identificacion = identificacion1
 } else {
     identificacion0
 }
+
 if (identificacion1 == '0') {
-	identificacion1 = 1
+    identificacion1 = 1
 }
+
 /*-------------------------------------------------------------------------------------------*/
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,12 +45,12 @@ WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Nov
     0)
 
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
-    'Listado Hojas De Vida')
+    'Listado Hojas de Vida (hoj)')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)'))
 
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63'), 
     '354968431354')

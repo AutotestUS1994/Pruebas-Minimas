@@ -18,18 +18,19 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.6-crear vacaciones'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/input_Listado de Empleados_form_templatej_idt24_input'), 
+    1)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/input_Listado de Empleados_form_templatej_idt24_input'), 
-    'Generacion Vacaciones')
+    'Generacion Vacaciones (com)')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/span_Selecionar tarea'), 
+    1)
+
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/span_Selecionar tarea'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/a_Generacin'), 
     GlobalVariable.G_TimeOut)
-
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/input_Listado de Empleados_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generar Vacaciones/a_Generacin'))
 

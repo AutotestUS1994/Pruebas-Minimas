@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9ee891cc-cd1e-47b0-9011-541187d59664</testSuiteGuid>
    <testCaseLink>
-      <guid>fda5da37-5cdc-49ab-8f2b-8252b6291a4b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/13.1-Pruebas_control_tiempos/13.1.1-Listado_de_personas</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e4758248-01ca-4dbe-bb24-7046a457578d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

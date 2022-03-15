@@ -22,9 +22,9 @@ WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILU
 WebUI.setText(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'entidades riesgo')
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'), 0)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/li_Entidades Riesgo (sst)'))
+WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'))
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59'), 
     'pruebas k')
@@ -48,12 +48,12 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_una_ent
     
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Entidad de Riesgo'))
 
-    if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 1))
-    {
-    WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 1)) {
+        WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
 
-    WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
+        WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
     }
+    
     WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Regresar'))
 }
 
@@ -147,7 +147,7 @@ WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Elementos'))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'), 0)
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'))
 

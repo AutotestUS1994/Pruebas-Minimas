@@ -49,7 +49,8 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/Page_SARA/a_Descargar2'))
 
-    WebUI.delay(2)
+    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/Page_SARA/a_Descargar2'), 
+        FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/a_Generar_principal'))
 
@@ -78,7 +79,7 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/Page_SARA/a_Descargar2'))
 
-    WebUI.delay(2)
+    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/Page_SARA/a_Descargar2'))
 }
 
 WebUI.closeBrowser()

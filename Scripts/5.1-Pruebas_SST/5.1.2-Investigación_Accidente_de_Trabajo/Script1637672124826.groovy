@@ -22,7 +22,8 @@ WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.executeJavaScript('document.body.style.zoom=\'98%\'', null)
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Informes de Accidentes e Incidentes de Trabajo_form_templatej_idt24_input'), 
+    0)
 
 WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/input_Informes de Accidentes e Incidentes de Trabajo_form_templatej_idt24_input'), 
     'Informe Accidente de Trabajo')

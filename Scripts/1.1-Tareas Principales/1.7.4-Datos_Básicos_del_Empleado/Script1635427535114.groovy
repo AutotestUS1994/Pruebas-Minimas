@@ -23,12 +23,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Datos
     0)
 
 WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Evento Bienestar_form_templatej_idt24_input'), 
-    'Listado de Empleados')
+    'Listado de Empleados (com)')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'))
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Evento Bienestar_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'), 
+    0)
 
 WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     '1234567890')

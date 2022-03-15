@@ -39,7 +39,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Seleccion/a_Nombre Persona_LiquidacionNo'))
 
-//WebUI.delay(4)
+
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Seleccion/input_Filtro Empleado_Liquidacion Nomina'), 
     '1019070748')
 

@@ -74,7 +74,8 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asi
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Filtrar'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/span_Listado Hojas de Vida (hoj)'), 
+    0)
 
 WebUI.closeBrowser()
 

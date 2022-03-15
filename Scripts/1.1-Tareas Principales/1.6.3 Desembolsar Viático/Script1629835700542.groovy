@@ -67,8 +67,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
         0)
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Desembolso'))
-
-    WebUI.delay(2)
 }
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Nuevo_Modificar'), 
@@ -107,8 +105,6 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/M
         0)
 
     WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Desembolso'))
-
-    WebUI.delay(2)
 }
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/span_No se encontr registros_ui-icon ui-icon-closethick'), 

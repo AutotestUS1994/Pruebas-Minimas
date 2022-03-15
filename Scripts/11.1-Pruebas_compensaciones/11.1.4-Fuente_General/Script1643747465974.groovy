@@ -46,7 +46,8 @@ WebUI.click(findTestObject('Modulo compensaciones/Fuente_General/a_Ejecutar'))
 
 WebUI.click(findTestObject('Modulo compensaciones/Fuente_General/a_Continuar'))
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Fuente_General/td_354968431354    PC65000001000020107202118076995478975000'), 
+    0)
 
 WebUI.closeBrowser()
 

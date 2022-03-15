@@ -20,6 +20,8 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
+WebUI.comment('se genera Error al seleccionar puesto y dar continuar ')
+
 Date today = new Date()
 
 /*--------------------------------------------*/
@@ -71,28 +73,20 @@ WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativ
 if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil11'), 
     1)) {
     WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil11'))
+} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'))
+} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'))
+} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'))
+} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'))
 }
 
-else if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'), 
-    1))
-{
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'))
-}
-else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'), 
-    1))
-{
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'))
-}
-else if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'), 
-    1))
-{
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'))
-}
-else if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'), 
-    1))
-{
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'))
-}
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Continuar'))
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Aceptar'))

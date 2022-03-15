@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('Modulo Administracion Compensacion/span_Administracin Compensacin'), 0)
 
 WebUI.click(findTestObject('Modulo Administracion Compensacion/span_Administracin Compensacin'))
 

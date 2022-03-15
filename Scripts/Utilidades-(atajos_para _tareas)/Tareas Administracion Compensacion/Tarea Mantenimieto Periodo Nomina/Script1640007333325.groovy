@@ -24,8 +24,8 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/input_Actos Administrativos_form_templatej_idt24_input'), 
     'Mantenimiento Periodo')
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/span_Mantenimiento Periodo'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/input_Actos Administrativos_form_templatej_idt24_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/span_Mantenimiento Periodo'))
 

@@ -48,5 +48,7 @@ WebUI.sendKeys(findTestObject('Modulo Selección/Asociar_candidatos/input_Filtro
 
 WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/span_A A A'))
 
-WebUI.comment('No esta habilitado boton para terminar tarea')
+WebUI.click(findTestObject('a_Guardar'))
+
+WebUI.comment('algunas veces se genera error en base de datos (no se encuentra la razon)')
 

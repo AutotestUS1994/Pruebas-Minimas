@@ -25,8 +25,8 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos
 WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/input_ADMINISTRADOR DEL SISTEMA'), 
     'Actos Administrativos')
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/span_Tarea actos administrativos'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/input_ADMINISTRADOR DEL SISTEMA'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/span_Tarea actos administrativos'))
 

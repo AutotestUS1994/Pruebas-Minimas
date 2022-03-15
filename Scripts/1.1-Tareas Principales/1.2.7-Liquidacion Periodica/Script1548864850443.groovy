@@ -14,7 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
     0)
@@ -51,14 +52,13 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/a_Guardar'))
 
+String x = WebUI.waitForElementVisible(findTestObject('Alerta/Alerta'), 0)
+
 String x = WebUI.getText(findTestObject('Alerta/Alerta'))
 
-if(x.equals("Se modifico el registro satisfactoriamente"))
-{
-	WebUI.closeBrowser()
-}else
-{
-	throw Exception("No se obtuvo mensaje esperado="+x);
+if (x.equals('Se modifico el registro satisfactoriamente')) {
+    WebUI.closeBrowser()
+} else {
+    throw Exception('No se obtuvo mensaje esperado=' + x)
 }
-	
 

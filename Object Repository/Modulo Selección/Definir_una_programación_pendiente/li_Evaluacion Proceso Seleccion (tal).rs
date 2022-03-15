@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span/ul/li</value>
+         <value>//*/text()[normalize-space(.)='Evaluacion Proceso Seleccion (tal)']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

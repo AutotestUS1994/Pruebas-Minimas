@@ -194,8 +194,9 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Crear
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Boto borrar'))
 
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar 0'))
-
-        WebUI.delay(2)
+		
+		WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'), 1)
+        
     }
     
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))

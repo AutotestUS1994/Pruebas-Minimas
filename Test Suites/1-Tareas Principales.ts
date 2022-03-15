@@ -99,7 +99,7 @@
       <guid>f46651df-2927-42a2-858d-1cdc2f0f9c02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.2.6-Legalizar Solicitud Nov Empelado</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.2.6-Legalizar Solicitud Nov Empleado</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>39b933dc-17a5-4437-9a7e-4a7193755f2e</guid>
@@ -333,7 +333,7 @@
       <guid>3aae4738-eeb2-4f14-9d01-6fe9c89d46a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.6.4 Derrogacion Viático</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.6.4 Derogación Viático</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bc510f5a-559b-4529-8ed0-4d52a3754f58</guid>

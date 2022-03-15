@@ -37,8 +37,6 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Ingresa
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
-
-    WebUI.delay(2)
 } else {
     WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -68,8 +66,6 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Ingresa
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
         WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
-
-        WebUI.delay(2)
     } else {
         WebUI.callTestCase(findTestCase('3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento'), [:], FailureHandling.STOP_ON_FAILURE)
     }
@@ -91,8 +87,6 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Ingresa
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
-
-    WebUI.delay(2)
 }
 
 WebUI.closeBrowser()

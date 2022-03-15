@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='PRUEBA SILVIA'])[3]/preceding::span[2]</value>
+         <value>//span[(text() = 'PRUEBA SILVIA' or . = 'PRUEBA SILVIA')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

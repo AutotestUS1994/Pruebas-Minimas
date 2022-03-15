@@ -22,12 +22,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
     0)
 
 WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
-    'Liquidacion Entidad Externa')
+    'Liquidacion Entidad Externa (com)')
 
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidacion Entidad Externa (com)'), 
+    0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidacion Entidad Externa (com)'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Traer'))
 
@@ -64,7 +64,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Descargar'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Descargar'))
 
 WebUI.closeBrowser()
 

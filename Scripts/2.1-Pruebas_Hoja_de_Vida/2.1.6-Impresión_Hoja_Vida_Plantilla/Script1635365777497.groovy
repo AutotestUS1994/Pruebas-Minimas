@@ -47,7 +47,9 @@ WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/
 
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'))
 
-WebUI.delay(2)
+WebUI.switchToWindowTitle('SARA')
+
+WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'), 0)
 
 WebUI.closeBrowser()
 

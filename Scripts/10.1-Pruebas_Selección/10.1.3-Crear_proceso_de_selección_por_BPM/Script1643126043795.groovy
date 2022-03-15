@@ -103,7 +103,8 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
 
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Guardar2'))
 
-    WebUI.delay(4)
+    WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/p_La etapa ha sido actualizada correctamente'), 
+        0)
 
     WebUI.closeBrowser()
 } else {
@@ -226,7 +227,8 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
 
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Guardar2'))
 
-    WebUI.delay(4)
+    WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/p_La etapa ha sido actualizada correctamente'), 
+        0)
 
     WebUI.closeBrowser()
 }

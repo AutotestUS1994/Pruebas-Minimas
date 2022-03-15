@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Selección/Definir_una_programación_pendiente/input_Empresa 1_form_templatej_idt24_input'), 
-    'Evaluacion Proceso Seleccion')
+    'Evaluacion Proceso Seleccion (tal)')
 
 WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendiente/li_Evaluacion Proceso Seleccion (tal)'))
 
