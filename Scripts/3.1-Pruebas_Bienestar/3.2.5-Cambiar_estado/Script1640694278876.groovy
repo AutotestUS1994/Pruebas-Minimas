@@ -66,8 +66,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Cambiar
         4)
 
     WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
-
-    WebUI.delay(2)
 }
 
 WebUI.comment('cupos llenos, apezar de no tener inscrito  a nadie')

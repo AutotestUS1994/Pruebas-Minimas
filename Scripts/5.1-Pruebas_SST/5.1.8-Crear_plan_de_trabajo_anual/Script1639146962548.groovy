@@ -218,8 +218,6 @@ WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Crear_plan_de_tra
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Crear_plan_de_trabajo_anual/a_Descargar_form_actividadesObjetivosPlanTrabajotabsActividadestablaAnexosj_idt770'))
 
-WebUI.delay(2)
-
 WebUI.scrollToPosition(400, 400)
 
 WebUI.closeBrowser()
