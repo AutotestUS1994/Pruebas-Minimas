@@ -27,8 +27,7 @@ WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Administr
 WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Periodo/span_Administracion Embargos'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/span_Generacion Por Fechas'))
 

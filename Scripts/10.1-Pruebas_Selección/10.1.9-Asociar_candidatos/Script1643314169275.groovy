@@ -36,6 +36,16 @@ WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/td_8028     - A
 
 WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/div_Candidato'))
 
+WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/a_Registro Candidato'))
+
+if(WebUI.waitForElementVisible(findTestObject('Modulo Selección/Asociar_candidatos/td_A A A'), 1))
+{
+WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/td_A A A'))
+
+WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/a_Eliminar'))
+
+WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/span_Si'))
+}
 WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/a_Nuevo'))
 
 WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/a_Identificacin_seleccion_procesopanelCandidatoj_idt924'))
@@ -49,6 +59,4 @@ WebUI.sendKeys(findTestObject('Modulo Selección/Asociar_candidatos/input_Filtro
 WebUI.click(findTestObject('Modulo Selección/Asociar_candidatos/span_A A A'))
 
 WebUI.click(findTestObject('a_Guardar'))
-
-WebUI.comment('algunas veces se genera error en base de datos (no se encuentra la razon)')
 

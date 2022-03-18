@@ -40,7 +40,48 @@ WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candi
 
 WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Citacion'))
 
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Etapas Por Asistente'))
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add'))
+
+    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'))
+
+    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Si'))
+}
+
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Jurados'))
+
 WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Programar'))
 
-WebUI.comment('No se puede completar test sin antes agregar un empleado')
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_PRUEBA'))
+
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Responsable_popupCitacion_formj_idt1947'))
+
+WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644'), 
+    'constantino jhon')
+
+WebUI.sendKeys(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Constantino  Jhon'))
+
+WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/textarea_Observacin_popupCitacion_formobservacion'), 
+    'pr katalon')
+
+WebUI.check(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Continuar'))
+
+if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'), 
+    1)) {
+    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+}
+
+WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Generar'))
+
+String Alert = WebUI.getText(findTestObject('Alerta/Alerta'))
+
+WebUI.closeBrowser()
 

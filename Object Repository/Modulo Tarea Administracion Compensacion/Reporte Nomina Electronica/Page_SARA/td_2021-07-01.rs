@@ -6,11 +6,11 @@
    <elementGuidId>f9ee8f7f-430f-44ec-b2a6-ee4d5f12ec5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='2021-07-01']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

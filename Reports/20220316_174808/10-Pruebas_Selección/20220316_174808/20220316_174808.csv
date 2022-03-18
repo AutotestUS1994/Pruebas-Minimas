@@ -1,0 +1,164 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+10-Pruebas_Selección,Chrome 99.0.4844.51,,,2022-03-16 17:48:16,2022-03-16 17:53:37,"5m - 20,577s",FAILED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.1-Crear_un_requerimiento_según_motivo_y_formato,Chrome 99.0.4844.51,,,2022-03-16 17:48:17,2022-03-16 17:48:47,"29,813s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:48:17,2022-03-16 17:48:31,"14,062s",PASSED
+"setText(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/input_Empresa 1_form_templatej_idt24_input""), ""requerimiento personal"")",Chrome 99.0.4844.51,,,2022-03-16 17:48:31,2022-03-16 17:48:33,"1,330s",PASSED
+"click(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_Requerimiento Personal""))",Chrome 99.0.4844.51,,,2022-03-16 17:48:33,2022-03-16 17:48:34,"1,433s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:48:34,2022-03-16 17:48:37,"2,404s",PASSED
+else,Chrome 99.0.4844.51,,,2022-03-16 17:48:37,2022-03-16 17:48:38,"1,074s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:48:38,2022-03-16 17:48:39,"1,566s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin Convencional62""), 3)",Chrome 99.0.4844.51,,,2022-03-16 17:48:39,2022-03-16 17:48:41,"1,365s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_Tcnico AdministrativoOperativo""), 2)",Chrome 99.0.4844.51,,,2022-03-16 17:48:41,2022-03-16 17:48:42,"1,011s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1 mes2 meses3 meses6 mesesNo aplicaOtro""), 4)",Chrome 99.0.4844.51,,,2022-03-16 17:48:42,2022-03-16 17:48:43,"1,052s",PASSED
+"setText(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/input_Horario_requerimientoPersonalPM_formj_idt11990tablaCamHijo8j_idt1209""), ""454"")",Chrome 99.0.4844.51,,,2022-03-16 17:48:43,2022-03-16 17:48:43,"0,775s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1. volumenes de venta2. Carga en volumenes de operacin3""), 3)",Chrome 99.0.4844.51,,,2022-03-16 17:48:43,2022-03-16 17:48:44,"1,085s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_Interna AbiertaInterna CerradaExternaInterna y Externa""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:48:44,2022-03-16 17:48:45,"0,947s",PASSED
+"click(findTestObject(""Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Guardar Directo""))",Chrome 99.0.4844.51,,,2022-03-16 17:48:45,2022-03-16 17:48:46,"0,392s",PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-16 17:48:46,2022-03-16 17:48:47,"0,746s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.2-Flujo_aprobación_requerimiento,Chrome 99.0.4844.51,,,2022-03-16 17:48:47,2022-03-16 17:48:57,"10,592s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:48:47,2022-03-16 17:48:52,"4,948s",PASSED
+"setText(findTestObject(""Modulo Selección/Flujo_aprobación_requerimiento/input_Empresa 1_form_templatej_idt24_input""), ""Manejo proceso"")",Chrome 99.0.4844.51,,,2022-03-16 17:48:52,2022-03-16 17:48:53,"1,310s",PASSED
+"click(findTestObject(""Modulo Selección/Flujo_aprobación_requerimiento/li_Manejo Proceso (gna)""))",Chrome 99.0.4844.51,,,2022-03-16 17:48:53,2022-03-16 17:48:55,"1,411s",PASSED
+"click(findTestObject(""Modulo Selección/Flujo_aprobación_requerimiento/a_Requerimiento""))",Chrome 99.0.4844.51,,,2022-03-16 17:48:55,2022-03-16 17:48:56,"0,869s",PASSED
+"click(findTestObject(""Modulo Selección/Flujo_aprobación_requerimiento/td_MOD1-Requerimiento de personal""))",Chrome 99.0.4844.51,,,2022-03-16 17:48:56,2022-03-16 17:48:56,"0,850s",PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-16 17:48:56,2022-03-16 17:48:57,"0,752s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.3-Crear_proceso_de_selección_por_BPM,Chrome 99.0.4844.51,,,2022-03-16 17:48:57,2022-03-16 17:49:33,"35,390s",PASSED
+"comment(""NO SE PUEDE ELIMINAR REGISTROS"")",Chrome 99.0.4844.51,,,2022-03-16 17:48:58,2022-03-16 17:48:58,"0,009s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:48:58,2022-03-16 17:49:03,"5,425s",PASSED
+"setText(findTestObject(""Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Empresa 1_form_templatej_idt24_input""), ""proceso de seleccion"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:03,2022-03-16 17:49:04,"1,182s",PASSED
+"click(findTestObject(""Modulo Selección/Crear_proceso_de_selección_por_BPM/span_Proceso de Sele""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:04,2022-03-16 17:49:06,"1,353s",PASSED
+"setText(findTestObject(""Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Fecha Inicial_filtro_procesoseleccionfechaps_input""), ""29/06/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:06,2022-03-16 17:49:07,"1,228s",PASSED
+"setText(findTestObject(""Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Fecha Final_filtro_procesoseleccionfechaps1_input""), ""10/07/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:07,2022-03-16 17:49:08,"0,850s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Crear_proceso_de_selección_por_BPM/td_8028     - Analista De Sistemas""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:49:08,2022-03-16 17:49:33,"24,784s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.4-Condición_de_derecho,Chrome 99.0.4844.51,,,2022-03-16 17:49:33,2022-03-16 17:49:56,"23,719s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:49:33,2022-03-16 17:49:39,"5,542s",PASSED
+"setText(findTestObject(""Modulo Selección/Condición_de_derecho/input_Empresa 1_form_templatej_idt24_input""), ""proceso de seleccion"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:39,2022-03-16 17:49:40,"1,145s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Selección/Condición_de_derecho/span_Proceso de Se""), 0)",Chrome 99.0.4844.51,,,2022-03-16 17:49:40,2022-03-16 17:49:41,"1,395s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/span_Proceso de Se""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:41,2022-03-16 17:49:41,"0,372s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/td_8028     - Analista De Sistemas""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:41,2022-03-16 17:49:42,"0,970s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/a_Condicin de Derecho""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:42,2022-03-16 17:49:44,"1,134s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Condición_de_derecho/a_Edad_seleccion_procesotabla_ventanaCDTB1j_idt15812""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:49:44,2022-03-16 17:49:45,"1,820s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Condición_de_derecho/a_BOGOT_seleccion_procesotabla_ventanaCDTB0j_idt1581""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:49:45,2022-03-16 17:49:47,"1,800s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Condición_de_derecho/select_-- Seleccione --CargoCargos MultiplesCategoriaCiudad""), 4)",Chrome 99.0.4844.51,,,2022-03-16 17:49:47,2022-03-16 17:49:49,"1,456s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1504""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:49,2022-03-16 17:49:49,"0,667s",PASSED
+"setText(findTestObject(""Modulo Selección/Condición_de_derecho/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt2630""), ""bogotá"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:49,2022-03-16 17:49:50,"1,049s",PASSED
+"sendKeys(findTestObject(""Modulo Selección/Condición_de_derecho/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt2630""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-16 17:49:50,2022-03-16 17:49:51,"0,373s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/td_11001     BOGOT""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:51,2022-03-16 17:49:51,"0,652s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1582""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:51,2022-03-16 17:49:52,"1,051s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Condición_de_derecho/select_-- Seleccione --CargoCargos MultiplesCategoriaCiudad""), 6)",Chrome 99.0.4844.51,,,2022-03-16 17:49:52,2022-03-16 17:49:54,"1,629s",PASSED
+"setText(findTestObject(""Modulo Selección/Condición_de_derecho/input_BOGOT_seleccion_procesotabla_ventanaCDTBedadMinima""), ""20"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:54,2022-03-16 17:49:55,"1,086s",PASSED
+"setText(findTestObject(""Modulo Selección/Condición_de_derecho/input_BOGOT_seleccion_procesotabla_ventanaCDTBedadMaxima""), ""60"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:55,2022-03-16 17:49:56,"0,806s",PASSED
+"click(findTestObject(""Modulo Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1582""))",Chrome 99.0.4844.51,,,2022-03-16 17:49:56,2022-03-16 17:49:56,"0,380s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.5-Publicación_de_la_convocatoria,Chrome 99.0.4844.51,,,2022-03-16 17:49:56,2022-03-16 17:50:17,"20,789s",PASSED
+today = new java.util.Date(),Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,007s",PASSED
+"Dia = today.format(""dd"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,004s",PASSED
+"Mes = today.format(""MM"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,001s",PASSED
+"Año = today.format(""yyyy"")",Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,000s",PASSED
+AñoM = Año + 1,Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,000s",PASSED
+"fechaI = Dia + ""/"" + Mes + ""/"" + Año",Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,001s",PASSED
+"fechaF = Dia + ""/"" + Mes + ""/"" + AñoM",Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:49:57,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:49:57,2022-03-16 17:50:03,"6,389s",PASSED
+"setText(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/input_Empresa 1_form_templatej_idt24_input""), ""proceso de seleccion"")",Chrome 99.0.4844.51,,,2022-03-16 17:50:03,2022-03-16 17:50:04,"1,133s",PASSED
+"click(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/span_Proceso de Sel""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:04,2022-03-16 17:50:06,"1,347s",PASSED
+"setText(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/input_Fecha Inicial_filtro_procesoseleccionfechaps_input""), ""29/06/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:50:06,2022-03-16 17:50:07,"1,182s",PASSED
+"setText(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/input_Fecha Final_filtro_procesoseleccionfechaps1_input""), ""10/07/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:50:07,2022-03-16 17:50:08,"0,865s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas""), 0)",Chrome 99.0.4844.51,,,2022-03-16 17:50:08,2022-03-16 17:50:08,"0,466s",PASSED
+"click(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:08,2022-03-16 17:50:09,"0,387s",PASSED
+"click(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/a_Publicacin""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:09,2022-03-16 17:50:10,"1,143s",PASSED
+"setText(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/input_Publicacin_seleccion_procesofecha_publicacion_input""), fechaI)",Chrome 99.0.4844.51,,,2022-03-16 17:50:10,2022-03-16 17:50:11,"1,450s",PASSED
+"setText(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/input_Hasta_seleccion_procesofecha_hasta_input""), fechaF)",Chrome 99.0.4844.51,,,2022-03-16 17:50:11,2022-03-16 17:50:12,"1,086s",PASSED
+"setText(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/div_Detalle_ql-editor ql-blank""), ""pruebas katalon 10.1.5"")",Chrome 99.0.4844.51,,,2022-03-16 17:50:12,2022-03-16 17:50:14,"1,161s",PASSED
+"click(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/a_Publicar""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:14,2022-03-16 17:50:14,"0,548s",PASSED
+"if (waitForElementNotVisible(findTestObject(""Modulo Selección/Publicación_de_la_convocatoria/p_El proceso ha sido publicado exitosamente""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:50:14,2022-03-16 17:50:16,"2,254s",PASSED
+else,Chrome 99.0.4844.51,,,2022-03-16 17:50:16,2022-03-16 17:50:17,"0,802s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.7-Buscar_hoja_de_vida,Chrome 99.0.4844.51,,,2022-03-16 17:50:17,2022-03-16 17:50:32,"15,319s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:50:18,2022-03-16 17:50:23,"5,591s",PASSED
+"setText(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/input_Empresa 1_form_templatej_idt24_input""), ""Buscador Hoja vida"")",Chrome 99.0.4844.51,,,2022-03-16 17:50:23,2022-03-16 17:50:24,"1,227s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/li_Buscador Hoja Vida (hoj)""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:24,2022-03-16 17:50:26,"1,366s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/label_Las hojas de vidas de los empleados""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:26,2022-03-16 17:50:27,"0,851s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/label_Las hojas de vida que cumplan con el perfil de una cargo""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:27,2022-03-16 17:50:27,"0,635s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENAL""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:50:27,2022-03-16 17:50:28,"1,233s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/select_1111123456ADMINISTRACIONADMINISTRACIONAnalista QA""), 8)",Chrome 99.0.4844.51,,,2022-03-16 17:50:28,2022-03-16 17:50:30,"1,391s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/select_20061    - ANALISTA DE MARKETING20139    - ABOGADO20156    - ANALISTA CONTABLE""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:50:30,2022-03-16 17:50:31,"1,226s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida/a_Aplicar""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:31,2022-03-16 17:50:32,"0,632s",PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-16 17:50:32,2022-03-16 17:50:32,"0,757s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.8-Buscar_hoja_de_vida_externa,Chrome 99.0.4844.51,,,2022-03-16 17:50:32,2022-03-16 17:51:05,"32,772s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:50:33,2022-03-16 17:50:38,"5,280s",PASSED
+"setText(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/input_Empresa 1_form_templatej_idt24_input""), ""Buscador Hoja Vida Externa"")",Chrome 99.0.4844.51,,,2022-03-16 17:50:38,2022-03-16 17:50:39,"1,245s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/span_Buscador Hoja Vida Externa""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:39,2022-03-16 17:50:41,"1,437s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/label_Las hojas de vida que no correspondan a empleados""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:41,2022-03-16 17:50:42,"0,948s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/label_Las hojas de vida que cumplan con el perfil de una cargo""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:42,2022-03-16 17:50:42,"0,627s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:50:42,2022-03-16 17:50:44,"1,196s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_1111123456ADMINISTRACIONADMINISTRACIONAnalista QAASISTENCIAASISTENTE ASISTENTE""), 8)",Chrome 99.0.4844.51,,,2022-03-16 17:50:44,2022-03-16 17:50:45,"1,398s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_20061    - ANALISTA DE MARKETING20139    - ABOGADO20156    - ANALISTA CONTABLE""), 3)",Chrome 99.0.4844.51,,,2022-03-16 17:50:45,2022-03-16 17:50:46,"1,215s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/span_Agregar Filtro_btn-miniadicionar""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:46,2022-03-16 17:50:47,"0,593s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_1rea de experiencia NPARTICULO DE REVISTAARTICULO PERIODICOASOCIACIONESAsociaciones""), 11)",Chrome 99.0.4844.51,,,2022-03-16 17:50:47,2022-03-16 17:50:48,"1,336s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_CiudadCorreoDocumentoNombresPrimer ApellidoDOCUMENTOEDADACTUALIZACION""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:50:48,2022-03-16 17:50:49,"1,219s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_-- Seleccione--000000ABEJORRALABREGOABRIAQUACACIASACANDIACEVEDOACHIAGRADOAGUA""), 113)",Chrome 99.0.4844.51,,,2022-03-16 17:50:49,2022-03-16 17:50:53,"3,462s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/a_Aplicar3""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:53,2022-03-16 17:50:54,"0,879s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/a_Aplicar2""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:54,2022-03-16 17:50:54,"0,751s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/span_Excluir candidatos bloqueados_ui-chkbox-icon ui-icon ui-icon-check ui-c""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:54,2022-03-16 17:50:57,"2,484s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/span_NO RELACIONADA_btn-procesoactivo us-icon-card-img""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:57,2022-03-16 17:50:59,"2,048s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/a_Aceptar1""))",Chrome 99.0.4844.51,,,2022-03-16 17:50:59,2022-03-16 17:51:00,"0,855s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/select_SINO""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:51:00,2022-03-16 17:51:01,"1,402s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/td_Administracion""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:01,2022-03-16 17:51:02,"0,676s",PASSED
+"click(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/a_Aplicar2""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:02,2022-03-16 17:51:02,"0,526s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Selección/Buscar_hoja_de_vida_externa/p_LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO""), 0)",Chrome 99.0.4844.51,,,2022-03-16 17:51:02,2022-03-16 17:51:04,"2,017s",PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-16 17:51:04,2022-03-16 17:51:05,"0,747s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.1.9-Asociar_candidatos,Chrome 99.0.4844.51,,,2022-03-16 17:51:05,2022-03-16 17:51:28,"22,708s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:51:06,2022-03-16 17:51:11,"5,424s",PASSED
+"setText(findTestObject(""Modulo Selección/Asociar_candidatos/input_Empresa 1_form_templatej_idt24_input""), ""proceso de seleccion"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:11,2022-03-16 17:51:12,"1,133s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/li_Proceso de Seleccion (tal)""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:12,2022-03-16 17:51:14,"1,614s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Asociar_candidatos/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:51:14,2022-03-16 17:51:16,"2,071s",PASSED
+"setText(findTestObject(""Modulo Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input""), ""29/06/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:16,2022-03-16 17:51:17,"1,245s",PASSED
+"sendKeys(findTestObject(""Modulo Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-16 17:51:17,2022-03-16 17:51:18,"0,477s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/td_8028     - Analista De Sistemas""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:18,2022-03-16 17:51:18,"0,709s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/div_Candidato""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:18,2022-03-16 17:51:20,"1,264s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/a_Registro Candidato""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:20,2022-03-16 17:51:20,"0,516s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Asociar_candidatos/td_A A A""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:51:20,2022-03-16 17:51:23,"2,410s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/a_Nuevo""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:23,2022-03-16 17:51:24,"0,948s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/a_Identificacin_seleccion_procesopanelCandidatoj_idt924""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:24,2022-03-16 17:51:24,"0,872s",PASSED
+"setText(findTestObject(""Modulo Selección/Asociar_candidatos/input_Filtro Candidatos_form_popUpCandidatosSeleccionj_idt171""), ""A A A"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:24,2022-03-16 17:51:25,"1,116s",PASSED
+"sendKeys(findTestObject(""Modulo Selección/Asociar_candidatos/input_Filtro Candidatos_form_popUpCandidatosSeleccionj_idt171""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-16 17:51:25,2022-03-16 17:51:27,"1,015s",PASSED
+"click(findTestObject(""Modulo Selección/Asociar_candidatos/span_A A A""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:27,2022-03-16 17:51:27,"0,614s",PASSED
+"click(findTestObject(""a_Guardar""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:27,2022-03-16 17:51:28,"0,807s",PASSED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.2.1-Programación_de_etapas_a_un_candidato,Chrome 99.0.4844.51,,,2022-03-16 17:51:28,2022-03-16 17:52:41,"1m - 12,710s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:51:28,2022-03-16 17:51:35,"6,379s",PASSED
+"setText(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/input_No search results are available_form_templatej_idt24_input""), ""proceso de seleccion"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:35,2022-03-16 17:51:36,"1,189s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/span_Proceso de Seleccion""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:36,2022-03-16 17:51:37,"1,349s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 99.0.4844.51,,,2022-03-16 17:51:37,2022-03-16 17:51:39,"1,617s",PASSED
+"setText(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha Inicial_filtro_procesoseleccionfechaps_input""), ""29/06/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:39,2022-03-16 17:51:40,"1,022s",PASSED
+"setText(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input""), ""29/06/2017"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:40,2022-03-16 17:51:41,"0,895s",PASSED
+"sendKeys(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-16 17:51:41,2022-03-16 17:51:41,"0,479s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/td_8028     - Analista De Sistemas""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:41,2022-03-16 17:51:42,"0,646s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/div_Citacion""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:42,2022-03-16 17:51:43,"1,136s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/a_Etapas Por Asistente""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:43,2022-03-16 17:51:44,"0,401s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:51:44,2022-03-16 17:51:46,"2,328s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/a_Jurados""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:46,2022-03-16 17:51:46,"0,373s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/a_Programar""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:46,2022-03-16 17:51:47,"0,664s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/td_PRUEBA""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:47,2022-03-16 17:51:48,"0,845s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/a_Responsable_popupCitacion_formj_idt1947""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:48,2022-03-16 17:51:48,"0,646s",PASSED
+"setText(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644""), ""constantino jhon"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:48,2022-03-16 17:51:50,"1,135s",PASSED
+"sendKeys(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-16 17:51:50,2022-03-16 17:51:50,"0,377s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/span_Constantino  Jhon""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:50,2022-03-16 17:51:51,"0,754s",PASSED
+"setText(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/textarea_Observacin_popupCitacion_formobservacion""), ""pr katalon"")",Chrome 99.0.4844.51,,,2022-03-16 17:51:51,2022-03-16 17:51:52,"1,214s",PASSED
+"check(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:52,2022-03-16 17:51:52,"0,470s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/a_Continuar""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:52,2022-03-16 17:51:53,"0,823s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""), 1))",Chrome 99.0.4844.51,,,2022-03-16 17:51:53,2022-03-16 17:51:54,"1,172s",PASSED
+"click(findTestObject(""Modulo Selección/Programación_de_etapas_a_un_candidato/a_Generar""))",Chrome 99.0.4844.51,,,2022-03-16 17:51:54,2022-03-16 17:52:41,"46,328s",FAILED
+,,,,,,,
+Test Cases/10.1-Pruebas_Selección/10.2.2-Definir_una_programación_pendiente,Chrome 99.0.4844.51,,,2022-03-16 17:52:41,2022-03-16 17:53:37,"56,287s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-16 17:52:41,2022-03-16 17:52:47,"5,923s",PASSED
+"setText(findTestObject(""Modulo Selección/Definir_una_programación_pendiente/input_Empresa 1_form_templatej_idt24_input""), ""Evaluacion Proceso Seleccion (tal)"")",Chrome 99.0.4844.51,,,2022-03-16 17:52:47,2022-03-16 17:52:48,"1,135s",PASSED
+"click(findTestObject(""Modulo Selección/Definir_una_programación_pendiente/li_Evaluacion Proceso Seleccion (tal)""))",Chrome 99.0.4844.51,,,2022-03-16 17:52:48,2022-03-16 17:52:49,"1,362s",PASSED
+"click(findTestObject(""Modulo Selección/Definir_una_programación_pendiente/span_Pendientes""))",Chrome 99.0.4844.51,,,2022-03-16 17:52:49,2022-03-16 17:52:51,"1,064s",PASSED
+"click(findTestObject(""Modulo Selección/Definir_una_programación_pendiente/span_Quintero Mendez Jose Eduardo""))",Chrome 99.0.4844.51,,,2022-03-16 17:52:51,2022-03-16 17:53:37,"46,398s",FAILED

@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendient
 WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendiente/span_Quintero Mendez Jose Eduardo'))
 
 WebUI.setText(findTestObject('Modulo Selección/Definir_una_programación_pendiente/input_Fecha_popupEtapaProceso_formseccionfecha_inicial_input'), 
-    '28/01/2022')
+    '28/12/2022')
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Definir_una_programación_pendiente/select_--010203040506070809101112'), 
     1)

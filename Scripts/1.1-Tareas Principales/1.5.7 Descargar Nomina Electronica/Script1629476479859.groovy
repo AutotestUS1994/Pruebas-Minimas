@@ -31,6 +31,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/td_Con inconsistencia'))
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Descargar Nomina Electronica/Page_SARA/span_Mendoza 2727 Empleado'), 

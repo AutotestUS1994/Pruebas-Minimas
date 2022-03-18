@@ -28,7 +28,13 @@ WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reporte N
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     Keys.chord(Keys.ENTER))
 
 if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'), 
@@ -51,11 +57,13 @@ if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Co
 
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'), 
-        0)
-
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
-
+    if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'), 
+        1)) {
+        WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
+    } else {
+        WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar - Copy'))
+    }
+    
     WebUI.closeBrowser()
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica'), [:], FailureHandling.STOP_ON_FAILURE)

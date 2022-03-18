@@ -36,6 +36,12 @@
       <testCaseId>Test Cases/10.1-Pruebas_Selección/10.1.4-Condición_de_derecho</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>f2b21669-8460-4c8b-86b4-42617fa42c1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/10.1-Pruebas_Selección/10.1.5-Publicación_de_la_convocatoria</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>73ab9cf5-ca58-4eca-af4a-993433ca1d99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -46,6 +52,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/10.1-Pruebas_Selección/10.1.8-Buscar_hoja_de_vida_externa</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56837f95-5c78-42e8-89b5-c8d826770d94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/10.1-Pruebas_Selección/10.1.9-Asociar_candidatos</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f4c5ef5f-e43e-4f38-b9f5-fca852759880</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/10.1-Pruebas_Selección/10.2.1-Programación_de_etapas_a_un_candidato</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>04d8d423-266e-47dd-8e80-8b5a7f37d1fb</guid>

@@ -8,7 +8,7 @@
       <entry>
          <key>XPATH</key>
          <value>
-//select[@id='popup_nominaelectronica:tab:tipoplanilla']</value>
+//div/div/div/table/tbody/tr/td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>

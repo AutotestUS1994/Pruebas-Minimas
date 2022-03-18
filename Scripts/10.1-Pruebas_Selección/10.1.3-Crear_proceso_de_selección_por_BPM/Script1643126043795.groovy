@@ -131,6 +131,9 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
     WebUI.setText(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Cargo_popupCargo_Formj_idt668'), 
         'ANALISTA DE SISTEMAS')
 
+    WebUI.sendKeys(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/input_Cargo_popupCargo_Formj_idt668'), 
+        Keys.chord(Keys.ENTER))
+
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/span_ANALISTA DE SISTEMAS'))
 
     WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/select_--Seleccione--Primer Modelo Seleccin R. Modelo Etapa'), 
@@ -162,8 +165,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Guardar'))
 
     WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/a_Etapa'))
-
-    WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/span_Orden_ui-icon ui-icon-closethick'))
 
     if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'), 1)) {
         WebUI.click(findTestObject('Modulo Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'))

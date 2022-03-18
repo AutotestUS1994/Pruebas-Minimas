@@ -36,8 +36,6 @@ WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/a_Continuar'))
 
 WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/a_Imprimir'))
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/label_Xlsdata'))
 
 WebUI.click(findTestObject('Modulo_Ejecucion_Diseño_Reporte/a_Reporte'))

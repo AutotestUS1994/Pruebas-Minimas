@@ -52,7 +52,7 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/a_Guardar'))
 
-String x = WebUI.waitForElementVisible(findTestObject('Alerta/Alerta'), 0)
+WebUI.waitForElementVisible(findTestObject('Alerta/Alerta'), 0)
 
 String x = WebUI.getText(findTestObject('Alerta/Alerta'))
 

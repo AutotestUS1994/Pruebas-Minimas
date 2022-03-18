@@ -47,6 +47,9 @@ WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomin
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
     0)
 
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/input_Ao_popup_nominaelectronicaanno'), 
+    '2021')
+
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
     '1')
 

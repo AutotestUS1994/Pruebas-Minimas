@@ -36,9 +36,6 @@ String fechaI = (((Dia + '/') + Mes) + '/') + Año
 
 String fechaF = (((Dia + '/') + Mes) + '/') + AñoM
 
-/*-----------------------------------------------*/
-WebUI.comment('no se puede finalizar prueba')
-
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 

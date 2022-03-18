@@ -31,6 +31,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/td_2021-07-01'), 
     0)
 
