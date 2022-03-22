@@ -30,6 +30,12 @@ WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compen
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/li_Nomina Electronica (com)'))
 
+WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    '2021')
+
+WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+    Keys.chord(Keys.ENTER))
+
 if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/td_2021-07-01'), 
     1)) {
     WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/td_2021-07-01'))
@@ -61,6 +67,9 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensaci
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'), 
     '7')
+
+WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Guardar'), 
+    0)
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Guardar'))
 

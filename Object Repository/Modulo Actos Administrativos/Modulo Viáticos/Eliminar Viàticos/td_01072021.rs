@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[2]/preceding::td[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -92,8 +92,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Comp
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/label_xlsData'))
 
-WebUI.back()
-
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))
 
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
