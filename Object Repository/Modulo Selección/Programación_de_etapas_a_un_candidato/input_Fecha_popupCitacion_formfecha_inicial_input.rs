@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Empresa 1_form_templatej_idt24_input</name>
+   <name>input_Fecha_popupCitacion_formfecha_inicial_input</name>
    <tag></tag>
-   <elementGuidId>8b81aec7-8640-4f18-a01b-a9e7ff5e5dd7</elementGuidId>
+   <elementGuidId>34d0c224-31a7-45c5-9ccc-3f301a495b44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/input</value>
+         <value>//td[2]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>popupCitacion_form:fecha_inicial_input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>popupCitacion_form:fecha_inicial_input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,35 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-filled ui-state-hover ui-state-focus</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>size</name>
-      <type>Main</type>
-      <value>305</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>this.value='';</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Convocatoria (tal)</value>
+      <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,43 +75,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-autocomplete</name>
-      <type>Main</type>
-      <value>list</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_template:j_idt24_input&quot;)</value>
+      <value>id(&quot;popupCitacion_form:fecha_inicial_input&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='form_template:j_idt24_input']</value>
+      <value>//input[@id='popupCitacion_form:fecha_inicial_input']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='form_template:j_idt24']/input</value>
+      <value>//span[@id='popupCitacion_form:fecha_inicial']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//td[2]/span/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'form_template:j_idt24_input' and @name = 'form_template:j_idt24_input' and @type = 'text']</value>
+      <value>//input[@id = 'popupCitacion_form:fecha_inicial_input' and @name = 'popupCitacion_form:fecha_inicial_input' and @type = 'text']</value>
    </webElementXpaths>
 </WebElementEntity>

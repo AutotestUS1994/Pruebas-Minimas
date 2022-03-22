@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Empresa 1_form_templatej_idt24_input</name>
+   <name>input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261</name>
    <tag></tag>
-   <elementGuidId>8b81aec7-8640-4f18-a01b-a9e7ff5e5dd7</elementGuidId>
+   <elementGuidId>2223f39b-bb2b-4d17-ba1d-4140ece59f87</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/input</value>
+         <value>//div[2]/table/tbody/tr/td/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>form_popUpCandidatosSeleccion:j_idt261</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>form_popUpCandidatosSeleccion:j_idt261</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,37 +47,30 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>value</name>
       <type>Main</type>
-      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-filled ui-state-hover ui-state-focus</value>
+      <value>constantino</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>class</name>
       <type>Main</type>
-      <value>off</value>
+      <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-filled ui-state-focus ui-state-hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
-      <value>305</value>
+      <value>30</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>onchange</name>
       <type>Main</type>
-      <value>this.value='';</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Convocatoria (tal)</value>
+      <value>PrimeFaces.ab({s:&quot;form_popUpCandidatosSeleccion:j_idt261&quot;,e:&quot;valueChange&quot;,f:&quot;form_popUpCandidatosSeleccion&quot;,p:&quot;form_popUpCandidatosSeleccion:j_idt261&quot;,u:&quot;form_popUpCandidatosSeleccion&quot;});</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,43 +96,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-autocomplete</name>
-      <type>Main</type>
-      <value>list</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_template:j_idt24_input&quot;)</value>
+      <value>id(&quot;form_popUpCandidatosSeleccion:j_idt261&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='form_template:j_idt24_input']</value>
+      <value>//input[@id='form_popUpCandidatosSeleccion:j_idt261']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='form_template:j_idt24']/input</value>
+      <value>//div[@id='form_popUpCandidatosSeleccion:dialog_popupCandidatosSeleccion_content']/div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'form_template:j_idt24_input' and @name = 'form_template:j_idt24_input' and @type = 'text']</value>
+      <value>//input[@id = 'form_popUpCandidatosSeleccion:j_idt261' and @name = 'form_popUpCandidatosSeleccion:j_idt261' and @type = 'text']</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('No se muestra los registros')
+
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Modulo Selección/Definir_una_programación_pendiente/input_Empresa 1_form_templatej_idt24_input'), 

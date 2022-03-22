@@ -72,6 +72,16 @@ WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_can
 
 WebUI.check(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
+WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha_popupCitacion_formfecha_inicial_input'), 
+    '22/03/2022')
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--010203040506070809101112'), 
+    8)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--00153045'), 1)
+
+WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--AMPM'), 2)
+
 WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Continuar'))
 
 if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'), 

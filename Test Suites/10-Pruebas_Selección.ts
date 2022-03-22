@@ -65,10 +65,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/10.1-Pruebas_Selección/10.2.1-Programación_de_etapas_a_un_candidato</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>04d8d423-266e-47dd-8e80-8b5a7f37d1fb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/10.1-Pruebas_Selección/10.2.2-Definir_una_programación_pendiente</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
