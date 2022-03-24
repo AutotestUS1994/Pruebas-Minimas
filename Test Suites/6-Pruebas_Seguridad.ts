@@ -15,18 +15,18 @@
       <guid>35f7f789-3281-4c4b-8c67-7d149cf47baa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a4510d11-3082-46fc-98bd-b738a358893d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>984817d4-3f00-465e-920d-5f1720754dc9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

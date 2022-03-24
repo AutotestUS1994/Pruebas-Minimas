@@ -149,7 +149,7 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Sara General/Ejecucion reporte 
 
 WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Guardar2'))
 
-WebUI.click(findTestObject('a_Ejecutar'))
+WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Ejecutar'))
 
 WebUI.setText(findTestObject('Modulo Sara General/Ejecucion reporte general/input_Empresa_popupReportetablaParametroReporte0j_idt477'), 
     '1')
@@ -210,10 +210,13 @@ WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Acep
 if (WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Eliminar_reporte'), 1)) {
     WebUI.acceptAlert()
 } else {
-    WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'))
+	if(WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'),
+		1)) {
+	
+	WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'))
 
     WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/input_Actos Administrativos_listaReporteFormj_idt63'), 
-        0)
+        0)}
 
     WebUI.closeBrowser()
 }

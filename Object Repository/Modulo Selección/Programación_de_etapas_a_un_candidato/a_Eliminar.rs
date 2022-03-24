@@ -6,12 +6,12 @@
    <elementGuidId>23f8ed9b-05ba-457a-9965-a8d7ec0f83a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Eliminar')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupEtapaProceso_form:seccion:j_idt2064</value>
+      <value>popupEtapaProceso_form:seccion:j_idt2069</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;popupEtapaProceso_form:seccion:j_idt2064&quot;,f:&quot;popupEtapaProceso_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;popupEtapaProceso_form:seccion:j_idt2069&quot;,f:&quot;popupEtapaProceso_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.confirm({source:&quot;popupEtapaProceso_form:seccion:j_idt2064&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+      <value>PrimeFaces.confirm({source:&quot;popupEtapaProceso_form:seccion:j_idt2069&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,21 +70,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupEtapaProceso_form:seccion:j_idt2064&quot;)</value>
+      <value>id(&quot;popupEtapaProceso_form:seccion:j_idt2069&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='popupEtapaProceso_form:seccion:j_idt2064']</value>
+      <value>//a[@id='popupEtapaProceso_form:seccion:j_idt2069']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupEtapaProceso_form:seccion:j_idt2016']/div/table[3]/tbody/tr/td[2]/a</value>
+      <value>//div[@id='popupEtapaProceso_form:seccion:j_idt2021']/div/table[3]/tbody/tr/td[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[78]</value>
+      <value>(//a[contains(@href, '#')])[61]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,34 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'popupEtapaProceso_form:seccion:j_idt2069' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='popupEtapaProceso_form:seccion:j_idt2064']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupEtapaProceso_form:seccion:j_idt2016']/div/table[3]/tbody/tr/td[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[78]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

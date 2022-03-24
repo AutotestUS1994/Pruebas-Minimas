@@ -73,7 +73,7 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Mod
         WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
             'prueba')
 
-        WebUI.click(findTestObject('a_Guardar'))
+        WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
 
         WebUI.getText(findTestObject('Alerta/Alerta'))
     } else {
@@ -81,7 +81,7 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Mod
             1)) {
             WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'))
         } else {
-            WebUI.click(findTestObject('a_Guardar'))
+            WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
         }
         
         WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
@@ -93,7 +93,7 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Mod
         WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
             'prueba')
 
-        WebUI.click(findTestObject('a_Guardar'))
+        WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
 
         WebUI.getText(findTestObject('Alerta/Alerta'))
     }

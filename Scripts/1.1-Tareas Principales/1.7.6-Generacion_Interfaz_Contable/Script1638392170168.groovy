@@ -45,6 +45,9 @@ if (WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Comp
 WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
     0)
 
+WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
+    0)
+
 WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/select_NOMINA MENSUALNOMINA QUINCENAL'), 
