@@ -90,24 +90,11 @@ WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametr
 WebUI.setText(findTestObject('Modulo Parametros/Comprobar Parametros/input_Empresa 1_form_templatej_idt24_input'), 'Parametros Cartera (cae)')
 
 WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/li_Parametros'))
+
 parCartera()
-def parCartera(){
-WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Etapas'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
+WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Lnea  De Crdito'))
-
-WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
-
-WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Lnea  De Crdito-Etapa'))
-
-WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
-
-WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Modalidades'))
-
-WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
-}
 WebUI.setText(findTestObject('Modulo Parametros/Comprobar Parametros/input_Empresa 1_form_templatej_idt24_input'), 'Parametros Estado Seleccion (tal)')
 
 WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/li_Parametros'))
@@ -135,6 +122,24 @@ WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/li_Parametros
 WebUI.setText(findTestObject('Modulo Parametros/Comprobar Parametros/input_Empresa 1_form_templatej_idt24_input'), 'Parametros Entidad/Instructor (bie)')
 
 WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/li_Parametros'))
+
+def parCartera() {
+    WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Etapas'))
+
+    WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
+
+    WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Lnea  De Crdito'))
+
+    WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
+
+    WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Lnea  De Crdito-Etapa'))
+
+    WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
+
+    WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Modalidades'))
+
+    WebUI.waitForElementVisible(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nuevo'), 0)
+}
 
 def parCargo() {
     WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Nivel Cargo'))
