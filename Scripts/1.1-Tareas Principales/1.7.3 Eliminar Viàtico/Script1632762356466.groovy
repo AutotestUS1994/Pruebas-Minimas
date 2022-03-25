@@ -126,7 +126,7 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Mod
         }
         WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_Entidades Vigiladas'))
 
-        if(WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'), 
+        if(WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/td_123'), 
             1))
         {
         WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/a_eliminar_Entidades Vigiladas'))

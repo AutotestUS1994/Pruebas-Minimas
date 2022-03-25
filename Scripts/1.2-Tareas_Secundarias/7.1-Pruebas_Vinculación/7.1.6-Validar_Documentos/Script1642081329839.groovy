@@ -48,7 +48,8 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Vali
 
         WebUI.closeBrowser()
     } else {
-        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
+            [:], FailureHandling.STOP_ON_FAILURE)
 
         WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -94,6 +95,11 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Vali
     WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Validar_Documentos/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
         '1010220596')
 
+    WebUI.sendKeys(findTestObject('Modulo Pruebas Vinculación/Validar_Documentos/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_Documentos/td_A A A'))
+
     WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_Documentos/td_A A A'))
 
     WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_Documentos/a_Actividad'))
@@ -115,7 +121,8 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Vali
 
         WebUI.closeBrowser()
     } else {
-        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
+            [:], FailureHandling.STOP_ON_FAILURE)
 
         WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -167,7 +174,8 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Vali
         WebUI.closeBrowser()
     }
 } else {
-    WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
+        [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

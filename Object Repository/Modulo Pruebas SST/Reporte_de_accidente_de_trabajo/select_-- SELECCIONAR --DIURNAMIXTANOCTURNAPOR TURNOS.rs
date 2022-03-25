@@ -6,12 +6,11 @@
    <elementGuidId>55e0629c-900e-45c2-be2f-9fd9ecd17bb5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[9]/td[2]/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[8]/td[5]/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

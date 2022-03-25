@@ -43,7 +43,7 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crea
     2)
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/select_-- Seleccione --BloqueadoEliminadoOcupado y disponible'), 
-    3)
+    6)
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_un_puesto_de_trabajo/label_No es responsable de la Unidad'))
 

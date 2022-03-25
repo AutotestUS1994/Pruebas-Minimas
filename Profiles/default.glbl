@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Variable global logueo seguridad</description>
-      <initValue>'http://192.168.2.80:8380/seguridadweb/'</initValue>
+      <initValue>'http://192.168.2.19:8380/seguridadweb/'</initValue>
       <name>G_Login_Seguridad</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

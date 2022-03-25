@@ -90,7 +90,7 @@ WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/inp
 
 WebUI.click(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir'))
 
-String Imagen = WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'), 
+WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'), 
     0)
 
 String Imagen = WebUI.getText(findTestObject('Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))

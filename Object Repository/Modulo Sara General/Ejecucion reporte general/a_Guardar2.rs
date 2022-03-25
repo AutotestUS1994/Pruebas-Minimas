@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('reporteForm'),{'reporteForm:j_idt763':'reporteForm:j_idt763'},'');return false&quot;]</value>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
       <entry>
          <key>CSS</key>

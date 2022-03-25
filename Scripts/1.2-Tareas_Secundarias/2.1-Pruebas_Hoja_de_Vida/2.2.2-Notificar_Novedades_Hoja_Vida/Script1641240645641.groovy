@@ -14,31 +14,27 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.thoughtworks.selenium.webdriven.commands.GetText as GetText
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
-double random_double = Math.random() * 31
+Date today = new Date()
 
-random_double = Math.round(random_double - 10)
+/*----------------------*/
+String Dia = today.format('dd')
 
-String identificacion = random_double.toString().replace('.0', '')
+String Mes = today.format('MM')
 
-String identificacion1 = 0 + identificacion
+Number Año = ((today.format('yyyy')) as Integer)
 
-int identificacion0 = Integer.parseInt(identificacion)
-
-/*-------------------------------------------------------------------------------------------*/
-if (identificacion0 < 10) {
-    identificacion = identificacion1
-} else {
-    identificacion0
-}
-
-if (identificacion1 == '0') {
-    identificacion1 = 1
-}
-
-/*-------------------------------------------------------------------------------------------*/
+Number Añom = Año - 20
+Number AñoB = Año - 32
+/*-------------------------------------*/
+String Fecha = (((Dia + '/') + Mes) + '/') + Añom
+String FechaB = (((Dia + '/') + Mes) + '/') + AñoB
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
@@ -60,11 +56,26 @@ WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vid
 
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/td_354968431354'))
 
+String FechaG = WebUI.getText(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+if (Fecha == FechaG) {
+    Fecha = (Fecha + 1)
+}
+
 WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'), 
-    identificacion1 + '/09/2013')
+    Fecha)
 
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
 
+if(WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/div_INFONo hay cambios que guardar'), 
+    1))
+{
+WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'), 
+    FechaB)
+
+WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
+}
 WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Notificar_Novedades_Hoja_Vida/a_Aceptar'))
 
 WebUI.closeBrowser()

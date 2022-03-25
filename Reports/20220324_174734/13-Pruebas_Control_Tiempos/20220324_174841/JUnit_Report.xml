@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="13-Pruebas_Control_Tiempos" time="148.491" tests="9" failures="0" errors="0">
+   <testsuite name="13-Pruebas_Control_Tiempos" tests="9" failures="0" errors="0" time="148.491" skipped="0" timestamp="2022-03-24 18:08:50" hostname="diego.rojas - US-AF-000371" id="Test Suites/13-Pruebas_Control_Tiempos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220324_174734\\13-Pruebas_Control_Tiempos\\20220324_174841"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220324_174734\\13-Pruebas_Control_Tiempos\\20220324_174841\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.82"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="f3d6e14438c0c06f9a94e09ab2ec9667"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo" time="18.164" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:08:50 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo
+
+2022-03-24 18:08:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:08:51 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:08:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:08:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:08:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:08:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:08:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:08:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:08:55 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:08:56 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:08:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:08:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:08:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:08:58 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:08:59 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:08:59 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:08:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input"), "listado persona"): Text 'listado persona' is set on object 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:00 - [MESSAGE][PASSED] - Text 'listado persona' is set on object 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona' is clicked on
+
+2022-03-24 18:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona' is clicked on
+
+2022-03-24 18:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_1010220596' is clicked on
+
+2022-03-24 18:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_1010220596' is clicked on
+
+2022-03-24 18:09:05 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo' is clicked on
+
+2022-03-24 18:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo' is clicked on
+
+2022-03-24 18:09:05 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo' is clicked on
+
+2022-03-24 18:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo' is clicked on
+
+2022-03-24 18:09:06 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/td_9"), 1)): null
+
+2022-03-24 18:09:07 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_9' is visible
+
+2022-03-24 18:09:07 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/td_9")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_9' is clicked on
+
+2022-03-24 18:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_9' is clicked on
+
+2022-03-24 18:09:07 - [TEST_STEP][PASSED] - element0 = findWebElement(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Add"), 30): null
+
+2022-03-24 18:09:08 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element0)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:08 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Oficina")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Oficina' is clicked on
+
+2022-03-24 18:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Oficina' is clicked on
+
+2022-03-24 18:09:08 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Add"), 30): null
+
+2022-03-24 18:09:09 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.4-Jornada" time="16.378" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.4-Jornada" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:09:09 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.4-Jornada: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.4-Jornada
+
+2022-03-24 18:09:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:09 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:09:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:09:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-24 18:09:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:09:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:09:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:09:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:09:11 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:09:12 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:09:12 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:09:12 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:09:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:09:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:09:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:09:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:09:15 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:09:15 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:15 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input"), "Listado persona"): Text 'Listado persona' is set on object 'Object Repository/Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:16 - [MESSAGE][PASSED] - Text 'Listado persona' is set on object 'Object Repository/Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/li_Listado Persona (get)")): Object: 'Object Repository/Modulo control tiempo/Jornada/li_Listado Persona (get)' is clicked on
+
+2022-03-24 18:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/li_Listado Persona (get)' is clicked on
+
+2022-03-24 18:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Jornada/td_1010220596' is clicked on
+
+2022-03-24 18:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/td_1010220596' is clicked on
+
+2022-03-24 18:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/a_Jornada")): Object: 'Object Repository/Modulo control tiempo/Jornada/a_Jornada' is clicked on
+
+2022-03-24 18:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/a_Jornada' is clicked on
+
+2022-03-24 18:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/a_Liquidar0")): Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar0' is clicked on
+
+2022-03-24 18:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar0' is clicked on
+
+2022-03-24 18:09:20 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018'
+
+2022-03-24 18:09:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018'
+
+2022-03-24 18:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/a_Liquidar")): Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar' is clicked on
+
+2022-03-24 18:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar' is clicked on
+
+2022-03-24 18:09:22 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Jornada/p_Terminacion Normal"), 1)): null
+
+2022-03-24 18:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Jornada/p_Terminacion Normal' is visible
+
+2022-03-24 18:09:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-24 18:09:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.6-Reloj" time="18.73" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.6-Reloj" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:09:25 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.6-Reloj: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.6-Reloj
+
+2022-03-24 18:09:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:25 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:09:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:09:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:09:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:09:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:09:27 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:09:28 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:09:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:09:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:09:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:09:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:09:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:09:30 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:09:30 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:30 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Listado persona"): Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:31 - [MESSAGE][PASSED] - Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Reloj/span_Listado Persona' is clicked on
+
+2022-03-24 18:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/span_Listado Persona' is clicked on
+
+2022-03-24 18:09:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Reloj/td_1010220596' is clicked on
+
+2022-03-24 18:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/td_1010220596' is clicked on
+
+2022-03-24 18:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Reloj")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Reloj' is clicked on
+
+2022-03-24 18:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Reloj' is clicked on
+
+2022-03-24 18:09:34 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Reloj/td_20210701 1800"), 1)): Web element with id: 'Object Repository/Modulo control tiempo/Reloj/td_20210701 1800' located by '//*/text()[normalize-space(.)='2021/07/01 18:00']/parent::*' not found
+
+2022-03-24 18:09:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='2021/07/01 18:00']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-24 18:09:37 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/Reloj/td_20210701 1800' located by '//*/text()[normalize-space(.)='2021/07/01 18:00']/parent::*' not found
+
+2022-03-24 18:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Nuevo")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Nuevo' is clicked on
+
+2022-03-24 18:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Nuevo' is clicked on
+
+2022-03-24 18:09:37 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo control tiempo/Reloj/select_AbiertoCerrado"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Reloj/select_AbiertoCerrado'
+
+2022-03-24 18:09:38 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Reloj/select_AbiertoCerrado'
+
+2022-03-24 18:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input"), "01/07/2021"): Text '01/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input'
+
+2022-03-24 18:09:39 - [MESSAGE][PASSED] - Text '01/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input'
+
+2022-03-24 18:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input"), "30/07/2021"): Text '30/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input'
+
+2022-03-24 18:09:40 - [MESSAGE][PASSED] - Text '30/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input'
+
+2022-03-24 18:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni"), "08"): Text '08' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni'
+
+2022-03-24 18:09:41 - [MESSAGE][PASSED] - Text '08' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni'
+
+2022-03-24 18:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input__formPopupRelojminutoIni"), "10"): Text '10' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoIni'
+
+2022-03-24 18:09:42 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoIni'
+
+2022-03-24 18:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input__formPopupRelojhoraFin"), "18"): Text '18' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojhoraFin'
+
+2022-03-24 18:09:42 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojhoraFin'
+
+2022-03-24 18:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input__formPopupRelojminutoFin"), "00"): Text '00' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoFin'
+
+2022-03-24 18:09:43 - [MESSAGE][PASSED] - Text '00' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoFin'
+
+2022-03-24 18:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Guardar")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Guardar' is clicked on
+
+2022-03-24 18:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.7-Dispositivo" time="15.227" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.7-Dispositivo" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:09:44 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.7-Dispositivo: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.7-Dispositivo
+
+2022-03-24 18:09:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:44 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:09:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:09:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-24 18:09:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:09:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:09:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:09:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:09:46 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:09:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:09:47 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:09:48 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:09:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:09:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:09:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:09:49 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:09:50 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "listado persona"): Text 'listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:51 - [MESSAGE][PASSED] - Text 'listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Listado Persona' is clicked on
+
+2022-03-24 18:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Listado Persona' is clicked on
+
+2022-03-24 18:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_1010220596' is clicked on
+
+2022-03-24 18:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_1010220596' is clicked on
+
+2022-03-24 18:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/a_dispositivo")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/a_dispositivo' is clicked on
+
+2022-03-24 18:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/a_dispositivo' is clicked on
+
+2022-03-24 18:09:54 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Dispositivo/td_-"), 1)): null
+
+2022-03-24 18:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is visible
+
+2022-03-24 18:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/td_-")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is clicked on
+
+2022-03-24 18:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is clicked on
+
+2022-03-24 18:09:55 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Modulo control tiempo/Dispositivo/span_Remove All"), 30): null
+
+2022-03-24 18:09:55 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/span_Huella Digital")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital' is clicked on
+
+2022-03-24 18:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital' is clicked on
+
+2022-03-24 18:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e' is clicked on
+
+2022-03-24 18:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e' is clicked on
+
+2022-03-24 18:09:57 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Dispositivo/td_-"), 1)): null
+
+2022-03-24 18:09:58 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is visible
+
+2022-03-24 18:09:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-24 18:09:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.8-Funciones" time="14.322" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.8-Funciones" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:09:59 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.8-Funciones: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.1.8-Funciones
+
+2022-03-24 18:09:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:09:59 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:09:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:09:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:09:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:10:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:10:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:01 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:10:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:02 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:04 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:10:05 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:10:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:10:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Listado persona"): Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:10:06 - [MESSAGE][PASSED] - Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Funciones/span_Listado Persona' is clicked on
+
+2022-03-24 18:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/span_Listado Persona' is clicked on
+
+2022-03-24 18:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Funciones/td_1010220596' is clicked on
+
+2022-03-24 18:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/td_1010220596' is clicked on
+
+2022-03-24 18:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/a_Funciones")): Object: 'Object Repository/Modulo control tiempo/Funciones/a_Funciones' is clicked on
+
+2022-03-24 18:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/a_Funciones' is clicked on
+
+2022-03-24 18:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/td_1")): Object: 'Object Repository/Modulo control tiempo/Funciones/td_1' is clicked on
+
+2022-03-24 18:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/td_1' is clicked on
+
+2022-03-24 18:10:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/Funciones/a_Cancelar"), 2): Object 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is visible
+
+2022-03-24 18:10:11 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is visible
+
+2022-03-24 18:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/a_Cancelar")): Object: 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is clicked on
+
+2022-03-24 18:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is clicked on
+
+2022-03-24 18:10:12 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Funciones/td_1"), 1)): null
+
+2022-03-24 18:10:12 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Funciones/td_1' is visible
+
+2022-03-24 18:10:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-24 18:10:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.2-Liquidación_reversar" time="27.062" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.2-Liquidación_reversar" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:10:13 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.2-Liquidación_reversar: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.2-Liquidación_reversar
+
+2022-03-24 18:10:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:10:14 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:10:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:10:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:10:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:10:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:10:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:10:15 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:16 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:16 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:17 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:19 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:10:19 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:10:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:10:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:10:19 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input"), "Liquidacion (get)"): Text 'Liquidacion (get)' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:10:20 - [MESSAGE][PASSED] - Text 'Liquidacion (get)' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/li_Liquidacion (get)")): Object: 'Object Repository/Modulo control tiempo/liquidación/li_Liquidacion (get)' is clicked on
+
+2022-03-24 18:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/li_Liquidacion (get)' is clicked on
+
+2022-03-24 18:10:22 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/td_01072021"), 1)): null
+
+2022-03-24 18:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/liquidación/td_01072021' is visible
+
+2022-03-24 18:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/td_01072021")): Object: 'Object Repository/Modulo control tiempo/liquidación/td_01072021' is clicked on
+
+2022-03-24 18:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/td_01072021' is clicked on
+
+2022-03-24 18:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Reversar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Reversar' is clicked on
+
+2022-03-24 18:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Reversar' is clicked on
+
+2022-03-24 18:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Aceptar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aceptar' is clicked on
+
+2022-03-24 18:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aceptar' is clicked on
+
+2022-03-24 18:10:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/a_Continuar"), 0): Object 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' is visible
+
+2022-03-24 18:10:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' is visible
+
+2022-03-24 18:10:28 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/div_Reversin realizada con xito"), 1)): null
+
+2022-03-24 18:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/liquidación/div_Reversin realizada con xito' is visible
+
+2022-03-24 18:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Continuar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' is clicked on
+
+2022-03-24 18:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' is clicked on
+
+2022-03-24 18:10:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/a_Nuevo"), 0): Object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' is visible
+
+2022-03-24 18:10:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' is visible
+
+2022-03-24 18:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Nuevo")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' is clicked on
+
+2022-03-24 18:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' is clicked on
+
+2022-03-24 18:10:30 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input"), "18/01/2019"): Text '18/01/2019' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'
+
+2022-03-24 18:10:31 - [MESSAGE][PASSED] - Text '18/01/2019' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'
+
+2022-03-24 18:10:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input"), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'
+
+2022-03-24 18:10:31 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'
+
+2022-03-24 18:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input"), "27/02/2019"): Text '27/02/2019' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input'
+
+2022-03-24 18:10:32 - [MESSAGE][PASSED] - Text '27/02/2019' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input'
+
+2022-03-24 18:10:32 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo control tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual'
+
+2022-03-24 18:10:33 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual'
+
+2022-03-24 18:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Aplicar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aplicar' is clicked on
+
+2022-03-24 18:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aplicar' is clicked on
+
+2022-03-24 18:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Liquidar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Liquidar' is clicked on
+
+2022-03-24 18:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Liquidar' is clicked on
+
+2022-03-24 18:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Aceptar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aceptar' is clicked on
+
+2022-03-24 18:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aceptar' is clicked on
+
+2022-03-24 18:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/div_Liquidacin realizada con xito")): Object: 'Object Repository/Modulo control tiempo/liquidación/div_Liquidacin realizada con xito' is clicked on
+
+2022-03-24 18:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/div_Liquidacin realizada con xito' is clicked on
+
+2022-03-24 18:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Continuar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' is clicked on
+
+2022-03-24 18:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' is clicked on
+
+2022-03-24 18:10:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Modulo control tiempo/liquidación/a_Reversar"), 1)): null
+
+2022-03-24 18:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/liquidación/a_Reversar' is present
+
+2022-03-24 18:10:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-24 18:10:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.3-Aplicar" time="13.634" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.3-Aplicar" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:10:40 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.3-Aplicar: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.3-Aplicar
+
+2022-03-24 18:10:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:10:41 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:10:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:10:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:10:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:10:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:10:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:10:42 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:43 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:43 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:10:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:43 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:45 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:10:45 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:10:46 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:10:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Liquidacion"): Text 'Liquidacion' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:10:47 - [MESSAGE][PASSED] - Text 'Liquidacion' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/span_Liquidacion")): Object: 'Object Repository/Modulo control tiempo/Aplicar/span_Liquidacion' is clicked on
+
+2022-03-24 18:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/span_Liquidacion' is clicked on
+
+2022-03-24 18:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/td_27022019")): Object: 'Object Repository/Modulo control tiempo/Aplicar/td_27022019' is clicked on
+
+2022-03-24 18:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/td_27022019' is clicked on
+
+2022-03-24 18:10:49 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Aplicar/a_Reversar Nomina"), 1)): Web element with id: 'Object Repository/Modulo control tiempo/Aplicar/a_Reversar Nomina' located by '//a[contains(text(),'Reversar Nomina')]' not found
+
+2022-03-24 18:10:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Reversar Nomina')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-24 18:10:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/Aplicar/a_Reversar Nomina' located by '//a[contains(text(),'Reversar Nomina')]' not found
+
+2022-03-24 18:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/a_Aplicar")): Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aplicar' is clicked on
+
+2022-03-24 18:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aplicar' is clicked on
+
+2022-03-24 18:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/a_Aceptar")): Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aceptar' is clicked on
+
+2022-03-24 18:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aceptar' is clicked on
+
+2022-03-24 18:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/a_Continuar")): Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Continuar' is clicked on
+
+2022-03-24 18:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Continuar' is clicked on
+
+2022-03-24 18:10:53 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Aplicar/a_Reversar Nomina"), 1)): null
+
+2022-03-24 18:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Aplicar/a_Reversar Nomina' is visible
+
+2022-03-24 18:10:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-24 18:10:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.4-Histórico_Evento" time="11.797" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.4-Histórico_Evento" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:10:54 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.4-Histórico_Evento: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.4-Histórico_Evento
+
+2022-03-24 18:10:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:10:54 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:10:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:10:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:10:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:10:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:10:56 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:56 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:10:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:57 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:10:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:10:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:10:59 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:11:00 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:11:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:11:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:11:00 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input"), "Historico Evento"): Text 'Historico Evento' is set on object 'Object Repository/Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:11:01 - [MESSAGE][PASSED] - Text 'Historico Evento' is set on object 'Object Repository/Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Historico_Evento/li_Historico Evento (get)")): Object: 'Object Repository/Modulo control tiempo/Historico_Evento/li_Historico Evento (get)' is clicked on
+
+2022-03-24 18:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Historico_Evento/li_Historico Evento (get)' is clicked on
+
+2022-03-24 18:11:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_1"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' successfully
+
+2022-03-24 18:11:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:11:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' successfully
+
+2022-03-24 18:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Historico_Evento/a_1")): Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' is clicked on
+
+2022-03-24 18:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' is clicked on
+
+2022-03-24 18:11:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-24 18:11:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:11:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-24 18:11:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_2"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' successfully
+
+2022-03-24 18:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:11:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' successfully
+
+2022-03-24 18:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Historico_Evento/a_2")): Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' is clicked on
+
+2022-03-24 18:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' is clicked on
+
+2022-03-24 18:11:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-24 18:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:11:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-24 18:11:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-24 18:11:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento" time="12.581" classname="Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento" status="PASSED">
+         <system-out><![CDATA[2022-03-24 18:11:06 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento
+
+2022-03-24 18:11:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:11:06 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-24 18:11:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-24 18:11:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-24 18:11:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-24 18:11:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-24 18:11:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-24 18:11:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - try: null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:11:08 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-24 18:11:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:11:09 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-24 18:11:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:11:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-24 18:11:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-24 18:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-24 18:11:10 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-24 18:11:11 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:11:11 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-24 18:11:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-24 18:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Inconsistencias Evento"): Text 'Inconsistencias Evento' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:11:12 - [MESSAGE][PASSED] - Text 'Inconsistencias Evento' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-24 18:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)' is clicked on
+
+2022-03-24 18:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)' is clicked on
+
+2022-03-24 18:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin' is clicked on
+
+2022-03-24 18:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin' is clicked on
+
+2022-03-24 18:11:14 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS"), 1)): null
+
+2022-03-24 18:11:15 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' is visible
+
+2022-03-24 18:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' is clicked on
+
+2022-03-24 18:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' is clicked on
+
+2022-03-24 18:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/a_Solucionar")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Solucionar' is clicked on
+
+2022-03-24 18:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Solucionar' is clicked on
+
+2022-03-24 18:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input"), "23/03/2019"): Text '23/03/2019' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'
+
+2022-03-24 18:11:17 - [MESSAGE][PASSED] - Text '23/03/2019' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'
+
+2022-03-24 18:11:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'
+
+2022-03-24 18:11:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'
+
+2022-03-24 18:11:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias"), 0): Object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' is visible
+
+2022-03-24 18:11:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-24 18:11:18 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' is visible
+
+2022-03-24 18:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' is clicked on
+
+2022-03-24 18:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' is clicked on
+
+2022-03-24 18:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Parametros/Comprobar Parametros/a_Guardar")): Object: 'Object Repository/Modulo Parametros/Comprobar Parametros/a_Guardar' is clicked on
+
+2022-03-24 18:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Parametros/Comprobar Parametros/a_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-24 18:08:50 - [TEST_SUITE][PASSED] - 13-Pruebas_Control_Tiempos: Test Cases/1.2-Tareas_Secundarias/13.1-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

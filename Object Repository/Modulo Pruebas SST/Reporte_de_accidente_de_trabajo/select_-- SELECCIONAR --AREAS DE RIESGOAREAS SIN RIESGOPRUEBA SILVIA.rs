@@ -6,12 +6,11 @@
    <elementGuidId>291bfe54-e032-4abf-a828-bf6ce54f83c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select[@id='form_datosAccidentado:tipoenti']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[5]/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -277,7 +277,10 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accident
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --DIURNAMIXTANOCTURNAPOR TURNOS'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/label_No'))
+WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/select_--SELECCIONAR --idad y Salud en el Trabajo'), 
+    1)
+
+WebUI.check(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/label_No'))
 
 WebUI.click(findTestObject('Modulo Pruebas SST/Reporte_de_accidente_de_trabajo/a_Guardar2'))
 

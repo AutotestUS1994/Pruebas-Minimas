@@ -6,12 +6,11 @@
    <elementGuidId>ec62b02d-cc56-4296-b6c0-e46109f7b1cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//table[@id='form_datosAccidentado:causamuerte']/tbody/tr/td[2]/label</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[5]/table/tbody/tr/td[2]/label</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

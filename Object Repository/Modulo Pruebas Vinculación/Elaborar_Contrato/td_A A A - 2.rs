@@ -6,12 +6,12 @@
    <elementGuidId>853d4cdb-1413-4f4b-82bc-079998369a28</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td > table > tbody > tr > td.arribaCont</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='A A A'])[2]/preceding::span[1]</value>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td > table > tbody > tr > td.arribaCont</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

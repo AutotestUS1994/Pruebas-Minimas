@@ -121,9 +121,12 @@ WebUI.sendKeys(findTestObject('Modulo compensaciones/Terminación_de_Contrato_De
 WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_10 - Ingreso Puesto Nuevo'), 
     1)
 
+if(WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_DIAZ BLANCO GUISELL'), 
+    1)) {
+
 WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_DIAZ BLANCO GUISELL'), 
     1)
-
+}
 WebUI.setText(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/textarea__form_actoIngresoj_idt12874idTexto5'), 
     'Magister en derecho penal')
 

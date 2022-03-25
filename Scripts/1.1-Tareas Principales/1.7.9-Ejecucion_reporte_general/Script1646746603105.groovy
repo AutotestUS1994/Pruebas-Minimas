@@ -79,8 +79,6 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion re
     if (WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Eliminar_reporte'), 
         1)) {
         WebUI.acceptAlert()
-    } else {
-        WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'))
     }
 }
 
@@ -210,14 +208,13 @@ WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Acep
 if (WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Eliminar_reporte'), 1)) {
     WebUI.acceptAlert()
 } else {
-	if(WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'),
-		1)) {
-	
-	WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'))
+    if (WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'), 1)) {
+        WebUI.click(findTestObject('Modulo Sara General/Ejecucion reporte general/a_Regresar'))
 
-    WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/input_Actos Administrativos_listaReporteFormj_idt63'), 
-        0)}
-
+        WebUI.waitForElementVisible(findTestObject('Modulo Sara General/Ejecucion reporte general/input_Actos Administrativos_listaReporteFormj_idt63'), 
+            0)
+    }
+    
     WebUI.closeBrowser()
 }
 
