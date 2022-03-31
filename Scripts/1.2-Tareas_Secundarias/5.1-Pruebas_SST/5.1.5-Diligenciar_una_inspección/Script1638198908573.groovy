@@ -19,115 +19,115 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Inspecciones')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/li_Inspecciones (sst)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/li_Inspecciones (sst)'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/td_PRUEBAS KATALON'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/td_PRUEBAS KATALON'))
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/td_PRUEBAS KATALON'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/td_PRUEBAS KATALON'))
 
-    WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Programacin1'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Programacin1'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/td_1010220596'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/td_1010220596'))
+    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/td_1010220596'), 1)) {
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/td_1010220596'))
 
-        WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/button_Si'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/button_Si'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Detalle_principal'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Detalle_principal'))
 
-    WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Eliminar2'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Eliminar2'))
 
-    WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Aceptar2'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Aceptar2'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/textarea_Descripcin_form_datobasicoinspecciondescripcion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/textarea_Descripcin_form_datobasicoinspecciondescripcion'), 
     'PRUEBAS KATALON')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/select_SeleccionarDe rea o punto crticoNo planeadaPlaneada'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/select_SeleccionarDe rea o punto crticoNo planeadaPlaneada'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/select_SeleccionarSEDE NORTESEDE OCCIDENTESEDE SUR'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/select_SeleccionarSEDE NORTESEDE OCCIDENTESEDE SUR'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/select_SeleccionarMENSUALBIMESTRALANUALSEMANALTRIMESTRALSEMESTRALDIARIA'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/select_SeleccionarMENSUALBIMESTRALANUALSEMANALTRIMESTRALSEMESTRALDIARIA'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha Inicial_form_datobasicoinspeccionfechaInPeriodicidad_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Fecha Inicial_form_datobasicoinspeccionfechaInPeriodicidad_input'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha Final_form_datobasicoinspeccionfechaFnPeriodicidad_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Fecha Final_form_datobasicoinspeccionfechaFnPeriodicidad_input'), 
     '10/07/2021')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Responsable_form_datobasicoinspeccionj_idt599'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Responsable_form_datobasicoinspeccionj_idt599'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt895'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt895'), 
     'A A A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt895'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt895'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/span_A A A'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/span_A A A'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/select_Seleccionar001002003GESTIN HSE1'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/select_Seleccionar001002003GESTIN HSE1'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Formulario_form_datobasicoinspeccionj_idt6181'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Formulario_form_datobasicoinspeccionj_idt6181'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8951'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8951'), 
     ' A A A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8951'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8951'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/span_A A A'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/span_A A A'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha_form_datobasicoinspeccionfecha_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Fecha_form_datobasicoinspeccionfecha_input'), 
     '01/07/2021')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Programacin'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Programacin'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Nuevo1'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Nuevo1'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Responsable_form_detalleProgramacionXj_idt714'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Responsable_form_detalleProgramacionXj_idt714'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8953'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8953'), 
     'A A A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8953'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt8953'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/span_A A A3'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/span_A A A3'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Fecha Programacin_form_detalleProgramacionXprogramacionf_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Fecha Programacin_form_detalleProgramacionXprogramacionf_input'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Nmero_form_detalleProgramacionXnumero'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Nmero_form_detalleProgramacionXnumero'), 
     '5')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Guardar1'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Guardar1'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Evidencias'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Evidencias'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_subir'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_subir'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ruta = GlobalVariable.G_rutaarchivos + 'prueba.pdf'
 
-WebUI.uploadFile(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
+WebUI.uploadFile(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
     ruta)
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/input_Descargar_form_evidenciastabladescripcion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/input_Descargar_form_evidenciastabladescripcion'), 
     'pruebas k')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Diligenciar_una_inspección/a_Descargar_form_evidenciastablaj_idt776'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Diligenciar_una_inspección/a_Descargar_form_evidenciastablaj_idt776'))
 
 WebUI.closeBrowser()
 

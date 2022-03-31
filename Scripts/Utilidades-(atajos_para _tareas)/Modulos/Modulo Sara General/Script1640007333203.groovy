@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Modulo Sara General/span_Sara General'), 0)
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/span_Sara General'), 0)
 
-WebUI.click(findTestObject('Modulo Sara General/span_Sara General'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/span_Sara General'))
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Roles de Inicio/Empresa1_CompensacionDS_Administrador'), 
     [:], FailureHandling.STOP_ON_FAILURE)

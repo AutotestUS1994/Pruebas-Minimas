@@ -25,80 +25,80 @@ String identificacion = random_double.toString().replace('.0', '')
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Planta Personal'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Administracion'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Administracion'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Administracion'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Administracion'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Abogado_organigramaj_idt110'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Abogado_organigramaj_idt110'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Datos De Nomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Datos De Nomina'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Zona Econmica_datosPuestoTrabajo_formj_idt1277'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Zona Econmica_datosPuestoTrabajo_formj_idt1277'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Centro Costo de Prueba'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Centro Costo de Prueba'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
     FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyOptionSelectedByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
+if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
     1, 0, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
         3)
 } else {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
         1)
 }
 
-if (WebUI.verifyOptionSelectedByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione Ubicacin Fsica'), 
+if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione Ubicacin Fsica'), 
     3, 1, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione Ubicacin Fsica'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione Ubicacin Fsica'), 
         2)
 } else {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione Ubicacin Fsica'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione Ubicacin Fsica'), 
         3)
 }
 
-if (WebUI.verifyOptionSelectedByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Turno'), 
+if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Turno'), 
     4, 1, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Turno'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Turno'), 
         5)
 } else {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Turno'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Turno'), 
         4)
 }
 
-if (WebUI.verifyOptionSelectedByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
+if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
     7, 1, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
         '6')
 } else {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
         7)
 }
 
-if (WebUI.verifyOptionSelectedByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 
+if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 
     '8', 1, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 
         9)
 } else {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 
         8)
 }
 
-if (WebUI.verifyOptionSelectedByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Rol'), 
+if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Rol'), 
     1, 1, FailureHandling.OPTIONAL)) {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Rol'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Rol'), 
         3)
 } else {
-    WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Rol'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Rol'), 
         1)
 }
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/input_Mesada'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/input_Mesada'), 
     identificacion)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Actualizar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Actualizar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

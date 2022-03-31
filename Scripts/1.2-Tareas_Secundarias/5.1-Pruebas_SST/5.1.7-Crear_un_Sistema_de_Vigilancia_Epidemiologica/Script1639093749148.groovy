@@ -28,152 +28,152 @@ WebUI.comment('conflicto con base de datos no permite eliminar registro')
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Entidad de Riesgo_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Entidad de Riesgo_form_templatej_idt24_input'), 
     'vigilancia epidemiologica')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/li_Programas de Vigilancia Epidemiologica (sst)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/li_Programas de Vigilancia Epidemiologica (sst)'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_PRUEBAS K'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_PRUEBAS K'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo0'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo0'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_--Seleccione--PRUEBAS KATALON'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_--Seleccione--PRUEBAS KATALON'), 
     '1')
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Descripcin_form_programaVigilanciatabdescripcion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Descripcin_form_programaVigilanciatabdescripcion'), 
     'pruebas k ' + todaysDate)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/label_SI'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/label_SI'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Personas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Personas'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo_personas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo_personas'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneSEDE NORTESEDE OCCIDENTESEDE SUR'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneSEDE NORTESEDE OCCIDENTESEDE SUR'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Identificacin_form_popupInscritostabj_idt117'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Identificacin_form_popupInscritostabj_idt117'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
     'A A A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_A A A'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_A A A'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneAula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneAula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_Remitido EPS_ui-chkbox-icon ui-icon ui-icon-blank ui-c'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_Remitido EPS_ui-chkbox-icon ui-icon ui-icon-blank ui-c'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion'), 
     'pruebas k')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Grupos'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Grupos'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Personas Entidad de Riesgo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Personas Entidad de Riesgo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_Seleccione234ENTIDAD DE RIESGO 01idad y Salud en el Trabajo'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_Seleccione234ENTIDAD DE RIESGO 01idad y Salud en el Trabajo'), 
     26)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_DIAZ BLANCO GUISELL_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_DIAZ BLANCO GUISELL_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_CONSTA BELFEGORD  JHON1393138_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_CONSTA BELFEGORD  JHON1393138_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Enviar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Enviar'))
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Fecha Inscripcin_form_popupInscritostabinicio_input'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Fecha Inscripcin_form_popupInscritostabinicio_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion'), 
     'pruebas k')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_PRUEBAS K'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_PRUEBAS K'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Recomendaciones'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Recomendaciones'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_ActivoCanceladoCumplidoNo Cumplido'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_ActivoCanceladoCumplidoNo Cumplido'), 
     0)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --Trate de no correr'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --Trate de no correr'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --Recomendacin Atep 2Recomendacin Atep 1'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --Recomendacin Atep 2Recomendacin Atep 1'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Responsable Recomendaciones_form_popupSeguimientotabRecomendacionj_idt607'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Responsable Recomendaciones_form_popupSeguimientotabRecomendacionj_idt607'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
     'A A A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1722'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_A A A'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_A A A'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Seguimiento'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Seguimiento'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt192'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt192'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --Trate de no correr0'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --Trate de no correr0'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_Trate de no correr'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_Trate de no correr'))
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt197'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt197'), 
     'pruebas k')
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt202_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt202_input'), 
     '15/12/2021')
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt206'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Fecha Seguimiento_form_popupInscritostabtablaSeguimientoj_idt206'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_SEDE NORTE_ui-icon ui-icon-closethick'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_SEDE NORTE_ui-icon ui-icon-closethick'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Examen'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Examen'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Nuevo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneSEDE NORTESEDE OCCIDENTESEDE SUR1'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneSEDE NORTESEDE OCCIDENTESEDE SUR1'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneALMANZA NOVOA JOHN'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneALMANZA NOVOA JOHN'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Examinado_form_popupExamenesj_idt286'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Examinado_form_popupExamenesj_idt286'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_A A A'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_A A A'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneCuadro HematicoExamen de OrinaExamen Medico de RutinaExamen Medico de Rutina'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_SeleccioneCuadro HematicoExamen de OrinaExamen Medico de RutinaExamen Medico de Rutina'), 
     3)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Programar Encuestas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Programar Encuestas'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --EntidadListado Chequeo encuesta'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/select_-- SELECCIONAR --EntidadListado Chequeo encuesta'), 
     2)
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Adicionar Personas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Adicionar Personas'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_CONSTA BELFEGORD  JHON1393138'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/span_CONSTA BELFEGORD  JHON1393138'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Resultado Encuestas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Resultado Encuestas'))
 
-WebUI.click(findTestObject('Modulo Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_1393138 - CONSTA BELFEGORD  JHON1393138'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/td_1393138 - CONSTA BELFEGORD  JHON1393138'))
 
 WebUI.comment('FALTA CONDICION PARA ELIMINAR REGISTRO.')
 

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/span_Actos Administrativos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/span_Actos Administrativos'))
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Roles de Inicio/Empresa1_CompensacionDS_Administrador'), [:], FailureHandling.STOP_ON_FAILURE)
 

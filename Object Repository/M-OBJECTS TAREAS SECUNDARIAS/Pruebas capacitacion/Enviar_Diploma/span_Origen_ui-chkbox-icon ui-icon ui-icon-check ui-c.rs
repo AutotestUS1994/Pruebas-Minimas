@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Origen_ui-chkbox-icon ui-icon ui-icon-check ui-c</name>
+   <tag></tag>
+   <elementGuidId>e67a26f1-fc32-49c9-8d28-8578fd270c50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-chkbox-icon.ui-icon.ui-icon-check.ui-c</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-chkbox-icon ui-icon ui-icon-check ui-c</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formAsistenteEvento:tabla_asistentes:0:j_idt469&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover&quot;]/span[@class=&quot;ui-chkbox-icon ui-icon ui-icon-check ui-c&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formAsistenteEvento:tabla_asistentes:0:j_idt469']/div[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div[2]/span</value>
+   </webElementXpaths>
+</WebElementEntity>

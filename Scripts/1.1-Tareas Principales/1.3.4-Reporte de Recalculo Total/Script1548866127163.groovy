@@ -17,40 +17,40 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.3.3-Recalculo Total'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Reporte'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Reporte'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Reporte'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Reporte'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_ACUMULADO POR CONCEPTO (1)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_ACUMULADO POR CONCEPTO (1)'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_ACUMULADO POR CONCEPTO (1)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_ACUMULADO POR CONCEPTO (1)'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Aplicar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Aplicar'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Aplicar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Aplicar'))
 
-if(WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'), 
+if(WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'), 
     GlobalVariable.G_TimeOut)) {
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'))
 }
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/label_html'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/label_html'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/label_html'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/label_html'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Generar Reporte (1)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Generar Reporte (1)'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Generar Reporte (1)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Generar Reporte (1)'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Descargar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Descargar'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte de Recalculo Total/a_Descargar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Descargar'))
 
 WebUI.closeBrowser()
 

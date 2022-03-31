@@ -56,67 +56,67 @@ WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILU
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Parmetros EntidadInstructor_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Parmetros EntidadInstructor_form_templatej_idt24_input'), 
     'Parametros Entidad/Instructor')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/li_Parametros EntidadInstructor (bie)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/li_Parametros EntidadInstructor (bie)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Entidad'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Entidad'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/td_123456789'), 
+if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/td_123456789'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/td_123456789'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/td_123456789'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Identificacin_form_entidadtabidentificacionEntidad'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Identificacin_form_entidadtabidentificacionEntidad'), 
     '123456789')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/select_--Seleccione--ActivoNo Disponible'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/select_--Seleccione--ActivoNo Disponible'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/textarea_Razn Social_form_entidadtabrazonsocial'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/textarea_Razn Social_form_entidadtabrazonsocial'), 
     'Prueba')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Contacto_form_entidadtabcontacto'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Contacto_form_entidadtabcontacto'), 
     'ninguno')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Direccin_form_entidadtabdireccion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Direccin_form_entidadtabdireccion'), 
     'carrera 132 # 152 c-10')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Barrio_form_entidadtabbarrio'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Barrio_form_entidadtabbarrio'), 
     'ninguno')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Telfono_form_entidadtabtelefono'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Telfono_form_entidadtabtelefono'), 
     '319388299')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Ingreso_form_entidadtabfechaingreso_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Fecha de Ingreso_form_entidadtabfechaingreso_input'), 
     FechaI)
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Ingreso_form_entidadtabfechaingreso_input'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Fecha de Ingreso_form_entidadtabfechaingreso_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input'), 
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input'), 
     FechaF)
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Fecha de Retiro_form_entidadtabfecharetiro_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/textarea_Observacin_form_entidadtabobservacion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/textarea_Observacin_form_entidadtabobservacion'), 
     'ninguna')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/input_Motivo de Retiro_form_entidadtabmotivo'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Motivo de Retiro_form_entidadtabmotivo'), 
     'ninguna')
 
 
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo _Instructor-Entidad/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Guardar'))
 

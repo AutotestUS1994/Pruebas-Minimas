@@ -25,40 +25,40 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Invitación/td_Prueba-S-SH'), 0)
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/td_Prueba-S-SH'), 0)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/td_Prueba-S-SH'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/td_Prueba-S-SH'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/div_Participante'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/div_Participante'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Invitacin'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Invitacin'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     '1')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Unidad_invitacionEventosPopupFormj_idt1309'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Unidad_invitacionEventosPopupFormj_idt1309'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Filtrar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Filtrar'))
 
-WebUI.check(findTestObject('Modulo Pruebas Bienestar/Invitación/div_Cargo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.check(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/div_Cargo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Invitacin_boton'),
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Invitacin_boton'),
 	30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Invitacin'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Invitacin'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     '1')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Filtrar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Filtrar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/span_ui-button'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/span_ui-button'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Invitación/span_Todo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/span_Todo'))
 
-WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Invitación/a_Invitacin_boton'),
+WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Invitación/a_Invitacin_boton'),
 	30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element1))

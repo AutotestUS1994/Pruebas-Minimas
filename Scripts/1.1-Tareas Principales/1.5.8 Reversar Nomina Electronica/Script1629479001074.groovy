@@ -19,32 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     'Nomina Electronica')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     '2021')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/td_2021-07-01'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/td_2021-07-01'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/td_2021-07-01'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/td_2021-07-01'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/a_reversar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/a_reversar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina Electronica/Page_SARA/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina Electronica/Page_SARA/span_Si'))
 
 WebUI.closeBrowser()
 

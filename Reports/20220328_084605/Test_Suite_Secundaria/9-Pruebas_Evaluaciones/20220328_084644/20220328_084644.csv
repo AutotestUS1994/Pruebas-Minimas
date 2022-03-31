@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+9-Pruebas_Evaluaciones,Chrome 99.0.4844.82,,,2022-03-28 08:59:17,2022-03-28 09:01:29,"2m - 12,159s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.1-Crear_un_periodo_de_evaluación,Chrome 99.0.4844.82,,,2022-03-28 08:59:18,2022-03-28 08:59:40,"22,220s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:59:19,2022-03-28 08:59:28,"9,385s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/input_Empresa 1_form_templatej_idt24_input""), ""Periodo evaluaciones"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:28,2022-03-28 08:59:30,"1,550s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_Periodo Evaluaciones""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:30,2022-03-28 08:59:31,"1,540s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/td_Pruebas katalon""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:31,2022-03-28 08:59:33,"1,817s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_PRUEBAS K""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:59:33,2022-03-28 08:59:36,"2,767s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Nuevo""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:36,2022-03-28 08:59:37,"1,524s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/input_Descripcin_form_popupperiodoevaluaciondescripcion""), ""PRUEBAS K"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:37,2022-03-28 08:59:38,"1,177s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/select_Periodo fijo, control de fechaPeriodo fijo de tiempoNo hay un rango definido""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:59:38,2022-03-28 08:59:40,"1,149s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:40,2022-03-28 08:59:40,"0,474s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.2-Crear_una_Fase,Chrome 99.0.4844.82,,,2022-03-28 08:59:40,2022-03-28 09:00:13,"32,722s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:59:41,2022-03-28 08:59:48,"7,327s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Empresa 1_form_templatej_idt24_input""), ""gestion herramientas"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:48,2022-03-28 08:59:49,"1,298s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_una_Fase/li_Gestion Herramientas (tal)""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:49,2022-03-28 08:59:51,"1,527s",PASSED
+"if (waitForElementNotVisible(findTestObject(""Modulo Pruebas Evaluaciones/Crear_una_Fase/td_Pruebas katalon""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:59:51,2022-03-28 08:59:54,"2,975s",PASSED
+else,Chrome 99.0.4844.82,,,2022-03-28 08:59:54,2022-03-28 09:00:13,"18,915s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.3-Crear_una_Etapa,Chrome 99.0.4844.82,,,2022-03-28 09:00:13,2022-03-28 09:00:39,"26,045s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:00:13,2022-03-28 09:00:19,"5,645s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Crear_una_Etapa/input_Empresa 1_form_templatej_idt24_input""), ""gestion herramientas"")",Chrome 99.0.4844.82,,,2022-03-28 09:00:19,2022-03-28 09:00:21,"1,681s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_una_Etapa/span_Gestion Herramientas""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:21,2022-03-28 09:00:23,"1,961s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Evaluaciones/Crear_una_Etapa/td_Pruebas katalon""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:00:23,2022-03-28 09:00:39,"16,191s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.4-Crear_modelos_de_evaluaciones 360º 180º 90º,Chrome 99.0.4844.82,,,2022-03-28 09:00:39,2022-03-28 09:00:59,"20,429s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:00:40,2022-03-28 09:00:46,"6,633s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input""), ""gestion herramientas"")",Chrome 99.0.4844.82,,,2022-03-28 09:00:46,2022-03-28 09:00:49,"2,935s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/span_Gestion Herramientas""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:49,2022-03-28 09:00:51,"1,332s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:00:51,2022-03-28 09:00:59,"8,808s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.5-Programar_la_evaluación_Individual,Chrome 99.0.4844.82,,,2022-03-28 09:00:59,2022-03-28 09:01:29,"30,110s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:01:00,2022-03-28 09:01:05,"5,421s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/input_Empresa 1_form_templatej_idt24_input""), ""listado herramientas"")",Chrome 99.0.4844.82,,,2022-03-28 09:01:05,2022-03-28 09:01:07,"1,355s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/li_Listado Herramientas (tal)""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:07,2022-03-28 09:01:08,"1,424s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/div_Contratacion_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:08,2022-03-28 09:01:09,"0,938s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Herramienta ---ENCUESTA DE RETIROEVALUACION 2011""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:01:09,2022-03-28 09:01:10,"1,308s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_A A A""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:01:10,2022-03-28 09:01:15,"4,018s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/a_Nuevo""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:15,2022-03-28 09:01:15,"0,703s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Herramienta ---ENCUESTA DE RETIROEVALUACION 2011 - Copy""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:01:15,2022-03-28 09:01:17,"1,724s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/a_Identificacion Evaluado_form_popupDetalleEvaluacionj_idt215""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:17,2022-03-28 09:01:18,"0,713s",PASSED
+"setText(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt723""), ""A"")",Chrome 99.0.4844.82,,,2022-03-28 09:01:18,2022-03-28 09:01:19,"1,355s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt723""), Keys.chord(ENTER))",Chrome 99.0.4844.82,,,2022-03-28 09:01:19,2022-03-28 09:01:20,"0,616s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_A A A""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:20,2022-03-28 09:01:20,"0,798s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 09:01:20,2022-03-28 09:01:24,"3,332s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Unidad Organizacional ---1111123456ADMINISTRACIONADMINISTRACIONAnalista""), 4)",Chrome 99.0.4844.82,,,2022-03-28 09:01:24,2022-03-28 09:01:25,"1,057s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Cargo ---20145   -40 MIL STAFF20139   -ABOGADO20117   -ABOGADO JUNIOR10""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:01:25,2022-03-28 09:01:26,"1,099s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOSNO APLICANOMINA 40 MIL""), 6)",Chrome 99.0.4844.82,,,2022-03-28 09:01:26,2022-03-28 09:01:27,"1,203s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/a_Periodo_form_popupDetalleEvaluacionj_idt208""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:27,2022-03-28 09:01:28,"0,680s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_PERIODO DE PRUEBA""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:28,2022-03-28 09:01:29,"0,942s",PASSED
+"click(findTestObject(""Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:29,2022-03-28 09:01:29,"0,736s",PASSED

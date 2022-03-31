@@ -17,69 +17,69 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Mantenimieto Periodo Nomina'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/a_Nuevo'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/a_Nuevo'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/a_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/input_Tipo Periodo_tipoPeriodo'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/input_Tipo Periodo_tipoPeriodo'), 
     '36364')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/input_Descripcin Tipo Periodo_'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/input_Descripcin Tipo Periodo_'), 
     'kataloon')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/select_--- Seleccione estado L'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/select_--- Seleccione estado L'), 
     '2')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Administrador Sara'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Administrador Sara'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Administrador Sara'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Administrador Sara'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Cambiar Modulo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Cambiar Modulo'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Sara General'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Sara General'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_SaraDS_Jboss (Compensacio'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_SaraDS_Jboss (Compensacio'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_SaraDS_Jboss (Compensacio'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_SaraDS_Jboss (Compensacio'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/div_Salir_navMenu'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/div_Salir_navMenu'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/div_Salir_navMenu'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/div_Salir_navMenu'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/input_Ir_nav_t66_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/input_Ir_nav_t66_input'), 
     'Rol Acceso')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_rol Acceso'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_rol Acceso'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_rol Acceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_rol Acceso'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Permisos Por Login Usuari'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Permisos Por Login Usuari'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_saraadmin'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_saraadmin'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/li_36363 - kataloon'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/li_36363 - kataloon'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/li_36363 - kataloon'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/li_36363 - kataloon'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Periodos Asociados_ui-ico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Periodos Asociados_ui-ico'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Actualizar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Actualizar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Administrador Sara'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Administrador Sara'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Mantenimiento Periodo Nomina/span_Cambiar Modulo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Mantenimiento Periodo Nomina/span_Cambiar Modulo'))
 
 WebUI.closeBrowser()
 

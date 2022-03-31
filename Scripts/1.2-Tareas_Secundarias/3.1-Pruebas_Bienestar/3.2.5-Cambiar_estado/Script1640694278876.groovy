@@ -25,47 +25,47 @@ import java.awt.*
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/td_Prueba-S-SH'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/td_Prueba-S-SH'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Participante'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/div_Participante'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Individual'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Individual'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/td_1010220596'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/td_1010220596'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar0'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Cambiar0'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
         4)
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
 } else {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Nuevo'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Nuevo'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Nombre_grupoEventoj_idt427'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Nombre_grupoEventoj_idt427'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
         'A A A')
 
-    WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
+    WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/span_A A A'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/span_A A A'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/select_-- Seleccione --prueba-S-SH'), 
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/select_-- Seleccione --prueba-S-SH'), 
         1)
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Guardar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Guardar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Cambiar0'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Cambiar0'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/select_--Seleccione--AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
         4)
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cambiar_estado/a_Actualizar'))
 }
 
 WebUI.comment('cupos llenos, apezar de no tener inscrito  a nadie')

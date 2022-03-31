@@ -19,14 +19,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 //WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/input_ADMINISTRADOR DEL SISTEMA'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/input_ADMINISTRADOR DEL SISTEMA'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/input_ADMINISTRADOR DEL SISTEMA'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/input_ADMINISTRADOR DEL SISTEMA'), 
     'Actos Administrativos')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/span_Tarea actos administrativos'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/span_Tarea actos administrativos'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/span_Tarea actos administrativos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Tarea Actos Administrativos/span_Tarea actos administrativos'))
 

@@ -19,78 +19,78 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'listado de viaticos')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/li_Listado de Viaticos (act)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/li_Listado de Viaticos (act)'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
     '2021')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Nuevo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/span_Solicita derogacin de una solicitud'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/span_Solicita derogacin de una solicitud'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/span_Solicita derogacin de una solicitud'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/span_Solicita derogacin de una solicitud'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
     '01/07/2021')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Documento_form_listadoviaticosfechaViat_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/td_01072021'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/td_01072021'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/td_01072021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/td_01072021'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Derogar'), 
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Derogar'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Derogar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Derogar'))
 } else {
-    if (WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+    if (WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
         '01/07/2021')) {
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Nmero_form_detalleviaticosNumero'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Nmero_form_detalleviaticosNumero'), 
             '5')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
             'prueba')
 
         WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
 
         WebUI.getText(findTestObject('Alerta/Alerta'))
     } else {
-        if (WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'), 
+        if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'), 
             1)) {
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'))
         } else {
             WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
         }
         
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
             '01/07/2021')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Nmero_form_detalleviaticosNumero'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Nmero_form_detalleviaticosNumero'), 
             '5')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
             'prueba')
 
         WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))

@@ -21,25 +21,25 @@ WebUI.comment(' OMITIR PRUEBA. genera problemas al eliminar el evento omitir')
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/td_Prueba-S-SH'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/td_Prueba-S-SH'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/div_Evaluacin'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/div_Evaluacin'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/a_Tabulacin Instructor'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/a_Tabulacin Instructor'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/select_--Seleccione--12501250'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/select_--Seleccione--12501250'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/input_puntual_form_popupEvaluacionEventoj_idt17140cantidad'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/input_puntual_form_popupEvaluacionEventoj_idt17140cantidad'), 
     '100')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/input_claridad_form_popupEvaluacionEventoj_idt17141cantidad'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/input_claridad_form_popupEvaluacionEventoj_idt17141cantidad'), 
     '100')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/textarea_Encuesta text Ins_form_popupEvaluacionEventoj_idt17142j_idt1718'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/textarea_Encuesta text Ins_form_popupEvaluacionEventoj_idt17142j_idt1718'), 
     'Prueba')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Tabulación_de_evento/a_Actualizar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Tabulación_de_evento/a_Actualizar'))
 
 WebUI.comment('OMITIR PRUEBA. genera problemas al eliminar el evento omitir')
 

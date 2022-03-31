@@ -19,38 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/td_Evento Salud Unico'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/td_Evento Salud Unico'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_Programacin'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_Programacin'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'), 
+if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_Aceptar'))
 }
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programación/input_Horario_form_programacionMomentoEventotablaMomentoEventoHorariofechaIniciaPME_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/input_Horario_form_programacionMomentoEventotablaMomentoEventoHorariofechaIniciaPME_input'), 
     '27/11/2018')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Programación/input_Horario_form_programacionMomentoEventotablaMomentoEventoHorariofechaTerminaPME_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/input_Horario_form_programacionMomentoEventotablaMomentoEventoHorariofechaTerminaPME_input'), 
     '28/11/2018')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_Horario_form_programacionMomentoEventotablaMomentoEventoHorarioj_idt833'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_Horario_form_programacionMomentoEventotablaMomentoEventoHorarioj_idt833'))
 
-WebUI.check(findTestObject('Modulo Pruebas Bienestar/Programación/label_MAR'))
+WebUI.check(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/label_MAR'))
 
-WebUI.check(findTestObject('Modulo Pruebas Bienestar/Programación/label_MIE'))
+WebUI.check(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/label_MIE'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Programación/select_hora1'), 5)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/select_hora1'), 5)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Programación/select_hora 2'), 6)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/select_hora 2'), 6)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_mas_horario'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_mas_horario'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_Aplicar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_Aplicar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Programación/a_mas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_mas'))
 
 WebUI.closeBrowser()
 

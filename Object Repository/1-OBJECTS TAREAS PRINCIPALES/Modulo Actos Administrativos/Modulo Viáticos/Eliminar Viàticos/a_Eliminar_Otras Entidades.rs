@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Eliminar_Otras Entidades</name>
+   <tag></tag>
+   <elementGuidId>f869cc3c-3821-4fd7-8c33-943ff19417ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div/div[2]/table/tbody/tr/td[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_popupprogramacionviaticos:pestanias:entidadesNoVigiladasTabla:0:j_idt1681</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget btn-minieliminar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pfconfirmcommand</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_popupprogramacionviaticos:pestanias:entidadesNoVigiladasTabla:0:j_idt1681&quot;,f:&quot;form_popupprogramacionviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.confirm({source:&quot;form_popupprogramacionviaticos:pestanias:entidadesNoVigiladasTabla:0:j_idt1681&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupprogramacionviaticos:pestanias:entidadesNoVigiladasTabla:0:j_idt1681&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_popupprogramacionviaticos:pestanias:entidadesNoVigiladasTabla:0:j_idt1681']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_popupprogramacionviaticos:pestanias:entidadesNoVigiladasTabla_data']/tr/td[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[54]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/table/tbody/tr/td[4]/a</value>
+   </webElementXpaths>
+</WebElementEntity>

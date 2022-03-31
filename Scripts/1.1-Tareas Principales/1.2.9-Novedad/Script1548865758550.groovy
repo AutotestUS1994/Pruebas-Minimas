@@ -20,73 +20,73 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Identificacin_listadoEmp'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Identificacin_listadoEmp'), '354968431354')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Identificacin_listadoEmp'), '354968431354')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Identificacin_listadoEmp'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Identificacin_listadoEmp'), Keys.chord(
         Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_CONSTA BELFEGORD JHON'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_CONSTA BELFEGORD JHON'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_CONSTA BELFEGORD JHON'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Novedades'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Novedades'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Novedades'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Novedades'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Nuevo'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Nuevo'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Nuevo'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_Adicionar entidad de AFC'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Adicionar entidad de AFC'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Desde_form_novedadesEmpl'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Desde_form_novedadesEmpl'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Desde_form_novedadesEmpl'), '01/12/2018')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Desde_form_novedadesEmpl'), '01/12/2018')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Desde_form_novedadesEmpl'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Desde_form_novedadesEmpl'), Keys.chord(
         Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Hasta_form_novedadesEmpl'), '31/01/2019')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Hasta_form_novedadesEmpl'), '31/01/2019')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Hasta_form_novedadesEmpl'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Hasta_form_novedadesEmpl'), Keys.chord(
         Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/a_Sucursal_form_novedadesEmple'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/a_Sucursal_form_novedadesEmple'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/a_Sucursal_form_novedadesEmple'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/a_Sucursal_form_novedadesEmple'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_AFC - HELM BANK'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_AFC - HELM BANK'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/span_AFC - HELM BANK'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_AFC - HELM BANK'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Cuenta_form_novedadesEmp'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Cuenta_form_novedadesEmp'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Cuenta_form_novedadesEmp'), '63483135434398')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Cuenta_form_novedadesEmp'), '63483135434398')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Valor_form_novedadesEmpl'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Valor_form_novedadesEmpl'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/input_Valor_form_novedadesEmpl'), '100')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/input_Valor_form_novedadesEmpl'), '100')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/select_-- seleccione --Ciclo 0'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/select_-- seleccione --Ciclo 0'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/select_-- seleccione --Ciclo 0'), 
+WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/select_-- seleccione --Ciclo 0'), 
     '1', true)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/textarea_Observacin_form_noved'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/textarea_Observacin_form_noved'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/textarea_Observacin_form_noved'), 'aaaaaaaaaaa')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/textarea_Observacin_form_noved'), 'aaaaaaaaaaa')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/a_Guardar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/a_Guardar'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Novedades/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

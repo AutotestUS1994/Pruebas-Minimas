@@ -17,17 +17,17 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.8-Mantenimiento de Vacaciones Reliquidar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Vacaciones/select_SeleccioneCerradaNo Cerrada'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Vacaciones/select_SeleccioneCerradaNo Cerrada'), 
     '02')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Vacaciones/td_1234567890'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Vacaciones/td_1234567890'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Vacaciones/td_1234567890'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Vacaciones/td_1234567890'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Vacaciones/span_Reversar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Vacaciones/span_Reversar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Vacaciones/a_Aceptar_Reversar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Vacaciones/a_Aceptar_Reversar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

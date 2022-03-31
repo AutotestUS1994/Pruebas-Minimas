@@ -19,31 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_Prueba'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_Prueba'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/div_Asistentes'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/div_Asistentes'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/a_Registro'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Registro'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
         1)
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/a_Actualizar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Actualizar'))
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.5-Insribir_un_asistente'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    if (WebUI.waitForElementNotPresent(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
+    if (WebUI.waitForElementNotPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'))
 
-        WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
+        WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
             1)
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Cambiar_estado_de_un_asistente/a_Actualizar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Actualizar'))
     }
 }
 

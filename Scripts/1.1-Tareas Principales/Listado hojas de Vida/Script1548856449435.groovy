@@ -20,14 +20,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 //WebUI.delay(2) debe reemplazar por wait for elemento /objet
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
     'Listado Hojas de Vida (hoj)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'))
 

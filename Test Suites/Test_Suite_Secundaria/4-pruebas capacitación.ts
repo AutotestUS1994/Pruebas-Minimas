@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>2</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -88,5 +88,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.4-Reserva_de_Salones</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d33bb502-9d5e-4a36-a478-6737dff0227f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.5-Enviar_y_imprimir_Diploma</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

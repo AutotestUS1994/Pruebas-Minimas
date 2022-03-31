@@ -19,18 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Recursos/td_Prueba-S'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/td_Prueba-S'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Recursos/div_Recursos'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/div_Recursos'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Recursos/a_Logsticos'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Logsticos'))
 
 WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Recursos/select_SeleccioneBlue RayCmarasCamaras de videoComedoresEstacin de cafeInternetIpadLucesMicrofonosPantallasPorttilSonidoTabletsTarimaTeleconferencia'), 
     6)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Recursos/select_SeleccioneINDISPENSABLEOPCIONAL'), 1)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/select_seleccioneINDISPENSABLEOPCIONAL'), 
+    1)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt949'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt949'))
 
 WebUI.closeBrowser()
 

@@ -19,67 +19,67 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Beneficios_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Beneficios_form_templatej_idt24_input'), 
     'beneficio')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/li_Beneficio (bie)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/li_Beneficio (bie)'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/td_PRUEBAS K'), 
+if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/td_PRUEBAS K'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/td_PRUEBAS K'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/td_PRUEBAS K'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Filtro Seccin'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Filtro Seccin'))
 
-    if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'), 
+    if(WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'), 
         1)) {
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Aceptar'))
     }
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Registro'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Registro'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Aceptar'))
 }
 
-WebUI.scrollToElement(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Nuevo'), 
+WebUI.scrollToElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Nuevo'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Cdigo_formDetalleTipoBeneficioBienestarcodigoTipoBeneficio'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Cdigo_formDetalleTipoBeneficioBienestarcodigoTipoBeneficio'), 
     '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Descripcin_formDetalleTipoBeneficioBienestardescripcionTipoBeneficio'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Descripcin_formDetalleTipoBeneficioBienestardescripcionTipoBeneficio'), 
     'PRUEBAS KATALON')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Auxilio de SaludAUXILIO DE VIVIENDAAUXILIO EDUCATIVOPrueba'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Auxilio de SaludAUXILIO DE VIVIENDAAUXILIO EDUCATIVOPrueba'), 
     4)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Solicitante Y Seccion HojaSolicitanteSeccion Hoja'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Solicitante Y Seccion HojaSolicitanteSeccion Hoja'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --familia'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --familia'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --DescuentoNo RecaudoNovedad hacia NminaPrestamo'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --DescuentoNo RecaudoNovedad hacia NminaPrestamo'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Control por TarifaManejo TarifaNo Relacionar'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Control por TarifaManejo TarifaNo Relacionar'), 
     3)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --SiNo'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --SiNo'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_--Seleccione--NoSi'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_--Seleccione--NoSi'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_Convenio--Seleccione--NoSi'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_Convenio--Seleccione--NoSi'), 
     2)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Guardar'))
 
 WebUI.closeBrowser()
 

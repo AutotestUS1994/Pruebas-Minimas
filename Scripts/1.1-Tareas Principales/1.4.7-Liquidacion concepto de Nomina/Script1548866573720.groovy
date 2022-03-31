@@ -18,59 +18,59 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Periodo Nomina_Liquidacion'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Periodo Nomina_Liquidacion'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Periodo Nomina_Liquidacion'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Periodo Nomina_Liquidacion'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/select_--  Seleccione  --Periodo Cerrado'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/select_--  Seleccione  --Periodo Cerrado'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/select_--  Seleccione  --Periodo Cerrado'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/select_--  Seleccione  --Periodo Cerrado'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/select_--  Seleccione  --Periodo Cerrado'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/select_--  Seleccione  --Periodo Cerrado'), 
     '2')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_PM202107'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_PM202107'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_PM202107'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_PM202107'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Nombre Persona_LiquidacionNo'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Nombre Persona_LiquidacionNo'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Nombre Persona_LiquidacionNo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Nombre Persona_LiquidacionNo'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/input_close_popupFiltroEmplead'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/input_close_popupFiltroEmplead'), 
     '1065')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/input_close_popupFiltroEmplead'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/input_close_popupFiltroEmplead'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_CONSTA BELFEGORD JHON'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_CONSTA BELFEGORD JHON'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_CONSTA BELFEGORD JHON'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/td_Mendoza 1015 Empleado'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/td_Mendoza 1015 Empleado'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/td_Mendoza 1015 Empleado'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/td_Mendoza 1015 Empleado'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/em_Concepto'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/em_Concepto'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/em_Concepto'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/em_Concepto'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Liquidar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Liquidar'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Liquidar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Liquidar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Si'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Si'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Si'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

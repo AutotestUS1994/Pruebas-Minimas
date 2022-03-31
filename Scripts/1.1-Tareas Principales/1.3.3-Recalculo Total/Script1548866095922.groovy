@@ -18,36 +18,36 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/span_P MensualJulio2021'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_P MensualJulio2021'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/span_P MensualJulio2021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_P MensualJulio2021'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Reclculo Total'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Reclculo Total'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Reclculo Total'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Reclculo Total'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/span_Si'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_Si'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_Si'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'), GlobalVariable.G_TimeNomina)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Recalculo Total/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'))
 

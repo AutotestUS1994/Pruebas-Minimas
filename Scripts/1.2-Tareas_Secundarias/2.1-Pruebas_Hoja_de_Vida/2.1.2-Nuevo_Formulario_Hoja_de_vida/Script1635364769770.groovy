@@ -19,35 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario'))
 
-WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), 'prueba')
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), 'prueba')
 
-WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), Keys.chord(
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), Keys.chord(
         Keys.ENTER))
 
-if (WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'), 1)) {
+if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'), 1)) {
     
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Eliminar'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Aceptar_Eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Aceptar_Eliminar'))
 }
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo'))
 
-WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre'), 'prueba')
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre'), 'prueba')
 
-WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo'), '123')
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo'), '123')
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar'))
 
 WebUI.closeBrowser()
 

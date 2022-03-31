@@ -18,53 +18,53 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('1.1-Tareas Principales/Listado hojas de Vida'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.setText(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'), 
     '355682169')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si'))
 
 WebUI.switchToWindowTitle('SARA')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar'))
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1'))
 
 WebUI.closeBrowser()
 

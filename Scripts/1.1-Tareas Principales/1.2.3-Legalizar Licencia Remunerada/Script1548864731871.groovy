@@ -18,73 +18,73 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Identificacin_listadoEmp'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Identificacin_listadoEmp'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Identificacin_listadoEmp'), 
     '354968431354')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Identificacin_listadoEmp'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Identificacin_listadoEmp'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_CONSTA BELFEGORD JHON'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Licencia'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Licencia'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/td_Licencia Remunerada'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/td_Licencia Remunerada'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/td_Licencia Remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/td_Licencia Remunerada'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Eliminar Directo_Licencia'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Eliminar Directo_Licencia'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Eliminar Directo_Licencia'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Eliminar Directo_Licencia'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Aceptar_Eliminar Licencia'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Aceptar_Eliminar Licencia'))
 }
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Histrico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Histrico'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Licencia Remunerada_Historico'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Licencia Remunerada_Historico'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Licencia Remunerada_Historico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Licencia Remunerada_Historico'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Eliminar_Historico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Eliminar_Historico'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Aceptar_Eliminar Historico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Aceptar_Eliminar Historico'))
 }
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Licencia_Pestaa'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Licencia_Pestaa'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/a_Licencia_Pestaa'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/a_Licencia_Pestaa'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Nuevo'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Nuevo'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Nuevo'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Nuevo'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_LICENCIA REMUNERADA'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_LICENCIA REMUNERADA'))
 }
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Fecha Salida_form_licenc'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Fecha Salida_form_licenc'), 
     '01/12/2018')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Das Ausentismo_form_lice'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Das Ausentismo_form_lice'), 
     '2')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Fecha Salida Nomina_form'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Fecha Salida Nomina_form'), 
     '31/01/2019')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/textarea_Observacin_form_licen'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/textarea_Observacin_form_licen'), 
     'aaaaaa')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Fecha 1_form_licenciaEmp'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Fecha 1_form_licenciaEmp'), 
     '31/01/2019')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/input_Fecha 1_form_licenciaEmp'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/input_Fecha 1_form_licenciaEmp'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_Guardar Legalizar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Guardar Legalizar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

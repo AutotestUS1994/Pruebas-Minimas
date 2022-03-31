@@ -15,27 +15,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Seguridad Social'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/td_Planilla Empleados Empresa'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/td_Planilla Empleados Empresa'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/td_Planilla Empleados Empresa'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/td_Planilla Empleados Empresa'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/img_csv'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/img_csv'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/img_csv'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/img_csv'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/a_Archivo'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Archivo'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/a_Archivo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Archivo'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/a_Archivo_1'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Archivo_1'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'))
 
 WebUI.closeBrowser()
 

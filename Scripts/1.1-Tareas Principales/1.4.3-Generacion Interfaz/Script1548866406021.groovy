@@ -18,65 +18,65 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/input_ADMINISTRADOR DEL SISTEMA'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/input_ADMINISTRADOR DEL SISTEMA'), 
     'Generacion interfaz (com)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_generacion interfaz(com)'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_generacion interfaz(com)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_generacion interfaz(com)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_generacion interfaz(com)'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_INTERFAZ NOMINA INTERFAZ'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_INTERFAZ NOMINA INTERFAZ'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_INTERFAZ NOMINA INTERFAZ'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_INTERFAZ NOMINA INTERFAZ'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/div_-_ui-chkbox-box ui-widget'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/div_-_ui-chkbox-box ui-widget'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/div_-_ui-chkbox-box ui-widget'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/div_-_ui-chkbox-box ui-widget'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Generar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/a_Generar'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/a_Generar'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/input_Fecha Inicial _popupGeneracion'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/input_Fecha Inicial _popupGeneracion'), 
     '01/01/2021')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/td_Rango Fechas'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/td_Rango Fechas'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/td_Rango Fechas'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/td_Rango Fechas'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/input_Fecha Final_popupGeneracion'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/input_Fecha Final_popupGeneracion'), 
     '30/01/2021')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/td_Rango Fechas'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/td_Rango Fechas'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/td_Rango Fechas'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/td_Rango Fechas'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/input_Fecha Proceso_popupGeneracion'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/input_Fecha Proceso_popupGeneracion'), 
     '01/01/2021')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_Generar (1)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_Generar (1)'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_Generar (1)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_Generar (1)'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/a_Si'))
 
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Continuar'), 0)
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/a_Continuar'), 0)
 
-if ((findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Continuar') == true) && (WebUI.click(
-    findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_Interfaz')) == false)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/a_Continuar'))
+if ((findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/a_Continuar') == true) && (WebUI.click(
+    findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_Interfaz')) == false)) {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/a_Continuar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_Interfaz'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_Interfaz'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion interfaz/span_Regresar_ui-button-text'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion interfaz/span_Regresar_ui-button-text'))
 } else {
     WebUI.closeBrowser()
 }

@@ -18,114 +18,114 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Identificacin_listadoEmp'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Identificacin_listadoEmp'), '1234567890')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), '1234567890')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Identificacin_listadoEmp'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_CONSTA BELFEGORD JHON'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Licencia'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Licencia'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/td_Licencia Remunerada'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/td_Licencia Remunerada'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/td_Licencia Remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/td_Licencia Remunerada'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Eliminar Directo_Remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar Directo_Remunerada'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Aceptar_ Remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Aceptar_ Remunerada'))
 }
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/td_Licencia No Remunerada'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/td_Licencia No Remunerada'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/td_Licencia No Remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/td_Licencia No Remunerada'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Eliminar Directo_No remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar Directo_No remunerada'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Aceptar_No remunerada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Aceptar_No remunerada'))
 }
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Incapacidad'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Nuevo'), 0)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'), 0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Histrico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Histrico'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Enfermedad General 21_Historico'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Enfermedad General 21_Historico'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Enfermedad General 21_Historico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Enfermedad General 21_Historico'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Eliminar'), 0)
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar'), 0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Eliminar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Aceptar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Aceptar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Incapacidad_pestaa'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad_pestaa'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Nuevo'), 0)
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'), 0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_Nuevo'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_ENFERMEDAD GENERAL 21'))
 }
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Incapacidad_pestaa'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad_pestaa'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Incapacidad_pestaa'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad_pestaa'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Fecha Salida _form_incap'), '01/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha Salida _form_incap'), '01/01/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Fecha Salida Nomina_form'), '28/02/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha Salida Nomina_form'), '28/02/2021')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Prorroga_form_incapacida'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Prorroga_form_incapacida'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/textarea_Observacin_form_incap'), 'aaaa')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/textarea_Observacin_form_incap'), 'aaaa')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Das Ausentismo_form_inca'), '2')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Das Ausentismo_form_inca'), '2')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/textarea_Area_form_incapacidad'), 'bbbb')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/textarea_Area_form_incapacidad'), 'bbbb')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Horas adicionales_form_incapacidades'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Horas adicionales_form_incapacidades'), 
     '0500')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_diagnostico_form_incapacidad'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_diagnostico_form_incapacidad'), 
     'cccc')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_Fecha 1_form_incapacidad'), '15/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha 1_form_incapacidad'), '15/01/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/input_diagnostico_form_incapacidades2'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_diagnostico_form_incapacidades2'), 
     'aaa')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a__form_incapacidadesEmpleadoj'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a__form_incapacidadesEmpleadoj'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/td_OTRAS INFECCIONES ESPECIFICADAS'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/td_OTRAS INFECCIONES ESPECIFICADAS'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a__form_incapacidadesEmpleadoj_1'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a__form_incapacidadesEmpleadoj_1'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a__form_incapacidadesEmpleadoj_1'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a__form_incapacidadesEmpleadoj_1'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/td_Diagnostico-Seguridad y Salud en el Trabajo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/td_Diagnostico-Seguridad y Salud en el Trabajo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Guardar Legalizar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Guardar Legalizar'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Incapacidad/a_Guardar Legalizar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Guardar Legalizar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

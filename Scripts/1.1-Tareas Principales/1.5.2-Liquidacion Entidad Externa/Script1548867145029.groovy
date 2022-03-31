@@ -18,53 +18,53 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Administracion Compensacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
     'Liquidacion Entidad Externa (com)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidacion Entidad Externa (com)'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/span_Liquidacion Entidad Externa (com)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidacion Entidad Externa (com)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/span_Liquidacion Entidad Externa (com)'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Traer'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/span_Traer'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/select_--Seleccione--APORTE AF'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/select_--Seleccione--APORTE AF'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Fecha_form_popUpTraeLiqu'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Fecha_form_popUpTraeLiqu'), 
     '31/01/2019')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Fecha_form_popUpTraeLiqu'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Fecha_form_popUpTraeLiqu'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Aplicar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Aplicar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Sucursal_liquidacionesEn'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Sucursal_liquidacionesEn'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/span_Liquidar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Liquidar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/span_Liquidar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Generar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Continuar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/span_Imprimir'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/span_Imprimir'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/input_Csv_form_popupSeleccionR'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Csv_form_popupSeleccionR'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Generar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Descargar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Descargar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Descargar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Descargar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Entidad Externa/a_Descargar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/a_Descargar'))
 
 WebUI.closeBrowser()
 

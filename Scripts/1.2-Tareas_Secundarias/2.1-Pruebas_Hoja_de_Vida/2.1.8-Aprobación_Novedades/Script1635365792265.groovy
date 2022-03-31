@@ -19,83 +19,83 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/label_Nueva Hoja Vida'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Novedades'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades'))
 
-WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'), 
     3)
 
-if (WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'), 1)) {
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'))
+if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Aprobar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aprobar'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Aceptar' /*-----------------------------------------------------------------------------------------------*/ ))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar' /*-----------------------------------------------------------------------------------------------*/ ))
 } else {
     WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Login_Seguridad/0.1-Login-1057596487'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/input_Empresa 1_form_templatej_idt24_input'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Empresa 1_form_templatej_idt24_input'), 
         'hoja de vida')
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/li_Listado Hojas de Vida (hoj)'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/li_Listado Hojas de Vida (hoj)'))
 
-    String fecha = WebUI.getAttribute(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/input__hojaVidaseccionj_idt2143fecha_input'), 
+    String fecha = WebUI.getAttribute(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input__hojaVidaseccionj_idt2143fecha_input'), 
         'value')
 
     if (fecha != '07/03/2011') {
-        WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/input__hojaVidaseccionj_idt2143fecha_input'), 
+        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input__hojaVidaseccionj_idt2143fecha_input'), 
             '07/03/2011')
     } else {
-        WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/input__hojaVidaseccionj_idt2143fecha_input'), 
+        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input__hojaVidaseccionj_idt2143fecha_input'), 
             '07/03/2010')
     }
     
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'))
 
-    String seleccion = WebUI.getAttribute(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'), 
+    String seleccion = WebUI.getAttribute(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'), 
         'value')
 
     if (seleccion != 'O+') {
-        WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'), 
+        WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'), 
             7)
     } else {
-        WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'), 
+        WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_--Seleccione--AA-ABAB-BB-OO-'), 
             2)
     }
     
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Guardar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Guardar'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Empleado_glyphicons glyphicons-exit'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Empleado_glyphicons glyphicons-exit'))
 }
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/label_Nueva Hoja Vida'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Novedades'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades'))
 
-WebUI.selectOptionByIndex(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'), 
     3)
 
-if (WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'), 1)) {
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'))
+if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Aprobar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aprobar'))
 
-    WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Aprobación_Novedades/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar'))
 
     WebUI.closeBrowser()
 }

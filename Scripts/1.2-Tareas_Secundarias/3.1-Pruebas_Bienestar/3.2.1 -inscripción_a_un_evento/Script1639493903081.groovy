@@ -21,30 +21,30 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
     'Inscripcion evento (bie)')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Inscripcin'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Inscripcin'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Nombre_formListadoEventosj_idt185'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Nombre_formListadoEventosj_idt185'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/td_'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --prueba-S-SH'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --prueba-S-SH'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Referencia Pago_formListadoEventospIReferencia'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Referencia Pago_formListadoEventospIReferencia'), 
     '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor'), 
     '100')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
     '5')
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
     30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))

@@ -19,90 +19,90 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Listado de empleados')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/span_Listado de Empleados'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/span_Listado de Empleados'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Identificacin_1234567890'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Identificacin_1234567890'), 
     '1234567890')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Identificacin_1234567890'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Identificacin_1234567890'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/span_Gomez Jose'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/span_Gomez Jose'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Incapacidad'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Incapacidad'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Histrico_Pestaa'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Histrico_Pestaa'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Histrico_Pestaa'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Histrico_Pestaa'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Eliminar_Incapacidad'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Eliminar_Incapacidad'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Aceptar_Eliminar_Incapacidad'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Aceptar_Eliminar_Incapacidad'))
 }
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Nuevo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/span_Enfermedad General 21'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/label_NO'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/label_NO'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Salida'), '01/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Salida'), '01/01/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Termina'), '02/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Termina'), '02/01/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Regreso'), '03/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Regreso'), '03/01/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Salida Nomina'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Salida Nomina'), 
     '28/02/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Regreso Nomina'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Regreso Nomina'), 
     '02/03/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Reales'), '2')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Reales'), '2')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Horas Adicionales'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Horas Adicionales'), 
     '500')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Das Acumulados'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Das Acumulados'), 
     '0')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/input_Inicio_form_incapacidadesEmpleadotabsIncapacidadestabfechaInicioIng_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/input_Inicio_form_incapacidadesEmpleadotabsIncapacidadestabfechaInicioIng_input'), 
     '01/01/2021')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/select_Entidad'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/select_Entidad'), 
     '11')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/textarea_Observacin'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/textarea_Observacin'), 
     'PRUEBA')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Eliminar_Incapacidad'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Eliminar_Incapacidad'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Eliminar_Incapacidad'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Eliminar_Incapacidad'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórica Incapacidad/a_Aceptar_Eliminar_Incapacidad'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórica Incapacidad/a_Aceptar_Eliminar_Incapacidad'))
 
 WebUI.closeBrowser()
 

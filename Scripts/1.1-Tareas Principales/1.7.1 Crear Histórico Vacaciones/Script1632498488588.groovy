@@ -19,107 +19,107 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Listado de Empleados')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/span_Listado de Empleados'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/span_Listado de Empleados'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Identificacin_1234567890'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Identificacin_1234567890'), 
     '1234567890')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Identificacin_1234567890'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Identificacin_1234567890'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/span_Gomez Jose'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/span_Gomez Jose'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Vacacin'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Vacacin'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/span_Programacion De Vacaciones'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/span_Programacion De Vacaciones'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/span_Programacion De Vacaciones'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/span_Programacion De Vacaciones'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Eliminar_Programacion'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Eliminar_Programacion'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_Programacion'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_Programacion'))
 }
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/td_Programada'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/td_Programada'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/td_Programada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/td_Programada'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Eliminar Directo_Programada'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Eliminar Directo_Programada'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Eliminar Directo_Programada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Eliminar Directo_Programada'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Aceptar_Programada'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Aceptar_Programada'))
 }
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Pestaa_Histrico'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Pestaa_Histrico'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Pestaa_Histrico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Pestaa_Histrico'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Nuevo historico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Nuevo historico'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/select_Seleccione_PROGRAMACION DE VACACIONES'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/select_Seleccione_PROGRAMACION DE VACACIONES'), 
     0)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/select_Seleccione_PROGRAMACION DE VACACIONES'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/select_Seleccione_PROGRAMACION DE VACACIONES'), 
     '2')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/select_Seleccione_No Aplica'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/select_Seleccione_No Aplica'), 
     '2')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/select_Seleccione_AUSENTISMO'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/select_Seleccione_AUSENTISMO'), 
     '1')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Periodo Disfrute_form_vacaciones_Comienzo'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Periodo Disfrute_form_vacaciones_Comienzo'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Periodo Disfrute_form_vacaciones_Final'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Periodo Disfrute_form_vacaciones_Final'), 
     '07/07/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Fecha Regreso Nomina'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Fecha Regreso Nomina'), 
     '08/07/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Dias'), '6')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Dias'), '6')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Periodo Servicio_Inicio'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Periodo Servicio_Inicio'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Periodo Servicio_Final'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Periodo Servicio_Final'), 
     '07/07/2021')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/input_Periodo Servicio_Final'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/input_Periodo Servicio_Final'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/textarea_Observacin'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/textarea_Observacin'), 
     'PRUEBA')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Eliminar_Historico'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Eliminar_Historico'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Eliminar_Historico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Eliminar_Historico'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_ Historico'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_ Historico'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_ Historico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_ Historico'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

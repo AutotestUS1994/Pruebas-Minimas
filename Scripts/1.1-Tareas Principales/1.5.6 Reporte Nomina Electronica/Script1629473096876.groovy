@@ -19,89 +19,89 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
     'Nomina Electronica')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     '2021')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Reporte'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Reporte'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/td_Reporte Nomina Electrnica'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/td_Reporte Nomina Electrnica'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'))
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'), 
+    if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
     } else {
-        WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar - Copy'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar - Copy'))
     }
     
     WebUI.closeBrowser()
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
         0)
 
-    WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
         'Nomina Electronica')
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/span_Nomina Electronica'), 
         0)
 
-    WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/input_Nomina Electronica_form_templatej_idt24_input'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/td_2021-07-01'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Reporte'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Reporte'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/td_Reporte Nomina Electrnica'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/td_Reporte Nomina Electrnica'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/span_Que desea hacer_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Generar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Continuar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
 
     WebUI.closeBrowser()
 }

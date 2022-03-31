@@ -19,49 +19,49 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida'), 
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida'), 
     0)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida'))
 
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida'), 
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida'), 
     0)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida'))
 
-WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'), 
     '355682169')
 
-WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo'))
 
-WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion'), 
     'prueba')
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ruta = GlobalVariable.G_rutaarchivos + 'HojaDeVida.txt'
 
-WebUI.uploadFile(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
+WebUI.uploadFile(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
     ruta)
 
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'), 
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'), 
     0)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar'))
 
 WebUI.closeBrowser()
 

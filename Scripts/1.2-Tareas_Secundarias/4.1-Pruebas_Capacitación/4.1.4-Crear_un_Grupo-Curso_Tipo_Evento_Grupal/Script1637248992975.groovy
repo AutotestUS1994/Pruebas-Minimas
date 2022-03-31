@@ -19,73 +19,73 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
+if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/div_Grupos'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/div_Grupos'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
+    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Aceptar_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Aceptar_Eliminar'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Nuevo'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Nuevo'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cdigo_popupGruposEvento_formcodigo'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cdigo_popupGruposEvento_formcodigo'), 
         '5')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Descripcin_popupGruposEvento_formdescripcion'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Descripcin_popupGruposEvento_formdescripcion'), 
         'Pruebas k')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Horario_popupGruposEvento_formhorario'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Horario_popupGruposEvento_formhorario'), 
         '16:00')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cupo_popupGruposEvento_formcupo'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cupo_popupGruposEvento_formcupo'), 
         '100')
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.1-Nuevo_Curso'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
+    if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/div_Grupos'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/div_Grupos'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
 
-        if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
+        if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
             1)) {
-            WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
+            WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
 
-            WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Eliminar'))
+            WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Eliminar'))
 
-            WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Aceptar_Eliminar'))
+            WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Aceptar_Eliminar'))
         }
         
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Nuevo'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Nuevo'))
 
-        WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cdigo_popupGruposEvento_formcodigo'), 
+        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cdigo_popupGruposEvento_formcodigo'), 
             '5')
 
-        WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Descripcin_popupGruposEvento_formdescripcion'), 
+        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Descripcin_popupGruposEvento_formdescripcion'), 
             'Prueba')
 
-        WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Horario_popupGruposEvento_formhorario'), 
+        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Horario_popupGruposEvento_formhorario'), 
             '16:00')
 
-        WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cupo_popupGruposEvento_formcupo'), 
+        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cupo_popupGruposEvento_formcupo'), 
             '100')
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
     }
 }
 

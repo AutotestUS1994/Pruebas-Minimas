@@ -20,65 +20,65 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/input_Listado Necesidad Capacitacin_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Listado Necesidad Capacitacin_form_templatej_idt24_input'), 
     'Reserva de Salones')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Reserva de Salones'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_Reserva de Salones'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/td_Sala de Juntas'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/td_Sala de Juntas'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_Pruebas ka'))
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_Pruebas ka'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_Pruebas ka'))
 
-    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Eliminar'), 
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/a_Eliminar'), 
         30)
 
     WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_----'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_----'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Tema_popup_form_reservaSalonestema'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/textarea_Tema_popup_form_reservaSalonestema'), 
     'Pruebas ka')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/select_0830 AM0900 AM0930'), 1)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/select_0830 AM0900 AM0930'), 1)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/input_Nmero Asistentes_popup_form_reservaSalonescantidad'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Nmero Asistentes_popup_form_reservaSalonescantidad'), 
     '20')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Requerimiento_popup_form_reservaSalonesrequerimiento'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/textarea_Requerimiento_popup_form_reservaSalonesrequerimiento'), 
     'Ninguno')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/textarea_Observacin_popup_form_reservaSalonesobservacion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/textarea_Observacin_popup_form_reservaSalonesobservacion'), 
     'Ninguna')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Solicitante_popup_form_reservaSalonesj_idt173'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/a_Solicitante_popup_form_reservaSalonesj_idt173'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
     'a')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/td_A A A'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/td_A A A'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Responsable de reservacin_popup_form_reservaSalonesj_idt177'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/a_Responsable de reservacin_popup_form_reservaSalonesj_idt177'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
     'a')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt205'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/span_A A A'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_A A A'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.executeJavaScript('document.body.style.zoom=\'100%\'', null)
 
 WebUI.scrollToPosition(400, 4000)
 
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo Pruebas Capacitación/Reserva_de_Salones/a_Guardar'), 
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/a_Guardar'), 
     30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))

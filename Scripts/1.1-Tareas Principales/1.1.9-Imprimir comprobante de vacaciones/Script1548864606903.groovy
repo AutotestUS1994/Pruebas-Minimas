@@ -17,19 +17,19 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.8-Mantenimiento de Vacaciones Reliquidar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Imprimir comprobante de vacaciones/td_1234567890'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/td_1234567890'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Imprimir comprobante de vacaciones/td_1234567890'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/td_1234567890'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Imprimir comprobante de vacaciones/span_Imprimir'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/span_Imprimir'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Imprimir comprobante de vacaciones/input_Publicar_j_idt712tipo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/input_Publicar_j_idt712tipo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Imprimir comprobante de vacaciones/select_-- Seleccione --COMPROB'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/select_-- Seleccione --COMPROB'), 
     '1')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Imprimir comprobante de vacaciones/a_Publicar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/a_Publicar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

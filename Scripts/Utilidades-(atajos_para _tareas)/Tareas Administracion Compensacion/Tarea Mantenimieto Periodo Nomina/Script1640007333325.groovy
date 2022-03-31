@@ -18,14 +18,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/input_Actos Administrativos_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Mantenimieto Periodo Nomina/input_Actos Administrativos_form_templatej_idt24_input'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/input_Actos Administrativos_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Mantenimieto Periodo Nomina/input_Actos Administrativos_form_templatej_idt24_input'), 
     'Mantenimiento Periodo')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/span_Mantenimiento Periodo'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Mantenimieto Periodo Nomina/span_Mantenimiento Periodo'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Mantenimieto Periodo Nomina/span_Mantenimiento Periodo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Mantenimieto Periodo Nomina/span_Mantenimiento Periodo'))
 

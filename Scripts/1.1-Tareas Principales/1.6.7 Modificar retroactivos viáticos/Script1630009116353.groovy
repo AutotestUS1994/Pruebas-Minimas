@@ -16,47 +16,51 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Listado de Viaticos (act)')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/li_Listado de Viaticos (act)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/li_Listado de Viaticos (act)'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Listado Viticos_cerrar_menu'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Listado Viticos_cerrar_menu'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Listado Viticos_cerrar_menu'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Listado Viticos_cerrar_menu'))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Listado Costos Pendientes (act)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/Span_selec menu'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/Span_selec menu'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/Span_selec menu'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/Span_selec menu'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/select_--Seleccione--Nota Reembolso'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/select_--Seleccione--Nota Reembolso'), 
     0)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/select_--Seleccione--Nota Reembolso'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/select_--Seleccione--Nota Reembolso'), 
     '2')
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/td_QUINTERO 5 EMPLEADO'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/td_QUINTERO 5 EMPLEADO'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/td_QUINTERO 5 EMPLEADO'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/td_QUINTERO 5 EMPLEADO'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Aplicar Reembolso'))
 
-    WebUI.closeBrowser()
+	WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar retroactivos/a_Aplicar Reembolso'),
+		30)
+	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+    
+	WebUI.closeBrowser()
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.6.2 Complementario de Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 }

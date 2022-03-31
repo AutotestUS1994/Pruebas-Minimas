@@ -17,40 +17,40 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
     '354968431354')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Identificacin_listadoEmp'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/span_CONSTA BELFEGORD JHON'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/span_Liquidacin Periodica'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/span_Liquidacin Periodica'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/span_Liquidacin Periodica'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/span_Liquidacin Periodica'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/a_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/a_Nuevo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/select_-- seleccione --BC - PR'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/select_-- seleccione --BC - PR'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/select_-- seleccione --BC - PR'), 
+WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/select_-- seleccione --BC - PR'), 
     'BC', true)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
     '01/12/2018')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/a_Guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/a_Guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion Periodica/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/a_Guardar'))
 
 WebUI.waitForElementVisible(findTestObject('Alerta/Alerta'), 0)
 

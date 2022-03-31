@@ -69,52 +69,52 @@ WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo
 
 WebUI.scrollToPosition(0, 100)
 
-WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_Prueba-S'), 
+WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/td_Prueba-S'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_Prueba-S'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/td_Prueba-S'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_CostoEvento'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_CostoEvento'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_TEST FB'), 
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/td_TEST FB'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_TEST FB_form_costoEventolistaCostoEvento0j_idt663'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_TEST FB_form_costoEventolistaCostoEvento0j_idt663'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Aceptar_eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Aceptar_eliminar'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/select_-- Seleccione --SALON 1SALON 2SALON 3'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/select_-- Seleccione --SALON 1SALON 2SALON 3'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocENumero'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocENumero'), 
     '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocEFechaPago_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocEFechaPago_input'), 
     Fechaini)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocEValor'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocEValor'), 
     '99966')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/select_-- Seleccione --Plan CapacitacinSUB PLAN EVENTO BIENESTARTEST FBSub Plan Inversin Alimen 7'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/select_-- Seleccione --Plan CapacitacinSUB PLAN EVENTO BIENESTARTEST FBSub Plan Inversin Alimen 7'), 
     '3')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Plan de Inversin_form_costoEventolistaCostoEventoj_idt665'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Plan de Inversin_form_costoEventolistaCostoEventoj_idt665'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Evento Bienestar_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/input_Evento Bienestar_form_templatej_idt24_input'), 
     'Plan Inversion Bienestar (bie)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)'), 
+WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Sub Plan Inversion'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Sub Plan Inversion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Abiertos_form_planDeInversionbienestarj_idt119'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Abiertos_form_planDeInversionbienestarj_idt119'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_99.966,00'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/td_99.966,00'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Eliminar'), 
+WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Eliminar'), 
     0)
 
 WebUI.closeBrowser()

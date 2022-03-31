@@ -20,65 +20,65 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Identificacin_listadoEmp'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Identificacin_listadoEmp'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Identificacin_listadoEmp'), 
     '354968431354')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Identificacin_listadoEmp'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Identificacin_listadoEmp'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/span_CONSTA BELFEGORD JHON'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Solicitud'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Solicitud'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/span_Certificado Personal Planta_ preexistente'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/span_Certificado Personal Planta_ preexistente'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/span_Certificado Personal Planta_ preexistente'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/span_Certificado Personal Planta_ preexistente'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Eliminar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Eliminar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Eliminar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/span_Si'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/span_Si'))
 }
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/span_Prueba'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/span_Prueba'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Acta De Grado   Diploma_form_solicitudesEmpleadolistaDocumentos0j_idt2892'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Acta De Grado   Diploma_form_solicitudesEmpleadolistaDocumentos0j_idt2892'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Acta De Grado   Diploma_form_solicitudesEmpleadolistaDocumentos0j_idt2892'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Acta De Grado   Diploma_form_solicitudesEmpleadolistaDocumentos0j_idt2892'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Se ha cargado el archivo_popupDocumentoNovedad'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Se ha cargado el archivo_popupDocumentoNovedad'), 
     0)
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ruta = GlobalVariable.G_rutaarchivos + 'certificado_personal_planta.txt'
 
-WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Se ha cargado el archivo_popupDocumentoNovedad'), 
+WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Se ha cargado el archivo_popupDocumentoNovedad'), 
     ruta)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Vigencia_popupDocumentoNovedad'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Vigencia_popupDocumentoNovedad'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Vigencia_popupDocumentoNovedad'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Vigencia_popupDocumentoNovedad'), 
     '01/07/2021')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/input_Vigencia_popupDocumentoNovedad_formvigencia_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/input_Vigencia_popupDocumentoNovedad_formvigencia_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/textarea_Observacin_popupDocumentoNovedad_formobservacion'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/textarea_Observacin_popupDocumentoNovedad_formobservacion'), 
     'PRUEBA')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Guardar_Solicitud'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Guardar_Solicitud'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Solicitud certificado/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

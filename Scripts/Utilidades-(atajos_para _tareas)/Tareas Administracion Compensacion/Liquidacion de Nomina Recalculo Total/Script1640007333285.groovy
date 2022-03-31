@@ -16,18 +16,18 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/input_Periodo Cerrado_Liquidac'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/input_Periodo Cerrado_Liquidac'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/input_Periodo Cerrado_Liquidac'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/input_Periodo Cerrado_Liquidac'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/span_Semanal 2018 10'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/span_Semanal 2018 10'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/input_Estado_LiquidacionNomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/input_Estado_LiquidacionNomina'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/span_Reclculo Total'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/span_Reclculo Total'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/span_Si'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion de Nomina Recalculo Total/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion de Nomina Recalculo Total/a_Continuar'))
 

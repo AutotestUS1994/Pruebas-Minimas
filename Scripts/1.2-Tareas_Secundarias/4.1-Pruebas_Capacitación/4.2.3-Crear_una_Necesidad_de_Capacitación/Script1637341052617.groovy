@@ -19,58 +19,58 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Evento Capacitacin_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/input_Evento Capacitacin_form_templatej_idt24_input'), 
     'Listado necesidad de capacitacion')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/li_Listado necesidad de capacitacion (cap)'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/li_Listado necesidad de capacitacion (cap)'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/td_A A A'), 
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/td_A A A'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/td_A A A'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/td_A A A'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Cambiar Datos'), 
+    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Cambiar Datos'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Cambiar Datos'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Cambiar Datos'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_Si'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_Si'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Aceptar_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Aceptar_Eliminar'))
     } else {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_Si'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_Si'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Aceptar_Eliminar'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Aceptar_Eliminar'))
     }
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Nuevo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Nuevo'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_prueba np'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_prueba np'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Nombre_formj_idt628'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Nombre_formj_idt628'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726'), 
     'a')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_A A A'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_A A A'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Solicitado Por_formj_idt661'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Solicitado Por_formj_idt661'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formj_idt723'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formj_idt723'), 
     'a')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formj_idt723'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formj_idt723'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/span_Aalfalfa Aalfalfa Aalfalfa'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_Aalfalfa Aalfalfa Aalfalfa'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Crear_una_Necesidad_de_Capacitación/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Guardar'))
 
 WebUI.closeBrowser()
 

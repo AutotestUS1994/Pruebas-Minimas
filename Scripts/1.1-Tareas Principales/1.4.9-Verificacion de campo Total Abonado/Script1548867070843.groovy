@@ -16,22 +16,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
     '354968431354')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/span_CONSTA BELFEGORD JHON'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/span_Liquidacin Periodica'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/span_Liquidacin Periodica'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/span_PRESTAMO BANCOLOMBIA'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/span_PRESTAMO BANCOLOMBIA'))
 
 WebUI.closeBrowser()
 

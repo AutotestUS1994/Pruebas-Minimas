@@ -19,37 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida'))
 
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida'), 
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida'), 
     0)
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida'))
 
-WebUI.waitForElementClickable(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'), 
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'), 
     0)
 
-WebUI.setText(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'), 
     '355682169')
 
-WebUI.sendKeys(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'), 
+WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/td_355682169'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_355682169'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Generar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Generar'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado'))
 
-WebUI.click(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'))
 
 WebUI.switchToWindowTitle('SARA')
 
-WebUI.waitForElementVisible(findTestObject('Pruebas_Hoja_de_Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'), 0)
+WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'), 0)
 
 WebUI.closeBrowser()
 

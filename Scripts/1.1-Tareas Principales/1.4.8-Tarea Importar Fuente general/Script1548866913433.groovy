@@ -18,34 +18,34 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Sara General/Importar Fuente General/input_Ir_nav_t66_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Ir_nav_t66_input'), 
     3)
 
-WebUI.setText(findTestObject('Modulo Tarea Sara General/Importar Fuente General/input_Ir_nav_t66_input'), 'Importar Fuente General (gna)')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Ir_nav_t66_input'), 'Importar Fuente General (gna)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Sara General/Importar Fuente General/span_Importar Fuente General (gna)'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/span_Importar Fuente General (gna)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Sara General/Importar Fuente General/span_Importar Fuente General (gna)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/span_Importar Fuente General (gna)'))
 
-WebUI.setText(findTestObject('Modulo Tarea Sara General/Importar Fuente General/input_Importar Fuente_formImpo'), 'Insertar las liquidaciones periodicas de prestamo')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Importar Fuente_formImpo'), 'Insertar las liquidaciones periodicas de prestamo')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Sara General/Importar Fuente General/input_Importar Fuente_formImpo'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Importar Fuente_formImpo'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Sara General/Importar Fuente General/td_Insertar Las Liquidaciones Periodicas De Prestamo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/td_Insertar Las Liquidaciones Periodicas De Prestamo'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ruta = GlobalVariable.G_rutaarchivos + 'ArchivoPlanoLiquidacionNomina.txt'
 
-WebUI.uploadFile(findTestObject('Modulo Tarea Sara General/Importar Fuente General/Archivo Cargue Fuente'), ruta)
+WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/Archivo Cargue Fuente'), ruta)
 
-filePath = WebUI.getAttribute(findTestObject('Modulo Tarea Sara General/Importar Fuente General/Archivo Cargue Fuente'), 
+filePath = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/Archivo Cargue Fuente'), 
     'value')
 
-WebUI.click(findTestObject('Modulo Tarea Sara General/Importar Fuente General/a_Importar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/a_Importar'))
 
-WebUI.click(findTestObject('Modulo Tarea Sara General/Importar Fuente General/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/a_Continuar'))
 
 WebUI.closeBrowser()
 

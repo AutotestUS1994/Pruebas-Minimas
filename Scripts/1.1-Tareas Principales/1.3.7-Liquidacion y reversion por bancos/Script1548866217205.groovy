@@ -16,32 +16,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Generacion Entidad Pago'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Traer'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Traer'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Traer'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Traer'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/label_Periodo Fuera de Nomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/label_Periodo Fuera de Nomina'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/input_Fecha_form_popUpTraer'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/input_Fecha_form_popUpTraer'), 
     '01/06/2021')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Aplicar (1)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Aplicar (1)'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/span_Bogota_ui-chkbox-icon ui-icon ui-icon-blank ui-c'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/span_Bogota_ui-chkbox-icon ui-icon ui-icon-blank ui-c'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Liquidar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Liquidar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Continua'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Continua'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Reversar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Reversar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Reversar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Reversar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar (1)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar (1)'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

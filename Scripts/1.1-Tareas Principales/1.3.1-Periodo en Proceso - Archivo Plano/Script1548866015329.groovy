@@ -18,52 +18,52 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/a_Periodo Nomina_LiquidacionNominaj_idt63'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/a_Periodo Nomina_LiquidacionNominaj_idt63'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/span_P MensualJulio2021'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/span_P MensualJulio2021'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/span_P MensualJulio2021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/span_P MensualJulio2021'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/span_Archivo Plano'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/span_Archivo Plano'))
 
-WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_ddMMyyddMMyyyyyyMMddyyy'), 
+WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/select_ddMMyyddMMyyyyyyMMddyyy'), 
     'dd/MM/yy', true)
 
-WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/select_Acumular valorAdicionar'), 
+WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/select_Acumular valorAdicionar'), 
     'I', true)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/select_Acumular valorAdicionar nicamenteReemplazar valor'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_Acumular valorAdicionar nicamenteReemplazar valor'), 
     1)
 
 /*------------------------*/
 String ruta = GlobalVariable.G_rutaarchivos + 'ArchivoPlanoLiquidacionNomina.txt'
 
-WebUI.uploadFile(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
+WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
     ruta)
 
-filePath = WebUI.getAttribute(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
+filePath = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
     'value')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/a_Importar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/a_Importar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/a_Importar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/a_Importar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/span_Aplicar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/span_Aplicar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Periodo en Proceso - Archivo Plano/Page_SARA/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Page_SARA/span_Si'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

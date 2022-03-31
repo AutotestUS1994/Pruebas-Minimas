@@ -18,39 +18,39 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Administracion Compensacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
     'Administracion Embargos')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Ir_nav_t66_input'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Periodo/span_Administracion Embargos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Periodo/span_Administracion Embargos'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/span_Generacion Por Fechas'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/span_Generacion Por Fechas'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Fecha Inicial_banco_agra'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Fecha Inicial_banco_agra'), 
     '01/01/2019')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Fecha Inicial_banco_agra'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Fecha Inicial_banco_agra'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Fecha Final_banco_agrari'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Fecha Final_banco_agrari'), 
     '31/01/2019')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Fecha Final_banco_agrari'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Fecha Final_banco_agrari'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_Nombre Funcionario_listadoEm'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/input_Tipo Periodo_banco_agrar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/input_Tipo Periodo_banco_agrar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/span_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/span_Generar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/span_Archivo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/span_Archivo'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Administracion Embargos por Fecha/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Administracion Embargos por Fecha/span_Si'))
 

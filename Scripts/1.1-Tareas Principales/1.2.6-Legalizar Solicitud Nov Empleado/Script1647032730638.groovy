@@ -19,69 +19,69 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Aplicacion Nov. Empleado'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_Consta Belfegord . Jhon'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Consta Belfegord . Jhon'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.2.3-Legalizar Licencia Remunerada'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Aplicacion Nov. Empleado/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Aplicacion Nov. Empleado/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
         'Aplicacion Nov. Empleado (com)')
 
-    WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_legalizar solicitud nov emp'), 
+    WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_legalizar solicitud nov emp'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_legalizar solicitud nov emp'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_legalizar solicitud nov emp'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por Autorizar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar licencia Remunerada/span_CONSTA BELFEGORD JHON'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_CONSTA BELFEGORD JHON'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
 }
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por legalizar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por legalizar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por legalizar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por legalizar'))
 
-WebUI.check(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
+WebUI.check(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
 
 /*
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/div_Estado_ui-chkbox-box ui-widget'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Estado_ui-chkbox-box ui-widget'))
 */
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Legalizacin'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Legalizacin'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar'))
 
 WebUI.closeBrowser()
 

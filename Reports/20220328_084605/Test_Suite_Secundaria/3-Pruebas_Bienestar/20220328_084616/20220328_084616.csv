@@ -1,0 +1,435 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3-Pruebas_Bienestar,Chrome 99.0.4844.82,,,2022-03-28 08:49:16,2022-03-28 09:03:52,"14m - 35,945s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento,Chrome 99.0.4844.82,,,2022-03-28 08:49:17,2022-03-28 08:52:14,"2m - 57,419s",PASSED
+today = new java.util.Date(),Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,009s",PASSED
+"Dia = today.format(""dd"")",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,003s",PASSED
+"Mes = today.format(""MM"")",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,002s",PASSED
+"MesN = today.format(""MM"")",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,001s",PASSED
+"Año = today.format(""yyyy"")",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,000s",PASSED
+"AñoN = today.format(""yyyy"")",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,001s",PASSED
+sumaA = Año + 1,Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,001s",PASSED
+if (sumaD > 30),Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,005s",PASSED
+if (sumaM > 12),Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,001s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,002s",PASSED
+"FechaF = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:18,"0,003s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:49:18,2022-03-28 08:49:31,"13,537s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:49:31,2022-03-28 08:50:24,"52,450s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/td_Prueba-S-SH""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:50:24,2022-03-28 08:51:19,"55,631s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Nuevo""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:19,2022-03-28 08:51:20,"1,141s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --aprea de Saludrea Formativarea Deportivarea de cienciasrea Social""), 3)",Chrome 99.0.4844.82,,,2022-03-28 08:51:20,2022-03-28 08:51:22,"2,019s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Promocin y prevencinActivate Acompaamiento psicosocial Semana de la SaludSeguimiento puestos de trabajo""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:22,2022-03-28 08:51:24,"1,500s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Evento grupo Bienestar MultipleEvento Grupo Bienestar Multiple SIEvento Grupo Bienestar nicoEvento Individual Multiple SS""), 5)",Chrome 99.0.4844.82,,,2022-03-28 08:51:24,2022-03-28 08:51:25,"1,524s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Aplicar""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:51:25,2022-03-28 08:51:26,"0,537s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Aplicar""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:26,2022-03-28 08:51:27,"0,617s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:51:27,2022-03-28 08:51:28,"1,202s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), ""Prueba-S"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:28,2022-03-28 08:51:29,"0,904s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Inicial Desarrollo_formEventosfechaIn_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:51:29,2022-03-28 08:51:30,"0,946s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Final Desarrollo_formEventosfechaFin_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:51:30,2022-03-28 08:51:31,"1,016s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:31,2022-03-28 08:51:31,"0,663s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:31,2022-03-28 08:51:33,"1,947s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Nuevo1""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:33,2022-03-28 08:51:34,"0,874s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Cdigo_popupMomentoEvento_formcodigo""), ""355682169"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:34,2022-03-28 08:51:36,"1,321s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_popupMomentoEvento_formpMENombre""), ""prueba"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:36,2022-03-28 08:51:37,"1,071s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --ESCENARIO DE PRUEBASALON 1""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:51:37,2022-03-28 08:51:38,"1,080s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --FemeninaMasculinaMixta""), 3)",Chrome 99.0.4844.82,,,2022-03-28 08:51:38,2022-03-28 08:51:39,"1,731s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Nivel BsicoNivel IntermedionicoNivel Avanzado""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:51:39,2022-03-28 08:51:40,"1,080s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo""), ""150"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:40,2022-03-28 08:51:41,"0,908s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:41,2022-03-28 08:51:42,"0,869s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --CanceladoProgramada""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:51:42,2022-03-28 08:51:44,"1,430s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:51:44,2022-03-28 08:51:45,"0,849s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:51:45,2022-03-28 08:51:46,"1,022s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar1""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:46,2022-03-28 08:51:46,"0,576s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Regresar""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:46,2022-03-28 08:51:48,"1,517s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Nuevo""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:48,2022-03-28 08:51:49,"1,059s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --aprea de Saludrea Formativarea Deportivarea de cienciasrea Social""), 5)",Chrome 99.0.4844.82,,,2022-03-28 08:51:49,2022-03-28 08:51:50,"1,562s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Promocin y prevencinActivate Acompaamiento psicosocial Semana de la SaludSeguimiento puestos de trabajo""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:50,2022-03-28 08:51:52,"1,409s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Evento grupo Bienestar MultipleEvento Grupo Bienestar Multiple SIEvento Grupo Bienestar nicoEvento Individual Multiple SS""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:51:52,2022-03-28 08:51:53,"1,540s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Aplicar""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:53,2022-03-28 08:51:54,"0,743s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:51:54,2022-03-28 08:51:55,"0,991s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), ""Prueba-S-SH"")",Chrome 99.0.4844.82,,,2022-03-28 08:51:55,2022-03-28 08:51:56,"0,894s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Inicial Desarrollo_formEventosfechaIn_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:51:56,2022-03-28 08:51:57,"1,161s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Final Desarrollo_formEventosfechaFin_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:51:57,2022-03-28 08:51:58,"1,088s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:58,2022-03-28 08:51:59,"0,721s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos""))",Chrome 99.0.4844.82,,,2022-03-28 08:51:59,2022-03-28 08:52:00,"0,957s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Nuevo1""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:00,2022-03-28 08:52:01,"1,021s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Cdigo_popupMomentoEvento_formcodigo""), ""355682169"")",Chrome 99.0.4844.82,,,2022-03-28 08:52:01,2022-03-28 08:52:03,"1,807s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Nombre_popupMomentoEvento_formpMENombre""), ""prueba-S-SH"")",Chrome 99.0.4844.82,,,2022-03-28 08:52:03,2022-03-28 08:52:04,"0,921s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --ESCENARIO DE PRUEBASALON 1""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:52:04,2022-03-28 08:52:05,"1,031s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --FemeninaMasculinaMixta""), 3)",Chrome 99.0.4844.82,,,2022-03-28 08:52:05,2022-03-28 08:52:06,"1,131s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Nivel BsicoNivel IntermedionicoNivel Avanzado""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:52:06,2022-03-28 08:52:07,"1,031s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo""), ""150"")",Chrome 99.0.4844.82,,,2022-03-28 08:52:07,2022-03-28 08:52:08,"0,805s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:52:08,2022-03-28 08:52:08,"0,853s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Canizalez Acero Marta BrigitteMendoza 1010 Empleado""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:52:08,2022-03-28 08:52:09,"1,076s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --CanceladoProgramada""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:52:09,2022-03-28 08:52:11,"1,041s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:52:11,2022-03-28 08:52:11,"0,932s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:52:11,2022-03-28 08:52:13,"1,101s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Guardar1""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:13,2022-03-28 08:52:13,"0,595s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_un_Evento/a_Regresar""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:13,2022-03-28 08:52:14,"1,028s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.2-Ingresar_instructores,Chrome 99.0.4844.82,,,2022-03-28 08:52:14,2022-03-28 08:52:33,"19,071s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:52:15,2022-03-28 08:52:24,"9,658s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Ingresar instructores/td_Prueba""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:52:24,2022-03-28 08:52:32,"8,126s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:52:32,2022-03-28 08:52:33,"0,877s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.3-Ingresar entidades,Chrome 99.0.4844.82,,,2022-03-28 08:52:33,2022-03-28 08:52:49,"15,578s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:52:34,2022-03-28 08:52:43,"9,142s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Ingresar_Entidades/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:43,2022-03-28 08:52:44,"0,743s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Ingresar_Entidades/a_Entidades""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:44,2022-03-28 08:52:44,"0,843s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Ingresar_Entidades/a_US_form_entidadlistaEntidades0j_idt626""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:52:44,2022-03-28 08:52:47,"2,092s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Ingresar_Entidades/select_-- Seleccione --US""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:52:47,2022-03-28 08:52:48,"1,072s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Ingresar_Entidades/a_Entidades_form_entidadlistaEntidadesj_idt628""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:48,2022-03-28 08:52:48,"0,471s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:52:48,2022-03-28 08:52:49,"0,721s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.4-Filtro_de_asistentes,Chrome 99.0.4844.82,,,2022-03-28 08:52:49,2022-03-28 08:54:07,"1m - 17,765s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:52:49,2022-03-28 08:52:59,"9,217s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 08:52:59,2022-03-28 08:53:00,"1,279s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_DirigidoA""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:00,2022-03-28 08:53:01,"0,795s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt793""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:53:01,2022-03-28 08:53:03,"2,079s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/select_-- Seleccione --CargoCargos""), 6)",Chrome 99.0.4844.82,,,2022-03-28 08:53:03,2022-03-28 08:53:04,"1,151s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMinima""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:53:04,2022-03-28 08:53:05,"1,109s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMaxima""), ""80"")",Chrome 99.0.4844.82,,,2022-03-28 08:53:05,2022-03-28 08:53:06,"0,853s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBj_idt794""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:06,2022-03-28 08:53:06,"0,473s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Regresar""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:06,2022-03-28 08:53:08,"1,399s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:08,2022-03-28 08:53:09,"0,980s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_DirigidoA""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:09,2022-03-28 08:53:10,"0,860s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Edad_form_condicionDerechoTipoBeneftabla_ventanaCDTB0j_idt793""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:53:10,2022-03-28 08:53:12,"2,307s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/select_-- Seleccione --CargoCargos""), 6)",Chrome 99.0.4844.82,,,2022-03-28 08:53:12,2022-03-28 08:53:13,"1,282s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMinima""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:53:13,2022-03-28 08:53:15,"1,398s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMaxima""), ""80"")",Chrome 99.0.4844.82,,,2022-03-28 08:53:15,2022-03-28 08:53:15,"0,811s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBj_idt794""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:15,2022-03-28 08:53:16,"0,463s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/div_Participante""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:16,2022-03-28 08:53:17,"0,842s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Invitacin""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:17,2022-03-28 08:53:17,"0,645s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:53:17,2022-03-28 08:53:19,"1,942s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Filtrar""))",Chrome 99.0.4844.82,,,2022-03-28 08:53:19,2022-03-28 08:53:20,"0,517s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/span_Listado Hojas de Vida (hoj)""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:53:20,2022-03-28 08:54:06,"46,201s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:54:06,2022-03-28 08:54:07,"0,677s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.5-Publicación_del_evento,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:56:44,"2m - 37,004s",PASSED
+"comment(""No Ejecutar. Falla con imagen subida"")",Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,038s",PASSED
+fecha = new java.util.Date(),Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+Dia = fecha.getDate(),Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,002s",PASSED
+Mes = fecha.getMonth() + 1,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,002s",PASSED
+MesN = fecha.getMonth() + 1,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,001s",PASSED
+Año = fecha.getYear() + 1900,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+AñoN = fecha.getYear() + 1900,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,001s",PASSED
+DiaF = Dia + 10,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+MesF = Mes + 1,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,001s",PASSED
+AñoF = Año + 1,Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+if (DiaF > 30),Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+if (MesF > 12),Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,001s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+"FechaF = DiaF + ""/"" + Mes + ""/"" + Año",Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:07,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:54:07,2022-03-28 08:54:17,"10,123s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:17,2022-03-28 08:54:18,"1,056s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_Publicacin""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:18,2022-03-28 08:54:19,"0,862s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab_form_publicacionEventotabla10j_idt241""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:54:19,2022-03-28 08:54:21,"1,792s",PASSED
+"ruta = G_rutaarchivos + ""logo_union_soluciones.jpg""",Chrome 99.0.4844.82,,,2022-03-28 08:54:21,2022-03-28 08:54:21,"0,000s",PASSED
+"uploadFile(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input""), ruta)",Chrome 99.0.4844.82,,,2022-03-28 08:54:21,2022-03-28 08:54:22,"1,047s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:54:22,2022-03-28 08:54:23,"0,742s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:23,2022-03-28 08:54:24,"1,105s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:24,2022-03-28 08:54:25,"1,053s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:54:25,2022-03-28 08:54:26,"0,488s",PASSED
+"Imagen = getText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:26,2022-03-28 08:54:26,"0,383s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank""), Imagen)",Chrome 99.0.4844.82,,,2022-03-28 08:54:26,2022-03-28 08:54:27,"1,334s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ui-editor-button""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:27,2022-03-28 08:54:28,"0,576s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input""), Imagen)",Chrome 99.0.4844.82,,,2022-03-28 08:54:28,2022-03-28 08:54:29,"1,023s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/submit""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:29,2022-03-28 08:54:29,"0,469s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Fecha Publicacin_form_publicacionEventofechaInicialPub_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:54:29,2022-03-28 08:54:31,"1,260s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Fecha Final_form_publicacionEventofechaFinalPub_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:54:31,2022-03-28 08:54:32,"1,207s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:32,2022-03-28 08:54:33,"0,981s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Evento Bienestar_form_templatej_idt24_input""), ""inscripcion evento"")",Chrome 99.0.4844.82,,,2022-03-28 08:54:33,2022-03-28 08:54:35,"1,808s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)""))",Chrome 99.0.4844.82,,,2022-03-28 08:54:35,2022-03-28 08:54:36,"1,506s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/div_IndividualArea TalentoPrograma""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:54:36,2022-03-28 08:55:22,"46,148s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:55:22,2022-03-28 08:55:36,"13,355s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:36,2022-03-28 08:55:38,"2,561s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_Publicacin""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:38,2022-03-28 08:55:39,"0,902s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab_form_publicacionEventotabla10j_idt241""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:55:39,2022-03-28 08:55:41,"2,424s",PASSED
+"ruta2 = G_rutaarchivos + ""saraapp.png""",Chrome 99.0.4844.82,,,2022-03-28 08:55:41,2022-03-28 08:55:41,"0,000s",PASSED
+"uploadFile(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input""), ruta2)",Chrome 99.0.4844.82,,,2022-03-28 08:55:41,2022-03-28 08:55:42,"0,807s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1subir""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:42,2022-03-28 08:55:44,"1,653s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:55:44,2022-03-28 08:55:44,"0,452s",PASSED
+"Imagen2 = getText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:44,2022-03-28 08:55:45,"0,417s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank""), Imagen2)",Chrome 99.0.4844.82,,,2022-03-28 08:55:45,2022-03-28 08:55:47,"1,761s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/div_Contenido_ui-editor-button""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:47,2022-03-28 08:55:47,"0,676s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input""), Imagen2)",Chrome 99.0.4844.82,,,2022-03-28 08:55:47,2022-03-28 08:55:49,"1,802s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/submit""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:49,2022-03-28 08:55:50,"0,776s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Fecha Publicacin_form_publicacionEventofechaInicialPub_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:55:50,2022-03-28 08:55:51,"0,975s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Fecha Final_form_publicacionEventofechaFinalPub_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:55:51,2022-03-28 08:55:52,"0,960s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:52,2022-03-28 08:55:52,"0,689s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/a_Actualizar""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:52,2022-03-28 08:55:53,"1,040s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/input_Evento Bienestar_form_templatej_idt24_input""), ""inscripcion evento"")",Chrome 99.0.4844.82,,,2022-03-28 08:55:53,2022-03-28 08:55:55,"1,527s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)""))",Chrome 99.0.4844.82,,,2022-03-28 08:55:55,2022-03-28 08:55:57,"1,501s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Publicación del evento/div_IndividualArea TalentoPrograma""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:55:57,2022-03-28 08:56:43,"46,332s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:56:43,2022-03-28 08:56:44,"0,763s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.6-Programación,Chrome 99.0.4844.82,,,2022-03-28 08:56:44,2022-03-28 08:57:09,"24,974s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:56:44,2022-03-28 08:56:54,"9,362s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación/td_Evento Salud Unico""))",Chrome 99.0.4844.82,,,2022-03-28 08:56:54,2022-03-28 08:56:55,"1,448s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación/a_Programacin""))",Chrome 99.0.4844.82,,,2022-03-28 08:56:55,2022-03-28 08:56:56,"1,188s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:56:56,2022-03-28 08:56:58,"2,266s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programación/input_Horario_form_programacionMomentoEventotablaMomentoEventoHorariofechaIniciaPME_input""), ""27/11/2018"")",Chrome 99.0.4844.82,,,2022-03-28 08:56:58,2022-03-28 08:57:00,"1,178s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programación/input_Horario_form_programacionMomentoEventotablaMomentoEventoHorariofechaTerminaPME_input""), ""28/11/2018"")",Chrome 99.0.4844.82,,,2022-03-28 08:57:00,2022-03-28 08:57:01,"1,256s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación/a_Horario_form_programacionMomentoEventotablaMomentoEventoHorarioj_idt833""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:01,2022-03-28 08:57:02,"0,598s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Programación/label_MAR""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:02,2022-03-28 08:57:02,"0,871s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Programación/label_MIE""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:02,2022-03-28 08:57:03,"0,482s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programación/select_hora1""), 5)",Chrome 99.0.4844.82,,,2022-03-28 08:57:03,2022-03-28 08:57:04,"1,365s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programación/select_hora 2""), 6)",Chrome 99.0.4844.82,,,2022-03-28 08:57:04,2022-03-28 08:57:05,"1,201s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación/a_mas_horario""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:05,2022-03-28 08:57:06,"0,575s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación/a_Aplicar""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:06,2022-03-28 08:57:07,"0,895s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación/a_mas""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:07,2022-03-28 08:57:08,"0,969s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:57:08,2022-03-28 08:57:09,"0,733s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:58:20,"1m - 10,939s",PASSED
+today = new java.util.Date(),Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,001s",PASSED
+"Dia = today.format(""dd"")",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,001s",PASSED
+"MesN = today.format(""MM"")",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+"AñoN = today.format(""yyyy"")",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+sumaA = Año + 1,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+if (sumaD > 30),Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,001s",PASSED
+if (sumaM > 12),Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+Dia0 = Dia + 1,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+restaD0 = sumaD - 1,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+if (Dia0 > 30),Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+else,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,001s",PASSED
+if (restaD0 < 1),Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+else,Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,001s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+"FechaF = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+"FechaI0 = Dia0 + ""/"" + MesN + ""/"" + AñoN",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,001s",PASSED
+"FechaF0 = restaD0 + ""/"" + Mes + ""/"" + Año",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:09,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:57:09,2022-03-28 08:57:19,"9,989s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:19,2022-03-28 08:57:21,"1,803s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:21,2022-03-28 08:57:22,"0,922s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/td_prueba""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:22,2022-03-28 08:57:23,"0,837s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:57:23,2022-03-28 08:57:25,"2,380s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:57:25,2022-03-28 08:57:27,"1,812s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:57:27,2022-03-28 08:57:28,"1,287s",PASSED
+"waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:57:28,2022-03-28 08:57:29,"0,483s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:57:29,2022-03-28 08:57:30,"0,959s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input""), Keys.chord(ENTER))",Chrome 99.0.4844.82,,,2022-03-28 08:57:30,2022-03-28 08:57:31,"0,641s",PASSED
+"waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:57:31,2022-03-28 08:57:32,"1,087s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:57:32,2022-03-28 08:57:33,"1,281s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), Keys.chord(ESCAPE))",Chrome 99.0.4844.82,,,2022-03-28 08:57:33,2022-03-28 08:57:33,"0,581s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579""), STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:57:33,2022-03-28 08:57:34,"0,895s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), Keys.chord(ENTER))",Chrome 99.0.4844.82,,,2022-03-28 08:57:34,2022-03-28 08:57:36,"1,434s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/label_MAR""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:57:36,2022-03-28 08:57:36,"0,455s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/label_MAR""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:36,2022-03-28 08:57:37,"0,534s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/label_MIE""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:37,2022-03-28 08:57:37,"0,537s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/select_01""), 5)",Chrome 99.0.4844.82,,,2022-03-28 08:57:37,2022-03-28 08:57:38,"1,153s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/select_02""), 6)",Chrome 99.0.4844.82,,,2022-03-28 08:57:38,2022-03-28 08:57:41,"2,541s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_mas_Horario""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:41,2022-03-28 08:57:42,"0,615s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/td_LUN-MAR 0500-0600""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:57:42,2022-03-28 08:57:45,"3,339s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Aplicar""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:45,2022-03-28 08:57:46,"0,734s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Icon_mas_principal""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:46,2022-03-28 08:57:47,"0,812s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:47,2022-03-28 08:57:48,"1,146s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Regresar""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:48,2022-03-28 08:57:49,"1,353s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:49,2022-03-28 08:57:50,"1,059s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:50,2022-03-28 08:57:51,"0,819s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/td_prueba""))",Chrome 99.0.4844.82,,,2022-03-28 08:57:51,2022-03-28 08:57:52,"0,881s",PASSED
+"if (waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:57:52,2022-03-28 08:57:54,"2,228s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input""), FechaI)",Chrome 99.0.4844.82,,,2022-03-28 08:57:54,2022-03-28 08:57:55,"1,331s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input""), FechaF)",Chrome 99.0.4844.82,,,2022-03-28 08:57:55,2022-03-28 08:57:57,"1,350s",PASSED
+"waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:57:57,2022-03-28 08:57:57,"0,548s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input""), FechaI0)",Chrome 99.0.4844.82,,,2022-03-28 08:57:57,2022-03-28 08:57:59,"1,543s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input""), Keys.chord(ENTER))",Chrome 99.0.4844.82,,,2022-03-28 08:57:59,2022-03-28 08:57:59,"0,514s",PASSED
+"waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:57:59,2022-03-28 08:58:00,"0,630s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), FechaF0)",Chrome 99.0.4844.82,,,2022-03-28 08:58:00,2022-03-28 08:58:02,"1,639s",PASSED
+"element = findWebElement(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579""), 30)",Chrome 99.0.4844.82,,,2022-03-28 08:58:02,2022-03-28 08:58:02,"0,702s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 99.0.4844.82,,,2022-03-28 08:58:02,2022-03-28 08:58:02,"0,044s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input""), Keys.chord(ENTER))",Chrome 99.0.4844.82,,,2022-03-28 08:58:02,2022-03-28 08:58:03,"0,868s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/label_MAR""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:58:03,2022-03-28 08:58:04,"0,516s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/label_MAR""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:04,2022-03-28 08:58:05,"0,875s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/label_MIE""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:05,2022-03-28 08:58:05,"0,762s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/select_01""), 5)",Chrome 99.0.4844.82,,,2022-03-28 08:58:05,2022-03-28 08:58:08,"2,196s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/select_02""), 6)",Chrome 99.0.4844.82,,,2022-03-28 08:58:08,2022-03-28 08:58:09,"1,685s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_mas_Horario""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:09,2022-03-28 08:58:10,"0,740s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/td_LUN-MAR 0500-0600""), 2)",Chrome 99.0.4844.82,,,2022-03-28 08:58:10,2022-03-28 08:58:13,"3,204s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Aplicar""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:13,2022-03-28 08:58:14,"0,867s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Icon_mas_principal""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:14,2022-03-28 08:58:15,"1,086s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programacion_Múltiple/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:15,2022-03-28 08:58:16,"0,859s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:58:16,2022-03-28 08:58:20,"3,566s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.8-Calendario,Chrome 99.0.4844.82,,,2022-03-28 08:58:20,2022-03-28 08:58:39,"18,964s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:58:20,2022-03-28 08:58:31,"10,180s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Calendario/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:31,2022-03-28 08:58:32,"1,611s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Calendario/a_Momento Eventos""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:32,2022-03-28 08:58:34,"1,435s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Calendario/td_prueba""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:34,2022-03-28 08:58:35,"0,913s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Calendario/td_MAR-MIE 0500-0600""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:58:35,2022-03-28 08:58:39,"3,983s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.9-Deducción_de_costos_al_plan_inversión,Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:59:12,"33,096s",PASSED
+today = new java.util.Date(),Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,001s",PASSED
+"Dia = today.format(""dd"")",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+"MesN = today.format(""MM"")",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+"AñoN = today.format(""yyyy"")",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,001s",PASSED
+sumaA = Año + 1,Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+if (sumaD > 30),Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+if (sumaM > 12),Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+"Fechaini = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,001s",PASSED
+"Fechafin = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:39,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:58:39,2022-03-28 08:58:53,"13,736s",PASSED
+"scrollToPosition(0, 100)",Chrome 99.0.4844.82,,,2022-03-28 08:58:53,2022-03-28 08:58:54,"1,271s",PASSED
+"waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_Prueba-S""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:58:54,2022-03-28 08:58:55,"0,497s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:55,2022-03-28 08:58:55,"0,468s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_CostoEvento""))",Chrome 99.0.4844.82,,,2022-03-28 08:58:55,2022-03-28 08:58:56,"0,838s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_TEST FB""), 1))",Chrome 99.0.4844.82,,,2022-03-28 08:58:56,2022-03-28 08:58:58,"2,339s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/select_-- Seleccione --SALON 1SALON 2SALON 3""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:58:58,2022-03-28 08:58:59,"1,051s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocENumero""), ""5"")",Chrome 99.0.4844.82,,,2022-03-28 08:58:59,2022-03-28 08:59:00,"0,860s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocEFechaPago_input""), Fechaini)",Chrome 99.0.4844.82,,,2022-03-28 08:59:00,2022-03-28 08:59:01,"0,994s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Plan de Inversin_form_costoEventolistaCostoEventocEValor""), ""99966"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:01,2022-03-28 08:59:02,"1,010s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/select_-- Seleccione --Plan CapacitacinSUB PLAN EVENTO BIENESTARTEST FBSub Plan Inversin Alimen 7""), ""3"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:02,2022-03-28 08:59:03,"1,114s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Plan de Inversin_form_costoEventolistaCostoEventoj_idt665""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:03,2022-03-28 08:59:04,"0,483s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/input_Evento Bienestar_form_templatej_idt24_input""), ""Plan Inversion Bienestar (bie)"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:04,2022-03-28 08:59:05,"1,229s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:59:05,2022-03-28 08:59:07,"1,449s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/span_Plan Inversion Bienestar (bie)""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:07,2022-03-28 08:59:07,"0,433s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Sub Plan Inversion""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:07,2022-03-28 08:59:08,"1,244s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Abiertos_form_planDeInversionbienestarj_idt119""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:08,2022-03-28 08:59:09,"0,958s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/td_99.966,00""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:09,2022-03-28 08:59:10,"1,043s",PASSED
+"waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Deducción de costos al plan inversión/a_Eliminar""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:59:10,2022-03-28 08:59:11,"0,640s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:59:11,2022-03-28 08:59:12,"0,697s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.1 -inscripción_a_un_evento,Chrome 99.0.4844.82,,,2022-03-28 08:59:12,2022-03-28 08:59:35,"23,276s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:59:12,2022-03-28 08:59:24,"11,598s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input""), ""Inscripcion evento (bie)"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:24,2022-03-28 08:59:25,"1,151s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:25,2022-03-28 08:59:26,"1,446s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Inscripcin""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:26,2022-03-28 08:59:27,"0,905s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Nombre_formListadoEventosj_idt185""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:27,2022-03-28 08:59:28,"0,811s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/td_""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:28,2022-03-28 08:59:29,"1,484s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --prueba-S-SH""), 1)",Chrome 99.0.4844.82,,,2022-03-28 08:59:29,2022-03-28 08:59:31,"1,386s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Referencia Pago_formListadoEventospIReferencia""), ""5"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:31,2022-03-28 08:59:32,"1,061s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor""), ""100"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:32,2022-03-28 08:59:33,"0,906s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion""), ""5"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:33,2022-03-28 08:59:34,"0,921s",PASSED
+"element = findWebElement(findTestObject(""Modulo Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar""), 30)",Chrome 99.0.4844.82,,,2022-03-28 08:59:34,2022-03-28 08:59:34,"0,363s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 99.0.4844.82,,,2022-03-28 08:59:34,2022-03-28 08:59:34,"0,032s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:59:34,2022-03-28 08:59:35,"0,769s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.2-Invitación,Chrome 99.0.4844.82,,,2022-03-28 08:59:35,2022-03-28 09:00:00,"24,970s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 08:59:36,2022-03-28 08:59:46,"9,663s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Invitación/td_Prueba-S-SH""), 0)",Chrome 99.0.4844.82,,,2022-03-28 08:59:46,2022-03-28 08:59:47,"1,691s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:47,2022-03-28 08:59:48,"0,670s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/div_Participante""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:48,2022-03-28 08:59:49,"0,878s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Invitacin""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:49,2022-03-28 08:59:49,"0,593s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:49,2022-03-28 08:59:51,"1,404s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Unidad_invitacionEventosPopupFormj_idt1309""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:51,2022-03-28 08:59:51,"0,563s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Filtrar""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:51,2022-03-28 08:59:52,"1,019s",PASSED
+"check(findTestObject(""Modulo Pruebas Bienestar/Invitación/div_Cargo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:52,2022-03-28 08:59:53,"0,987s",PASSED
+"element = findWebElement(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Invitacin_boton""), 30)",Chrome 99.0.4844.82,,,2022-03-28 08:59:53,2022-03-28 08:59:54,"0,576s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 99.0.4844.82,,,2022-03-28 08:59:54,2022-03-28 08:59:54,"0,142s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Invitacin""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:54,2022-03-28 08:59:55,"0,817s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Invitación/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), ""1"")",Chrome 99.0.4844.82,,,2022-03-28 08:59:55,2022-03-28 08:59:57,"1,572s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Filtrar""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:57,2022-03-28 08:59:57,"0,451s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/span_ui-button""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:57,2022-03-28 08:59:58,"0,856s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Invitación/span_Todo""))",Chrome 99.0.4844.82,,,2022-03-28 08:59:58,2022-03-28 08:59:58,"0,459s",PASSED
+"element1 = findWebElement(findTestObject(""Modulo Pruebas Bienestar/Invitación/a_Invitacin_boton""), 30)",Chrome 99.0.4844.82,,,2022-03-28 08:59:58,2022-03-28 08:59:59,"0,659s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element1))",Chrome 99.0.4844.82,,,2022-03-28 08:59:59,2022-03-28 08:59:59,"0,039s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 08:59:59,2022-03-28 09:00:00,"0,895s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.3-Inscripción_masiva,Chrome 99.0.4844.82,,,2022-03-28 09:00:00,2022-03-28 09:00:25,"24,988s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:00:00,2022-03-28 09:00:09,"8,685s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/td_Prueba-S-SH""), 0)",Chrome 99.0.4844.82,,,2022-03-28 09:00:09,2022-03-28 09:00:10,"0,945s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:10,2022-03-28 09:00:10,"0,447s",PASSED
+"waitForElementClickable(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/div_Participante""), 0)",Chrome 99.0.4844.82,,,2022-03-28 09:00:10,2022-03-28 09:00:12,"1,083s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/div_Participante""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:12,2022-03-28 09:00:12,"0,445s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/a_Individual""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:12,2022-03-28 09:00:13,"0,482s",PASSED
+"if (waitForElementPresent(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/td_Ardila Julio""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:00:13,2022-03-28 09:00:17,"4,050s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/a_Inscribirse_Menu""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:17,2022-03-28 09:00:18,"1,225s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:00:18,2022-03-28 09:00:19,"1,610s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/a_Filtrar""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:19,2022-03-28 09:00:20,"1,024s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/select_-- Seleccione --prueba-S-SH""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:00:20,2022-03-28 09:00:22,"1,717s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/span_Momento Evento_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:22,2022-03-28 09:00:23,"0,467s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/span_Pagina Actual""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:23,2022-03-28 09:00:23,"0,567s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción masiva/a_Inscribirse""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:23,2022-03-28 09:00:24,"0,898s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 09:00:24,2022-03-28 09:00:25,"0,809s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.4-Inscripción_Individual_como_funcional,Chrome 99.0.4844.82,,,2022-03-28 09:00:25,2022-03-28 09:01:39,"1m - 13,648s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:00:26,2022-03-28 09:00:36,"10,006s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:36,2022-03-28 09:00:38,"1,997s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/div_Participante""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:38,2022-03-28 09:00:39,"0,804s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Individual""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:39,2022-03-28 09:00:40,"0,855s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/td_354968431354""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:00:40,2022-03-28 09:00:42,"2,180s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Nuevo""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:42,2022-03-28 09:00:42,"0,542s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Nombre_grupoEventoj_idt431""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:42,2022-03-28 09:00:44,"1,273s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado""), ""constantino"")",Chrome 99.0.4844.82,,,2022-03-28 09:00:44,2022-03-28 09:00:46,"1,918s",PASSED
+"sendKeys(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado""), Keys.chord(ENTER))",Chrome 99.0.4844.82,,,2022-03-28 09:00:46,2022-03-28 09:00:49,"3,287s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/span_Constantino  Jhon""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:49,2022-03-28 09:00:50,"0,681s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/select_-- Seleccione --prueba-S-SH""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:00:50,2022-03-28 09:00:51,"1,268s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 09:00:51,2022-03-28 09:01:39,"47,732s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.6-Sancionados,Chrome 99.0.4844.82,,,2022-03-28 09:01:39,2022-03-28 09:02:05,"26,426s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:01:39,2022-03-28 09:01:49,"9,789s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Sancionados/td_Prueba-S-SH""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:49,2022-03-28 09:01:50,"1,273s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Sancionados/div_Participante""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:50,2022-03-28 09:01:51,"0,844s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Sancionados/a_Individual""))",Chrome 99.0.4844.82,,,2022-03-28 09:01:51,2022-03-28 09:01:51,"0,538s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Sancionados/td_Diaz Blanco Guisell""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:01:51,2022-03-28 09:01:54,"2,300s",PASSED
+else,Chrome 99.0.4844.82,,,2022-03-28 09:01:54,2022-03-28 09:02:01,"7,244s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Sancionados/a_Sancionados""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:01,2022-03-28 09:02:02,"1,111s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Sancionados/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt641""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:02:02,2022-03-28 09:02:04,"2,110s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:02:04,2022-03-28 09:02:05,"0,728s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.8-Programación_de_evaluación,Chrome 99.0.4844.82,,,2022-03-28 09:02:05,2022-03-28 09:02:44,"39,154s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:02:06,2022-03-28 09:02:16,"10,680s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:16,2022-03-28 09:02:18,"1,504s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/div_Participante""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:18,2022-03-28 09:02:19,"1,036s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/a_Grupo""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:19,2022-03-28 09:02:19,"0,545s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:02:19,2022-03-28 09:02:22,"2,348s",PASSED
+else,Chrome 99.0.4844.82,,,2022-03-28 09:02:22,2022-03-28 09:02:35,"13,040s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/div_Evaluacin""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:35,2022-03-28 09:02:36,"0,715s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/a_Evento""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:36,2022-03-28 09:02:36,"0,463s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:02:36,2022-03-28 09:02:38,"2,300s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/a_Programar""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:38,2022-03-28 09:02:39,"0,639s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/select_SeleccioneEvaluacin ArtsticaEvaluacin Evento BienestarEvaluacin PreviaEvaluacin EventoqqEvaluacin Bienestar""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:02:39,2022-03-28 09:02:41,"1,882s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/select_SeleccioneAceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado""), 0)",Chrome 99.0.4844.82,,,2022-03-28 09:02:41,2022-03-28 09:02:42,"0,935s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/div_Grupo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:42,2022-03-28 09:02:42,"0,468s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Programación_de_evaluación/a_Aplicar0""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:42,2022-03-28 09:02:43,"0,715s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 09:02:43,2022-03-28 09:02:44,"1,138s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos,Chrome 99.0.4844.82,,,2022-03-28 09:02:44,2022-03-28 09:03:00,"15,845s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:02:45,2022-03-28 09:02:53,"8,526s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Recursos/td_Prueba-S""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:53,2022-03-28 09:02:55,"1,719s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Recursos/div_Recursos""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:55,2022-03-28 09:02:56,"0,861s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Recursos/a_Logsticos""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:56,2022-03-28 09:02:56,"0,467s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Recursos/select_SeleccioneBlue RayCmarasCamaras de videoComedoresEstacin de cafeInternetIpadLucesMicrofonosPantallasPorttilSonidoTabletsTarimaTeleconferencia""), 6)",Chrome 99.0.4844.82,,,2022-03-28 09:02:56,2022-03-28 09:02:58,"1,504s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Recursos/select_SeleccioneINDISPENSABLEOPCIONAL""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:02:58,2022-03-28 09:02:59,"1,109s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt949""))",Chrome 99.0.4844.82,,,2022-03-28 09:02:59,2022-03-28 09:02:59,"0,483s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 09:02:59,2022-03-28 09:03:00,"0,720s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.2-Crear_tipo_de_beneficio_CASO1_(Novedad_nómina),Chrome 99.0.4844.82,,,2022-03-28 09:03:00,2022-03-28 09:03:36,"35,770s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:03:00,2022-03-28 09:03:06,"5,814s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Beneficios_form_templatej_idt24_input""), ""beneficio"")",Chrome 99.0.4844.82,,,2022-03-28 09:03:06,2022-03-28 09:03:08,"1,391s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/li_Beneficio (bie)""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:08,2022-03-28 09:03:09,"1,500s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/td_PRUEBAS K""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:03:09,2022-03-28 09:03:19,"9,694s",PASSED
+"scrollToElement(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Nuevo""), 0)",Chrome 99.0.4844.82,,,2022-03-28 09:03:19,2022-03-28 09:03:20,"0,716s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Nuevo""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:20,2022-03-28 09:03:20,"0,617s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Cdigo_formDetalleTipoBeneficioBienestarcodigoTipoBeneficio""), ""5"")",Chrome 99.0.4844.82,,,2022-03-28 09:03:20,2022-03-28 09:03:21,"1,199s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/input_Descripcin_formDetalleTipoBeneficioBienestardescripcionTipoBeneficio""), ""PRUEBAS KATALON"")",Chrome 99.0.4844.82,,,2022-03-28 09:03:21,2022-03-28 09:03:22,"1,087s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Auxilio de SaludAUXILIO DE VIVIENDAAUXILIO EDUCATIVOPrueba""), 4)",Chrome 99.0.4844.82,,,2022-03-28 09:03:22,2022-03-28 09:03:24,"1,328s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Solicitante Y Seccion HojaSolicitanteSeccion Hoja""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:03:24,2022-03-28 09:03:25,"1,228s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --familia""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:03:25,2022-03-28 09:03:26,"1,181s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --DescuentoNo RecaudoNovedad hacia NminaPrestamo""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:03:26,2022-03-28 09:03:27,"1,177s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Control por TarifaManejo TarifaNo Relacionar""), 3)",Chrome 99.0.4844.82,,,2022-03-28 09:03:27,2022-03-28 09:03:29,"1,948s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --SiNo""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:03:29,2022-03-28 09:03:31,"1,529s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_--Seleccione--NoSi""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:03:31,2022-03-28 09:03:32,"1,246s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_Convenio--Seleccione--NoSi""), 2)",Chrome 99.0.4844.82,,,2022-03-28 09:03:32,2022-03-28 09:03:33,"1,146s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Guardar""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:33,2022-03-28 09:03:34,"0,659s",PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-28 09:03:34,2022-03-28 09:03:36,"1,859s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.3-Filtro_sección,Chrome 99.0.4844.82,,,2022-03-28 09:03:36,2022-03-28 09:03:52,"16,602s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.82,,,2022-03-28 09:03:37,2022-03-28 09:03:43,"6,316s",PASSED
+"setText(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/input_Beneficios_form_templatej_idt24_input""), ""beneficio (bie)"")",Chrome 99.0.4844.82,,,2022-03-28 09:03:43,2022-03-28 09:03:44,"1,491s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/span_Beneficio (bie)""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:44,2022-03-28 09:03:46,"1,573s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/td_PRUEBAS KATALON""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:46,2022-03-28 09:03:47,"0,918s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/a_Filtro Seccin""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:47,2022-03-28 09:03:48,"0,894s",PASSED
+"if (waitForElementVisible(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689""), 1))",Chrome 99.0.4844.82,,,2022-03-28 09:03:48,2022-03-28 09:03:50,"1,887s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/select_--Seleccione--DiscapacidadEdadGeneroParentesco""), 4)",Chrome 99.0.4844.82,,,2022-03-28 09:03:50,2022-03-28 09:03:51,"1,098s",PASSED
+"selectOptionByIndex(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/select_-- Seleccione --CONYUGUEHERMANO (A)HIJO (A)NO DEFINIDOPADRE""), 1)",Chrome 99.0.4844.82,,,2022-03-28 09:03:51,2022-03-28 09:03:52,"1,169s",PASSED
+"click(findTestObject(""Modulo Pruebas Bienestar/Filtro_sección/a_Tipo Campo_form_dirigidoTipoBeneficiariotabla_dirigidoj_idt690""))",Chrome 99.0.4844.82,,,2022-03-28 09:03:52,2022-03-28 09:03:52,"0,471s",PASSED

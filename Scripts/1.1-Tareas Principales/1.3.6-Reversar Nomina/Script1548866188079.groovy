@@ -18,42 +18,42 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/span_P. MensualJunio2021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/span_P. MensualJunio2021'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/input_Contrato_LiquidacionNominaj_idt124'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/input_Contrato_LiquidacionNominaj_idt124'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/input_Contrato_LiquidacionNominaj_idt124'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/input_Contrato_LiquidacionNominaj_idt124'), 
     '1234567890')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/input_Contrato_LiquidacionNominaj_idt124'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/input_Contrato_LiquidacionNominaj_idt124'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/td_Gomez  Jose'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/td_Gomez  Jose'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/td_Gomez  Jose'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/td_Gomez  Jose'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/a_Concepto_Reversar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/a_Concepto_Reversar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/a_Concepto_Reversar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/a_Concepto_Reversar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/a_Reversar_Nomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/a_Reversar_Nomina'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Reversar Nomina/span_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reversar Nomina/span_Si'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

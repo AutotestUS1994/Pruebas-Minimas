@@ -19,93 +19,93 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'listado de viaticos')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/li_Listado de Viaticos (act)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/li_Listado de Viaticos (act)'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Listado Costos Pendientes_cerrar_menu_guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Listado Costos Pendientes_cerrar_menu_guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Listado Costos Pendientes_cerrar_menu_guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Listado Costos Pendientes_cerrar_menu_guardar'))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Retroactivo viaticos')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Retroactivo Viaticos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Retroactivo Viaticos'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Retroactivo Viaticos'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Retroactivo Viaticos'), 
     0)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Nuevo_Guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Nuevo_Guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Nuevo_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Nuevo_Guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Aplicacin_Guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Aplicacin_Guardar'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Aplicacin_Guardar'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Aplicacin_Guardar'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Desde_Guardar'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Desde_Guardar'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Hasta_Guardar'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Hasta_Guardar'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Descripcin_Guardar'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/input_Descripcin_Guardar'), 
     'prueba')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Guardar_guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Guardar_guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Liquidacin_Guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Liquidacin_Guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Liquidacin_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Liquidacin_Guardar'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_Guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Regresar_guardar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Regresar_guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Regresar_guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Regresar_guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Cerrar Proceso'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Cerrar Proceso'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Cerrar Proceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Cerrar Proceso'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_cerrar proceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_cerrar proceso'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Regresar_guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Regresar_guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_01072021'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Reversar_retroactivo'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Reversar_retroactivo'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Reversar_retroactivo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/a_Reversar_retroactivo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_reversar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_reversar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_reversar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Guardar retroactivo de viáticos/span_Si_reversar'))
 
 WebUI.closeBrowser()
 

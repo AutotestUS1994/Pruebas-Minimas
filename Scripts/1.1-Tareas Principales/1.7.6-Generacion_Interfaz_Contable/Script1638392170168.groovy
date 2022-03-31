@@ -19,85 +19,85 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Generacion Interfaz_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/input_Generacion Interfaz_form_templatej_idt24_input'), 
     'Generacion Interfaz')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/li_Generacion interfaz (com)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/li_Generacion interfaz (com)'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_INTERFAZ PROVISIONES'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_INTERFAZ PROVISIONES'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha_generacionInterfazfechacomprobante_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/input_Fecha_generacionInterfazfechacomprobante_input'), 
     '01/07/2017')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Filtrar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_Filtrar'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_01072017'), 
+if (WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_01072017'), 
     1)) {
-    WebUI.check(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/div_-_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover0'))
+    WebUI.check(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/div_-_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover0'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Ver'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Ver'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Reversar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Reversar'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Aceptar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Aceptar'))
 }
 
-WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
+WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
     0)
 
-WebUI.waitForElementPresent(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
+WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/select_NOMINA MENSUALNOMINA QUINCENAL'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/select_NOMINA MENSUALNOMINA QUINCENAL'), 
     2)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha Inicial_popupGeneracionInterfazinicial_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/input_Fecha Inicial_popupGeneracionInterfazinicial_input'), 
     '01/07/2017')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha Final_popupGeneracionInterfazfinal_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/input_Fecha Final_popupGeneracionInterfazfinal_input'), 
     '31/07/2017')
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/input_Fecha Proceso_popupGeneracionInterfazfechaProceso_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/input_Fecha Proceso_popupGeneracionInterfazfechaProceso_input'), 
     '01/07/2017')
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_Generar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/button_Si'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/button_Si'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Continuar'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Exportar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Exportar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'), 
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
 }
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/label_pdf'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/label_pdf'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Total Otro_ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Total Otro_ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Total Otro_ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Total Otro_ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Exportar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Exportar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'), 
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/span_Reporte_glyphicons glyphicons-article'))
 }
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/label_xlsData'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/label_xlsData'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar Reporte'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Descargar'))
 
 WebUI.closeBrowser()
 

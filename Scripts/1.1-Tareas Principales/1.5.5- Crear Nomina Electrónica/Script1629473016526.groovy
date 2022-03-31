@@ -19,67 +19,68 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Nomina Electronica (com)')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/li_Nomina Electronica (com)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/li_Nomina Electronica (com)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/li_Nomina Electronica (com)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/li_Nomina Electronica (com)'))
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     '2021')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/input_Fecha Corte_listado_nominaelectronicaj_idt72'), 
     Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/td_2021-07-01'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica/Page_SARA/td_2021-07-01'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/td_2021-07-01'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica/Page_SARA/td_2021-07-01'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Reversar Nomina'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Reversar Nomina'))
 
-    WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/span_Si_Reversar Nomina'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica/Page_SARA/span_Si_Reversar Nomina'))
 }
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Nuevo'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Nuevo'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Nuevo'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/input_Ao_popup_nominaelectronicaanno'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/input_Ao_popup_nominaelectronicaanno'), 
     '2021')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --Nmina IndividualNmina Individual de Ajuste'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'), 
     '8')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_CUNDINAMARCASANTANDERBOGOTANo Usar'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica/Page_SARA/select_CUNDINAMARCASANTANDERBOGOTANo Usar'), 
     '3')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulioAgostoSeptiembreOctubreNoviembreDiciembre'), 
     '7')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Guardar'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Guardar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Guardar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Generar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Generar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Generar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Generar2'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Generar2'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Crear Nomina Electronica/Page_SARA/a_Generar2'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Generar2'))
 

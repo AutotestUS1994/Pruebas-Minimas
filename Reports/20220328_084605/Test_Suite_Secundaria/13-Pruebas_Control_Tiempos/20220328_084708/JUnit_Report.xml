@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="13-Pruebas_Control_Tiempos" time="364.387" tests="9" failures="2" errors="0">
+   <testsuite name="13-Pruebas_Control_Tiempos" tests="9" failures="2" errors="0" time="364.387" skipped="0" timestamp="2022-03-28 09:07:18" hostname="diego.rojas - US-AF-000371" id="Test Suites/Test_Suite_Secundaria/13-Pruebas_Control_Tiempos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220328_084605\\Test_Suite_Secundaria\\13-Pruebas_Control_Tiempos\\20220328_084708"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220328_084605\\Test_Suite_Secundaria\\13-Pruebas_Control_Tiempos\\20220328_084708\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220328_084605\\Test_Suite_Secundaria\\13-Pruebas_Control_Tiempos\\20220328_084708\\1648476697454.png, C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220328_084605\\Test_Suite_Secundaria\\13-Pruebas_Control_Tiempos\\20220328_084708\\1648476802632.png"/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.82"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="73447a351159b751d8065fa8461e670e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo" time="21.912" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:07:19 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo
+
+2022-03-28 09:07:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:07:20 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:07:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:07:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:07:22 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:07:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:07:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:07:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:07:25 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:07:25 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:07:26 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:07:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:07:27 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:07:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:07:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:07:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:07:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:07:31 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:07:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:07:31 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input"), "listado persona"): Text 'listado persona' is set on object 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:07:33 - [MESSAGE][PASSED] - Text 'listado persona' is set on object 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona' is clicked on
+
+2022-03-28 09:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Listado Persona' is clicked on
+
+2022-03-28 09:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_1010220596' is clicked on
+
+2022-03-28 09:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_1010220596' is clicked on
+
+2022-03-28 09:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo' is clicked on
+
+2022-03-28 09:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo' is clicked on
+
+2022-03-28 09:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo' is clicked on
+
+2022-03-28 09:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/li_02-Sede Externo' is clicked on
+
+2022-03-28 09:07:38 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/td_9"), 1)): null
+
+2022-03-28 09:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_9' is visible
+
+2022-03-28 09:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/td_9")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_9' is clicked on
+
+2022-03-28 09:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/td_9' is clicked on
+
+2022-03-28 09:07:39 - [TEST_STEP][PASSED] - element0 = findWebElement(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Add"), 30): null
+
+2022-03-28 09:07:40 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element0)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Oficina")): Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Oficina' is clicked on
+
+2022-03-28 09:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Sitios_de_Trabajo/span_Oficina' is clicked on
+
+2022-03-28 09:07:40 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Modulo control tiempo/Sitios_de_Trabajo/span_Add"), 30): null
+
+2022-03-28 09:07:41 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:41 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.4-Jornada" time="21.427" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.4-Jornada" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:07:41 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.4-Jornada: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.4-Jornada
+
+2022-03-28 09:07:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:07:41 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:07:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:07:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-28 09:07:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:07:42 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:07:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:07:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:07:44 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:07:45 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:07:45 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:07:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:07:46 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:07:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:07:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:07:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:07:48 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:07:48 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:48 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:07:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:07:48 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input"), "Listado persona"): Text 'Listado persona' is set on object 'Object Repository/Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:07:50 - [MESSAGE][PASSED] - Text 'Listado persona' is set on object 'Object Repository/Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/li_Listado Persona (get)")): Object: 'Object Repository/Modulo control tiempo/Jornada/li_Listado Persona (get)' is clicked on
+
+2022-03-28 09:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/li_Listado Persona (get)' is clicked on
+
+2022-03-28 09:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Jornada/td_1010220596' is clicked on
+
+2022-03-28 09:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/td_1010220596' is clicked on
+
+2022-03-28 09:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/a_Jornada")): Object: 'Object Repository/Modulo control tiempo/Jornada/a_Jornada' is clicked on
+
+2022-03-28 09:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/a_Jornada' is clicked on
+
+2022-03-28 09:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/a_Liquidar0")): Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar0' is clicked on
+
+2022-03-28 09:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar0' is clicked on
+
+2022-03-28 09:07:57 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018'
+
+2022-03-28 09:07:58 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018'
+
+2022-03-28 09:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Jornada/a_Liquidar")): Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar' is clicked on
+
+2022-03-28 09:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Jornada/a_Liquidar' is clicked on
+
+2022-03-28 09:07:59 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Jornada/p_Terminacion Normal"), 1)): null
+
+2022-03-28 09:08:01 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Jornada/p_Terminacion Normal' is visible
+
+2022-03-28 09:08:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 09:08:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.6-Reloj" time="24.644" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.6-Reloj" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:08:02 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.6-Reloj: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.6-Reloj
+
+2022-03-28 09:08:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:08:03 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:08:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:08:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:08:03 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:08:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:08:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:08:04 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:08:05 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:08:05 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:08:06 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:08:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:08:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:08:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:08:08 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:08:09 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Listado persona"): Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:08:11 - [MESSAGE][PASSED] - Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Reloj/span_Listado Persona' is clicked on
+
+2022-03-28 09:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/span_Listado Persona' is clicked on
+
+2022-03-28 09:08:12 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Reloj/td_1010220596' is clicked on
+
+2022-03-28 09:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/td_1010220596' is clicked on
+
+2022-03-28 09:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Reloj")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Reloj' is clicked on
+
+2022-03-28 09:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Reloj' is clicked on
+
+2022-03-28 09:08:15 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Reloj/td_20210701 1800"), 1)): null
+
+2022-03-28 09:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Reloj/td_20210701 1800' is visible
+
+2022-03-28 09:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/td_20210701 1800")): Object: 'Object Repository/Modulo control tiempo/Reloj/td_20210701 1800' is clicked on
+
+2022-03-28 09:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/td_20210701 1800' is clicked on
+
+2022-03-28 09:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Eliminar")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Eliminar' is clicked on
+
+2022-03-28 09:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Eliminar' is clicked on
+
+2022-03-28 09:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Aceptar")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Aceptar' is clicked on
+
+2022-03-28 09:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Aceptar' is clicked on
+
+2022-03-28 09:08:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Nuevo")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Nuevo' is clicked on
+
+2022-03-28 09:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Nuevo' is clicked on
+
+2022-03-28 09:08:19 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo control tiempo/Reloj/select_AbiertoCerrado"), 1): All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Reloj/select_AbiertoCerrado'
+
+2022-03-28 09:08:20 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Modulo control tiempo/Reloj/select_AbiertoCerrado'
+
+2022-03-28 09:08:20 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input"), "01/07/2021"): Text '01/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input'
+
+2022-03-28 09:08:21 - [MESSAGE][PASSED] - Text '01/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input'
+
+2022-03-28 09:08:21 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input"), "30/07/2021"): Text '30/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input'
+
+2022-03-28 09:08:22 - [MESSAGE][PASSED] - Text '30/07/2021' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input'
+
+2022-03-28 09:08:22 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni"), "08"): Text '08' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni'
+
+2022-03-28 09:08:24 - [MESSAGE][PASSED] - Text '08' is set on object 'Object Repository/Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni'
+
+2022-03-28 09:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input__formPopupRelojminutoIni"), "10"): Text '10' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoIni'
+
+2022-03-28 09:08:24 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoIni'
+
+2022-03-28 09:08:24 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input__formPopupRelojhoraFin"), "18"): Text '18' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojhoraFin'
+
+2022-03-28 09:08:25 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojhoraFin'
+
+2022-03-28 09:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Reloj/input__formPopupRelojminutoFin"), "00"): Text '00' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoFin'
+
+2022-03-28 09:08:26 - [MESSAGE][PASSED] - Text '00' is set on object 'Object Repository/Modulo control tiempo/Reloj/input__formPopupRelojminutoFin'
+
+2022-03-28 09:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Reloj/a_Guardar")): Object: 'Object Repository/Modulo control tiempo/Reloj/a_Guardar' is clicked on
+
+2022-03-28 09:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Reloj/a_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo" time="17.595" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:08:27 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo
+
+2022-03-28 09:08:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:08:27 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:08:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:08:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-28 09:08:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:08:28 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:08:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:08:30 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:08:30 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:08:31 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:08:31 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:08:32 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:08:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:08:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:08:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:08:34 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:08:34 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "listado persona"): Text 'listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:08:36 - [MESSAGE][PASSED] - Text 'listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Listado Persona' is clicked on
+
+2022-03-28 09:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Listado Persona' is clicked on
+
+2022-03-28 09:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_1010220596' is clicked on
+
+2022-03-28 09:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_1010220596' is clicked on
+
+2022-03-28 09:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/a_dispositivo")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/a_dispositivo' is clicked on
+
+2022-03-28 09:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/a_dispositivo' is clicked on
+
+2022-03-28 09:08:39 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Dispositivo/td_-"), 1)): null
+
+2022-03-28 09:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is visible
+
+2022-03-28 09:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/td_-")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is clicked on
+
+2022-03-28 09:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is clicked on
+
+2022-03-28 09:08:40 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Modulo control tiempo/Dispositivo/span_Remove All"), 30): null
+
+2022-03-28 09:08:41 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:41 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/span_Huella Digital")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital' is clicked on
+
+2022-03-28 09:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital' is clicked on
+
+2022-03-28 09:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e")): Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e' is clicked on
+
+2022-03-28 09:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e' is clicked on
+
+2022-03-28 09:08:42 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Dispositivo/td_-"), 1)): null
+
+2022-03-28 09:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Dispositivo/td_-' is visible
+
+2022-03-28 09:08:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 09:08:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.8-Funciones" time="18.949" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.8-Funciones" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:08:44 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.8-Funciones: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.8-Funciones
+
+2022-03-28 09:08:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:08:45 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:08:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:08:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:08:45 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:08:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:08:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:08:46 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:08:47 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:08:47 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:08:47 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:08:47 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:08:49 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:08:49 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:08:50 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:08:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:08:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:08:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:08:53 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:08:53 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:08:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Listado persona"): Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:08:55 - [MESSAGE][PASSED] - Text 'Listado persona' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/span_Listado Persona")): Object: 'Object Repository/Modulo control tiempo/Funciones/span_Listado Persona' is clicked on
+
+2022-03-28 09:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/span_Listado Persona' is clicked on
+
+2022-03-28 09:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/td_1010220596")): Object: 'Object Repository/Modulo control tiempo/Funciones/td_1010220596' is clicked on
+
+2022-03-28 09:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/td_1010220596' is clicked on
+
+2022-03-28 09:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/a_Funciones")): Object: 'Object Repository/Modulo control tiempo/Funciones/a_Funciones' is clicked on
+
+2022-03-28 09:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/a_Funciones' is clicked on
+
+2022-03-28 09:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/td_1")): Object: 'Object Repository/Modulo control tiempo/Funciones/td_1' is clicked on
+
+2022-03-28 09:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/td_1' is clicked on
+
+2022-03-28 09:09:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/Funciones/a_Cancelar"), 2): Object 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is visible
+
+2022-03-28 09:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is visible
+
+2022-03-28 09:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Funciones/a_Cancelar")): Object: 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is clicked on
+
+2022-03-28 09:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Funciones/a_Cancelar' is clicked on
+
+2022-03-28 09:09:02 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Funciones/td_1"), 1)): null
+
+2022-03-28 09:09:02 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Funciones/td_1' is visible
+
+2022-03-28 09:09:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 09:09:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar" time="153.911" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-03-28 09:09:03 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-03-28 09:09:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:09:04 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:09:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:09:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:09:04 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:09:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:09:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:09:05 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:09:06 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:09:06 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:09:07 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:09:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:09:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:09:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:09:09 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:09:09 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:09:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:09:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input"), "Liquidacion (get)"): Text 'Liquidacion (get)' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:09:10 - [MESSAGE][PASSED] - Text 'Liquidacion (get)' is set on object 'Object Repository/Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/li_Liquidacion (get)")): Object: 'Object Repository/Modulo control tiempo/liquidación/li_Liquidacion (get)' is clicked on
+
+2022-03-28 09:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/li_Liquidacion (get)' is clicked on
+
+2022-03-28 09:09:12 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/td_01072021"), 1)): null
+
+2022-03-28 09:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/liquidación/td_01072021' is visible
+
+2022-03-28 09:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/td_01072021")): Object: 'Object Repository/Modulo control tiempo/liquidación/td_01072021' is clicked on
+
+2022-03-28 09:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/td_01072021' is clicked on
+
+2022-03-28 09:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Reversar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Reversar' is clicked on
+
+2022-03-28 09:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Reversar' is clicked on
+
+2022-03-28 09:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/liquidación/a_Aceptar")): Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aceptar' is clicked on
+
+2022-03-28 09:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/liquidación/a_Aceptar' is clicked on
+
+2022-03-28 09:09:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/a_Continuar"), 0): Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' located by '//div[2]/table/tbody/tr[2]/td/div/a' not found
+
+2022-03-28 09:09:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-28 09:10:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[2]/table/tbody/tr[2]/td/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-28 09:10:02 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Continuar' located by '//div[2]/table/tbody/tr[2]/td/div/a' not found
+
+2022-03-28 09:10:02 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/div_Reversin realizada con xito"), 1)): Web element with id: 'Object Repository/Modulo control tiempo/liquidación/div_Reversin realizada con xito' located by '//*/text()[normalize-space(.)='Reversión realizada con éxito.']/parent::*' not found
+
+2022-03-28 09:10:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='Reversión realizada con éxito.']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-28 09:10:05 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/liquidación/div_Reversin realizada con xito' located by '//*/text()[normalize-space(.)='Reversión realizada con éxito.']/parent::*' not found
+
+2022-03-28 09:10:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Modulo control tiempo/liquidación/a_Nuevo"), 0): Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+
+2022-03-28 09:10:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-28 09:10:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Nuevo')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-28 09:10:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+
+2022-03-28 09:10:51 - [TEST_STEP][FAILED] - click(findTestObject("Modulo control tiempo/liquidación/a_Nuevo")): Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474023702.run(Script1648474023702.groovy:43)
+	... 13 more
+)
+
+2022-03-28 09:11:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Nuevo')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-28 09:11:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474023702.run(Script1648474023702.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220328_084605\\Test_Suite_Secundaria\\13-Pruebas_Control_Tiempos\\20220328_084708\\1648476697454.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-28 09:09:03 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.3-Aplicar" time="18.551" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.3-Aplicar" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:11:37 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.3-Aplicar: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.3-Aplicar
+
+2022-03-28 09:11:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:11:38 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:11:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:11:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-28 09:11:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:11:39 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:11:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:11:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:11:41 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:11:41 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:11:42 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:11:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:11:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:11:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:11:45 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:11:45 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:11:45 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:11:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Liquidacion"): Text 'Liquidacion' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:11:47 - [MESSAGE][PASSED] - Text 'Liquidacion' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/span_Liquidacion")): Object: 'Object Repository/Modulo control tiempo/Aplicar/span_Liquidacion' is clicked on
+
+2022-03-28 09:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/span_Liquidacion' is clicked on
+
+2022-03-28 09:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/td_27022019")): Object: 'Object Repository/Modulo control tiempo/Aplicar/td_27022019' is clicked on
+
+2022-03-28 09:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/td_27022019' is clicked on
+
+2022-03-28 09:11:49 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Aplicar/a_Reversar Nomina"), 1)): Web element with id: 'Object Repository/Modulo control tiempo/Aplicar/a_Reversar Nomina' located by '//a[contains(text(),'Reversar Nomina')]' not found
+
+2022-03-28 09:11:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Reversar Nomina')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-28 09:11:52 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/Aplicar/a_Reversar Nomina' located by '//a[contains(text(),'Reversar Nomina')]' not found
+
+2022-03-28 09:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/a_Aplicar")): Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aplicar' is clicked on
+
+2022-03-28 09:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aplicar' is clicked on
+
+2022-03-28 09:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/a_Aceptar")): Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aceptar' is clicked on
+
+2022-03-28 09:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Aceptar' is clicked on
+
+2022-03-28 09:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Aplicar/a_Continuar")): Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Continuar' is clicked on
+
+2022-03-28 09:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Aplicar/a_Continuar' is clicked on
+
+2022-03-28 09:11:54 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Aplicar/a_Reversar Nomina"), 1)): null
+
+2022-03-28 09:11:55 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo control tiempo/Aplicar/a_Reversar Nomina' is visible
+
+2022-03-28 09:11:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 09:11:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento" time="13.695" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento" status="PASSED">
+         <system-out><![CDATA[2022-03-28 09:11:56 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento
+
+2022-03-28 09:11:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:11:56 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:11:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:11:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:11:56 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:11:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:11:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:11:58 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:11:59 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:11:59 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:12:00 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:12:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:12:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:12:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:12:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:12:02 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:12:02 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:12:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:12:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:12:02 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input"), "Historico Evento"): Text 'Historico Evento' is set on object 'Object Repository/Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:12:04 - [MESSAGE][PASSED] - Text 'Historico Evento' is set on object 'Object Repository/Modulo control tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Historico_Evento/li_Historico Evento (get)")): Object: 'Object Repository/Modulo control tiempo/Historico_Evento/li_Historico Evento (get)' is clicked on
+
+2022-03-28 09:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Historico_Evento/li_Historico Evento (get)' is clicked on
+
+2022-03-28 09:12:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_1"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' successfully
+
+2022-03-28 09:12:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-28 09:12:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' successfully
+
+2022-03-28 09:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Historico_Evento/a_1")): Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' is clicked on
+
+2022-03-28 09:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_1' is clicked on
+
+2022-03-28 09:12:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-28 09:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-28 09:12:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-28 09:12:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_2"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' successfully
+
+2022-03-28 09:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-28 09:12:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' successfully
+
+2022-03-28 09:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Historico_Evento/a_2")): Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' is clicked on
+
+2022-03-28 09:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Historico_Evento/a_2' is clicked on
+
+2022-03-28 09:12:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71"), 0): Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-28 09:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-03-28 09:12:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo control tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71' successfully
+
+2022-03-28 09:12:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-28 09:12:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento" time="72.972" classname="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.5-Inconsistencias_Evento.run(13.2.5-Inconsistencias_Evento:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label>...&lt;/label> is not clickable at point (687, 120). Other element would receive the click: &lt;td class=&quot; &quot; data-handler=&quot;selectDay&quot; data-event=&quot;click&quot; data-month=&quot;2&quot; data-year=&quot;2019&quot;>...&lt;/td>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'US-AF-000371', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DIEGO~1.ROJ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73447a351159b751d8065fa8461e670e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-03-28 09:12:09 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.5-Inconsistencias_Evento.run(13.2.5-Inconsistencias_Evento:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label>...</label> is not clickable at point (687, 120). Other element would receive the click: <td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2019">...</td>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'US-AF-000371', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DIEGO~1.ROJ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73447a351159b751d8065fa8461e670e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-03-28 09:12:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:12:10 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-03-28 09:12:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-28 09:12:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-28 09:12:10 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+2022-03-28 09:12:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-28 09:12:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-28 09:12:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - try: null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-03-28 09:12:12 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:12:13 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-03-28 09:12:13 - [TEST_STEP][PASSED] - a(): null
+
+2022-03-28 09:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:12:14 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-03-28 09:12:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:12:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-03-28 09:12:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-03-28 09:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-03-28 09:12:17 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-03-28 09:12:18 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:12:18 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-03-28 09:12:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-03-28 09:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "Inconsistencias Evento"): Text 'Inconsistencias Evento' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:12:19 - [MESSAGE][PASSED] - Text 'Inconsistencias Evento' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-03-28 09:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)' is clicked on
+
+2022-03-28 09:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)' is clicked on
+
+2022-03-28 09:12:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin' is clicked on
+
+2022-03-28 09:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin' is clicked on
+
+2022-03-28 09:12:23 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS"), 1)): Web element with id: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' located by '//*/text()[normalize-space(.)='ALMANZA ROSAS SILVIS']/parent::*' not found
+
+2022-03-28 09:12:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='ALMANZA ROSAS SILVIS']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-28 09:12:25 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' located by '//*/text()[normalize-space(.)='ALMANZA ROSAS SILVIS']/parent::*' not found
+
+2022-03-28 09:12:25 - [TEST_STEP][FAILED] - else: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.5-Inconsistencias_Evento.run(13.2.5-Inconsistencias_Evento:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label>...</label> is not clickable at point (687, 120). Other element would receive the click: <td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2019">...</td>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'US-AF-000371', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DIEGO~1.ROJ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73447a351159b751d8065fa8461e670e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474023724.run(Script1648474023724.groovy:73)
+	... 13 more
+)
+
+2022-03-28 09:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/a_Nuevo")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Nuevo' is clicked on
+
+2022-03-28 09:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Nuevo' is clicked on
+
+2022-03-28 09:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/a_Nombres_formPopupRelojj_idt199")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Nombres_formPopupRelojj_idt199' is clicked on
+
+2022-03-28 09:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Nombres_formPopupRelojj_idt199' is clicked on
+
+2022-03-28 09:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input_Filter by Nombre_formPopupRelojj_idt204j_idt207filter"), STOP_ON_FAILURE): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Filter by Nombre_formPopupRelojj_idt204j_idt207filter' is clicked on
+
+2022-03-28 09:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Filter by Nombre_formPopupRelojj_idt204j_idt207filter' is clicked on
+
+2022-03-28 09:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/td_Almanza Rosas Silvis2"), STOP_ON_FAILURE): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_Almanza Rosas Silvis2' is clicked on
+
+2022-03-28 09:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_Almanza Rosas Silvis2' is clicked on
+
+2022-03-28 09:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input_Fecha Inicial_formPopupRelojfechaIni_input"), "23/03/2019"): Text '23/03/2019' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Fecha Inicial_formPopupRelojfechaIni_input'
+
+2022-03-28 09:12:29 - [MESSAGE][PASSED] - Text '23/03/2019' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Fecha Inicial_formPopupRelojfechaIni_input'
+
+2022-03-28 09:12:29 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input_Hora_formPopupRelojhoraIni"), "06"): Text '06' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora_formPopupRelojhoraIni'
+
+2022-03-28 09:12:30 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora_formPopupRelojhoraIni'
+
+2022-03-28 09:12:30 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input__formPopupRelojminutoIni"), "10"): Text '10' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input__formPopupRelojminutoIni'
+
+2022-03-28 09:12:31 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input__formPopupRelojminutoIni'
+
+2022-03-28 09:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/label_Evento")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Evento' is clicked on
+
+2022-03-28 09:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Evento' is clicked on
+
+2022-03-28 09:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Parametros/Comprobar Parametros/a_Guardar")): Object: 'Object Repository/Modulo Parametros/Comprobar Parametros/a_Guardar' is clicked on
+
+2022-03-28 09:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Parametros/Comprobar Parametros/a_Guardar' is clicked on
+
+2022-03-28 09:12:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' is clicked on
+
+2022-03-28 09:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS' is clicked on
+
+2022-03-28 09:12:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/a_Solucionar")): Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Solucionar' is clicked on
+
+2022-03-28 09:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/a_Solucionar' is clicked on
+
+2022-03-28 09:12:33 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input"), "2019/03/23 11:29 AM"): Text '2019/03/23 11:29 AM' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'
+
+2022-03-28 09:12:35 - [MESSAGE][PASSED] - Text '2019/03/23 11:29 AM' is set on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'
+
+2022-03-28 09:12:35 - [TEST_STEP][FAILED] - click(findTestObject("Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias")): Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.5-Inconsistencias_Evento.run(13.2.5-Inconsistencias_Evento:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label>...</label> is not clickable at point (687, 120). Other element would receive the click: <td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2019">...</td>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'US-AF-000371', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DIEGO~1.ROJ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73447a351159b751d8065fa8461e670e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474023724.run(Script1648474023724.groovy:73)
+	... 13 more
+)
+
+2022-03-28 09:13:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.5-Inconsistencias_Evento.run(13.2.5-Inconsistencias_Evento:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label>...</label> is not clickable at point (687, 120). Other element would receive the click: <td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2019">...</td>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'US-AF-000371', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DIEGO~1.ROJ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73447a351159b751d8065fa8461e670e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474023724.run(Script1648474023724.groovy:73)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220328_084605\\Test_Suite_Secundaria\\13-Pruebas_Control_Tiempos\\20220328_084708\\1648476802632.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-28 09:12:09 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.5-Inconsistencias_Evento.run(13.2.5-Inconsistencias_Evento:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label>...</label> is not clickable at point (687, 120). Other element would receive the click: <td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2019">...</td>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'US-AF-000371', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DIEGO~1.ROJ\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:57842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 73447a351159b751d8065fa8461e670e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-28 09:07:18 - [TEST_SUITE][FAILED] - 13-Pruebas_Control_Tiempos: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-28 09:07:18 - [TEST_SUITE][FAILED] - 13-Pruebas_Control_Tiempos: Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 13.2.2-Liquidación_reversar.run(13.2.2-Liquidación_reversar:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648475228134.run(TempTestSuite1648475228134.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo control tiempo/liquidación/a_Nuevo' located by '//a[contains(text(),'Nuevo')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

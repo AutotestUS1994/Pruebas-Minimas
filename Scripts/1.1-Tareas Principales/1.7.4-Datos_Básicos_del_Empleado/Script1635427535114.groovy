@@ -19,136 +19,136 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Evento Bienestar_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Evento Bienestar_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Evento Bienestar_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Evento Bienestar_form_templatej_idt24_input'), 
     'Listado de Empleados (com)')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     '1234567890')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_1234567890'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_1234567890'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Datos Empleado'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Datos Empleado'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Pestaa_Variable'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Pestaa_Variable'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Metodo De Retencion En La Fuen'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Metodo De Retencion En La Fuen'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Metodo De Retencion En La Fuen'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Metodo De Retencion En La Fuen'))
 
-    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Hasta_variableempleado_formfechaHasta_input'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Hasta_variableempleado_formfechaHasta_input'), 
         Keys.chord(Keys.ESCAPE))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Eliminar_Variable'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Eliminar_Variable'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Si'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Si'))
 }
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Variable'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Variable'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Variable'), 43)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Variable'), 43)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_variableempleado_formfechaVigencia_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_variableempleado_formfechaVigencia_input'), 
     '01/08/2018')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_variableempleado_formfechaVigencia_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_variableempleado_formfechaVigencia_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_variableempleado_formvalor'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_variableempleado_formvalor'), 
     '0')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- seleccione --Ciclo 0Ciclo 1Ciclo 2'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- seleccione --Ciclo 0Ciclo 1Ciclo 2'), 
     '1')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_variable'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_variable'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Novedad Fecha'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Novedad Fecha'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Novedad Fecha'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Novedad Fecha'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Recargo Nocturno'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Recargo Nocturno'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Recargo Nocturno'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Recargo Nocturno'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Eliminar_Novedad'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Eliminar_Novedad'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Si_Novedad'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Si_Novedad'))
 }
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Novedad'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Novedad'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Auxilio Subsidio Familiar'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Auxilio Subsidio Familiar'), 
     9)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), '01/07/2018')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), '01/07/2018')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_'), '1')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_'), '1')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Zona Econmica_variableempleado_formj_idt2653'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Zona Econmica_variableempleado_formj_idt2653'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_ADMINISTRATIVA'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_ADMINISTRATIVA'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_1 - ADMINISTRATIVO. - NO RELACIONADA9999 - SUBCENTROS'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_1 - ADMINISTRATIVO. - NO RELACIONADA9999 - SUBCENTROS'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Cantidad_variableempleado_formcantidad'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Cantidad_variableempleado_formcantidad'), 
     '10')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- seleccione'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- seleccione'), 
     '1')
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Presupuestal_variableempleado_formpresupuestal'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Presupuestal_variableempleado_formpresupuestal'), 
     '100')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_Novedad Fecha'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_Novedad Fecha'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Concepto'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Concepto'))
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Hora Extra Diurna Festiva_Concepto'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Hora Extra Diurna Festiva_Concepto'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Hora Extra Diurna Festiva_Concepto'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Hora Extra Diurna Festiva_Concepto'))
 
-    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Hasta_conceptoempleado_formfechaHasta_input_Concepto'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Hasta_conceptoempleado_formfechaHasta_input_Concepto'), 
         Keys.chord(Keys.ESCAPE))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Eliminar_concepto'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Eliminar_concepto'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Si_concepto'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Si_concepto'))
 }
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Concepto'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Concepto'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Concepto_conceptoempleado_formj_idt453'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Concepto_conceptoempleado_formj_idt453'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_HORA EXTRA DIURNA FESTIVA'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_HORA EXTRA DIURNA FESTIVA'))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_conceptoempleado_formfechaVigencia_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_conceptoempleado_formfechaVigencia_input'), 
     '01/07/2018')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_conceptoempleado_formfechaVigencia_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_conceptoempleado_formfechaVigencia_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- SELECCIONAR LIQUIDACION'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- SELECCIONAR LIQUIDACION'), 
     '2')
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_conceptoempleado_formvalor'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_conceptoempleado_formvalor'), 
     '100')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- seleccione --Ciclo 0'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_-- seleccione --Ciclo 0'), 
     1)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_Concepto'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_Concepto'))
 

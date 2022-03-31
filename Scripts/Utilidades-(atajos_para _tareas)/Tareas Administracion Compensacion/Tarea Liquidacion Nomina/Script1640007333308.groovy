@@ -18,11 +18,11 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/input_Listado de Empleados_'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Liquidacion Nomina/input_Listado de Empleados_'), 
     'Liquidacion Nomina')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/span_Liquidacion Nomina'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Liquidacion Nomina/span_Liquidacion Nomina'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Liquidacion Nomina/span_Liquidacion Nomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Liquidacion Nomina/span_Liquidacion Nomina'))
 

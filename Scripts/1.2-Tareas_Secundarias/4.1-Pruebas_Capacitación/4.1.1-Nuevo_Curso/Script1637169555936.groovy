@@ -19,85 +19,85 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Cursos (cap)')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/li_Cursos (cap)'), 0)
+WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/li_Cursos (cap)'), 0)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/li_Cursos (cap)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/li_Cursos (cap)'), FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/td_Prueba'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/td_Prueba'))
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/td_Prueba'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/td_Prueba'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Tema'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Tema'))
 
-    if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/span_Tema'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Tema_form_cursopestaniaslistaTemas0j_idt608'))
+    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/span_Tema'), 1)) {
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Tema_form_cursopestaniaslistaTemas0j_idt608'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Datos Bsicos'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Datos Bsicos'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Curso_form_cursopestaniasdescripcion'), 'Prueba')
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Curso_form_cursopestaniasdescripcion'), 'Prueba')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_Intensidad Horaria_form_cursopestaniasintensidad'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Intensidad Horaria_form_cursopestaniasintensidad'), 
     '12')
 
-WebUI.check(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/label_Ambas'), FailureHandling.STOP_ON_FAILURE)
+WebUI.check(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/label_Ambas'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_Puntaje Minimo_form_cursopestaniaspuntajeminimo'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Puntaje Minimo_form_cursopestaniaspuntajeminimo'), 
     '10')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_Puntaje Aprobacin_form_cursopestaniaspuntajeaproba'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Puntaje Aprobacin_form_cursopestaniaspuntajeaproba'), 
     '31')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Prerrequisito_form_cursopestaniasprerequisito'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Prerrequisito_form_cursopestaniasprerequisito'), 
     'null')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Metodologa_form_cursopestaniasmetodologia'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Metodologa_form_cursopestaniasmetodologia'), 
     'virtual')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/select_-- Seleccione --CARTAS DE RETIROCERT'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_-- Seleccione --CARTAS DE RETIROCERT'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/select_SeleccioneNINGUNOIcetexInstituto Caro y Cuervo.PositivaSena'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_SeleccioneNINGUNOIcetexInstituto Caro y Cuervo.PositivaSena'), 
     5)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/select_ActivoCancelado'), 1)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_ActivoCancelado'), 1)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_Asistencia Mnima Horas_form_cursopestaniasasistenciamin'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Asistencia Mnima Horas_form_cursopestaniasasistenciamin'), 
     '8')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_Puntaje Mximo_form_cursopestaniaspuntajemaximo'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Puntaje Mximo_form_cursopestaniaspuntajemaximo'), 
     '50')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Poblacin Objeto_form_cursopestaniascobertura'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Poblacin Objeto_form_cursopestaniascobertura'), 
     'null')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Objetivo_form_cursopestaniasimpacto'), 'null')
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Objetivo_form_cursopestaniasimpacto'), 'null')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/textarea_Contenido_form_cursopestaniascontenido'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Contenido_form_cursopestaniascontenido'), 
     'null')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Guardar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Tema'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Tema'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/select_-- SELECCIONAR --GERENCIA DE PROYECTOSPLANMEACINPRUEBA DE MODULOSEGURIDAD EN EL SISTEMA DE INFORMACINTema'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_-- SELECCIONAR --GERENCIA DE PROYECTOSPLANMEACINPRUEBA DE MODULOSEGURIDAD EN EL SISTEMA DE INFORMACINTema'), 
     5)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/input_Orden_form_cursopestaniaslistaTemasorden'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Orden_form_cursopestaniaslistaTemasorden'), 
     '1')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Orden_form_cursopestaniaslistaTemasj_idt609'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Orden_form_cursopestaniaslistaTemasj_idt609'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Nuevo_Curso/a_Regresar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Regresar'))
 
 WebUI.closeBrowser()
 

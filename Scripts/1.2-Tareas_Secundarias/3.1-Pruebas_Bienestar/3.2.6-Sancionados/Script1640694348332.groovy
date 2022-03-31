@@ -19,57 +19,57 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/td_Prueba-S-SH'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_Prueba-S-SH'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/div_Participante'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/div_Participante'))
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Individual'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Individual'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Sancionados/td_Diaz Blanco Guisell'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Sancionados'))
+if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_Diaz Blanco Guisell'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Sancionados'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell'), 
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell'), 
         2)
 
-    WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Sancionados/textarea_Observacin_form_sancionadoslistaSancionadosobservacion'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/textarea_Observacin_form_sancionadoslistaSancionadosobservacion'), 
         'PRUEBAS K')
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
 } else {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Nuevo'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Nuevo'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Nombre_grupoEventoj_idt427'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Nombre_grupoEventoj_idt427'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Sancionados/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
+    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
         'guisell')
 
-    WebUI.sendKeys(findTestObject('Modulo Pruebas Bienestar/Sancionados/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
+    WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/span_Diaz Blanco Guisell'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/span_Diaz Blanco Guisell'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Sancionados/select_-- Seleccione --prueba-S-SH'), 
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/select_-- Seleccione --prueba-S-SH'), 
         1)
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Guardar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Guardar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Sancionados'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Sancionados'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt641'), 
+if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt641'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt641'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt641'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Aceptar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Aceptar'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell'), 
     2)
 
-WebUI.setText(findTestObject('Modulo Pruebas Bienestar/Sancionados/textarea_Observacin_form_sancionadoslistaSancionadosobservacion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/textarea_Observacin_form_sancionadoslistaSancionadosobservacion'), 
     'PRUEBAS K')
 
-WebUI.click(findTestObject('Modulo Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
 
 WebUI.closeBrowser()
 

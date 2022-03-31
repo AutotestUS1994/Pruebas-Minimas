@@ -23,49 +23,49 @@ String identificacion = ((WebUI.callTestCase(findTestCase('1.1-Tareas Principale
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Tarea Actos Administrativos'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/i_Actos_glyphicons glyphicons-group'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/i_Actos_glyphicons glyphicons-group'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/i_Actos_glyphicons glyphicons-group'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/i_Actos_glyphicons glyphicons-group'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Acto cambio del Empleado_form'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Acto cambio del Empleado_form'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Acto cambio del Empleado_form'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Acto cambio del Empleado_form'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Nomina'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Nomina'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Nomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Nomina'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_ingreso definitivo indefinido salario basico'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_ingreso definitivo indefinido salario basico'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_ingreso definitivo indefinido salario basico'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_ingreso definitivo indefinido salario basico'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Elaboracin_glyphicons glyphicons-chronicle x2'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Elaboracin_glyphicons glyphicons-chronicle x2'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Elaboracin_glyphicons glyphicons-chronicle x2'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Elaboracin_glyphicons glyphicons-chronicle x2'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Identificacin_form_actoIngresoj_idt975'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Identificacin_form_actoIngresoj_idt975'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Identificacin_form_actoIngresoj_idt975'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Identificacin_form_actoIngresoj_idt975'))
 
-WebUI.setText(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1696'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1696'), 
     identificacion)
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1696'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1696'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Consta Belfegord  Jhon5682169'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Consta Belfegord  Jhon5682169'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Consta Belfegord  Jhon5682169'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/span_Consta Belfegord  Jhon5682169'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Continuar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Continuar'), GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Cambio Empleado/a_Continuar'))
 
 return identificacion
 

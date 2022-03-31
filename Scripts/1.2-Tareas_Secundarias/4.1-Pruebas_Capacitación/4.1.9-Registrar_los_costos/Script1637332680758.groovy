@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/td_Prueba'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/td_Prueba'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/div_Costo'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/div_Costo'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_Registro'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Registro'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'), 1))
+if(WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'), 1))
 {
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_Aceptar'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Aceptar'))
 }
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/select_SeleccioneALOJAMIENTOMATERIALESREFRIGERIOSALONTRANSPORTE'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/select_SeleccioneALOJAMIENTOMATERIALESREFRIGERIOSALONTRANSPORTE'), 
     3)
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/input_Valor_formCostoEventopanel_costostabla_costosnumero'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/input_Valor_formCostoEventopanel_costostabla_costosnumero'), 
     '100')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/input_Valor_formCostoEventopanel_costostabla_costosfechaPago_input'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/input_Valor_formCostoEventopanel_costostabla_costosfechaPago_input'), 
     '07/05/2021')
 
-WebUI.setText(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/input_Valor_formCostoEventopanel_costostabla_costosvalor'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/input_Valor_formCostoEventopanel_costostabla_costosvalor'), 
     '1000000')
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Registrar_los_costos/a_Valor_formCostoEventopanel_costostabla_costosj_idt637'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Valor_formCostoEventopanel_costostabla_costosj_idt637'))
 

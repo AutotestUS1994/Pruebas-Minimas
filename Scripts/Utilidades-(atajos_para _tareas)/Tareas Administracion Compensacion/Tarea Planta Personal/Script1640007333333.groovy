@@ -18,13 +18,13 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 'Planta Personal (tal)')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Planta Personal/input_Ir_nav_t66_input'), 'Planta Personal (tal)')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/span_Planta Personal (tal)'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Planta Personal/span_Planta Personal (tal)'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Tarea Planta Personal/span_Planta Personal (tal)'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Tarea Planta Personal/span_Planta Personal (tal)'))
 

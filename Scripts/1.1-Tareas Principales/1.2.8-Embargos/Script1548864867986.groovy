@@ -16,29 +16,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/input_Identificacin_listadoEmp'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/input_Identificacin_listadoEmp'), '354968431354')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), '354968431354')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/input_Identificacin_listadoEmp'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/span_CONSTA BELFEGORD JHON'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/span_CONSTA BELFEGORD JHON'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/span_Embargos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/span_Embargos'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/a_Nuevo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/a_Nuevo'))
 
-WebUI.selectOptionByValue(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/select_-- seleccione --E5 - EM'), 
+WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/select_-- seleccione --E5 - EM'), 
     'E5', true)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/input_Fecha Inicial _form_emba'), '27/12/2018')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), '27/12/2018')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/input_Fecha Inicial _form_emba'), Keys.chord(
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), Keys.chord(
         Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Embargos/a_Guardar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/a_Guardar'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

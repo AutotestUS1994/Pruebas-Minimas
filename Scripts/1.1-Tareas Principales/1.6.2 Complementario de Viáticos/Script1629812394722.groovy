@@ -19,213 +19,213 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'listado de viaticos')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/li_Listado de Viaticos (act)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/li_Listado de Viaticos (act)'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
     '2021')
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Ao_form_listadoviaticosanio'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
     2)
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'))
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'), 
+    if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'))
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Eliminar_complementario'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Eliminar_complementario'))
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Si_eliminar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Si_eliminar'))
     }
     
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Funcionario_form_popupComplementarioViaticoj_idt332'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Funcionario_form_popupComplementarioViaticoj_idt332'))
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
         'QUINTERO 45 EMPLEADO')
 
-    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado_Complementario'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado_Complementario'))
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Inicial_form_popupComplementarioViaticofechainicial_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Inicial_form_popupComplementarioViaticofechainicial_input'), 
         '01/07/2021')
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Final_form_popupComplementarioViaticofechafinal_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Final_form_popupComplementarioViaticofechafinal_input'), 
         '01/11/2021')
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cantidad_form_popupComplementarioViaticocantidad'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cantidad_form_popupComplementarioViaticocantidad'), 
         '10')
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--comple'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--comple'), 
         '1')
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cdp_form_popupComplementarioViaticodocumento'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cdp_form_popupComplementarioViaticodocumento'), 
         '1019')
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_TRM Proyectada_form_popupComplementarioViaticotrm'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_TRM Proyectada_form_popupComplementarioViaticotrm'), 
         '5')
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'))
 
     WebUI.getText(findTestObject('Alerta/Alerta'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_E_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_E_ui-icon ui-icon-closethick'))
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Registro'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Registro'), 
         0)
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Registro'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Registro'))
 }
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'))
 
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Modificar una solicitud de vitico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Modificar una solicitud de vitico'))
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
         '01/07/2021')
 
-    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Documento_form_listadoviaticosfechaViat_input'), 
         Keys.chord(Keys.ESCAPE))
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/td_seleccion_01072021'), 
+    if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/td_seleccion_01072021'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/td_seleccion_01072021'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/td_seleccion_01072021'))
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
             '01/07/2021')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Nmero_form_detalleviaticosNumero'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/input_Nmero_form_detalleviaticosNumero'), 
             '5')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/textarea_Motivo Modificacin_form_detalleviaticosmotivoModificacion'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/textarea_Motivo Modificacin_form_detalleviaticosmotivoModificacion'), 
             'prueba')
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Guardar_modficar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Guardar_modficar'))
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Regresar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Regresar'))
 
-        WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
+        WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
             2)
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'))
 
-        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'), 
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'), 
             0)
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'))
 
-        if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'), 
+        if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'), 
             1)) {
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'))
 
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Eliminar_complementario'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Eliminar_complementario'))
 
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Si_eliminar'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Si_eliminar'))
         }
     }
 }
 
-if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Autorizada_ui-icon ui-icon-closethick'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Autorizada_ui-icon ui-icon-closethick'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Autorizada_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Autorizada_ui-icon ui-icon-closethick'))
 
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.9 Crear Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
         0)
 
-    WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
         'listado de viaticos')
 
-    WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/li_Listado de Viaticos (act)'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/li_Listado de Viaticos (act)'), 
         0)
 
-    WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
         2)
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'), 
+    if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_5'))
 
-        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'), 
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'), 
             0)
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Complementario'))
 
-        if (WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'), 
+        if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'), 
             1)) {
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado'))
 
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Eliminar_complementario'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Eliminar_complementario'))
 
-            WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Si_eliminar'))
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Si_eliminar'))
         }
         
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Nuevo'))
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Funcionario_form_popupComplementarioViaticoj_idt332'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Funcionario_form_popupComplementarioViaticoj_idt332'))
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
             'QUINTERO 45 EMPLEADO')
 
-        WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
+        WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Filtro Empleado_form_popupEmpleadoj_idt561'), 
             Keys.chord(Keys.ENTER))
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado_Complementario'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_Quintero 45 Empleado_Complementario'))
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Inicial_form_popupComplementarioViaticofechainicial_input'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Inicial_form_popupComplementarioViaticofechainicial_input'), 
             '01/07/2021')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Final_form_popupComplementarioViaticofechafinal_input'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Fecha Final_form_popupComplementarioViaticofechafinal_input'), 
             '01/11/2021')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cantidad_form_popupComplementarioViaticocantidad'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cantidad_form_popupComplementarioViaticocantidad'), 
             '10')
 
-        WebUI.selectOptionByIndex(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--comple'), 
+        WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/select_--- Seleccione Tipo Costo --Viatico prueba--comple'), 
             '1')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cdp_form_popupComplementarioViaticodocumento'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_Cdp_form_popupComplementarioViaticodocumento'), 
             '1019')
 
-        WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_TRM Proyectada_form_popupComplementarioViaticotrm'), 
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/input_TRM Proyectada_form_popupComplementarioViaticotrm'), 
             '5')
 
-        WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'), 
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'), 
             1)
 
-        WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'))
 
         WebUI.getText(findTestObject('Alerta/Alerta'))
     }

@@ -15,14 +15,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Seguridad Social'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Archivo Cargue Operador/td_Planilla Empleados Empresa'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Archivo Cargue Operador/td_Planilla Empleados Empresa'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Archivo Cargue Operador/td_Planilla Empleados Empresa'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Archivo Cargue Operador/td_Planilla Empleados Empresa'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Archivo Cargue Operador/a_Archivo_'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Archivo Cargue Operador/a_Archivo_'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Archivo Cargue Operador/a_Archivo_1'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Archivo Cargue Operador/a_Archivo_1'))
 
 WebUI.closeBrowser()
 

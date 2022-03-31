@@ -19,56 +19,56 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Periodo Nomina_LiquidacionNominaj_idt63'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/span_P MensualJulio2021'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/span_P MensualJulio2021'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Nombre Persona_LiquidacionNo'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Nombre Persona_LiquidacionNo'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Nombre Persona_LiquidacionNo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Nombre Persona_LiquidacionNo'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/input_close_popupFiltroEmplead'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/input_close_popupFiltroEmplead'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/input_close_popupFiltroEmplead'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/input_close_popupFiltroEmplead'), 
     '66666')
 
-WebUI.sendKeys(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/input_close_popupFiltroEmplead'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/input_close_popupFiltroEmplead'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/td_SALGADO PAULA'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/td_SALGADO PAULA'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/td_SALGADO PAULA'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/td_SALGADO PAULA'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/input_Estado_LiquidacionNomina'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/input_Estado_LiquidacionNomina'), 
     0)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/input_Estado_LiquidacionNomina'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/input_Estado_LiquidacionNomina'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/span_Generar Comprobante'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/span_Generar Comprobante'))
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/input_Publicar_formComprobante'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/input_Publicar_formComprobante'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_-- Seleccione --Comprob'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_-- Seleccione --Comprob'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/select_-- Seleccione --Comprob'), 
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/select_-- Seleccione --Comprob'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Tarea Administracion Compensacion/Comprobante de Pago/a_Generar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Generar'))
 
 WebUI.closeBrowser()
 

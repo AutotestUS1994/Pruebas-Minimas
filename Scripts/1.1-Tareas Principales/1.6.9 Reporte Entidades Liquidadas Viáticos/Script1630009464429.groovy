@@ -19,72 +19,72 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'generacion Entidad Pago Viaticos')
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/li_Listado de Viaticos (act)'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/li_Listado de Viaticos (act)'), 
     0)
 
-WebUI.sendKeys(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Traer'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Traer'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Viaticos2'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Viaticos2'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Viaticos2'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Viaticos2'))
 
-WebUI.setText(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_Fecha_form_viaticos2'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/input_Fecha_form_viaticos2'), 
     '01/07/2021')
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aplicar_viaticos2'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aplicar_viaticos2'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/span_Medicina Prepagada Colsanitas'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/span_Medicina Prepagada Colsanitas'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/div_Sucursal_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/div_Sucursal_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Liquidar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Liquidar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_Liquidar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_Liquidar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_Liquidar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_Liquidar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Continuar'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Continuar'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Continuar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Continuar'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Imprimir'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Imprimir'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Imprimir'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Imprimir'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Csv_informe'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Csv_informe'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Csv_informe'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/label_Csv_informe'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Generar_Reporte'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Generar_Reporte'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Generar_Reporte'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Generar_Reporte'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Descargar_reporte medicina prepagada colsanitas'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Descargar_reporte medicina prepagada colsanitas'))
 
-WebUI.waitForElementClickable(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/span_Fecha_ui-icon ui-icon-closethick'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/span_Fecha_ui-icon ui-icon-closethick'), 
     0)
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/span_Fecha_ui-icon ui-icon-closethick'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/span_Fecha_ui-icon ui-icon-closethick'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Reversar_viaticos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Reversar_viaticos'))
 
-WebUI.click(findTestObject('Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_viaticos'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_viaticos'))
 
 WebUI.getText(findTestObject('Alerta/Alerta'))
 

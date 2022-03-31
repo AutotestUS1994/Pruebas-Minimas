@@ -19,22 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/td_Prueba'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/td_Prueba'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/div_Recursos'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/div_Recursos'))
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/a_Logsticos'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_Logsticos'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/td_DVD'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt606'))
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/td_DVD'), 1)) {
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt606'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/a_Aceptar_eliminar'))
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_Aceptar_eliminar'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/select_SeleccioneDVDTV'), 1)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/select_SeleccioneDVDTV'), 1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/select_SeleccioneINDISPENSABLEOPCIONAL'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/select_SeleccioneINDISPENSABLEOPCIONAL'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Capacitación/Asociar_Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt608'))
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt608'))
 
