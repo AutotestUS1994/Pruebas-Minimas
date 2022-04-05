@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td/table/tbody/tr/td/a</value>
+         <value>(//a[contains(text(),'Generar')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>

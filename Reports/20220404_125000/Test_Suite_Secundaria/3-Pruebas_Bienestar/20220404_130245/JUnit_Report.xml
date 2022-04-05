@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3-Pruebas_Bienestar" time="112.157" tests="2" failures="2" errors="0">
+   <testsuite name="3-Pruebas_Bienestar" tests="2" failures="2" errors="0" time="112.157" skipped="0" timestamp="2022-04-04 13:02:54" hostname="diego.rojas - US-AF-000371" id="Test Suites/Test_Suite_Secundaria/3-Pruebas_Bienestar">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_125000\\Test_Suite_Secundaria\\3-Pruebas_Bienestar\\20220404_130245"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_125000\\Test_Suite_Secundaria\\3-Pruebas_Bienestar\\20220404_130245\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_125000\\Test_Suite_Secundaria\\3-Pruebas_Bienestar\\20220404_130245\\1649095470403.png, C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_125000\\Test_Suite_Secundaria\\3-Pruebas_Bienestar\\20220404_130245\\1649095486198.png"/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="2497880165743c6f8fc61e38627491c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple" time="95.872" classname="Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-04 13:02:54 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple: Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Dia = today.format("dd"): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Mes = today.format("MM"): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Mes1 = today.format("MM"): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - MesN = today.format("MM"): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Año = today.format("yyyy"): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - AñoN = today.format("yyyy"): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - sumaD = Dia + 10: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - sumaM = Mes + 1: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - sumaA = Año + 1: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - if (Mes < 10): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - suma1 = { -> ... }: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - if (sumaM < 10): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - sumaM0 = "0" + sumaM: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - if (sumaD > 30): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - sumaD: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Mes: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - if (sumaM > 12): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Dia0 = Dia + 1: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - restaD0 = sumaD - 1: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - if (Dia0 > 30): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Dia0: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - MesN: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - if (restaD0 < 1): null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - restaD0: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - Mes: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - FechaI = Dia + "/" + MesN + "/" + AñoN: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - FechaF = sumaD + "/" + Mes + "/" + Año: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - FechaI0 = Dia0 + "/" + MesN + "/" + AñoN: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - FechaF0 = restaD0 + "/" + Mes + "/" + Año: null
+
+2022-04-04 13:02:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos' successfully
+
+2022-04-04 13:02:55 - [TEST_CASE][PASSED] - Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos: Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos
+
+2022-04-04 13:02:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 13:02:56 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-04-04 13:02:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 13:02:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-04 13:02:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-04 13:02:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 13:02:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - try: null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-04-04 13:02:59 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 13:03:00 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 13:03:00 - [TEST_STEP][PASSED] - a(): null
+
+2022-04-04 13:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 13:03:01 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 13:03:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 13:03:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 13:03:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 13:03:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 13:03:02 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 13:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 13:03:03 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-04-04 13:03:04 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 13:03:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 13:03:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 13:03:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA"), 0): Object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA' is clickable
+
+2022-04-04 13:03:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:03:05 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA' is clickable
+
+2022-04-04 13:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA"), "eventos (bie)"): Text 'eventos (bie)' is set on object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'
+
+2022-04-04 13:03:05 - [MESSAGE][PASSED] - Text 'eventos (bie)' is set on object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'
+
+2022-04-04 13:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Modulo bienestar-eventos/span_Eventos (bie)")): Object: 'Object Repository/Modulo bienestar-eventos/span_Eventos (bie)' is clicked on
+
+2022-04-04 13:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo bienestar-eventos/span_Eventos (bie)' is clicked on
+
+2022-04-04 13:03:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos' successfully
+
+2022-04-04 13:03:07 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S' is clicked on
+
+2022-04-04 13:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S' is clicked on
+
+2022-04-04 13:03:08 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos' is clicked on
+
+2022-04-04 13:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos' is clicked on
+
+2022-04-04 13:03:09 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_prueba")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_prueba' is clicked on
+
+2022-04-04 13:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_prueba' is clicked on
+
+2022-04-04 13:03:10 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582"), 1)): Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582' located by '//a[@id='popupMomentoEvento_form:tablaMomentoEventoHorarioPopup:0:j_idt1582']' not found
+
+2022-04-04 13:03:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='popupMomentoEvento_form:tablaMomentoEventoHorarioPopup:0:j_idt1582']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 13:03:12 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582' located by '//a[@id='popupMomentoEvento_form:tablaMomentoEventoHorarioPopup:0:j_idt1582']' not found
+
+2022-04-04 13:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input"), FechaI): Text '4/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'
+
+2022-04-04 13:03:13 - [MESSAGE][PASSED] - Text '4/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'
+
+2022-04-04 13:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input"), FechaF): Text '14/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'
+
+2022-04-04 13:03:14 - [MESSAGE][PASSED] - Text '14/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'
+
+2022-04-04 13:03:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input"), 0): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input' is present
+
+2022-04-04 13:03:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input' is present
+
+2022-04-04 13:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input"), FechaI): Text '4/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:15 - [MESSAGE][PASSED] - Text '4/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input"), 0): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input' is present
+
+2022-04-04 13:03:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input' is present
+
+2022-04-04 13:03:16 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input"), FechaF): Text '14/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:17 - [MESSAGE][PASSED] - Text '14/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input"), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:18 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:18 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido"), 1)): Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+
+2022-04-04 13:03:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 13:03:20 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+
+2022-04-04 13:03:20 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579"), STOP_ON_FAILURE): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579' is clicked on
+
+2022-04-04 13:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579' is clicked on
+
+2022-04-04 13:03:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR"), 0): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR' is clickable
+
+2022-04-04 13:03:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR' is clickable
+
+2022-04-04 13:03:22 - [TEST_STEP][PASSED] - check(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR")): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR' is checked
+
+2022-04-04 13:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR' is checked
+
+2022-04-04 13:03:22 - [TEST_STEP][PASSED] - check(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MIE")): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MIE' is checked
+
+2022-04-04 13:03:23 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MIE' is checked
+
+2022-04-04 13:03:23 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/select_01"), 5): All options with index in [5] are selected on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/select_01'
+
+2022-04-04 13:03:24 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/select_01'
+
+2022-04-04 13:03:24 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/select_02"), 6): All options with index in [6] are selected on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/select_02'
+
+2022-04-04 13:03:25 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/select_02'
+
+2022-04-04 13:03:25 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_mas_Horario")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_mas_Horario' is clicked on
+
+2022-04-04 13:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_mas_Horario' is clicked on
+
+2022-04-04 13:03:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_LUN-MAR 0500-0600"), 2): Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_LUN-MAR 0500-0600' located by '//*/text()[normalize-space(.)='LUN-MAR 05:00-06:00']/parent::*' not found
+
+2022-04-04 13:03:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='LUN-MAR 05:00-06:00']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 13:03:29 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_LUN-MAR 0500-0600' located by '//*/text()[normalize-space(.)='LUN-MAR 05:00-06:00']/parent::*' not found
+
+2022-04-04 13:03:29 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aplicar")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aplicar' is clicked on
+
+2022-04-04 13:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aplicar' is clicked on
+
+2022-04-04 13:03:29 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Icon_mas_principal")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Icon_mas_principal' is clicked on
+
+2022-04-04 13:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Icon_mas_principal' is clicked on
+
+2022-04-04 13:03:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aceptar Eliminar 0"), 1)): null
+
+2022-04-04 13:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aceptar Eliminar 0' is visible
+
+2022-04-04 13:03:31 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aceptar Eliminar 0")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aceptar Eliminar 0' is clicked on
+
+2022-04-04 13:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Aceptar Eliminar 0' is clicked on
+
+2022-04-04 13:03:31 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Guardar")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Guardar' is clicked on
+
+2022-04-04 13:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Guardar' is clicked on
+
+2022-04-04 13:03:32 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Regresar")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Regresar' is clicked on
+
+2022-04-04 13:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Regresar' is clicked on
+
+2022-04-04 13:03:33 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S-SH")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S-SH' is clicked on
+
+2022-04-04 13:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_Prueba-S-SH' is clicked on
+
+2022-04-04 13:03:33 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos' is clicked on
+
+2022-04-04 13:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Momento Eventos' is clicked on
+
+2022-04-04 13:03:35 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_prueba")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_prueba' is clicked on
+
+2022-04-04 13:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/td_prueba' is clicked on
+
+2022-04-04 13:03:36 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582"), 1)): Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582' located by '//a[@id='popupMomentoEvento_form:tablaMomentoEventoHorarioPopup:0:j_idt1582']' not found
+
+2022-04-04 13:03:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='popupMomentoEvento_form:tablaMomentoEventoHorarioPopup:0:j_idt1582']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 13:03:38 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582' located by '//a[@id='popupMomentoEvento_form:tablaMomentoEventoHorarioPopup:0:j_idt1582']' not found
+
+2022-04-04 13:03:38 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input"), FechaI): Text '4/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'
+
+2022-04-04 13:03:39 - [MESSAGE][PASSED] - Text '4/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'
+
+2022-04-04 13:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input"), FechaF): Text '14/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'
+
+2022-04-04 13:03:40 - [MESSAGE][PASSED] - Text '14/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'
+
+2022-04-04 13:03:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input"), 0): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input' is present
+
+2022-04-04 13:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input' is present
+
+2022-04-04 13:03:41 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input"), FechaI0): Text '5/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:41 - [MESSAGE][PASSED] - Text '5/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'
+
+2022-04-04 13:03:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input"), 0): Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input' is present
+
+2022-04-04 13:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input' is present
+
+2022-04-04 13:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input"), FechaF0): Text '13/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:43 - [MESSAGE][PASSED] - Text '13/4/2022' is set on object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'
+
+2022-04-04 13:03:43 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579"), 30): null
+
+2022-04-04 13:03:44 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 13:03:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 13:03:44 - [TEST_STEP][FAILED] - result0 = getText(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido")): Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at Script1635424461915.run(Script1635424461915.groovy:248)
+	... 13 more
+)
+
+2022-04-04 13:04:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 13:04:30 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at Script1635424461915.run(Script1635424461915.groovy:248)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_125000\\Test_Suite_Secundaria\\3-Pruebas_Bienestar\\20220404_130245\\1649095470403.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-04 13:02:54 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple: Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos" time="15.925" classname="Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at 3.3.1-Recursos.run(3.3.1-Recursos:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-04 13:04:30 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos: Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at 3.3.1-Recursos.run(3.3.1-Recursos:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-04 13:04:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos' successfully
+
+2022-04-04 13:04:30 - [TEST_CASE][PASSED] - Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos: Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos
+
+2022-04-04 13:04:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 13:04:31 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-04-04 13:04:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 13:04:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-04 13:04:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-04 13:04:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-04 13:04:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 13:04:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - try: null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-04-04 13:04:33 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 13:04:34 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 13:04:34 - [TEST_STEP][PASSED] - a(): null
+
+2022-04-04 13:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 13:04:35 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 13:04:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 13:04:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 13:04:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 13:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 13:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 13:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 13:04:40 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-04-04 13:04:40 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 13:04:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 13:04:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 13:04:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA"), 0): Object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA' is clickable
+
+2022-04-04 13:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 13:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA' is clickable
+
+2022-04-04 13:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA"), "eventos (bie)"): Text 'eventos (bie)' is set on object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'
+
+2022-04-04 13:04:42 - [MESSAGE][PASSED] - Text 'eventos (bie)' is set on object 'Object Repository/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'
+
+2022-04-04 13:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Modulo bienestar-eventos/span_Eventos (bie)")): Object: 'Object Repository/Modulo bienestar-eventos/span_Eventos (bie)' is clicked on
+
+2022-04-04 13:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo bienestar-eventos/span_Eventos (bie)' is clicked on
+
+2022-04-04 13:04:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos' successfully
+
+2022-04-04 13:04:43 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/td_Prueba-S")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/td_Prueba-S' is clicked on
+
+2022-04-04 13:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/td_Prueba-S' is clicked on
+
+2022-04-04 13:04:44 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/div_Recursos")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/div_Recursos' is clicked on
+
+2022-04-04 13:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/div_Recursos' is clicked on
+
+2022-04-04 13:04:45 - [TEST_STEP][PASSED] - click(findTestObject("M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Logsticos")): Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Logsticos' is clicked on
+
+2022-04-04 13:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Logsticos' is clicked on
+
+2022-04-04 13:04:46 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("Modulo Pruebas Bienestar/Recursos/select_SeleccioneBlue RayCmarasCamaras de videoComedoresEstacin de cafeInternetIpadLucesMicrofonosPantallasPorttilSonidoTabletsTarimaTeleconferencia"), 6): Unable to select option by index (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at 3.3.1-Recursos.run(3.3.1-Recursos:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at Script1640699111502.run(Script1640699111502.groovy:28)
+	... 13 more
+)
+
+2022-04-04 13:04:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Modulo Pruebas Bienestar/Recursos/select_SeleccioneBlue RayCmarasCamaras de videoComedoresEstacin de cafeInternetIpadLucesMicrofonosPantallasPorttilSonidoTabletsTarimaTeleconferencia' does not exist
+
+2022-04-04 13:04:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-04-04 13:04:46 - [MESSAGE][FAILED] - Unable to select option by index (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at 3.3.1-Recursos.run(3.3.1-Recursos:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at Script1640699111502.run(Script1640699111502.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_125000\\Test_Suite_Secundaria\\3-Pruebas_Bienestar\\20220404_130245\\1649095486198.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-04 13:04:30 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos: Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1133)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$12.call(Unknown Source)
+	at 3.3.1-Recursos.run(3.3.1-Recursos:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-04 13:02:54 - [TEST_SUITE][FAILED] - 3-Pruebas_Bienestar: Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-04 13:02:54 - [TEST_SUITE][FAILED] - 3-Pruebas_Bienestar: Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at 3.1.7-Programacion_Múltiple.run(3.1.7-Programacion_Múltiple:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649095365748.run(TempTestSuite1649095365748.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido' located by '//div[(text() = 'Formato de fecha no valido.' or . = 'Formato de fecha no valido.')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

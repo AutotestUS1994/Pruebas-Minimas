@@ -41,7 +41,8 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigaci
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Investigaciones'))
 
-if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/span_Prueba2'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/span_Prueba2'), 
+    1)) {
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/span_Prueba2'))
 
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Eliminar'))
@@ -68,10 +69,10 @@ WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investiga
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_-- SELECCIONAR --GraveLeveUrgente'), 
     '2')
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Descripcin del rea de Trabajo en Dnde Ocurri el Accidente_j_idt1827tabInvestigacionAccidentadoareaTrabajo'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo (1)/textarea_Descripcin del rea de Trabajo en Dnde Ocurri el Accidente_j_idt1827tabInvestigacionAccidentadoareaTrabajo'), 
     'null')
 
-WebUI.setText(findTestObject('Modulo Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Descripcin de la Operacin Desarrollada en el Momento del Accidente_j_idt1827tabInvestigacionAccidentadooperacion'), 
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Descripcin de la Operacin Desarrollada en el Momento del Accidente_j_idt1827tabInvestigacionAccidentadooperacion'), 
     'null')
 
 WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Acciones Adoptadas Despus del Accidente_j_idt1827tabInvestigacionAccidentadoacciones'), 
@@ -95,7 +96,8 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigaci
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_Seleccionar1111-Metodologa 1'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_Seleccionar'), 1)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_Seleccionar'), 
+    1)
 
 WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo (1)/textarea_Descripcin_form_PopupAnalisisCausaldesc'), 
     'prueba')
@@ -117,7 +119,8 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigaci
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_Seleccionar1111-Metodologa 12'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_Seleccionar2'), 1)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_Seleccionar2'), 
+    1)
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/span_Metodologa_ui-icon ui-icon-closethick'))
 
@@ -250,7 +253,8 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigaci
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Observacin_form_popupRecomendacionInvvpanel_principal_23j_idt464j_idt480'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/label_Tipo  Control'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/label_Tipo  Control'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/span_Tipo Control'))
 

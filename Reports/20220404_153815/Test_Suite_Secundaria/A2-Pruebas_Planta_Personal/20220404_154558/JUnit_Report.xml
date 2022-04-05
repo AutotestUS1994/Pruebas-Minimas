@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="A2-Pruebas_Planta_Personal" time="134.007" tests="2" failures="2" errors="0">
+   <testsuite name="A2-Pruebas_Planta_Personal" tests="2" failures="2" errors="0" time="134.007" skipped="0" timestamp="2022-04-04 15:46:06" hostname="diego.rojas - US-AF-000371" id="Test Suites/Test_Suite_Secundaria/A2-Pruebas_Planta_Personal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_153815\\Test_Suite_Secundaria\\A2-Pruebas_Planta_Personal\\20220404_154558"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_153815\\Test_Suite_Secundaria\\A2-Pruebas_Planta_Personal\\20220404_154558\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_153815\\Test_Suite_Secundaria\\A2-Pruebas_Planta_Personal\\20220404_154558\\1649105242733.png, C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_153815\\Test_Suite_Secundaria\\A2-Pruebas_Planta_Personal\\20220404_154558\\1649105300348.png"/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0028d92937f174eeac43fcae40c8e263"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo)" time="76.071" classname="Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-04 15:46:06 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo): Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-04 15:46:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo' successfully
+
+2022-04-04 15:46:07 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo: Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo
+
+2022-04-04 15:46:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 15:46:08 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-04-04 15:46:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 15:46:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-04 15:46:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-04 15:46:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 15:46:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - try: null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-04-04 15:46:11 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 15:46:12 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 15:46:12 - [TEST_STEP][PASSED] - a(): null
+
+2022-04-04 15:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 15:46:12 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 15:46:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 15:46:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 15:46:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 15:46:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 15:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 15:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 15:46:15 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-04-04 15:46:15 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 15:46:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 15:46:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 15:46:15 - [TEST_STEP][PASSED] - setText(findTestObject("input_Empresa 1_form_templatej_idt24_input"), "planta personal (tal)"): Text 'planta personal (tal)' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-04-04 15:46:17 - [MESSAGE][PASSED] - Text 'planta personal (tal)' is set on object 'Object Repository/input_Empresa 1_form_templatej_idt24_input'
+
+2022-04-04 15:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta' is clicked on
+
+2022-04-04 15:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta' is clicked on
+
+2022-04-04 15:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Actos Administrativos_organigramabuscar")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Actos Administrativos_organigramabuscar' is clicked on
+
+2022-04-04 15:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Actos Administrativos_organigramabuscar' is clicked on
+
+2022-04-04 15:46:20 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/select_--Seleccione--EmpleadoPuesto"), 2): All options with index in [2] are selected on object 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/select_--Seleccione--EmpleadoPuesto'
+
+2022-04-04 15:46:21 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/select_--Seleccione--EmpleadoPuesto'
+
+2022-04-04 15:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt279")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt279' is clicked on
+
+2022-04-04 15:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt279' is clicked on
+
+2022-04-04 15:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Unidad Organizacional_popupBusquedaPlantaj_idt274")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Unidad Organizacional_popupBusquedaPlantaj_idt274' is clicked on
+
+2022-04-04 15:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Unidad Organizacional_popupBusquedaPlantaj_idt274' is clicked on
+
+2022-04-04 15:46:22 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880"), "administracion"): Text 'administracion' is set on object 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'
+
+2022-04-04 15:46:23 - [MESSAGE][PASSED] - Text 'administracion' is set on object 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'
+
+2022-04-04 15:46:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'
+
+2022-04-04 15:46:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'
+
+2022-04-04 15:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ADMINISTRACION")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ADMINISTRACION' is clicked on
+
+2022-04-04 15:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ADMINISTRACION' is clicked on
+
+2022-04-04 15:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt2790")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt2790' is clicked on
+
+2022-04-04 15:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt2790' is clicked on
+
+2022-04-04 15:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ABOGADO")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ABOGADO' is clicked on
+
+2022-04-04 15:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ABOGADO' is clicked on
+
+2022-04-04 15:46:26 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_20139    - Abogado")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_20139    - Abogado' is clicked on
+
+2022-04-04 15:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_20139    - Abogado' is clicked on
+
+2022-04-04 15:46:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_10308"), 0): Scroll to object 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_10308' successfully
+
+2022-04-04 15:46:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 15:46:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_10308' successfully
+
+2022-04-04 15:46:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo' successfully
+
+2022-04-04 15:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_20145    - 40 Mil Staff")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_20145    - 40 Mil Staff' is clicked on
+
+2022-04-04 15:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_20145    - 40 Mil Staff' is clicked on
+
+2022-04-04 15:46:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/div_Salgado . Paula 40 Mil Staff"), 0): Scroll to object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/div_Salgado . Paula 40 Mil Staff' successfully
+
+2022-04-04 15:46:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '45'
+
+2022-04-04 15:46:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/div_Salgado . Paula 40 Mil Staff' successfully
+
+2022-04-04 15:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Salgado . Paula_organigramaj_idt111")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Salgado . Paula_organigramaj_idt111' is clicked on
+
+2022-04-04 15:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Salgado . Paula_organigramaj_idt111' is clicked on
+
+2022-04-04 15:46:29 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Aceptar"), 1)): Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Aceptar' located by '//a[contains(text(),'Aceptar')]' not found
+
+2022-04-04 15:46:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Aceptar')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 15:46:32 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Aceptar' located by '//a[contains(text(),'Aceptar')]' not found
+
+2022-04-04 15:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Copiar Perfil")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Copiar Perfil' is clicked on
+
+2022-04-04 15:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Copiar Perfil' is clicked on
+
+2022-04-04 15:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Unidad Organizacional_popupCopiarPerfilj_idt2011")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Unidad Organizacional_popupCopiarPerfilj_idt2011' is clicked on
+
+2022-04-04 15:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Unidad Organizacional_popupCopiarPerfilj_idt2011' is clicked on
+
+2022-04-04 15:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones"), "administracion"): Text 'administracion' is set on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones'
+
+2022-04-04 15:46:34 - [MESSAGE][PASSED] - Text 'administracion' is set on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones'
+
+2022-04-04 15:46:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones'
+
+2022-04-04 15:46:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/input_Unidad Organizacional_formPopUpUnidaddescripciones'
+
+2022-04-04 15:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_ADMINISTRACION")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_ADMINISTRACION' is clicked on
+
+2022-04-04 15:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_ADMINISTRACION' is clicked on
+
+2022-04-04 15:46:35 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Cargo_popupCopiarPerfilj_idt2016")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Cargo_popupCopiarPerfilj_idt2016' is clicked on
+
+2022-04-04 15:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/a_Cargo_popupCopiarPerfilj_idt2016' is clicked on
+
+2022-04-04 15:46:36 - [TEST_STEP][FAILED] - click(findTestObject("Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF")): Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474008076.run(Script1648474008076.groovy:48)
+	... 13 more
+)
+
+2022-04-04 15:47:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='40 MIL STAFF']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 15:47:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474008076.run(Script1648474008076.groovy:48)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_153815\\Test_Suite_Secundaria\\A2-Pruebas_Planta_Personal\\20220404_154558\\1649105242733.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-04 15:46:06 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo): Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo" time="57.573" classname="Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.7-Impresión_de_descripción_del_cargo.run(12.2.7-Impresión_de_descripción_del_cargo:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' located by '//*/text()[normalize-space(.)='01/07/2021']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-04 15:47:22 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo: Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.7-Impresión_de_descripción_del_cargo.run(12.2.7-Impresión_de_descripción_del_cargo:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' located by '//*/text()[normalize-space(.)='01/07/2021']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-04 15:47:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 15:47:23 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-04-04 15:47:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 15:47:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-04 15:47:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-04 15:47:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-04 15:47:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 15:47:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - try: null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-04-04 15:47:25 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 15:47:26 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-04-04 15:47:26 - [TEST_STEP][PASSED] - a(): null
+
+2022-04-04 15:47:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 15:47:26 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/Login/input_USUARIO_loginusuario'
+
+2022-04-04 15:47:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 15:47:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_CLAVE_loginpassword'
+
+2022-04-04 15:47:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 15:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/a_Ingresar' is clickable
+
+2022-04-04 15:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Ingresar")): Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 15:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Ingresar' is clicked on
+
+2022-04-04 15:47:29 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Login/a_Ir"), 30): null
+
+2022-04-04 15:47:29 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 15:47:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-04-04 15:47:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-04-04 15:47:29 - [TEST_STEP][PASSED] - setText(findTestObject("Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/input_Empresa 1_form_templatej_idt24_input"), "Listado Descripcion Cargo (tal)"): Text 'Listado Descripcion Cargo (tal)' is set on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-04-04 15:47:30 - [MESSAGE][PASSED] - Text 'Listado Descripcion Cargo (tal)' is set on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/input_Empresa 1_form_templatej_idt24_input'
+
+2022-04-04 15:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/li_Listado Descripcion Cargo (tal)")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/li_Listado Descripcion Cargo (tal)' is clicked on
+
+2022-04-04 15:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/li_Listado Descripcion Cargo (tal)' is clicked on
+
+2022-04-04 15:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Cargo_form_listadoDescripcionCargoj_idt70")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Cargo_form_listadoDescripcionCargoj_idt70' is clicked on
+
+2022-04-04 15:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Cargo_form_listadoDescripcionCargoj_idt70' is clicked on
+
+2022-04-04 15:47:33 - [TEST_STEP][PASSED] - click(findTestObject("Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_40 MIL STAFF")): Object: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_40 MIL STAFF' is clicked on
+
+2022-04-04 15:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_40 MIL STAFF' is clicked on
+
+2022-04-04 15:47:34 - [TEST_STEP][FAILED] - click(findTestObject("Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021")): Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.7-Impresión_de_descripción_del_cargo.run(12.2.7-Impresión_de_descripción_del_cargo:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' located by '//*/text()[normalize-space(.)='01/07/2021']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474008115.run(Script1648474008115.groovy:31)
+	... 13 more
+)
+
+2022-04-04 15:48:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='01/07/2021']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 15:48:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.7-Impresión_de_descripción_del_cargo.run(12.2.7-Impresión_de_descripción_del_cargo:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' located by '//*/text()[normalize-space(.)='01/07/2021']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1648474008115.run(Script1648474008115.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220404_153815\\Test_Suite_Secundaria\\A2-Pruebas_Planta_Personal\\20220404_154558\\1649105300348.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-04 15:47:22 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo: Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.7-Impresión_de_descripción_del_cargo.run(12.2.7-Impresión_de_descripción_del_cargo:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021' located by '//*/text()[normalize-space(.)='01/07/2021']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-04 15:46:06 - [TEST_SUITE][FAILED] - A2-Pruebas_Planta_Personal: Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-04 15:46:06 - [TEST_SUITE][FAILED] - A2-Pruebas_Planta_Personal: Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at 12.2.4-Copiar_perfil_(Puesto_de_Trabajo).run(12.2.4-Copiar_perfil_(Puesto_de_Trabajo):48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649105158390.run(TempTestSuite1649105158390.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Modulo Pruebas Planta de Personal/Copiar_perfil_(Puesto_de_Trabajo)/span_40 MIL STAFF' located by '//*/text()[normalize-space(.)='40 MIL STAFF']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

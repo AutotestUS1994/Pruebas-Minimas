@@ -121,7 +121,7 @@ WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_--Seleccione--AccidenteEnfermedad ComnEnfermedad Laboral'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
     4)
 
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --COOPERADOESTUDIANTE O APRENDIZINDEPENDIENTEMISIONPLANTA'), 

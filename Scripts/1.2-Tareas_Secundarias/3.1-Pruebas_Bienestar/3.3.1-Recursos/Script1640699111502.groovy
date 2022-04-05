@@ -25,7 +25,7 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recur
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Logsticos'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Recursos/select_SeleccioneBlue RayCmarasCamaras de videoComedoresEstacin de cafeInternetIpadLucesMicrofonosPantallasPorttilSonidoTabletsTarimaTeleconferencia'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/select_SeleccioneBlue RayCmarasCamaras de videoComedoresEstacin de cafeInternetIpadLucesMicrofonosPantallasPorttilSonidoTabletsTarimaTeleconferencia'), 
     6)
 
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/select_seleccioneINDISPENSABLEOPCIONAL'), 

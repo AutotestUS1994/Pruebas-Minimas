@@ -34,19 +34,11 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Persona
 
     WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama1'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_QAS'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_QAS_organigramaj_idt1420modificar'))
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_QAS_organigramaj_idt1420modificar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Eliminar1'))
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Eliminar1'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Si1'))
-
-        WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Pruebas  Katalon_organigramamodificar2'))
-
-        WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Eliminar'))
-
-        WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Si'))
-    }
+    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Si1'))
 }
 
 WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Administracion'))

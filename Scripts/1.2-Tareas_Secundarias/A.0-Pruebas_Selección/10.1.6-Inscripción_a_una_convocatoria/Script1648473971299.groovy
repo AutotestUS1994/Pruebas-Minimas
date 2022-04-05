@@ -332,6 +332,16 @@ if (pk1 == 'pruebas katalon 10.1.5') {
 
                         WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
+                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Citacion'))
+
+                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Citacin'))
+
+                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon0'))
+
+                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar0'))
+
+                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si0'))
+
                         WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
                         WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))

@@ -41,7 +41,7 @@ WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas c
     0)
 
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
-    3)
+    1)
 
 WebUI.check(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/div_Grupo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 

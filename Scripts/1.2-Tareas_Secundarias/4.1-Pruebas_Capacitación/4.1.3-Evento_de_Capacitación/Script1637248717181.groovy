@@ -20,7 +20,8 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_prueba'), 1)) {
+if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_prueba'), 
+    1)) {
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_prueba'))
 
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/div_Evaluacin'))
@@ -38,7 +39,8 @@ if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/P
 
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Programacin0'))
 
-    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_24122021'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_24122021'), 
+        1)) {
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/div_Ubicacin_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Eliminar2'))
@@ -85,9 +87,9 @@ if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/P
 
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Registro0'))
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_Pruebas k'), 
+    if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_Pruebas k - Copy'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Capacitación/Evento_de_Capacitacion/td_Pruebas k'))
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_pruebas k'))
 
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Eliminar0'))
 
@@ -105,7 +107,8 @@ if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/P
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Regresar'))
 }
 
-if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Nuevo'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Nuevo'), 
+    1)) {
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Nuevo'))
 
     WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_-- Seleccione --Evento CapacitacinEvento Capacitacin Grupal'), 
@@ -156,7 +159,8 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_MixtaPresencialVirtual'), 
         3)
 
-    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_NOSI'), 1)
+    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_NOSI'), 
+        1)
 
     WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_123456PRUEBA SILVIAUS654US23913781'), 
         2)
@@ -202,7 +206,8 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], 
         FailureHandling.STOP_ON_FAILURE)
 
-    if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_prueba'), 1)) {
+    if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_prueba'), 
+        1)) {
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/td_prueba'))
 
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/div_Evaluacin'))
@@ -286,7 +291,8 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Aceptar5'))
     }
     
-    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Nuevo'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Nuevo'), 
+        1)) {
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/a_Nuevo'))
 
         WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_-- Seleccione --Evento CapacitacinEvento Capacitacin Grupal'), 
@@ -337,7 +343,8 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
         WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_MixtaPresencialVirtual'), 
             3)
 
-        WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_NOSI'), 1)
+        WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_NOSI'), 
+            1)
 
         WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/select_123456PRUEBA SILVIAUS654US23913781'), 
             2)
@@ -383,4 +390,6 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
 }
 
 WebUI.closeBrowser()
+
+WebUI.comment('no se esta verificando bien para eliminar los registros')
 

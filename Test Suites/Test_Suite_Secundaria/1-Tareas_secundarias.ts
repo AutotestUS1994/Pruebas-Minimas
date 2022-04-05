@@ -222,6 +222,12 @@
       <testCaseId>Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.5-Enviar_y_imprimir_Diploma</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>1a26d61e-7b79-45cc-8ed5-ef55c7a9960f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.6-Programa_Capacitacion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8285b1be-e7f4-45d9-b32d-41d497659957</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -501,7 +507,7 @@
       <guid>d9c2b5e2-8812-43a6-96d0-98c878f3e742</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.3-Crear_un_puesto_de_trabajo</testCaseId>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.3-Crear_un_puesto_de_trabajo_y_buscar_puesto</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7742ee62-d905-4029-abd1-2cb3464c3c37</guid>

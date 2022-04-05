@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
+         <value>//div[2]/div/div[1]/table/tbody/tr[2]/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -5,10 +5,10 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>2</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>32a44817-6de8-4f5a-982a-f0b1a5ad08f8</testSuiteGuid>
    <testCaseLink>
@@ -21,7 +21,7 @@
       <guid>a1c0acd7-afd6-4cc2-9ead-5e0f65457052</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.3-Crear_un_puesto_de_trabajo</testCaseId>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.3-Crear_un_puesto_de_trabajo_y_buscar_puesto</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>97b1e9a0-a921-4bf3-ba78-0e52d0f2478a</guid>

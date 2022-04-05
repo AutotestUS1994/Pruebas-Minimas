@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
+         <value>//td[(text() = 'ABOGADO JUNIOR' or . = 'ABOGADO JUNIOR')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

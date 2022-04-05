@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Pruebas  Katalon' or . = 'Pruebas  Katalon')]</value>
+         <value>//span[(text() = 'Pruebas  Katalon' or . = 'Pruebas  Katalon')]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
