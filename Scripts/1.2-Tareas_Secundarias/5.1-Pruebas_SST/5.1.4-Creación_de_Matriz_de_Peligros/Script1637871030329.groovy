@@ -16,8 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-/*librerias para ejecutar botones con java sript*/
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+/*librerias para ejecutar botones con java sript*/ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -33,12 +32,14 @@ WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_Empresa_principal'), 
     1)
 
-if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_PRUEBA KATALON'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_PRUEBA KATALON'), 
+    1)) {
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Fsico. - Riesgo Fsico_form_listadoMatrizPeligrotablaMatrizPeligroDetalle1j_idt138'))
 
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Anexos_Eliminar'))
 
-    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Pruebas k'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Pruebas k'), 
+        1)) {
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Pruebas k'))
 
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_prueba.pdf_Eliminar'))
@@ -46,7 +47,8 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/span_Si'))
     }
     
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Medida de intervencin_Eliminar'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Medida de intervencin_Eliminar'), 
+        FailureHandling.STOP_ON_FAILURE)
 
     if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_PRUEBAS K (1)'), 
         1)) {
@@ -59,7 +61,8 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
     
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Niveles de Riesgo_Eliminar'))
 
-    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_1'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_1'), 
+        1)) {
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_1'))
 
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Eliminar1'))
@@ -69,14 +72,17 @@ if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pru
     
     WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Controles Existentes_Eliminar'))
 
-    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Individuo'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Individuo'), 
+        1)) {
         /*--------------------------------------------------------------------------------------------*/
-		WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Individuo'),
-			30)
+        WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Individuo'), 
+            30)
 
-		WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-		WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Individuo'))
-		/*--------------------------------------------------------------------------------------------*/
+        WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
+        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/td_Individuo'))
+
+        /*--------------------------------------------------------------------------------------------*/
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Eliminar2'))
 
         WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Aceptar_Eliminar2'))
@@ -130,7 +136,8 @@ WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación
 WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/textarea_Descripcin_form_datosActividadMatrizdescripcion'), 
     'PRUEBAS K')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/select_SeleccionarNoSi'), 2)
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/select_SeleccionarNoSi'), 
+    2)
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Guardar'))
 
@@ -146,10 +153,11 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_d
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Nuevo3'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas SST/Creación_de_Matriz_de_Peligros/select_SeleccionarFsicoPrueba cdigo repetidoCondiciones de SeguridadPsicosocialBiomecnicoAuditivoFenmenos NaturalesVisualMotriz'), 
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_SeleccionarFsicoPrueba cdigo repetidoCondiciones de SeguridadPsicosocialBiomecnicoAuditivoFenmenos NaturalesVisualMotriz'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_Seleccionar'), '1')
+WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_Seleccionar'), 
+    '1')
 
 WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/textarea_Efecto Posible_form_listadoPeligroListadoActividaddtabconsecuencia'), 
     'prueba k')
@@ -172,7 +180,8 @@ WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_d
 
 WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Nuevo6'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/input_Fecha Original_form_l5'), '01/07/2021')
+WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/input_Fecha Original_form_l5'), 
+    '01/07/2021')
 
 WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_SeleccionarBAJAMEDIAALTO'), 
     '1')

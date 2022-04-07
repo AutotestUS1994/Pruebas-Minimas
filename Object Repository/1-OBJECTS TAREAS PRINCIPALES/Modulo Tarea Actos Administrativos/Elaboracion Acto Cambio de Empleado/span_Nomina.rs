@@ -6,12 +6,12 @@
    <elementGuidId>4296abb3-1d2d-4ca9-b5f8-60e79030d0cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Nomina']/parent::*</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.valor_campo_estandar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='form_ActosAdministrativos:arbolGrupo:0:j_idt98']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -92,5 +92,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Nomina                                             ' or . = 'Nomina                                             ')]</value>
    </webElementXpaths>
 </WebElementEntity>

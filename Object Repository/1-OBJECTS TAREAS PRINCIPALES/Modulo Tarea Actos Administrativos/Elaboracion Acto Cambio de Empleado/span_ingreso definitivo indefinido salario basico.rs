@@ -6,11 +6,12 @@
    <elementGuidId>073c8b7a-9e29-43a2-9a6c-0672d612a847</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='ingreso definitivo indefinido salario basico']/parent::*</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[@id='form_ActosAdministrativos:arbolFormato:18:j_idt109']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -91,5 +92,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[19]/span/span[3]/div/a/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ingreso definitivo indefinido salario basico ' or . = 'ingreso definitivo indefinido salario basico ')]</value>
    </webElementXpaths>
 </WebElementEntity>

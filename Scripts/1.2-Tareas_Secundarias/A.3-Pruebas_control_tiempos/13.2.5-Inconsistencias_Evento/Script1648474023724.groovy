@@ -70,6 +70,9 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Inconsiste
     WebUI.setText(findTestObject('Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'), 
         '2019/03/23 11:29 AM')
 
+    WebUI.sendKeys(findTestObject('Modulo control tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'), 
+        Keys.chord(Keys.ESCAPE))
+
     WebUI.click(findTestObject('Modulo control tiempo/Inconsistencias_Evento/label_Inconsistencias'))
 
     WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))

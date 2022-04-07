@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td/a</value>
+         <value>//a[contains(text(),'Actualizar')]</value>
       </entry>
       <entry>
          <key>CSS</key>

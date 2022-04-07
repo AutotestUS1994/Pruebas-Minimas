@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Pruebas k']/parent::*</value>
+         <value>
+//tr[2]/td/div/div/table/tbody/tr/td[3]</value>
       </entry>
       <entry>
          <key>CSS</key>

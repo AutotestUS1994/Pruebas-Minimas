@@ -6,12 +6,12 @@
    <elementGuidId>349ecf8b-3701-4b35-b2f3-81aef7d58ff4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr/td/a/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.glyphicons.glyphicons-group.x3.icon-acto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='form_ActosAdministrativos:tabla_actos:1:j_idt66']/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

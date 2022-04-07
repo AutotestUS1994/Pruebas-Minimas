@@ -51,9 +51,6 @@ WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimien
 WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1 mes2 meses3 meses6 mesesNo aplicaOtro'), 
     4)
 
-WebUI.setText(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/input_Horario_requerimientoPersonalPM_formj_idt11990tablaCamHijo8j_idt1209'), 
-    '454')
-
 WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1. volumenes de venta2. Carga en volumenes de operacin3'), 
     3)
 

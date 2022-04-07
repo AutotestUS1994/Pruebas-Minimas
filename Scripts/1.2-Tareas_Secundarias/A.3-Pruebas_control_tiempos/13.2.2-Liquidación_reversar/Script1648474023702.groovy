@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Modulo control tiempo/liquidación/li_Liquidacion (g
 if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidación/td_01072021'), 1)) {
     WebUI.click(findTestObject('Modulo control tiempo/liquidación/td_01072021'))
 
-    WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Reversar'))
+    WebUI.doubleClick(findTestObject('Modulo control tiempo/liquidación/a_Reversar'))
 
     WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Aceptar'))
 

@@ -6,12 +6,13 @@
    <elementGuidId>2cbc2cac-35a1-4264-9905-a60f3896bc15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;requerimientoPersonalPM_form:j_idt1199:0:tablaCamHijo:8:j_idt1209&quot;]</value>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr[9]/td[2]/input
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/div/table/tbody/tr[5]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[9]/td[2]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr[9]/td[2]/input</value>
+         <key>CSS</key>
+         <value>input[name=&quot;requerimientoPersonalPM_form:j_idt1199:0:tablaCamHijo:8:j_idt1209&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
