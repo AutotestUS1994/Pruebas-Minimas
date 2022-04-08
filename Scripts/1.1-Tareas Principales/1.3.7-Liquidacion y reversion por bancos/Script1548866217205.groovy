@@ -43,7 +43,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Aceptar (1)'))
 
-WebUI.getText(findTestObject('Alerta/Alerta'))
+WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 WebUI.closeBrowser()
 

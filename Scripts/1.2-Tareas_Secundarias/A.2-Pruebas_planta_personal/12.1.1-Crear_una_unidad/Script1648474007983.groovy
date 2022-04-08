@@ -19,62 +19,62 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/input_Empresa 1_form_templatej_idt24_input'), 
     'planta personal (tal)')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Administracion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Administracion'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon1'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Pruebas  Katalon1'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Pruebas  Katalon1'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Organigrama1'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_QAS_organigramaj_idt1420modificar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_QAS_organigramaj_idt1420modificar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Eliminar1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_Eliminar1'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Si1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Si1'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Administracion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Administracion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Organigrama'))
 
-String Result = WebUI.getText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon'))
+String Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Pruebas  Katalon'))
 
 if (Result == 'Pruebas Katalon') {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Pruebas  Katalon'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Pruebas  Katalon'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Pruebas  Katalon_organigramaj_idt1422modificar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_Pruebas  Katalon_organigramaj_idt1422modificar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Si'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Si'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Organigrama_organigramacrearUnidad'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_Organigrama_organigramacrearUnidad'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Unidad Organizacional_popupUnidadOrganizacional_formcodigoUnidadPopup'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/input_Unidad Organizacional_popupUnidadOrganizacional_formcodigoUnidadPopup'), 
     '27')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/select_--Seleccione Tipo Unidad--COORDINACIONPRESIDENCIAVICEPRESIDENCIA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/select_--Seleccione Tipo Unidad--COORDINACIONPRESIDENCIAVICEPRESIDENCIA'), 
     5)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/input_Descripcin_popupUnidadOrganizacional_formnombreUnidadPopup'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/input_Descripcin_popupUnidadOrganizacional_formnombreUnidadPopup'), 
     'Pruebas  Katalon')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/select_--Seleccione Sucursal--NO RELACIONADABOGOTA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/select_--Seleccione Sucursal--NO RELACIONADABOGOTA'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/select_--Seleccione el Estado--SINO'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/select_--Seleccione el Estado--SINO'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/a_Actualizar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_Actualizar'))
 

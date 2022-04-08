@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/input_Empresa 1_form_templatej_idt24_input'), 
     'Periodo evaluaciones')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_Periodo Evaluaciones'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/span_Periodo Evaluaciones'))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/td_Pruebas katalon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/td_Pruebas katalon'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_PRUEBAS K'), 
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/span_PRUEBAS K'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/span_PRUEBAS K'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/span_PRUEBAS K'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/input_Descripcin_form_popupperiodoevaluaciondescripcion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/input_Descripcin_form_popupperiodoevaluaciondescripcion'), 
     'PRUEBAS K')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/select_Periodo fijo, control de fechaPeriodo fijo de tiempoNo hay un rango definido'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/select_Periodo fijo, control de fechaPeriodo fijo de tiempoNo hay un rango definido'), 
     2)
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/a_Guardar'))
 

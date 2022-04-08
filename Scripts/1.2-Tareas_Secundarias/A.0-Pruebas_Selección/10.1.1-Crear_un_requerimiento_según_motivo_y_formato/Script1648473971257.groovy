@@ -19,45 +19,45 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/input_Empresa 1_form_templatej_idt24_input'), 
     'requerimiento personal')
 
-WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_Requerimiento Personal'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_Requerimiento Personal'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
 } else {
-    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_2'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_2'))
 
-    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
 }
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
 } else {
-    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/div_Requerimiento Personal'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/div_Requerimiento Personal'))
 
-    WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Modificar Motivo'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin Convencional62'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/select_2120 HORAS1240 HORAS0NO DEFINIDO61Pensin Convencional62'), 
     3)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_Tcnico AdministrativoOperativo'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/select_Tcnico AdministrativoOperativo'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1 mes2 meses3 meses6 mesesNo aplicaOtro'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1 mes2 meses3 meses6 mesesNo aplicaOtro'), 
     4)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1. volumenes de venta2. Carga en volumenes de operacin3'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/select_1. volumenes de venta2. Carga en volumenes de operacin3'), 
     3)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/select_Interna AbiertaInterna CerradaExternaInterna y Externa'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/select_Interna AbiertaInterna CerradaExternaInterna y Externa'), 
     1)
 
-WebUI.click(findTestObject('Modulo Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Guardar Directo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Guardar Directo'))
 
 WebUI.closeBrowser()
 

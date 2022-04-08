@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Visualizar_opción_otros/a_Salgado . Paula_organigramaj_idt109'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Visualizar_opción_otros/a_Salgado . Paula_organigramaj_idt109'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Visualizar_opción_otros/table_Salgado . Paula66666CalidadAdministracion40 Mil Staff'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Visualizar_opción_otros/table_Salgado . Paula66666CalidadAdministracion40 Mil Staff'), 
     0)
 
 WebUI.closeBrowser()

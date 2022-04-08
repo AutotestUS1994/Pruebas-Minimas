@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/input_Empresa 1_form_templatej_idt24_input'), 
     'liquidacion nomina')
 
-WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/li_Liquidacion Nomina (com)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/li_Liquidacion Nomina (com)'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/a_Periodo Nomina_LiquidacionNominaj_idt68'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/a_Periodo Nomina_LiquidacionNominaj_idt68'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
-WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/span_P. MensualJunio2021'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/span_P. MensualJunio2021'))
 
-WebUI.check(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
+WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/a_Reclculo Seleccin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/a_Reclculo Seleccin'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/span_Si'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/span_Si'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Recálcular_nómina_por_empleado/p_Recalculo Finalizado'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/p_Recalculo Finalizado'), 
     1)) {
     WebUI.closeBrowser()
 }

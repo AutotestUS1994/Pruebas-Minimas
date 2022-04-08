@@ -52,9 +52,9 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/a_Guardar'))
 
-WebUI.waitForElementVisible(findTestObject('Alerta/Alerta'), 0)
+WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 0)
 
-String x = WebUI.getText(findTestObject('Alerta/Alerta'))
+String x = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (x.equals('Se modifico el registro satisfactoriamente')) {
     WebUI.closeBrowser()

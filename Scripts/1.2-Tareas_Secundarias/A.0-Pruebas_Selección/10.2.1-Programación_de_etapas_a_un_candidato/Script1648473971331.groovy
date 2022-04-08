@@ -19,108 +19,118 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_No search results are available_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_No search results are available_form_templatej_idt24_input'), 
     'proceso de seleccion')
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Proceso de Seleccion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_Proceso de Seleccion'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     1)
 
-WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
     '29/06/2017')
 
-WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
     '29/06/2017')
 
-WebUI.sendKeys(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
+    Keys.chord(Keys.ESCAPE))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_8028     - Analista De Sistemas'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Citacion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_8028     - Analista De Sistemas'))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Registro Citacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Citacion'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_A A A'), 1)) {
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_A A A'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Registro Citacin'))
 
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'))
-
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Si'))
-}
-
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_Constantino  Jhon'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_A A A'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_Constantino  Jhon'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_A A A'))
 
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Si'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_Si'))
 }
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Etapas Por Asistente'))
-
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_Constantino  Jhon'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_Constantino  Jhon'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Si'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_Si'), 
+        FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Jurados'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Etapas Por Asistente'))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Programar'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_A A A_glyphicons glyphicons-user-add'))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_PRUEBA'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Eliminar'))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Responsable_popupCitacion_formj_idt1947'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_Si'))
+}
 
-WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Jurados'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Programar'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_PRUEBA'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Responsable_popupCitacion_formj_idt1947'))
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644'), 
     'constantino jhon')
 
-WebUI.sendKeys(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2644'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/span_Constantino  Jhon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_Constantino  Jhon'))
 
-WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/textarea_Observacin_popupCitacion_formobservacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/textarea_Observacin_popupCitacion_formobservacion'), 
     'pr katalon')
 
-WebUI.check(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.setText(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/input_Fecha_popupCitacion_formfecha_inicial_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha_popupCitacion_formfecha_inicial_input'), 
     '24/03/2022')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--010203040506070809101112'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--010203040506070809101112'), 
     8)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--00153045'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--00153045'), 
+    1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_--AMPM'), 2)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--AMPM'), 
+    2)
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Continuar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 }
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Generar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Generar'))
 
-String Alert = WebUI.getText(findTestObject('Alerta/Alerta'))
+String Alert = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Registro Citacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Registro Citacin'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_A A A'), 1)) {
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/td_A A A'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_A A A'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_A A A'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/select_EfectuadaNo se presentoPor Definir FechaProgramada'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_EfectuadaNo se presentoPor Definir FechaProgramada'), 
         2)
 
-    WebUI.click(findTestObject('Modulo Selección/Programación_de_etapas_a_un_candidato/a_Actualizar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Actualizar'))
 }
 
 WebUI.closeBrowser()

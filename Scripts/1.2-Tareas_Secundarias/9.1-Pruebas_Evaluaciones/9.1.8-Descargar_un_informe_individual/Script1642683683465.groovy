@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/input_Empresa 1_form_templatej_idt24_input'), 
     'programacion evaluaciones')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/li_Programacion Evaluaciones (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/li_Programacion Evaluaciones (tal)'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/select_-- Seleccione Fase --ENCUESTA DE RETIRO'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/select_-- Seleccione Fase --ENCUESTA DE RETIRO'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/a_Identificacion Evaluado_listadoFaseGestionHojaj_idt74'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/a_Identificacion Evaluado_listadoFaseGestionHojaj_idt74'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt680'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt680'), 
     '1057596487')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt680'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt680'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Descargar un informe individual/span_Diaz Blanco Guisell'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Descargar un informe individual/span_Diaz Blanco Guisell'))
 
 WebUI.comment('los pasos a seguir no son claros')
 

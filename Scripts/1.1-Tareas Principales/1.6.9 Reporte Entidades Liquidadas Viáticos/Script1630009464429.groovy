@@ -86,5 +86,5 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_viaticos'))
 
-WebUI.getText(findTestObject('Alerta/Alerta'))
+WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 

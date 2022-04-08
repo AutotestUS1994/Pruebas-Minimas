@@ -19,20 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Suceso Adicion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Suceso Adicion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_concepto_con'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_concepto_con'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Aplicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Aplicar'))
 
-String codigo = WebUI.getText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456'))
+String codigo = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/input_codigo_form_sucesoadiciontablaFiltros0j_idt234'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/input_codigo_form_sucesoadiciontablaFiltros0j_idt234'), 
     codigo)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Aplicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/a_Aplicar'))
 
-String codigoR = WebUI.getText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456'))
+String codigoR = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456'))
 
 if (codigo == codigoR) {
     WebUI.closeBrowser()

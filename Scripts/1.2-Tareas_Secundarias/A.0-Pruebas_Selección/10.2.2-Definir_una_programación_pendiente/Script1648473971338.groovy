@@ -21,24 +21,24 @@ WebUI.comment('genera error al actualizar')
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Definir_una_programación_pendiente/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/input_Empresa 1_form_templatej_idt24_input'), 
     'Evaluacion Proceso Seleccion (tal)')
 
-WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendiente/li_Evaluacion Proceso Seleccion (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/li_Evaluacion Proceso Seleccion (tal)'))
 
-WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendiente/span_Pendientes'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/span_Pendientes'))
 
-WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendiente/span_Quintero Mendez Jose Eduardo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/span_Quintero Mendez Jose Eduardo'))
 
-WebUI.setText(findTestObject('Modulo Selección/Definir_una_programación_pendiente/input_Fecha_popupEtapaProceso_formseccionfecha_inicial_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/input_Fecha_popupEtapaProceso_formseccionfecha_inicial_input'), 
     '28/12/2022')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Definir_una_programación_pendiente/select_--010203040506070809101112'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--010203040506070809101112'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Definir_una_programación_pendiente/select_--00153045'), 3)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--00153045'), 3)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Definir_una_programación_pendiente/select_--AMPM'), 2)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--AMPM'), 2)
 
-WebUI.click(findTestObject('Modulo Selección/Definir_una_programación_pendiente/a_Actualizar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/a_Actualizar'))
 

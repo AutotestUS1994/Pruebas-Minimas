@@ -19,32 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Empresa')
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/span_Empresa'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/span_Empresa'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'), 0)
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'))
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/a_Eliminar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Eliminar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/a_link_aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_link_aceptar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/input_Cdigo_empresa_formcodigoEmpresa'), '5')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_Cdigo_empresa_formcodigoEmpresa'), '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/input_Nombre_empresa_formnombreEmpresa'), 'Pruebas katalon')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_Nombre_empresa_formnombreEmpresa'), 'Pruebas katalon')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --generalMexico'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --generalMexico'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Aspirantes CALIDADSitio Calidad'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Aspirantes CALIDADSitio Calidad'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Grupo a'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Grupo a'), 1)
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Empresa/a_Actualizar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'))
 

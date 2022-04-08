@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'Liquidacion')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'Liquidacion')
 
-WebUI.click(findTestObject('Modulo control tiempo/Aplicar/span_Liquidacion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/span_Liquidacion'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Aplicar/td_27022019'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/td_27022019'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Aplicar/a_Reversar Nomina'), 1)) {
-    WebUI.click(findTestObject('Modulo control tiempo/Aplicar/a_Reversar Nomina'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Reversar Nomina'), 1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Reversar Nomina'))
 
-    WebUI.click(findTestObject('Modulo control tiempo/Aplicar/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo control tiempo/Aplicar/a_Aplicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aplicar'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Aplicar/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Aplicar/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Continuar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Aplicar/a_Reversar Nomina'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Reversar Nomina'), 1)) {
     WebUI.closeBrowser()
 }
 

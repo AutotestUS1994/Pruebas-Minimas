@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'Listado persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'Listado persona')
 
-WebUI.click(findTestObject('Modulo control tiempo/Concepto/span_Listado Persona'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Concepto/span_Listado Persona'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Concepto/td_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Concepto/td_1010220596'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Concepto/a_Conceptos'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Concepto/a_Conceptos'))
 
 WebUI.comment('no aparecen las jornadas liquidadas')
 

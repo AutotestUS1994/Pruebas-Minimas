@@ -19,106 +19,106 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Empresa 1_form_templatej_idt24_input'), 'gestion herramientas')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Empresa 1_form_templatej_idt24_input'), 'gestion herramientas')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/li_Gestion Herramientas (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/li_Gestion Herramientas (tal)'))
 
-if (WebUI.waitForElementNotVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_Pruebas katalon'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Nuevo'))
+if (WebUI.waitForElementNotVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_Pruebas katalon'), 1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Nuevo'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Descripcin_formGestionHerramientasdescripcion'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Descripcin_formGestionHerramientasdescripcion'), 
         'Pruebas katalon')
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/select_--Seleccione--No VigenteVigente'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/select_--Seleccione--No VigenteVigente'), 
         2)
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/select_--Seleccione--Evaluacin de DesempeoEvaluacin de Desempeo 2016'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/select_--Seleccione--Evaluacin de DesempeoEvaluacin de Desempeo 2016'), 
         4)
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/select_--Seleccione--Asociar evaluadoNo Asociar evaluado'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/select_--Seleccione--Asociar evaluadoNo Asociar evaluado'), 
         2)
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Guardar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Guardar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Fase Evaluacin'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Fase Evaluacin'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_PRUEBAS K'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar'))
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_PRUEBAS K'), 1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Aceptar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Aceptar'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Nuevo1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Nuevo1'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Cdigo_formGestionHerramientaspanelTabFasecodigo'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Cdigo_formGestionHerramientaspanelTabFasecodigo'), 
         '5')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Descripcin_formGestionHerramientaspanelTabFasedescripcion'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Descripcin_formGestionHerramientaspanelTabFasedescripcion'), 
         'PRUEBAS K')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Orden_formGestionHerramientaspanelTabFaseorden'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Orden_formGestionHerramientaspanelTabFaseorden'), 
         '5')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Nmero Seguimiento_formGestionHerramientaspanelTabFaseseguimiento'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Nmero Seguimiento_formGestionHerramientaspanelTabFaseseguimiento'), 
         '5')
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Guardar1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Guardar1'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Regresar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Regresar'))
 
     WebUI.closeBrowser()
 } else {
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_Pruebas katalon'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_Pruebas katalon'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Tipo Evaluador'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Tipo Evaluador'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_pr.katalon'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_pr.katalon'))
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_pr.katalon'), 1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_pr.katalon'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar_Tipo evaluador'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Eliminar_Tipo evaluador'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Aceptar_Tipo evaluador'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Aceptar_Tipo evaluador'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Fase Evaluacin'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Fase Evaluacin'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_PRUEBAS K'), 1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/td_PRUEBAS K'))
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_PRUEBAS K'), 1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/td_PRUEBAS K'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Etapa'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Etapa'))
 
-        if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/span_Pruebas Ka_Etapa'), 
+        if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/span_Pruebas Ka_Etapa'), 
             1))
         {
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/span_Pruebas Ka_Etapa'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/span_Pruebas Ka_Etapa'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar_Etapa'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Eliminar_Etapa'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/span_Si_Etapa'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/span_Si_Etapa'))
         }
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Detalle'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Detalle'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Eliminar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Aceptar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Aceptar'))
         
 		}
     
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Nuevo1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Nuevo1'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Cdigo_formGestionHerramientaspanelTabFasecodigo'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Cdigo_formGestionHerramientaspanelTabFasecodigo'), 
         '5')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Descripcin_formGestionHerramientaspanelTabFasedescripcion'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Descripcin_formGestionHerramientaspanelTabFasedescripcion'), 
         'PRUEBAS K')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Orden_formGestionHerramientaspanelTabFaseorden'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Orden_formGestionHerramientaspanelTabFaseorden'), 
         '5')
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/input_Nmero Seguimiento_formGestionHerramientaspanelTabFaseseguimiento'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/input_Nmero Seguimiento_formGestionHerramientaspanelTabFaseseguimiento'), 
         '5')
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_una_Fase/a_Guardar1'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Fase/a_Guardar1'))
 
     WebUI.closeBrowser()
 }

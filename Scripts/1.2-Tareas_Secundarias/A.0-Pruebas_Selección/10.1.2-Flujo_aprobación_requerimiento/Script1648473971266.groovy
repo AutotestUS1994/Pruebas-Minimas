@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Flujo_aprobación_requerimiento/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/input_Empresa 1_form_templatej_idt24_input'), 
     'Manejo proceso')
 
-WebUI.click(findTestObject('Modulo Selección/Flujo_aprobación_requerimiento/li_Manejo Proceso (gna)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/li_Manejo Proceso (gna)'))
 
-WebUI.click(findTestObject('Modulo Selección/Flujo_aprobación_requerimiento/a_Requerimiento'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/a_Requerimiento'))
 
-WebUI.click(findTestObject('Modulo Selección/Flujo_aprobación_requerimiento/td_MOD1-Requerimiento de personal'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/td_MOD1-Requerimiento de personal'))
 
 WebUI.closeBrowser()
 

@@ -19,32 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'planta personal (tal)')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'planta personal (tal)')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Actos Administrativos_organigramabuscar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/a_Actos Administrativos_organigramabuscar'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/select_--Seleccione--EmpleadoPuesto'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/select_--Seleccione--EmpleadoPuesto'), 
     2)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt279'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt279'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Unidad Organizacional_popupBusquedaPlantaj_idt274'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/a_Unidad Organizacional_popupBusquedaPlantaj_idt274'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'), 
     'administracion')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/input_Unidad_form_popupUnidadUsuarioj_idt880'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ADMINISTRACION'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_ADMINISTRACION'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt2790'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/a_Cargo_popupBusquedaPlantaj_idt2790'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_ABOGADO'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_ABOGADO'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_20139    - Abogado'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_20139    - Abogado'))
 
-WebUI.scrollToElement(findTestObject('Modulo Pruebas Planta de Personal/Buscar_puesto_de_trabajo/span_10308'), 0)
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_10308'), 0)
 

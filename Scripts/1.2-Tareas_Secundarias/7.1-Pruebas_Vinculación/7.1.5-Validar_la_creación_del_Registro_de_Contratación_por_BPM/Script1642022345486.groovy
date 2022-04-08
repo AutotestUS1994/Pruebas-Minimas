@@ -19,41 +19,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Empresa 1_form_templatej_idt24_input'), 
     'proceso de seleccion')
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/span_Proceso de Seleccion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/span_Proceso de Seleccion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Nuevo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_SeleccionarSiNo'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/select_SeleccionarSiNo'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Unidad Organizacional_popupConfirmacionRequerimientoj_idt132'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Unidad Organizacional_popupConfirmacionRequerimientoj_idt132'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
     'ADMINISTRACION')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/span_ADMINISTRACION'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/span_ADMINISTRACION'))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Cargo_popupConfirmacionRequerimientoj_idt136'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Cargo_popupConfirmacionRequerimientoj_idt136'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Cargo_popupCargo_Formj_idt668'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Cargo_popupCargo_Formj_idt668'), 
     'ABOGADO')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Cargo_popupCargo_Formj_idt668'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/input_Cargo_popupCargo_Formj_idt668'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/span_ABOGADO'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/span_ABOGADO'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--Primer Modelo Seleccin R. Modelo Etapa'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/select_--Seleccione--Primer Modelo Seleccin R. Modelo Etapa'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Continuar'))
 

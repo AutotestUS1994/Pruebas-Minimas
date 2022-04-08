@@ -13,5 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Rol_CompensacionDS_Admin/span_SaraDS_Jboss (Compensacio'))
+WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Rol_CompensacionDS_Admin/span_SaraDS_Jboss (Compensacio'))
 

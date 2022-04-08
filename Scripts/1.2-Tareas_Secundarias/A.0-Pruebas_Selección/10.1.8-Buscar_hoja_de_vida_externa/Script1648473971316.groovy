@@ -19,52 +19,52 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/input_Empresa 1_form_templatej_idt24_input'), 
     'Buscador Hoja Vida Externa')
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/span_Buscador Hoja Vida Externa'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_Buscador Hoja Vida Externa'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/label_Las hojas de vida que no correspondan a empleados'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/label_Las hojas de vida que no correspondan a empleados'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/label_Las hojas de vida que cumplan con el perfil de una cargo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/label_Las hojas de vida que cumplan con el perfil de una cargo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_1111123456ADMINISTRACIONADMINISTRACIONAnalista QAASISTENCIAASISTENTE ASISTENTE'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_1111123456ADMINISTRACIONADMINISTRACIONAnalista QAASISTENCIAASISTENTE ASISTENTE'), 
     8)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_20061    - ANALISTA DE MARKETING20139    - ABOGADO20156    - ANALISTA CONTABLE'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_20061    - ANALISTA DE MARKETING20139    - ABOGADO20156    - ANALISTA CONTABLE'), 
     3)
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/span_Agregar Filtro_btn-miniadicionar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_Agregar Filtro_btn-miniadicionar'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_1rea de experiencia NPARTICULO DE REVISTAARTICULO PERIODICOASOCIACIONESAsociaciones'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_1rea de experiencia NPARTICULO DE REVISTAARTICULO PERIODICOASOCIACIONESAsociaciones'), 
     11)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_CiudadCorreoDocumentoNombresPrimer ApellidoDOCUMENTOEDADACTUALIZACION'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_CiudadCorreoDocumentoNombresPrimer ApellidoDOCUMENTOEDADACTUALIZACION'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_-- Seleccione--000000ABEJORRALABREGOABRIAQUACACIASACANDIACEVEDOACHIAGRADOAGUA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_-- Seleccione--000000ABEJORRALABREGOABRIAQUACACIASACANDIACEVEDOACHIAGRADOAGUA'), 
     113)
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/a_Aplicar3'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aplicar3'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/a_Aplicar2'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aplicar2'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/span_Excluir candidatos bloqueados_ui-chkbox-icon ui-icon ui-icon-check ui-c'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_Excluir candidatos bloqueados_ui-chkbox-icon ui-icon ui-icon-check ui-c'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/span_NO RELACIONADA_btn-procesoactivo us-icon-card-img'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_NO RELACIONADA_btn-procesoactivo us-icon-card-img'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/a_Aceptar1'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar1'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/select_SINO'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_SINO'), 1)
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/td_Administracion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/td_Administracion'))
 
-WebUI.click(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/a_Aplicar2'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aplicar2'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Selección/Buscar_hoja_de_vida_externa/p_LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/p_LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO'), 
     0)
 
 WebUI.closeBrowser()

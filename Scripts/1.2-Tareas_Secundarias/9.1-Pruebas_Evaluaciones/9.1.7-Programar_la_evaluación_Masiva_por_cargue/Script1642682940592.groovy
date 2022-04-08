@@ -19,20 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva_por_cargue/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva_por_cargue/input_Empresa 1_form_templatej_idt24_input'), 
     'Importar Fuente General')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva_por_cargue/li_Importar Fuente General (gna)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva_por_cargue/li_Importar Fuente General (gna)'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva_por_cargue/input_Procesos Generados_formImportarListadoFuentej_idt67'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva_por_cargue/input_Procesos Generados_formImportarListadoFuentej_idt67'), 
     'programacion masiva evaluacion')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva_por_cargue/input_Procesos Generados_formImportarListadoFuentej_idt67'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva_por_cargue/input_Procesos Generados_formImportarListadoFuentej_idt67'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva_por_cargue/td_Programacion Masiva Evaluacion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva_por_cargue/td_Programacion Masiva Evaluacion'))
 
-WebUI.uploadFile(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva_por_cargue/input_Cargar_formImportarFuentetabarchivo_input'), 
+WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva_por_cargue/input_Cargar_formImportarFuentetabarchivo_input'), 
     '')
 
 WebUI.comment('Es necesario crear el documento a subir ')

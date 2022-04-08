@@ -19,37 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Empresa 1_form_templatej_idt24_input'), 
     'Parametros Contratacion')
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/li_Parametros Contratacion (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/li_Parametros Contratacion (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Origen Contratacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Origen Contratacin'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'), 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'), 
     1))
 {
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Eliminar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Eliminar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Aceptar'))
 }
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Cdigo_form_origencontratacioncodigo'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Cdigo_form_origencontratacioncodigo'), 
     '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Descripcin_form_origencontrataciondescripcion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Descripcin_form_origencontrataciondescripcion'), 
     'Pruebas katalon')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Hoja Vida ExisteIngresa Hoja Manual'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Hoja Vida ExisteIngresa Hoja Manual'), 
     '0')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Datos de un RequerimientoDatos de una SeleccionNo aplica'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Datos de un RequerimientoDatos de una SeleccionNo aplica'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo'), 1)
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Guardar'))
 

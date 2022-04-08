@@ -19,22 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo control tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input'), 'Listado persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input'), 'Listado persona')
 
-WebUI.click(findTestObject('Modulo control tiempo/Jornada/li_Listado Persona (get)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/li_Listado Persona (get)'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Jornada/td_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/td_1010220596'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Jornada/a_Jornada'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/a_Jornada'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Jornada/a_Liquidar0'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/a_Liquidar0'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo control tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018'), 
     1)
 
-WebUI.click(findTestObject('Modulo control tiempo/Jornada/a_Liquidar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/a_Liquidar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Jornada/p_Terminacion Normal'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/p_Terminacion Normal'), 1)) {
     WebUI.closeBrowser()
 }
 

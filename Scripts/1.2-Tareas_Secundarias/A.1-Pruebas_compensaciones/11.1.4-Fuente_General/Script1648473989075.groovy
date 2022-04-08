@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo compensaciones/Fuente_General/input_Empresa 1_form_templatej_idt24_input'), 'importar fuente general')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/input_Empresa 1_form_templatej_idt24_input'), 'importar fuente general')
 
-WebUI.click(findTestObject('Modulo compensaciones/Fuente_General/li_fuente general (gna)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/li_fuente general (gna)'))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Procesos Generados_formImportarListadoFuentej_idt67'), 
     'Creación prestamos')
@@ -38,15 +38,15 @@ WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara 
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/a_Importar'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Fuente_General/a_Continuar'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Continuar'), 0)
 
-WebUI.click(findTestObject('Modulo compensaciones/Fuente_General/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Continuar'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Fuente_General/a_Ejecutar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Ejecutar'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Fuente_General/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Continuar'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Fuente_General/td_354968431354    PC65000001000020107202118076995478975000'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/td_354968431354    PC65000001000020107202118076995478975000'), 
     0)
 
 WebUI.closeBrowser()

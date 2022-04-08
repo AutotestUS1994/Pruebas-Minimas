@@ -55,9 +55,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/span_Si'))
 
-WebUI.waitForElementClickable(findTestObject('Alerta/Alerta'), 0)
+WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 0)
 
-WebUI.getText(findTestObject('Alerta/Alerta'))
+WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 WebUI.closeBrowser()
 

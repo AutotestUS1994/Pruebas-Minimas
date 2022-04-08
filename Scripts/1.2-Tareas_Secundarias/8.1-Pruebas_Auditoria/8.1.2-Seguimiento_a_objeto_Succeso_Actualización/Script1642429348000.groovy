@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/a_Suceso Actualizacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/a_Suceso Actualizacin'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Inicial_form_visorj_idt253fechaInicial_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Inicial_form_visorj_idt253fechaInicial_input'), 
     '10/12/2018 10:34:00')
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input'), 
     '10/12/2018 10:35:00')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Actualización/input_Fecha Final_form_visorj_idt253fechaFinal_input'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()

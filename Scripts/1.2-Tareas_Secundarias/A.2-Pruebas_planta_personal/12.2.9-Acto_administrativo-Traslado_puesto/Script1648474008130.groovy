@@ -35,55 +35,55 @@ String Fecha = (((Dia + '/') + Mes) + '/') + Año
 /*-------------------------------------------*/
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/input_Empresa 1_form_templatej_idt24_input'), 
     'Actos administrativos')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/span_Actos Administrativos'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_Actos Administrativos'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/i_Actos Ausencia_glyphicons glyphicons-user-structure x3 icon-acto'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/i_Actos Ausencia_glyphicons glyphicons-user-structure x3 icon-acto'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Acto Movimento de planta_form_ActosAdministrativostabla_principal_10j_idt79'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Acto Movimento de planta_form_ActosAdministrativostabla_principal_10j_idt79'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/span_movimiento de planta traslado puesto de trabajo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_movimiento de planta traslado puesto de trabajo'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Elaboracin_form_popupSeleccionDerogarj_idt138'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Elaboracin_form_popupSeleccionDerogarj_idt138'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/input__form_actoMovPlantaLiberaTransladaj_idt20880idTexto'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/input__form_actoMovPlantaLiberaTransladaj_idt20880idTexto'), 
     '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/input__form_actoMovPlantaLiberaTransladaj_idt20881fecha_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/input__form_actoMovPlantaLiberaTransladaj_idt20881fecha_input'), 
     Fecha)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Unidad Organizacional_form_actoMovPlantaLiberaTransladaunidad_antes'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Unidad Organizacional_form_actoMovPlantaLiberaTransladaunidad_antes'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
     'A1')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/span_ADMINISTRACION'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_ADMINISTRACION'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Cargo_form_actoMovPlantaLiberaTransladacargo_antes'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Cargo_form_actoMovPlantaLiberaTransladacargo_antes'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/span_ANALISTA CONTABLE'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_ANALISTA CONTABLE'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Continuar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/td'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/td'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Continuar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Aplicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Aplicar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/span_Si'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_Si'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Aceptar'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo-Traslado_puesto/span_movimiento de planta traslado puesto de trabajo'), 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_movimiento de planta traslado puesto de trabajo'), 
     1))
 {
 WebUI.closeBrowser()

@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/a_Suceso Borrado'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/a_Suceso Borrado'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
     'saraadmin')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.scrollToElement(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_06122021 075237'), 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_06122021 075237'), 
     0)
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
     'weblogic')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/input_Filtro_form_visorj_idt253j_idt257'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.scrollToElement(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_14012022 093405'), 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_14012022 093405'), 
     0)
 

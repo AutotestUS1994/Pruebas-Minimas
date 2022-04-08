@@ -19,38 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/a_Suceso Acceso'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/a_Suceso Acceso'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
     'saraadmin')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_18012022 092902'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_18012022 092902'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/div_Fecha_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/div_Fecha_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_csv'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_csv'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_PDF'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_PDF'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
     'weblogic')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_17012022 031118'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_17012022 031118'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_csv'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_csv'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_PDF'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_PDF'))
 
-WebUI.click(findTestObject('Modulo Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/img_xls'))
 
 WebUI.closeBrowser()
 

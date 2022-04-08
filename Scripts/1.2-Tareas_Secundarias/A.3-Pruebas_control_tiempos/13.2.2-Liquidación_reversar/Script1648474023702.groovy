@@ -19,52 +19,59 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo control tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input'), 'Liquidacion (get)')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input'), 
+    'Liquidacion (get)')
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/li_Liquidacion (get)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/li_Liquidacion (get)'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidación/td_01072021'), 1)) {
-    WebUI.click(findTestObject('Modulo control tiempo/liquidación/td_01072021'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/td_01072021'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/td_01072021'))
 
-    WebUI.doubleClick(findTestObject('Modulo control tiempo/liquidación/a_Reversar'))
+    WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
 
-    WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
 
-    WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidación/a_Continuar'), 0)
-
-    if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidación/div_Reversin realizada con xito'), 
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), 
         1)) {
-        WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Continuar'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), FailureHandling.STOP_ON_FAILURE)
+    }
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/div_Reversin realizada con xito'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'))
     }
 }
 
-WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/liquidación/a_Nuevo'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Nuevo'), 
+    0)
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
     '18/01/2019')
 
-WebUI.sendKeys(findTestObject('Modulo control tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.setText(findTestObject('Modulo control tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input'), 
     '27/02/2019')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo control tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual'), 
     1)
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Aplicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aplicar'))
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Liquidar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Liquidar'))
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/div_Liquidacin realizada con xito'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/div_Liquidacin realizada con xito'))
 
-WebUI.click(findTestObject('Modulo control tiempo/liquidación/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'))
 
-if (WebUI.waitForElementPresent(findTestObject('Modulo control tiempo/liquidación/a_Reversar'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
+    1)) {
     WebUI.closeBrowser()
 }
 

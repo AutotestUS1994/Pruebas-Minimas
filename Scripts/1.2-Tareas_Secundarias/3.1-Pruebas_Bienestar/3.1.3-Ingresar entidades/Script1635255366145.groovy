@@ -19,20 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/td_Prueba-S'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/td_Prueba-S'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_Entidades'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_Entidades'))
 
-if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_US_form_entidadlistaEntidades0j_idt626'), 
+if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_US_form_entidadlistaEntidades0j_idt626'), 
     1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_US_form_entidadlistaEntidades0j_idt626'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_US_form_entidadlistaEntidades0j_idt626'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_Aceptar'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/select_-- Seleccione --US'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/select_-- Seleccione --US'), 1)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_Entidades_form_entidadlistaEntidadesj_idt628'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar_Entidades/a_Entidades_form_entidadlistaEntidadesj_idt628'))
 
 WebUI.closeBrowser()
 

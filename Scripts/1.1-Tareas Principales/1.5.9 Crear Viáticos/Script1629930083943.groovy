@@ -294,7 +294,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
 
-    WebUI.getText(findTestObject('Alerta/Alerta'))
+    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 } else {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo'))
 
@@ -506,6 +506,6 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
 
-    WebUI.getText(findTestObject('Alerta/Alerta'))
+    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 }
 

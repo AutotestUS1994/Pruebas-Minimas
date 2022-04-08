@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'Listado persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'Listado persona')
 
-WebUI.click(findTestObject('Modulo control tiempo/Funciones/span_Listado Persona'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/span_Listado Persona'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Funciones/td_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/td_1010220596'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Funciones/a_Funciones'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/a_Funciones'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Funciones/td_1'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/td_1'))
 
-WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Funciones/a_Cancelar'), 2)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/a_Cancelar'), 2)
 
-WebUI.click(findTestObject('Modulo control tiempo/Funciones/a_Cancelar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/a_Cancelar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Funciones/td_1'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/td_1'), 1)) {
     WebUI.closeBrowser()
 }
 

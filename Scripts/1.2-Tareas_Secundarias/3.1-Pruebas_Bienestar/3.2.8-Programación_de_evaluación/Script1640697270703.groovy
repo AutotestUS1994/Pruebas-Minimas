@@ -21,98 +21,98 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_Prueba-S'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_Prueba-S'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/div_Participante'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/div_Participante'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Grupo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Grupo'))
 
-if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'), 1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'), 1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Integrantes'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Integrantes'))
 
-    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_Administracion'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_Administracion'), 
         1)) {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick')) /*---------------------------------------------------------------------------------------------------*/
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick')) /*---------------------------------------------------------------------------------------------------*/
         /*------------------------------------------------------------------------------------------------*/
     } else {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt376'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt376'))
 
-        WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
             'A A A')
 
-        WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
             Keys.chord(Keys.ENTER))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_A A A'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_A A A'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt391'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt391'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick'))
     }
 } else {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Nuevo'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Nuevo'))
 
-    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Cdigo_grupoEventopanel_principal_2codigo'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Cdigo_grupoEventopanel_principal_2codigo'), 
         '5')
 
-    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Nombre_grupoEventopanel_principal_2pGNombre'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Nombre_grupoEventopanel_principal_2pGNombre'), 
         'PRUEBAS K')
 
-    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_-- Seleccione --prueba'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_-- Seleccione --prueba'), 
         1)
 
-    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_-- Seleccione --AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_-- Seleccione --AceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
         7)
 
-    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
         5)
 
-    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Guardar'), 
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Guardar'), 
         30)
 
     WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Integrantes'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Integrantes'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt376'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt376'))
 
-    WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
         'A A A')
 
-    WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt2407'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_A A A'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_A A A'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt391'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt391'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick'))
 }
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/div_Evaluacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/div_Evaluacin'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Evento'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Evento'))
 
-if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'), 
     1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt881'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Programar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Programar'))
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_SeleccioneEvaluacin ArtsticaEvaluacin Evento BienestarEvaluacin PreviaEvaluacin EventoqqEvaluacin Bienestar'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_SeleccioneEvaluacin ArtsticaEvaluacin Evento BienestarEvaluacin PreviaEvaluacin EventoqqEvaluacin Bienestar'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_SeleccioneAceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/select_SeleccioneAceptadoCanceladoFinalizadoInscritoNo AceptadoNo FinalizadoSolicitado'), 
     0)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/div_Grupo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/div_Grupo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Aplicar0'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Aplicar0'))
 
 WebUI.closeBrowser()
 

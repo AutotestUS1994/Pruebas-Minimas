@@ -19,699 +19,699 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
     'convocatoria')
 
-WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-String pk1 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy'))
+String pk1 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy'))
 
 if (pk1 == 'pruebas katalon 10.1.5') {
-    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 0'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 0'))
 
-    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
         'constantino')
 
-    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
         1)) {
         WebUI.closeBrowser()
     } else {
-        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
             'proceso de seleccion')
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
             '52')
 
-        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
             Keys.chord(Keys.ENTER))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
             'convocatoria')
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 0'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 0'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
             'constantino')
 
-        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
             Keys.chord(Keys.ENTER))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
     }
 } else {
-    String pk2 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 0'))
+    String pk2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 0'))
 
     if (pk2 == 'pruebas katalon 10.1.5') {
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 1'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 1'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
             'constantino')
 
-        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
             Keys.chord(Keys.ENTER))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-        if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
             1)) {
             WebUI.closeBrowser()
         } else {
-            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                 'proceso de seleccion')
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                 '52')
 
-            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                 Keys.chord(Keys.ENTER))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                 'convocatoria')
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 1'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 1'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                 'constantino')
 
-            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                 Keys.chord(Keys.ENTER))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
         }
     } else {
-        String pk3 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 1'))
+        String pk3 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 1'))
 
         if (pk3 == 'pruebas katalon 10.1.5') {
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 2'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 2'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                 'constantino')
 
-            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                 Keys.chord(Keys.ENTER))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-            if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+            if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                 1)) {
                 WebUI.closeBrowser()
             } else {
-                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                     'proceso de seleccion')
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                     '52')
 
-                WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                     Keys.chord(Keys.ENTER))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                     'convocatoria')
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 2'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 2'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                     'constantino')
 
-                WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                     Keys.chord(Keys.ENTER))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
             }
         } else {
-            String pk4 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 2'))
+            String pk4 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 2'))
 
             if (pk4 == 'pruebas katalon 10.1.5') {
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 3'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 3'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                     'constantino')
 
-                WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                     Keys.chord(Keys.ENTER))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                     1)) {
                     WebUI.closeBrowser()
                 } else {
-                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                         'proceso de seleccion')
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                         '52')
 
-                    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                         Keys.chord(Keys.ENTER))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                         'convocatoria')
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 3'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 3'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                         'constantino')
 
-                    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                         Keys.chord(Keys.ENTER))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                 }
             } else {
-                String pk5 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 3'))
+                String pk5 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 3'))
 
                 if (pk5 == 'pruebas katalon 10.1.5') {
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 4'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 4'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                         'constantino')
 
-                    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                         Keys.chord(Keys.ENTER))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                    if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                         1)) {
                         WebUI.closeBrowser()
                     } else {
-                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                             'proceso de seleccion')
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                             '52')
 
-                        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                             Keys.chord(Keys.ENTER))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Citacion'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Citacion'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Citacin'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Citacin'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon0'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon0'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar0'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar0'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si0'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si0'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                             'convocatoria')
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 4'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 4'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                             'constantino')
 
-                        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                             Keys.chord(Keys.ENTER))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                     }
                 } else {
-                    String pk6 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 4'))
+                    String pk6 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 4'))
 
                     if (pk6 == 'pruebas katalon 10.1.5') {
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 5'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 5'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                             'constantino')
 
-                        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                             Keys.chord(Keys.ENTER))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                        if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                             1)) {
                             WebUI.closeBrowser()
                         } else {
-                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                 'proceso de seleccion')
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                 '52')
 
-                            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                 Keys.chord(Keys.ENTER))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                 'convocatoria')
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 5'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 5'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                 'constantino')
 
-                            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                 Keys.chord(Keys.ENTER))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                         }
                     } else {
-                        String pk7 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 5'))
+                        String pk7 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 5'))
 
                         if (pk7 == 'pruebas katalon 10.1.5') {
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 6'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 6'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                 'constantino')
 
-                            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                 Keys.chord(Keys.ENTER))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                            if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                            if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                 1)) {
                                 WebUI.closeBrowser()
                             } else {
-                                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                     'proceso de seleccion')
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                     '52')
 
-                                WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                     Keys.chord(Keys.ENTER))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                     'convocatoria')
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 6'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 6'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                     'constantino')
 
-                                WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                     Keys.chord(Keys.ENTER))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                             }
                         } else {
-                            String pk8 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 6'))
+                            String pk8 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 6'))
 
                             if (pk8 == 'pruebas katalon 10.1.5') {
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 7'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 7'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                     'constantino')
 
-                                WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                     Keys.chord(Keys.ENTER))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                                if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                                if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                     1)) {
                                     WebUI.closeBrowser()
                                 } else {
-                                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                         'proceso de seleccion')
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                         '52')
 
-                                    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                         Keys.chord(Keys.ENTER))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                         'convocatoria')
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 7'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 7'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                         'constantino')
 
-                                    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                         Keys.chord(Keys.ENTER))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                                 }
                             } else {
-                                String pk9 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 7'))
+                                String pk9 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 7'))
 
                                 if (pk9 == 'pruebas katalon 10.1.5') {
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 8'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 8'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                    WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                         'constantino')
 
-                                    WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                         Keys.chord(Keys.ENTER))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                    WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                                    if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                                    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                         1)) {
                                         WebUI.closeBrowser()
                                     } else {
-                                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                             'proceso de seleccion')
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                             '52')
 
-                                        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                             Keys.chord(Keys.ENTER))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                             'convocatoria')
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 8'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 8'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                             'constantino')
 
-                                        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                             Keys.chord(Keys.ENTER))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                                     }
                                 } else {
-                                    String pk10 = WebUI.getText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 8'))
+                                    String pk10 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 8'))
 
                                     if (pk10 == 'pruebas katalon 10.1.5') {
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 9'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 9'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                        WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                             'constantino')
 
-                                        WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                             Keys.chord(Keys.ENTER))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                        WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
 
-                                        if (WebUI.waitForElementVisible(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
+                                        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                             1)) {
                                             WebUI.closeBrowser()
                                         } else {
-                                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                                 'proceso de seleccion')
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/li_Proceso de Seleccion (tal)'))
 
-                                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                                 '52')
 
-                                            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
+                                            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Nmero_filtro_procesoseleccionj_idt73'), 
                                                 Keys.chord(Keys.ENTER))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_8028     - Analista De Sistemas'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/div_Candidato'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/div_Candidato'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Registro Candidato'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/td_Constantino  Jhon'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Eliminar'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Si'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Si'))
 
-                                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+                                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
                                                 'convocatoria')
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Convocatoria'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Ver - 9'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Ver - 9'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_Inscribirse'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Identificacin_seleccion_procesopanelCandidatoj_idt744'))
 
-                                            WebUI.setText(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                                 'constantino')
 
-                                            WebUI.sendKeys(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
+                                            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Filtro Hoja de Vida_form_popUpCandidatosSeleccionj_idt261'), 
                                                 Keys.chord(Keys.ENTER))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
-                                            WebUI.click(findTestObject('Modulo Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+                                            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
                                         }
                                     }
                                 }

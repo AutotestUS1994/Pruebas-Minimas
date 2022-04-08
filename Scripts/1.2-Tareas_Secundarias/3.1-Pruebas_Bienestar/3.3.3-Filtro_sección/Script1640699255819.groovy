@@ -19,26 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/input_Beneficios_form_templatej_idt24_input'), 'beneficio (bie)')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/input_Beneficios_form_templatej_idt24_input'), 'beneficio (bie)')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/span_Beneficio (bie)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/span_Beneficio (bie)'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/td_PRUEBAS KATALON'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/td_PRUEBAS KATALON'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_Filtro Seccin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_Filtro Seccin'))
 
-if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'), 
     1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_CONYUGUE_form_dirigidoTipoBeneficiariotabla_dirigido0j_idt689'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_Aceptar'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/select_--Seleccione--DiscapacidadEdadGeneroParentesco'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/select_--Seleccione--DiscapacidadEdadGeneroParentesco'), 
     4)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/select_-- Seleccione --CONYUGUEHERMANO (A)HIJO (A)NO DEFINIDOPADRE'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/select_-- Seleccione --CONYUGUEHERMANO (A)HIJO (A)NO DEFINIDOPADRE'), 
     1)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_Tipo Campo_form_dirigidoTipoBeneficiariotabla_dirigidoj_idt690'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_sección/a_Tipo Campo_form_dirigidoTipoBeneficiariotabla_dirigidoj_idt690'))
 

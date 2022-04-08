@@ -21,55 +21,55 @@ WebUI.comment('PENDIENTE POR REPARAR FALLA SE PUEDE EJECUTAR PERO FALLA')
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/td_Prueba'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/td_Prueba'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/div_Asistentes'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/div_Asistentes'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Registro'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Registro'))
 
-if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/td_prueba ka Pruebas'), 
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/td_prueba ka Pruebas'), 
     1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/td_prueba ka Pruebas'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/td_prueba ka Pruebas'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Eliminar'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Aceptar_eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Aceptar_eliminar'))
 }
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Nuevo'))
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccioneExternoInterno'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccioneExternoInterno'), 
     1)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Documento_formAsistenteEventopanelTabAsistenteEvendocumentoAsistenteAlfaNumerico'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Documento_formAsistenteEventopanelTabAsistenteEvendocumentoAsistenteAlfaNumerico'), 
     '123456789')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Nombres_formAsistenteEventopanelTabAsistenteEvennombresAsistente'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Nombres_formAsistenteEventopanelTabAsistenteEvennombresAsistente'), 
     'Pruebas')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Primer Apellido_formAsistenteEventopanelTabAsistenteEvenprimerApellidoAsistente'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Primer Apellido_formAsistenteEventopanelTabAsistenteEvenprimerApellidoAsistente'), 
     'prueba')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Segundo Apellido_formAsistenteEventopanelTabAsistenteEvensegundoApellidoAsistente'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Segundo Apellido_formAsistenteEventopanelTabAsistenteEvensegundoApellidoAsistente'), 
     'ka')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Email_formAsistenteEventopanelTabAsistenteEvenemail'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Email_formAsistenteEventopanelTabAsistenteEvenemail'), 
     'autotestus1994@gmail.com')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Tipo de Vinculacin_formAsistenteEventopanelTabAsistenteEventipovinculacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Tipo de Vinculacin_formAsistenteEventopanelTabAsistenteEventipovinculacion'), 
     'null')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
     '3')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccionePrueba'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccionePrueba'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 
     '1')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/textarea_Observacin_formAsistenteEventopanelTabAsistenteEvenobservacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/textarea_Observacin_formAsistenteEventopanelTabAsistenteEvenobservacion'), 
     'Pruebas')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Guardar'))
 

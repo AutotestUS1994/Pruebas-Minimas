@@ -90,7 +90,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'))
 
-    WebUI.getText(findTestObject('Alerta/Alerta'))
+    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/span_E_ui-icon ui-icon-closethick'))
 
@@ -227,7 +227,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Complementario de Viáticos/a_Guardar_complemento'))
 
-        WebUI.getText(findTestObject('Alerta/Alerta'))
+        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
     }
 }
 

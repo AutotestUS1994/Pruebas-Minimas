@@ -19,22 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/input_Empresa 1_form_templatej_idt24_input'), 
     'Listado Descripcion Cargo (tal)')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/li_Listado Descripcion Cargo (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/li_Listado Descripcion Cargo (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Cargo_form_listadoDescripcionCargoj_idt70'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/a_Cargo_form_listadoDescripcionCargoj_idt70'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_40 MIL STAFF'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/span_40 MIL STAFF'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/span_01072021'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/span_01072021'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Imprimir Publicacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/a_Imprimir Publicacin'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/td_Descripcin del Cargo1'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/td_Descripcin del Cargo1'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Impresión_de_descripción_del_cargo/a_Descargar archivo en formato Doc'), 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/a_Descargar archivo en formato Doc'), 
     1))
 {
 WebUI.closeBrowser()

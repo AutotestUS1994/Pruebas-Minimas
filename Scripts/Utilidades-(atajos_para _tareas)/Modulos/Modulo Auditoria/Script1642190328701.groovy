@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Auditoria/input_Empresa 1_form_templatej_idt24_input'), 'Auditoria')
+WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Modulo Auditoria/input_Empresa 1_form_templatej_idt24_input'), 'Auditoria')
 
-WebUI.click(findTestObject('Modulo Auditoria/li_Auditoria (com)'))
+WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Modulo Auditoria/li_Auditoria (com)'))
 

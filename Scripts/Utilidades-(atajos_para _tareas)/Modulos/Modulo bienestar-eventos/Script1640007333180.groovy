@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'), 0)
+WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'), 0)
 
-WebUI.setText(findTestObject('Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'), 'eventos (bie)')
+WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Modulo bienestar-eventos/input_ADMINISTRADOR DEL SISTEMA'), 'eventos (bie)')
 
-WebUI.click(findTestObject('Modulo bienestar-eventos/span_Eventos (bie)'))
+WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Modulo bienestar-eventos/span_Eventos (bie)'))
 

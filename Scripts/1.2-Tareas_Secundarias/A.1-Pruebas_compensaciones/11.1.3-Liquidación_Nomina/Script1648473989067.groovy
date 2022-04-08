@@ -19,32 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo compensaciones/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'), 'Liquidacion Nomina')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'), 'Liquidacion Nomina')
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/li_Liquidacion Nomina (com)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/li_Liquidacion Nomina (com)'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/span_P. MensualJulio2021'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_P. MensualJulio2021'))
 
-WebUI.setText(findTestObject('Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'), 
     '1026588953')
 
-WebUI.sendKeys(findTestObject('Modulo compensaciones/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/td_Aya Silva Cindy Ximena'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/td_Aya Silva Cindy Ximena'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Liquidacin Periodica'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Liquidacin Periodica'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/span_Prestamo Compaa'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Ver'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Ver'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo compensaciones/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 1))
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 1))
 {
 WebUI.closeBrowser()
 }

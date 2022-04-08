@@ -95,8 +95,8 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 
-WebUI.getText(findTestObject('Alerta/Alerta'))
+WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-//WebUI.getText(findTestObject('Alerta/Alerta'))
+//WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 WebUI.closeBrowser()
 

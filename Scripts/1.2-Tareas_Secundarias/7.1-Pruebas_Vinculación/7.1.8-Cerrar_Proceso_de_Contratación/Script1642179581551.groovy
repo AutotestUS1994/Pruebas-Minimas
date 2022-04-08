@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Cerrar_Proceso_de_Contratación/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Cerrar_Proceso_de_Contratación/input_Empresa 1_form_templatej_idt24_input'), 
     'Listado contratacion')
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Cerrar_Proceso_de_Contratación/li_Listado Contratacion (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Cerrar_Proceso_de_Contratación/li_Listado Contratacion (tal)'))
 
 WebUI.comment('NO SE ESPECIFICA LA TAREA')
 

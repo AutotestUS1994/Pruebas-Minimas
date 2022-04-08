@@ -19,26 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo compensaciones/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'), 'Listado de Empleados')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'), 'Listado de Empleados')
 
-WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/li_Listado de Empleados (com)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/li_Listado de Empleados (com)'))
 
-WebUI.setText(findTestObject('Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
     'Consta')
 
-WebUI.sendKeys(findTestObject('Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/span_Constantino Jhon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Constantino Jhon'))
 
-WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Liquidacin Periodica'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
     2)
 
-WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
 
-String totalA = WebUI.getText(findTestObject('Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'), 
+String totalA = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'), 
     FailureHandling.STOP_ON_FAILURE)
 
 if (totalA == '10.000,00') {
@@ -50,26 +50,26 @@ if (totalA == '10.000,00') {
 
     WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'listado de empleados')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'listado de empleados')
 
-    WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/span_Listado de Empleados'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Listado de Empleados'))
 
-    WebUI.setText(findTestObject('Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
         'consta')
 
-    WebUI.sendKeys(findTestObject('Modulo compensaciones/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/span_Constantino Jhon'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Constantino Jhon'))
 
-    WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/a_Liquidacin Periodica'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Liquidacin Periodica'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
         2)
 
-    WebUI.click(findTestObject('Modulo compensaciones/Listado_Empleados/span_Prestamo Compaa'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
 
-    WebUI.getText(findTestObject('Modulo compensaciones/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'))
+    WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'))
 
     WebUI.closeBrowser()
 }

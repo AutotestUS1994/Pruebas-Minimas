@@ -20,57 +20,57 @@ import java.text.SimpleDateFormat as SimpleDateForma
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Login_Seguridad/Login-Seguridad'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Usuario_form_templatej_idt24_input'), 'Roles')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Usuario_form_templatej_idt24_input'), 'Roles')
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/li_Roles'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/li_Roles'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 'pruebas katalon')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 'pruebas katalon')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon'), 1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon'), 1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Acceso Roles'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Acceso Roles'))
 
-    if (WebUI.waitForElementClickable(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_SARA_formtabtabla_roles0j_idt134'), 
+    if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_SARA_formtabtabla_roles0j_idt134'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_SARA_formtabtabla_roles0j_idt134'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_SARA_formtabtabla_roles0j_idt134'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_link_aceptar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_link_aceptar'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Roles'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Roles'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_link_aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_link_aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Descripcin_formtabdescripcion'), 'Pruebas katalon')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Descripcin_formtabdescripcion'), 'Pruebas katalon')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_Seleccin Tipo TolRol ClienteRol Funcional'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_Seleccin Tipo TolRol ClienteRol Funcional'), 
     2)
 
-WebUI.setText(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Alias_formtabalias'), 'pruebas k')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Alias_formtabalias'), 'pruebas k')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_-- Seleccione --Grupo a'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_-- Seleccione --Grupo a'), 1)
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Guardar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Acceso Roles'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Acceso Roles'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneEmpresa 1Empresa 1'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneEmpresa 1Empresa 1'), 1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneSaraDS_Jboss (CompensacionDS)SaraDS_weblogic (CompensacionDS)seguridad jdbcSeguridadDS_Jboss'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneSaraDS_Jboss (CompensacionDS)SaraDS_weblogic (CompensacionDS)seguridad jdbcSeguridadDS_Jboss'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA PRIMESARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA PRIMESARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
     2)
 
-WebUI.click(findTestObject('Modulo Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Filter by Aplicacin_formtabtabla_rolesj_idt135'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Filter by Aplicacin_formtabtabla_rolesj_idt135'))
 
 WebUI.closeBrowser()
 

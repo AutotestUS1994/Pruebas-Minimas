@@ -73,15 +73,15 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
         WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
             'prueba')
 
-        WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
-        WebUI.getText(findTestObject('Alerta/Alerta'))
+        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
     } else {
         if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'), 
             1)) {
             WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'))
         } else {
-            WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
         }
         
         WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/input_Fecha_form_detalleviaticosFechaNumero_input'), 
@@ -93,9 +93,9 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
         WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/textarea_prueba'), 
             'prueba')
 
-        WebUI.click(findTestObject('Modulo Parametros/Comprobar Parametros/a_Guardar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
-        WebUI.getText(findTestObject('Alerta/Alerta'))
+        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
     }
 }
 

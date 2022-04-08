@@ -19,42 +19,42 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/input_Empresa 1_form_templatej_idt24_input'), 
     'planta personal (tal)')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Planta Personal (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Planta Personal (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/span_Administracion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/span_Administracion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/span_Pruebas  Katalon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/span_Pruebas  Katalon'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_No Relacionado_ui-button-icon-left ui-icon ui-c ui-icon-triangle-1-s'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad/span_Organigrama'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/span_Organigrama'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/span_QAS'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/span_QAS'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/a_QAS_organigramaj_idt1420modificar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/a_QAS_organigramaj_idt1420modificar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/span_Si'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/span_Si'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/a_Organigrama_organigramacrearUnidadTransversal'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/a_Organigrama_organigramacrearUnidadTransversal'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione Unidad Transicional--3            - CALIDAD1'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/select_--Seleccione Unidad Transicional--3            - CALIDAD1'), 
     5)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione Sucursal--NO RELACIONADABOGOTA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/select_--Seleccione Sucursal--NO RELACIONADABOGOTA'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/select_--Seleccione el Estado--SINO'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/select_--Seleccione el Estado--SINO'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/a_Actualizar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/a_Actualizar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_una_unidad_transversal/p_No se puede almacenar el registro, ya existe una unidad con el mismo nombre'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/p_No se puede almacenar el registro, ya existe una unidad con el mismo nombre'), 
     1)) {
     WebUI.acceptAlert()
 } else {

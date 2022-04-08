@@ -19,35 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input'), 
     'gestion herramientas')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/span_Gestion Herramientas'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/span_Gestion Herramientas'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Tipo Evaluador'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Tipo Evaluador'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Eliminar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Eliminar'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Aceptar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Aceptar'))
     }
     
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Nuevo'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Nuevo'))
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Descripcin_form_planillaGestiondescripcion'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Descripcin_form_planillaGestiondescripcion'), 
         'pr.katalon')
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/select_--Seleccione--AutoevaluacinCompaeroJefeOtroSubalterno'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/select_--Seleccione--AutoevaluacinCompaeroJefeOtroSubalterno'), 
         1)
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
 
     WebUI.closeBrowser()
 } else {
@@ -55,35 +55,35 @@ if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crea
 
     WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input'), 
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input'), 
         'gestion herramientas')
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/span_Gestion Herramientas'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/span_Gestion Herramientas'))
 
-    if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'), 
         1)) {
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_Pruebas katalon'))
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Tipo Evaluador'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Tipo Evaluador'))
 
-        if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'), 
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'), 
             1)) {
-            WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/td_pr.katalon'))
 
-            WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Eliminar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Eliminar'))
 
-            WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Aceptar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Aceptar'))
         }
         
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Nuevo'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Nuevo'))
 
-        WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Descripcin_form_planillaGestiondescripcion'), 
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Descripcin_form_planillaGestiondescripcion'), 
             'pr.katalon')
 
-        WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/select_--Seleccione--AutoevaluacinCompaeroJefeOtroSubalterno'), 
+        WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/select_--Seleccione--AutoevaluacinCompaeroJefeOtroSubalterno'), 
             1)
 
-        WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
 
         WebUI.closeBrowser()
     }

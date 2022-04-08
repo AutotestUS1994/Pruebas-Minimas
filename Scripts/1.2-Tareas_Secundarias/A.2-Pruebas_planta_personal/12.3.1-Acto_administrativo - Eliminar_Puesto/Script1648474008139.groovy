@@ -36,62 +36,62 @@ String Fecha = (((Dia + '/') + Mes) + '/') + Año
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/input_Empresa 1_form_templatej_idt24_input'), 
     'actos administrativos')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/li_Actos Administrativos (act)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/li_Actos Administrativos (act)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/i_Actos Ausencia_glyphicons glyphicons-user-structure x3 icon-acto'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/i_Actos Ausencia_glyphicons glyphicons-user-structure x3 icon-acto'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Acto Movimento de planta_form_ActosAdministrativostabla_principal_10j_idt79'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Acto Movimento de planta_form_ActosAdministrativostabla_principal_10j_idt79'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/span_eliminar puesto de trabajo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/span_eliminar puesto de trabajo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/input__form_actoMovPlantaj_idt22710fecha_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/input__form_actoMovPlantaj_idt22710fecha_input'), 
     Fecha)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/select_- No Relacionado1  - Cambio Datos Del Puesto10 - Ingreso Puesto Nuevo11'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/select_- No Relacionado1  - Cambio Datos Del Puesto10 - Ingreso Puesto Nuevo11'), 
     '2')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Unidad Organizacional_form_actoMovPlantaunidad'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Unidad Organizacional_form_actoMovPlantaunidad'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
     'A1')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/input_Unidad_form_popupUnidadUsuarioj_idt1425'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/span_ADMINISTRACION'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/span_ADMINISTRACION'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Cargo_form_actoMovPlantacargo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Cargo_form_actoMovPlantacargo'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/span_ANALISTA CONTABLE'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/span_ANALISTA CONTABLE'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Continuar'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil11'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil11'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil11'))
-} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'), 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil11'))
+} else if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'))
-} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'), 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil10'))
+} else if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'))
-} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'), 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil9'))
+} else if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'))
-} else if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'), 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil8'))
+} else if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/img_Nmero Puesto_us-foto-perfil7'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Continuar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Continuar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Aceptar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/a_Aplicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/a_Aplicar'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Acto_administrativo - Eliminar_Puesto/span_Si'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/span_Si'))
 

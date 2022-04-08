@@ -19,8 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Control Evento Capacitacion/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Modulo Control Evento Capacitacion/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Control Evento')
 
-WebUI.click(findTestObject('Modulo Control Evento Capacitacion/li_Control Evento Capacitacion (cap)'))
+WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Modulo Control Evento Capacitacion/li_Control Evento Capacitacion (cap)'))
 

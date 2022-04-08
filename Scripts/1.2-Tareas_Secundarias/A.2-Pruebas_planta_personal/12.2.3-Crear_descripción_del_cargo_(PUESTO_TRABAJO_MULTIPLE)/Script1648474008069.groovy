@@ -19,47 +19,47 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Empresa 1_form_templatej_idt24_input'), 
     'Listado Descripcion Cargo (tal)')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/li_Listado Descripcion Cargo (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/li_Listado Descripcion Cargo (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Nuevo'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Unidad Organizacional_form_listadoDescripcionCargoj_idt115'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Unidad Organizacional_form_listadoDescripcionCargoj_idt115'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Unidad_form_popupUnidadUsuarioj_idt612'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Unidad_form_popupUnidadUsuarioj_idt612'), 
     'ADMINISTRACION')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Unidad_form_popupUnidadUsuarioj_idt612'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input_Unidad_form_popupUnidadUsuarioj_idt612'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_ADMINISTRACION'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_ADMINISTRACION'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Cargo_form_listadoDescripcionCargoj_idt120'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Cargo_form_listadoDescripcionCargoj_idt120'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_ABOGADO'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_ABOGADO'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_20139    - Abogado'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/span_20139    - Abogado'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input__descripcionCargo_formj_idt7270fecha_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/input__descripcionCargo_formj_idt7270fecha_input'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7272idTexto5'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7272idTexto5'), 
     'pruebas katalon')
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7274idTexto5'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7274idTexto5'), 
     'pruebas katalon')
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7276idTexto5'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7276idTexto5'), 
     'pruebas katalon')
 
-WebUI.setText(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7277idTexto5'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/textarea__descripcionCargo_formj_idt7277idTexto5'), 
     'pruebas katalon')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Guardar'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Definir_Perfil'), 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo(Puesto_trabajo_multiple)/a_Definir_Perfil'), 
     1))
 {
 WebUI.closeBrowser()

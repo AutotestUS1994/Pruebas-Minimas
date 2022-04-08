@@ -19,76 +19,76 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'), 
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'), 
     1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))
 
-    if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'), 
+    if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'), 
         1)) {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
     }
     
-    WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado'), 
         4)
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/label_bienestar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/label_bienestar'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_evento'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_evento'))
 
-    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'), 
+    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'), 
         1)) {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))
 
-        if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'), 
+        if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'), 
             1)) {
-            WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'))
 
-            WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
         }
         
         WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado'), 
             5)
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
     } else {
         WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento'), [:], FailureHandling.STOP_ON_FAILURE)
     }
     
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))
 
-    if (WebUI.waitForElementClickable(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'), 
+    if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'), 
         1)) {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadores0j_idt616'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
     }
     
     WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado'), 
         5)
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
 }
 
 WebUI.closeBrowser()

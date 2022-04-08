@@ -19,37 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'Listado persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'Listado persona')
 
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/span_Listado Persona'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/span_Listado Persona'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/td_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/td_1010220596'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/a_Reloj'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Reloj'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Reloj/td_20210701 1800'), 1))
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/td_20210701 1800'), 1))
 {
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/td_20210701 1800'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/td_20210701 1800'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/a_Eliminar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Eliminar'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Aceptar'))
 }
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Nuevo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo control tiempo/Reloj/select_AbiertoCerrado'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/select_AbiertoCerrado'), 1)
 
-WebUI.setText(findTestObject('Modulo control tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input'), '01/07/2021')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input'), '01/07/2021')
 
-WebUI.setText(findTestObject('Modulo control tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input'), '30/07/2021')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input'), '30/07/2021')
 
-WebUI.setText(findTestObject('Modulo control tiempo/Reloj/input_Hora_formPopupRelojhoraIni'), '08')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input_Hora_formPopupRelojhoraIni'), '08')
 
-WebUI.setText(findTestObject('Modulo control tiempo/Reloj/input__formPopupRelojminutoIni'), '10')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input__formPopupRelojminutoIni'), '10')
 
-WebUI.setText(findTestObject('Modulo control tiempo/Reloj/input__formPopupRelojhoraFin'), '18')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input__formPopupRelojhoraFin'), '18')
 
-WebUI.setText(findTestObject('Modulo control tiempo/Reloj/input__formPopupRelojminutoFin'), '00')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input__formPopupRelojminutoFin'), '00')
 
-WebUI.click(findTestObject('Modulo control tiempo/Reloj/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Guardar'))
 

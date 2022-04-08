@@ -19,57 +19,57 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/input_Empresa 1_form_templatej_idt24_input'), 
     'listado herramientas')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/li_Listado Herramientas (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/li_Listado Herramientas (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/div_Contratacion_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/div_Contratacion_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Herramienta ---ENCUESTA DE RETIROEVALUACION 2011'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--- Seleccione Herramienta ---ENCUESTA DE RETIROEVALUACION 2011'), 
     2)
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_A A A'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_A A A'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_A A A'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_A A A'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_Si'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_Si'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_Regresar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_Regresar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/a_Nuevo'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Herramienta ---ENCUESTA DE RETIROEVALUACION 2011 - Copy'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--- Seleccione Herramienta ---ENCUESTA DE RETIROEVALUACION 2011 - Copy'), 
     2)
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/a_Identificacion Evaluado_form_popupDetalleEvaluacionj_idt215'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/a_Identificacion Evaluado_form_popupDetalleEvaluacionj_idt215'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt723'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt723'), 
     'A')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt723'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt723'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_A A A'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_A A A'))
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Unidad Organizacional ---1111123456ADMINISTRACIONADMINISTRACIONAnalista'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--- Seleccione Unidad Organizacional ---1111123456ADMINISTRACIONADMINISTRACIONAnalista'), 
     4)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_--- Seleccione Cargo ---20145   -40 MIL STAFF20139   -ABOGADO20117   -ABOGADO JUNIOR10'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--- Seleccione Cargo ---20145   -40 MIL STAFF20139   -ABOGADO20117   -ABOGADO JUNIOR10'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOSNO APLICANOMINA 40 MIL'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_ADMINISTRATIVOSAPRENDICESEMPLEADOFBROLESTSMECANICOSNO APLICANOMINA 40 MIL'), 
     6)
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/a_Periodo_form_popupDetalleEvaluacionj_idt208'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/a_Periodo_form_popupDetalleEvaluacionj_idt208'))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_PERIODO DE PRUEBA'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_PERIODO DE PRUEBA'))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Individual/span_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_Guardar'))
 

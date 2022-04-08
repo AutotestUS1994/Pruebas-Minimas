@@ -24,236 +24,236 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Empresa 1_form_templatej_idt24_input'), 
     'Programa de Capacitacion (cap)')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/li_Programa de Capacitacion (cap)'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/li_Programa de Capacitacion (cap)'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Descripcin_form_datosPlanCapacitaciondescripcion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Descripcin_form_datosPlanCapacitaciondescripcion'), 
     'CapacitacionPruebasKATALON' + nombreAlea())
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
     fechainicial())
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --.BARRANQUILLABOGOTACALIFRANCIAIBIZA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --.BARRANQUILLABOGOTACALIFRANCIAIBIZA'), 
     '3')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Observacin_form_datosPlanCapacitacionobservacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Observacin_form_datosPlanCapacitacionobservacion'), 
     'prueba automatica katalon')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Final_form_datosPlanCapacitacionfechaFinal_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Final_form_datosPlanCapacitacionfechaFinal_input'), 
     fechafinal())
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Responsable_form_datosPlanCapacitacionj_idt595'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Responsable_form_datosPlanCapacitacionj_idt595'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
     '80769954')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'), 
     0)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Descripcin_form_actividadesCapacitaciontabActividadesdescripcionActi'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Descripcin_form_actividadesCapacitaciontabActividadesdescripcionActi'), 
     'ActividadKatalon')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Objetivo_form_actividadesCapacitaciontabActividadesobjetivo'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Objetivo_form_actividadesCapacitaciontabActividadesobjetivo'), 
     'Prueba automatica')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Cantidad Horas_form_actividadesCapacitaciontabActividadescantidad'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Cantidad Horas_form_actividadesCapacitaciontabActividadescantidad'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Evento CapacitacinEvento Capacitacin Grupal'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Evento CapacitacinEvento Capacitacin Grupal'), 
     1)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Presupuesto_form_actividadesCapacitaciontabActividadespresupuesto'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Presupuesto_form_actividadesCapacitaciontabActividadespresupuesto'), 
     '1000000')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Recurso Disponible_form_actividadesCapacitaciontabActividadesdisponible'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Recurso Disponible_form_actividadesCapacitaciontabActividadesdisponible'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Programacin_form_actividadesCapacitaciontabActividadesfechaprogramacion_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Programacin_form_actividadesCapacitaciontabActividadesfechaprogramacion_input'), 
     fechainicial())
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Programacin_form_actividadesCapacitaciontabActividadesprogramacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Programacin_form_actividadesCapacitaciontabActividadesprogramacion'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Tema_form_actividadesCapacitaciontabActividadestema'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Tema_form_actividadesCapacitaciontabActividadestema'), 
     'prueba  automatica')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Nmero Funcionarios_form_actividadesCapacitaciontabActividadesfuncionario'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Nmero Funcionarios_form_actividadesCapacitaciontabActividadesfuncionario'), 
     '100')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --MixtaPresencialVirtual'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --MixtaPresencialVirtual'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Diagnstico de Necesidades de CapacitacinEstrategiaEvaluacin del desempeoOrigen Evento'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Diagnstico de Necesidades de CapacitacinEstrategiaEvaluacin del desempeoOrigen Evento'), 
     '1')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Ejecutado_form_actividadesCapacitaciontabActividadesejecutado'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Ejecutado_form_actividadesCapacitaciontabActividadesejecutado'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Ejecucin_form_actividadesCapacitaciontabActividadesfechaejecucion_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Ejecucin_form_actividadesCapacitaciontabActividadesfechaejecucion_input'), 
     fechafinal())
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Solicita_form_actividadesCapacitaciontabActividadesj_idt710'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Solicita_form_actividadesCapacitaciontabActividadesj_idt710'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
     'Constantino')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354-1'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354-1'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Detalle'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Detalle'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Enviar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Enviar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Aprobar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Aprobar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Cerrar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Cerrar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_Si'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_Si'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Regresar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Regresar'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Empresa 1_form_templatej_idt24_input'), 
     'Programa de Capacitacion (cap)')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/li_Programa de Capacitacion (cap)'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/li_Programa de Capacitacion (cap)'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Descripcin_form_datosPlanCapacitaciondescripcion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Descripcin_form_datosPlanCapacitaciondescripcion'), 
     'CapacitacionPruebasKATALON' + nombreAlea())
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
     fechainicial())
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --.BARRANQUILLABOGOTACALIFRANCIAIBIZA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --.BARRANQUILLABOGOTACALIFRANCIAIBIZA'), 
     '3')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Observacin_form_datosPlanCapacitacionobservacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Observacin_form_datosPlanCapacitacionobservacion'), 
     'prueba automatica katalon')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Final_form_datosPlanCapacitacionfechaFinal_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Final_form_datosPlanCapacitacionfechaFinal_input'), 
     fechafinal())
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Responsable_form_datosPlanCapacitacionj_idt595'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Responsable_form_datosPlanCapacitacionj_idt595'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
     '80769954')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'), 
     0)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Actividades'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Nuevo'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Descripcin_form_actividadesCapacitaciontabActividadesdescripcionActi'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Descripcin_form_actividadesCapacitaciontabActividadesdescripcionActi'), 
     'ActividadKatalon')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Objetivo_form_actividadesCapacitaciontabActividadesobjetivo'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Objetivo_form_actividadesCapacitaciontabActividadesobjetivo'), 
     'Prueba automatica')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Cantidad Horas_form_actividadesCapacitaciontabActividadescantidad'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Cantidad Horas_form_actividadesCapacitaciontabActividadescantidad'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Evento CapacitacinEvento Capacitacin Grupal'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Evento CapacitacinEvento Capacitacin Grupal'), 
     1)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Presupuesto_form_actividadesCapacitaciontabActividadespresupuesto'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Presupuesto_form_actividadesCapacitaciontabActividadespresupuesto'), 
     '1000000')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Recurso Disponible_form_actividadesCapacitaciontabActividadesdisponible'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Recurso Disponible_form_actividadesCapacitaciontabActividadesdisponible'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Programacin_form_actividadesCapacitaciontabActividadesfechaprogramacion_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Programacin_form_actividadesCapacitaciontabActividadesfechaprogramacion_input'), 
     fechainicial())
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Programacin_form_actividadesCapacitaciontabActividadesprogramacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Programacin_form_actividadesCapacitaciontabActividadesprogramacion'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Tema_form_actividadesCapacitaciontabActividadestema'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Tema_form_actividadesCapacitaciontabActividadestema'), 
     'prueba  automatica')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Nmero Funcionarios_form_actividadesCapacitaciontabActividadesfuncionario'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Nmero Funcionarios_form_actividadesCapacitaciontabActividadesfuncionario'), 
     '100')
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --MixtaPresencialVirtual'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --MixtaPresencialVirtual'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Diagnstico de Necesidades de CapacitacinEstrategiaEvaluacin del desempeoOrigen Evento'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --Diagnstico de Necesidades de CapacitacinEstrategiaEvaluacin del desempeoOrigen Evento'), 
     '1')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Ejecutado_form_actividadesCapacitaciontabActividadesejecutado'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Ejecutado_form_actividadesCapacitaciontabActividadesejecutado'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Ejecucin_form_actividadesCapacitaciontabActividadesfechaejecucion_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Ejecucin_form_actividadesCapacitaciontabActividadesfechaejecucion_input'), 
     fechafinal())
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Solicita_form_actividadesCapacitaciontabActividadesj_idt710'), 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Solicita_form_actividadesCapacitaciontabActividadesj_idt710'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
     'Constantino')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt868-1'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354-1'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_354968431354-1'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Detalle'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Detalle'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Enviar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Enviar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Rechazar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Rechazar'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Motivo_popupNoAutorizar_formmotivo'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/textarea_Motivo_popupNoAutorizar_formmotivo'), 
     'Pruebas automaticas katalon')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_No Autorizar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_No Autorizar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Cerrar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Cerrar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_Si'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/span_Si'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Regresar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/a_Regresar'))
 
 def fechainicial() {
     Date today = new Date()

@@ -19,16 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Salgado . Paula'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Consultar_posición__nómina/span_Salgado . Paula'))
 
-WebUI.scrollToElement(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/div_Salgado . Paula 40 Mil Staff'), 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Consultar_posición__nómina/div_Salgado . Paula 40 Mil Staff'), 
     0)
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/a_Salgado . Paula_organigramaj_idt113'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Consultar_posición__nómina/a_Salgado . Paula_organigramaj_idt113'))
 
-WebUI.scrollToElement(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Actualizar'), 0)
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Consultar_posición__nómina/span_Actualizar'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Planta de Personal/Consultar_posición__nómina/span_Actualizar'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Consultar_posición__nómina/span_Actualizar'), 
     0)
 
 WebUI.closeBrowser()

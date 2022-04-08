@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'Planta Personal (tal)')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'Planta Personal (tal)')
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/span_Planta Personal (ta'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Ajuste_relación_(Encargos)/span_Planta Personal (ta'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Actos Administrativos_organigramaajusterelacion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Ajuste_relación_(Encargos)/a_Actos Administrativos_organigramaajusterelacion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Ajuste Relacion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Ajuste_relación_(Encargos)/a_Ajuste Relacion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Planta de Personal/Ajuste_relación_(Encargos)/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Ajuste_relación_(Encargos)/a_Aceptar'))
 
 WebUI.closeBrowser()
 

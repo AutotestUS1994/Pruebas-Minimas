@@ -19,43 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/input_Empresa 1_form_templatej_idt24_input'), 
     'parametros contratacion')
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/span_Parametros Contratacion'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/span_Parametros Contratacion'))
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/a_Tipo  Documento'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/a_Tipo  Documento'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_Momento/input_Parmetros_form_tipodocumentofiltroTipoHoja'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Momento/input_Parmetros_form_tipodocumentofiltroTipoHoja'), 
     'pruebas katalon')
 
-WebUI.sendKeys(findTestObject('Modulo Pruebas Vinculación/Crear_un_Momento/input_Parmetros_form_tipodocumentofiltroTipoHoja'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Momento/input_Parmetros_form_tipodocumentofiltroTipoHoja'), 
     Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo Pruebas Vinculación/Crear_un_Momento/span_Pruebas katalon'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Momento/span_Pruebas katalon'), 
     1)) {
-    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Momento/span_Pruebas katalon'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Momento/span_Pruebas katalon'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Momento/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Momento/a_Eliminar'))
 
-    WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_Momento/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Momento/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/a_Nuevo'))
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/input_Cdigo_form_tipodocumentocodigo'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/input_Cdigo_form_tipodocumentocodigo'), 
     '5')
 
-WebUI.setText(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/textarea_Descripcin_form_tipodocumentodescripcion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/textarea_Descripcin_form_tipodocumentodescripcion'), 
     'Pruebas katalon')
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/select_Documento AnexoDocumento Control'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/select_Documento AnexoDocumento Control'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/select_--Seleccione--MODO COLOMBIA HV'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/select_--Seleccione--MODO COLOMBIA HV'), 
     1)
 
-WebUI.click(findTestObject('Modulo Pruebas Vinculación/Crear_un_tipo_Documento/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/a_Guardar'))
 
 WebUI.closeBrowser()
 

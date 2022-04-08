@@ -19,172 +19,172 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'entidades riesgo')
 
-WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'), 0)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59'), 
     'pruebas k')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59'), 
     Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'), 1)) {
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'))
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'), 1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'))
 
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Seguimiento'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Seguimiento'))
 
-    if (WebUI.waitForElementPresent(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_DIAZ BLANCO GUISELL'), 
+    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_DIAZ BLANCO GUISELL'), 
         1)) {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_DIAZ BLANCO GUISELL'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_DIAZ BLANCO GUISELL'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
     }
     
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Entidad de Riesgo'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Entidad de Riesgo'))
 
-    if (WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 1)) {
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
 
-        WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
     }
     
-    WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Regresar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Regresar'))
 }
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Cdigo_form_detalleEntidadRiesgocodigoInterno'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Cdigo_form_detalleEntidadRiesgocodigoInterno'), 
     '5')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_detalleEntidadRiesgodescripcion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_detalleEntidadRiesgodescripcion'), 
     'PRUEBAS K')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Unidad Organizacional_form_detalleEntidadRiesgoj_idt6210'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Unidad Organizacional_form_detalleEntidadRiesgoj_idt6210'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones0'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones0'), 
     'ADMINISTRACION')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones0'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones0'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_ADMINISTRACION'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_ADMINISTRACION'))
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_SeleccionarAREAS DE RIESGOAREAS SIN RIESGOPRUEBA SILVIA 1PRUEBA SILVIA 2'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_SeleccionarAREAS DE RIESGOAREAS SIN RIESGOPRUEBA SILVIA 1PRUEBA SILVIA 2'), 
     5)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_-- SELECCIONAR --SEDE NORTESEDE OCCIDENTESEDE SUR'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_-- SELECCIONAR --SEDE NORTESEDE OCCIDENTESEDE SUR'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
     1)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Responsable_form_detalleEntidadRiesgoj_idt6320'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Responsable_form_detalleEntidadRiesgoj_idt6320'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
     'A A A')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1010220596'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Personas'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Personas'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Persona_form_detalleEntidadRiesgoj_idt692'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Persona_form_detalleEntidadRiesgoj_idt692'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
     'A A A')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1010220596'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Identificacin_form_popupHojaVidaEntidadj_idt838'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Identificacin_form_popupHojaVidaEntidadj_idt838'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
     'GUISELL')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt92700'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_Diaz Blanco Guisell'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_Diaz Blanco Guisell'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_Indefinido'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_Indefinido'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Generar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Generar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Unidad_form_popupHojaVidaEntidadMasivaj_idt891'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Unidad_form_popupHojaVidaEntidadMasivaj_idt891'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
     'a')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Unidad Organizacional_formPopUpUnidaddescripciones'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_ADMINISTRACION'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_ADMINISTRACION'))
 
-WebUI.selectOptionByIndex(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_Seleccione40 MIL STAFF .  ABOGADO'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/select_Seleccione40 MIL STAFF .  ABOGADO'), 
     2)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Buscar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Buscar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/div_Cargo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/div_Cargo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Elementos'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Elementos'))
 
-WebUI.waitForElementVisible(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'), 0)
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Nuevo'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Responsable_form_detalleEntidadRiesgoj_idt774'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Responsable_form_detalleEntidadRiesgoj_idt774'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
     'guisell')
 
-WebUI.sendKeys(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt9270'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1057596487'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_1057596487'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Fecha de Implementacin_form_detalleEntidadRiesgofecharecomendacionr_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Fecha de Implementacin_form_detalleEntidadRiesgofecharecomendacionr_input'), 
     '01/07/2021')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/textarea_Observacin_form_detalleEntidadRiesgoobservacionr'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/textarea_Observacin_form_detalleEntidadRiesgoobservacionr'), 
     'pruebas katalon')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_detalleEntidadRiesgonombrerecomendacionr'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_detalleEntidadRiesgonombrerecomendacionr'), 
     'pruebas katalon')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Seguimiento'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Seguimiento'))
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_DIAZ BLANCO GUISELL'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_DIAZ BLANCO GUISELL'))
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Fecha de Seguimiento_form_detalleEntidadRiesgofechaseguimientoreal_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Fecha de Seguimiento_form_detalleEntidadRiesgofechaseguimientoreal_input'), 
     '01/08/2021')
 
-WebUI.setText(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/textarea_Observacin_form_detalleEntidadRiesgoobservacions'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/textarea_Observacin_form_detalleEntidadRiesgoobservacions'), 
     'pruebas katalon')
 
-WebUI.click(findTestObject('M-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
 
 WebUI.closeBrowser()
 

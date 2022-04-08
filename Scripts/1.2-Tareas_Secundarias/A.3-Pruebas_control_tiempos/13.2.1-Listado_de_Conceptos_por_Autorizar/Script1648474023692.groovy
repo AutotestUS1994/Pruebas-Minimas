@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo control tiempo/Listado_de_Conceptos_por_Autorizar/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado_de_Conceptos_por_Autorizar/input_Empresa 1_form_templatej_idt24_input'), 
     'listado jornada autorizacion')
 
-WebUI.click(findTestObject('Modulo control tiempo/Listado_de_Conceptos_por_Autorizar/li_Listado Jornada Autorizacion (get)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado_de_Conceptos_por_Autorizar/li_Listado Jornada Autorizacion (get)'))
 
 WebUI.comment('No hay registros en la tarea')
 

@@ -22,28 +22,28 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('input_Empresa 1_form_templatej_idt24_input'), 'listado persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'listado persona')
 
-WebUI.click(findTestObject('Modulo control tiempo/Dispositivo/span_Listado Persona'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Listado Persona'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Dispositivo/td_1010220596'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_1010220596'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Dispositivo/a_dispositivo'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/a_dispositivo'))
 
-if (WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Dispositivo/td_-'), 1)) {
-    WebUI.click(findTestObject('Modulo control tiempo/Dispositivo/td_-'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_-'), 1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_-'))
 
-    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Modulo control tiempo/Dispositivo/span_Remove All'), 
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Remove All'), 
         30)
 
     WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 }
 
-WebUI.click(findTestObject('Modulo control tiempo/Dispositivo/span_Huella Digital'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Huella Digital'))
 
-WebUI.click(findTestObject('Modulo control tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e'))
 
-if(WebUI.waitForElementVisible(findTestObject('Modulo control tiempo/Dispositivo/td_-'), 1))
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_-'), 1))
 {
 WebUI.closeBrowser()
 }

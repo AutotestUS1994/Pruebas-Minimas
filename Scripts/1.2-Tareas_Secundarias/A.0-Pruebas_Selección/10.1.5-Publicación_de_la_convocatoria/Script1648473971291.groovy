@@ -38,35 +38,35 @@ String fechaF = (((Dia + '/') + Mes) + '/') + AñoM
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
     'proceso de seleccion')
 
-WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/span_Proceso de Sel'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/span_Proceso de Sel'))
 
-WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
     '29/06/2017')
 
-WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
     '10/07/2017')
 
-WebUI.waitForElementVisible(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas'), 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas'), 
     0)
 
-WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas'))
 
-WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/a_Publicacin'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/a_Publicacin'))
 
-WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Publicacin_seleccion_procesofecha_publicacion_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Publicacin_seleccion_procesofecha_publicacion_input'), 
     fechaI)
 
-WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/input_Hasta_seleccion_procesofecha_hasta_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Hasta_seleccion_procesofecha_hasta_input'), 
     fechaF)
 
-WebUI.setText(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/div_Detalle_ql-editor ql-blank'), 'pruebas katalon 10.1.5')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/div_Detalle_ql-editor ql-blank'), 'pruebas katalon 10.1.5')
 
-WebUI.click(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/a_Publicar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/a_Publicar'))
 
-if (WebUI.waitForElementNotVisible(findTestObject('Modulo Selección/Publicación_de_la_convocatoria/p_El proceso ha sido publicado exitosamente'), 
+if (WebUI.waitForElementNotVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/p_El proceso ha sido publicado exitosamente'), 
     1)) {
     WebUI.acceptAlert()
 } else {

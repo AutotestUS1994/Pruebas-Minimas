@@ -289,7 +289,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Reembolso'))
 
-    WebUI.getText(findTestObject('Alerta/Alerta'))
+    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 } else {
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
         2)
@@ -554,7 +554,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Reembolso'))
 
-        WebUI.getText(findTestObject('Alerta/Alerta'))
+        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
         WebUI.closeBrowser()
     } else {
@@ -864,7 +864,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
             WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Reembolso'))
 
-            WebUI.getText(findTestObject('Alerta/Alerta'))
+            WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
             WebUI.closeBrowser()
         }

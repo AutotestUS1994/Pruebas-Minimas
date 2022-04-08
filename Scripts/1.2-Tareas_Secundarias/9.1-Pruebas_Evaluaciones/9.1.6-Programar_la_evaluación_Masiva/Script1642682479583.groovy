@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva/input_Empresa 1_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva/input_Empresa 1_form_templatej_idt24_input'), 
     'periodo evaluaciones')
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Programar_la_evaluación_Masiva/li_Periodo Evaluaciones (tal)'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Masiva/li_Periodo Evaluaciones (tal)'))
 
-WebUI.click(findTestObject('Modulo Pruebas Evaluaciones/Crear_un_periodo_de_evaluación/td_Pruebas katalon'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/td_Pruebas katalon'))
 
 WebUI.comment('No es clara la accion a realizar en la ultima parte')
 
