@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='form_popupComplementarioViatico:j_idt363']</value>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d5e08696-4048-44e1-8881-21ee54a1e072</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupComplementarioViatico:j_idt363</value>
+      <webElementGuid>10a46286-d885-4cb5-b1e9-b9f543742c00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ce2f6f43-f16e-453f-93b0-96c9b69e2d5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-eliminar</value>
+      <webElementGuid>fe0ca76a-42db-4d19-b0b5-dcdc4d2ce632</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupComplementarioViatico:j_idt363&quot;,f:&quot;form_popupComplementarioViatico&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>c2aeb6f5-c74c-40f1-9a74-1f3f86846ada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;form_popupComplementarioViatico:j_idt363&quot;,escape:true,header:&quot;Eliminar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+      <webElementGuid>5d505e4f-e6bd-4561-8b05-e0b806c4177d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
+      <webElementGuid>cb2518e6-bd7a-40c7-91ef-7eb5f0d416dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupComplementarioViatico:j_idt363&quot;)</value>
+      <webElementGuid>7ea39eac-acf2-42c3-b63d-ccd04bc427a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupComplementarioViatico:j_idt363']</value>
+      <webElementGuid>74f50eae-604c-4d03-9d47-92092d4d99ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupComplementarioViatico:j_idt325_content']/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>a10c5417-49bd-41eb-ab72-a131103c18bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Eliminar')]</value>
+      <webElementGuid>2bc93cef-9e66-401b-9645-b39e0b4cd28c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRM Proyectada*'])[1]/following::a[2]</value>
+      <webElementGuid>841eda48-6f39-486d-aa38-3267abafd894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cdp'])[1]/following::a[2]</value>
+      <webElementGuid>a4564bf7-e75a-486e-aadc-896ee897832f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>60a28786-4127-44a3-ac61-94aacf57f5c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
+      <webElementGuid>ce6830fd-e69b-4a5c-b271-f8c3d971f6e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Eliminar']/parent::*</value>
+      <webElementGuid>4d576327-d74a-493a-8962-a00e54fdeefb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[45]</value>
+      <webElementGuid>cb58b198-6d12-408b-98a7-0b86d09a19cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>c1f20867-4e26-4ada-a315-0063cc1090a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

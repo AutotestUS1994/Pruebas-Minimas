@@ -64,8 +64,6 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta person
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/a_Continuar'))
 
-WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/a_Aceptar'))
-
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/a_Aplicar'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/span_Si'))

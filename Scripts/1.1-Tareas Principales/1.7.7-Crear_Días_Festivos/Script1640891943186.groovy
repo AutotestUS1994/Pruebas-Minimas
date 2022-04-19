@@ -32,7 +32,8 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
 
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/td_Pruebas katalon'), 
     1)) {
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/td_Pruebas katalon'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/td_Pruebas katalon'), 
+        FailureHandling.STOP_ON_FAILURE)
 
     /*-----------------------BUSCADOR DE MES---------------------------------------------*/
     String leerMes = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/h2_enero 2021'))
@@ -50,7 +51,8 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     
     if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), 
         1)) {
-        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), 
+            FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/a_Eliminar Registro'))
 
@@ -85,11 +87,18 @@ while (Mes != 'enero de 2021') {
     Mes = Mes1
 }
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/td_dom_fc-day fc-widget-content fc-fri fc-future_31-dic-2021'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/a_Aceptar0'))
 
-WebUI.scrollToElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), 0)
-
-WebUI.closeBrowser()
-
+WebUI.scrollToElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), 
+    0)
+if(Result == 'Registro Actualizado') {
+	String Resultado = 'PRUEBAS OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}

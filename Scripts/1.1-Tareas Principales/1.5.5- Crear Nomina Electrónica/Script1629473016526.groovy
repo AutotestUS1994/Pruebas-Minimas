@@ -84,3 +84,10 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/Page_SARA/a_Generar2'))
 
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Nomina Electronica (1)/td_Aguilar Ardila Simon Andres'), 
+    0)) {
+    String Result = 'PRUEBA OK'
+}
+else {
+WebUI.acceptAlert()
+}

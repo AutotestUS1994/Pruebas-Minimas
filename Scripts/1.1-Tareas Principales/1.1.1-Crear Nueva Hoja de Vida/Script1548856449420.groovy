@@ -105,11 +105,18 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar'))
 
-WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar'), 
+    GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Actualizar Respuesta'), 
+    1)) {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 
 return identificacion
-
-WebUI.closeBrowser()
 

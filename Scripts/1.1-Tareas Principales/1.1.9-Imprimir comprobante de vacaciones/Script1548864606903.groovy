@@ -31,7 +31,10 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Imprimir comprobante de vacaciones/a_Publicar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
+String Alert = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Alert == 'Los comprobantes han sido publicados') {
 WebUI.closeBrowser()
-
+}
+else {
+WebUI.acceptAlert()
+}

@@ -13,8 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
     GlobalVariable.G_TimeOut, FailureHandling.STOP_ON_FAILURE)
@@ -39,7 +42,6 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/a_Nombre Persona_LiquidacionNo'))
 
-
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/input_Filtro Empleado_Liquidacion Nomina'), 
     '1019070748')
 
@@ -57,7 +59,10 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 0)
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Alerta == 'Seleccione empleado') {
 WebUI.closeBrowser()
-
+}
+else {
+WebUI.acceptAlert()
+}

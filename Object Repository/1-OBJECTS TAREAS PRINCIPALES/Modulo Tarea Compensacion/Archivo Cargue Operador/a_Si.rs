@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='confirmacionGenerar:j_idt672_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+         <value>//a[contains(text(),'Si')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>4613d64c-3878-46ef-8860-8acab063dd6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc36c31c31c65c39c38c31c66c36c37c31c39c34c39c32c64c61c34c36c62c31c34c35c34c36c62c36c61c36c32c61c38&amp;E=</value>
+      <webElementGuid>54c22c28-72fd-4d62-89fd-b8ad5cbc44d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_black</value>
+      <webElementGuid>a9b542b0-4e14-400a-a98d-9857c53b2b39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-descargar</value>
+      <webElementGuid>9e327e6d-1fce-4f09-b487-b526dc02514f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Si</value>
+      <webElementGuid>13422bcd-0e59-4faa-8b51-453ca9b674d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;confirmacionGenerar:j_idt672_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-descargar&quot;]</value>
+      <webElementGuid>9ff08dcc-d6cd-4051-9235-d4608b2383fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='confirmacionGenerar:j_idt672_content']/div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>8080d247-39f4-4daf-9e6e-fba758a4e146</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Si')]</value>
+      <webElementGuid>2ca49fd6-488e-4784-983d-b131536b2063</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea generar archivo'])[1]/following::a[1]</value>
+      <webElementGuid>8a2eec65-6cf6-4d22-8109-70cb236acffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
+      <webElementGuid>5e9e278c-cd3e-4b8b-b54f-ce634d145776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>79203592-6530-4ef9-a7d4-dc8facf1de37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>d5997999-4def-4c15-a7f7-5380dd020ffe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+      <webElementGuid>f3b11ee0-c2ad-4b44-bf60-5b9457640f3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc36c31c31c65c39c38c31c66c36c37c31c39c34c39c32c64c61c34c36c62c31c34c35c34c36c62c36c61c36c32c61c38&amp;E=')]</value>
+      <webElementGuid>65b1fe00-890c-475d-bf02-e49263ccf617</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +134,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>22f3e850-34e3-4a86-9d13-3baa06992299</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

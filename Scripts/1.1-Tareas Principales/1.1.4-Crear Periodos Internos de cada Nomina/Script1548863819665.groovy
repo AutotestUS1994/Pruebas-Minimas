@@ -31,15 +31,15 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/span_NOMINA MENSUAL'))
 
-if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/td_pruebask'), 
-    1))
-{
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/td_pruebask'))
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/td_pruebask'), 
+    1)) {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/td_pruebask'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 }
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/span_Nuevo'))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/input_Periodo Nomina_popupNuevoPeriodopanelNominaperiodo'), 
@@ -68,3 +68,10 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Guardar'))
 
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Alerta == 'Registro guardado') {
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}

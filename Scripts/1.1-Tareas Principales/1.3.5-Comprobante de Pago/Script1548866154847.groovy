@@ -70,5 +70,16 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Generar'))
 
-WebUI.closeBrowser()
+WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_Comprobante'))
+
+WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_doc'))) {
+    String Result = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+}
+else {
+    WebUI.acceptAlert()
+}
 

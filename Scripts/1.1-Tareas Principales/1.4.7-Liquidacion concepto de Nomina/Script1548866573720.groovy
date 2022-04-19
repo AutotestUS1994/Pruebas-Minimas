@@ -16,7 +16,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/a_Periodo Nomina_Liquidacion'), 
     GlobalVariable.G_TimeOut)
@@ -72,7 +73,11 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/Liquidacion Concepto de Nomina/span_Si'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+if (Result == 'Liquidación exitosa') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

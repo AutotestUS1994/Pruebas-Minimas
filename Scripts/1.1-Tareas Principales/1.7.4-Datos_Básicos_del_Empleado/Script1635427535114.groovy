@@ -56,7 +56,8 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Nuevo_Variable'))
 
-WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Variable'), 43)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Variable'), 
+    43)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_variableempleado_formfechaVigencia_input'), 
     '01/08/2018')
@@ -91,11 +92,14 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/select_Auxilio Subsidio Familiar'), 
     9)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), '01/07/2018')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), 
+    '01/07/2018')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_'), '1')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Valor_'), 
+    '1')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Zona Econmica_variableempleado_formj_idt2653'))
 
@@ -152,3 +156,9 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ac
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Aplicar_Concepto'))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'El concepto ha sido ingresado correctamente') {
+	WebUI.closeBrowser()
+}
+else {WebUI.acceptAlert()}

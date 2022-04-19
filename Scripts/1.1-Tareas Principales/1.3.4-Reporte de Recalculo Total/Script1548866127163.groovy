@@ -14,6 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
+import java.util.regex.Matcher as Matcher
+import java.util.regex.Pattern as Pattern
+import java.util.stream.Collectors as Collectors
 
 WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.3.3-Recalculo Total'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -32,11 +40,11 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Aplicar'))
 
-if(WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'), 
+if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'), 
     GlobalVariable.G_TimeOut)) {
-
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/span_Reporte_glyphicons glyphicons-article'))
 }
+
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/label_html'), 
     GlobalVariable.G_TimeOut)
 
@@ -51,6 +59,8 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
     GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Descargar'))
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte de Recalculo Total/a_Cerrar ventana'))
 
 WebUI.closeBrowser()
 

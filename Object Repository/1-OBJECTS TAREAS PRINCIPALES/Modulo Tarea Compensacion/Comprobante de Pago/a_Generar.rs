@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/a</value>
+         <value>//div[2]/div[2]/a
+</value>
       </entry>
       <entry>
          <key>BASIC</key>

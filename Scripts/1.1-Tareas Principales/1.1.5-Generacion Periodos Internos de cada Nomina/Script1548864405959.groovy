@@ -42,15 +42,15 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Aceptar_ELiminar_Agosto'))
 }
 
-if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'), 
-    1))
-{
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'))
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'), 
+    1)) {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 }
+
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Generar Periodicidad'), 
     GlobalVariable.G_TimeOut)
 
@@ -95,8 +95,10 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
-//WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Alerta == 'Se elimino el registro') {
 WebUI.closeBrowser()
-
+}
+else {
+WebUI.acceptAlert()
+}

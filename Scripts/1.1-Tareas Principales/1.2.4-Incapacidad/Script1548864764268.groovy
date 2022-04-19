@@ -16,15 +16,17 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), '1234567890')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), 
+    '1234567890')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Identificacin_listadoEmp'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_CONSTA BELFEGORD JHON'))
 
@@ -50,7 +52,8 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad'))
 
-WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'), 0)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'), 
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'))
 
@@ -65,7 +68,8 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Enfermedad General 21_Historico'))
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar'), 0)
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar'), 
+        0)
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Eliminar'))
 
@@ -73,7 +77,8 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad_pestaa'))
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'), 0)
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'), 
+        0)
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/span_Nuevo'))
 
@@ -88,17 +93,22 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Incapacidad_pestaa'))
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha Salida _form_incap'), '01/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha Salida _form_incap'), 
+    '01/01/2021')
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha Salida Nomina_form'), '28/02/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha Salida Nomina_form'), 
+    '28/02/2021')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Prorroga_form_incapacida'))
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/textarea_Observacin_form_incap'), 'aaaa')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/textarea_Observacin_form_incap'), 
+    'aaaa')
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Das Ausentismo_form_inca'), '2')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Das Ausentismo_form_inca'), 
+    '2')
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/textarea_Area_form_incapacidad'), 'bbbb')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/textarea_Area_form_incapacidad'), 
+    'bbbb')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Horas adicionales_form_incapacidades'), 
     '0500')
@@ -106,7 +116,8 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_diagnostico_form_incapacidad'), 
     'cccc')
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha 1_form_incapacidad'), '15/01/2021')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_Fecha 1_form_incapacidad'), 
+    '15/01/2021')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/input_diagnostico_form_incapacidades2'), 
     'aaa')
@@ -127,5 +138,10 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Incapacidad/a_Guardar Legalizar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Alerta == 'Se modifico exitosamente su solicitud') {
+WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}

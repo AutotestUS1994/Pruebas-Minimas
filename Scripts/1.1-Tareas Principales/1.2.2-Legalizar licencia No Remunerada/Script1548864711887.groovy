@@ -183,3 +183,10 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/a_Guardar_1'))
 
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Alerta == 'Se modifico exitosamente su solicitud') {
+WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}

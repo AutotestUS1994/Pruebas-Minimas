@@ -39,4 +39,9 @@
       <initValue>'http://192.168.2.80:8380/seguridadweb/'</initValue>
       <name>G_Login_Seguridad</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Usuario'</initValue>
+      <name>G_Usuario_617</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

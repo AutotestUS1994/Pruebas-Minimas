@@ -13,16 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), 
     0)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), '354968431354')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), 
+    '354968431354')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Identificacin_listadoEmp'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/span_CONSTA BELFEGORD JHON'))
 
@@ -33,14 +37,19 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/select_-- seleccione --E5 - EM'), 
     'E5', true)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), '27/12/2018')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), 
+    '27/12/2018')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/a_Guardar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+if (Alerta == 'Se modifico el registro satisfactoriamente') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

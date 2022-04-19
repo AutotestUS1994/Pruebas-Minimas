@@ -109,7 +109,7 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Guardar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Eliminar_Historico'), 
     0)
@@ -122,4 +122,7 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Histórico Vacaciones/a_Aceptar_Eliminar_ Historico'))
 
 WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
+if (Result == 'Se Ingreso el registro') {
+	String Resultado = 'Prueba ok'
+}
+else {WebUI.acceptAlert()}

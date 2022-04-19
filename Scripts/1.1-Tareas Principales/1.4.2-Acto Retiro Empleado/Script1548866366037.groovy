@@ -55,18 +55,21 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_SALGADO PAULA'))
 
-WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar'), 
+    GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar'))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/input__form_actoAusentismoj_id'), 
     '31/12/2018')
 
-WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar_1'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar_1'), 
+    GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar_1'))
 
-WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aplicar'), GlobalVariable.G_TimeOut)
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aplicar'), 
+    GlobalVariable.G_TimeOut)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Aplicar'))
 
@@ -87,5 +90,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Admi
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/p_No existen datos'), 
     1)) {
     WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

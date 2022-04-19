@@ -72,3 +72,11 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/a_Continuar_Reliquidar'))
 
+if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/td_1234567890'), 
+    1))
+{
+String Resultado = 'PRUEBA OK'
+}
+else {
+WebUI.acceptAlert()
+}

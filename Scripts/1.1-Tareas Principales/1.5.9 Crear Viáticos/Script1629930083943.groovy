@@ -294,7 +294,13 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
 
-    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result0 == 'Se Ingreso anexo exitosamente') {
+        String Resultado1 = 'Prueba ok'
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Nuevo'))
 
@@ -366,8 +372,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/textarea_Objeto_form_detalleviaticosObjeto'), 
         'prueba')
 
-    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione --BUITRAGO BUITRAGO ANDREA'), 
-        2)
+    WebUI.selectAllOption(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione --BUITRAGO BUITRAGO ANDREA'))
 
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione --COQUINTERO 5 EMPLEADO'), 
         2)
@@ -424,18 +429,18 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_-- Seleccione Tipo Comisin --ADMINISTRATIVO2'), 
         '1')
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --EXTERIOR 1EXTERIOR 2NACIONAL 1'), 
-        0)
-
-    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --EXTERIOR 1EXTERIOR 2NACIONAL 1'), 
-        '3')
-
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Entidad_form_popupprogramacionviaticospestaniasj_idt1581'))
 
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123'), 
         0)
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123'))
+
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --EXTERIOR 1EXTERIOR 2NACIONAL 1'), 
+        0)
+
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Ambito --EXTERIOR 1EXTERIOR 2NACIONAL 1'), 
+        '3')
 
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Guardar2'), 
         0)
@@ -506,6 +511,12 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
 
-    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result0 == 'Se Ingreso anexo exitosamente') {
+        String Resultado1 = 'Prueba ok'
+    } else {
+        WebUI.acceptAlert()
+    }
 }
 

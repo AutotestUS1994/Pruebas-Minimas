@@ -289,7 +289,9 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Reembolso'))
 
-    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+	if(Result0 == 'Se aplico el proceso.') {WebUI.closeBrowser()}
+	else {WebUI.acceptAlert()}
 } else {
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado'), 
         2)

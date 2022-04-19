@@ -23,7 +23,8 @@ random_double = Math.round((random_double * 100) + 1000000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Planta Personal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Planta Personal'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Administracion'), 
     0)
@@ -100,5 +101,11 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/a_Actualizar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Result == 'Se Actualizo el registro correctamente') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

@@ -16,7 +16,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_close_popupFiltroEmplead'), 
     '354968431354')
@@ -92,7 +93,15 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Guardar'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+if (Result == 'Se Actualizo el registro correctamente') {
+    WebUI.closeBrowser()
+} 
+else if (Result == 'Se modifico el registro satisfactoriamente') {
+	WebUI.closeBrowser()
+}
+else {
+    WebUI.acceptAlert()
+}
 

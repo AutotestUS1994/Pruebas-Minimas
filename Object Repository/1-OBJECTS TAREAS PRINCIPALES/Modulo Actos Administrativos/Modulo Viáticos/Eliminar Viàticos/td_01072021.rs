@@ -6,11 +6,11 @@
    <elementGuidId>ce3f1cc2-78bf-4903-83f5-6e8fd751b1ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[2]/preceding::td[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='01/07/2021']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>237c73be-8c7b-4c3f-8dc6-b9811dd8b310</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>01/07/2021</value>
+      <webElementGuid>475d293a-db1b-41de-a2cd-0f01bf05d1e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:j_idt135_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[2]</value>
+      <webElementGuid>4fd830f7-d93f-418c-b246-c0033baae4c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_listadoviaticos:j_idt135_data']/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>e739e788-6d2b-43fd-8c7d-3ff14dd544bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[3]/following::td[3]</value>
+      <webElementGuid>8f3eb3ee-a749-486c-bb0e-634dc39f4dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[4]/following::td[3]</value>
+      <webElementGuid>349d2aa1-5ec1-43c3-8149-a0866d71aaea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[2]/preceding::td[1]</value>
+      <webElementGuid>5dd124c4-f086-49c9-b3e2-de85f8644a72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Programada'])[3]/preceding::td[2]</value>
+      <webElementGuid>f78b73c0-b5d5-4f3e-9d12-b1d2c21028f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,5 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>7c96d3d7-a4a6-4f7f-8897-b6e895f9f8ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

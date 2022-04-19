@@ -86,5 +86,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Reporte Entidades Liquidadas/a_Aceptar_viaticos'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Reversión Satisfactoria') {
+	String Resultado = 'PRUEBA OK'
+}
+else {WebUI.acceptAlert()}
 

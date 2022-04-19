@@ -59,14 +59,14 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/span_Calculo Nomina'))
 
-if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
     1)) {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'))
-
-WebUI.selectOptionByLabel(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
-    'comprobante planilla liquidacacion', false)
+    WebUI.selectOptionByLabel(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
+        'comprobante planilla liquidacacion', false)
 }
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Nuevo0'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/span_SALARIO BASICO'))
@@ -119,10 +119,12 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Reporte'))
 
-WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Regresar'), 
-    0)
+if (WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Regresar'), 
+    1)) {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Regresar'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Regresar'))
-
-WebUI.closeBrowser()
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

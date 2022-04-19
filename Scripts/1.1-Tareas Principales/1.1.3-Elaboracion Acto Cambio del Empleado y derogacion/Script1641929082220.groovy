@@ -425,8 +425,10 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     1)) {
     WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Continuar3'))
 } else {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Identificacin_form_popupSeleccionarDerogarIngresoj_idt154'))
+
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1421'), 
-        identificacion0)
+        identificacion)
 
     WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1421'), 
         Keys.chord(Keys.ENTER))
@@ -449,7 +451,11 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/p_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'))
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+if (Alerta == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

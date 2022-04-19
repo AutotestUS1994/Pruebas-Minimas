@@ -28,15 +28,18 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/td_01072021'))
 
+    WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
+        0)
+
     WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
 
-    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), 
         1)) {
-
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), FailureHandling.STOP_ON_FAILURE)
     }
+    
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/div_Reversin realizada con xito'), 
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'))

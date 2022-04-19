@@ -71,7 +71,8 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
 if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Nuevo_Modificar'), 
     1)) {
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Nuevo_Modificar'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Nuevo_Modificar'), 
+        FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/span_Modificar una solicitud de vitico'))
 

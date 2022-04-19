@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Derogada_ui-icon ui-icon-closethick</name>
+   <tag></tag>
+   <elementGuidId>76d3c860-64d4-4c28-a852-59a4d2d04ba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-icon.ui-icon-closethick</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a7d19523-d4fa-4ae5-84cd-e6e98eb2c09c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>6d6a162f-c637-45c9-b004-302b84f7118a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupViaticoProgramadoForm:j_idt1783&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>094cbce2-c00a-46c8-9d21-64738bd972af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupViaticoProgramadoForm:j_idt1783']/div/a/span</value>
+      <webElementGuid>630225b8-49d0-4d1c-a020-23ed8026a7df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/a/span</value>
+      <webElementGuid>c43a73ef-8f3c-4b1a-93c2-a2d54225bf06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

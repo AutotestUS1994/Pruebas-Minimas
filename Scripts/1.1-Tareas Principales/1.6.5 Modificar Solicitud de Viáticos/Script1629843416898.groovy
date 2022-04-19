@@ -135,7 +135,9 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/a_Guardar_modficar'))
 
-    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+	if(Result0 == 'El viatico ha sido insertado correctamente') {WebUI.closeBrowser()}
+	else(WebUI.acceptAlert())
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.9 Crear Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -196,8 +198,9 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/a_Guardar_modficar'))
 
-    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+	if(Result == 'El viatico ha sido insertado correctamente') {WebUI.closeBrowser()}
+	else(WebUI.acceptAlert())
 }
 
-WebUI.closeBrowser()
 

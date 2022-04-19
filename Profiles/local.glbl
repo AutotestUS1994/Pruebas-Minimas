@@ -44,4 +44,9 @@
       <initValue>'1057596487'</initValue>
       <name>G_Usuario2</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Usuario'</initValue>
+      <name>G_Usuario_617</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

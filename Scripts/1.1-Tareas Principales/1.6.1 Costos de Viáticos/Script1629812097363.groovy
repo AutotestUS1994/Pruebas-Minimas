@@ -196,5 +196,10 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/span_Cerrar_ Costo viatico'))
 }
 
-WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'El registro se ha insertado correctamente') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

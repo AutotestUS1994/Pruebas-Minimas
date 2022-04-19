@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Aguilar Ardila Simon Andres</name>
+   <tag></tag>
+   <elementGuidId>14a08e51-aa42-48dd-b69d-bcee89b520b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td/div/div/table/tbody/tr/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>bd2dc1e2-23d4-4a32-918d-86dc063c30ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>47550169-f0f7-47a8-b461-8b4f04270ebe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aguilar Ardila Simon Andres</value>
+      <webElementGuid>51bc551d-de2a-4bd2-85c8-b5f89ca86cbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_idt96:tabla_detalle_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]</value>
+      <webElementGuid>b4541d04-fc25-4e95-902d-676732b0996c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='j_idt96:tabla_detalle_data']/tr/td[3]</value>
+      <webElementGuid>b6829c41-62ca-41ff-bc72-c86703575d1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Intentos'])[1]/following::td[3]</value>
+      <webElementGuid>3ba4a49e-2274-4213-beed-a6dc25f9168c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::td[3]</value>
+      <webElementGuid>6afaf9e1-a928-4359-bbe7-ac5010085710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Emisión'])[1]/preceding::td[1]</value>
+      <webElementGuid>bba871ca-75fe-424c-b8ba-9714352049e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td/div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>0a386ba4-2772-49d7-b990-142b37ef58e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Aguilar Ardila Simon Andres' or . = 'Aguilar Ardila Simon Andres')]</value>
+      <webElementGuid>de95c753-09bc-462a-b935-bbd98b148cb8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

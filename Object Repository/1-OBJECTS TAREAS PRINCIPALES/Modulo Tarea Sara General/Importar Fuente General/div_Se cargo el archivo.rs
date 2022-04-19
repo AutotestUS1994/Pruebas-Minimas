@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Se cargo el archivo</name>
+   <tag></tag>
+   <elementGuidId>5835bf25-f811-439b-8eea-57b7884f6be6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-margin-popup</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>69b1d167-f501-4837-924d-49a14c491bf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-margin-popup</value>
+      <webElementGuid>86a0ffd7-c96a-4a6b-a68c-827fdb985f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Se cargo el archivo </value>
+      <webElementGuid>8d3acec7-c333-47ff-b967-5baca03d2b16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmInfo_popupEspera:contenedorEspera&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;us-margin-popup&quot;]</value>
+      <webElementGuid>389259d8-7aeb-48ae-b49e-3adb31687d81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr/td/div</value>
+      <webElementGuid>116f81bc-b243-4013-bb18-cbaf41ff82a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::div[10]</value>
+      <webElementGuid>a0c43cb5-4a9b-4058-bbcb-5250075a6135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[1]/following::div[10]</value>
+      <webElementGuid>85b2f333-e7d5-4581-8817-26ca256f9a6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fuente'])[1]/preceding::div[2]</value>
+      <webElementGuid>c7a156a5-9975-435b-804f-65966f65ccc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insertar las liquidaciones periodicas de prestamo'])[1]/preceding::div[2]</value>
+      <webElementGuid>eca02d6e-b7f0-407f-bace-fd9f9134ae3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Se cargo el archivo']/parent::*</value>
+      <webElementGuid>11692af4-5c9a-4a35-9e2f-8b1d21c44010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr/td/div</value>
+      <webElementGuid>feb16a7d-e2cf-4baf-875c-d332a4a91dfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Se cargo el archivo ' or . = 'Se cargo el archivo ')]</value>
+      <webElementGuid>c6bbd992-0f94-4cb9-b048-4ff29bc7228b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

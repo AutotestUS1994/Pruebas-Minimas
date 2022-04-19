@@ -81,7 +81,16 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si'))
 
+String Alerta = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Resultado'))
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar'))
-
+if(Alerta == 'Se ha realizado el proceso') {
 WebUI.closeBrowser()
-
+}
+else if(Alerta == 'Realizado proceso...')
+{
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
