@@ -453,6 +453,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>d76bca6a-214f-41f0-adf2-d1bf70a70b5f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.2-Ejecucion_de_Reportes</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>79819a2f-0a52-4c65-bfdc-8595995a32c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

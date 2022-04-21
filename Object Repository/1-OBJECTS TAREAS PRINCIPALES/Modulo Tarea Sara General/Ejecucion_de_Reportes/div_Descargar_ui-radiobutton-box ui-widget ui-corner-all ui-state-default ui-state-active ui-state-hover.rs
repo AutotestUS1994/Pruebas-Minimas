@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Descargar_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover</name>
+   <tag></tag>
+   <elementGuidId>eb67d02d-6957-4ca4-8966-630695e522da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-radiobutton-box.ui-widget.ui-corner-all.ui-state-default.ui-state-active.ui-state-hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e2936975-b7fb-4041-9d86-944c03283492</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover</value>
+      <webElementGuid>6bb32c99-75bf-4d1e-81fe-a0a2b7b1f15c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1318&quot;)/tbody[1]/tr[1]/td[2]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover&quot;]</value>
+      <webElementGuid>f447a8e6-ab6b-461b-accd-e990724f854a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='popupReporte:j_idt1318']/tbody/tr/td[2]/div/div[2]</value>
+      <webElementGuid>c5025123-94f0-437b-b4f5-003648c121cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descargar'])[1]/following::div[3]</value>
+      <webElementGuid>fc3ae773-6774-4344-a97d-1498bacf5094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Que desea hacer'])[1]/following::div[7]</value>
+      <webElementGuid>d2631fab-11ec-4ca8-a105-04aa540b2f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/preceding::div[1]</value>
+      <webElementGuid>a02fc6c7-8398-4390-b622-e594f102698c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/preceding::div[4]</value>
+      <webElementGuid>7d0f252f-8447-4148-bffe-3a8ea313ab96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div[2]</value>
+      <webElementGuid>122545be-1bdf-487a-aa16-e363ece6ded8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

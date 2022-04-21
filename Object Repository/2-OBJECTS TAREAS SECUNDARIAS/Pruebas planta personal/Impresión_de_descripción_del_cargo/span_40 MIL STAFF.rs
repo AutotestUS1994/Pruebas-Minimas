@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div[1]/table/tbody/tr[2]/td[2]/span</value>
+         <value>//div[2]/div/div/table/tbody/tr[3]/td[2]/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ab213ecb-0a13-4856-9c54-1449c5dbb53c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>4f22d0e9-54c0-4ef8-81cd-1cc56a440958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>40 MIL STAFF</value>
+      <webElementGuid>f79db3a0-d21c-4cda-9dc7-29035fe0570b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCargo_Form:j_idt627_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>f1df53c5-cf16-404e-9e82-e3ac54c5aaa7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='popupCargo_Form:j_idt627_data']/tr/td[2]/span</value>
+      <webElementGuid>1eccf24b-48f6-4f9e-9e6b-3688e36ed395</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivel Cargo'])[1]/following::span[2]</value>
+      <webElementGuid>f598dd76-f2bf-4e62-82e2-720eac56bb8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::span[3]</value>
+      <webElementGuid>3831be03-2ec7-4e40-86ef-5cebfb22e7ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[1]/preceding::span[1]</value>
+      <webElementGuid>a5f0e6e9-0654-460a-a697-a8c2d6a814c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ABOGADO'])[1]/preceding::span[3]</value>
+      <webElementGuid>77230fae-9d66-4fc7-98a9-0f965cbfae64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
+      <webElementGuid>a87ae6ae-f8aa-44bd-93be-eb368c25e1b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '40 MIL STAFF' or . = '40 MIL STAFF')]</value>
+      <webElementGuid>00fff2c7-3e33-4e4d-83b5-9450e09780ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

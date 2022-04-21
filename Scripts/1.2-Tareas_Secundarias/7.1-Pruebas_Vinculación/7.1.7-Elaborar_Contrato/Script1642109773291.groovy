@@ -24,9 +24,38 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/span_Listado Contratacion'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'))
 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_ERROR_UNI-APL-001'), 
+        1)) {
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
+            [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Empresa 1_form_templatej_idt24_input'), 
+            'Listado Contratacion')
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/span_Listado Contratacion'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Nombre Persona_listado_contratacionj_idt68'))
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
+            'A A A')
+
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
+            Keys.chord(Keys.ENTER))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'))
+
+        WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'), 
+            0)
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'))
+    }
+    
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Actividad'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_2. Elaborar contrato'))
@@ -45,9 +74,38 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A - 2'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'))
 
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_ERROR_UNI-APL-001'), 
+            1)) {
+            WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
+                [:], FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Empresa 1_form_templatej_idt24_input'), 
+                'Listado Contratacion')
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/span_Listado Contratacion'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Nombre Persona_listado_contratacionj_idt68'))
+
+            WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
+                'A A A')
+
+            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
+                Keys.chord(Keys.ENTER))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'))
+
+            WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'), 
+                0)
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_A A A'))
+        }
+        
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Actividad'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_2. Elaborar contrato'))
@@ -56,7 +114,8 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.closeBrowser()
     } else {
-        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.6-Validar_Documentos'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.6-Validar_Documentos'), [:], 
+            FailureHandling.STOP_ON_FAILURE)
 
         WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

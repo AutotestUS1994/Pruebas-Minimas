@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Registro Citacin</name>
+   <tag></tag>
+   <elementGuidId>be634336-7c19-4b84-8734-d48cb165b00c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Registro Citación')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9ec57c94-1060-4d1f-8f63-1b95a169c99f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>j_idt687:j_idt688:j_idt690:j_idt2629</value>
+      <webElementGuid>7e2273fd-8f13-45c2-8b93-92f05034ccc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e503ee4f-ee48-4806-a1b4-0d3d397d62fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>8ce66d41-73ff-40ac-8f9c-ca07b876da91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;j_idt687:j_idt688:j_idt690:j_idt2629&quot;,f:&quot;j_idt687&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>65286240-fe45-4a43-9865-9866f4ef1fc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Registro Citación </value>
+      <webElementGuid>688c22c6-a6b3-45c5-8ef5-4366046cd3be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_idt687:j_idt688:j_idt690:j_idt2629&quot;)</value>
+      <webElementGuid>53342b01-9fae-48c1-aaf4-f3d72d6bc0de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='j_idt687:j_idt688:j_idt690:j_idt2629']</value>
+      <webElementGuid>76b1b3f0-694c-45e4-a2d0-519489569af8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='j_idt687:j_idt688:j_idt690:j_idt2619']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>eaada60b-5f73-448d-ad73-4727a35d1e87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Registro Citación')]</value>
+      <webElementGuid>b591b0a3-8c7c-4e20-aa42-fa1487f99fad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Citacion'])[1]/following::a[2]</value>
+      <webElementGuid>4d8ca269-7ab7-4a5c-b544-322d80618824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidato'])[1]/following::a[10]</value>
+      <webElementGuid>5faab5fc-cfdc-4555-9b6f-390cb878929c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes'])[1]/preceding::a[7]</value>
+      <webElementGuid>cc527e1b-9d49-4fe2-91db-ee1b1041271f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa'])[1]/preceding::a[11]</value>
+      <webElementGuid>b7136ace-97f6-4087-b58e-4c6ca7f1e8bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Registro Citación']/parent::*</value>
+      <webElementGuid>f2993bf8-fa6c-4ce6-8557-1e9ea8e37413</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[38]</value>
+      <webElementGuid>e4d6f6ff-7edb-4425-bbe5-036727a7068d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>c257331b-7d3b-47e4-b530-4e9251b4b974</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'j_idt687:j_idt688:j_idt690:j_idt2629' and @href = '#' and (text() = 'Registro Citación ' or . = 'Registro Citación ')]</value>
+      <webElementGuid>c0ca5d42-e37b-4bd3-b028-8f33682318d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

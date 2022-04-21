@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Regresar</name>
+   <tag></tag>
+   <elementGuidId>9749a55c-9de5-46b0-a714-0d40cfdf5c14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.accionRegresar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Regresar' or . = 'Regresar')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6a0eceb4-2801-452e-a6b5-580f65ff5e48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>accionRegresar</value>
+      <webElementGuid>80857d14-4511-4cf6-8a6b-b783a3d1d4d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Regresar</value>
+      <webElementGuid>ed03cc78-ad84-4c1f-b405-b19f87063673</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;reporteForm&quot;)/div[@class=&quot;caja_contenido&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;arribaFil&quot;]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/div[@class=&quot;accionRegresar&quot;]</value>
+      <webElementGuid>354c4b1a-000f-4c13-bc4a-af7721b4707c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='reporteForm']/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>dfe0fae6-1aff-4658-abe3-868feabb6d8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporte'])[1]/following::div[2]</value>
+      <webElementGuid>9213b545-c52a-488e-b7ac-1d266f302444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::div[11]</value>
+      <webElementGuid>bfbc9606-0ed0-45c9-897d-bf13e6b1da98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/preceding::div[1]</value>
+      <webElementGuid>5a6285cd-a168-4c24-b267-52dee1792e36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo'])[1]/preceding::div[2]</value>
+      <webElementGuid>2e8e1049-369e-4f4f-8565-de2cabaf582f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>d15f2ded-d2ef-4ae8-8aef-89bf195d764d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Regresar' or . = 'Regresar')]</value>
+      <webElementGuid>ea55a5be-eaf2-4006-9644-40543c8db020</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

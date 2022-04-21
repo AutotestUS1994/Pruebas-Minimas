@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Ejecutar</name>
    <tag></tag>
-   <elementGuidId>4ba83373-94d9-4544-a2bd-66e06bf8ebdf</elementGuidId>
+   <elementGuidId>7105c7ee-174f-4fba-81d7-22fc6a09ba2a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Ejecutar')]</value>
+         <value>(//a[contains(text(),'Ejecutar')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>16980475-39b6-4e19-a850-4c53d80d395f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>reporteForm:j_idt73:j_idt75:j_idt1491</value>
+      <value>popupReporte:j_idt1329</value>
+      <webElementGuid>d75bb2ba-a0be-4379-bcf4-f63d36bbe103</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,110 +38,118 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>97cca46f-d856-4ac9-acc4-f6661b4a0cae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-commandlink ui-widget</value>
+      <value>ui-commandlink ui-widget us-boton btn-ejecutar</value>
+      <webElementGuid>38d0a19b-40d3-4f29-9dec-af1d3510a841</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;reporteForm:j_idt73:j_idt75:j_idt1491&quot;,f:&quot;reporteForm&quot;,u:&quot;popupReporte&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt1329&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>4e8562dc-5e3d-4eab-83d1-5c5b404a667c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ejecutar </value>
+      <value>Ejecutar</value>
+      <webElementGuid>b0a297b5-f5d6-4ea5-9ea9-a9c4dfe1161e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;reporteForm:j_idt73:j_idt75:j_idt1491&quot;)</value>
+      <value>id(&quot;popupReporte:j_idt1329&quot;)</value>
+      <webElementGuid>168519f7-2d37-448a-b149-061c0bea06fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='reporteForm:j_idt73:j_idt75:j_idt1491']</value>
+      <value>//a[@id='popupReporte:j_idt1329']</value>
+      <webElementGuid>716a6aa2-0e40-49d7-8f21-9cd9ae044ca1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='reporteForm:j_idt73:j_idt75:j_idt1456']/table[7]/tbody/tr/td/a</value>
+      <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td[2]/a</value>
+      <webElementGuid>2e6e6d9b-7d0e-4841-9956-371a31c179ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Ejecutar')]</value>
+      <value>(//a[contains(text(),'Ejecutar')])[2]</value>
+      <webElementGuid>690cacf6-efd7-42f9-9b15-058d1cf0d5cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporte'])[1]/following::a[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso Externo'])[1]/following::a[2]</value>
+      <webElementGuid>c74cdd13-39b2-4247-a586-0c74093397b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::a[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/following::a[2]</value>
+      <webElementGuid>2d1cbe97-b013-4d2f-baf1-9c92570b91ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[2]</value>
+      <webElementGuid>18519abd-119f-427f-bcdb-83a03dd8f228</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ejecutar']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
+      <webElementGuid>297bd783-0c67-4e56-9e91-5b9454892296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[27]</value>
+      <value>(//a[contains(@href, '#')])[33]</value>
+      <webElementGuid>33d5ce99-47e3-4b61-9451-3ded77de8386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//table[7]/tbody/tr/td/a</value>
+      <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>427345f0-8481-431c-9de0-7b65c24a96b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'reporteForm:j_idt73:j_idt75:j_idt1491' and @href = '#' and (text() = 'Ejecutar ' or . = 'Ejecutar ')]</value>
+      <value>//a[@id = 'popupReporte:j_idt1329' and @href = '#' and (text() = 'Ejecutar' or . = 'Ejecutar')]</value>
+      <webElementGuid>51d29025-bde1-4411-9082-5dafe41e2aa2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

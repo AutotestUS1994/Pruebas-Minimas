@@ -6,12 +6,12 @@
    <elementGuidId>66bb6eaf-5900-4f70-af75-2857c25e4509</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Enviar')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Enviar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1bfda1cd-8485-4a99-b08d-0dac13d2da98</webElementGuid>
+      <webElementGuid>fd0d1f07-4bb8-42a2-829f-f27f6987016b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,178 @@
       <name>id</name>
       <type>Main</type>
       <value>popupReporte:j_idt1325</value>
-      <webElementGuid>2e9c2b0f-3ebe-454f-a5bf-b04b76433dba</webElementGuid>
+      <webElementGuid>ddcac693-620c-41d3-b0a2-d2787aef5d9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>ff299a09-213a-40b8-a54a-d7d87a1c4e4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-notificarmail</value>
+      <webElementGuid>c3af642c-5245-477a-accf-1dc9125bca07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt1325&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>37c0007c-36c3-4780-9c14-59b5c02d17f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enviar</value>
+      <webElementGuid>5963f442-072f-427e-9d4a-a785762f28d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1325&quot;)</value>
+      <webElementGuid>269a3a49-8204-4b0b-b878-247aefdcb224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>75c77ef0-6aa1-4229-863d-111e5626f15f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>popupReporte:j_idt1325</value>
+      <webElementGuid>80d63a35-1fbf-4dc3-98d7-2597dd11edea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>be4369d7-dcef-411e-825a-fd8a5e2a696e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-notificarmail</value>
+      <webElementGuid>35c6b352-1318-41b7-9b44-23cceb18ed5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt1325&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>76938654-d98e-4647-b635-7368abf87ed6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enviar</value>
+      <webElementGuid>0c842e45-4ef9-4b49-b6e7-65836a38d891</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1325&quot;)</value>
+      <webElementGuid>fb54a5df-fcb8-4913-947c-5b379100bea6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fa701b05-e079-40c8-9791-4a734c937435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>popupReporte:j_idt1325</value>
+      <webElementGuid>63846f47-4ad8-4b0d-ba39-706e447f7d38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>5092c0e6-e2c4-4884-8f60-019d8b569575</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-notificarmail</value>
+      <webElementGuid>2b90cd47-c828-4132-b1e2-09ddd3629d71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt1325&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>ff5f6bce-514f-4672-9f5b-c0ef049d11a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enviar</value>
+      <webElementGuid>fe8c381d-a979-4fb6-8478-8041cb4357cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1325&quot;)</value>
+      <webElementGuid>c187d3d8-5a9b-4d09-9444-8d642182cbf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1bfda1cd-8485-4a99-b08d-0dac13d2da98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>popupReporte:j_idt1325</value>
+      <webElementGuid>2e9c2b0f-3ebe-454f-a5bf-b04b76433dba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -57,7 +225,7 @@
       <webElementGuid>eff4080d-0193-48c4-8dd0-e705a1cde658</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -78,7 +246,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupReporte:j_idt1325']</value>
-      <webElementGuid>89867a9c-7c9a-4ff3-9fd7-b9b8920bee64</webElementGuid>
+      <webElementGuid>2e53da39-ef9b-40d2-83c2-965bba17151a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +254,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td[2]/a</value>
-      <webElementGuid>c0efd098-cd76-4e2c-9afa-04efd32e68df</webElementGuid>
+      <webElementGuid>76994398-195d-4757-81c8-caf00b5bf94e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +262,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Enviar')]</value>
-      <webElementGuid>4e9a00a0-018e-4a49-bda8-76a220df10fd</webElementGuid>
+      <webElementGuid>fde0495d-a6c5-4c9d-9ec2-2a645166425b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +270,87 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Correo'])[1]/following::a[2]</value>
-      <webElementGuid>f55d01b4-703c-4269-b605-9d4e9e65342e</webElementGuid>
+      <webElementGuid>5e3f0e1b-07c6-4b0e-97a7-05b84cc7a438</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/following::a[2]</value>
+      <webElementGuid>4c7580cb-83a5-471b-a73f-bd6e8a208f64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::a[3]</value>
+      <webElementGuid>d43fa90e-fe28-4a36-9904-b2e9bee4b5fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[2]/preceding::a[3]</value>
+      <webElementGuid>196a94f6-e5ad-4242-a46c-e12e7aac57d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enviar']/parent::*</value>
+      <webElementGuid>010e6281-acd5-4702-8f0e-10ef45f1e3c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[33]</value>
+      <webElementGuid>fe427123-f702-45f2-bdc4-730542a8dd7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>48133610-9f98-4cc1-b123-c1c886e2fabd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'popupReporte:j_idt1325' and @href = '#' and (text() = 'Enviar' or . = 'Enviar')]</value>
+      <webElementGuid>fceba5fc-2d66-42a8-84cd-2502ea30c5d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso Externo'])[1]/following::a[2]</value>
+      <webElementGuid>8920958d-6531-409c-995b-d1df8a05fc0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[2]</value>
+      <webElementGuid>1b016867-8232-4214-a8a6-602b33d0c947</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
+      <webElementGuid>0c34ec2e-d3c6-45d6-a230-95e9a3672ced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,53 +359,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicar'])[1]/following::a[2]</value>
       <webElementGuid>1e5314ba-b6c5-4532-b64d-61994ae83a60</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::a[3]</value>
-      <webElementGuid>429fc51c-de90-4b06-8bd3-575cea2b15b1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[2]/preceding::a[3]</value>
-      <webElementGuid>0fa47af9-3bde-495e-86b5-7729524d4612</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enviar']/parent::*</value>
-      <webElementGuid>8edc00c3-c023-40f7-8a0c-001b56a597c5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[33]</value>
-      <webElementGuid>08068b66-ea93-4efa-bd6c-7521f1a2c6e4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>d1cc5dab-e060-401b-be8b-4057bf6f0b2e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@id = 'popupReporte:j_idt1325' and @href = '#' and (text() = 'Enviar' or . = 'Enviar')]</value>
-      <webElementGuid>a6948389-ef3b-4087-b701-ccdca0d6433d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

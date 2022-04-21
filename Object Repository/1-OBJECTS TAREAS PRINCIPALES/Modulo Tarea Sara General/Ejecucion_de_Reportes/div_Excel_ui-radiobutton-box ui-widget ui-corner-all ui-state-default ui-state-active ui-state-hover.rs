@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Excel_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover</name>
+   <tag></tag>
+   <elementGuidId>041d8e55-b2e3-41cd-b2e1-180fc7451c60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-radiobutton-box.ui-widget.ui-corner-all.ui-state-default.ui-state-active.ui-state-hover</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0059455a-6b01-45e6-bc4c-749dc64dfbee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover</value>
+      <webElementGuid>da959a9d-47cd-4caa-800d-f43e96b8f48a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1308&quot;)/tbody[1]/tr[1]/td[2]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover&quot;]</value>
+      <webElementGuid>07bd2a7e-e5e3-44c6-aaa6-859c9371ce04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td[2]/div/div[2]</value>
+      <webElementGuid>d153a2a9-06e1-4691-8bcb-9b78cb06dc2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Excel'])[1]/following::div[3]</value>
+      <webElementGuid>f5892dbd-3206-4eaa-94cf-5b3e03241a13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar'])[1]/following::div[7]</value>
+      <webElementGuid>3a977ce2-689a-4594-9a86-20abbae2f0bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plantilla'])[1]/preceding::div[1]</value>
+      <webElementGuid>4ff33e5c-c5eb-44ec-99f3-9b0086ca31fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Que desea hacer'])[1]/preceding::div[1]</value>
+      <webElementGuid>ba3a43fe-fd9d-4a80-b601-0d355736c568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div[2]</value>
+      <webElementGuid>fd161efa-2340-47da-9af3-222b0e2d514e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
