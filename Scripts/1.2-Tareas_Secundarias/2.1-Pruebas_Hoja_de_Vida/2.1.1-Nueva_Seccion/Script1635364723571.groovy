@@ -32,12 +32,14 @@ WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueb
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'), 'prueba')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'), 
+    'prueba')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'), 
+    Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba'), 1)) {
+if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Eliminar'))
@@ -45,15 +47,20 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Nuevo'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion'), 'Prueba')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion'), 
+    'Prueba')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Orden_seccion_formtaborden'), '12345')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Orden_seccion_formtaborden'), 
+    '12345')
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneBienes'), '2')
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneBienes'), 
+    '2')
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneAreas de experiencia'), '5')
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneAreas de experiencia'), 
+    '5')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje'), 'PRUEBA')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje'), 
+    'PRUEBA')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje Final_seccion_formtabmensaje_final'), 
     'PRUEBA')
@@ -64,11 +71,23 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneMultiplex AnexosNo solicitarnico anexo'), 
     '2')
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneSiNo'), '1')
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneSiNo'), 
+    '1')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Externo_seccion_formtabexterno'), 'PRUEBA')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Externo_seccion_formtabexterno'), 
+    'PRUEBA')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Guardar'))
+
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Result == 'Se adiciono el registro correctamente') {
+    String Resultado = 'Prueba ok'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 
 WebUI.closeBrowser()
 

@@ -114,8 +114,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deduc
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/td_99.966,00'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Eliminar'), 
-    0)
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Deducción de costos al plan inversión/a_Eliminar'), 
+    1))
+{
 WebUI.closeBrowser()
-
+}
+else {
+	WebUI.acceptAlert()
+	}

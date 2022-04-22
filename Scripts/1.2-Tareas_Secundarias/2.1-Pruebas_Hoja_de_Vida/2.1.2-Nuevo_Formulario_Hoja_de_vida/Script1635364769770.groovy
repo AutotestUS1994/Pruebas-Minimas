@@ -27,13 +27,14 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nu
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), 'prueba')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), 
+    'prueba')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'), 
+    Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'), 1)) {
-    
+if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Eliminar'))
@@ -43,11 +44,22 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre'), 'prueba')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre'), 
+    'prueba')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo'), '123')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo'), 
+    '123')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar'))
+
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'Se adiciono el registro correctamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {WebUI.acceptAlert()}
+WebUI.delay(50)
 
 WebUI.closeBrowser()
 

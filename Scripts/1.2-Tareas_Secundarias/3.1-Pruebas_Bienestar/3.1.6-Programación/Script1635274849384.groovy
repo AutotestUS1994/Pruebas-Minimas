@@ -23,7 +23,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Progr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_Programacin'))
 
-if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'), 
+while (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'), 
     1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_MAR-MIE 0500-0600_form_programacionMomentoEventotablaMomentoEventoHorario0j_idt836'))
 
@@ -52,5 +52,13 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Progr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación/a_mas'))
 
-WebUI.closeBrowser()
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/td_MAR-MIE 0500-0600'), 
+    1))
+{
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Acevedo Rubio Luis Felipe</name>
+   <tag></tag>
+   <elementGuidId>43b968af-f790-4768-8c1a-3b9dac80283e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/table/tbody/tr/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e25709f1-d781-48ef-9003-56f44ced0141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>2629e351-b7a6-4733-8f26-2e57542f36c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Acevedo Rubio Luis Felipe</value>
+      <webElementGuid>29971f7c-f4aa-45f8-b765-999dcef90e5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invitacionEventosPopupForm:j_idt1344_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even fila_tabla_ace&quot;]/td[3]</value>
+      <webElementGuid>75cb6861-0a6a-41c2-a219-6a8ea49c9c52</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='invitacionEventosPopupForm:j_idt1344_data']/tr/td[3]</value>
+      <webElementGuid>68070512-c5b3-4f21-a440-f31f3b09d554</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargo'])[1]/following::td[3]</value>
+      <webElementGuid>4012e6ae-36b8-4fef-921d-d7b6b0f6c429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidad'])[2]/following::td[3]</value>
+      <webElementGuid>209d51cd-73d1-40d2-a681-4ea26f471a2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subdireccion General'])[1]/preceding::td[1]</value>
+      <webElementGuid>fff48034-4586-43a3-92a4-84c63c2f2053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crew'])[1]/preceding::td[2]</value>
+      <webElementGuid>74cb324d-f40a-4540-afca-4c0a6c445534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Acevedo Rubio Luis Felipe']/parent::*</value>
+      <webElementGuid>5efc8986-3852-42c5-b91c-0159b0690cd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>03eb041e-19a2-4739-826c-c5d8ec0c3adf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Acevedo Rubio Luis Felipe' or . = 'Acevedo Rubio Luis Felipe')]</value>
+      <webElementGuid>95e85042-ae33-436d-b86e-dd70dc42d7ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

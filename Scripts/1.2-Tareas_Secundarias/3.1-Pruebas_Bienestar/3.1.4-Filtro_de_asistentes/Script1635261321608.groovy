@@ -76,6 +76,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtr
 
 WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/span_Listado Hojas de Vida (hoj)'), 
     0)
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Acevedo Rubio Luis Felipe'),
+	1))
+{
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
 
-WebUI.closeBrowser()
+else {WebUI.acceptAlert()}
 

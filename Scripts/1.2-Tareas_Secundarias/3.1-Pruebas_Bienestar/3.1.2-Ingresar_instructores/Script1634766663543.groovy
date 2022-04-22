@@ -37,7 +37,17 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
+
+    if (Result == 'Se guardo correctamente.') {
+        String Resultado0 = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -88,8 +98,16 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
-}
+    String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/input_Evento Bienestar_form_templatej_idt282j_idt29'))
+
+    if (Result1 == 'Se guardo correctamente.') {
+        String Resultado = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
+}
 

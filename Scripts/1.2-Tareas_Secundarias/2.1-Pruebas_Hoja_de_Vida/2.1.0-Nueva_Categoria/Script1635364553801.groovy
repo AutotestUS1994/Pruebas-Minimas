@@ -16,6 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import javax.swing.JFrame as JFrame
+import javax.swing.JOptionPane as JOptionPane
+import javax.swing.ImageIcon as ImageIcon
+import javax.swing.*
+import java.awt.event.*
+import java.awt.*
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -25,7 +31,8 @@ WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueb
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'), 
     'categoria')
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria'), 
+    0)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria'))
 
@@ -35,7 +42,8 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61'), 
     Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba'), 1)) {
+if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Eliminar'))
@@ -48,9 +56,18 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nu
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Descripcin_form_categoriaSecciondescripcion'), 
     'prueba')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden'), '5')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden'), 
+    '5')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Guardar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+
+if (Result == 'Se adiciono el registro correctamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+	}
+else {WebUI.acceptAlert()}
+
 

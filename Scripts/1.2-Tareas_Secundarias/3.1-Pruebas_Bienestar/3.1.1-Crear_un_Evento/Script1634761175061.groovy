@@ -521,5 +521,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cre
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Guardar1'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Regresar'))
-
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if (Result == 'Se guardo satisfactoriamente.') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Regresar'))
+}
+else {
+	WebUI.acceptAlert()
+	}

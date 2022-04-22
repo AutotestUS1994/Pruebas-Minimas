@@ -239,18 +239,20 @@ WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     FechaF0)
-if(WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'),
-	1)) {
-String result0 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'))
 
-if (result0 == 'Formato de fecha no valido.') {
-    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
-        FechaF0)
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'), 
+    1)) {
+    String result0 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
-        FailureHandling.STOP_ON_FAILURE)
+    if (result0 == 'Formato de fecha no valido.') {
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
+            FechaF0)
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
+            FailureHandling.STOP_ON_FAILURE)
+    }
 }
-}
+
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
     30)
 
@@ -288,5 +290,12 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Guardar'))
 
-WebUI.closeBrowser()
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), FailureHandling.STOP_ON_FAILURE)
+if(Result == 'Se guardo satisfactoriamente.') {
+	String Resultado = 'PRUEBAS OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 

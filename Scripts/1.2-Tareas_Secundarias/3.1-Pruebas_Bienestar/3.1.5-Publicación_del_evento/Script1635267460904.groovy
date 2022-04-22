@@ -13,14 +13,21 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import cucumber.api.cli.Main as Main
+import groovy.inspect.swingui.ObjectBrowser as ObjectBrowser
 import groovy.ui.SystemOutputInterceptor as SystemOutputInterceptor
 import internal.GlobalVariable as GlobalVariable
+import sun.corba.Bridge as Bridge
 import sun.util.resources.CalendarData as CalendarData
 import org.eclipse.osgi.internal.framework.SystemBundleActivator as SystemBundleActivator
 import org.openqa.selenium.Keys as Keys
 import java.util.Date as Date
+import javax.lang.model.element.VariableElement as VariableElement
+import javax.wsdl.Import as Import
 import java.util.Calendar as Calendar
+import java.lang.reflect.Array as Array
 import java.time.LocalDateTime as LocalDateTime
 
 WebUI.comment('No Ejecutar. Falla con imagen subida')
@@ -95,7 +102,8 @@ WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 String Imagen = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank'), Imagen)
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank'), 
+    Imagen)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_Contenido_ui-editor-button'))
 
@@ -116,8 +124,37 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Pub
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_IndividualArea TalentoPrograma'), 
-    0)
+String Es10 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio1'))
+
+if (Es10 == Imagen) {
+    String Prueba10 = 'PRUEBA OK'
+} else {
+    String Es20 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio2'))
+
+    if (Es20 == Imagen) {
+        String Prueba20 = 'PRUEBA OK'
+    } else {
+        String Es30 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio3'))
+
+        if (Es30 == Imagen) {
+            String Prueba30 = 'PRUEBA OK'
+        } else {
+            String Es40 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio4'))
+
+            if (Es40 == Imagen) {
+                String Prueba40 = 'PRUEBA OK'
+            } else {
+                String Es50 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio5'))
+
+                if (Es50 == Imagen) {
+                    String Prueba50 = 'PRUEBA OK'
+                } else {
+                    WebUI.acceptAlert()
+                }
+            }
+        }
+    }
+}
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -145,7 +182,8 @@ WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 String Imagen2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/span_httplocalhost8380sarawebrepodocrecursosuid9dc2ce980076ceb250408bf7ce50f4ab'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank'), Imagen2)
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_Contenido_ql-editor ql-blank'), 
+    Imagen2)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_Contenido_ui-editor-button'))
 
@@ -168,8 +206,45 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Pub
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/li_Inscripcion Evento (bie)'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/div_IndividualArea TalentoPrograma'), 
-    0)
+String Es1 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio1'))
 
-WebUI.closeBrowser()
+if (Es1 == Imagen2) {
+    String Prueba1 = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    String Es2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio2'))
+
+    if (Es2 == Imagen2) {
+        String Prueba2 = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        String Es3 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio3'))
+
+        if (Es3 == Imagen2) {
+            String Prueba3 = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            String Es4 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio4'))
+
+            if (Es4 == Imagen2) {
+                String Prueba4 = 'PRUEBA OK'
+
+                WebUI.closeBrowser()
+            } else {
+                String Es5 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_espacio5'))
+
+                if (Es5 == Imagen2) {
+                    String Prueba5 = 'PRUEBA OK'
+
+                    WebUI.closeBrowser()
+                } else {
+                    WebUI.acceptAlert()
+                }
+            }
+        }
+    }
+}
 

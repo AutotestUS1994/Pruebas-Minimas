@@ -6,11 +6,11 @@
    <elementGuidId>b35a4263-c1bb-4294-a9a5-29974b7c02ee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_programacionMomentoEvento:tablaMomentoEventoHorario:0:j_idt836']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tbody[@id='form_programacionMomentoEvento:tablaMomentoEventoHorario_data']/tr/td[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>27331a3b-682b-490b-a7b6-5e353fa8cd2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_programacionMomentoEvento:tablaMomentoEventoHorario:0:j_idt836</value>
+      <webElementGuid>fa187ca6-19e6-4eb6-b6cb-b581b7ef9f5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6524b857-3c50-4ee0-a2c6-070f253c92b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-minieliminar</value>
+      <webElementGuid>ce0e7d60-e507-4201-8045-590bfdb1400c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_programacionMomentoEvento:tablaMomentoEventoHorario:0:j_idt836&quot;,f:&quot;form_programacionMomentoEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>5e3a8808-65f7-4bbe-bce5-4f9ed2fa9ecb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_programacionMomentoEvento:tablaMomentoEventoHorario:0:j_idt836&quot;)</value>
+      <webElementGuid>05297b06-06f6-4cdc-aa29-71dc0f55e07d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_programacionMomentoEvento:tablaMomentoEventoHorario:0:j_idt836']</value>
+      <webElementGuid>d8691093-f830-4571-8f51-d2eb6adfb7c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_programacionMomentoEvento:tablaMomentoEventoHorario_data']/tr/td[4]/a</value>
+      <webElementGuid>680a2356-cd3a-4090-91f4-8e358495bb86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[40]</value>
+      <webElementGuid>edb60d8e-5d48-4b77-adef-fcb0d7f88553</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tbody/tr/td[4]/a</value>
+      <webElementGuid>903a40f1-8680-4828-ba9d-81176b19d782</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

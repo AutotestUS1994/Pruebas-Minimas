@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cambiar Datos</name>
+   <tag></tag>
+   <elementGuidId>107b5845-5f7d-48ff-a719-74eea9762c2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Cambiar Datos')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f0b418bd-397a-4703-855f-22b930317127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>grupoEvento:j_idt594</value>
+      <webElementGuid>c4a652ce-6f74-447d-9fb9-2d65939b9aa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>0b50c7b8-7704-468f-a900-cb2b0fd3eae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>af1a2f26-cf43-4aca-b363-209645599a98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;grupoEvento:j_idt594&quot;,f:&quot;grupoEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>34bc886e-182a-45ce-974c-c2f7c5a0bea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cambiar Datos</value>
+      <webElementGuid>c9b153bc-3eb4-4462-a808-c934afc249f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grupoEvento:j_idt594&quot;)</value>
+      <webElementGuid>bd6c45d5-d04d-4f0b-8de7-dd5f9f1f409d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='grupoEvento:j_idt594']</value>
+      <webElementGuid>bc9d9d81-9fb0-4c27-96e6-85a7f0a268c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='grupoEvento:j_idt385_content']/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>225b7600-6c1b-4918-868c-867664dd29ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cambiar Datos')]</value>
+      <webElementGuid>a737feb1-5a85-4399-b327-58485b3f512e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::a[1]</value>
+      <webElementGuid>3905540d-a803-4165-bd00-5ae59baecac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posición'])[1]/following::a[1]</value>
+      <webElementGuid>bb2daf67-2c77-48d9-8683-69d3b41bc73d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::a[4]</value>
+      <webElementGuid>d6fa82c6-a933-4462-ab93-1f00a51ac021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[4]</value>
+      <webElementGuid>9aedad87-8012-4de9-a0d8-3fc46594e086</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cambiar Datos']/parent::*</value>
+      <webElementGuid>e9781213-9d7c-4788-9388-4fbe074d842d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[45]</value>
+      <webElementGuid>3aef3ea2-90d5-4b22-8baf-7a39970066eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>899346d2-b9f6-4742-9a73-3ab7e2d3c9d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'grupoEvento:j_idt594' and @href = '#' and (text() = 'Cambiar Datos' or . = 'Cambiar Datos')]</value>
+      <webElementGuid>c00120b7-dad3-4abf-8f40-6aeb7af1bfb2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

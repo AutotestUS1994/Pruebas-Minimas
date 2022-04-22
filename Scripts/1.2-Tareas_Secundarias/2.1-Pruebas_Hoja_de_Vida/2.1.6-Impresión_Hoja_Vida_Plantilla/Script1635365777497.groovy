@@ -49,7 +49,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Im
 
 WebUI.switchToWindowTitle('SARA')
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'), 0)
-
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar'), 
+    1)) {
+String Resultado = 'Prueba ok'
 WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 

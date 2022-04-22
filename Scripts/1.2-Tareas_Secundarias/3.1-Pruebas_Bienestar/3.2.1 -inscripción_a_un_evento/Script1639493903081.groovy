@@ -49,5 +49,125 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS 
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 1)) {
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result == 'Se ha registrado en el evento.') {
+        WebUI.closeBrowser()
+    } else {
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
+            'evento (bie)')
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_Prueba-S-SH'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/div_Participante'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Individual'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_A A A'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Cambiar Datos'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/span_Si'))
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
+            'Inscripcion evento (bie)')
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Inscripcin'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Nombre_formListadoEventosj_idt185'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_'))
+
+        WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --prueba-S-SH'), 
+            1)
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Referencia Pago_formListadoEventospIReferencia'), 
+            '5')
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor'), 
+            '100')
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
+            '5')
+
+        WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
+            30)
+
+        WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
+
+        String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result0 == 'Se ha registrado en el evento.') {
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+} else {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Aceptar'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/span_Cerrar Individual'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
+        'evento (bie)')
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_Prueba-S-SH'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/div_Participante'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Individual'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_A A A'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Cambiar Datos'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Eliminar'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/span_Si'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_No search results are available_form_templatej_idt24_input'), 
+        'Inscripcion evento (bie)')
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/li_Inscripcion Evento (bie)'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Inscripcin'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Nombre_formListadoEventosj_idt185'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_'))
+
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/select_-- Seleccione --prueba-S-SH'), 
+        1)
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Referencia Pago_formListadoEventospIReferencia'), 
+        '5')
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor'), 
+        '100')
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
+        '5')
+
+    WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
+
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result0 == 'Se ha registrado en el evento.') {
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
+}
 
