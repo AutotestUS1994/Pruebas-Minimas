@@ -6,11 +6,12 @@
    <elementGuidId>aff35d94-3b62-4592-8678-e04929b249ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[7]/td[2]/span/input
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[7]/td[2]/span/input</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>d3b3af79-85c7-4343-b6d4-392db1c09da1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornadaPorDia_form:hastaTU_input</value>
+      <webElementGuid>e71010ec-5d23-45a5-b1d2-585f0b576add</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornadaPorDia_form:hastaTU_input</value>
+      <webElementGuid>99ade8a3-b49f-449b-a349-ca202a952d84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>9efc466f-b71c-4844-86eb-4f75e9a8de79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>ee8a65f1-2bda-45da-8ec5-622ee3bfa4b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>7e8a44c4-e359-4f93-95c4-4db114ebbf32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>63b2209e-b535-475b-9ef7-f39ebc7afa63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>6af11d7e-ed59-4513-960b-8599988eb28f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornadaPorDia_form:hastaTU_input&quot;)</value>
+      <webElementGuid>e9b4666d-ce5e-4dae-a80e-39c293ca3234</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornadaPorDia_form:hastaTU_input']</value>
+      <webElementGuid>34a78ca0-42a4-4675-8503-cbbae0635cf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='jornadaPorDia_form:hastaTU']/input</value>
+      <webElementGuid>31fd67df-9b4e-4d6e-bebb-7a30ea78c6c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/span/input</value>
+      <webElementGuid>60023d74-e183-43e7-a46e-ff96e90cae35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornadaPorDia_form:hastaTU_input' and @name = 'jornadaPorDia_form:hastaTU_input' and @type = 'text']</value>
+      <webElementGuid>be495fb8-3b4e-47fa-b387-c1ad595d187a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

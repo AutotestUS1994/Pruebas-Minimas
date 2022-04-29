@@ -25,16 +25,25 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/As
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_Logsticos'))
 
-if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/td_DVD'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/td_DVD'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_INDISPENSABLE_formRecursoLogisticopanel_recursostabla_recursos0j_idt606'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_Aceptar_eliminar'))
 }
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/select_SeleccioneDVDTV'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/select_SeleccioneDVDTV'), 
+    1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/select_SeleccioneINDISPENSABLEOPCIONAL'), 
     1)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt608'))
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Asociar_Recursos/td_INDISPENSABLE'), 
+    1)) {
+	String Result = 'PRUEBA OK'
+}
+else {
+WebUI.acceptAlert()
+}

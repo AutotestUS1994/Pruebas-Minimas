@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida/input_Empresa 1_form_templatej_idt24_input'), 'Buscador Hoja vida')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida/input_Empresa 1_form_templatej_idt24_input'), 
+    'Buscador Hoja vida')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida/li_Buscador Hoja Vida (hoj)'))
 
@@ -38,5 +39,11 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida/a_Aplicar'))
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida/div_QUINTERO 11, EMPLEADO Documento 11Fecha Modificacin Barrio .Direccin CALLE FALSA 133Ciudad de Residencia BOGOT'), 
+    1)) {
+String Result = 'PRUEBA OK'
 WebUI.closeBrowser()
-
+}
+else {
+	WebUI.acceptAlert()
+}

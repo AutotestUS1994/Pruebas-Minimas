@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_jornadadocente_jord</name>
+   <tag></tag>
+   <elementGuidId>abb27a44-0fc3-4128-8f9e-99d9276ae937</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/div/div/table/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>57552ad8-bbca-4ec3-b961-e03d9b9731b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>6bc1d11d-46bc-41e3-9d6d-9a393e1d4b0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>jornadadocente_jord           </value>
+      <webElementGuid>a6689b1a-d953-4a92-ae93-00eabb0de0da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_visor:j_idt253:tabla_sucesos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even fila_tabla_ace&quot;]/td[4]</value>
+      <webElementGuid>bfbc2fd7-0ecd-46ff-b95a-28ab6c386228</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_visor:j_idt253:tabla_sucesos_data']/tr/td[4]</value>
+      <webElementGuid>ac72a55b-1fcb-4676-8cda-cf9b90102beb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='saraadmin'])[1]/following::td[2]</value>
+      <webElementGuid>fc2782f7-3e89-4adc-b769-76f9896914e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terminal'])[1]/following::td[4]</value>
+      <webElementGuid>35e1440a-b47e-4205-aebe-b31906ea795a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='djor_limitefinal'])[1]/preceding::td[1]</value>
+      <webElementGuid>24349cc7-8b0c-4de3-bcd8-2be5baf1627b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dec 29 2018 12:00AM'])[1]/preceding::td[3]</value>
+      <webElementGuid>517a45a7-1693-45e2-8c93-024d6ac75d24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div/table/tbody/tr/td[4]</value>
+      <webElementGuid>49b3f995-d96a-4619-b99f-164b419c07df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'jornadadocente_jord           ' or . = 'jornadadocente_jord           ')]</value>
+      <webElementGuid>fe6187ed-460c-4370-8207-eacb8f7c0a09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

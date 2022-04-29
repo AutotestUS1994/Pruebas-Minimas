@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_chkbox-box2</name>
+   <tag></tag>
+   <elementGuidId>7e5d1eec-ee58-400c-8bf9-787a3fd0f873</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default.ui-state-hover</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>59ee9d3a-2447-42c8-bf30-107b2f930bab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover</value>
+      <webElementGuid>f2b32601-beb4-45ea-a265-1b81960e7406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;inscripcionEventosPopupForm:j_idt1241:1:j_idt1258&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]</value>
+      <webElementGuid>5cff3f43-0361-4faf-9e1c-4fb907a737db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='inscripcionEventosPopupForm:j_idt1241:1:j_idt1258']/div[2]</value>
+      <webElementGuid>068be5ed-3911-4ed1-b79e-52817d09a6f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crew'])[1]/following::div[3]</value>
+      <webElementGuid>7b1f210c-612e-455b-ae12-7151052148fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subdireccion General'])[1]/following::div[3]</value>
+      <webElementGuid>c2ca7d9b-1ea4-4280-aa07-f8d0098c93d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acevedo Rubio Luis Felipe'])[2]/preceding::div[1]</value>
+      <webElementGuid>77608f9f-e078-4d53-9400-cf8f6438edfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subdireccion General'])[2]/preceding::div[1]</value>
+      <webElementGuid>1ec623f8-02c7-4bec-a202-0e0a9c9c88d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/div/div[2]</value>
+      <webElementGuid>67b7b3a5-0824-479f-9979-3a379b2b46fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

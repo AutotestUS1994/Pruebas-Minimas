@@ -25,7 +25,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Pr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/a_Programacin'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/td_24122021'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/td_24122021'), 
+    1)) {
     WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/div_Ubicacin_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/a_Eliminar'))
@@ -44,18 +45,23 @@ WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_010203040506070809101112_1'), 
     0)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_00153045_1'), 2)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_00153045_1'), 
+    2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_AMPM_1'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_AMPM_1'), 
+    1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_010203040506070809101112_2'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_00153045_2'), 3)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_00153045_2'), 
+    3)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_AMPM_2'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_AMPM_2'), 
+    1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_SeleccionePrueba'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_SeleccionePrueba'), 
+    1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_SeleccioneAula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
     4)
@@ -68,3 +74,11 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas c
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/a_Guardar'))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'Se ingreso el registro') {
+	String Resultado = 'PRueba ok'
+}
+else {
+	WebUI.acceptAlert()
+}

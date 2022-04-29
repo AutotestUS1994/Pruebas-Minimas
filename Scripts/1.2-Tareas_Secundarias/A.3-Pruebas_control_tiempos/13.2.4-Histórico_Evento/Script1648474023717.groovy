@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'), 'Historico Evento')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input'), 
+    'Historico Evento')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/li_Historico Evento (get)'))
 
@@ -37,5 +38,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiemp
 WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71'), 
     0)
 
-WebUI.closeBrowser()
-
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/div_IdentificacinFuncionarioHora FinalDispositivo de Entrada'), 
+    1))
+{
+	String Result = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}

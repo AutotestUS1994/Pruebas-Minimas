@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/table/tbody/tr/td[3]/a</value>
+         <value>//div[@id='listado_contratacion:panelFiltro_content']/table/tbody/tr/td[2]/table/tbody/tr/td[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>753d0634-41b9-4aa0-8da7-750764efa3dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>listado_contratacion:j_idt68</value>
+      <webElementGuid>bbd6abef-2e63-4714-846e-a5ca02c997ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>73697b82-395d-4a59-a8d6-9fa68f9ef3f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>613b1ac6-34ab-48ba-82c1-b7bd34e3c298</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;listado_contratacion:j_idt68&quot;,f:&quot;listado_contratacion&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>8e82d890-253b-4124-bb36-7e7fa748000d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listado_contratacion:j_idt68&quot;)</value>
+      <webElementGuid>f02260f7-4d51-4761-bc2c-3ca976e0b395</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='listado_contratacion:j_idt68']</value>
+      <webElementGuid>a677d7fc-0f0b-4fcc-bb0d-faed9c56b8aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='listado_contratacion:panelFiltro_content']/table/tbody/tr/td[2]/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>bbf1635a-315f-4d27-a8e7-6cdd36df7ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>894a2a1b-a193-4fd7-b0e8-7d604996e5c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>90a5da62-5c6c-4310-b6fa-ff4bd20097b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

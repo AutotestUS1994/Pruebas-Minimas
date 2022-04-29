@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -99,7 +102,7 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Pr
 WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha_popupCitacion_formfecha_inicial_input'), 
-    '24/03/2022')
+    Fecha())
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--010203040506070809101112'), 
     8)
@@ -119,7 +122,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Generar'))
 
-String Alert = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Registro Citacin'))
 
@@ -132,6 +135,23 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Actualizar'))
 }
+if (Result == 'El candidato ha sido registrado correctamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else if (Result == 'Las citaciones han sido generadas correctamente') {
+	String Resultado0 = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 
-WebUI.closeBrowser()
+def Fecha () {
+	Date today = new Date()
+	String Dia = (today.format('dd'))
+	String Mes = (today.format('MM'))
+	String Año = (today.format ('yyyy'))
+	String FECHA = (((Dia + '/')+ Mes)+ '/')+ Año
 
+}

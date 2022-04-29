@@ -13,6 +13,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -54,10 +55,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas p
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/a_Actualizar'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad_transversal/p_No se puede almacenar el registro, ya existe una unidad con el mismo nombre'), 
-    1)) {
-    WebUI.acceptAlert()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Result == 'Se guardo exitosamente el registro') {
+    String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
 } else {
-    WebUI.closeBrowser()
+    WebUI.acceptAlert()
 }
 

@@ -73,3 +73,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Prog
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_Guardar'))
 
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'Registro guardado') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

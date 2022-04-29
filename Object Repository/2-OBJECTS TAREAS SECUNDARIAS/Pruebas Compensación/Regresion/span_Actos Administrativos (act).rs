@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Actos Administrativos (act)</name>
+   <tag></tag>
+   <elementGuidId>5418f2d7-40ba-4ff3-a1fd-69d12e4a6909</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-autocomplete-query</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>44de910e-ad30-4261-9ddb-30d4453207f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-autocomplete-query</value>
+      <webElementGuid>b14c779b-0750-4213-9ad5-92ca625b7d46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Actos Administrativos (act)</value>
+      <webElementGuid>c0409e3f-2791-40ad-991e-e2fb3f6e27aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
+      <webElementGuid>162a1066-c30c-465a-ad82-aca9b69631e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
+      <webElementGuid>d63c8291-8bd3-4997-939f-f1bb4627fd24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto Vacación'])[1]/following::span[3]</value>
+      <webElementGuid>71447035-fce0-40e9-94b7-2b9e3fd0bdcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos de Retiro del empleado'])[1]/following::span[4]</value>
+      <webElementGuid>06b6b370-46fe-48a2-8471-123771ddba98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[5]</value>
+      <webElementGuid>89680364-ffeb-4621-965d-04782e41f0ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[6]</value>
+      <webElementGuid>0a72032f-0db6-4643-bb98-974ada4f2356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Actos Administrativos (act)']/parent::*</value>
+      <webElementGuid>920fa33a-e49a-4d91-8443-8836f59c6ea0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li/span</value>
+      <webElementGuid>70baffc2-614d-4d69-8ae3-c9f713b57abf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Actos Administrativos (act)' or . = 'Actos Administrativos (act)')]</value>
+      <webElementGuid>3db9d4b3-16c7-4615-9068-25dda2317999</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

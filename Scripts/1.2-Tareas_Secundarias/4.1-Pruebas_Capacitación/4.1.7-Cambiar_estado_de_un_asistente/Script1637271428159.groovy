@@ -34,7 +34,8 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Actualizar'))
 } else {
-    WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.5-Insribir_un_asistente'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.5-Insribir_un_asistente'), [:], 
+        FailureHandling.STOP_ON_FAILURE)
 
     if (WebUI.waitForElementNotPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_prueba ka Pruebas'), 
         1)) {
@@ -47,5 +48,14 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     }
 }
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Registro Actualizado')
+{
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
+
 

@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/input_Empresa 1_form_templatej_idt24_input'), 'planta personal (tal)')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/input_Empresa 1_form_templatej_idt24_input'), 
+    'planta personal (tal)')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/span_Planta Personal (ta'))
 
@@ -42,5 +43,24 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 
 WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/a_1'), 0)
 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/input_A1            - Administracion_organigramalistaPuestosActivosj_idt150'), 
+    'Mendoza Cabra')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/input_A1            - Administracion_organigramalistaPuestosActivosj_idt150'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/span_Mendoza Cabra Empleado0'))
+
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/div_Mendoza Cabra Empleado Asistente'), 
+    1)
+
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/div_Mendoza Cabra Empleado Asistente'), 
+    1)) {
+String Resultado = 'PRUEBA OK'
+WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
 WebUI.closeBrowser()
 

@@ -6,11 +6,13 @@
    <elementGuidId>93fa8e5c-b7e2-4ce3-bd4a-ca19ffbd6c2a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='123']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/div/div/table/tbody/tr/td[2]
+
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>5b805995-eb77-4461-802b-caa65e790a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>5ee668e3-c39c-48f1-a7d8-148f3b09ad8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>123</value>
+      <webElementGuid>612aea95-3afb-466b-898a-a34c6df06702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupprogramacionviaticos:planesInversion_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace&quot;]/td[2]</value>
+      <webElementGuid>e86b24cc-61e0-4a24-bc8d-602b2c308b9e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_popupprogramacionviaticos:planesInversion_data']/tr[2]/td[2]</value>
+      <webElementGuid>e61e937f-c594-4a9b-82d2-794a5ce2ef01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='preu'])[1]/following::td[2]</value>
+      <webElementGuid>8088c1dc-1b62-4f17-94f3-8e7cf468cf7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entidad'])[2]/following::td[4]</value>
+      <webElementGuid>988c7168-a635-4d7b-8765-a37182686c73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Universidad Libre'])[1]/preceding::td[2]</value>
+      <webElementGuid>858161b9-34e7-4dd1-a9ef-874fe6960711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Universidad de la Salle'])[1]/preceding::td[4]</value>
+      <webElementGuid>f8265ca3-eff5-407a-90d2-6145c9a0cac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='123']/parent::*</value>
+      <webElementGuid>6f196569-72b4-47ad-8477-8b364bf75554</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +103,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>5d3e7091-4670-4244-8544-03f019df50be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

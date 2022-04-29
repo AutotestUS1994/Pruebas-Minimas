@@ -27,7 +27,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Re
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/td_Sala de Juntas'))
 
-if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_Pruebas ka'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_Pruebas ka'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/span_Pruebas ka'))
 
     WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/a_Eliminar'), 
@@ -43,7 +44,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Re
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/textarea_Tema_popup_form_reservaSalonestema'), 
     'Pruebas ka')
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/select_0830 AM0900 AM0930'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/select_0830 AM0900 AM0930'), 
+    1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Nmero Asistentes_popup_form_reservaSalonescantidad'), 
     '20')
@@ -83,3 +85,11 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS 
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Registro guardado correctamente.') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else{
+	WebUI.acceptAlert()
+}

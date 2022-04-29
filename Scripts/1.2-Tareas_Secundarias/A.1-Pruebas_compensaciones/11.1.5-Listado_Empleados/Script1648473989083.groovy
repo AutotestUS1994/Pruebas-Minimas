@@ -19,12 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'), 'Listado de empleados')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'), 
+    'Listado de empleados')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/li_Listado de Empleados (com)'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
-    'Constantino')
+    'Aya Silva Cindy Ximena')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
     Keys.chord(Keys.ENTER))
@@ -36,14 +37,23 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/L
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
     2)
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_281'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_281'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_281'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_ReversarEliminar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Aceptar'))
 
-    WebUI.closeBrowser()
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result == 'Se eliminó el registro satisfactoriamete') {
+        String Resultado = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -55,7 +65,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/li_Listado de Empleados (com)'))
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
-        'Constantino')
+        'Aya Silva Cindy Ximena')
 
     WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
         Keys.chord(Keys.ENTER))
@@ -67,14 +77,23 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
         2)
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_281'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_281'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_281'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_ReversarEliminar'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Aceptar'))
 
-        WebUI.closeBrowser()
+        String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result == 'Se eliminó el registro satisfactoriamete') {
+            String Resultado = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     }
 }
 

@@ -59,5 +59,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_Guardar Directo'))
 
-WebUI.closeBrowser()
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se Actualizo el registro correctamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 

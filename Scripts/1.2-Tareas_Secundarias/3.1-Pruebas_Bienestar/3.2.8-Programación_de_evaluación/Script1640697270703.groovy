@@ -27,15 +27,15 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Progr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Grupo'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_PRUEBAS K'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Integrantes'))
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/td_Administracion'), 
         1)) {
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick')) /*---------------------------------------------------------------------------------------------------*/
-        /*------------------------------------------------------------------------------------------------*/
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/span_Inscrito_ui-icon ui-icon-closethick') /*---------------------------------------------------------------------------------------------------*/ ) /*------------------------------------------------------------------------------------------------*/
     } else {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Costo_grupoEventopanel_principal_2pGListaIntegrantesj_idt376'))
 
@@ -114,5 +114,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Progr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programación_de_evaluación/a_Aplicar0'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se aplico correctamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+}
+else {
+WebUI.acceptAlert()
+}
 

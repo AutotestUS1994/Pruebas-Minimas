@@ -71,7 +71,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Aplicar'))
 
-        WebUI.closeBrowser()
+        String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result0 == 'Procesado Exitosamente') {
+            String Resultado = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     } else {
         WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
             [:], FailureHandling.STOP_ON_FAILURE)
@@ -111,7 +119,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Aplicar'))
 
-        WebUI.closeBrowser()
+        String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result1 == 'Procesado Exitosamente') {
+            String Resultado1 = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     }
 } else if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Nombre Persona_listado_contratacionj_idt68'), 
     1)) {
@@ -172,7 +188,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Aplicar'))
 
-        WebUI.closeBrowser()
+        String Result2 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result2 == 'Procesado Exitosamente') {
+            String Resultado2 = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     } else {
         WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
             [:], FailureHandling.STOP_ON_FAILURE)
@@ -193,21 +217,17 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
             WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
                 '1010220596')
 
+            WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
+                Keys.chord(Keys.ENTER))
+
+            WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/span_1010220596'), 
+                0)
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/span_1010220596'))
+
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/td_A A A'))
         }
         
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Actividad'))
-
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Nombre Persona_listado_contratacionj_idt68'))
-
-        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
-            '1010220596')
-
-        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1320'), 
-            Keys.chord(Keys.ENTER))
-
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/td_SOLICITADO'))
-
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Actividad'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/td_Responsable Tarea 1. Validar Documentos'))
@@ -224,7 +244,13 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Aplicar'))
 
-        WebUI.closeBrowser()
+        String Result3 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result3 == 'Procesado Exitosamente') {
+            String Resultado3 = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        }
     }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación'), 
@@ -265,6 +291,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_Documentos/a_Aplicar'))
 
-    WebUI.closeBrowser()
+    String Result4 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result4 == 'Procesado Exitosamente') {
+        String Resultado4 = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 }
 

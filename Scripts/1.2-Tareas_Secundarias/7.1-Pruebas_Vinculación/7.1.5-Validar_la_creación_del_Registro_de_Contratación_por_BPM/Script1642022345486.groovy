@@ -57,3 +57,10 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Continuar'))
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/a_Guardar'), 
+    1)) {
+String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

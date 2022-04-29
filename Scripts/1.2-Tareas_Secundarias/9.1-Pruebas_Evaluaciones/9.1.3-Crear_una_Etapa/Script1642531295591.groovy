@@ -24,17 +24,20 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Cr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/span_Gestion Herramientas'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_Pruebas katalon'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_Pruebas katalon'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_Pruebas katalon'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Fase Evaluacin'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_PRUEBAS K'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_PRUEBAS K'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_PRUEBAS K'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Etapa'))
 
-        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/span_Pruebas Ka'), 1)) {
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/span_Pruebas Ka'), 
+            1)) {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/span_Pruebas Ka'))
 
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Eliminar'))
@@ -58,7 +61,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Guardar'))
 
-        WebUI.closeBrowser()
+        String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+		if(Result == 'El registro se ha creado correctamente') {
+			String Resultado = 'PRUEBAS OK'
+			WebUI.closeBrowser()
+		}
+		else {
+			WebUI.acceptAlert()
+		}
+       
     } else {
         WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.2-Crear_una_Fase'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -95,7 +106,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Guardar'))
 
-            WebUI.closeBrowser()
+            String Result0 =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+			if(Result0 == 'El registro se ha creado correctamente') {
+				String Resultado0 = 'PRUEBA OK'
+				WebUI.closeBrowser()
+			}
+            else {
+				WebUI.acceptAlert()
+			}
         }
     }
 } else {
@@ -108,7 +126,8 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/span_Gestion Herramientas'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_Pruebas katalon'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_Pruebas katalon'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/td_Pruebas katalon'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Fase Evaluacin'))
@@ -133,7 +152,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_una_Etapa/a_Guardar'))
 
-        WebUI.closeBrowser()
+        String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+		if(Result1 == 'El registro se ha creado correctamente') {
+			String Resultado1 = 'PRUEBA OK'
+			WebUI.closeBrowser()
+		}
+        else {
+			WebUI.acceptAlert()
+		}
     }
 }
 

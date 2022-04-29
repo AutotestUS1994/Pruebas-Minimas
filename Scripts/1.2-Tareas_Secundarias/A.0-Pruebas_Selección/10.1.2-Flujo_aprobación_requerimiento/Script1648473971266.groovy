@@ -28,5 +28,13 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Fluj
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/td_MOD1-Requerimiento de personal'))
 
-WebUI.closeBrowser()
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/input_Descripcin_formFlujoTrabajopanelTabPrincipalpanelTabInternodescripcion'), 
+    1))
+{
+	String Resultado ='PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+	}
 

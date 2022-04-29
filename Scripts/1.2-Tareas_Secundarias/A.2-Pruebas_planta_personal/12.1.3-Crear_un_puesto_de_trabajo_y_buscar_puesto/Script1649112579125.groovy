@@ -81,7 +81,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 String Puesto = WebUI.getAttribute(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_un_puesto_de_trabajo/a_puesto'), 
     'Value')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'planta personal (tal)')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 
+    'planta personal (tal)')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_Planta Personal (ta'))
 
@@ -106,15 +107,25 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_ABOGADO'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/input_Buscar'), Puesto)
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/input_Buscar'), 
+    Puesto)
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/input_Buscar'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/input_Buscar'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/span_20139    - Abogado'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_puesto_de_trabajo/a_Abogado_organigramaj_idt113'))
 
-WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_un_puesto_de_trabajo/a_puesto'), 0)
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_un_puesto_de_trabajo/a_puesto'), 
+    0)
 
-WebUI.closeBrowser()
-
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_un_puesto_de_trabajo/a_puesto'), 
+    1))
+{
+	String Resultado ='Prueba ok'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}

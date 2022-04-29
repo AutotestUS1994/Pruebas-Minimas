@@ -24,20 +24,24 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_pla
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/li_Plan de Trabajo Anual (sst)'))
 
-if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas katalon'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas katalon'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas katalon'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Objetivos'))
 
-    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_BASE LEGAL'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_BASE LEGAL'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_BASE LEGAL'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Actividades'))
 
-        if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas k'), 1)) {
+        if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas k'), 
+            1)) {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_pruebas k'))
 
-            if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Anexos'), 1)) {
+            if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Anexos'), 
+                1)) {
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Anexos'))
 
                 if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_prueba.pdf_form_actividadesObjetivosPlanTrabajotabsActividadestablaAnexos0j_idt769'), 
@@ -49,7 +53,8 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
             }
         }
         
-        if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Cronograma'), 1)) {
+        if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Cronograma'), 
+            1)) {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Cronograma'))
 
             if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/td_Programado0'), 
@@ -94,7 +99,8 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Detalle'))
 
-    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Eliminar'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Eliminar'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Eliminar'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Aceptar'))
@@ -132,7 +138,8 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_pla
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/select_SeleccionarBASE LEGAL'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/select_SeleccionarPSO'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/select_SeleccionarPSO'), 
+    1)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Guardar'))
 
@@ -218,7 +225,15 @@ WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Descargar_form_actividadesObjetivosPlanTrabajotabsActividadestablaAnexosj_idt770'))
 
-WebUI.scrollToPosition(400, 400)
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+WebUI.scrollToPosition(400, 400)
+if(Result == 'Registro Actualizado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
+
 

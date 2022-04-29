@@ -34,8 +34,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/td_Descripcin del Cargo1'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/a_Descargar archivo en formato Doc'), 
-    1))
-{
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Impresión_de_descripción_del_cargo/a_Descargar archivo en formato Doc'), 
+    1)) {
+    String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
 }

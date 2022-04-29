@@ -68,10 +68,16 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/span_Si'))
 
+String Result =WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/a_informacin'))
+
 WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/a_Aceptar'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Crear_puesto/span_crea puesto trabajo'), 
-    1)) {
-    WebUI.closeBrowser()
-}
 
+if (Result == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
+    String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+
+}

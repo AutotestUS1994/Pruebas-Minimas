@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
+         <value>//div[2]/div/table/tbody/tr/td[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>f6c7b9c7-40e5-4cfd-bf2e-2893d482fcaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>3e412772-dbf5-4f6f-a988-d0dd69e026cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>A A A</value>
+      <webElementGuid>fbdd2ebd-13c9-407c-8cbf-2be1e85a4b34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:paginadorind_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[3]</value>
+      <webElementGuid>c4e38358-ca25-496f-b834-559926667d3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='grupoEvento:paginadorind_data']/tr/td[3]</value>
+      <webElementGuid>7b1f1c58-a095-4ca3-a4ac-1291a2d9f377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[3]/following::td[3]</value>
+      <webElementGuid>a9eca6b2-6f35-4e93-859b-bd0f49caed5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente'])[1]/following::td[3]</value>
+      <webElementGuid>beb4ca44-843e-4c14-8966-3a7d5a7814f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='prueba-S-SH'])[1]/preceding::td[1]</value>
+      <webElementGuid>8ff23dc2-1c73-4c1c-8c46-c43483b0718e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[2]/preceding::td[3]</value>
+      <webElementGuid>cddc393f-cbd7-4a2c-bb88-4ef9e52be0c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
+      <webElementGuid>6eb9590d-f79e-4129-a6f3-452c0609e6d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>97a3cf64-2275-4dc2-aadc-2ac9cb15c7b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -122,6 +122,12 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Admi
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Sucursal_entidadempleado_formtabj_idt1219'))
 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/Input_Entidad de salud'), 
+    'Ccf - Cafam')
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/Input_Entidad de salud'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_Ccf - Cafam'))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/select_--Seleccione--003 Familia Popayan'), 

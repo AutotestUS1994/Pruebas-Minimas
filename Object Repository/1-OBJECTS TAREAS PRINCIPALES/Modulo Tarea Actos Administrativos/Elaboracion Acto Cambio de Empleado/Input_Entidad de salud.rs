@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Input_Entidad de salud</name>
+   <tag></tag>
+   <elementGuidId>23312262-c349-47bc-ab27-fd407ab213d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>c3ee958c-a6a9-43a8-aeb0-0a3f7f0780c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1650917019628</value>
+      <webElementGuid>10b3ce35-12e2-4921-bfc2-ee7dd7351b0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -33,5 +33,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/a_Necesidad_formRecursoLogisticopanel_recursostabla_recursosj_idt949'))
 
-WebUI.closeBrowser()
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Recursos/td_Internet'), 1))
+{
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
 

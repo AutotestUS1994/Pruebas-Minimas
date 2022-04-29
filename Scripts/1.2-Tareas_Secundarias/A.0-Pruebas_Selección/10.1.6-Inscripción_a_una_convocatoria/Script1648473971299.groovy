@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('No Funciona la inscripcion')
+
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/input_Empresa 1_form_templatej_idt24_input'), 
@@ -90,6 +92,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
     }
 } else {
     String pk2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 0'))
@@ -158,6 +162,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+            WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
         }
     } else {
         String pk3 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 1'))
@@ -226,6 +232,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
             }
         } else {
             String pk4 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 2'))
@@ -246,6 +254,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                     1)) {
@@ -294,6 +304,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                 }
             } else {
                 String pk5 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 3'))
@@ -314,6 +326,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                         1)) {
@@ -372,6 +386,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                     }
                 } else {
                     String pk6 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 4'))
@@ -392,6 +408,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                         if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                             1)) {
@@ -440,6 +458,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                            WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                         }
                     } else {
                         String pk7 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 5'))
@@ -460,6 +480,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                            WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                             if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                 1)) {
@@ -508,6 +530,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                             }
                         } else {
                             String pk8 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 6'))
@@ -528,6 +552,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                                 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                     1)) {
@@ -576,6 +602,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                                 }
                             } else {
                                 String pk9 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 7'))
@@ -596,6 +624,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                    WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                                     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                         1)) {
@@ -644,6 +674,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                                     }
                                 } else {
                                     String pk10 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_pruebas katalon 10.1.5 - Copy 8'))
@@ -664,6 +696,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                        WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
                                         if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/p_El candidato ha sido registrado correctamente'), 
                                             1)) {
@@ -712,6 +746,8 @@ if (pk1 == 'pruebas katalon 10.1.5') {
                                             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/span_CONSTANTINO  JHON'))
 
                                             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Inscripción_a_una_convocatoria/a_Guardar'))
+
+                                            WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
                                         }
                                     }
                                 }

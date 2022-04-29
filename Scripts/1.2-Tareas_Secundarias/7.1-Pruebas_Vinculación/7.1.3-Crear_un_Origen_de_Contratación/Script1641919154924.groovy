@@ -26,15 +26,15 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Cr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Origen Contratacin'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'), 
-    1))
-{
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/td_Pruebas katalon'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Eliminar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Eliminar'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Aceptar'))
 }
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Nuevo'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/input_Cdigo_form_origencontratacioncodigo'), 
@@ -49,7 +49,16 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_Datos de un RequerimientoDatos de una SeleccionNo aplica'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/select_SiNo'), 
+    1)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_Origen_de_Contratación/a_Guardar'))
 
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'Se adiciono el registro correctamente') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

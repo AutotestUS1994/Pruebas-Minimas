@@ -39,6 +39,12 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/td_Con inconsistencia'))
 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/input_Operador_j_idt96j_idt127'), 
+    'MENDOZA 2727')
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/input_Operador_j_idt96j_idt127'), 
+    Keys.chord(Keys.ENTER))
+
 if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/Page_SARA/span_Mendoza 2727 Empleado'), 
     1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/Page_SARA/span_Mendoza 2727 Empleado'))
@@ -63,7 +69,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/a_Generar_secundario'))
 
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/input_Estado_j_idt90j_idt119'), 
-        'Mendoza 2727 Empleado')
+        '2386173')
 
     WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Descargar Nomina Electronica/input_Estado_j_idt90j_idt119'), 
         Keys.chord(Keys.ENTER))

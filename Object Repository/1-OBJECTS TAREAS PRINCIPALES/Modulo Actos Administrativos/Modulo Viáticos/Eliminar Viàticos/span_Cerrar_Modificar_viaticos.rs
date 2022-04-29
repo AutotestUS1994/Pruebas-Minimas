@@ -6,12 +6,13 @@
    <elementGuidId>6373aab0-0ebe-4aac-96c9-2cafcfee364f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form/div/div/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-icon.ui-icon-closethick</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div/div/a/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>b504e45e-22cb-4a0f-8b73-9a4f3b69e4da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>f12d9d82-d53a-4d19-9f27-6445179bba5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:j_idt127&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>b85d8412-a483-4633-831f-5f8a350467a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoviaticos:j_idt127']/div/a/span</value>
+      <webElementGuid>103fb6bb-538d-4bb1-afd9-6b4eef62461f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/span</value>
+      <webElementGuid>d8b99777-eb29-4e85-a33f-ef07b14f4fe0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

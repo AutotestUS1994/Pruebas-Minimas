@@ -49,7 +49,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
 
-    WebUI.closeBrowser()
+    String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+	if(Result == 'Registro ingresado correctamente..') {
+		String Resultado = 'PRUEBA OK'
+		WebUI.closeBrowser()
+	}
+    else {
+		WebUI.acceptAlert()
+	}
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.3-Crear_una_Etapa'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -85,7 +92,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
 
-        WebUI.closeBrowser()
+        String Result0 =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+		if(Result0 == 'Registro ingresado correctamente..') {
+			String Resultado1 = 'PRUEBA OK'
+			WebUI.closeBrowser()
+		}
+        else {
+			WebUI.acceptAlert()
+		}
     }
 }
 

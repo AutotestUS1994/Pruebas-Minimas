@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_informacin</name>
+   <tag></tag>
+   <elementGuidId>93ddabec-f7c2-4d04-8838-005e1fcd1fd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[3]/div/div/form[11]/div/div[2]/div[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>522e6945-33a8-4c53-9e08-0fdb981254d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1651177893527</value>
+      <webElementGuid>f0543eb6-1417-49da-bce7-5814cd07cd77</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

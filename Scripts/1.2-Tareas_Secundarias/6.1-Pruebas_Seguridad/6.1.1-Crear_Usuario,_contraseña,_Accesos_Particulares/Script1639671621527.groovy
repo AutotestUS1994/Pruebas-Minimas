@@ -105,4 +105,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
     2)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Aplicacin_usuarioformatabtabla_rolesj_idt148'))
+ 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
+if(Result == 'Se adicionó el registro satisfactoriamente') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

@@ -45,3 +45,11 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas E
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_un_periodo_de_evaluación/a_Guardar'))
 
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'El registro ha sido insertado correctamente') {
+	String Resultado = 'PRUEBAS OK'
+}
+else {
+	WebUI.acceptAlert()
+}

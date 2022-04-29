@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/input_Empresa 1_form_templatej_idt24_input'), 'proceso de seleccion')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/input_Empresa 1_form_templatej_idt24_input'), 
+    'proceso de seleccion')
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/span_Proceso de Se'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/span_Proceso de Se'), 
+    0)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/span_Proceso de Se'))
 
@@ -69,3 +71,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Co
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/a_No se encontr registros_seleccion_procesotabla_ventanaCDTBj_idt1582'))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta')) 
+
+if(Result == 'Se guardó el registro correctamente') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

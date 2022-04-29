@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>f24590f7-1d2a-436b-9155-73271d40ec8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_none</value>
+      <webElementGuid>40cf2cb5-31a7-4694-aede-8e27f7b46c83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>A A A</value>
+      <webElementGuid>9befebe9-2727-403c-b27b-ddaa4812856b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupHojaVida:listaHojaVida_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo_none&quot;]</value>
+      <webElementGuid>cfe365a6-665d-4bce-b9e2-3c53402c8704</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formPopupHojaVida:listaHojaVida_data']/tr/td[2]/span</value>
+      <webElementGuid>d581e7fa-414a-45b9-ad16-ced0d874b2f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro Hoja de Vida'])[1]/following::span[4]</value>
+      <webElementGuid>4f3fbbf3-a4da-40f9-b122-ccd7e5366025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asunto'])[1]/following::span[6]</value>
+      <webElementGuid>c0471b76-65ca-44dc-ba56-edb2a952ede5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='codigoxyz'])[1]/preceding::span[1]</value>
+      <webElementGuid>cdfad5aa-119a-4f80-9348-3998dab5f7ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aalfalfa Aalfalfa Aalfalfa'])[1]/preceding::span[2]</value>
+      <webElementGuid>d39022ab-f7ea-4d52-991f-d4f2dc63e549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
+      <webElementGuid>46066bbf-95fb-4599-bf00-06f11a6031bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
+      <webElementGuid>0d698bc7-52a4-4e91-8c62-81395d7e0010</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

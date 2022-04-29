@@ -34,10 +34,10 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
     6)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMinima'), 
-    '1')
+    '22')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMaxima'), 
-    '80')
+    '45')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBj_idt794'))
 
@@ -58,10 +58,10 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
     6)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMinima'), 
-    '1')
+    '22')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/input_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBedadMaxima'), 
-    '80')
+    '45')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Tipo Campo_form_condicionDerechoTipoBeneftabla_ventanaCDTBj_idt794'))
 
@@ -76,12 +76,13 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtr
 
 WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/span_Listado Hojas de Vida (hoj)'), 
     0)
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Acevedo Rubio Luis Felipe'),
-	1))
-{
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
 
-else {WebUI.acceptAlert()}
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Acevedo Rubio Luis Felipe'), 
+    1)) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

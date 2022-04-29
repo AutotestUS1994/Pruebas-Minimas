@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('SE GENERA FALLA AL DAR CLICK SOBRE REGISTRO ACTIVIDAD')
+
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/input_Empresa 1_form_templatej_idt24_input'), 
@@ -62,7 +64,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Aplicar'))
 
-    WebUI.closeBrowser()
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result0 == 'Procesado Exitosamente') {
+        String Resultado0 = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Nombre Persona_listado_contratacionj_idt68'))
 
@@ -108,11 +118,19 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
         
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Actividad'))
 
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_2. Elaborar contrato'))
+        WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/td_2. Elaborar contrato'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Aplicar'))
 
-        WebUI.closeBrowser()
+        String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result1 == 'Procesado Exitosamente') {
+            String Resultado1 = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     } else {
         WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.6-Validar_Documentos'), [:], 
             FailureHandling.STOP_ON_FAILURE)
@@ -132,7 +150,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Elaborar_Contrato/a_Aplicar'))
 
-        WebUI.closeBrowser()
+        String Result2 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result2 == 'Procesado Exitosamente') {
+            String Resultado = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     }
 }
 

@@ -145,5 +145,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/a_Guardar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se Modifico el registro correctamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+	}
+else{
+	WebUI.acceptAlert()
+}
 

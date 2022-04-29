@@ -465,7 +465,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Liquidar'))
 
-    WebUI.selectOptionByIndex(findTestObject('Modulo compensaciones/Terminación_de_Contrato_Definitivo/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (1)/select_SUSTITUCIN PATRONALUNILATERAL DEL EMPLEADOJUSTA CAUSATERMINACION DE CONTRATOSIN JUSTA CAUSAPENSIONMUTUO ACUERDO'), 
         '5')
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (1)/select_---SELECCIONE ---DirectoEntidad de PagoPeriodo de Nomina'), 

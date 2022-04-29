@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Internet</name>
+   <tag></tag>
+   <elementGuidId>51872bee-91e2-4f58-8d5a-40404989a98b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Internet']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>20d310c2-cc2d-4644-ab58-643b1f1e81c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>a814f764-4fc9-4f4b-abbf-ab3a66af8496</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Internet</value>
+      <webElementGuid>e62116c1-77ef-4db2-b2af-edec1ed27d8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formRecursoLogistico:panel_recursos:tabla_recursos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>74530fa7-4f56-4953-99cd-e840c470424c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formRecursoLogistico:panel_recursos:tabla_recursos_data']/tr/td</value>
+      <webElementGuid>9d1a58f4-d0fa-4f1a-8944-f7822f64a111</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Necesidad'])[1]/following::td[1]</value>
+      <webElementGuid>75276fd6-f4eb-4cc0-8457-acbc910a7fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recursos'])[3]/following::td[1]</value>
+      <webElementGuid>d647ad79-2611-4f99-9198-b1b2192ea1c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INDISPENSABLE'])[1]/preceding::td[1]</value>
+      <webElementGuid>8544a013-fa59-4e7f-a6b9-07d7c8699c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::td[14]</value>
+      <webElementGuid>b2ac0e79-e17d-4ed6-8302-13dfbfdb8180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Internet']/parent::*</value>
+      <webElementGuid>48093afc-6b11-4327-a235-daef4ac94dc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/table/tbody/tr/td</value>
+      <webElementGuid>9652485d-a4db-46ed-b797-c09866f7c8ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Internet' or . = 'Internet')]</value>
+      <webElementGuid>c041f2fe-df6a-444f-bc1c-5bbb354960cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -35,6 +35,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Segui
 String codigoR = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Adicion/td_123456'))
 
 if (codigo == codigoR) {
+	String Resultado = 'PRUEBA OK'
     WebUI.closeBrowser()
 } else {
     FailureHandling.STOP_ON_FAILURE

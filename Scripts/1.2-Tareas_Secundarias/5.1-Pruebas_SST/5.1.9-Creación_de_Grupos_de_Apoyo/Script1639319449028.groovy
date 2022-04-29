@@ -15,8 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-/*librerias para ejecutar botones con java sript*/
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+/*librerias para ejecutar botones con java sript*/ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,7 +28,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación d
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/input_Descripcin_form_equipoTrabajoSalfiltroGrupoApoyo0'), 
     'Katalon')
 
-if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/td_PRUEBAS KATALON0'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/td_PRUEBAS KATALON0'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/td_PRUEBAS KATALON0'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/a_Anexos'))
@@ -54,7 +54,8 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/a_Actividades'))
 
-    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_A A A'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_A A A'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_A A A'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/a_Asistentes'))
@@ -78,8 +79,10 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/a_Integrantes'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), 1)) {
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), FailureHandling.STOP_ON_FAILURE)
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/span_SEDE NORTE'), 
+            FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/a_Eliminar2'))
 
@@ -231,5 +234,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación de Grupos de Apoyo/a_Descargar_form_equipoTrabajoSaltabtablaAnexosj_idt209'))
 
-WebUI.closeBrowser()
-
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if (Result == 'Registro Actualizado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}

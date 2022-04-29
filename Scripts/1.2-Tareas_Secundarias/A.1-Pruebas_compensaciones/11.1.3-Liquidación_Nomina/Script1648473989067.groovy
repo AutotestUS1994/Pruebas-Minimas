@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'), 'Liquidacion Nomina')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'), 
+    'Liquidacion Nomina')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/li_Liquidacion Nomina (com)'))
 
@@ -44,7 +45,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/L
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Ver'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 1))
-{
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 
+    1)) {
+    String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
 }
+else {WebUI.acceptAlert()}

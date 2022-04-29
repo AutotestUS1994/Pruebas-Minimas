@@ -6,12 +6,12 @@
    <elementGuidId>9aa14e57-a45c-4cb3-b70b-1f1e8ae9915b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[(text() = '123' or . = '123')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.ui-state-highlight.fila_tabla_ace.ui-state-hover > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[2]/div/div[2]/table/tbody/tr/td/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>0d151522-5873-44a0-9e76-0c12b685799e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>fc9d3a8d-0b89-44f0-9d3e-6b8aab3496df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>123</value>
+      <webElementGuid>dee40f5a-9d0c-40ef-82d7-e272b2eb3131</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupprogramacionviaticos:pestanias:otrasEntidadesTabla_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>68c97bd5-6756-426b-9f04-06632d1e5b96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_popupprogramacionviaticos:pestanias:otrasEntidadesTabla_data']/tr/td</value>
+      <webElementGuid>cc541cb2-677a-4ae2-b233-91748dddb7d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[1]/following::td[1]</value>
+      <webElementGuid>f4deba0c-c23e-4814-ac66-ffb3cb86dcba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inicial'])[1]/following::td[1]</value>
+      <webElementGuid>37795c89-a799-465a-b83c-79334a551e35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[2]/preceding::td[12]</value>
+      <webElementGuid>144d6181-9e22-4172-a7e2-31cb6de1c843</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[2]/preceding::td[12]</value>
+      <webElementGuid>03c363bd-8c12-4b8b-9fba-e13a8aed2b4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div[2]/table/tbody/tr/td</value>
+      <webElementGuid>53ac6532-3a56-49a0-9b46-8db60417c4ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '123' or . = '123')]</value>
+      <webElementGuid>391560da-a459-47d7-90ff-2b0bbcb646ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

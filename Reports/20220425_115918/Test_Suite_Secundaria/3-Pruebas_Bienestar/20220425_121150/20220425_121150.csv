@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3-Pruebas_Bienestar,Chrome 100.0.4896.127,,,2022-04-25 12:11:59,2022-04-25 12:13:03,"1m - 4,476s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.3-Inscripción_masiva,Chrome 100.0.4896.127,,,2022-04-25 12:11:59,2022-04-25 12:12:38,"39,042s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-04-25 12:12:00,2022-04-25 12:12:12,"12,495s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/td_Prueba-S-SH""), 0)",Chrome 100.0.4896.127,,,2022-04-25 12:12:12,2022-04-25 12:12:13,"1,189s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/td_Prueba-S-SH""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:13,2022-04-25 12:12:14,"0,387s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_Participante""), 0)",Chrome 100.0.4896.127,,,2022-04-25 12:12:14,2022-04-25 12:12:15,"0,927s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_Participante""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:15,2022-04-25 12:12:15,"0,386s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/a_Individual""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:15,2022-04-25 12:12:16,"0,422s",PASSED
+"if (waitForElementPresent(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/td_Ardila Julio""), 1))",Chrome 100.0.4896.127,,,2022-04-25 12:12:16,2022-04-25 12:12:19,"3,395s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/a_Inscribirse_Menu""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:19,2022-04-25 12:12:20,"1,039s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/select_SeleccioneCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS""), 1)",Chrome 100.0.4896.127,,,2022-04-25 12:12:20,2022-04-25 12:12:21,"1,382s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/a_Filtrar""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:21,2022-04-25 12:12:22,"0,700s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/select_-- Seleccione --prueba-S-SH""), 1)",Chrome 100.0.4896.127,,,2022-04-25 12:12:22,2022-04-25 12:12:24,"1,693s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box1""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:24,2022-04-25 12:12:24,"0,422s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box2""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:24,2022-04-25 12:12:25,"0,756s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box3""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:25,2022-04-25 12:12:26,"0,652s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box4""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:26,2022-04-25 12:12:26,"0,612s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box5""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:26,2022-04-25 12:12:27,"0,698s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box6""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:27,2022-04-25 12:12:28,"0,812s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box7""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:28,2022-04-25 12:12:28,"0,668s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box8""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:28,2022-04-25 12:12:29,"0,645s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box9""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:29,2022-04-25 12:12:30,"0,668s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box10""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:30,2022-04-25 12:12:30,"0,633s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box11""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:30,2022-04-25 12:12:31,"0,628s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box12""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:31,2022-04-25 12:12:32,"0,610s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box13""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:32,2022-04-25 12:12:32,"0,659s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box14""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:32,2022-04-25 12:12:33,"0,675s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box15""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:33,2022-04-25 12:12:34,"0,657s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box16""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:34,2022-04-25 12:12:34,"0,667s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box17""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:34,2022-04-25 12:12:35,"0,652s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box18""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:35,2022-04-25 12:12:36,"0,724s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box19""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:36,2022-04-25 12:12:36,"0,676s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/div_chkbox-box20""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:36,2022-04-25 12:12:37,"0,666s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción masiva/a_Inscribirse""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:37,2022-04-25 12:12:38,"0,699s",PASSED
+acceptAlert(),Chrome 100.0.4896.127,,,2022-04-25 12:12:38,2022-04-25 12:12:38,"0,456s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.6-Sancionados,Chrome 100.0.4896.127,,,2022-04-25 12:12:38,2022-04-25 12:13:03,"24,999s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-04-25 12:12:39,2022-04-25 12:12:48,"9,320s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_Prueba-S-SH""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:48,2022-04-25 12:12:50,"1,702s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/div_Participante""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:50,2022-04-25 12:12:51,"0,964s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Individual""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:51,2022-04-25 12:12:51,"0,403s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_Diaz Blanco Guisell""), 1))",Chrome 100.0.4896.127,,,2022-04-25 12:12:51,2022-04-25 12:12:53,"2,267s",PASSED
+else,Chrome 100.0.4896.127,,,2022-04-25 12:12:53,2022-04-25 12:12:59,"5,881s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Sancionados""))",Chrome 100.0.4896.127,,,2022-04-25 12:12:59,2022-04-25 12:13:00,"0,942s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_PRUEBAS K_form_sancionadoslistaSancionados0j_idt641""), 1))",Chrome 100.0.4896.127,,,2022-04-25 12:13:00,2022-04-25 12:13:02,"2,191s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell""), 2)",Chrome 100.0.4896.127,,,2022-04-25 12:13:02,2022-04-25 12:13:03,"0,853s",FAILED

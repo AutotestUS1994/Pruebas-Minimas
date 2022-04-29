@@ -24,6 +24,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Segui
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
     'saraadmin')
 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/td_18012022 092902'), 
     0)
 
@@ -37,6 +40,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Segui
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
     'weblogic')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Acceso/input_Vista Suceso Acceso Sistema_form_visorj_idt253j_idt306'), 
     Keys.chord(Keys.ENTER))

@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'Inconsistencias Evento')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 
+    'Inconsistencias Evento')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)'))
 
@@ -37,11 +38,21 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Hora Final_formPopupSolucionInconsistenciahoraFin_input'), 
         Keys.chord(Keys.ENTER))
 
-    WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/label_Inconsistencias'), 0)
+    WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/label_Inconsistencias'), 
+        0)
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/label_Inconsistencias'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
+
+    String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+	
+	if(Result == 'Se soluciono la inconsistencia del registro') {
+		String Resultado0 = 'PRUEBA OK'
+	}
+	else{
+		WebUI.acceptAlert()
+	}
 } else {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/a_Nuevo'))
 
@@ -50,14 +61,17 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Filter by Nombre_formPopupRelojj_idt204j_idt207filter'), 
         FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/td_Almanza Rosas Silvis2'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/td_Almanza Rosas Silvis2'), 
+        FailureHandling.STOP_ON_FAILURE)
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Fecha Inicial_formPopupRelojfechaIni_input'), 
         '23/03/2019')
 
-    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Hora_formPopupRelojhoraIni'), '06')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Hora_formPopupRelojhoraIni'), 
+        '06')
 
-    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input__formPopupRelojminutoIni'), '10')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input__formPopupRelojminutoIni'), 
+        '10')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/label_Evento'))
 
@@ -76,5 +90,13 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/label_Inconsistencias'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
+
+    String Result0=WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+	if(Result0 == 'Se soluciono la inconsistencia del registro') {
+		String Resultado = 'PRUEBA OK'
+	}
+    else{
+		WebUI.acceptAlert()
+	}
 }
 

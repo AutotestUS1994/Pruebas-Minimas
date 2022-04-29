@@ -250,5 +250,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_Empresa_principal'), 
     1)
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/td_PRUEBA KATALON'), 
+    1)) {
+String Resultado= 'PRUEBA OK'
 WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
 

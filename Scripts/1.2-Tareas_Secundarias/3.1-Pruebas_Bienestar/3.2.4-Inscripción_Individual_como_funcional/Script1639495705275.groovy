@@ -59,3 +59,11 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_Individual_como_funcional/a_Guardar'))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se ha registrado en el evento.') {
+	String Resultado = 'PRUEBA OK'
+	
+}
+else {
+	WebUI.acceptAlert()
+}

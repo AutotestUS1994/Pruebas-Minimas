@@ -214,6 +214,12 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Entidad_form_popupprogramacionviaticospestaniasj_idt1581'))
 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Entidad Viatico_popupSeleccionEntidadViaticoFormfiltro'), 
+        '00123')
+
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Entidad Viatico_popupSeleccionEntidadViaticoFormfiltro'), 
+        Keys.chord(Keys.ENTER))
+
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123'), 
         0)
 
@@ -430,6 +436,12 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
         '1')
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/a_Entidad_form_popupprogramacionviaticospestaniasj_idt1581'))
+
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Entidad Viatico_popupSeleccionEntidadViaticoFormfiltro'), 
+        '00123')
+
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Entidad Viatico_popupSeleccionEntidadViaticoFormfiltro'), 
+        Keys.chord(Keys.ENTER))
 
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/td_123'), 
         0)

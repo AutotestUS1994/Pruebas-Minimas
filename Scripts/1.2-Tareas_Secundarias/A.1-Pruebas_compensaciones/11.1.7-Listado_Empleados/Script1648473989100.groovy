@@ -19,12 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'), 'Listado de Empleados')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input'), 
+    'Listado de Empleados')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/li_Listado de Empleados (com)'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
-    'Consta')
+    'Aya Silva Cindy Ximena')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
     Keys.chord(Keys.ENTER))
@@ -50,12 +51,13 @@ if (totalA == '10.000,00') {
 
     WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 'listado de empleados')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 
+        'listado de empleados')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Listado de Empleados'))
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
-        'consta')
+        'Aya Silva Cindy Ximena')
 
     WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
         Keys.chord(Keys.ENTER))
@@ -69,8 +71,13 @@ if (totalA == '10.000,00') {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
 
-    WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'))
-
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Pagos o Descuentos Extra'), 
+        1)) {
+	String Result = 'PRUEBA OK'
     WebUI.closeBrowser()
-}
+    }
+	else {
+		WebUI.acceptAlert()
+		}
+	}
 

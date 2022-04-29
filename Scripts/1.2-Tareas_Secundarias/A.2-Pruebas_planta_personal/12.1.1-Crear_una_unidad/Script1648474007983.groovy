@@ -78,3 +78,11 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas p
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_una_unidad/a_Actualizar'))
 
+String Result0 =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result0 == 'Se guardo exitosamente el registro') {
+	String Resultado0 = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}

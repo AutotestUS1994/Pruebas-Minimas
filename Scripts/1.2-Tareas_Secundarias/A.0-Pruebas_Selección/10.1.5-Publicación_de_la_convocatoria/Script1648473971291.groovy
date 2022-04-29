@@ -62,14 +62,18 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Pu
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Hasta_seleccion_procesofecha_hasta_input'), 
     fechaF)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/div_Detalle_ql-editor ql-blank'), 'pruebas katalon 10.1.5')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/div_Detalle_ql-editor ql-blank'), 
+    'pruebas katalon 10.1.5')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/a_Publicar'))
 
-if (WebUI.waitForElementNotVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/p_El proceso ha sido publicado exitosamente'), 
-    1)) {
-    WebUI.acceptAlert()
-} else {
-    WebUI.closeBrowser()
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result =='El proceso ha sido publicado exitosamente') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
 }
+else {
+	WebUI.acceptAlert()
+}
+
 

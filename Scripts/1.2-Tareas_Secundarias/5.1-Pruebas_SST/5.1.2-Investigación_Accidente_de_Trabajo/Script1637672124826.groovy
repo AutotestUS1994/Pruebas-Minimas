@@ -302,5 +302,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investiga
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Descargar_j_idt1810tabInvestigacionAccidentadotablaAnexosj_idt2037'))
 
-WebUI.closeBrowser()
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Registro Actualizado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
 

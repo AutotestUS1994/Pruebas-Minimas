@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pagos o Descuentos Extra</name>
+   <tag></tag>
+   <elementGuidId>b033b51e-723a-47ee-b8fd-e08035a7b1a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1763c4a7-f0b3-4ff4-89d8-6e6b56c806ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2380</value>
+      <webElementGuid>5714ff42-970b-4ac7-b203-2221aa644cad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>d712ab2d-5a51-4a81-9a2e-3b8dc5fe9fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pagos o Descuentos Extra</value>
+      <webElementGuid>c1c19a20-4625-40e7-adb4-8b48d1f3d69b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas&quot;)/ul[@class=&quot;ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all&quot;]/li[@class=&quot;ui-tabs-header ui-state-default ui-corner-top&quot;]/a[1]</value>
+      <webElementGuid>eadb351c-1d50-4797-a323-f86a8301d13b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas']/ul/li[2]/a</value>
+      <webElementGuid>e5e0064d-d41b-456a-98cb-b7f844ddf583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pagos o Descuentos Extra')]</value>
+      <webElementGuid>4eadfcd0-536a-4363-9ffc-77fb0974ff0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liquidación'])[1]/following::a[1]</value>
+      <webElementGuid>076a971e-eab1-4876-8dd1-35f03ad33f4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prestamos'])[1]/following::a[2]</value>
+      <webElementGuid>5f1155b7-7ad4-41cd-84df-4bc8cffbe082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Base Liquidacion'])[1]/preceding::a[1]</value>
+      <webElementGuid>caeb8cc6-e482-473c-93e2-a08cc4b6b668</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Novedad'])[1]/preceding::a[2]</value>
+      <webElementGuid>5c6bdaf5-f4a2-4b6f-8426-fdbcc46ca0a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pagos o Descuentos Extra']/parent::*</value>
+      <webElementGuid>dde41149-5926-4644-94a9-5f79fecadd60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2380')]</value>
+      <webElementGuid>8fdde789-613c-4439-b64b-23821401256a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul/li[2]/a</value>
+      <webElementGuid>cef80c52-db5e-4861-a041-bf4becc54c53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2380' and (text() = 'Pagos o Descuentos Extra' or . = 'Pagos o Descuentos Extra')]</value>
+      <webElementGuid>1890010a-9f83-47c9-b196-8788b72f5663</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -22,16 +22,19 @@ WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILU
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Cursos (cap)')
 
-WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/li_Cursos (cap)'), 0)
+WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/li_Cursos (cap)'), 
+    0)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/li_Cursos (cap)'), FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/td_Prueba'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/td_Prueba'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/td_Prueba'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Tema'))
 
-    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/span_Tema'), 1)) {
+    if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/span_Tema'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Tema_form_cursopestaniaslistaTemas0j_idt608'))
     }
     
@@ -44,7 +47,8 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Nuevo'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Curso_form_cursopestaniasdescripcion'), 'Prueba')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Curso_form_cursopestaniasdescripcion'), 
+    'Prueba')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Intensidad Horaria_form_cursopestaniasintensidad'), 
     '12')
@@ -69,7 +73,8 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas c
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_SeleccioneNINGUNOIcetexInstituto Caro y Cuervo.PositivaSena'), 
     5)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_ActivoCancelado'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_ActivoCancelado'), 
+    1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_Asistencia Mnima Horas_form_cursopestaniasasistenciamin'), 
     '8')
@@ -80,7 +85,8 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Poblacin Objeto_form_cursopestaniascobertura'), 
     'null')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Objetivo_form_cursopestaniasimpacto'), 'null')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Objetivo_form_cursopestaniasimpacto'), 
+    'null')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Contenido_form_cursopestaniascontenido'), 
     'null')
@@ -99,5 +105,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nu
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/a_Regresar'))
 
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/td_Prueba'), 
+    1)) {
+	String Resultado = 'PRUEBAS OK'
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

@@ -58,7 +58,8 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1726'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_A A A'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/span_A A A'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Solicitado Por_formj_idt661'))
 
@@ -72,5 +73,13 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_una_Necesidad_de_Capacitación/a_Guardar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Result == 'Registro guardado') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

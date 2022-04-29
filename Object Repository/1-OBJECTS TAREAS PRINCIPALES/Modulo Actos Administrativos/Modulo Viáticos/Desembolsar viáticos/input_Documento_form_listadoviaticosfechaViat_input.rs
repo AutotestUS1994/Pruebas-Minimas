@@ -6,11 +6,11 @@
    <elementGuidId>a4d023e7-c3ea-47a5-a804-986119900016</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='form_listadoviaticos:fechaViat_input']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//td[3]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>2e1833c6-de17-4624-aa7d-8fe017b38553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoviaticos:fechaViat_input</value>
+      <webElementGuid>2da087d0-6195-401e-8393-06cf48666be5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_listadoviaticos:fechaViat_input</value>
+      <webElementGuid>0d8b9639-2824-4faf-8f93-3159f8418232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>4c1a75ce-a21e-4214-8215-90424e3ca1eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>01/07/2021</value>
+      <webElementGuid>88e3527c-8e1f-45c5-aee5-7c091824c90e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>66b6f93b-6e9e-473e-ac92-9c9b0b07a938</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>b496accd-09d2-4ef9-a05f-dac6974c4fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>df8bde5e-2677-46df-b794-6f3a3a55d293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>7871e3a1-97e2-4487-b73f-84c1f3749062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:fechaViat_input&quot;)</value>
+      <webElementGuid>22b302be-ba92-4b53-bf1a-f651686e1337</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_listadoviaticos:fechaViat_input']</value>
+      <webElementGuid>c0180342-4477-47f2-8764-a585d9d4fd26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_listadoviaticos:fechaViat']/input</value>
+      <webElementGuid>b0b35ad2-ccd4-4cf2-af68-95a780aaa4cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span/input</value>
+      <webElementGuid>6fb75367-c35a-49f3-82f9-08c3f42408bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

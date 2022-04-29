@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/input_Empresa 1_form_templatej_idt24_input'), 'Control Evento Capacitacion')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/input_Empresa 1_form_templatej_idt24_input'), 
+    'Control Evento Capacitacion')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/li_Control Evento Capacitacion (cap)'))
 
@@ -43,7 +44,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/En
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/div_Almanza Novoa John Alexandre_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePruebas k'), 1)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePruebas k'), 
+    1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 
     1)
@@ -74,5 +76,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/En
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/span_Cupo_ui-icon ui-icon-closethick'))
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/td_80097770'), 
+    1)) {
+String Resultado = 'PRUEBA OK'
 WebUI.closeBrowser()
-
+}
+	else {
+		WebUI.acceptAlert()
+	}

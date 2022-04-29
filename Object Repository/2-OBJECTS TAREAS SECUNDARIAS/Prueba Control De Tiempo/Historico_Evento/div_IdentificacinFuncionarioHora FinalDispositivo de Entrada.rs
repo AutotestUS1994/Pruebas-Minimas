@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IdentificacinFuncionarioHora FinalDispositivo de Entrada</name>
+   <tag></tag>
+   <elementGuidId>e322ec41-bfa1-41b8-a569-e39dcb341b8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/table/tbody/tr[2]/td/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b228a2b8-7a7f-4a6d-a755-d0d010aebd4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>eventoHistoricos_form:tablaEventoHistorico</value>
+      <webElementGuid>50353452-d2f4-4724-8e59-d60f090a0102</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-datatable ui-widget</value>
+      <webElementGuid>7deb31bc-7f6e-42b5-a0af-14c4d89e2103</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IdentificaciónFuncionarioHora FinalDispositivo de EntradaDispositivo de SalidaMensajeEstado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:292019/03/23 11:29Entrada Sin SalidaCerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/01 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/07 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/06 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/03/28 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29CerradoFP1234NE</value>
+      <webElementGuid>0b0d157e-3db0-4da1-af25-24947ae98d70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;eventoHistoricos_form:tablaEventoHistorico&quot;)</value>
+      <webElementGuid>ef609005-ec93-481f-99c6-e60280dec605</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='eventoHistoricos_form:tablaEventoHistorico']</value>
+      <webElementGuid>e7d293b0-d541-49a5-9a2a-3ac268aa08fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='eventoHistoricos_form']/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>4a0269f3-6aaa-452a-a524-68ec99838abf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Persona'])[1]/following::div[1]</value>
+      <webElementGuid>12e5ffd2-e8e8-4d8a-8256-77c2b6206efc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[1]/following::div[2]</value>
+      <webElementGuid>20383675-6014-431e-aca4-174cb67411fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/table/tbody/tr[2]/td/div</value>
+      <webElementGuid>174f376c-9b23-4563-8d84-16ff151867d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'eventoHistoricos_form:tablaEventoHistorico' and (text() = 'IdentificaciónFuncionarioHora FinalDispositivo de EntradaDispositivo de SalidaMensajeEstado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:292019/03/23 11:29Entrada Sin SalidaCerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/01 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/07 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/06 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/03/28 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29CerradoFP1234NE' or . = 'IdentificaciónFuncionarioHora FinalDispositivo de EntradaDispositivo de SalidaMensajeEstado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1010220596A A A2021/07/01 08:102021/07/01 18:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:292019/03/23 11:29Entrada Sin SalidaCerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/01 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/07 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/04/06 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102022/03/28 00:00Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29Cerrado1019070748ALMANZA ROSAS SILVIS2019/03/23 06:102019/03/23 11:29CerradoFP1234NE')]</value>
+      <webElementGuid>7a9f24b4-84f0-48ed-9f88-e755300e5aaa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

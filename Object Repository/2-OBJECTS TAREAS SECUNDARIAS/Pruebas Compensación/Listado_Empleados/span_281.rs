@@ -6,12 +6,12 @@
    <elementGuidId>0fbbfb89-ac56-44db-9e1e-d7b77d994fd2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace > td > span.valor_campo</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Prestamo Compañía']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='281']/parent::*</value>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace > td > span.valor_campo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>1974a807-a08b-40f8-a4ac-fc6dfc6d20c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>5a85aaac-b742-4f2e-b343-8e6deb46a632</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>281</value>
+      <webElementGuid>ac35e82d-0652-4d29-adc8-fc08c36cce09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_liquidacionesPeriodicasEmpleado:tablaPrestamos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>627b2ff9-98e6-4b69-a34d-673643dcd07f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_liquidacionesPeriodicasEmpleado:tablaPrestamos_data']/tr/td/span</value>
+      <webElementGuid>df82354a-046b-4a0b-8817-cb23ff2a61ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::span[4]</value>
+      <webElementGuid>8d244690-1561-4e85-96a8-3431961d5575</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[2]/following::span[5]</value>
+      <webElementGuid>a2f794be-b9c9-45c6-b3dc-b5245929cf2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prestamo Compañía'])[1]/preceding::span[1]</value>
+      <webElementGuid>ecc226e1-fcd6-4d79-9bdb-16e784edba6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[2]/preceding::span[2]</value>
+      <webElementGuid>fa0146ad-24a7-41b0-b626-216df8d8a384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='281']/parent::*</value>
+      <webElementGuid>c58898c3-f916-430c-b07a-a2b73682afbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td/span</value>
+      <webElementGuid>57dda683-6da6-4424-afc7-201eeb4f952f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '281' or . = '281')]</value>
+      <webElementGuid>820bf197-906a-48f9-9041-1ed4decf2a99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

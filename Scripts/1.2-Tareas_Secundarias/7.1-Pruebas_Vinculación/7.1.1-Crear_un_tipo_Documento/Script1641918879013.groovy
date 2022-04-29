@@ -57,5 +57,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/a_Guardar'))
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se adiciono el registro correctamente') {
+	String Resultado = 'Se adiciono el registro correctamente'
+	WebUI.closeBrowser()
+	}
+else {
+	WebUI.acceptAlert()
+}
 

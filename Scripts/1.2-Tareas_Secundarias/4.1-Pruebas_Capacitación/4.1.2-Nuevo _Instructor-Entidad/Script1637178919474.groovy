@@ -19,43 +19,50 @@ import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
 
 Date today = new Date()
+
 /*--------------------------------------------*/
-
 Number Dia = ((today.format('dd')) as Integer)
+
 Number Mes = ((today.format('MM')) as Integer)
+
 Number MesN = ((today.format('MM')) as Integer)
+
 Number Año = ((today.format('yyyy')) as Integer)
+
 /*-----------------------------------------------*/
-
 Number sumaD = Dia + 10
-Number sumaM = Mes + 1
-Number sumaA = Año + 1
-/*--------------------------*/
 
+Number sumaM = Mes + 1
+
+Number sumaA = Año + 1
+
+/*--------------------------*/
 if (sumaD > 30) {
     sumaD = (sumaD - Dia)
 
     Mes = sumaM
 } else {
     sumaD
+
     Mes
 }
-/*--------------------------*/
 
+/*--------------------------*/
 if (sumaM > 12) {
     Año = sumaA
+
     Mes = 1
 }
+
 /*---------------------------*/
-
 String FechaI = (((Dia + '/') + MesN) + '/') + Año
-String FechaF = (((sumaD + '/') + Mes) + '/') + Año
-/*----------------------------------------------------*/
 
+String FechaF = (((sumaD + '/') + Mes) + '/') + Año
+
+/*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 /*-----------------------------------------------------------------------------------------------------*/
-
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Parmetros EntidadInstructor_form_templatej_idt24_input'), 
     'Parametros Entidad/Instructor')
 
@@ -116,7 +123,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Motivo de Retiro_form_entidadtabmotivo'), 
     'ninguna')
 
-
-
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Guardar'))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se ingreso el registro') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+WebUI.acceptAlert()
+}

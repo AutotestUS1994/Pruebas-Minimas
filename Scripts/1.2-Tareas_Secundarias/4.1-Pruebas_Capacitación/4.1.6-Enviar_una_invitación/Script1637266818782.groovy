@@ -47,19 +47,31 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/En
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/a_Empleado_invitacioneventoPopup_formlinkPopupCoordinador'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1714'), 
-    'a')
+    'Galeano Perez Maricela')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt1714'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/span_A A A'))
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/select_SeleccionePrueba'), 1)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/div_Cargo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/select_SeleccionePrueba'), 
+    1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/input_Asunto_invitacioneventoPopup_formasunto'), 
     'null')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_una_invitación/a_Invitacin1'))
 
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Result == 'Se envio la invitación a los empleados') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
 WebUI.closeBrowser()
 

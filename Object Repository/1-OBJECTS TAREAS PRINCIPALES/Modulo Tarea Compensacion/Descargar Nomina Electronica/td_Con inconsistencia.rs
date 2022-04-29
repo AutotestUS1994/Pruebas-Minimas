@@ -6,11 +6,11 @@
    <elementGuidId>8ff13533-1cc5-4741-9bd6-ca70e2950e1b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Con inconsistencia']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='2021-07-01']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>155a2f66-5b9e-4aba-ace8-6d6b9a8aa4f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>cb5171d4-71b4-401c-a03c-4bc4fcd6c123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Con inconsistencia</value>
+      <webElementGuid>92d4dab3-3374-4975-a6a8-68bf65fb2a46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listado_nominaelectronica:listaNominaElectronica_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[6]</value>
+      <webElementGuid>5059a316-9300-415e-9cbe-9dce916e4d16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='listado_nominaelectronica:listaNominaElectronica_data']/tr/td[6]</value>
+      <webElementGuid>8d830e01-d505-4d1f-8a00-f85fcbde086a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina Individual'])[2]/following::td[4]</value>
+      <webElementGuid>d14f80de-0d8b-4500-a5f8-b6bdd575d05e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOGOTA'])[2]/following::td[5]</value>
+      <webElementGuid>ff19f378-6eb9-411a-b5d5-485e7fc9065a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOGOTA'])[3]/preceding::td[1]</value>
+      <webElementGuid>04ef5e19-c8f6-4f98-a7e0-9d4401921860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina Individual'])[3]/preceding::td[2]</value>
+      <webElementGuid>7247660a-8e6d-488e-9970-803d61edc136</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Con inconsistencia']/parent::*</value>
+      <webElementGuid>8beca1c3-5a7a-42b4-ae31-4b64f25ea964</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td/div/div/table/tbody/tr/td[6]</value>
+      <webElementGuid>d792061e-5f6a-4633-9844-bd0829e9b794</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

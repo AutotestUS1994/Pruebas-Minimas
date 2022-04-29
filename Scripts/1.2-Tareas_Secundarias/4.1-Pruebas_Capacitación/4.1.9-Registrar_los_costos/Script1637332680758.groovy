@@ -25,12 +25,13 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Re
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Registro'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'), 1))
-{
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_REFRIGERIO_formCostoEventopanel_costostabla_costos0j_idt634'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Aceptar'))
 }
+
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/select_SeleccioneALOJAMIENTOMATERIALESREFRIGERIOSALONTRANSPORTE'), 
     3)
 
@@ -44,4 +45,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
     '1000000')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Registrar_los_costos/a_Valor_formCostoEventopanel_costostabla_costosj_idt637'))
+
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Se ingreso el registro') {
+	String Resultado = 'PRUEBA OK'
+}
+else {
+	WebUI.acceptAlert()
+}
 

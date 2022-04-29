@@ -78,13 +78,17 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_Si'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'), 
-    0)
+String Result =WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/label_EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/a_Aceptar'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo-Traslado_puesto/span_movimiento de planta traslado puesto de trabajo'), 
-    1))
-{
-WebUI.closeBrowser()
+
+
+if (Result == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
+    String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
 }

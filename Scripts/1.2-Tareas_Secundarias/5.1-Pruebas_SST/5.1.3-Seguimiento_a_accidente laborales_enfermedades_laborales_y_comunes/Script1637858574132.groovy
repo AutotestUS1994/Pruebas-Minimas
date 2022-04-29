@@ -189,7 +189,15 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes/a_Guardar2'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/span_No se encontr registros_ui-icon ui-icon-closethick'))
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/span_No se encontr registros_ui-icon ui-icon-closethick'))
+if(Result == 'Se Guardó el registro correctamente') {
+	String Resultado ='PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+	WebUI.acceptAlert()
+}
+
 

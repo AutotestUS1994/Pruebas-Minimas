@@ -22,7 +22,8 @@ WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILU
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'entidades riesgo')
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'), 
+    0)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/span_entidad riesgo'))
 
@@ -32,7 +33,8 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/input_Nombre_form_entidadRiesgoj_idt59'), 
     Keys.chord(Keys.ENTER))
 
-if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'), 1)) {
+if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/td_PRUEBAS K'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Seguimiento'))
@@ -48,7 +50,8 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Entidad de Riesgo'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Eliminar1'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Aceptar1'))
@@ -147,7 +150,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_e
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Elementos'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'), 0)
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'), 
+    0)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Recomendacin'))
 
@@ -186,5 +190,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_una_entidad_de_riesgo_sst/a_Guardar'))
 
-WebUI.closeBrowser()
-
+String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+if(Result == 'Registro Actualizado') {
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}

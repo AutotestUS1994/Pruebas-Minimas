@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Acto cambio del Empleado</name>
+   <tag></tag>
+   <elementGuidId>15f06355-c4cd-4a84-850d-74846988bcd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr/td/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c7fc5d85-4811-4970-ba32-92032c399e46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label-acto</value>
+      <webElementGuid>a4278100-0d48-4025-a37b-f3660ce62989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Acto cambio del Empleado</value>
+      <webElementGuid>bcf30df2-83cf-463e-8f1e-13635bc4fa69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:tabla_actos:1:j_idt66&quot;)/span[@class=&quot;label-acto&quot;]</value>
+      <webElementGuid>81c70e86-8216-474c-8a81-b7ecfc72272c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='form_ActosAdministrativos:tabla_actos:1:j_idt66']/span</value>
+      <webElementGuid>e99d2327-b740-43f7-8abf-09529751ab14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos'])[2]/following::span[2]</value>
+      <webElementGuid>e1213f4f-10a9-44c0-ba3a-6fdc9c978ad1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::span[3]</value>
+      <webElementGuid>76ec88d2-45e3-4fed-8664-f5b6e1f44c2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos especiales'])[1]/preceding::span[1]</value>
+      <webElementGuid>0c38176f-378e-4a94-b984-30acf9947da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Ausencia'])[1]/preceding::span[2]</value>
+      <webElementGuid>12d143c8-fb24-42b6-827f-dac7fea71e1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Acto cambio del Empleado']/parent::*</value>
+      <webElementGuid>ba355676-0e37-401a-bab3-d8a63f6053c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr/td/a/span</value>
+      <webElementGuid>a33fc40a-4b26-471a-b81c-5ffdd32cf910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Acto cambio del Empleado' or . = 'Acto cambio del Empleado')]</value>
+      <webElementGuid>97b01fe5-01fd-434a-9284-ea884d95677b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

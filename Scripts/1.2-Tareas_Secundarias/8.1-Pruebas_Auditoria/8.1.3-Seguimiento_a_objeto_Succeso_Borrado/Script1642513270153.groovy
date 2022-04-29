@@ -39,3 +39,9 @@ WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Se
 WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_14012022 093405'), 
     0)
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Borrado/td_14012022 093405'), 
+    1)) {
+String Resultado = 'PRUEBA OK'
+
+}
+

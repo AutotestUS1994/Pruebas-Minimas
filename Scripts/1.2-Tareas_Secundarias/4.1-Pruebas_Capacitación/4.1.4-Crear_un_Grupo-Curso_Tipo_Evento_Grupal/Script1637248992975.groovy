@@ -27,7 +27,7 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
+    while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
 
@@ -48,7 +48,7 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
         '16:00')
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cupo_popupGruposEvento_formcupo'), 
-        '100')
+        '50')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
 } else {
@@ -83,11 +83,21 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             '16:00')
 
         WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cupo_popupGruposEvento_formcupo'), 
-            '100')
+            '50')
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
     }
 }
 
-WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if(Result == 'El grupo ha sido adicionado correctamente') {
+	
+	String Resultado = 'PRUEBA OK'
+	WebUI.closeBrowser()
+}
+else {
+WebUI.acceptAlert()
+}
+
 
