@@ -120,7 +120,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
         '01/07/2021')
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/input_Hasta_jornada_formhastaCI_input - Copy'), 
-        '02/07/2022')
+        '04/07/2021')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/a_Guardar2'))
 
