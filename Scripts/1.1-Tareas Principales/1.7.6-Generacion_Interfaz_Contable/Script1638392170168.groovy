@@ -48,6 +48,9 @@ WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo 
 WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
     0)
 
+WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar'), 
+    0)
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/a_Generar'))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion_Interfaz_Contable/select_NOMINA MENSUALNOMINA QUINCENAL'), 

@@ -35,13 +35,65 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Liquidacin Periodica'))
 
-while(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Prestamo Bancolombia'), 
+while (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Prestamo Bancolombia'), 
     1)) {
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Prestamo Bancolombia'))
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_ReversarEliminar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Prestamo Bancolombia'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Aceptar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_ReversarEliminar'))
+
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Aceptar'))
+
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/label_Tiene registros relacionados en la nomina'), 
+        1)) {
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Aceptar'))
+
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Empresa 1_form_templatej_idt24_input'), 
+            'Liquidacion nomina (com)')
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Liquidacion Nomina'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Periodo Nomina_LiquidacionNominaj_idt68'))
+
+        WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+            '2')
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_P. MensualJulio2021'))
+
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Nombre Persona_LiquidacionNominaj_idt124'), 
+            '1026588953')
+
+        WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Nombre Persona_LiquidacionNominaj_idt124'), 
+            Keys.chord(Keys.ENTER))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/td_1026588953'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Concepto'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Reversar'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Si'))
+
+        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Listado Empleados'), 
+            [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_close_popupFiltroEmplead'), 
+            '1026588953')
+
+        WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_close_popupFiltroEmplead'), 
+            Keys.chord(Keys.ENTER))
+
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_CONSTA BELFEGORD JHON'), 
+            GlobalVariable.G_TimeOut)
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_CONSTA BELFEGORD JHON'))
+
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Liquidacin Periodica'), 
+            GlobalVariable.G_TimeOut)
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Liquidacin Periodica'))
+    }
 }
+
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Nuevo'), 
     GlobalVariable.G_TimeOut)
 

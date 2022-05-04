@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -128,11 +130,11 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Nota_credito'))
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-        0)
-
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+    WebElement element5 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element5))
+	
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
         0)
 
@@ -270,11 +272,11 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Guardar_Nuevo_Reutilizar'))
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-        0)
-
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+    WebElement element4 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element4))
+	
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
         0)
 
@@ -398,11 +400,11 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Nota_credito'))
 
-        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-            0)
-
-        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+        WebElement element3 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+		WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element3))
+			
         WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
             0)
 
@@ -537,11 +539,10 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Guardar_Nuevo_Reutilizar'))
 
-        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-            0)
-
-        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+		WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+			WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element2))
         WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
             0)
 
@@ -638,11 +639,11 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
                 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Nota_credito'))
 
-                WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-                    0)
-
-                WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+				WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+				WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element1))
+				
                 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
                     0)
 
@@ -720,11 +721,11 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
             WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Aplicar_Nota_credito'))
 
-            WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-                0)
-
-            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+          	WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+			WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
+			
             WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
                 0)
 
@@ -847,11 +848,15 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
             WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Guardar_Nuevo_Reutilizar'))
 
-            WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'), 
-                0)
-
-            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'))
-
+			WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				0)
+			
+			WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/a_Cambiar estado'),
+				30)
+			
+			WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+			
+			
             WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Anulación y Legalización de viáticos/select_--Seleccione--Nota CreditoReembolsoRevisin'), 
                 0)
 
