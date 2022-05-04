@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Liquidacion Nomina</name>
+   <tag></tag>
+   <elementGuidId>7e2ccbdc-50f2-4b17-aa6d-33171b6e5971</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-autocomplete-query</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29fee2f6-26ec-4944-b857-3ae804d4c512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-autocomplete-query</value>
+      <webElementGuid>977b397f-2a84-4c7f-bf82-7c70f79c7b16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Liquidacion Nomina</value>
+      <webElementGuid>168cae57-8f11-4137-a889-888d232843be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
+      <webElementGuid>45d785ef-aaff-4a6f-a00d-6374acdd416c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
+      <webElementGuid>439aa4ed-bbe5-4eae-bf3f-bee2e67f23aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiene registros relacionados en la nomina'])[1]/following::span[3]</value>
+      <webElementGuid>4a1afbcb-2559-42ef-b06e-c7bf91d6e654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato'])[2]/preceding::span[3]</value>
+      <webElementGuid>fcbf5be8-d9e9-4d14-bfe9-9dbb8fe27cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::span[4]</value>
+      <webElementGuid>4a6776f6-5048-4ad4-9725-7bffdc5b68ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Liquidacion Nomina']/parent::*</value>
+      <webElementGuid>fa494f4a-32d7-444d-aae1-52f27b49cfee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li/span</value>
+      <webElementGuid>0b07eaef-8155-46e0-b7bd-e82ab00f6356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Liquidacion Nomina' or . = 'Liquidacion Nomina')]</value>
+      <webElementGuid>473a598d-ef29-466a-a64a-67a6f9d15125</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

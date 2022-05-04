@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Tiene registros relacionados en la nomina</name>
+   <tag></tag>
+   <elementGuidId>c5f1e68b-b28d-46c2-a814-ad3a7e8e8a03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Tiene registros relacionados en la nomina']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-margin-popup > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>5d5fd0b1-5dc9-4051-9900-fc01fc185a70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tiene registros relacionados en la nomina</value>
+      <webElementGuid>7a865ee0-b947-498b-ba87-344364e67b62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupInfoDialog:j_idt1485_content&quot;)/div[@class=&quot;us-margin-popup&quot;]/label[1]</value>
+      <webElementGuid>95774e41-a82e-48bf-818e-3c042b20d56d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2dfacd74-46f1-4a36-98c7-c31ca28ba768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tiene registros relacionados en la nomina</value>
+      <webElementGuid>927d9737-bb78-40e3-ba48-3f11cce0869d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupInfoDialog:j_idt1485_content&quot;)/div[@class=&quot;us-margin-popup&quot;]/label[1]</value>
+      <webElementGuid>3b894aad-369b-4de4-9163-dee8a4ad6db5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupInfoDialog:j_idt1485_content']/div[2]/label</value>
+      <webElementGuid>2c284a6b-edf4-48d6-bc3b-b1e56b3ca244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Advertencia'])[1]/following::label[1]</value>
+      <webElementGuid>3d5cd05f-afb2-4f0f-8371-0fbcdae2b3ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato'])[1]/following::label[2]</value>
+      <webElementGuid>7c72b0b7-7edb-4b0b-8078-ef4d43546af0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[1]</value>
+      <webElementGuid>cf285823-5db0-4363-9b7b-2184a0d3e867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::label[1]</value>
+      <webElementGuid>309bea3b-21e5-443b-8f74-f0db8dea37c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tiene registros relacionados en la nomina']/parent::*</value>
+      <webElementGuid>59080dc6-9a32-46e0-8c77-06ef7daeb236</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>bda3eac2-2ba6-42f5-9770-55b9e535da53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Tiene registros relacionados en la nomina' or . = 'Tiene registros relacionados en la nomina')]</value>
+      <webElementGuid>4954a843-807b-4c3c-893c-62a7ce3a545f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
