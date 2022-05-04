@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Adicional_ui-chkbox-icon ui-icon ui-icon-check ui-c</name>
+   <tag></tag>
+   <elementGuidId>4dc0764a-30a9-4243-a9be-f53e4b37fea5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default.ui-state-active.ui-state-hover > span.ui-chkbox-icon.ui-icon.ui-icon-check.ui-c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table/tbody/tr/td/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>81dc1c60-5c3e-4c6b-b194-7012705af45a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-chkbox-icon ui-icon ui-icon-check ui-c</value>
+      <webElementGuid>b1652169-43b9-4f7c-a8b6-fc2c9f87a8a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_idt61:regresionGR:0:j_idt170&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover&quot;]/span[@class=&quot;ui-chkbox-icon ui-icon ui-icon-check ui-c&quot;]</value>
+      <webElementGuid>ebf94dc5-38dc-40c5-b17b-002432a0ba06</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='j_idt61:regresionGR:0:j_idt170']/div[2]/span</value>
+      <webElementGuid>78d61b3e-ca2f-4302-93bd-7b3b2e16678c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td/div/div[2]/span</value>
+      <webElementGuid>ff7f8b45-cf8f-4c5e-a7cc-2024303c3575</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

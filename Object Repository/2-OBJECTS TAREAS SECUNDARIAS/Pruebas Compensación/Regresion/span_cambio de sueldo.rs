@@ -22,6 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>4e36254e-9669-439d-96e9-a60e33e9d557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>33877015-71bc-4df2-bfc5-c02bb5e07d8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cambio de sueldo </value>
+      <webElementGuid>612d2584-e4d2-449b-9fb8-fc09439adaba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:arbolFormato:31:j_idt109&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>e9e3bc32-4be8-4e64-8d6b-10188be5ed19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
       <webElementGuid>63f136d9-472d-47b4-b666-4e7a3b63e7a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +65,7 @@
       <webElementGuid>a4f103c5-5ce1-4808-a8a7-e24a086ac251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:arbolFormato:31:j_idt109']/span</value>
-      <webElementGuid>8f9a4e99-8ba9-4aec-bcf6-d5fa96178edb</webElementGuid>
+      <webElementGuid>e5fe50b7-ac68-4f7e-998b-4ba746254da3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='cambio de unidad y cargo'])[1]/following::span[5]</value>
-      <webElementGuid>fedf6c6d-c319-410d-9d3b-916f71ebe5ee</webElementGuid>
+      <webElementGuid>ed0c7b36-a035-41ed-a6f3-cbcf7a49c485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='cambio etapa electiva a productiva'])[1]/following::span[10]</value>
-      <webElementGuid>ec10227f-da5b-4447-8bd8-42b8775e8393</webElementGuid>
+      <webElementGuid>37ce89ce-b4a9-411a-a3b3-8a938db6d5fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='asignacion de funciones'])[1]/preceding::span[3]</value>
-      <webElementGuid>f9ed8440-7daa-413a-8b8e-2566602cffbc</webElementGuid>
+      <webElementGuid>b583a329-6e56-4e1f-ace7-ffbf50c648ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos (act)'])[1]/preceding::span[7]</value>
-      <webElementGuid>eef276f1-6c3a-4d06-b11c-0ba35ef98f21</webElementGuid>
+      <webElementGuid>26ebc160-8edd-4623-a3b4-7c68ed278902</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='cambio de sueldo']/parent::*</value>
-      <webElementGuid>36d4c047-e4cf-4bb5-a6e3-11527f7156c1</webElementGuid>
+      <webElementGuid>89001ec0-cd70-444f-b742-9b4daf7e7534</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[32]/span/span[3]/div/a/span</value>
-      <webElementGuid>34862373-e873-4c24-ae1c-1cc804081687</webElementGuid>
+      <webElementGuid>b5bdc26d-eff8-45d8-9c9c-139f8dd77ab1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'cambio de sueldo ' or . = 'cambio de sueldo ')]</value>
-      <webElementGuid>279a541b-ca33-47f5-a1f2-680dc2cd772c</webElementGuid>
+      <webElementGuid>16041cdd-9807-4781-9e74-2bebc7899192</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

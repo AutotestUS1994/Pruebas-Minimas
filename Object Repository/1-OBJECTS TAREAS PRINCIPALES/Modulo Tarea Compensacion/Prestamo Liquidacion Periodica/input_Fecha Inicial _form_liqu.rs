@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/span/input</value>
+         <value>//td[2]/span/input
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>1d5c6fa1-7d1b-468b-84f8-8222298b4479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>dd/MM/yyyy</value>
+      <webElementGuid>bb701d9b-b121-4e18-9708-a94fbc0b6418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-optional hasDatepicker ui-state-focus</value>
+      <webElementGuid>8152b139-a2fb-44bc-89c9-e22f7cf504c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_liquidacionesPeriodicasEmpleado:inicia_input</value>
+      <webElementGuid>13a1535d-2601-482c-9b02-738fe4ed0a55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_liquidacionesPeriodicasEmpleado:inicia_input</value>
+      <webElementGuid>88901b54-4cff-4f58-b687-716b7114263f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>5995c4fb-3c7b-46e8-bbca-35677c23b58c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>936326d0-d77b-4289-b046-71201b471067</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>d0f2c7fb-5f35-4b7f-b368-b1d1e4af0a3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_liquidacionesPeriodicasEmpleado:inicia_input&quot;)</value>
+      <webElementGuid>843547f7-c612-440d-af06-c16291a2c2df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:inicia_input']</value>
+      <webElementGuid>b4514de7-eee1-488e-bd33-ab80a93fcce8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:inicia']/input</value>
+      <webElementGuid>f772c422-91b9-4ff2-91b2-61fc2ef4f1f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +111,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/input</value>
+      <webElementGuid>e5386f69-3900-463f-829d-dab22e1a96ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

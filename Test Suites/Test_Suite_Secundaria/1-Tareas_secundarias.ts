@@ -565,6 +565,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>771d4b96-8af7-456a-b8e2-b03ecec6400d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.8-Regresion</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a151922a-62b1-4438-8868-5a794b369b19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -103,7 +103,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Co
     1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/input_Hasta_jornada_formhastaCI_input'), 
-    '02/07/2022')
+    '02/03/2022')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/a_Guardar'))
 
@@ -124,7 +124,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/a_Guardar2'))
 
-    String Result0 =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 } else {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/a_Persona'))
 
@@ -148,14 +148,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Programación/a_Guardar2'))
 
-    String Result1 =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+    String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 }
 
 if (Result == 'Registro guardado') {
-    String Result = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

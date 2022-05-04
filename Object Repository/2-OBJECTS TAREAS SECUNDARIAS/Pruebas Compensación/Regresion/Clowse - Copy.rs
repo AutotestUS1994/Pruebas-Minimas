@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Clowse - Copy</name>
+   <tag></tag>
+   <elementGuidId>fca8a5f2-1b00-4bf7-84cb-f6823611a999</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table/tbody/tr/td/div/form[2]/div/div[1]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>408b5c38-7e73-437d-9380-1b0e6c993b38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1651504093237</value>
+      <webElementGuid>c305d77a-acf4-4846-b779-af9a5fef6ecd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -22,6 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>02933d83-7a9c-4071-9e78-cb89531c4ebb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>dcd809da-f181-4aca-84de-32ee29509f13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nomina                                             </value>
+      <webElementGuid>8c649db8-e7da-4932-8357-4b819769ab7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:arbolGrupo:0:j_idt98&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>0e9473cc-66c5-47f3-8b0b-a45b2f1a59fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
       <webElementGuid>e801e290-e738-4130-8861-a15b6bfdcbae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +65,7 @@
       <webElementGuid>6df9defd-9127-4b29-abc3-5e9f3e277a96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:arbolGrupo:0:j_idt98']/span</value>
-      <webElementGuid>a18f834d-7344-47e7-b3a4-5179fafcbed3</webElementGuid>
+      <webElementGuid>cd5ac891-58b5-4f61-861a-228774d138d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Elaborar'])[2]/following::span[6]</value>
-      <webElementGuid>007c9773-a263-4477-a3c1-c4a0ae74147a</webElementGuid>
+      <webElementGuid>4cd6b6e1-f75c-4055-9ab8-2c72049fac66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleados'])[1]/preceding::span[3]</value>
-      <webElementGuid>a2d261b9-3924-4940-b93b-a8bb2a78d30c</webElementGuid>
+      <webElementGuid>4baf915c-59e8-4bde-aabb-44d3684ffbeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[2]/preceding::span[6]</value>
-      <webElementGuid>7d4e572c-5447-42ab-a1ce-eeb237267e7d</webElementGuid>
+      <webElementGuid>23b91579-4803-4ed1-b766-47d77854769c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nomina']/parent::*</value>
-      <webElementGuid>d280fd52-4f86-4ab1-a5af-16fb59302b03</webElementGuid>
+      <webElementGuid>b19162ba-b038-410a-952d-2cfc67c54796</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a/span</value>
-      <webElementGuid>91c4b85c-052d-44f7-9a0f-85ce8d597a10</webElementGuid>
+      <webElementGuid>fda93320-dd4e-44a9-9894-def02a515b9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Nomina                                             ' or . = 'Nomina                                             ')]</value>
-      <webElementGuid>d58f05ee-0b18-4354-b9ff-4aa9eee6ae14</webElementGuid>
+      <webElementGuid>cb4ace56-b06f-4f1f-8ed2-7eae76ad0edb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

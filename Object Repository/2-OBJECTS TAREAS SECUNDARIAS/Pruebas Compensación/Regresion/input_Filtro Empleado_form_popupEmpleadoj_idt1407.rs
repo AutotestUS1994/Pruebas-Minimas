@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f9b5b417-22b2-4a70-947d-3a56eb45d249</webElementGuid>
+      <webElementGuid>f7385c1a-5f75-4584-bb94-dc162c977887</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupEmpleado:j_idt1407</value>
-      <webElementGuid>435b71a0-45b6-4588-aa39-7417593280f5</webElementGuid>
+      <webElementGuid>4a829b3e-10ce-4140-8b4e-95b84906e842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,10 +38,82 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f361eda2-4695-4aa3-887d-88aafe16a5f9</webElementGuid>
+      <webElementGuid>da5d948d-8a2a-4090-9e35-f78785bf8d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_popupEmpleado:j_idt1407</value>
+      <webElementGuid>8a1ab219-b320-43d4-85f5-65c1925a06b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ace_valor_campo_estandar</value>
+      <webElementGuid>1a050d1f-d5eb-466d-82f0-473162bf6b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>e1b89ae9-0cf5-4954-a9b4-3153682c9fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Debe definir un filtro con 4 o mas caracteres</value>
+      <webElementGuid>796a1651-0134-4887-ae46-eab2281a7e48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;form_popupEmpleado&quot;,p:&quot;form_popupEmpleado:j_idt1407&quot;,u:&quot;form_popupEmpleado&quot;});</value>
+      <webElementGuid>fde9f88c-9236-4c0f-8d8c-f6b81d74398f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupEmpleado:j_idt1407&quot;)</value>
+      <webElementGuid>85692245-046e-47fa-97c7-2a6d4e91b64f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f9b5b417-22b2-4a70-947d-3a56eb45d249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_popupEmpleado:j_idt1407</value>
+      <webElementGuid>435b71a0-45b6-4588-aa39-7417593280f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>f361eda2-4695-4aa3-887d-88aafe16a5f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -65,7 +137,7 @@
       <webElementGuid>0d67f480-c154-4f6d-9480-e7db7d7c9a15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
@@ -94,7 +166,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popupEmpleado:j_idt1407']</value>
-      <webElementGuid>f7ace658-0bcf-4ead-b8ca-588c83e6e6b4</webElementGuid>
+      <webElementGuid>2a0cb27c-3655-45ef-ac4c-13026f1fe54a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +174,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupEmpleado:idPopupEmpleado_content']/div[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>0172f544-f1ee-4882-863b-1258be5af445</webElementGuid>
+      <webElementGuid>0dbf317f-007a-43f5-8e11-7de04fd92207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>a292ef20-0c54-490e-bb3c-7f9e4d7e1e1d</webElementGuid>
+      <webElementGuid>0d9432ba-571d-4b85-b8cd-1c3b1972361c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_popupEmpleado:j_idt1407' and @type = 'text' and @name = 'form_popupEmpleado:j_idt1407' and @title = 'Debe definir un filtro con 4 o mas caracteres']</value>
-      <webElementGuid>381bef97-ccf2-479a-9e6f-81fea86bdd08</webElementGuid>
+      <webElementGuid>6361830a-7bd9-4304-8353-98c53366763d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

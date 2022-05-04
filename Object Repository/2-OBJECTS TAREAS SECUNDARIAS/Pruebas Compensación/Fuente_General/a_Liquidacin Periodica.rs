@@ -6,11 +6,12 @@
    <elementGuidId>0aeda3a0-eeab-45d7-8a11-ee82d220cec6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Liquidación Periodica')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>92dbd4ec-1b41-480c-9889-62ac0b1bbc44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563</value>
+      <value>form_menuEmpleado:j_idt1517:j_idt1519:j_idt1560</value>
+      <webElementGuid>bed6adda-eb9b-477a-9169-a998f0a74bb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ecdec541-f9ae-4559-a912-89b26a9efcab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,13 +46,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>b55fee25-8add-4ab2-a60a-4b29c74ce1ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563&quot;,f:&quot;form_menuEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <value>PrimeFaces.ab({s:&quot;form_menuEmpleado:j_idt1517:j_idt1519:j_idt1560&quot;,f:&quot;form_menuEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>6e235c3d-668d-4dc8-a65c-197e79ba7312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +62,63 @@
       <name>text</name>
       <type>Main</type>
       <value>Liquidación Periodica </value>
+      <webElementGuid>f6695e14-fc28-42b3-86d9-559f47f86a09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_menuEmpleado:j_idt1517:j_idt1519:j_idt1560&quot;)</value>
+      <webElementGuid>a0213a62-1709-431e-b570-e2822940f8fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>840000a8-0600-4d0e-9370-d668a9277af7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563</value>
+      <webElementGuid>a5f59368-db0e-4009-9abe-f12be5c97292</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>d7973410-08ec-41f7-a32d-541e3b5003cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>91004be4-9521-4ac6-a099-633426cd7c2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563&quot;,f:&quot;form_menuEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>23a0699d-3459-43c1-8aeb-0656e6ac17cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Liquidación Periodica </value>
+      <webElementGuid>bc735c3e-da59-4777-a3f4-2a1dbca59fba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,20 +126,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563&quot;)</value>
+      <webElementGuid>61ca450b-024e-4e56-bb6a-671e6ed6a4c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563']</value>
+      <value>//a[@id='form_menuEmpleado:j_idt1517:j_idt1519:j_idt1560']</value>
+      <webElementGuid>403a8079-f29b-4f1c-9d4a-414935f88c91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='form_menuEmpleado:j_idt1520:j_idt1522:j_idt1523']/table[8]/tbody/tr/td/a</value>
+      <value>//div[@id='form_menuEmpleado:j_idt1517:j_idt1519:j_idt1520']/table[8]/tbody/tr/td/a</value>
+      <webElementGuid>12f44fa1-7bb5-4d2f-9c78-efa8c749bc49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +150,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Liquidación Periodica')]</value>
+      <webElementGuid>a08c8f97-41fa-4fea-bef1-160aa5a8d8b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,27 +158,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/following::a[8]</value>
+      <webElementGuid>64f203a5-c0d1-42b4-b00d-37bf0470ca04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::a[11]</value>
+      <webElementGuid>f756cba2-4682-4134-a6b5-76a337a367a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historicos'])[1]/preceding::a[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historicos'])[1]/preceding::a[12]</value>
+      <webElementGuid>f05f46d7-cfcf-436a-ab28-947b4f5b58e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Constantino Jhon'])[1]/preceding::a[18]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aya Silva Cindy Ximena'])[1]/preceding::a[20]</value>
+      <webElementGuid>e61b9856-0f2c-4d84-9765-57c84be4b056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,13 +190,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Liquidación Periodica']/parent::*</value>
+      <webElementGuid>6ad63039-f4d3-4620-8823-8761791fdb85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[31]</value>
+      <value>(//a[contains(@href, '#')])[28]</value>
+      <webElementGuid>ac1d49c1-d656-4c94-bfff-6af017e6d8f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +206,63 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[8]/tbody/tr/td/a</value>
+      <webElementGuid>f1ff7312-fe14-44f6-820f-cbd3256befe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_menuEmpleado:j_idt1517:j_idt1519:j_idt1560' and @href = '#' and (text() = 'Liquidación Periodica ' or . = 'Liquidación Periodica ')]</value>
+      <webElementGuid>af60a064-a944-4152-af92-e634f06deeba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563']</value>
+      <webElementGuid>7ac7fe22-0f20-47f0-a056-1e44b46f0956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_menuEmpleado:j_idt1520:j_idt1522:j_idt1523']/table[8]/tbody/tr/td/a</value>
+      <webElementGuid>d042307b-bd9e-4035-a08e-82dc5faa53fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[14]</value>
+      <webElementGuid>b59d78a8-3a40-479b-ad6b-d2ddf610ce53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historicos'])[1]/preceding::a[10]</value>
+      <webElementGuid>e8b725b3-5843-4ab0-83ca-dae1fe1dff89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Constantino Jhon'])[1]/preceding::a[18]</value>
+      <webElementGuid>45e0f896-bc4e-4613-b0aa-708da002ea78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>5b8dc50c-7397-429d-9f2b-553729ec01dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +270,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_menuEmpleado:j_idt1520:j_idt1522:j_idt1563' and @href = '#' and (text() = 'Liquidación Periodica ' or . = 'Liquidación Periodica ')]</value>
+      <webElementGuid>b823c3be-8715-4d0c-96d1-c746e3a71297</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

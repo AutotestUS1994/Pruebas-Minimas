@@ -35,7 +35,7 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.scrollToPosition(0, 600)
 
-    if(WebUI.waitForElementVisible(findTestObject('span_Momento Evento Prueba-S'), 1))
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/span_Momento Evento Prueba-S'), 1))
     {
 		String Resultado = 'PRUEBA OK'
     }
@@ -51,7 +51,7 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.scrollToPosition(0, 100)
 
-    if(WebUI.waitForElementVisible(findTestObject('span_Momento Evento Prueba-S'), 1))
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/span_Momento Evento Prueba-S'), 1))
     {
 		String Resultado = 'PRUEBA OK'
     }

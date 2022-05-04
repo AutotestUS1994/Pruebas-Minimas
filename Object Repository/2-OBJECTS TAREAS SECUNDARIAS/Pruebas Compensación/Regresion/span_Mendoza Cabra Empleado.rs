@@ -22,6 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>198602b3-ce9c-4836-82ba-2558a885bf9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>6c736f6d-cd13-49c0-a969-8e3b2d3fdf59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mendoza Cabra Empleado</value>
+      <webElementGuid>d90b40d4-a693-4996-8227-9bf34436613a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupEmpleado:tabla_empleados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>cbc54c18-b0b0-4a64-9a7b-a4e0badc5869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
       <webElementGuid>bfc8fa45-11e4-443f-96f0-b21d73612007</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +65,7 @@
       <webElementGuid>1775a06a-8d52-470b-97a2-085895f8d59e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_popupEmpleado:tabla_empleados_data']/tr/td[3]/span</value>
-      <webElementGuid>04252eda-6cbb-4137-a900-bdd22b284a62</webElementGuid>
+      <webElementGuid>c5452afc-b422-43da-8b15-6fb1130487a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación'])[1]/following::span[4]</value>
-      <webElementGuid>f4a8d5f1-e986-4df2-a789-94be173c5d2e</webElementGuid>
+      <webElementGuid>2b72cf8f-404f-468b-bbb2-ccaa21fb1ac0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Ingreso'])[1]/following::span[5]</value>
-      <webElementGuid>de0a65ad-994d-4fa6-a7c4-51baba8c9613</webElementGuid>
+      <webElementGuid>697d3dd2-9020-4545-a42d-abefc24576df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/preceding::span[1]</value>
-      <webElementGuid>2273d392-753a-4ff5-9ddb-7c10894345f1</webElementGuid>
+      <webElementGuid>86f8fc5c-835f-4c10-842a-f7c371fdb132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indefinido'])[1]/preceding::span[2]</value>
-      <webElementGuid>2b00c50d-3b55-4466-9a9f-ac8b49c58b00</webElementGuid>
+      <webElementGuid>82f3e624-8409-47e5-85eb-b1daf9f98e04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Mendoza Cabra Empleado']/parent::*</value>
-      <webElementGuid>a37322dd-54d8-4c1b-aedb-3daa48434d06</webElementGuid>
+      <webElementGuid>81810870-6309-4e7d-b4d6-93ac17bcc287</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span</value>
-      <webElementGuid>885ab09f-f3e0-4021-8ecd-30c42dd95064</webElementGuid>
+      <webElementGuid>93c0948a-08fa-414e-833f-1e2580dc4560</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Mendoza Cabra Empleado' or . = 'Mendoza Cabra Empleado')]</value>
-      <webElementGuid>a2860c42-d48a-4b35-b43a-dae968754a3a</webElementGuid>
+      <webElementGuid>f967a17d-cda3-4cf9-9dbd-7c990da59be0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,79 +6,27 @@
    <elementGuidId>0c76bc20-e925-48d4-bc0c-9a8bbcb255af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_popupSeleccionDerogar:j_idt375']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr/td/table/tbody/tr[2]/td/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-      <webElementGuid>62276ead-0991-4319-b475-c618a32066a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>form_popupSeleccionDerogar:j_idt375</value>
-      <webElementGuid>8de1f52f-fa4d-4260-8c76-79dbc1391bd5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
-      <webElementGuid>fda50048-2a99-46fa-bb27-60b7d04ba601</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ui-commandlink ui-widget</value>
-      <webElementGuid>81168cf9-1c1a-47e0-8ff2-4ce79d9a2e84</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;form_popupSeleccionDerogar:j_idt375&quot;,f:&quot;form_popupSeleccionDerogar&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>a66681b7-645f-4cf3-a5e6-0de60a97f3fd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Elaborar</value>
-      <webElementGuid>d8cbad7c-2826-40f2-a1c7-ea8624f86b73</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;form_popupSeleccionDerogar:j_idt375&quot;)</value>
-      <webElementGuid>e0acbcbb-8444-475b-9a1c-6c4d74e80133</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupSeleccionDerogar:j_idt375']</value>
-      <webElementGuid>d099ab1d-abe0-485b-afee-df168ae7ac92</webElementGuid>
+      <webElementGuid>104f31e1-d1b6-4518-a750-f375cba1c2bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +34,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupSeleccionDerogar:j_idt368_content']/div[2]/table/tbody/tr/td/table/tbody/tr[2]/td/a</value>
-      <webElementGuid>e51f77ab-9fb6-472a-b738-4975a218f2f9</webElementGuid>
+      <webElementGuid>8ba686cf-c2ef-4969-81ef-b4da35ca4764</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +42,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Elaborar')]</value>
-      <webElementGuid>b24d6b50-8882-4007-b9b9-0ad2d46bcdd1</webElementGuid>
+      <webElementGuid>c2d7c57b-550c-4b1f-b9d6-90359bca2ff1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Elaboración'])[1]/following::a[2]</value>
-      <webElementGuid>e6706e13-7ed9-4492-ac45-2e8b7684a412</webElementGuid>
+      <webElementGuid>f1c2e3be-e6d4-4700-832a-b4bd571525c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='asignacion de funciones'])[1]/following::a[3]</value>
-      <webElementGuid>3730047d-49e1-4e1a-b185-e4aa173734e9</webElementGuid>
+      <webElementGuid>51555fef-39c3-4c76-91ef-6755e048ee9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos (act)'])[1]/preceding::a[3]</value>
-      <webElementGuid>4958fdf5-62bb-4f0c-a893-012ed785a1a6</webElementGuid>
+      <webElementGuid>426610b5-a908-42de-89a8-ab1f139142b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[3]</value>
-      <webElementGuid>a23e3e6e-ac06-45cb-803b-3bf1a893271b</webElementGuid>
+      <webElementGuid>dfd144e4-de5c-4821-89c2-cf1fae7b1bc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +82,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[69]</value>
-      <webElementGuid>d399952e-d0dd-4332-8aab-36bd322aa587</webElementGuid>
+      <webElementGuid>bd6515e1-89a5-4c8e-b17d-8377c53b6fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/table/tbody/tr[2]/td/a</value>
-      <webElementGuid>b16a3dd2-6376-47d4-be4c-2986b5e7d73d</webElementGuid>
+      <webElementGuid>896b2e40-9ace-42bf-8931-7e3953e59e67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_popupSeleccionDerogar:j_idt375' and @href = '#' and (text() = 'Elaborar' or . = 'Elaborar')]</value>
-      <webElementGuid>d0593532-5b69-4738-878f-64a128023344</webElementGuid>
+      <webElementGuid>65dfca63-58da-48d4-b563-4b445b50cee2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

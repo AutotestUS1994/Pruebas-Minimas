@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e314c879-6906-4f34-a86d-5f83721d930c</webElementGuid>
+      <webElementGuid>929ea9da-319e-4eee-9e50-ab155b50a3be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,66 @@
       <name>id</name>
       <type>Main</type>
       <value>form_actoCambioPuesto:j_idt3434</value>
-      <webElementGuid>62350da2-07af-4d73-b50f-4cabd01bb453</webElementGuid>
+      <webElementGuid>85d039af-dfb0-416d-9f8b-b41ce4a31ce5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>4663c8fd-064b-4e71-ae7f-323db1d33cec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton btn-continuar</value>
+      <webElementGuid>8dfbf5de-093a-4777-a455-60696257de26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_actoCambioPuesto:j_idt3434&quot;,f:&quot;form_actoCambioPuesto&quot;,u:&quot;form_actoCambioPuesto&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>dfae799c-32a2-4060-b940-25836bb6b9c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continuar</value>
+      <webElementGuid>f6fdf04b-af64-4227-af98-7e8569cce5c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_actoCambioPuesto:j_idt3434&quot;)</value>
+      <webElementGuid>a37c6598-f808-4e9c-bb5f-96496dac311f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e314c879-6906-4f34-a86d-5f83721d930c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_actoCambioPuesto:j_idt3434</value>
+      <webElementGuid>62350da2-07af-4d73-b50f-4cabd01bb453</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -57,7 +113,7 @@
       <webElementGuid>da635112-9bff-43ef-aa85-be0c50b816c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -78,7 +134,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_actoCambioPuesto:j_idt3434']</value>
-      <webElementGuid>98d9a634-34b1-4d76-b252-71473746827c</webElementGuid>
+      <webElementGuid>5cdbf3d9-7aae-43c8-b961-3d92355ec709</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +142,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_actoCambioPuesto']/div/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td/table[2]/tbody/tr/td[2]/a</value>
-      <webElementGuid>fb1c4cb4-a018-403a-8f4a-9b6d4444a9ba</webElementGuid>
+      <webElementGuid>7a6397b0-e739-4acd-aecb-e683ca92bb9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +150,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Continuar')]</value>
-      <webElementGuid>6447e2a7-553e-4654-b3aa-b34e57ea1392</webElementGuid>
+      <webElementGuid>04c7ae2c-de77-4ea1-be06-3e5dfb120f56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::a[2]</value>
-      <webElementGuid>a981868c-bba4-40bd-abfd-5af9430a1898</webElementGuid>
+      <webElementGuid>a56db04a-a799-4db2-94b6-cd8fad01cedf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +166,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TIPO DE CAMBIO'])[1]/following::a[2]</value>
-      <webElementGuid>4ea009c7-504e-4cc1-b479-fdcced5fe12e</webElementGuid>
+      <webElementGuid>52f01e43-3173-47ed-b246-b2274424e6a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +174,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos (act)'])[1]/preceding::a[2]</value>
-      <webElementGuid>1609975b-7f88-494a-aa44-935a20313634</webElementGuid>
+      <webElementGuid>fbf77d74-d7b9-4a5f-9740-976d3f260fda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +182,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-      <webElementGuid>0f978158-1a34-49bb-8042-3b38634f5362</webElementGuid>
+      <webElementGuid>68a2501a-3ffb-403f-a068-958cf0eb60b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +190,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
-      <webElementGuid>1a878e8d-d05e-4f88-8c1f-ff4663c87e6a</webElementGuid>
+      <webElementGuid>82e3c18c-2c76-4eca-aaa5-f2e277e8ba77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +198,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[22]</value>
-      <webElementGuid>bfc6e6d1-1183-4d18-8124-16ad422b8f80</webElementGuid>
+      <webElementGuid>f42ac57f-a0f0-4318-8836-723818ec4579</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +206,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td[2]/a</value>
-      <webElementGuid>497f733b-25d2-49e5-8d9a-26303fb72b26</webElementGuid>
+      <webElementGuid>5b523e22-71c8-4909-87f0-8511781d17e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +214,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_actoCambioPuesto:j_idt3434' and @href = '#' and (text() = 'Continuar' or . = 'Continuar')]</value>
-      <webElementGuid>0d9f3097-b95f-4f38-9933-2590f9827e1d</webElementGuid>
+      <webElementGuid>c9b63515-7222-48d1-b3e6-03931fc5eac7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

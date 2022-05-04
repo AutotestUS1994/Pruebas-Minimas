@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/div/table[5]/tbody/tr/td/a</value>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>0c9999e2-1727-4ff5-8649-b123809cc1c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2331</value>
+      <webElementGuid>94d4bedc-aee4-476e-9928-19102ed8012d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>0c0a6b6b-61bf-4264-b896-d960a79ae0b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-guardar</value>
+      <webElementGuid>088d227a-be00-47a8-9de8-294b3bae409a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2331&quot;,f:&quot;form_liquidacionesPeriodicasEmpleado&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>7a4b98f2-16cf-432b-bd24-61b47912eb60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>b6ed5aa6-a57d-4367-a615-e6876ad5b168</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2331&quot;)</value>
+      <webElementGuid>28175821-2d19-4cb5-8064-5b54668467fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:j_idt2331']</value>
+      <webElementGuid>30bab69b-a7b1-4089-b13f-8d912235469c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_liquidacionesPeriodicasEmpleado:tabLiquidacionesPeriodicas:panelCamposFormulario']/div/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>1dbd87e1-0309-4ee0-baef-51ba5c7e3cf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>326dd111-9ab6-4ee2-b28c-c45b9fe72809</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[1]</value>
+      <webElementGuid>50976a93-ad13-4a82-b595-4aefaba9e6ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adjunto'])[1]/following::a[2]</value>
+      <webElementGuid>6245100b-86f2-4a5e-a5e3-e1b2ebfe6cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recuperar Incapacidad'])[1]/preceding::a[4]</value>
+      <webElementGuid>56c7adfa-c440-49b3-a3b0-42e5552797d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::a[4]</value>
+      <webElementGuid>cb450c14-430b-4072-9d22-f8489c9c310d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>d0f7c1cc-625d-4054-843f-cc8b3f6765e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[49]</value>
+      <webElementGuid>2799e56a-35fc-4c17-94a3-7bc51c6dc4ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>80df6d5d-67e7-4774-91fa-c1a38446b67b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

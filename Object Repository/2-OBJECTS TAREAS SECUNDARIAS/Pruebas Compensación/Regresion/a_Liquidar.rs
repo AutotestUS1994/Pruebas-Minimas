@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Liquidar</name>
+   <tag></tag>
+   <elementGuidId>5d7debd3-95fe-48b9-89fa-3c2ef669b35a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Liquidar')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'form_detallemantenimientoregresion:j_idt650:j_idt652:j_idt658' and @href = '#' and (text() = 'Liquidar ' or . = 'Liquidar ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_detallemantenimientoregresion:j_idt650:j_idt652:j_idt658']</value>
+      <webElementGuid>4fd3ca12-66c6-4870-ac3c-69026433247a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_detallemantenimientoregresion:j_idt650:j_idt652:j_idt653']/table/tbody/tr/td/a</value>
+      <webElementGuid>eeeb5fd1-ed18-4615-9179-a1413a3ba0d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Liquidar')]</value>
+      <webElementGuid>766343c7-27c4-4497-bc2f-7b59e4a2a394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mantenimiento Regresion'])[1]/following::a[1]</value>
+      <webElementGuid>f8a57509-fa50-44f0-a4d7-7b82f128020f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rango Fechas'])[1]/following::a[1]</value>
+      <webElementGuid>5251ad56-110d-4f14-9349-cf57a1c7f45f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/preceding::a[4]</value>
+      <webElementGuid>d52c2aed-f1ec-4ca3-8dc4-12c92d4136e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Nomina'])[1]/preceding::a[10]</value>
+      <webElementGuid>63505802-f86f-4e62-b1ec-02ad841dc24b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Liquidar']/parent::*</value>
+      <webElementGuid>d8cdb4e1-708e-4503-8554-e22d59c6c5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[21]</value>
+      <webElementGuid>4bc594e3-a3f5-4f82-aac7-07451ff7418e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>77c81098-6661-4e2d-8379-855334968915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_detallemantenimientoregresion:j_idt650:j_idt652:j_idt658' and @href = '#' and (text() = 'Liquidar ' or . = 'Liquidar ')]</value>
+      <webElementGuid>db3090eb-0e5c-4555-8b20-47baa59088b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

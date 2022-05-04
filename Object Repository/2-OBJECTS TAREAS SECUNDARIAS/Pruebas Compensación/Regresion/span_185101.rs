@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_185101</name>
+   <tag></tag>
+   <elementGuidId>d18c5d6e-d1fc-4ad7-a1cd-40c821aebe05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='185101']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.ui-state-hover > td > span.valor_campo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2906be13-3f5d-4875-baa2-3e30c24d7748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo</value>
+      <webElementGuid>65ec2346-e305-4dc4-82c9-568b9a153127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>185101</value>
+      <webElementGuid>682a4c51-40bf-457d-93c7-d4c512ce8daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;listadoEmpleado:tablaEmpleados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable ui-state-hover&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>edf2c982-0677-4e42-8b18-12a0695d09c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='listadoEmpleado:tablaEmpleados_data']/tr[2]/td/span</value>
+      <webElementGuid>e86d7838-0112-4b17-af03-9cc72e4dc3ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/following::span[1]</value>
+      <webElementGuid>3b355dd3-54d3-4dc8-b8a4-5572c3bdd615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza Cabra Empleado'])[1]/following::span[4]</value>
+      <webElementGuid>0112ef53-4b0b-468c-abc0-02c0d644c493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendoza Cabra Empleado'])[2]/preceding::span[2]</value>
+      <webElementGuid>9f09c10f-1af8-4563-972b-34de6d730ddd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[2]/preceding::span[6]</value>
+      <webElementGuid>77b54c36-38c1-49b3-9dea-a4ddd7b67779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='185101']/parent::*</value>
+      <webElementGuid>0e1cfae7-c5e2-4113-b047-cbd177f066b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div[2]/table/tbody/tr[2]/td/span</value>
+      <webElementGuid>83018e9b-69b2-4588-b70e-7bd559061950</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '185101' or . = '185101')]</value>
+      <webElementGuid>8588564c-c37f-4f7f-99fe-b315a91f385f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

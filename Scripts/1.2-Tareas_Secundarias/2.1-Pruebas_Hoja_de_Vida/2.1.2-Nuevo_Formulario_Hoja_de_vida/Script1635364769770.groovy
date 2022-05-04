@@ -59,7 +59,7 @@ if(Result == 'Se adiciono el registro correctamente') {
 	WebUI.closeBrowser()
 }
 else {WebUI.acceptAlert()}
-WebUI.delay(50)
+
 
 WebUI.closeBrowser()
 

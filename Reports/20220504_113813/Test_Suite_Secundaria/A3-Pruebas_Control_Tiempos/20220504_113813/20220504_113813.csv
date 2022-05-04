@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+A3-Pruebas_Control_Tiempos,Chrome 100.0.4896.127,,,2022-05-04 11:38:21,2022-05-04 11:41:08,"2m - 46,598s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo,Chrome 100.0.4896.127,,,2022-05-04 11:38:21,2022-05-04 11:38:38,"16,363s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:38:22,2022-05-04 11:38:31,"8,581s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input""), ""listado persona"")",Chrome 100.0.4896.127,,,2022-05-04 11:38:31,2022-05-04 11:38:32,"1,122s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Listado Persona""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:32,2022-05-04 11:38:33,"1,377s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/td_1010220596""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:33,2022-05-04 11:38:34,"0,993s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/a_Sitios de Trabajo""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:34,2022-05-04 11:38:35,"0,659s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/li_02-Sede Externo""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:35,2022-05-04 11:38:35,"0,710s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/td_9""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:38:35,2022-05-04 11:38:37,"1,424s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Oficina""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:37,2022-05-04 11:38:37,"0,447s",PASSED
+"element = findWebElement(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Add""), 30)",Chrome 100.0.4896.127,,,2022-05-04 11:38:37,2022-05-04 11:38:38,"0,446s",PASSED
+"executeJavaScript(""arguments[0].click()"", Arrays.asList(element))",Chrome 100.0.4896.127,,,2022-05-04 11:38:38,2022-05-04 11:38:38,"0,026s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.4-Jornada,Chrome 100.0.4896.127,,,2022-05-04 11:38:38,2022-05-04 11:38:53,"14,732s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:38:38,2022-05-04 11:38:44,"5,781s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/input_Empresa 1_form_templatej_idt24_input""), ""Listado persona"")",Chrome 100.0.4896.127,,,2022-05-04 11:38:44,2022-05-04 11:38:45,"1,223s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/li_Listado Persona (get)""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:45,2022-05-04 11:38:47,"1,389s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/td_1010220596""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:47,2022-05-04 11:38:47,"0,875s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/a_Jornada""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:47,2022-05-04 11:38:48,"0,823s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/a_Liquidar0""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:48,2022-05-04 11:38:49,"0,733s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/select_Seleccionar24 de Diciembre del 2018 - 28 de Diciembre del 201824 de Octubre del 2018""), 1)",Chrome 100.0.4896.127,,,2022-05-04 11:38:49,2022-05-04 11:38:51,"1,621s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Jornada/a_Liquidar""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:51,2022-05-04 11:38:51,"0,374s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 100.0.4896.127,,,2022-05-04 11:38:51,2022-05-04 11:38:52,"0,710s",PASSED
+"if (Result == ""Terminacion Normal"")",Chrome 100.0.4896.127,,,2022-05-04 11:38:52,2022-05-04 11:38:53,"0,814s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.6-Reloj,Chrome 100.0.4896.127,,,2022-05-04 11:38:53,2022-05-04 11:39:13,"20,805s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:38:53,2022-05-04 11:38:58,"5,420s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)""), ""Listado persona"")",Chrome 100.0.4896.127,,,2022-05-04 11:38:58,2022-05-04 11:39:00,"1,175s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/span_Listado Persona""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:00,2022-05-04 11:39:01,"1,356s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/td_1010220596""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:01,2022-05-04 11:39:02,"0,900s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Reloj""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:02,2022-05-04 11:39:02,"0,623s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/td_20210701 1800""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:39:02,2022-05-04 11:39:05,"2,343s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Nuevo""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:05,2022-05-04 11:39:05,"0,625s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/select_AbiertoCerrado""), 1)",Chrome 100.0.4896.127,,,2022-05-04 11:39:05,2022-05-04 11:39:07,"1,353s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input_Fecha Inicial_formPopupRelojfechaIni_input""), ""01/07/2021"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:07,2022-05-04 11:39:08,"1,105s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input_Fecha Final_formPopupRelojfechaFin_input""), ""30/07/2021"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:08,2022-05-04 11:39:09,"0,937s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input_Hora_formPopupRelojhoraIni""), ""08"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:09,2022-05-04 11:39:10,"0,915s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input__formPopupRelojminutoIni""), ""10"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:10,2022-05-04 11:39:11,"0,797s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input__formPopupRelojhoraFin""), ""18"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:11,2022-05-04 11:39:11,"0,733s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/input__formPopupRelojminutoFin""), ""00"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:11,2022-05-04 11:39:12,"0,766s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Reloj/a_Guardar""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:12,2022-05-04 11:39:12,"0,434s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:12,2022-05-04 11:39:13,"0,912s",PASSED
+"if (Result == ""Se ingreso el registro"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:13,2022-05-04 11:39:13,"0,001s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo,Chrome 100.0.4896.127,,,2022-05-04 11:39:13,2022-05-04 11:39:29,"15,964s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:39:14,2022-05-04 11:39:20,"6,267s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)""), ""listado persona"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:20,2022-05-04 11:39:21,"1,102s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Listado Persona""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:21,2022-05-04 11:39:23,"1,366s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_1010220596""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:23,2022-05-04 11:39:23,"0,869s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/a_dispositivo""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:23,2022-05-04 11:39:24,"0,703s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_-""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:39:24,2022-05-04 11:39:26,"1,580s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Huella Digital""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:26,2022-05-04 11:39:27,"1,065s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/span_Huella Digital_ui-button-icon-left ui-icon ui-c ui-icon ui-icon-arrow-1-e""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:27,2022-05-04 11:39:27,"0,550s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Dispositivo/td_-""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:39:27,2022-05-04 11:39:29,"2,029s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.8-Funciones,Chrome 100.0.4896.127,,,2022-05-04 11:39:29,2022-05-04 11:39:43,"13,887s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:39:30,2022-05-04 11:39:35,"5,567s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)""), ""Listado persona"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:35,2022-05-04 11:39:36,"1,166s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/span_Listado Persona""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:36,2022-05-04 11:39:38,"1,356s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/td_1010220596""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:38,2022-05-04 11:39:39,"0,901s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/a_Funciones""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:39,2022-05-04 11:39:39,"0,626s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/td_1""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:39,2022-05-04 11:39:41,"1,472s",PASSED
+"waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/a_Cancelar""), 2)",Chrome 100.0.4896.127,,,2022-05-04 11:39:41,2022-05-04 11:39:41,"0,616s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/a_Cancelar""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:41,2022-05-04 11:39:42,"0,371s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Funciones/td_1""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:39:42,2022-05-04 11:39:43,"1,435s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar,Chrome 100.0.4896.127,,,2022-05-04 11:39:43,2022-05-04 11:40:19,"35,568s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:39:44,2022-05-04 11:39:49,"5,697s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Empresa 1_form_templatej_idt24_input""), ""Liquidacion (get)"")",Chrome 100.0.4896.127,,,2022-05-04 11:39:49,2022-05-04 11:39:51,"1,222s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/li_Liquidacion (get)""))",Chrome 100.0.4896.127,,,2022-05-04 11:39:51,2022-05-04 11:39:52,"1,366s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/td_01072021""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:39:52,2022-05-04 11:39:59,"7,541s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Nuevo""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:39:59,2022-05-04 11:40:02,"2,096s",PASSED
+else,Chrome 100.0.4896.127,,,2022-05-04 11:40:02,2022-05-04 11:40:09,"6,934s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input""), ""18/01/2019"")",Chrome 100.0.4896.127,,,2022-05-04 11:40:09,2022-05-04 11:40:10,"1,158s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input""), Keys.chord(ESCAPE))",Chrome 100.0.4896.127,,,2022-05-04 11:40:10,2022-05-04 11:40:10,"0,420s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input""), ""27/02/2019"")",Chrome 100.0.4896.127,,,2022-05-04 11:40:10,2022-05-04 11:40:11,"0,716s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual""), 1)",Chrome 100.0.4896.127,,,2022-05-04 11:40:11,2022-05-04 11:40:12,"1,240s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aplicar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:12,2022-05-04 11:40:12,"0,408s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Liquidar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:12,2022-05-04 11:40:13,"0,652s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:13,2022-05-04 11:40:14,"0,680s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/div_Liquidacin realizada con xito""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:14,2022-05-04 11:40:14,"0,659s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:14,2022-05-04 11:40:17,"3,023s",PASSED
+"if (waitForElementPresent(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:40:17,2022-05-04 11:40:19,"1,331s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.3-Aplicar,Chrome 100.0.4896.127,,,2022-05-04 11:40:19,2022-05-04 11:40:33,"14,578s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:40:19,2022-05-04 11:40:24,"5,184s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)""), ""Liquidacion"")",Chrome 100.0.4896.127,,,2022-05-04 11:40:24,2022-05-04 11:40:26,"1,145s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/span_Liquidacion""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:26,2022-05-04 11:40:27,"1,365s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/td_27022019""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:27,2022-05-04 11:40:28,"1,391s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Reversar Nomina""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:40:28,2022-05-04 11:40:31,"2,275s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aplicar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:31,2022-05-04 11:40:31,"0,392s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:31,2022-05-04 11:40:32,"0,652s",PASSED
+"Result = getText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/div0""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:32,2022-05-04 11:40:32,"0,612s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Continuar""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:32,2022-05-04 11:40:33,"0,411s",PASSED
+"if (Result == ""Proceso realizado con éxito."")",Chrome 100.0.4896.127,,,2022-05-04 11:40:33,2022-05-04 11:40:33,"0,775s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento,Chrome 100.0.4896.127,,,2022-05-04 11:40:33,2022-05-04 11:40:46,"12,238s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:40:34,2022-05-04 11:40:39,"5,311s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/input_Empresa 1_form_templatej_idt24_input""), ""Historico Evento"")",Chrome 100.0.4896.127,,,2022-05-04 11:40:39,2022-05-04 11:40:40,"1,245s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/li_Historico Evento (get)""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:40,2022-05-04 11:40:42,"1,370s",PASSED
+"scrollToElement(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_1""), 0)",Chrome 100.0.4896.127,,,2022-05-04 11:40:42,2022-05-04 11:40:43,"0,806s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_1""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:43,2022-05-04 11:40:43,"0,373s",PASSED
+"scrollToElement(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71""), 0)",Chrome 100.0.4896.127,,,2022-05-04 11:40:43,2022-05-04 11:40:43,"0,331s",PASSED
+"scrollToElement(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_2""), 0)",Chrome 100.0.4896.127,,,2022-05-04 11:40:43,2022-05-04 11:40:44,"0,345s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_2""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:44,2022-05-04 11:40:44,"0,372s",PASSED
+"scrollToElement(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/a_Nombre Persona_eventoHistoricos_formj_idt71""), 0)",Chrome 100.0.4896.127,,,2022-05-04 11:40:44,2022-05-04 11:40:45,"0,574s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Historico_Evento/div_IdentificacinFuncionarioHora FinalDispositivo de Entrada""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:40:45,2022-05-04 11:40:46,"1,122s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento,Chrome 100.0.4896.127,,,2022-05-04 11:40:46,2022-05-04 11:41:08,"22,035s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.127,,,2022-05-04 11:40:46,2022-05-04 11:40:52,"5,640s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)""), ""Inconsistencias Evento"")",Chrome 100.0.4896.127,,,2022-05-04 11:40:52,2022-05-04 11:40:53,"1,138s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/li_Inconsistencias Evento (get)""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:53,2022-05-04 11:40:54,"1,354s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/a_Inconsistencia Marcacin""))",Chrome 100.0.4896.127,,,2022-05-04 11:40:54,2022-05-04 11:40:55,"0,889s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS""), 1))",Chrome 100.0.4896.127,,,2022-05-04 11:40:55,2022-05-04 11:40:57,"2,123s",PASSED
+else,Chrome 100.0.4896.127,,,2022-05-04 11:40:57,2022-05-04 11:41:08,"10,514s",PASSED

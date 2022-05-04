@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Adminis
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_close_popupFiltroEmplead'), 
-    '354968431354')
+    '1026588953')
 
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_close_popupFiltroEmplead'), 
     Keys.chord(Keys.ENTER))
@@ -35,6 +35,13 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Liquidacin Periodica'))
 
+while(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Prestamo Bancolombia'), 
+    1)) {
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/span_Prestamo Bancolombia'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_ReversarEliminar'))
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Aceptar'))
+}
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Nuevo'), 
     GlobalVariable.G_TimeOut)
 
@@ -46,7 +53,7 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/select_-- seleccione --BC - PR'))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/select_-- seleccione --BC - PR'), 
-    '1')
+    '2')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Monto Inicial_form_liqui'))
 
@@ -74,7 +81,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
     '1500000')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
-    '01/01/2019')
+    '01/07/2021')
 
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
     Keys.chord(Keys.ENTER))
@@ -88,6 +95,12 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/textarea_Observacin_form_liqui'), 
     'Prueba')
 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
+    '01/01/2019')
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/a_Guardar'), 
     GlobalVariable.G_TimeOut)
 
@@ -97,11 +110,9 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 
 if (Result == 'Se Actualizo el registro correctamente') {
     WebUI.closeBrowser()
-} 
-else if (Result == 'Se modifico el registro satisfactoriamente') {
-	WebUI.closeBrowser()
-}
-else {
+} else if (Result == 'Se modifico el registro satisfactoriamente') {
+    WebUI.closeBrowser()
+} else {
     WebUI.acceptAlert()
 }
 

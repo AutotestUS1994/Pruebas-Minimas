@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>67185225-65a6-4a87-b3ee-ef3426a47540</webElementGuid>
+      <webElementGuid>5169525b-b957-439b-bcba-fcbaae69859c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,58 @@
       <name>id</name>
       <type>Main</type>
       <value>form_actoCambioPuesto:j_idt3313</value>
-      <webElementGuid>525c389d-4300-4a92-af2f-cb8bdb15b452</webElementGuid>
+      <webElementGuid>333a1ff4-9acf-4448-a992-ae6941d89769</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>7d23a9ed-317c-4d1a-9bd5-6fdd0924c2f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>9a724309-f268-4016-b13e-18924af173a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_actoCambioPuesto:j_idt3313&quot;,f:&quot;form_actoCambioPuesto&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){resizeWindow();;}});return false;</value>
+      <webElementGuid>4c1b27b8-bebc-478c-aace-9d527c06c338</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_actoCambioPuesto:j_idt3313&quot;)</value>
+      <webElementGuid>d687e5e4-d15a-4981-9174-09eca3a35676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>67185225-65a6-4a87-b3ee-ef3426a47540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_actoCambioPuesto:j_idt3313</value>
+      <webElementGuid>525c389d-4300-4a92-af2f-cb8bdb15b452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -70,7 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_actoCambioPuesto:j_idt3313']</value>
-      <webElementGuid>8a99c116-f93f-474e-9e51-71939edca5d1</webElementGuid>
+      <webElementGuid>39d19480-fa39-450a-9244-343b6f168fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_actoCambioPuesto']/div/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>9d6d1ba8-ba52-440d-a1da-289d3c2fe7df</webElementGuid>
+      <webElementGuid>76ac8b8a-3b57-4479-90d8-bb40fd58968e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[21]</value>
-      <webElementGuid>88badcea-d114-4529-8ce8-3ca00be15d77</webElementGuid>
+      <webElementGuid>31017965-864b-470c-8cd3-5557c2582af8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>19cd1817-461e-4c56-9363-ff1bb1a80424</webElementGuid>
+      <webElementGuid>ea0a24f6-0a7e-48bc-8ba7-fa252442dc92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_actoCambioPuesto:j_idt3313' and @href = '#']</value>
-      <webElementGuid>973d54e1-129b-4c52-a1c6-fe09263533ea</webElementGuid>
+      <webElementGuid>722ebeb4-11bc-428b-8a38-8dfc2e067768</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

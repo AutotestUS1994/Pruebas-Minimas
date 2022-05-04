@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Evaluación Capacitación']/parent::*</value>
+         <value>//tr[2]/td/div/div/table/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>72d72e91-87f3-4eb2-ac36-6ec3f3d1b35a</webElementGuid>
+      <webElementGuid>e34aae8b-d3b8-4c29-a2ea-9c8d3a07f800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>1f1ae5c4-36af-4099-8603-cd53560c4d47</webElementGuid>
+      <webElementGuid>617b3d60-1a41-4a18-ba87-e8070743d140</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Encuesta De Satisfaccion Capacitacion</value>
-      <webElementGuid>39fd6685-aab9-4255-a207-5f0a45314c87</webElementGuid>
+      <webElementGuid>46cf2eda-1b3d-41e4-9ea9-fd06c4d70888</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formEventoEvaluacion:panel_evento:tablaEvaluacion_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even fila_tabla_ace&quot;]/td[2]</value>
-      <webElementGuid>f49dbf32-c5fd-4921-88da-70302883ef73</webElementGuid>
+      <webElementGuid>50a491a8-c92a-4cf1-b773-4e861864434b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formEventoEvaluacion:panel_evento:tablaEvaluacion_data']/tr/td[2]</value>
-      <webElementGuid>dd15ab45-5ba4-470c-a7ae-f29d56d7b5de</webElementGuid>
+      <webElementGuid>dee998ae-83c3-4b03-842b-f2f90a186f42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver'])[1]/following::td[2]</value>
-      <webElementGuid>c865b3cd-e634-42cd-b318-1e346570345a</webElementGuid>
+      <webElementGuid>558e45a1-7157-4c22-8ee9-bffbe186208a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Limite'])[1]/following::td[2]</value>
-      <webElementGuid>22a64f98-190c-408b-896f-114212c1caf5</webElementGuid>
+      <webElementGuid>748c4579-92e8-442f-bf08-9c05c1fce7b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='. . .'])[1]/preceding::td[2]</value>
-      <webElementGuid>9329c0ab-d06b-439d-a0e7-8da131394521</webElementGuid>
+      <webElementGuid>96df1727-5a17-470d-8df0-6dc3c753cc8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Diligenciada'])[2]/preceding::td[3]</value>
-      <webElementGuid>cbbb9621-2ffc-4d32-a8f5-2cc2fcf41c4c</webElementGuid>
+      <webElementGuid>b42791e5-453b-4bad-8620-999b26a88bbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Encuesta De Satisfaccion Capacitacion']/parent::*</value>
-      <webElementGuid>0a244ef8-291c-45b8-91da-f42403f1c73e</webElementGuid>
+      <webElementGuid>88d24666-aae4-46c0-a776-b667b1b479cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>d2eba1f8-91cd-4fd7-99fc-757a95e88834</webElementGuid>
+      <webElementGuid>8031cf95-02cc-47bd-b2dc-dff0ed4cd879</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

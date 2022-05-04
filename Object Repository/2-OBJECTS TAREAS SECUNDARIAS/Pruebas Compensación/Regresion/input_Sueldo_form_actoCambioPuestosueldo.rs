@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d9b86c48-ec6c-45b6-a073-ba3169b5fd5c</webElementGuid>
+      <webElementGuid>131c7b3d-2029-43a8-a1be-33a962557598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_actoCambioPuesto:sueldo</value>
-      <webElementGuid>d4e25b60-4745-4c48-bfa3-b2f59530d0be</webElementGuid>
+      <webElementGuid>1a43fdf0-c44d-41e2-b4cd-99f72c5cdcbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,10 +38,82 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>354fdca7-bfeb-4387-946c-45bd05754cac</webElementGuid>
+      <webElementGuid>dd65a9a8-3fa7-49d0-9472-bb73dcf350db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_actoCambioPuesto:sueldo</value>
+      <webElementGuid>3a71adc8-51f6-4212-bb29-5b3b95b2344b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1300000.00</value>
+      <webElementGuid>6d873b51-5603-4247-8da7-334dac27c3f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>0eb5d7e1-933b-4511-8af2-8cac46c1c851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>6f0c517d-775a-47b0-85a0-7ff6fe29b35e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeypress</name>
+      <type>Main</type>
+      <value>return decimal(event,this.value);</value>
+      <webElementGuid>c9f00fc3-7b90-4de7-9319-d986ce68478d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_actoCambioPuesto:sueldo&quot;)</value>
+      <webElementGuid>e22a49fc-900c-4f55-b520-2ede3b2afdb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d9b86c48-ec6c-45b6-a073-ba3169b5fd5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_actoCambioPuesto:sueldo</value>
+      <webElementGuid>d4e25b60-4745-4c48-bfa3-b2f59530d0be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>354fdca7-bfeb-4387-946c-45bd05754cac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -94,7 +166,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_actoCambioPuesto:sueldo']</value>
-      <webElementGuid>97d57f2d-33c2-4d66-b6b2-e498ccdfaa8a</webElementGuid>
+      <webElementGuid>759a9b53-766c-4df8-89ee-e146c45f5638</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +174,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_actoCambioPuesto']/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/input</value>
-      <webElementGuid>d94b65d5-1c24-41ae-9576-f2b3a5d04881</webElementGuid>
+      <webElementGuid>bb6ae8a7-d977-4376-b70f-5a455074fc44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +182,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/input</value>
-      <webElementGuid>b42f4604-377d-4372-b7ce-77d87d9c83b4</webElementGuid>
+      <webElementGuid>cb620c61-2234-4d5d-bb4b-bafb0d34e789</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +190,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_actoCambioPuesto:sueldo' and @type = 'text' and @name = 'form_actoCambioPuesto:sueldo']</value>
-      <webElementGuid>c8dae5fa-c240-444e-9612-78aacce0f357</webElementGuid>
+      <webElementGuid>a9862b41-6e2b-423b-bb4d-3d3e99492eae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

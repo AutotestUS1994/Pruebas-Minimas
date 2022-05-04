@@ -42,7 +42,7 @@ WebUI.selectOptionByValue(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     'BC', true)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
-    '01/12/2018')
+    '03/07/2021')
 
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
     Keys.chord(Keys.ENTER))
