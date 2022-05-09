@@ -64,17 +64,89 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Liquidacin Periodica'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'))
-
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Ver'))
-
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'), 
         1)) {
-        String Resultado = 'PRUEBA OK'
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'))
 
-        WebUI.closeBrowser()
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Ver'))
+
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 
+            1)) {
+            String Resultado = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     } else {
-        WebUI.acceptAlert()
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General'), [:], 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Empresa 1_form_templatej_idt24_input'), 
+            'Liquidacion Nomina')
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/li_Liquidacion Nomina (com)'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Periodo Nomina_LiquidacionNominaj_idt68'))
+
+        WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
+            2)
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_P. MensualJulio2021'))
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'), 
+            '1026588953')
+
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/input_Nombre Persona_LiquidacionNominaj_idt124'), 
+            Keys.chord(Keys.ENTER))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/td_Aya Silva Cindy Ximena'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Liquidacin Periodica'))
+
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'), 
+            1)) {
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Ver'))
+
+            if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 
+                1)) {
+                String Resultado = 'PRUEBA OK'
+
+                WebUI.closeBrowser()
+            } else {
+                WebUI.acceptAlert()
+            }
+        } else {
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Concepto'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Liquidar'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Si'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Liquidacin Periodica'))
+
+            if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'), 
+                1)) {
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/span_Prestamo Compaa'))
+
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Ver'))
+
+                if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina/a_Pagos o Descuentos Extra'), 
+                    1)) {
+                    String Resultado = 'PRUEBA OK'
+
+                    WebUI.closeBrowser()
+                } else {
+                    WebUI.acceptAlert()
+                }
+            } else {
+                WebUI.acceptAlert()
+            }
+        }
     }
 }
 

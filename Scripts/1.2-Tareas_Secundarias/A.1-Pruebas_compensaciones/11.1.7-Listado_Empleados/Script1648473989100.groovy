@@ -37,15 +37,53 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/L
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
     2)
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
 
-String totalA = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'), 
-    FailureHandling.STOP_ON_FAILURE)
+    String totalA = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Total Abonado_form_liquidacionesPeriodicasEmpleadotabLiquidacionesPeriodicasabono'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-if (totalA == '10.000,00') {
-    WebUI.closeBrowser()
+    if (totalA == '10.000,00') {
+        WebUI.closeBrowser()
 
-    WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General'), [:], 
+            FailureHandling.STOP_ON_FAILURE)
+    } else {
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General'), [:], 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Empresa 1_form_templatej_idt24_input (1)'), 
+            'listado de empleados')
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Listado de Empleados'))
+
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+            'Aya Silva Cindy Ximena')
+
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+            Keys.chord(Keys.ENTER))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Constantino Jhon'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Liquidacin Periodica'))
+
+        WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
+            2)
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
+
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Pagos o Descuentos Extra'), 
+            1)) {
+            String Result = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -71,13 +109,13 @@ if (totalA == '10.000,00') {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
 
-    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Pagos o Descuentos Extra'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Pagos o Descuentos Extra'), 
         1)) {
-	String Result = 'PRUEBA OK'
-    WebUI.closeBrowser()
+        String Result = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
     }
-	else {
-		WebUI.acceptAlert()
-		}
-	}
+}
 

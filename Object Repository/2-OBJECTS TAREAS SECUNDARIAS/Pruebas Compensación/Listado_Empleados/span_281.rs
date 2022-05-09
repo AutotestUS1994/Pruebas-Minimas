@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='899']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='01/07/2021']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1b813a21-b385-4d89-ab87-7badad37b73f</webElementGuid>
+      <webElementGuid>6117b3bd-fb9f-4223-9e4c-1f4e0a9540ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>3b9c91a9-1b83-44d2-afe0-c6b338b78a91</webElementGuid>
+      <webElementGuid>09993ccb-46d6-4934-b63e-454b993e95d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>281</value>
-      <webElementGuid>63d92a97-9849-4063-849e-6041dd5fee4c</webElementGuid>
+      <webElementGuid>c2719ed6-8a4d-49a9-bdce-cb90570bf98a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_liquidacionesPeriodicasEmpleado:tablaPrestamos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>6acf0879-ac36-4291-9ebd-6811b03bb44d</webElementGuid>
+      <webElementGuid>cd5a01f8-cba9-4f65-932d-e56d6aa8a467</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_liquidacionesPeriodicasEmpleado:tablaPrestamos_data']/tr/td/span</value>
-      <webElementGuid>e3f63c9d-72c2-4b6d-81d4-59ac675c1662</webElementGuid>
+      <webElementGuid>2b0dcd33-d932-45c7-86f6-97798e5671a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::span[4]</value>
-      <webElementGuid>02194ea1-7f90-4e11-b01f-919bb6bd8152</webElementGuid>
+      <webElementGuid>84f29405-a4c0-4712-9fe5-46555178dc75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[2]/following::span[5]</value>
-      <webElementGuid>29b65499-78aa-4b7b-bf60-19231ae2820e</webElementGuid>
+      <webElementGuid>4ad16e6b-556c-4632-9202-6b5f61b36a0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prestamo Compañía'])[1]/preceding::span[1]</value>
-      <webElementGuid>1923ddb7-c4e4-4965-a8bf-ffa59113eba3</webElementGuid>
+      <webElementGuid>3edadb51-fd03-4e68-9648-a9640710891f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[2]/preceding::span[2]</value>
-      <webElementGuid>60664f94-a1fd-4659-ade7-895cd5f3ec00</webElementGuid>
+      <webElementGuid>5b5b2206-8c90-4e3e-a3a7-6ef509cf1a5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='281']/parent::*</value>
-      <webElementGuid>14ce0484-e799-41fd-8644-62235e1938ce</webElementGuid>
+      <webElementGuid>9035d091-f778-4e97-9c3a-d5447972f30d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td/span</value>
-      <webElementGuid>22943b94-6463-4bb1-9f97-e5b6e93a33c7</webElementGuid>
+      <webElementGuid>181b2cfb-d7b9-44ec-b144-aa56e8318e60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '281' or . = '281')]</value>
-      <webElementGuid>c7d76583-0f5c-4f07-a5a7-e70144f3bb69</webElementGuid>
+      <webElementGuid>f83ced03-b9eb-4054-a076-eddeb4f0ce57</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -148,7 +148,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
     'Prueba')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
-    '01/01/2019')
+    '01/07/2021')
 
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Prestamo Liquidacion Periodica/input_Fecha Inicial _form_liqu'), 
     Keys.chord(Keys.ESCAPE))
