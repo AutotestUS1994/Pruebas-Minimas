@@ -55,16 +55,32 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_CONSTA BELFEGORD JHON'), 
         0)
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'), 
+        1)) {
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
-        0)
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
+            0)
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
+    } else {
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo - Copy'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/div_Solicitud_ui-chkbox-box_Consta Belfegord'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Autorizar'))
+
+        WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'), 
+            0)
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/span_Si_Por  Autorizar'))
+
+        WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar_Por Autorizar'))
+    }
 }
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Ausentismo_Por legalizar'), 
@@ -84,13 +100,12 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 String Alerta = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Resultado'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar'))
-if(Alerta == 'Se ha realizado el proceso') {
-WebUI.closeBrowser()
+
+if (Alerta == 'Se ha realizado el proceso') {
+    WebUI.closeBrowser()
+} else if (Alerta == 'Realizado proceso...') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else if(Alerta == 'Realizado proceso...')
-{
-	WebUI.closeBrowser()
-}
-else {
-WebUI.acceptAlert()
-}
+

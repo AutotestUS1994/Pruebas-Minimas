@@ -81,9 +81,10 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Solicitud certificado/a_Guardar'))
 
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Alerta == 'SE PROCESARÁ SU SOLICITUD') {
-WebUI.closeBrowser()
+
+if (Alerta == 'SE PROCESARÁ SU SOLICITUD') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+

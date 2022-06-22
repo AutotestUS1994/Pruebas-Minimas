@@ -57,8 +57,18 @@ WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta')
 String x = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (x.equals('Se modifico el registro satisfactoriamente')) {
-    WebUI.closeBrowser()
+	String Resultado = "PRUEBA  OK"
+	salir()
 } else {
     throw Exception('No se obtuvo mensaje esperado=' + x)
 }
+def salir() {
 
+	WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/a_Empresa 1_cerrar_menu'))
+	
+	WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/a_Administrador_glyphicons glyphicons-exit'))
+	
+	WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Periodica/div_Ingresar Olvide Mi Clave'), 0)
+	
+	WebUI.closeBrowser()
+}

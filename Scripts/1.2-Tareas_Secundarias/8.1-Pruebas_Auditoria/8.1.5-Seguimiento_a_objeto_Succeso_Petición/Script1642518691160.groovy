@@ -43,12 +43,13 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seg
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/input_Vista Suceso Acceso Peticion_form_peticionj_idt337j_idt340'), 
     Keys.chord(Keys.ENTER))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/td_sarawebwebcommonauditoriaauditoria.jsf'), 
-    1))
-{
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
+String Cedula2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Auditoria/Seguimiento_a_objeto_Succeso_Petición/td_sarawebwebcommonauditoriaauditoria.jsf'))
+
+if (Cedula2 == Cedula1) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+

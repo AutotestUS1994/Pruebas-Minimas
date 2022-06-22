@@ -3,7 +3,7 @@
    <description></description>
    <name>Prueba</name>
    <tag></tag>
-   <delayBetweenInstances>180</delayBetweenInstances>
+   <delayBetweenInstances>120</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>2</maxConcurrentInstances>
    <testSuiteRunConfigurations>

@@ -87,10 +87,11 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar licencia Remunerada/span_Guardar Legalizar'))
 
-String Alerta =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Alerta == 'Se modifico exitosamente su solicitud') {
-WebUI.closeBrowser()
+String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Alerta == 'Se modifico exitosamente su solicitud') {
+    String Resultado = 'PRUEBA OK'
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+

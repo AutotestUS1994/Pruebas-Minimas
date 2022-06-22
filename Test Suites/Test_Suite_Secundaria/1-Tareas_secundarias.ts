@@ -781,25 +781,4 @@
       <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.4-Parametros/14.1.1-Comprobar_Parametros</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>25aa2b40-015c-4cd7-b64e-28811d0cae60</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f6f7866e-de27-4ec9-af88-4cf2bc756f51</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f95f7b6e-2d15-48c4-8d8e-da1fb4395183</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

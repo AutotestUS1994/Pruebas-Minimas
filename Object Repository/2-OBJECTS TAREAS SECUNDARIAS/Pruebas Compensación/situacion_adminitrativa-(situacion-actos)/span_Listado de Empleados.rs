@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Listado de Empleados</name>
+   <tag></tag>
+   <elementGuidId>43a52825-95e3-4dfe-a260-d9e004c23297</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-autocomplete-query</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>61c24c94-7935-452f-a802-971aae80d73d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-autocomplete-query</value>
+      <webElementGuid>1aad187a-24c9-4c32-929d-02d95f4920d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Listado de Empleados</value>
+      <webElementGuid>5c151338-c3e2-472f-bed2-2c8ec287756c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
+      <webElementGuid>4b9a6d34-a535-4631-81bb-3aed8fd5cc08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
+      <webElementGuid>48e6a54b-95db-47cb-8b82-978756f3ed12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[3]/following::span[3]</value>
+      <webElementGuid>435ff4d2-94c6-4837-8bde-3321e350a20b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[5]</value>
+      <webElementGuid>5c645309-82e1-4203-aba0-9dfb355979a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[6]</value>
+      <webElementGuid>a66b6338-200d-4a8e-85a9-7408b2f56794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Listado de Empleados']/parent::*</value>
+      <webElementGuid>92f13315-e010-4945-88d1-3adbd59d3e17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li/span</value>
+      <webElementGuid>64d11e44-eb55-4817-a876-13f61848ee47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Listado de Empleados' or . = 'Listado de Empleados')]</value>
+      <webElementGuid>a590c289-a0a8-4f16-a96a-8ed41f40ec3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

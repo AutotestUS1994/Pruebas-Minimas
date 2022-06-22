@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>3ecf7dd1-7b93-4c60-9e58-2e5e60ba272c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Consola de Administración de Oracle WebLogic Server &quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c6e51107-ea94-4071-8a89-fe83c163af9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/console/framework/skins/wlsconsole/images/login_WebLogic_branding.png</value>
+      <webElementGuid>c19a41a2-d0f6-4d41-9307-e83b131c19f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Consola de Administración de Oracle WebLogic Server </value>
+      <webElementGuid>e441b094-9328-4c19-85c8-aede877fd99e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login-logo&quot;)/img[1]</value>
+      <webElementGuid>521f869b-cf3d-4a8c-a5c6-56d68f924cb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='login-logo']/img</value>
+      <webElementGuid>aa85c9d7-3841-42f9-9752-1b9e6e358728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Consola de Administración de Oracle WebLogic Server ']</value>
+      <webElementGuid>e8dfda27-2070-42b4-9147-1ef085e13098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>16f0fb58-2026-4eed-a926-4bd1481d6694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/console/framework/skins/wlsconsole/images/login_WebLogic_branding.png' and @alt = 'Consola de Administración de Oracle WebLogic Server ']</value>
+      <webElementGuid>5ef8e529-d9e5-4c8a-9e2c-688efbd7c121</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

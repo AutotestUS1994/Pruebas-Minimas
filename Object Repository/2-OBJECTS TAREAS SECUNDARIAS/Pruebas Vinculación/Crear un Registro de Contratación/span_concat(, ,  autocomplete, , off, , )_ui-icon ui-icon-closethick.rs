@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_concat(, ,  autocomplete, , off, , )_ui-icon ui-icon-closethick</name>
+   <tag></tag>
+   <elementGuidId>a8eb1b18-ddc6-4489-be4a-78b9e7c1fac2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all.ui-state-hover > span.ui-icon.ui-icon-closethick</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/form/div/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>af174a09-5526-49fc-bd53-25109c44a414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>c3bb6242-06a7-4de4-89cf-b54680ab5a05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formPopupHojaVida:dialog_popupHojaVida&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>3127b7c7-acf7-4c02-966e-f419f6970265</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formPopupHojaVida:dialog_popupHojaVida']/div/a/span</value>
+      <webElementGuid>f14ea07a-4db4-4442-9995-265163210507</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/form/div/div/a/span</value>
+      <webElementGuid>347d1edb-7613-48d7-a039-d986a1d6a12f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

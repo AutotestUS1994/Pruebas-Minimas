@@ -58,18 +58,20 @@ WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vi
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'), 
-    0)
+while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/span_prueba'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar'))
-
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Si'))
-if(Result == 'Se Ingreso anexo exitosamente') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Si'))
 }
-else {
-	WebUI.acceptAlert()
+
+if (Result == 'Se Ingreso anexo exitosamente') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
+

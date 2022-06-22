@@ -2,20 +2,44 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.thoughtworks.selenium.webdriven.commands.GetText
+
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL as GLOBAL
+import com.kms.katalon.core.annotation.Keyword as Keyword
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.junit.After as After
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.testng.Assert as Assert
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import java.io.File as File
+
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -64,7 +88,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar - Copy'))
     }
     
-    WebUI.closeBrowser()
+
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -102,7 +126,29 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
         0)
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
-
-    WebUI.closeBrowser()
+	
 }
+String Ruta = WebUI.callTestCase(findTestCase('0.1.3-Detector_de folder_download'), [:], FailureHandling.STOP_ON_FAILURE)
+String rutaA = Ruta
+String Archivo ='Reporte_Nomina_Electrónica.xlsx'
+Assert.assertTrue(archivoDescargado(rutaA,Archivo))
+boolean archivoDescargado(String rutaA,String Archivo) {
+	File dir = new File (rutaA)
+	File[] dirContenidos=dir.listFiles()
+	String r1 ='';
+	System.out.println(dirContenidos)
+	for (int i= 0;i< dirContenidos.length;i++) {
+		if (dirContenidos[i].getName().equals(Archivo)) {
+			dirContenidos[i].delete();
+			r1 = 'ok';
+			System.out.println(dirContenidos)
+			WebUI.closeBrowser()
+			return true 
+				}
+	}
+	return false
+	WebUI.closeBrowser()
+	}
+
+
 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_11001     BOGOT</name>
+   <tag></tag>
+   <elementGuidId>bf47bd70-9d51-4ed6-b352-af1e12fb4aed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[(text() = '11001    : BOGOTÁ' or . = '11001    : BOGOTÁ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c00d362f-e7e4-4486-bad6-56abc9f24f7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>3d7d8554-6f22-42c9-aadb-34861fd951d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>11001    : BOGOTÁ</value>
+      <webElementGuid>bdbcada9-8f88-45c1-be7a-11a83c066df6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formPopUpUbicacion:tabla_ubicaciones_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-hover&quot;]/td[3]</value>
+      <webElementGuid>7bad04af-0f73-4c08-bc6c-eef631bf7f05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formPopUpUbicacion:tabla_ubicaciones_data']/tr/td[3]</value>
+      <webElementGuid>ce80e663-4b8d-4549-b8d2-b0e2483e77e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciudad'])[1]/following::td[3]</value>
+      <webElementGuid>f15384f5-1267-49af-8c6e-6dfd7a3184b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::td[1]</value>
+      <webElementGuid>92a9e7f0-5a33-41cd-a9e2-21a6d6882d3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::td[1]</value>
+      <webElementGuid>4ee48623-005a-495d-bb03-a94b6032cb7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>3e1a2114-f99f-49bf-999e-90a75491ca7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '11001    : BOGOTÁ' or . = '11001    : BOGOTÁ')]</value>
+      <webElementGuid>b4d9b3f7-1da1-4664-96ba-02521a03deb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

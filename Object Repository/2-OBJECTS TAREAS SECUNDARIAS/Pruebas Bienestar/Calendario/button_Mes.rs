@@ -6,12 +6,12 @@
    <elementGuidId>67c30591-62d6-4461-a393-52274cd12fb4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.fc-month-button.fc-button.fc-state-default.fc-corner-left.fc-state-active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Mes']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>846297f1-8241-4e0f-a97e-e728529523cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>d845855d-9437-4a97-a3a1-2c5612c44456</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fc-month-button fc-button fc-state-default fc-corner-left fc-state-active</value>
+      <webElementGuid>58a8ad29-5ef8-4822-8423-a0a978ddbf67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mes</value>
+      <webElementGuid>49df447e-e7d2-41a9-8e26-c722861993e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_calendarioEventoBienestar&quot;)/div[@class=&quot;caja_contenido&quot;]/div[@id=&quot;calendario&quot;]/div[@class=&quot;fc-toolbar&quot;]/div[@class=&quot;fc-right&quot;]/div[@class=&quot;fc-button-group&quot;]/button[@class=&quot;fc-month-button fc-button fc-state-default fc-corner-left fc-state-active&quot;]</value>
+      <webElementGuid>bd94b2f7-4677-448a-9f1f-580413369b38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>1dbee86b-d3fc-4bb0-95c0-f45e3dfb9e6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='calendario']/div/div[2]/div/button</value>
+      <webElementGuid>1ececb7e-74fb-4562-97ca-0970ca3f1e26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Final Desarrollo'])[1]/following::button[3]</value>
+      <webElementGuid>e0e754ec-1f87-4119-860a-3942a5e26af2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inicial Desarrollo'])[1]/following::button[3]</value>
+      <webElementGuid>d0744802-78f1-4c1e-8dfb-901fb6c39a87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Semana'])[1]/preceding::button[1]</value>
+      <webElementGuid>dc6edec0-a901-415b-b87d-7a490be0d595</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Día'])[1]/preceding::button[2]</value>
+      <webElementGuid>37b0fcea-9eb2-4cac-99c1-95abc2339c96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Mes']/parent::*</value>
+      <webElementGuid>68ffbf08-4eb7-415a-a483-c6d08ea8aa8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
+      <webElementGuid>6e496786-d432-4fa9-8fad-cfd1b54ae94c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

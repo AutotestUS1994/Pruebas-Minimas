@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2-Pruebas hoja de vida" time="266.231" tests="10" failures="1" errors="0">
+   <testsuite name="2-Pruebas hoja de vida" tests="10" failures="1" errors="0" time="266.231" skipped="0" timestamp="2022-05-11 09:41:22" hostname="diego.rojas - US-AF-000371" id="Test Suites/Test_Suite_Secundaria/2-Pruebas hoja de vida">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220511_093638\\Test_Suite_Secundaria\\2-Pruebas hoja de vida\\20220511_094114"/>
+         <property name="logFiles" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220511_093638\\Test_Suite_Secundaria\\2-Pruebas hoja de vida\\20220511_094114\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220511_093638\\Test_Suite_Secundaria\\2-Pruebas hoja de vida\\20220511_094114\\1652280348927.png"/>
+         <property name="hostName" value="diego.rojas - US-AF-000371"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a4f2cc46f4eadcdc21c4589d8e20cb88"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.0-Nueva_Categoria" time="21.49" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.0-Nueva_Categoria" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:41:23 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.0-Nueva_Categoria: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.0-Nueva_Categoria
+
+2022-05-11 09:41:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:41:24 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:41:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:41:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:41:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:41:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:41:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:41:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:41:27 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:41:28 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:41:29 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:41:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:41:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:41:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:41:30 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:41:32 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:41:32 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:41:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:41:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:41:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search' is clickable
+
+2022-05-11 09:41:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search' is clickable
+
+2022-05-11 09:41:34 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search"), "categoria"): Text 'categoria' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'
+
+2022-05-11 09:41:34 - [MESSAGE][PASSED] - Text 'categoria' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'
+
+2022-05-11 09:41:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria' is visible
+
+2022-05-11 09:41:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:41:36 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria' is visible
+
+2022-05-11 09:41:36 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria' is clicked on
+
+2022-05-11 09:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria' is clicked on
+
+2022-05-11 09:41:36 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61'
+
+2022-05-11 09:41:37 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61'
+
+2022-05-11 09:41:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61'
+
+2022-05-11 09:41:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61'
+
+2022-05-11 09:41:38 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba"), 1)): null
+
+2022-05-11 09:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba' is clickable
+
+2022-05-11 09:41:39 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba' is clicked on
+
+2022-05-11 09:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba' is clicked on
+
+2022-05-11 09:41:39 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Eliminar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Eliminar' is clicked on
+
+2022-05-11 09:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Eliminar' is clicked on
+
+2022-05-11 09:41:40 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Aceptar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Aceptar' is clicked on
+
+2022-05-11 09:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Aceptar' is clicked on
+
+2022-05-11 09:41:40 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Nuevo")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Nuevo' is clicked on
+
+2022-05-11 09:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Nuevo' is clicked on
+
+2022-05-11 09:41:41 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Descripcin_form_categoriaSecciondescripcion"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Descripcin_form_categoriaSecciondescripcion'
+
+2022-05-11 09:41:42 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Descripcin_form_categoriaSecciondescripcion'
+
+2022-05-11 09:41:42 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden"), "5"): Text '5' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden'
+
+2022-05-11 09:41:42 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden'
+
+2022-05-11 09:41:42 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Guardar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Guardar' is clicked on
+
+2022-05-11 09:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Guardar' is clicked on
+
+2022-05-11 09:41:43 - [TEST_STEP][PASSED] - Result = getText(findTestObject("3-OBJECTS UTILIDADES/Alerta/Alerta")): Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:41:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:41:43 - [TEST_STEP][PASSED] - if (Result == "Se adiciono el registro correctamente"): Browser is closed
+
+2022-05-11 09:41:43 - [TEST_STEP][PASSED] - Resultado = "PRUEBA OK": null
+
+2022-05-11 09:41:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:41:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.1-Nueva_Seccion" time="25.431" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.1-Nueva_Seccion" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:41:44 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.1-Nueva_Seccion: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.1-Nueva_Seccion
+
+2022-05-11 09:41:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:41:45 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:41:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:41:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:41:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:41:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:41:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:41:46 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:41:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:41:47 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:41:47 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:41:48 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:41:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:41:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:41:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:41:49 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:41:49 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:41:50 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:41:51 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:41:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:41:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:41:51 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Secciones_form_templatej_idt286j_idt29")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:41:52 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:41:52 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:41:52 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/label_Parametros de Formularios")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/label_Parametros de Formularios' is clicked on
+
+2022-05-11 09:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/label_Parametros de Formularios' is clicked on
+
+2022-05-11 09:41:53 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Seccion")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Seccion' is clicked on
+
+2022-05-11 09:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Seccion' is clicked on
+
+2022-05-11 09:41:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60' is clickable
+
+2022-05-11 09:41:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60' is clickable
+
+2022-05-11 09:41:54 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60' is clicked on
+
+2022-05-11 09:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60' is clicked on
+
+2022-05-11 09:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'
+
+2022-05-11 09:41:55 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'
+
+2022-05-11 09:41:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'
+
+2022-05-11 09:41:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60'
+
+2022-05-11 09:41:56 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba"), 1)): null
+
+2022-05-11 09:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba' is clickable
+
+2022-05-11 09:41:57 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba' is clicked on
+
+2022-05-11 09:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba' is clicked on
+
+2022-05-11 09:41:57 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Eliminar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Eliminar' is clicked on
+
+2022-05-11 09:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Eliminar' is clicked on
+
+2022-05-11 09:41:58 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Nuevo")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Nuevo' is clicked on
+
+2022-05-11 09:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Nuevo' is clicked on
+
+2022-05-11 09:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion"), "Prueba"): Text 'Prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion'
+
+2022-05-11 09:41:59 - [MESSAGE][PASSED] - Text 'Prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion'
+
+2022-05-11 09:41:59 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Orden_seccion_formtaborden"), "12345"): Text '12345' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Orden_seccion_formtaborden'
+
+2022-05-11 09:42:00 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Orden_seccion_formtaborden'
+
+2022-05-11 09:42:00 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneBienes"), "2"): All options with index in [2] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneBienes'
+
+2022-05-11 09:42:01 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneBienes'
+
+2022-05-11 09:42:01 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneAreas de experiencia"), "5"): All options with index in [5] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneAreas de experiencia'
+
+2022-05-11 09:42:02 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneAreas de experiencia'
+
+2022-05-11 09:42:02 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje"), "PRUEBA"): Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje'
+
+2022-05-11 09:42:03 - [MESSAGE][PASSED] - Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje'
+
+2022-05-11 09:42:03 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje Final_seccion_formtabmensaje_final"), "PRUEBA"): Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje Final_seccion_formtabmensaje_final'
+
+2022-05-11 09:42:04 - [MESSAGE][PASSED] - Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje Final_seccion_formtabmensaje_final'
+
+2022-05-11 09:42:04 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Texto Confirmar_seccion_formtabmensaje_aceptacion"), "PRUEBA"): Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Texto Confirmar_seccion_formtabmensaje_aceptacion'
+
+2022-05-11 09:42:05 - [MESSAGE][PASSED] - Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Texto Confirmar_seccion_formtabmensaje_aceptacion'
+
+2022-05-11 09:42:05 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneMultiplex AnexosNo solicitarnico anexo"), "2"): All options with index in [2] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneMultiplex AnexosNo solicitarnico anexo'
+
+2022-05-11 09:42:06 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneMultiplex AnexosNo solicitarnico anexo'
+
+2022-05-11 09:42:06 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneSiNo"), "1"): All options with index in [1] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneSiNo'
+
+2022-05-11 09:42:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneSiNo'
+
+2022-05-11 09:42:07 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Externo_seccion_formtabexterno"), "PRUEBA"): Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Externo_seccion_formtabexterno'
+
+2022-05-11 09:42:08 - [MESSAGE][PASSED] - Text 'PRUEBA' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Externo_seccion_formtabexterno'
+
+2022-05-11 09:42:08 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Guardar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Guardar' is clicked on
+
+2022-05-11 09:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Guardar' is clicked on
+
+2022-05-11 09:42:08 - [TEST_STEP][PASSED] - Result = getText(findTestObject("3-OBJECTS UTILIDADES/Alerta/Alerta")): Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:42:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:42:09 - [TEST_STEP][PASSED] - if (Result == "Se adiciono el registro correctamente"): Browser is closed
+
+2022-05-11 09:42:09 - [TEST_STEP][PASSED] - Resultado = "Prueba ok": null
+
+2022-05-11 09:42:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:42:10 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-11 09:42:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:42:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.2-Nuevo_Formulario_Hoja_de_vida" time="17.189" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.2-Nuevo_Formulario_Hoja_de_vida" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:42:10 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.2-Nuevo_Formulario_Hoja_de_vida: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.2-Nuevo_Formulario_Hoja_de_vida
+
+2022-05-11 09:42:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:42:10 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:42:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:42:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:42:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:42:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:42:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:42:12 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:42:12 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:42:13 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:42:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:42:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:42:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:42:14 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:42:14 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:42:15 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:42:16 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:42:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:42:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:42:16 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:42:17 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:42:17 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios' is clicked on
+
+2022-05-11 09:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios' is clicked on
+
+2022-05-11 09:42:18 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario' is clicked on
+
+2022-05-11 09:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario' is clicked on
+
+2022-05-11 09:42:18 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'
+
+2022-05-11 09:42:19 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'
+
+2022-05-11 09:42:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'
+
+2022-05-11 09:42:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61'
+
+2022-05-11 09:42:20 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba"), 1)): null
+
+2022-05-11 09:42:21 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba' is clickable
+
+2022-05-11 09:42:21 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba' is clicked on
+
+2022-05-11 09:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba' is clicked on
+
+2022-05-11 09:42:21 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Eliminar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Eliminar' is clicked on
+
+2022-05-11 09:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Eliminar' is clicked on
+
+2022-05-11 09:42:22 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Aceptar_Eliminar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Aceptar_Eliminar' is clicked on
+
+2022-05-11 09:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Aceptar_Eliminar' is clicked on
+
+2022-05-11 09:42:22 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo' is clicked on
+
+2022-05-11 09:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo' is clicked on
+
+2022-05-11 09:42:23 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre'
+
+2022-05-11 09:42:24 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre'
+
+2022-05-11 09:42:24 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo"), "123"): Text '123' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo'
+
+2022-05-11 09:42:25 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo'
+
+2022-05-11 09:42:25 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar' is clicked on
+
+2022-05-11 09:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar' is clicked on
+
+2022-05-11 09:42:25 - [TEST_STEP][PASSED] - Result = getText(findTestObject("3-OBJECTS UTILIDADES/Alerta/Alerta")): Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:42:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:42:26 - [TEST_STEP][PASSED] - if (Result == "Se adiciono el registro correctamente"): Browser is closed
+
+2022-05-11 09:42:26 - [TEST_STEP][PASSED] - Resultado = "PRUEBA OK": null
+
+2022-05-11 09:42:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:42:27 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-11 09:42:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:42:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.3-Crear_Nueva_Tipo_de_Hoja" time="20.369" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.3-Crear_Nueva_Tipo_de_Hoja" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:42:27 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.3-Crear_Nueva_Tipo_de_Hoja: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.3-Crear_Nueva_Tipo_de_Hoja
+
+2022-05-11 09:42:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:42:27 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:42:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:42:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:42:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:42:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:42:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:42:29 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:42:30 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:42:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:42:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:42:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:42:31 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:42:32 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:42:33 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:42:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:42:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:42:33 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Empresa 1_form_templatej_idt24_input"), "Tipo de Hoja"): Text 'Tipo de Hoja' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Empresa 1_form_templatej_idt24_input'
+
+2022-05-11 09:42:34 - [MESSAGE][PASSED] - Text 'Tipo de Hoja' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Empresa 1_form_templatej_idt24_input'
+
+2022-05-11 09:42:34 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_Tipo de Hoja")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_Tipo de Hoja' is clicked on
+
+2022-05-11 09:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_Tipo de Hoja' is clicked on
+
+2022-05-11 09:42:35 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_P1"), 1)): null
+
+2022-05-11 09:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_P1' is clickable
+
+2022-05-11 09:42:36 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_P1")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_P1' is clicked on
+
+2022-05-11 09:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_P1' is clicked on
+
+2022-05-11 09:42:37 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Eliminar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Eliminar' is clicked on
+
+2022-05-11 09:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Eliminar' is clicked on
+
+2022-05-11 09:42:37 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Aceptar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Aceptar' is clicked on
+
+2022-05-11 09:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Aceptar' is clicked on
+
+2022-05-11 09:42:38 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Nuevo")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Nuevo' is clicked on
+
+2022-05-11 09:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Nuevo' is clicked on
+
+2022-05-11 09:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Tipo Relacin Hoja_form_tipohojavinculacion"), "P1"): Text 'P1' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Tipo Relacin Hoja_form_tipohojavinculacion'
+
+2022-05-11 09:42:40 - [MESSAGE][PASSED] - Text 'P1' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Tipo Relacin Hoja_form_tipohojavinculacion'
+
+2022-05-11 09:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Descripcin_form_tipohojadescripcion"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Descripcin_form_tipohojadescripcion'
+
+2022-05-11 09:42:40 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Descripcin_form_tipohojadescripcion'
+
+2022-05-11 09:42:40 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Directa")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Directa' is clicked on
+
+2022-05-11 09:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Directa' is clicked on
+
+2022-05-11 09:42:41 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_Si_Crear Hoja")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_Si_Crear Hoja' is clicked on
+
+2022-05-11 09:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_Si_Crear Hoja' is clicked on
+
+2022-05-11 09:42:41 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Aprobada")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Aprobada' is clicked on
+
+2022-05-11 09:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Aprobada' is clicked on
+
+2022-05-11 09:42:41 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Rechazada")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Rechazada' is clicked on
+
+2022-05-11 09:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Rechazada' is clicked on
+
+2022-05-11 09:42:42 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Formulario Asociados"), 8): All options with index in [8] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Formulario Asociados'
+
+2022-05-11 09:42:43 - [MESSAGE][PASSED] - All options with index in [8] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Formulario Asociados'
+
+2022-05-11 09:42:43 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Hoja Asociar"), 3): All options with index in [3] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Hoja Asociar'
+
+2022-05-11 09:42:44 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Hoja Asociar'
+
+2022-05-11 09:42:44 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Gestion Periodo"), 2): All options with index in [2] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Gestion Periodo'
+
+2022-05-11 09:42:45 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Gestion Periodo'
+
+2022-05-11 09:42:45 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Modo"), 1): All options with index in [1] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Modo'
+
+2022-05-11 09:42:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Modo'
+
+2022-05-11 09:42:46 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Guardar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Guardar' is clicked on
+
+2022-05-11 09:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Guardar' is clicked on
+
+2022-05-11 09:42:46 - [TEST_STEP][PASSED] - Result = getText(findTestObject("3-OBJECTS UTILIDADES/Alerta/Alerta")): Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:42:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se adiciono el registro correctamente'
+
+2022-05-11 09:42:47 - [TEST_STEP][PASSED] - if (Result == "Se adiciono el registro correctamente"): null
+
+2022-05-11 09:42:47 - [TEST_STEP][PASSED] - Resultado = "PRUEBAS OK": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.4-Crear_Nueva_Hoja_de_Vida" time="39.502" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.4-Crear_Nueva_Hoja_de_Vida" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:42:47 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.4-Crear_Nueva_Hoja_de_Vida: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.4-Crear_Nueva_Hoja_de_Vida
+
+2022-05-11 09:42:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida' successfully
+
+2022-05-11 09:42:48 - [TEST_CASE][PASSED] - Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida: Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida
+
+2022-05-11 09:42:48 - [TEST_STEP][PASSED] - random_double = Math.random() * 9999 + 999: null
+
+2022-05-11 09:42:48 - [TEST_STEP][PASSED] - random_double = Math.round(random_double * 1000): null
+
+2022-05-11 09:42:48 - [TEST_STEP][PASSED] - identificacion = toString().replace(".0", ""): null
+
+2022-05-11 09:42:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:42:48 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:42:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:42:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-11 09:42:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:42:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:42:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:42:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:42:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:42:51 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:42:52 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:42:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:42:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:42:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:42:53 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:42:54 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:42:55 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:42:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:42:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:42:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input' is clickable
+
+2022-05-11 09:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input' is clickable
+
+2022-05-11 09:42:56 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input"), "Listado Hojas de Vida"): Text 'Listado Hojas de Vida' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'
+
+2022-05-11 09:42:56 - [MESSAGE][PASSED] - Text 'Listado Hojas de Vida' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'
+
+2022-05-11 09:42:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida"), 0): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida' is visible
+
+2022-05-11 09:42:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:42:58 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida' is visible
+
+2022-05-11 09:42:58 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida' is clicked on
+
+2022-05-11 09:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Listado Hojas de Vida' is clicked on
+
+2022-05-11 09:42:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida' is clickable
+
+2022-05-11 09:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida' is clickable
+
+2022-05-11 09:42:59 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida' is clicked on
+
+2022-05-11 09:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva HojaVida' is clicked on
+
+2022-05-11 09:43:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Identificacin_nuevahoja_"), 0): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Identificacin_nuevahoja_' is clickable
+
+2022-05-11 09:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Identificacin_nuevahoja_' is clickable
+
+2022-05-11 09:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Identificacin_nuevahoja_"), identificacion): Text '9018125' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Identificacin_nuevahoja_'
+
+2022-05-11 09:43:01 - [MESSAGE][PASSED] - Text '9018125' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Identificacin_nuevahoja_'
+
+2022-05-11 09:43:01 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_-- Seleccione --.ASPIRA"), "4"): All options with index in [4] are selected on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_-- Seleccione --.ASPIRA'
+
+2022-05-11 09:43:02 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_-- Seleccione --.ASPIRA'
+
+2022-05-11 09:43:02 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva Solicitud")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva Solicitud' is clicked on
+
+2022-05-11 09:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Nueva Solicitud' is clicked on
+
+2022-05-11 09:43:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845"), 0): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845' is present
+
+2022-05-11 09:43:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:43:03 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845' is present
+
+2022-05-11 09:43:03 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845"), identificacion): Text '9018125' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845'
+
+2022-05-11 09:43:04 - [MESSAGE][PASSED] - Text '9018125' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8350j_idt845'
+
+2022-05-11 09:43:04 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8351j_idt845"), "Empleado" + identificacion): Text 'Empleado9018125' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8351j_idt845'
+
+2022-05-11 09:43:05 - [MESSAGE][PASSED] - Text 'Empleado9018125' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8351j_idt845'
+
+2022-05-11 09:43:05 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8352j_idt845"), " Pruebas_Automaticas"): Text ' Pruebas_Automaticas' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8352j_idt845'
+
+2022-05-11 09:43:05 - [MESSAGE][PASSED] - Text ' Pruebas_Automaticas' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8352j_idt845'
+
+2022-05-11 09:43:05 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input"), "30/08/1995"): Text '30/08/1995' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input'
+
+2022-05-11 09:43:06 - [MESSAGE][PASSED] - Text '30/08/1995' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input'
+
+2022-05-11 09:43:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input'
+
+2022-05-11 09:43:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8353fecha_input'
+
+2022-05-11 09:43:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt8354j_idt865"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt8354j_idt865' is clickable
+
+2022-05-11 09:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt8354j_idt865' is clickable
+
+2022-05-11 09:43:07 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt8354j_idt865")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt8354j_idt865' is clicked on
+
+2022-05-11 09:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt8354j_idt865' is clicked on
+
+2022-05-11 09:43:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_CEDULA CIUDADANIA"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_CEDULA CIUDADANIA' is clickable
+
+2022-05-11 09:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_CEDULA CIUDADANIA' is clickable
+
+2022-05-11 09:43:08 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_CEDULA CIUDADANIA")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_CEDULA CIUDADANIA' is clicked on
+
+2022-05-11 09:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_CEDULA CIUDADANIA' is clicked on
+
+2022-05-11 09:43:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas' is clickable
+
+2022-05-11 09:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas' is clickable
+
+2022-05-11 09:43:09 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas"), "13/09/2013"): Text '13/09/2013' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas'
+
+2022-05-11 09:43:10 - [MESSAGE][PASSED] - Text '13/09/2013' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas'
+
+2022-05-11 09:43:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas'
+
+2022-05-11 09:43:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Fecha Expedicin_hojaVidas'
+
+2022-05-11 09:43:11 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_-- Seleccione--000000ABEJORRAL"), "113"): All options with index in [113] are selected on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_-- Seleccione--000000ABEJORRAL'
+
+2022-05-11 09:43:14 - [MESSAGE][PASSED] - All options with index in [113] are selected on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_-- Seleccione--000000ABEJORRAL'
+
+2022-05-11 09:43:14 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8358j_idt845"), "634564654684"): Text '634564654684' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8358j_idt845'
+
+2022-05-11 09:43:15 - [MESSAGE][PASSED] - Text '634564654684' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8358j_idt845'
+
+2022-05-11 09:43:15 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8359j_idt845"), "noodle@gmail.com"): Text 'noodle@gmail.com' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8359j_idt845'
+
+2022-05-11 09:43:15 - [MESSAGE][PASSED] - Text 'noodle@gmail.com' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input__hojaVidaseccionj_idt8359j_idt845'
+
+2022-05-11 09:43:15 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_AA-ABAB-BB-OO-"), "7"): All options with index in [7] are selected on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_AA-ABAB-BB-OO-'
+
+2022-05-11 09:43:17 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_AA-ABAB-BB-OO-'
+
+2022-05-11 09:43:17 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21411j_idt254")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21411j_idt254' is clicked on
+
+2022-05-11 09:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21411j_idt254' is clicked on
+
+2022-05-11 09:43:17 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921"), "BOGOTÁ"): Text 'BOGOTÁ' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'
+
+2022-05-11 09:43:18 - [MESSAGE][PASSED] - Text 'BOGOTÁ' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'
+
+2022-05-11 09:43:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'
+
+2022-05-11 09:43:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'
+
+2022-05-11 09:43:19 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/td_11001     BOGOT")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/td_11001     BOGOT' is clicked on
+
+2022-05-11 09:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/td_11001     BOGOT' is clicked on
+
+2022-05-11 09:43:19 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21412j_idt254")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21412j_idt254' is clicked on
+
+2022-05-11 09:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21412j_idt254' is clicked on
+
+2022-05-11 09:43:20 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935"), "Colombiana"): Text 'Colombiana' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935'
+
+2022-05-11 09:43:21 - [MESSAGE][PASSED] - Text 'Colombiana' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935'
+
+2022-05-11 09:43:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935'
+
+2022-05-11 09:43:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935'
+
+2022-05-11 09:43:22 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Colombiana")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Colombiana' is clicked on
+
+2022-05-11 09:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Colombiana' is clicked on
+
+2022-05-11 09:43:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar' is clickable
+
+2022-05-11 09:43:23 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar' is clickable
+
+2022-05-11 09:43:23 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar' is clicked on
+
+2022-05-11 09:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar' is clicked on
+
+2022-05-11 09:43:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar' is clickable
+
+2022-05-11 09:43:24 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar' is clickable
+
+2022-05-11 09:43:24 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar"), STOP_ON_FAILURE): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar' is clicked on
+
+2022-05-11 09:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Aceptar' is clicked on
+
+2022-05-11 09:43:25 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Actualizar Respuesta"), 1)): null
+
+2022-05-11 09:43:26 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Actualizar Respuesta' is visible
+
+2022-05-11 09:43:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:43:27 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-11 09:43:27 - [TEST_STEP][PASSED] - return identificacion: null
+
+2022-05-11 09:43:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.5-Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)" time="20.733" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.5-Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:43:27 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.5-Crear_Nueva_Hoja_de_Vida_(adjuntar_documento): Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.5-Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)
+
+2022-05-11 09:43:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:43:27 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:43:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:43:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:43:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:43:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:43:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:43:29 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:43:30 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:43:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:43:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:43:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:43:31 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:43:31 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:43:32 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:43:33 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:43:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:43:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:43:33 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:43:34 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:43:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida' is clickable
+
+2022-05-11 09:43:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:43:35 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida' is clickable
+
+2022-05-11 09:43:35 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:43:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida' is clickable
+
+2022-05-11 09:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:43:35 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida' is clickable
+
+2022-05-11 09:43:35 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida' is clicked on
+
+2022-05-11 09:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida' is clicked on
+
+2022-05-11 09:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63"), "355682169"): Text '355682169' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:37 - [MESSAGE][PASSED] - Text '355682169' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:38 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169' is clicked on
+
+2022-05-11 09:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169' is clicked on
+
+2022-05-11 09:43:38 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo' is clicked on
+
+2022-05-11 09:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo' is clicked on
+
+2022-05-11 09:43:39 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo' is clicked on
+
+2022-05-11 09:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo' is clicked on
+
+2022-05-11 09:43:39 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion"), "prueba"): Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion'
+
+2022-05-11 09:43:40 - [MESSAGE][PASSED] - Text 'prueba' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion'
+
+2022-05-11 09:43:40 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar' is clicked on
+
+2022-05-11 09:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar' is clicked on
+
+2022-05-11 09:43:41 - [TEST_STEP][PASSED] - ruta = G_rutaarchivos + "HojaDeVida.txt": null
+
+2022-05-11 09:43:41 - [TEST_STEP][PASSED] - uploadFile(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input"), ruta): File 'E:\unionweb14\HojaDeVida.txt' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'
+
+2022-05-11 09:43:41 - [MESSAGE][PASSED] - File 'E:\unionweb14\HojaDeVida.txt' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'
+
+2022-05-11 09:43:41 - [TEST_STEP][PASSED] - Result = getText(findTestObject("3-OBJECTS UTILIDADES/Alerta/Alerta")): Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se Ingreso anexo exitosamente'
+
+2022-05-11 09:43:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/3-OBJECTS UTILIDADES/Alerta/Alerta' is: 'Se Ingreso anexo exitosamente'
+
+2022-05-11 09:43:42 - [TEST_STEP][PASSED] - while (waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/span_prueba"), 1)): null
+
+2022-05-11 09:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/span_prueba' is visible
+
+2022-05-11 09:43:42 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba' is clicked on
+
+2022-05-11 09:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_prueba' is clicked on
+
+2022-05-11 09:43:43 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar' is clicked on
+
+2022-05-11 09:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Eliminar' is clicked on
+
+2022-05-11 09:43:44 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Si")): Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/span_prueba' located by '//*/text()[normalize-space(.)='prueba']/parent::*' not found
+
+2022-05-11 09:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Si' is clicked on
+
+2022-05-11 09:43:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='prueba']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-11 09:43:46 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/span_prueba' located by '//*/text()[normalize-space(.)='prueba']/parent::*' not found
+
+2022-05-11 09:43:46 - [TEST_STEP][PASSED] - if (Result == "Se Ingreso anexo exitosamente"): Browser is closed
+
+2022-05-11 09:43:46 - [TEST_STEP][PASSED] - Resultado = "PRUEBA OK": null
+
+2022-05-11 09:43:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:43:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.6-Impresión_Hoja_Vida_Plantilla" time="15.333" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.6-Impresión_Hoja_Vida_Plantilla" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:43:47 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.6-Impresión_Hoja_Vida_Plantilla: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.6-Impresión_Hoja_Vida_Plantilla
+
+2022-05-11 09:43:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:43:48 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:43:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:43:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:43:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:43:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:43:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:43:49 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:43:50 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:43:50 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:43:51 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:43:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:43:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:43:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:43:52 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:43:52 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:43:53 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:43:53 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:43:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:43:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:43:53 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:43:54 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:43:55 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:43:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida' is clickable
+
+2022-05-11 09:43:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida' is clickable
+
+2022-05-11 09:43:56 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida' is clicked on
+
+2022-05-11 09:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida' is clicked on
+
+2022-05-11 09:43:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63' is clickable
+
+2022-05-11 09:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63' is clickable
+
+2022-05-11 09:43:57 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63"), "355682169"): Text '355682169' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:58 - [MESSAGE][PASSED] - Text '355682169' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:43:58 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_355682169")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_355682169' is clicked on
+
+2022-05-11 09:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_355682169' is clicked on
+
+2022-05-11 09:43:59 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Generar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Generar' is clicked on
+
+2022-05-11 09:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Generar' is clicked on
+
+2022-05-11 09:44:00 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado' is clicked on
+
+2022-05-11 09:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado' is clicked on
+
+2022-05-11 09:44:00 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar' is clicked on
+
+2022-05-11 09:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar' is clicked on
+
+2022-05-11 09:44:01 - [TEST_STEP][PASSED] - switchToWindowTitle("SARA"): Switched to window with title: 'SARA'
+
+2022-05-11 09:44:01 - [MESSAGE][PASSED] - Switched to window with title: 'SARA'
+
+2022-05-11 09:44:01 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar"), 1)): null
+
+2022-05-11 09:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Descargar' is visible
+
+2022-05-11 09:44:02 - [TEST_STEP][PASSED] - Resultado = "Prueba ok": null
+
+2022-05-11 09:44:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:44:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.7-Impresión_Hoja_Vida_Función_Pública" time="22.053" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.7-Impresión_Hoja_Vida_Función_Pública" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:44:03 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.7-Impresión_Hoja_Vida_Función_Pública: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.7-Impresión_Hoja_Vida_Función_Pública
+
+2022-05-11 09:44:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida' successfully
+
+2022-05-11 09:44:03 - [TEST_CASE][PASSED] - Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida: Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida
+
+2022-05-11 09:44:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.1-Tareas Principales/Listado hojas de Vida"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.1-Tareas Principales/Listado hojas de Vida' successfully
+
+2022-05-11 09:44:04 - [TEST_CASE][PASSED] - Test Cases/1.1-Tareas Principales/Listado hojas de Vida: Test Cases/1.1-Tareas Principales/Listado hojas de Vida
+
+2022-05-11 09:44:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:04 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:44:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:44:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:44:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:44:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:44:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:44:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:44:05 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:44:05 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:06 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:44:06 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:07 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:08 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:08 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:09 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:44:10 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:10 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input' is clickable
+
+2022-05-11 09:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input' is clickable
+
+2022-05-11 09:44:11 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input"), "Listado Hojas de Vida (hoj)"): Text 'Listado Hojas de Vida (hoj)' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'
+
+2022-05-11 09:44:11 - [MESSAGE][PASSED] - Text 'Listado Hojas de Vida (hoj)' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'
+
+2022-05-11 09:44:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)"), 0): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)' is visible
+
+2022-05-11 09:44:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:44:13 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)' is visible
+
+2022-05-11 09:44:13 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-05-11 09:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-05-11 09:44:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.1-Tareas Principales/Listado hojas de Vida' successfully
+
+2022-05-11 09:44:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62' is clickable
+
+2022-05-11 09:44:14 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62' is clickable
+
+2022-05-11 09:44:14 - [TEST_STEP][PASSED] - setText(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62"), "355682169"): Text '355682169' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'
+
+2022-05-11 09:44:15 - [MESSAGE][PASSED] - Text '355682169' is set on object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'
+
+2022-05-11 09:44:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'
+
+2022-05-11 09:44:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/input_Identificacin_listado_hojaVidaj_idt62'
+
+2022-05-11 09:44:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169' is clickable
+
+2022-05-11 09:44:16 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169' is clickable
+
+2022-05-11 09:44:16 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169' is clicked on
+
+2022-05-11 09:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_355682169' is clicked on
+
+2022-05-11 09:44:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir' is clickable
+
+2022-05-11 09:44:17 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir' is clickable
+
+2022-05-11 09:44:17 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir' is clicked on
+
+2022-05-11 09:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Imprimir' is clicked on
+
+2022-05-11 09:44:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si' is clickable
+
+2022-05-11 09:44:18 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si' is clickable
+
+2022-05-11 09:44:18 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si' is clicked on
+
+2022-05-11 09:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Si' is clicked on
+
+2022-05-11 09:44:18 - [TEST_STEP][PASSED] - switchToWindowTitle("SARA"): Switched to window with title: 'SARA'
+
+2022-05-11 09:44:18 - [MESSAGE][PASSED] - Switched to window with title: 'SARA'
+
+2022-05-11 09:44:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick' is clickable
+
+2022-05-11 09:44:19 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick' is clickable
+
+2022-05-11 09:44:19 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick' is clicked on
+
+2022-05-11 09:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick' is clicked on
+
+2022-05-11 09:44:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar' is clickable
+
+2022-05-11 09:44:20 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar' is clickable
+
+2022-05-11 09:44:20 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar' is clicked on
+
+2022-05-11 09:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Generar' is clicked on
+
+2022-05-11 09:44:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado' is clickable
+
+2022-05-11 09:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado' is clickable
+
+2022-05-11 09:44:21 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado' is clicked on
+
+2022-05-11 09:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/td_espaol impresion empleado' is clicked on
+
+2022-05-11 09:44:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar' is clickable
+
+2022-05-11 09:44:22 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar' is clickable
+
+2022-05-11 09:44:22 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar' is clicked on
+
+2022-05-11 09:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Descargar' is clicked on
+
+2022-05-11 09:44:23 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-05-11 09:44:23 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-05-11 09:44:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1"), G_TimeOut): Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1' is clickable
+
+2022-05-11 09:44:23 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1' is clickable
+
+2022-05-11 09:44:23 - [TEST_STEP][PASSED] - click(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1")): Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1' is clicked on
+
+2022-05-11 09:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/span_Grupo Sanguneo-closethick_1' is clicked on
+
+2022-05-11 09:44:23 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Actualizar Respuesta"), 1)): null
+
+2022-05-11 09:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Imprimir Hoja de Vida/a_Actualizar Respuesta' is visible
+
+2022-05-11 09:44:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-11 09:44:25 - [MESSAGE][PASSED] - Browser is closed
+
+2022-05-11 09:44:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.8-Aprobación_Novedades" time="24.788" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.8-Aprobación_Novedades" status="PASSED">
+         <system-out><![CDATA[2022-05-11 09:44:25 - [TEST_CASE][PASSED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.8-Aprobación_Novedades: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.8-Aprobación_Novedades
+
+2022-05-11 09:44:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:25 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:44:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:44:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:44:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:44:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:44:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:27 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:28 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:29 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:29 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:31 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:44:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:31 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:44:32 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:44:33 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:44:33 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades' is clicked on
+
+2022-05-11 09:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades' is clicked on
+
+2022-05-11 09:44:34 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada"), 3): All options with index in [3] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'
+
+2022-05-11 09:44:35 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'
+
+2022-05-11 09:44:35 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL"), 1)): null
+
+2022-05-11 09:44:35 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL' is visible
+
+2022-05-11 09:44:35 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL' is clicked on
+
+2022-05-11 09:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL' is clicked on
+
+2022-05-11 09:44:36 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aprobar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aprobar' is clicked on
+
+2022-05-11 09:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aprobar' is clicked on
+
+2022-05-11 09:44:37 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar' is clicked on
+
+2022-05-11 09:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar' is clicked on
+
+2022-05-11 09:44:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:37 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:44:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:44:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-11 09:44:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:44:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:44:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:44:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:40 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:41 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:42 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:42 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:43 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:44:43 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:43 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29' is clicked on
+
+2022-05-11 09:44:45 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu' is clicked on
+
+2022-05-11 09:44:45 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida' is clicked on
+
+2022-05-11 09:44:45 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades' is clicked on
+
+2022-05-11 09:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades' is clicked on
+
+2022-05-11 09:44:46 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada"), 3): All options with index in [3] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'
+
+2022-05-11 09:44:47 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada'
+
+2022-05-11 09:44:47 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL"), 1)): Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL' located by '//div[2]/div/table/tbody/tr/td[3]/span' not found
+
+2022-05-11 09:44:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[2]/div/table/tbody/tr/td[3]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-11 09:44:50 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL' located by '//div[2]/div/table/tbody/tr/td[3]/span' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida" time="58.883" classname="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-11 09:44:50 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - Dia = today.format("dd"): null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - Mes = today.format("MM"): null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - Año = today.format("yyyy"): null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - Añom = Año - 20: null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - AñoB = Año - 32: null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - Fecha = Dia + "/" + Mes + "/" + Añom: null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - FechaB = Dia + "/" + Mes + "/" + AñoB: null
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("0.1-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:50 - [TEST_CASE][PASSED] - Test Cases/0.1-Login: Test Cases/0.1-Login
+
+2022-05-11 09:44:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-11 09:44:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-11 09:44:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-11 09:44:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-11 09:44:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-11 09:44:53 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - i = G_Login: null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - url = new java.net.URL(i): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - println("URL: " + url.toString()): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - connection = url.openConnection(): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - connection.setRequestMethod("GET"): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - connection.setReadTimeout(2 * 1000): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - try: null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - connection.connect(): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - flag = connected: null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - println("Valor_ori: " + flag): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - if (flag): null
+
+2022-05-11 09:44:53 - [TEST_STEP][PASSED] - navigateToUrl(i): Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:54 - [MESSAGE][PASSED] - Navigate to 'http://192.168.2.19:8380/saraweb' successfully
+
+2022-05-11 09:44:54 - [TEST_STEP][PASSED] - a(): null
+
+2022-05-11 09:44:54 - [TEST_STEP][PASSED] - setText(findTestObject("3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario"), G_Usuario): Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:54 - [MESSAGE][PASSED] - Text 'saraadmin' is set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'
+
+2022-05-11 09:44:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword"), "MkG4/TYiCFC3cb2driP7+Q=="): Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'
+
+2022-05-11 09:44:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar"), G_TimeOut): Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clickable
+
+2022-05-11 09:44:55 - [TEST_STEP][PASSED] - click(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ingresar")): Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/3-OBJECTS UTILIDADES/Login/a_Ingresar' is clicked on
+
+2022-05-11 09:44:57 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("3-OBJECTS UTILIDADES/Login/a_Ir"), 30): null
+
+2022-05-11 09:44:57 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click()", Arrays.asList(element)): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:57 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-05-11 09:44:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/0.1-Login' successfully
+
+2022-05-11 09:44:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input' is clickable
+
+2022-05-11 09:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input' is clickable
+
+2022-05-11 09:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input"), "Listado Hojas de Vida (hoj)"): Text 'Listado Hojas de Vida (hoj)' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'
+
+2022-05-11 09:44:59 - [MESSAGE][PASSED] - Text 'Listado Hojas de Vida (hoj)' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'
+
+2022-05-11 09:44:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)"), 0): Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)' is visible
+
+2022-05-11 09:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-05-11 09:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)' is visible
+
+2022-05-11 09:45:00 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-05-11 09:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)' is clicked on
+
+2022-05-11 09:45:01 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63"), "354968431354"): Text '354968431354' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:45:02 - [MESSAGE][PASSED] - Text '354968431354' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:45:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:45:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63'
+
+2022-05-11 09:45:02 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_354968431354")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_354968431354' is clicked on
+
+2022-05-11 09:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_354968431354' is clicked on
+
+2022-05-11 09:45:03 - [TEST_STEP][PASSED] - FechaG = getText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input"), STOP_ON_FAILURE): Text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input' is: ''
+
+2022-05-11 09:45:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input' is: ''
+
+2022-05-11 09:45:04 - [TEST_STEP][PASSED] - if (Fecha == FechaG): null
+
+2022-05-11 09:45:04 - [TEST_STEP][PASSED] - setText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input"), Fecha): Text '11/05/2002' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'
+
+2022-05-11 09:45:05 - [MESSAGE][PASSED] - Text '11/05/2002' is set on object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'
+
+2022-05-11 09:45:05 - [TEST_STEP][PASSED] - click(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar")): Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar' is clicked on
+
+2022-05-11 09:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar' is clicked on
+
+2022-05-11 09:45:05 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/div_INFONo hay cambios que guardar"), 1)): Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/div_INFONo hay cambios que guardar' located by '//div[(text() = 'INFO:No hay cambios que guardar' or . = 'INFO:No hay cambios que guardar')]' not found
+
+2022-05-11 09:45:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'INFO:No hay cambios que guardar' or . = 'INFO:No hay cambios que guardar')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-11 09:45:07 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/div_INFONo hay cambios que guardar' located by '//div[(text() = 'INFO:No hay cambios que guardar' or . = 'INFO:No hay cambios que guardar')]' not found
+
+2022-05-11 09:45:07 - [TEST_STEP][FAILED] - Result = getText(findTestObject("2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente")): Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1641240645641.run(Script1641240645641.groovy:84)
+	... 13 more
+)
+
+2022-05-11 09:45:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[2]/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-05-11 09:45:49 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at Script1641240645641.run(Script1641240645641.groovy:84)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\diego.rojas\\git\\Pruebas-Minimas\\Reports\\20220511_093638\\Test_Suite_Secundaria\\2-Pruebas hoja de vida\\20220511_094114\\1652280348927.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-11 09:44:50 - [TEST_CASE][FAILED] - Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-11 09:41:22 - [TEST_SUITE][FAILED] - 2-Pruebas hoja de vida: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-11 09:41:22 - [TEST_SUITE][FAILED] - 2-Pruebas hoja de vida: Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at 2.2.2-Notificar_Novedades_Hoja_Vida.run(2.2.2-Notificar_Novedades_Hoja_Vida:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652280074669.run(TempTestSuite1652280074669.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente' located by '//div[2]/label' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

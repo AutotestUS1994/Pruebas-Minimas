@@ -6,12 +6,13 @@
    <elementGuidId>a5fc2f0a-49f7-42c0-a468-f10b8f97cfa4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[3]/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[@class = 'valor_campo_estandar' and contains(@id, 'popupFiltroEmpleado:tabla_empleados:0:') and (text() = 'SALGADO PAULA' or . = 'SALGADO PAULA')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody/tr/td[3]/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>bbc58acf-94a7-4ed8-8dec-73f13433d11a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>68c096d3-bac2-4a4d-8708-46faffdf2ac1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupFiltroEmpleado:tabla_empleados:0:</value>
+      <webElementGuid>8a94e66f-d5e2-49e9-b129-fb087e783d96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SALGADO PAULA</value>
+      <webElementGuid>bfb99747-e562-4d19-a34c-50ba80e506b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupFiltroEmpleado:tabla_empleados:0:_t544&quot;)</value>
+      <webElementGuid>fcf7f79c-07c1-4f55-8298-b6aabb9dfa4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_actoAusentismo:tabla_empleados_data']/tr/td[3]/span</value>
+      <webElementGuid>3e22ad55-8052-49db-8290-4041dfc93a1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Ingreso'])[1]/following::span[5]</value>
+      <webElementGuid>99ef4dcf-687d-45f4-8b54-6637d74bd99a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa'])[1]/following::span[5]</value>
+      <webElementGuid>37934551-261f-4109-8dcd-588a5d0f61d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/preceding::span[1]</value>
+      <webElementGuid>4838d700-2492-4440-a346-d045bee9a627</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indefinido'])[1]/preceding::span[2]</value>
+      <webElementGuid>a5988d16-447a-4ded-b49e-7f4e04e5d392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Salgado Paula']/parent::*</value>
+      <webElementGuid>446b8e25-cdfe-4fa3-ac18-dfba753511fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +111,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span</value>
+      <webElementGuid>d1cd170c-2dd8-4d9d-b0f4-370facdbbffa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

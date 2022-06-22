@@ -53,7 +53,7 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos A
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_SALGADO PAULA'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_SALGADO PAULA'))
+WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_SALGADO PAULA'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar'), 
     GlobalVariable.G_TimeOut)

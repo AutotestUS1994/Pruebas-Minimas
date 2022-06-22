@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_03062022</name>
+   <tag></tag>
+   <elementGuidId>ae362f4b-37f1-4388-a76e-89713ce16175</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>90414947-933b-406e-83a5-7cd3ab128f5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>03/06/2022</value>
+      <webElementGuid>1f03a99c-8681-440d-a9b8-2712ae468476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupSeleccionDerogarTraslado:tabla_marcador_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/table[1]/tbody[1]/tr[1]/td[2]</value>
+      <webElementGuid>f04b5f7f-1c88-4781-9ffd-14752546032b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_popupSeleccionDerogarTraslado:tabla_marcador_data']/tr/td[2]/table/tbody/tr/td[2]</value>
+      <webElementGuid>7f906816-39ff-4fb1-9893-7ceee2ae9f46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Documento'])[1]/following::td[1]</value>
+      <webElementGuid>422f797e-413a-4e8c-bddc-fc0ebb8fa705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Aumento'])[1]/following::td[5]</value>
+      <webElementGuid>1826b844-80ba-4823-8495-131027d85e3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::td[4]</value>
+      <webElementGuid>fda17489-435c-423c-bbc7-484e88057246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::td[4]</value>
+      <webElementGuid>bab59230-47b5-414d-8e1e-3c8bc4ba83e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]</value>
+      <webElementGuid>b3907b3b-0c90-4cf6-a16a-f8190d8dd77e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '03/06/2022' or . = '03/06/2022')]</value>
+      <webElementGuid>1540e5ff-1942-4801-8cec-6d6d7b68c47e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

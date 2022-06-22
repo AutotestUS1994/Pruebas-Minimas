@@ -35,7 +35,13 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt13270'), 
     Keys.chord(Keys.ENTER))
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'), 
+    1))
+{
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'))
+}
+else
+{WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_concat(, ,  autocomplete, , off, , )_ui-icon ui-icon-closethick'))}
 
 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/td_A A A'), 
     1)) {
@@ -146,11 +152,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/a_Guardar'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'Se Modifico el registro correctamente') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-	}
-else{
-	WebUI.acceptAlert()
+
+if (Result == 'Se Modifico el registro correctamente') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

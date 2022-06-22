@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_20052022 0949</name>
+   <tag></tag>
+   <elementGuidId>958e939c-bbd8-471b-a914-e3b3543a960f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[8]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>77d067a2-7df9-41ff-a01e-364b6e500944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo</value>
+      <webElementGuid>9c273ccd-d282-4771-b3aa-944115052382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20/05/2022 09:49</value>
+      <webElementGuid>a0ac36d8-ebfb-4835-8c8f-82781898da71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;listado_correo:tablaCorreos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[8]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>d9bb6034-2146-41bc-8e20-5e1d0319b2f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='listado_correo:tablaCorreos_data']/tr/td[8]/span</value>
+      <webElementGuid>f1f58b81-d1d2-427a-8cd8-df4ab9f9115a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar Claves Usuario'])[1]/following::span[2]</value>
+      <webElementGuid>dd1e4e70-2df3-47cc-84f8-0c393d425077</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pruebas.automaticas.union@gmail.com'])[1]/following::span[2]</value>
+      <webElementGuid>364784da-6a42-4d21-9849-0f81779be115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba'])[1]/preceding::span[1]</value>
+      <webElementGuid>9fff3659-ff29-4116-9272-fbf73e19fe3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[3]</value>
+      <webElementGuid>8768d7c1-10a3-4840-92b0-d012337c56bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='20/05/2022 09:49']/parent::*</value>
+      <webElementGuid>1f344bfe-fa20-4380-8354-9196137746bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/span</value>
+      <webElementGuid>bf3aca55-0f63-492c-acf6-a563b869647d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '20/05/2022 09:49' or . = '20/05/2022 09:49')]</value>
+      <webElementGuid>dfad03a3-1d66-407c-bc61-7f5ace93063e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

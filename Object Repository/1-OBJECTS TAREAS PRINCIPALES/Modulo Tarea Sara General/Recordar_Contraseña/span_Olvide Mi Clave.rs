@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Olvide Mi Clave</name>
+   <tag></tag>
+   <elementGuidId>5f7d24bf-9480-4133-99c4-4ac4a61ee065</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.us-texto-recordar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Olvide Mi Clave']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1a4bf36a-27e4-400b-bbdd-28d43bf6aed3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-texto-recordar</value>
+      <webElementGuid>f4552c12-a0ef-40f3-823a-f53c20d30313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Olvide Mi Clave</value>
+      <webElementGuid>f8bcf4d2-27c4-479a-a3c4-2caa78a94fd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login&quot;)/div[@class=&quot;us-container-login&quot;]/div[@class=&quot;us-caja-login&quot;]/div[3]/div[@class=&quot;us-ayuda&quot;]/a[1]/span[@class=&quot;us-texto-recordar&quot;]</value>
+      <webElementGuid>2c126735-95de-4c44-8228-4ad4b9cba9f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='login']/div/div/div[3]/div[4]/a/span</value>
+      <webElementGuid>c2bd3b54-1cc5-48f1-888c-10965189fb59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recordar Clave'])[1]/preceding::span[3]</value>
+      <webElementGuid>c52405d0-9a2f-4951-93ad-7aadc868479d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingrese Login o Correo'])[1]/preceding::span[3]</value>
+      <webElementGuid>04b82d33-cde2-4b39-bc9f-93c80c6d3010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Olvide Mi Clave']/parent::*</value>
+      <webElementGuid>6f4522f8-e333-4db5-8fa1-1489782fd11f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>54ebc43e-cf50-407f-aa64-b464a8f0a311</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Olvide Mi Clave' or . = ' Olvide Mi Clave')]</value>
+      <webElementGuid>a731b615-ab59-431d-bf2b-2b316ac31825</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

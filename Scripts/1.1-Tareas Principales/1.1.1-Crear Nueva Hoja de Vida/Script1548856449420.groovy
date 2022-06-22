@@ -22,7 +22,7 @@ random_double = Math.round(random_double * 1000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0.1.1-Login_detector'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
     GlobalVariable.G_TimeOut)
@@ -99,6 +99,26 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado 
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/select_AA-ABAB-BB-OO-'), 
     '7')
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21411j_idt254'))
+
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+    'BOGOTÁ')
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/td_11001     BOGOT'))
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a__hojaVidaseccionj_idt21412j_idt254'))
+
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935'), 
+    'Colombiana')
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/input_Nacionalidad_j_idt930j_idt935'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/span_Colombiana'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Crear Nueva Hoja de Vida/a_Continuar'), 
     GlobalVariable.G_TimeOut)

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='/saraweb/webcommon/auditoria/auditoria.jsf']/parent::*</value>
+         <value>//td/div/div/table/tbody/tr/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e79e8131-956e-498e-b9a8-8f9c16ca4c18</webElementGuid>
+      <webElementGuid>be38fd9c-7624-4966-9d08-d4eb1cd4378d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>76a11d7e-eb95-4020-bab5-1ace804d38ad</webElementGuid>
+      <webElementGuid>e05ce423-c44b-4268-bf35-0a20cf51e82e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>/saraweb/webcommon/auditoria/auditoria.jsf</value>
-      <webElementGuid>fae6120e-bd72-46fd-8d4e-15a51410dc79</webElementGuid>
+      <webElementGuid>faf9b0fb-1013-4d20-8614-dc883b415618</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_peticion:j_idt337:tabla_peticion_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even fila_tabla_ace&quot;]/td[4]</value>
-      <webElementGuid>f4b5c198-0def-4dbe-9f1f-d79c940ca4a0</webElementGuid>
+      <webElementGuid>ea1dda63-2b67-4a6d-a14a-88d318adba89</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_peticion:j_idt337:tabla_peticion_data']/tr/td[4]</value>
-      <webElementGuid>5982050f-fa4a-4697-b13e-713aec3afc01</webElementGuid>
+      <webElementGuid>fd0ea558-c643-4b1b-8398-655e01315cc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='pagina'])[1]/following::td[1]</value>
-      <webElementGuid>ae981eeb-03e3-48d4-8447-24511bc89e22</webElementGuid>
+      <webElementGuid>a4d30751-646b-4d48-a0fa-030ca81865b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha'])[1]/following::td[4]</value>
-      <webElementGuid>e951a216-6f39-4fda-8b89-8ed2b059070e</webElementGuid>
+      <webElementGuid>52cefab9-0590-45d6-812e-1767a85f0e54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrador'])[2]/preceding::td[1]</value>
-      <webElementGuid>252069a4-5e0c-4962-8967-2954d4585576</webElementGuid>
+      <webElementGuid>24635afe-c91b-47e4-96a3-8e093c01cc03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sarads_jboss (compensacionds)'])[1]/preceding::td[2]</value>
-      <webElementGuid>7775fb1d-9ab8-44e9-adb8-a5954bf0ff77</webElementGuid>
+      <webElementGuid>ae4c08e7-2d3f-4924-ac8e-8d075ace44eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='/saraweb/webcommon/auditoria/auditoria.jsf']/parent::*</value>
-      <webElementGuid>a2173dec-dcba-4cf2-bbd5-c59008bf9b23</webElementGuid>
+      <webElementGuid>a05d7afa-fa5f-4c96-9caf-b977206dc78d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/table/tbody/tr/td[4]</value>
-      <webElementGuid>e43ee278-9e38-413a-ab50-82c368859170</webElementGuid>
+      <webElementGuid>41778d66-a426-4283-98ba-d37589063974</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '/saraweb/webcommon/auditoria/auditoria.jsf' or . = '/saraweb/webcommon/auditoria/auditoria.jsf')]</value>
-      <webElementGuid>c1a4db06-ab6b-4ea3-b34d-7c74d1f78f30</webElementGuid>
+      <webElementGuid>c8e59652-58dd-4b3d-bd05-ff7327765e58</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

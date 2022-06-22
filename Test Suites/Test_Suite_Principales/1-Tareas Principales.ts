@@ -487,4 +487,18 @@
       <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f6a8784f-e805-43b6-bee7-e7bacea47d8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.3-Recordar_Contraseña</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e05cca4c-53ae-485f-a0e8-5c5edc853056</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.9-situacion_adminitrativa-(situacion-actos)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

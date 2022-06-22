@@ -62,4 +62,3 @@ if (Result == 'Se cargo el archivo') {
 } else {
     WebUI.acceptAlert()
 }
-

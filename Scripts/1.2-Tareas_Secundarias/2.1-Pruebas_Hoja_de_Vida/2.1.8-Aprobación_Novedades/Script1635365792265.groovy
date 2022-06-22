@@ -69,6 +69,26 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
             2)
     }
     
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a__hojaVidaseccionj_idt21411j_idt254'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+        'BOGOTÁ')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/td_11001     BOGOT'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a__hojaVidaseccionj_idt21412j_idt254'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Nacionalidad_j_idt930j_idt935'), 
+        'Colombiana')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Nacionalidad_j_idt930j_idt935'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_Colombiana'))
+
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Guardar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar'))
@@ -100,16 +120,13 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Aceptar'))
 
     String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-		
-	if(Result == 'se Aprobo Correctamente el Registro') {
-    
-		String Resultado = 'Prueba ok'
-		
-		WebUI.closeBrowser()
-	
-		}
-	else {
-		WebUI.acceptAlert()
-	}
+
+    if (Result == 'se Aprobo Correctamente el Registro') {
+        String Resultado = 'Prueba ok'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 }
 

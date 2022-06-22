@@ -177,14 +177,23 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Aceptar_informacion'))
             }
-            
+            salir()
             WebUI.closeBrowser()
+
+          
         }
     }
 } else {
     WebUI.acceptAlert()
 }
-
+def salir() {
+	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Empresa 1_cerrar_menu'))
+	
+	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Administrador_glyphicons glyphicons-exit'))
+	
+			
+	WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/div_Ingresar Olvide Mi Clave'),0 )
+}
 def Empresas() {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Acceso Particular'))
 
@@ -195,7 +204,7 @@ def Empresas() {
         1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        10)
+        1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -209,7 +218,7 @@ def Empresas() {
         2)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        9)
+        3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -223,7 +232,7 @@ def Empresas() {
         3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        8)
+        5)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -237,7 +246,7 @@ def Empresas() {
         1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        7)
+        4)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -251,7 +260,7 @@ def Empresas() {
         2)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        8)
+        3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -265,7 +274,7 @@ def Empresas() {
         3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        9)
+        2)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -279,7 +288,7 @@ def Empresas() {
         1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        10)
+        1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -293,7 +302,7 @@ def Empresas() {
         2)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        11)
+        5)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -307,7 +316,7 @@ def Empresas() {
         3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        12)
+        4)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)
@@ -321,7 +330,7 @@ def Empresas() {
         1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
-        1)
+        3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA APPSARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
         2)

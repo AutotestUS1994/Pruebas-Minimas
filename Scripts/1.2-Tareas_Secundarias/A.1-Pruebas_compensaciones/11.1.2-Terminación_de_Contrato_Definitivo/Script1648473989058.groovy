@@ -73,6 +73,26 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (1)/select_--Seleccione--AA-ABAB-BB-OO-'), 
     8)
 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a__hojaVidaseccionj_idt21411j_idt254'))
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt893'), 
+    'BOGOTÁ')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt893'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/td_11001     BOGOT'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a__hojaVidaseccionj_idt21412j_idt254'))
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/input_Nacionalidad_j_idt902j_idt907'), 
+    'COLOMBIANA')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/input_Nacionalidad_j_idt902j_idt907'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Colombiana'))
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Continuar'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Aceptar'))

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Actos_glyphicons glyphicons-group x3 icon-acto</name>
+   <tag></tag>
+   <elementGuidId>ba6d0abf-2093-4360-92e1-116079dac297</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.glyphicons.glyphicons-group.x3.icon-acto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/table/tbody/tr/td/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bf9ee024-fa04-4f89-9581-a4660e912bcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicons glyphicons-group x3 icon-acto</value>
+      <webElementGuid>8e83a025-b95e-47ce-a836-c2ae3afd3019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:tabla_actos:1:j_idt66&quot;)/i[@class=&quot;glyphicons glyphicons-group x3 icon-acto&quot;]</value>
+      <webElementGuid>8b52305d-feb6-4ae9-9fee-51bd57d6402a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='form_ActosAdministrativos:tabla_actos:1:j_idt66']/i</value>
+      <webElementGuid>339fe030-ca43-4ac6-acfe-b5f6f08e2fee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>v</value>
+      <webElementGuid>69161628-048f-42e4-bad9-83cb607460c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

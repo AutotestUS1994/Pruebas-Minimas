@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Situacin Administrativa</name>
+   <tag></tag>
+   <elementGuidId>89491d1d-6348-488f-af5a-96217d90055d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Situación Administrativa')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>84f356db-f170-47d0-a78b-eb69ecec79dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_menuEmpleado:j_idt1517:j_idt1519:j_idt1585</value>
+      <webElementGuid>62ef3e25-e259-46d9-a5d5-5ba2b2bbdfc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>bab7f975-c239-4ae7-a958-038fc8ec4c38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>7332264d-e3fa-4277-bbc9-1e8f366f933f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_menuEmpleado:j_idt1517:j_idt1519:j_idt1585&quot;,f:&quot;form_menuEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>de1ba3b8-08d7-48fc-943a-9623924e102f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Situación Administrativa </value>
+      <webElementGuid>45c0a363-440e-45e4-b856-16b8385e24e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_menuEmpleado:j_idt1517:j_idt1519:j_idt1585&quot;)</value>
+      <webElementGuid>9f9b130b-f708-4262-988d-078cbab1d950</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_menuEmpleado:j_idt1517:j_idt1519:j_idt1585']</value>
+      <webElementGuid>45c8fbd3-cc9a-43a3-83eb-7bcb463242f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_menuEmpleado:j_idt1517:j_idt1519:j_idt1520']/table[13]/tbody/tr/td/a</value>
+      <webElementGuid>3b779bd4-8ce4-48be-8830-1bea9aea6638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Situación Administrativa')]</value>
+      <webElementGuid>c2ed47c4-c090-44cc-a2a3-60855caa5d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/following::a[13]</value>
+      <webElementGuid>678f0ce5-25ae-4268-9434-8fee0148e68a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::a[16]</value>
+      <webElementGuid>4e91b0eb-9cb5-4455-9df1-2b0a146fc4cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historicos'])[1]/preceding::a[7]</value>
+      <webElementGuid>dcfcca44-b910-475b-8116-0bb00d5914db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contrato:'])[1]/preceding::a[15]</value>
+      <webElementGuid>b6388f2c-b726-47d6-af04-d6369cf20d5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Situación Administrativa']/parent::*</value>
+      <webElementGuid>4deee5ca-b91b-425d-936e-afe4eb90f27e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[33]</value>
+      <webElementGuid>8d8e6353-21a0-4cdc-8679-e1040fdc1c1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[13]/tbody/tr/td/a</value>
+      <webElementGuid>3cca6386-b7ba-4f4b-891a-26cb5e28ace1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_menuEmpleado:j_idt1517:j_idt1519:j_idt1585' and @href = '#' and (text() = 'Situación Administrativa ' or . = 'Situación Administrativa ')]</value>
+      <webElementGuid>2d27fd98-cfef-4afd-9ab0-6f246fe44589</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

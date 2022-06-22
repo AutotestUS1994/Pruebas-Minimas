@@ -123,12 +123,15 @@ if (Result == '') {
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Liquidacin Periodica'))
 
+        while(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/span_Prestamo Compaa'), 
+            1)) {
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/span_Prestamo Compaa'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_ReversarEliminar'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Aceptar'))
-
+        }
         WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/input_Empresa 1_form_templatej_idt24_input'), 
             'importar fuente general')
 

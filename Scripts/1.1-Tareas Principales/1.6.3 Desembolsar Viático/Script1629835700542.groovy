@@ -147,6 +147,14 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Desembolso'))
 }
-
-WebUI.closeBrowser()
-
+salir()
+def salir() {
+	WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Empresa 1_cerrar_menu'))
+	
+	WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/a_Administrador_glyphicons glyphicons-exit'))
+	
+	WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Desembolsar viáticos/div_Ingresar Olvide Mi Clave'), 0)
+	
+	
+	WebUI.closeBrowser()
+}

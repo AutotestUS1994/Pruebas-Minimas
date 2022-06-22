@@ -23,7 +23,7 @@ import javax.swing.*
 import java.awt.event.*
 import java.awt.*
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0.1.1-Login_detector'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'), 
     0)
@@ -63,11 +63,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nu
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-
 if (Result == 'Se adiciono el registro correctamente') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-	}
-else {WebUI.acceptAlert()}
+    String Resultado = 'PRUEBA OK'
 
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

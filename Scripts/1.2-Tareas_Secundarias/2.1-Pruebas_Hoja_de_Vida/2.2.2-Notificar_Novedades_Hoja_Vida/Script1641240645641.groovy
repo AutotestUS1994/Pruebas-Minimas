@@ -70,6 +70,26 @@ if (Fecha == FechaG) {
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input'), 
     Fecha)
 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a__hojaVidaseccionj_idt21411j_idt254'))
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+    'BOGOTÁ')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_11001     BOGOT'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a__hojaVidaseccionj_idt21412j_idt254'))
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Nacionalidad_j_idt930j_idt935'), 
+    'Colombiana')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Nacionalidad_j_idt930j_idt935'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Colombiana'))
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
 
 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/div_INFONo hay cambios que guardar'), 
@@ -80,15 +100,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
 }
 
-
 String Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Aceptar'))
 
-if(Result == 'Sus datos han sido Actualizados correctamente') {
-	String Resultado = 'PRUEBAS OK'
-	WebUI.closeBrowser()
+if (Result == 'Sus datos han sido Actualizados correctamente') {
+    String Resultado = 'PRUEBAS OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+
