@@ -268,8 +268,30 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 }
 //----------Comprobación y eliminado de descarga ----------
 
-String RutaA = WebUI.callTestCase(findTestCase('0.1.3-Detector_de folder_download'), [:], FailureHandling.STOP_ON_FAILURE)
+
+def Systema() {
+	String RutaA = System.getProperty('os.name')
+}
+String RutaA = Systema()
+
+if(RutaA == 'Windows 10') {
+	def rutaW = (System.getProperty('user.home')+'/Downloads/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else if (RutaA == 'Linux') {
+	def rutaW = (System.getProperty('user.home')+'/Descargas/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else {RutaA = 'ERROR'
+	WebUI.acceptAlert()
+}
+
 String rutaA = RutaA
+println(rutaA)
 String Archivo = 'Pruebas__katalon.xlsx'
 System.out.println(rutaA)
 Assert.assertTrue(archivoDescargado(rutaA,Archivo))

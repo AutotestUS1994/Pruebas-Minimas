@@ -314,8 +314,30 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/div_Regresar'))
 //---------- Comprobación y eliminado de descarga ----------
 
-String RutaA = WebUI.callTestCase(findTestCase('0.1.3-Detector_de folder_download'), [:], FailureHandling.STOP_ON_FAILURE)
+
+def Systema() {
+	String RutaA = System.getProperty('os.name')
+}
+String RutaA = Systema()
+
+if(RutaA == 'Windows 10') {
+	def rutaW = (System.getProperty('user.home')+'/Downloads/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else if (RutaA == 'Linux') {
+	def rutaW = (System.getProperty('user.home')+'/Descargas/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else {RutaA = 'ERROR'
+	WebUI.acceptAlert()
+}
+
 String rutaA = RutaA
+println(rutaA)
 String Archivo = 'columnario_xlsm_SAGE-000608.xlsm'
 String Archivo1 = 'Reporte_Vencimiento_de_Contratos.xls'
 System.out.println(rutaA)

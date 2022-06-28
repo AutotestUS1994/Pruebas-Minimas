@@ -124,10 +124,31 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 // comprobacion y eliminado de descarga
 
-String RutaA = WebUI.callTestCase(findTestCase('0.1.3-Detector_de folder_download'), [:], FailureHandling.STOP_ON_FAILURE)
+def Systema() {
+	String RutaA = System.getProperty('os.name')
+}
+String RutaA = Systema()
+
+if(RutaA == 'Windows 10') {
+	def rutaW = (System.getProperty('user.home')+'/Downloads/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else if (RutaA == 'Linux') {
+	def rutaW = (System.getProperty('user.home')+'/Descargas/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else {RutaA = 'ERROR'
+	WebUI.acceptAlert()
+}
 
 String rutaA = RutaA
+println(rutaA)
 
+//-------------------------------------------------------------------------------------
 String Archivo = 'Reporte_Entidad_Pago.csv'
 
 System.out.println(rutaA)

@@ -21,6 +21,7 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()

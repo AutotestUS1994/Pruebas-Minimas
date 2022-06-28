@@ -128,16 +128,40 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Reporte Nomina Electronica/Page_SARA/a_Descargar'))
 	
 }
-String Ruta = WebUI.callTestCase(findTestCase('0.1.3-Detector_de folder_download'), [:], FailureHandling.STOP_ON_FAILURE)
-String rutaA = Ruta
+def Systema() {
+	String RutaA = System.getProperty('os.name')
+}
+String RutaA = Systema()
+
+if(RutaA == 'Windows 10') {
+	def rutaW = (System.getProperty('user.home')+'/Downloads/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else if (RutaA == 'Linux') {
+	def rutaW = (System.getProperty('user.home')+'/Descargas/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else {RutaA = 'ERROR'
+	WebUI.acceptAlert()
+}
+
+String rutaA = RutaA
+println(rutaA)
+
 String Archivo ='Reporte_Nomina_Electrónica.xlsx'
 Assert.assertTrue(archivoDescargado(rutaA,Archivo))
+
 boolean archivoDescargado(String rutaA,String Archivo) {
 	File dir = new File (rutaA)
 	File[] dirContenidos=dir.listFiles()
 	String r1 ='';
 	System.out.println(dirContenidos)
 	for (int i= 0;i< dirContenidos.length;i++) {
+		WebUI.delay(1)
 		if (dirContenidos[i].getName().equals(Archivo)) {
 			dirContenidos[i].delete();
 			r1 = 'ok';
@@ -147,7 +171,6 @@ boolean archivoDescargado(String rutaA,String Archivo) {
 				}
 	}
 	return false
-	WebUI.closeBrowser()
 	}
 
 

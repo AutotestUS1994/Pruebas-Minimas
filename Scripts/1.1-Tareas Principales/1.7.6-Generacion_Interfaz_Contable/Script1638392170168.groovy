@@ -139,42 +139,70 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 //-------------- Comprobacion y eliminado de descarga ------------
 
-String RutaA = WebUI.callTestCase(findTestCase('0.1.3-Detector_de folder_download'), [:], FailureHandling.STOP_ON_FAILURE)
+
+def Systema() {
+	String RutaA = System.getProperty('os.name')
+}
+String RutaA = Systema()
+
+if(RutaA == 'Windows 10') {
+	def rutaW = (System.getProperty('user.home')+'/Downloads/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else if (RutaA == 'Linux') {
+	def rutaW = (System.getProperty('user.home')+'/Descargas/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else {RutaA = 'ERROR'
+	WebUI.acceptAlert()
+}
 
 String rutaA = RutaA
+println(rutaA)
+
 
 String Archivo = 'Reporte.pdf'
 
-String Archivo1 = 'Reporte.xlsx' 
-
-System.out.println(rutaA)
+String Archivo1 = 'Reporte.xlsx'
 
 Assert.assertTrue(archivoDescargado(rutaA,Archivo,Archivo1))
 
-boolean archivoDescargado(String RutaA,String Archivo,Archivo1) {
-	File dir = new File (RutaA)
+boolean archivoDescargado(String rutaA,String Archivo,String Archivo1) {
+	WebUI.delay(2)
+	File dir = new File (rutaA)
 	File[] dirContenidos=dir.listFiles()
 	System.out.println(dirContenidos)
 	
 	for(int i=0;i< dirContenidos.length;i++) {
-		if(dirContenidos[i].getName().equals(Archivo)) {
+		
+		if(dirContenidos[i].getName().equals(Archivo1)) {
+			
 			if(dirContenidos[i].isFile()) {
 				dirContenidos[i].delete()
 				String ResultF = 'archivo1 ok'
 				System.out.println(ResultF)
-				WebUI.closeBrowser()
-				
 			}
 		}
-		if(dirContenidos[i].getName().equals(Archivo1)) {
-			if(dirContenidos[i].isFile()) {
-				dirContenidos[i].delete()
-				String ResultF1 = 'prueba ok'
-				System.out.println(ResultF1)
-				return true
+		}
+	File dir1 = new File (rutaA)
+	File[] dirContenidos1=dir1.listFiles()
+	System.out.println(dirContenidos1)
+	for(int i=0;i< dirContenidos1.length;i++) {
+			
+			if(dirContenidos1[i].getName().equals(Archivo)) {
+				if(dirContenidos1[i].isFile()) {
+					dirContenidos1[i].delete()
+					String ResultF1 = 'prueba ok'
+					System.out.println(ResultF1)
+					WebUI.closeBrowser()
+					return true
 			}
 		}
-	}	
+	}
 	return false
 	WebUI.acceptAlert()
 	}
