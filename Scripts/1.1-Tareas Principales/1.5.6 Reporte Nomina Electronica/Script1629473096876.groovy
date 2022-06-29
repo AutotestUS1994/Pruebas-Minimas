@@ -156,6 +156,7 @@ String Archivo ='Reporte_Nomina_Electrónica.xlsx'
 Assert.assertTrue(archivoDescargado(rutaA,Archivo))
 
 boolean archivoDescargado(String rutaA,String Archivo) {
+	WebUI.delay(2)
 	File dir = new File (rutaA)
 	File[] dirContenidos=dir.listFiles()
 	String r1 ='';
