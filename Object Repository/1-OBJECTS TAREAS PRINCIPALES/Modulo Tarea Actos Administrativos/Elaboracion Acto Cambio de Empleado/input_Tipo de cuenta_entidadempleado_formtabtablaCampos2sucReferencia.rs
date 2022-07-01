@@ -6,12 +6,12 @@
    <elementGuidId>273a8500-a33f-44c3-b0f6-679115e61b94</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>
-//tr/td[1]/input</value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[2]/div/div[2]/div[2]/div/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[2]/td/div/div/table/tbody/tr[3]/td[2]/table/tbody/tr/td[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2a5bb431-b29e-4f01-8e1b-a9e0dae1556b</webElementGuid>
+      <webElementGuid>5b0686c7-25ff-44b5-bfe3-fb35cd63db59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:2:sucReferencia</value>
-      <webElementGuid>c8dede61-b413-4db7-ba2d-a23a665f40cf</webElementGuid>
+      <webElementGuid>ee0cac35-09ce-48c4-937f-ac003e692f90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a9e30ccd-9de3-418c-a2e1-8573c51c7b10</webElementGuid>
+      <webElementGuid>bcbae826-d260-491a-bf57-a01100566688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:2:sucReferencia</value>
-      <webElementGuid>ffc0537f-dc95-4a0c-9ee5-08b45a2a8f83</webElementGuid>
+      <webElementGuid>0f1774e1-8050-4211-bc4d-77e4454eec6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>ad661436-3ed5-4275-918e-b0befb9754f4</webElementGuid>
+      <webElementGuid>73c3ee56-efdc-41fe-be70-e28d26b416a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>513d9f2f-f1c8-4e7f-9f09-2a42be167ef0</webElementGuid>
+      <webElementGuid>ce3b4c41-3a8a-4a41-8b54-e5e0aa366c17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entidadempleado_form:tab:tablaCampos:2:sucReferencia&quot;)</value>
-      <webElementGuid>ef8540a7-8132-4199-8c9a-ba7aa1fb2cab</webElementGuid>
+      <webElementGuid>739369bf-68f4-4b00-beef-7cd7e76b0fff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='entidadempleado_form:tab:tablaCampos:2:sucReferencia']</value>
-      <webElementGuid>3865f164-5ea2-44f2-97c3-b9e5453a5764</webElementGuid>
+      <webElementGuid>86f644d6-1c82-4132-8323-9b0293d2adfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='entidadempleado_form:tab:tablaCampos_data']/tr[3]/td[2]/input</value>
-      <webElementGuid>f999a26e-b282-477f-beb0-6e94c371e0a7</webElementGuid>
+      <webElementGuid>c5c2e4c6-5c63-44d1-b2f5-e60f4ebe39dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/input</value>
-      <webElementGuid>bd88b6b4-e0a9-49d2-9b68-bd6f8af96c0c</webElementGuid>
+      <webElementGuid>d0186fd1-608d-4e97-924a-ec6ff44a18a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -69,7 +69,7 @@ if(RutaA == 'Windows 10') {
 }
 else if (RutaA == 'Linux') {
 	def rutaW = (System.getProperty('user.home')+'/Descargas/')
-	rutaW = rutaW.replace('/','\\')
+	
 	println("ESTA ES LA RUTA"+ rutaW)
 	RutaA = rutaW
 }
