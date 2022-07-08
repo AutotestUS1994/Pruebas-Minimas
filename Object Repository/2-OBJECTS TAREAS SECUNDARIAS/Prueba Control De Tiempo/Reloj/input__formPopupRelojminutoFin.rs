@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[4]/table/tbody/tr/td[4]/input</value>
+         <value>
+//td[4]/table/tbody/tr/td[4]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>e1713d4a-9f0f-4185-bafb-2f9370ab34d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formPopupReloj:minutoFin</value>
+      <webElementGuid>725b808f-f2b7-4cb9-9bb4-29c831b4f107</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>93356278-38d5-4fcb-9f81-837242b10292</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formPopupReloj:minutoFin</value>
+      <webElementGuid>128e2bda-d6bb-46b6-996b-aff07eb5420e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>3c858f65-0bf1-43b4-9ffb-e94d32ae27b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>ece20854-bdcc-44a2-aa22-7c7f13b82b1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>04719771-668a-4847-9a8a-56f7f97f8cbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupReloj:minutoFin&quot;)</value>
+      <webElementGuid>5f0d7e9a-9dd2-47bf-af48-39342a9b2c5b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formPopupReloj:minutoFin']</value>
+      <webElementGuid>b4b9313f-350b-4cbf-8719-f852e42059b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formPopupReloj:panelMarcacion']/tbody/tr[4]/td[4]/table/tbody/tr/td[4]/input</value>
+      <webElementGuid>2e61e4bf-04c7-496e-8180-89649ea158ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/table/tbody/tr/td[4]/input</value>
+      <webElementGuid>97123b35-c0c9-4d1c-aa76-9bd41f7257c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formPopupReloj:minutoFin' and @type = 'text' and @name = 'formPopupReloj:minutoFin']</value>
+      <webElementGuid>0603b1fd-dd0b-4826-abf5-5b61173d91c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

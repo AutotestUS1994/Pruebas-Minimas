@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/table/tbody/tr/td[2]/span/input</value>
+         <value>
+//div[2]/table[2]/tbody/tr[4]/td[4]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>c7858497-5cdc-407e-945a-2a29732e0184</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formPopupReloj:fechaFin_input</value>
+      <webElementGuid>9946fd81-a3a9-4fdf-91ac-e7a99122f26a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formPopupReloj:fechaFin_input</value>
+      <webElementGuid>37b82b07-5cea-47cc-8db9-25b778649bfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>8ea53772-2ae0-4fac-a849-99d6dac96c63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>7918dcb3-c946-4478-954c-261cf8369d17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>29bc6be6-4996-495f-8ac1-e91a1cc1af19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>fd350af2-3d59-4f03-9bef-19d78f3051c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>67659214-972c-44e8-bce3-bcc468c3e54f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupReloj:fechaFin_input&quot;)</value>
+      <webElementGuid>7f998d7b-d6db-429e-8339-2863ae382d18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formPopupReloj:fechaFin_input']</value>
+      <webElementGuid>24507d8a-faba-4b83-8cd8-e5ee14648215</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='formPopupReloj:fechaFin']/input</value>
+      <webElementGuid>1ae88eb9-f722-4612-a300-3093d292d4fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/span/input</value>
+      <webElementGuid>cf9129fd-2222-4f3d-bda7-b8777385829e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formPopupReloj:fechaFin_input' and @name = 'formPopupReloj:fechaFin_input' and @type = 'text']</value>
+      <webElementGuid>dc74be35-f413-4693-adea-f0e53362593f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

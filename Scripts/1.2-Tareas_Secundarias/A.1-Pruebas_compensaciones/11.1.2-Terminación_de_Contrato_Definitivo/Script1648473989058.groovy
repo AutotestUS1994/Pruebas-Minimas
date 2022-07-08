@@ -17,14 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 /*-----------------NUMERO ALEATORIO ------------------------*/
+
 double random_double = (Math.random() * 9999) + 999
 
 random_double = Math.round(random_double * 1000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-/*------------------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'), 

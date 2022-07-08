@@ -45,14 +45,13 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
-    String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-	
-	if(Result == 'Se soluciono la inconsistencia del registro') {
-		String Resultado0 = 'PRUEBA OK'
-	}
-	else{
-		WebUI.acceptAlert()
-	}
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result == 'Se soluciono la inconsistencia del registro') {
+        String Resultado0 = 'PRUEBA OK'
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/a_Nuevo'))
 
@@ -73,8 +72,6 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input__formPopupRelojminutoIni'), 
         '10')
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/label_Evento'))
-
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/td_ALMANZA ROSAS SILVIS'))
@@ -91,12 +88,12 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
-    String Result0=WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-	if(Result0 == 'Se soluciono la inconsistencia del registro') {
-		String Resultado = 'PRUEBA OK'
-	}
-    else{
-		WebUI.acceptAlert()
-	}
+    String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result0 == 'Se soluciono la inconsistencia del registro') {
+        String Resultado = 'PRUEBA OK'
+    } else {
+        WebUI.acceptAlert()
+    }
 }
 

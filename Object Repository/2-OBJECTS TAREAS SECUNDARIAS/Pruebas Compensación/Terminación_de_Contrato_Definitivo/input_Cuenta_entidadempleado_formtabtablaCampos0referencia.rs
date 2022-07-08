@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/table/tbody/tr/td[2]/input</value>
+         <value>
+//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[2]/div/div[2]/div[2]/div/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[2]/td/div/div/table/tbody/tr[1]/td[2]/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>50e82898-fd0e-48fa-8da3-9dc4a7e9113c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:0:referencia</value>
+      <webElementGuid>e9c62376-b23a-4b19-b373-7d88f5eec4d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>e80c6ca9-695e-44bf-89ae-ce5d198dc9d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:0:referencia</value>
+      <webElementGuid>6914d7ce-2b20-4232-b6c8-26d67bf7de29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>834046d9-d163-4b23-9fd1-e2321c2807f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
+      <webElementGuid>213a4aa0-7195-4c2e-a4d0-68a58876b16b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entidadempleado_form:tab:tablaCampos:0:referencia&quot;)</value>
+      <webElementGuid>85a22e02-bd06-42c7-851e-bae6b350aa3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='entidadempleado_form:tab:tablaCampos:0:referencia']</value>
+      <webElementGuid>e739337d-6a91-4c8c-8ace-d516c6d00466</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='entidadempleado_form:tab:tablaCampos_data']/tr/td[2]/input</value>
+      <webElementGuid>1fcf8a5e-91ab-4eca-b566-3aef445c8866</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>8d40dbfc-9b88-4369-9ac0-7b60936ba345</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'entidadempleado_form:tab:tablaCampos:0:referencia' and @type = 'text' and @name = 'entidadempleado_form:tab:tablaCampos:0:referencia']</value>
+      <webElementGuid>7b73d9ec-8cf4-4851-8efe-f3eafaae4f3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
