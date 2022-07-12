@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.entity.global.GlobalVariableEntity as GlobalVariableEntity
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -294,8 +295,8 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
         Keys.chord(Keys.ENTER))
-
-    String ruta = GlobalVariable.G_rutaarchivos + 'viaticos.pdf'
+	
+    String ruta = Systema() + 'viaticos.pdf'
 
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
@@ -517,9 +518,9 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
         Keys.chord(Keys.ENTER))
-
-    String ruta = GlobalVariable.G_rutaarchivos + 'viaticos.pdf'
-
+	String ra =  ''
+    String ruta = Systema(ra) + 'viaticos.pdf'
+	println(ruta)
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
 
@@ -532,3 +533,22 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     }
 }
 
+def Systema(ra) {
+	String RutaA = System.getProperty('os.name')
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		rutaW = rutaW.replace('/', '\\')
+		println("Esta es la ruta:" + rutaW)
+		ra = rutaW
+	}
+	else if (RutaA == 'Linux') {
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documentos para pruebas/'
+		
+		println("ESTA ES LA RUTA"+ rutaW)
+		ra = rutaW
+	}
+	else {RutaA = 'ERROR'
+		WebUI.acceptAlert()
+	}
+}

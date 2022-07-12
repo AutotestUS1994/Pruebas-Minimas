@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 /*librerias para ejecutar botones con java sript*/ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -232,8 +233,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_d
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Descargar_form_listadoPeligroListadoActividaddtabtablaAnexosj_idt1133'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ruta = GlobalVariable.G_rutaarchivos + 'prueba.pdf'
-
+String ra = ''
+String ruta = Systema(ra) + 'prueba.pdf'
+println(ruta)
 WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
     ruta)
 
@@ -258,4 +260,22 @@ WebUI.closeBrowser()
 else {
 WebUI.acceptAlert()
 }
-
+def Systema(ra) {
+	String RutaA = System.getProperty('os.name')
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		rutaW = rutaW.replace('/', '\\')
+		println("Esta es la ruta:" + rutaW)
+		ra = rutaW
+	}
+	else if (RutaA == 'Linux') {
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		
+		println("ESTA ES LA RUTA"+ rutaW)
+		ra = rutaW
+	}
+	else {ra = 'ERROR'
+		WebUI.acceptAlert()
+	}
+}

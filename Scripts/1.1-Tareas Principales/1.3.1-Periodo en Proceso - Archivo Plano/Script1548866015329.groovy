@@ -14,6 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Liquidacion Nomina'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -45,8 +46,33 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas c
     1)
 
 /*------------------------*/
-String ruta = GlobalVariable.G_rutaarchivos + 'ArchivoPlanoLiquidacionNomina.txt'
+String ra= ''
+def Systema(ra) {
+	String RutaA = System.getProperty('os.name')
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		rutaW = rutaW.replace('/', '\\')
+		println("Esta es la ruta:" + rutaW)
+		ra = rutaW 
+
+	}
+	else if (RutaA == 'Linux') {
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		
+		println("ESTA ES LA RUTA"+ rutaW)
+		ra = rutaW
+	}
+	else {ra = 'ERROR'
+		WebUI.acceptAlert()
+	}
+	
+}
+
+String ruta = Systema(ra) + 'ArchivoPlanoLiquidacionNomina.txt'
+
 println(ruta)
+ 
 WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Archivo'), 
     ruta)
 

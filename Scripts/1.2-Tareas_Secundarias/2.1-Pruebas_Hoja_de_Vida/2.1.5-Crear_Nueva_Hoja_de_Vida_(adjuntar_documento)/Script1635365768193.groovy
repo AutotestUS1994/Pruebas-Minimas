@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -51,8 +52,9 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ruta = GlobalVariable.G_rutaarchivos + 'HojaDeVida.txt'
-
+String ra = ''
+String ruta = Systema(ra) + 'HojaDeVida.pdf'
+println(ruta)
 WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
     ruta)
 
@@ -75,3 +77,22 @@ if (Result == 'Se Ingreso anexo exitosamente') {
     WebUI.acceptAlert()
 }
 
+def Systema(ra) {
+	String RutaA = System.getProperty('os.name')
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		rutaW = rutaW.replace('/', '\\')
+		println("Esta es la ruta:" + rutaW)
+		ra = rutaW
+	}
+	else if (RutaA == 'Linux') {
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		
+		println("ESTA ES LA RUTA"+ rutaW)
+		ra = rutaW
+	}
+	else {ra = 'ERROR'
+		WebUI.acceptAlert()
+	}
+}

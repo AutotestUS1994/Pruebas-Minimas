@@ -80,7 +80,8 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 if(Alerta == 'Se Actualizo correctamente el registro') {
-WebUI.closeBrowser()
+	String Resultado = 'PRUEBA OK'
+	
 }
 else {
 WebUI.acceptAlert()

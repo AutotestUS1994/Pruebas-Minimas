@@ -66,6 +66,9 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Fecha Inicial_formPopupRelojfechaIni_input'), 
         '23/03/2019')
 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Fecha Inicial_formPopupRelojfechaIni_input'), 
+        Keys.chord(Keys.ESCAPE))
+
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Inconsistencias_Evento/input_Hora_formPopupRelojhoraIni'), 
         '06')
 

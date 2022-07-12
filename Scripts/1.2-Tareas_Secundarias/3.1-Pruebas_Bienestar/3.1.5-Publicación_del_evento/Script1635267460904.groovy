@@ -29,6 +29,7 @@ import javax.wsdl.Import as Import
 import java.util.Calendar as Calendar
 import java.lang.reflect.Array as Array
 import java.time.LocalDateTime as LocalDateTime
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.comment('No Ejecutar. Falla con imagen subida')
 
@@ -85,7 +86,7 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 }
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ruta = GlobalVariable.G_rutaarchivos + 'logo_union_soluciones.jpg'
+String ruta = Systema() + 'logo_union_soluciones.jpg'
 
 WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input'), 
     ruta)
@@ -170,8 +171,9 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 }
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ruta2 = GlobalVariable.G_rutaarchivos + 'saraapp.png'
-
+String ra = ''
+String ruta2 = Systema(ra) + 'saraapp.png'
+println(ruta2)
 WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input'), 
     ruta2)
 
@@ -247,4 +249,22 @@ if (Es1 == Imagen2) {
         }
     }
 }
-
+def Systema(ra) {
+	String RutaA = System.getProperty('os.name')
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		rutaW = rutaW.replace('/', '\\')
+		println("Esta es la ruta:" + rutaW)
+		ra = rutaW
+	}
+	else if (RutaA == 'Linux') {
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		
+		println("ESTA ES LA RUTA"+ rutaW)
+		ra = rutaW
+	}
+	else {ra = 'ERROR'
+		WebUI.acceptAlert()
+	}
+}

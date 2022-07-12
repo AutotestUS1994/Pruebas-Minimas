@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,8 +32,8 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Ge
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos'))
-
-String ruta = GlobalVariable.G_rutaarchivos + 'carguePrestamo.txt'
+String ra = ''
+String ruta = Systema() + 'carguePrestamo.txt'
 
 WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'), 
     ruta)
@@ -59,7 +60,7 @@ if (Result == '') {
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos'))
 
-    String ruta1 = GlobalVariable.G_rutaarchivos + 'carguePrestamo1.txt'
+    String ruta1 = Systema() + 'carguePrestamo1.txt'
 
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'), 
         ruta1)
@@ -145,7 +146,7 @@ if (Result == '') {
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos'))
 
-        String ruta2 = GlobalVariable.G_rutaarchivos + 'carguePrestamo1.txt'
+        String ruta2 = Systema() + 'carguePrestamo1.txt'
 
         WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'), 
             ruta2)
@@ -172,4 +173,22 @@ if (Result == '') {
         }
     }
 }
-
+def Systema(ra) {
+	String RutaA = System.getProperty('os.name')
+	if(RutaA == 'Windows 10') {
+		
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		rutaW = rutaW.replace('/', '\\')
+		println("Esta es la ruta:" + rutaW)
+		ra = rutaW
+	}
+	else if (RutaA == 'Linux') {
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+		
+		println("ESTA ES LA RUTA"+ rutaW)
+		ra = rutaW
+	}
+	else {ra = 'ERROR'
+		WebUI.acceptAlert()
+	}
+}
