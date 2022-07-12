@@ -24,14 +24,14 @@ def Systema(ra) {
 	String RutaA = System.getProperty('os.name')
 	if(RutaA == 'Windows 10') {
 		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documentos para pruebas/'
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
 		rutaW = rutaW.replace('/', '\\')
 		println("Esta es la ruta:" + rutaW)
 		ra = rutaW
 
 	}
 	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documentos para pruebas/'
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
 		
 		println("ESTA ES LA RUTA"+ rutaW)
 		ra = rutaW

@@ -543,7 +543,7 @@ def Systema(ra) {
 		ra = rutaW
 	}
 	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documentos para pruebas/'
+		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
 		
 		println("ESTA ES LA RUTA"+ rutaW)
 		ra = rutaW
