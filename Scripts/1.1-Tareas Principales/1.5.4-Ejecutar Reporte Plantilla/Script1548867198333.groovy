@@ -642,45 +642,54 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
 WebUI.delay(2)
 //detectar y eliminar archivo
-
-Assert.assertTrue(archivoDescargado(rutaA,Archivo,Archivo1,Archivo2,Archivo3,Archivo4,Archivo5,Archivo6,Archivo7,Archivo8,Archivo9,Archivo10,Archivo11,Archivo12,Archivo13,Archivo14,Archivo15))
-boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Archivo2,String Archivo3,String Archivo4,String Archivo5,String Archivo6,String Archivo7,String Archivo8,String Archivo9,String Archivo10,String Archivo11,String Archivo12,String Archivo13,String Archivo14,String Archivo15){
+String r1 ="", r2="", r3="", r4="", r5="", r6="", r7="", r8="", r9="", r10="", r11="", r12="", r13="",r14="", r15="", r16="";
+Assert.assertTrue(archivoDescargado(rutaA,Archivo,Archivo1,Archivo2,Archivo3,Archivo4,Archivo5,Archivo6,Archivo7,Archivo8,Archivo9,Archivo10,Archivo11,Archivo12,Archivo13,Archivo14,Archivo15, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16))
+boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Archivo2,String Archivo3,String Archivo4,String Archivo5,String Archivo6,String Archivo7,String Archivo8,String Archivo9,String Archivo10,String Archivo11,String Archivo12,String Archivo13,String Archivo14,String Archivo15,String r1,String r2,String r3,String r4,String r5,String r6,String r7,String r8,String r9,String r10,String r11,String r12,String r13,String r14,String r15,String r16){
 	File dir = new File (rutaA)
 	File[] dirContenidos=dir.listFiles()
-	String r1 ="", r2="", r3="", r4="", r5="", r6="", r7="", r8="", r9="", r10="", r11="", r12="", r13="",r14="", r15="", r16="";
-	
+		
 	for (int i= 0;i< dirContenidos.length;i++) {
 		
 		if(dirContenidos[i].getName().equals(Archivo)) {
 			dirContenidos[i].delete();
 			System.out.println(dirContenidos)
-			if (dirContenidos[i].getName().equals(Archivo1)) {
-				dirContenidos[i].delete();
-				r1 = 'ok'
-				System.out.println(dirContenidos)
-				return r1
-				
-			}
+			r1 = 'ok'
+			System.out.println(r1)
+		}
+		else if(dirContenidos[i].getName().equals(Archivo14)) {
+			dirContenidos[i].delete();
+			System.out.println(dirContenidos)
+			r1 = 'ok'
+			
+			println(r1)
+			
 		}
 		//----------------------------------------------------
 	}
 	for(int i= 0;i< dirContenidos.length;i++) {
+		
 		dirContenidos[i].delete();
 		System.out.println(dirContenidos)
 		if (dirContenidos[i].getName().equals(Archivo1)) {
 			dirContenidos[i].delete();
 			r2 = 'ok'
-			System.out.println(dirContenidos)
-			return r2
+			System.out.println(r2)
+			
+		}
+		else if(dirContenidos[i].getName().equals(Archivo15)) {
+			dirContenidos[i].delete();
+			r2 = 'ok'
+			println(r2)
 		}
 		//-----------------------------------------------------
 	}
 	for(int i= 0;i< dirContenidos.length;i++) {
+		dirContenidos[i].delete();
+		System.out.println(dirContenidos)
 		if(dirContenidos[i].getName().equals(Archivo2)) {
 			dirContenidos[i].delete();
 			r3 = 'ok'
-			System.out.println(dirContenidos)
-			return r3
+			System.out.println(r3)
 			
 		}
 		//-----------------------------------------------------
@@ -691,8 +700,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo3)) {
 			dirContenidos[i].delete();
 			 r4 = 'ok'
-			System.out.println(dirContenidos)
-			return r4
+			System.out.println(r4)
 		}
 		//-----------------------------------------------------
 	}
@@ -702,8 +710,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo4)) {
 			dirContenidos[i].delete();
 			 r5 = 'ok'
-			System.out.println(dirContenidos)
-			return r5
+			System.out.println(r5)
 		}
 		
 		//-----------------------------------------------------
@@ -714,8 +721,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo5)) {
 			dirContenidos[i].delete();
 			 r6 = 'ok'
-			System.out.println(dirContenidos)
-			return r6
+			System.out.println(r6)
 		}
 		//-----------------------------------------------------
 	}
@@ -725,8 +731,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo6)) {
 			dirContenidos[i].delete();
 			 r7 = 'ok'
-			System.out.println(dirContenidos)
-			return r7
+			System.out.println(r7)
 		}
 		//-----------------------------------------------------
 	}
@@ -736,8 +741,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo7)) {
 			dirContenidos[i].delete();
 			 r8 = 'ok'
-			System.out.println(dirContenidos)
-			return r8
+			System.out.println(r8)
 		}
 		//-----------------------------------------------------
 	}
@@ -747,8 +751,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo8)) {
 			dirContenidos[i].delete();
 			 r9 = 'ok'
-			System.out.println(dirContenidos)
-			return r9
+			System.out.println(r9)
 		}
 		//------------------------------------------------------
 	}
@@ -758,8 +761,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo9)) {
 			dirContenidos[i].delete();
 			 r10 = 'ok'
-			System.out.println(dirContenidos)
-			return r10
+			System.out.println(r10)
 		}
 	}
 
@@ -769,8 +771,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo10)) {
 			dirContenidos[i].delete();
 			 r11 = 'ok'
-			System.out.println(dirContenidos)
-			return r11
+			System.out.println(r11)
 		}
 		//------------------------------------------------------
 	}
@@ -780,8 +781,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo11)) {
 			dirContenidos[i].delete();
 			 r12 = 'ok'
-			System.out.println(dirContenidos)
-			return r12
+			System.out.println(r12)
 		}
 		//-------------------------------------------------------
 	}
@@ -791,8 +791,7 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo12)) {
 			dirContenidos[i].delete();
 			 r13 = 'ok'
-			System.out.println(dirContenidos)
-			return r13
+			System.out.println(r13)
 		}
 		//-------------------------------------------------------
 	}
@@ -802,50 +801,24 @@ boolean archivoDescargado(String rutaA,String Archivo,String Archivo1,String Arc
 		if(dirContenidos[i].getName().equals(Archivo13)) {
 			dirContenidos[i].delete();
 			 r14 = 'ok'
-			System.out.println(dirContenidos)
-			return r14
+			System.out.println(r14)
 		}
 		
 		//-------------------------------------------------------
 	}	
-	for(int i= 0;i< dirContenidos.length;i++) {
-		dirContenidos[i].delete();
-		System.out.println(dirContenidos)
-		if(dirContenidos[i].getName().equals(Archivo14)) {
-			dirContenidos[i].delete();
-			 r15 = 'ok'
-			System.out.println(dirContenidos)
-			return r15
-			
-		}
 	
-		//-------------------------------------------------------
-	}
-	for(int i= 0;i< dirContenidos.length;i++) {
-		dirContenidos[i].delete();
-		System.out.println(dirContenidos)
-		if(dirContenidos[i].getName().equals(Archivo15)) {
-			
-			dirContenidos[i].delete();
-			 r16 = 'ok'
-			System.out.println(dirContenidos)
-			return r16
-			
-		}
-		//--------------------------------------------------------
-	}
-		if(r1 == 'ok' && r2 == 'ok' && r3 == 'ok' && r4 == 'ok'&& r5 == 'ok' && r6 == 'ok' && r7 == 'ok' && r8 == 'ok' && r9 == 'ok'&& r10 == 'ok'&& r11 == 'ok'&& r12 == 'ok' && r13 == 'ok' && r14 == 'ok'&& r15 == 'ok'&& r16 == 'ok') {
+	println(" r1= "+r1+" r2= "+r2+" r3= "+r3+" r4= "+r4+" r5= "+r5+" r6= "+r6+" r7= "+r7+" r8= "+r8+" r9= "+r9+" r10= "+r10+" r11= "+r11+" r12= "+r12+" r13= "+r13+" r14= "+r14)
+		if(r1 == 'ok' && r2 == 'ok' && r3 == 'ok' && r4 == 'ok'&& r5 == 'ok' && r6 == 'ok' && r7 == 'ok' && r8 == 'ok' && r9 == 'ok'&& r10 == 'ok'&& r11 == 'ok'&& r12 == 'ok' && r13 == 'ok' && r14 == 'ok') {
+			String Resultado = 'PRUEBA OK'
+			WebUI.closeBrowser()
 			return true
 		}
 	
 	return false
+	WebUI.acceptAlert()
 	}
 
-if(archivoDescargado(rutaA, Archivo, Archivo1, Archivo2, Archivo3, Archivo4, Archivo5, Archivo6, Archivo7, Archivo8, Archivo9, Archivo10, Archivo11, Archivo12, Archivo13, Archivo14, Archivo15) == true)
-	 {
-		 String Resultado = 'Prueba ok'
-		 WebUI.closeBrowser()
-	 }else {WebUI.acceptAlert()}
+
 	
 
 /*---------------------------------------------------------------------------------------*/

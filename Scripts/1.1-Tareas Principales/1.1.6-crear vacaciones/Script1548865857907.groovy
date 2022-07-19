@@ -146,7 +146,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
     '01/06/2021')
 
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Salida Nomina_form_vacaciones'), 
-    Keys.chord(Keys.ENTER))
+    Keys.chord(Keys.ESCAPE))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/select_SeleccioneChequeEntidad_'), 
     '3')

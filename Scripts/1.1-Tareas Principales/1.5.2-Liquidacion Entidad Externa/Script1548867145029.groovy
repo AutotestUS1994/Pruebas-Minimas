@@ -59,6 +59,8 @@ String Archivo1 = 'Liquidación_Entidades_Externa.csv.crdownload'
 
 String Archivo2 = 'Liquidación_Entidades_Externa (1).csv'
 
+String Archivo3 = 'Liquidación_Entidades_Externa(1).csv'
+
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Administracion Compensacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion Entidad Externa/input_Ir_nav_t66_input'), 
@@ -111,9 +113,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 //detectar y eliminar archivo
 WebUI.delay(1)
-Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1,Archivo2))
+Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1,Archivo2,Archivo3))
 
-boolean archivoDescargado(String RutaA, String Archivo, String Archivo1,String Archivo2) {
+boolean archivoDescargado(String RutaA, String Archivo, String Archivo1,String Archivo2,String Archivo3) {
     File dir = new File(RutaA)
 
     File[] dirContentenidos = dir.listFiles()
@@ -131,7 +133,9 @@ boolean archivoDescargado(String RutaA, String Archivo, String Archivo1,String A
 			String ResultF2 = 'PRUEBA OK'
 		}
 	}
+
 	for (int i = 0; i < dirContentenidos.length; i++) {
+		WebUI.delay(2)
         if ((dirContentenidos[i]).getName().equals(Archivo2)) {
             (dirContentenidos[i]).delete()
 
@@ -141,6 +145,13 @@ boolean archivoDescargado(String RutaA, String Archivo, String Archivo1,String A
 
             return true
         }
+		else if((dirContentenidos[i]).getName().equals(Archivo3)) {
+			(dirContentenidos[i].delete())
+			String ResultF = 'PRUEBA OK'
+			
+			WebUI.closeBrowser()
+			return true
+		}
     }
     
     return false

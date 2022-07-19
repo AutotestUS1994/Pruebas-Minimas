@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_doc - Copy</name>
+   <tag></tag>
+   <elementGuidId>6d1d52bf-49a3-4dcf-9932-640e21c7e35b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[2]/div[4]/div/div/div[2]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>e3bcbdd1-66c5-4e4a-9792-3f6b2678b4bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1649448514707</value>
+      <webElementGuid>8277e421-9189-49fa-83b2-c057c3cba7c5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

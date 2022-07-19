@@ -18,10 +18,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.util.jar.JavaUtilJarAccessImpl
-import org.openqa.selenium.WebElement
-
-import org.apache.poi.hssf.record.PageBreakRecord.Break
+import java.util.jar.JavaUtilJarAccessImpl as JavaUtilJarAccessImpl
+import org.openqa.selenium.WebElement as WebElement
+import org.apache.poi.hssf.record.PageBreakRecord.Break as Break
 import org.junit.After as After
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.By as By
@@ -30,7 +29,6 @@ import org.testng.Assert as Assert
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.io.File as File
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -81,6 +79,9 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Excel_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Excel'))
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Fecha Terminacion_popupReportetablaParametroReporte0fecha_input'), 
+    Keys.chord(Keys.ESCAPE))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/select_Lista Cargo Empresa_popupReportetablaParametroReporte5j_idt1304'), 
     2)
@@ -234,14 +235,17 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/div_Excel_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover'))
 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Fecha Terminacion_popupReportetablaParametroReporte0fecha_input'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/select_40 MIL STAFF (20145   )ABOGADO (20139   )ABOGADO JUNIOR (20117   )'), 
     '2')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Enviar correo_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
 
 /*Click JavaScript*/
-WebElement element3 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Boton_Publicar'),
-	30)
+WebElement element3 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Boton_Publicar'), 
+    30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element3))
 
@@ -312,67 +316,85 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Continuar'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/div_Regresar'))
+
 //---------- Comprobación y eliminado de descarga ----------
-
-
-def Systema() {
-	String RutaA = System.getProperty('os.name')
-}
 String RutaA = Systema()
 
-if(RutaA == 'Windows 10') {
-	def rutaW = (System.getProperty('user.home')+'/Downloads/')
-	rutaW = rutaW.replace('/','\\')
-	println("ESTA ES LA RUTA"+ rutaW)
-	RutaA = rutaW
-}
-else if (RutaA == 'Linux') {
-	def rutaW = (System.getProperty('user.home')+'/Descargas/')
-	
-	println("ESTA ES LA RUTA"+ rutaW)
-	RutaA = rutaW
-}
-else {RutaA = 'ERROR'
-	WebUI.acceptAlert()
+if (RutaA == 'Windows 10') {
+    def rutaW = System.getProperty('user.home') + '/Downloads/'
+
+    rutaW = rutaW.replace('/', '\\')
+
+    println('ESTA ES LA RUTA' + rutaW)
+
+    RutaA = rutaW
+} else if (RutaA == 'Linux') {
+    def rutaW = System.getProperty('user.home') + '/Descargas/'
+
+    println('ESTA ES LA RUTA' + rutaW)
+
+    RutaA = rutaW
+} else {
+    RutaA = 'ERROR'
+
+    WebUI.acceptAlert()
 }
 
 String rutaA = RutaA
-println(rutaA)
-String Archivo = 'columnario_xlsm_SAGE-000608.xlsm'
-String Archivo1 = 'Reporte_Vencimiento_de_Contratos.xls'
-System.out.println(rutaA)
-Assert.assertTrue(archivoDescargado(rutaA,Archivo,Archivo1))
-boolean archivoDescargado(String rutaA,String Archivo,String Archivo1) {
-	File dir = new File(rutaA)
-	File [] dirContenidos = dir.listFiles()
-	System.out.println(dirContenidos)
-	for(int i=0;i< dirContenidos.length;i++) {
-		if(dirContenidos[i].getName().equals(Archivo)) {
-			if(dirContenidos[i].isFile()) {
-				dirContenidos[i].delete()
-				String ResultF = 'archivo borrado'
-				System.out.println(ResultF)
-				WebUI.closeBrowser()
-			}
 
-		}
-		
-	}
-	for(int i=0;i< dirContenidos.length;i++) {
-		if(dirContenidos[i].getName().equals(Archivo1)) {
-			if(dirContenidos[i].isFile()) {
-				dirContenidos[i].delete()
-				String ResultF1 = 'PRUEBA OK'
-				System.out.println(ResultF1)
-				return true
-			}
-		}
-	}
-	return false
-	WebUI.acceptAlert()
+println(rutaA)
+
+String Archivo = 'columnario_xlsm_SAGE-000608.xlsm'
+
+String Archivo1 = 'Reporte_Vencimiento_de_Contratos.xls'
+
+System.out.println(rutaA)
+
+Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1))
+
+def Systema() {
+    String RutaA = System.getProperty('os.name')
 }
 
+boolean archivoDescargado(String rutaA, String Archivo, String Archivo1) {
+    File dir = new File(rutaA)
 
+    File[] dirContenidos = dir.listFiles()
+
+    System.out.println(dirContenidos)
+
+    for (int i = 0; i < dirContenidos.length; i++) {
+        if ((dirContenidos[i]).getName().equals(Archivo)) {
+            if ((dirContenidos[i]).isFile()) {
+                (dirContenidos[i]).delete()
+
+                String ResultF = 'archivo borrado'
+
+                System.out.println(ResultF)
+
+                WebUI.closeBrowser()
+            }
+        }
+    }
+    
+    for (int i = 0; i < dirContenidos.length; i++) {
+        if ((dirContenidos[i]).getName().equals(Archivo1)) {
+            if ((dirContenidos[i]).isFile()) {
+                (dirContenidos[i]).delete()
+
+                String ResultF1 = 'PRUEBA OK'
+
+                System.out.println(ResultF1)
+
+                return true
+            }
+        }
+    }
+    
+    return false
+    
+    WebUI.acceptAlert()
+}
 
 def RamdomNum() {
     double random_double = (Math.random() * 9999) + 999
