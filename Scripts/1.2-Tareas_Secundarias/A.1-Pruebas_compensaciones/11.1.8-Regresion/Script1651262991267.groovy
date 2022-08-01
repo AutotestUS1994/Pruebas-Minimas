@@ -47,21 +47,21 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/R
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar0'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input__form_actoCambioPuestoj_idt33530fecha_input'), 
-    '01/01/2021')
+    '02/03/2021')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Fecha Documento'), '01/01/2021')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Fecha Documento'), '02/03/2021')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar1'))
 
 String Salario = WebUI.getAttribute(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Sueldo_form_actoCambioPuestosueldo'), 
     'Value')
 
-if (Salario == '1300000.00') {
+if (Salario == '689455.00') {
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Sueldo_form_actoCambioPuestosueldo'), 
-        '1400000')
+        '2500000')
 } else {
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Sueldo_form_actoCambioPuestosueldo'), 
-        '1300000')
+        '689455')
 }
 
 String Salario0 = WebUI.getAttribute(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Sueldo_form_actoCambioPuestosueldo'), 
@@ -80,6 +80,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Actos Administrativos (act)'))
 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    Keys.chord(Keys.F5))
+
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    0)
+
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
     'Mendoza Cabra Empleado')
 
@@ -90,7 +96,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/R
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Datos Empleado'))
 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_1.300.000'), 0)
+
 String Sueldo = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_1.300.000'))
+
+String Vigencia = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Vigencia'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/div_Historicos'))
 
@@ -268,6 +278,8 @@ if (SecondResult == 'Regresion aplicada satifactoriamente.') {
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Empresa 1_form_templatej_idt24_input'), 
     'Actos Administrativos (act)')
+
+WebUI.acceptAlert()
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Actos Administrativos (act)'))
 

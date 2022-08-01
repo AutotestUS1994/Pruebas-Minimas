@@ -175,6 +175,7 @@ if (Result == '') {
 }
 def Systema(ra) {
 	String RutaA = System.getProperty('os.name')
+	println(RutaA)
 	if(RutaA == 'Windows 10') {
 		
 		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'

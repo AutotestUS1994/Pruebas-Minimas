@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='01/01/2021']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='02/03/2021']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6122ee0c-7b24-4691-be81-b0cdcca798b8</webElementGuid>
+      <webElementGuid>663e5ca8-cfc1-4b75-9a50-2c60970f9dc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>b613a91d-4b46-4705-a2c4-3d72e7764e48</webElementGuid>
+      <webElementGuid>d5e8800e-cd43-4b12-ba89-4e822a0c6b40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>01/01/2021</value>
-      <webElementGuid>a5374cb1-c423-48e3-9f4b-f2fe482a4776</webElementGuid>
+      <webElementGuid>070750dd-53ec-478e-ac36-7567b1e0f214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_regresionHistorico:j_idt8021_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>f69b3298-7bf7-4a52-a8bb-52f269788bb7</webElementGuid>
+      <webElementGuid>384b6cbf-d41b-44c0-a3f8-e18d6cc09cb9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_regresionHistorico:j_idt8021_data']/tr/td[2]/span</value>
-      <webElementGuid>f05d82c5-4f3e-496b-91e2-5bba115e81d6</webElementGuid>
+      <webElementGuid>b36dc7c8-5741-43f6-a47d-c59ca14775a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTOS ADMINISTRATIVO'])[1]/following::span[1]</value>
-      <webElementGuid>fadbc009-c5d1-4af8-a89f-14760d76f8ac</webElementGuid>
+      <webElementGuid>fa00774e-1163-4fad-ab88-6c46232fb921</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo'])[1]/following::span[2]</value>
-      <webElementGuid>9ea47f9a-e2ef-4871-be59-3a365f6079f5</webElementGuid>
+      <webElementGuid>2ce37d85-2610-409f-afd3-8cd48f1cc315</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[1]/preceding::span[2]</value>
-      <webElementGuid>f2609414-665b-44d6-9335-27d2f48e4243</webElementGuid>
+      <webElementGuid>c6637267-557e-4b3b-9d83-50ecb32a8ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PROGRAMADO'])[1]/preceding::span[3]</value>
-      <webElementGuid>08fa591d-8782-4531-a4c0-e390f742ca67</webElementGuid>
+      <webElementGuid>c2b7cb48-c412-454c-b3d4-a1fc70e38d02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='01/01/2021']/parent::*</value>
-      <webElementGuid>06057dc5-fb7c-4c9e-af40-8b6f452b886a</webElementGuid>
+      <webElementGuid>1bf722f4-26c2-4f6d-aab6-aac4fe40a370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr/td[2]/span</value>
-      <webElementGuid>27e39ea9-a72d-4aef-a0c6-62835f4ddea4</webElementGuid>
+      <webElementGuid>4b448013-bc91-442f-b59b-09471adf3404</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '01/01/2021' or . = '01/01/2021')]</value>
-      <webElementGuid>ceabff39-945d-495c-8b5d-f8a24b1910f9</webElementGuid>
+      <webElementGuid>1d7e58f9-e642-4de4-9252-8c88ed90dcf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

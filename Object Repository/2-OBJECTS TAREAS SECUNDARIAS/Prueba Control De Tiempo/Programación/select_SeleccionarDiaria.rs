@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[4]/td[2]/select</value>
+         <value>//tr[3]/td[2]/select
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>9dc8411a-6cb2-4fdb-b4a6-ee2df2be4dac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:tipo</value>
+      <webElementGuid>66eafdce-5a1d-4a28-ab47-c2184f3e243e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:tipo</value>
+      <webElementGuid>800fe003-2f8e-4bf9-9da0-9a3440b1cc03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>b80719ed-bf59-461d-86d0-17798dfea14f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>b6a2b554-932c-48b6-95c1-4520f330cc54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;jornada_form&quot;,p:&quot;jornada_form:tipo&quot;,u:&quot;jornada_form:idPanelJornada&quot;});</value>
+      <webElementGuid>af103d4a-1844-42e2-b686-67d8891c72c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,6 +72,7 @@
       <value>	Seleccionar
 	Diaria
 </value>
+      <webElementGuid>2b073715-7e07-4a63-82e2-fa6c82fadb5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,6 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:tipo&quot;)</value>
+      <webElementGuid>f03e272b-2651-40ce-8e9f-315052734261</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +88,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='jornada_form:tipo']</value>
+      <webElementGuid>1efada55-25b8-4242-9bd5-3e7e31dd5440</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +96,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[4]/td[2]/select</value>
+      <webElementGuid>21d1daf2-4db7-4a2b-942e-ecea447dead3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo'])[1]/following::select[1]</value>
+      <webElementGuid>e9564582-7f7c-42e4-8367-d41e4e890b1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Acción'])[1]/following::select[2]</value>
+      <webElementGuid>e0a2bf26-e239-4fce-8e87-023e2723925d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Día'])[1]/preceding::select[1]</value>
+      <webElementGuid>f6821284-4337-4798-b79b-dec69ad33aee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[1]/preceding::select[1]</value>
+      <webElementGuid>df6a1093-0e5c-4987-b7fb-17a66177a496</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +136,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[2]/select</value>
+      <webElementGuid>aff80867-9d9e-4b31-9531-558127c63db0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,5 +148,6 @@
 ' or . = '	Seleccionar
 	Diaria
 ')]</value>
+      <webElementGuid>ef6fce0e-da3b-41ac-a869-a25506639f1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

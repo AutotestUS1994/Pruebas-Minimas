@@ -40,13 +40,20 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_Agregar Filtro_btn-miniadicionar'))
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_1rea de experiencia NPARTICULO DE REVISTAARTICULO PERIODICOASOCIACIONESAsociaciones'), 
-    11)
+    31)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_CiudadCorreoDocumentoNombresPrimer ApellidoDOCUMENTOEDADACTUALIZACION'), 
-    1)
+    3)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_-- Seleccione--000000ABEJORRALABREGOABRIAQUACACIASACANDIACEVEDOACHIAGRADOAGUA'), 
-    113)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Valor'))
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/input_Ciudad'), 
+    'Bogotá')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/input_Ciudad'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/Span_BOGOTA'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aplicar3'))
 
@@ -66,11 +73,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Busc
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aplicar2'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+
+if (Result == 'LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO'|| Result == 'SE ADICIONO AL PROCESO DE SELECCION') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

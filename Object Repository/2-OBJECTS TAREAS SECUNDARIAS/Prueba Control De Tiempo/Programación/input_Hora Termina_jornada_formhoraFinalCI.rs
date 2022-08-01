@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[8]/td[2]/table/tbody/tr/td/input</value>
+         <value>
+//tr[6]/td[2]/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ec5a9858-49e7-4cbb-932f-48355e4b43fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:horaFinalCI</value>
+      <webElementGuid>138bced1-87c7-456f-82e8-25d992d16cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>3973a8fe-86f5-4b34-9700-27d01bfd029c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:horaFinalCI</value>
+      <webElementGuid>2c4c3744-d03e-446b-b02a-f0571e3119e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>5a113e39-a664-4171-a45e-2b59cff9b3d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>93a09216-ddb6-4e01-b714-634a1baeff88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>15482dfd-83fc-432e-8867-f32495977632</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>mojarra.ab(this,event,'blur',0,'jornada_form:paneltotalcircular jornada_form:panelhorario')</value>
+      <webElementGuid>7629227e-764e-4477-a62f-a36916112244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:horaFinalCI&quot;)</value>
+      <webElementGuid>f5ae3055-f8ae-486e-a28b-46c6c7799041</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornada_form:horaFinalCI']</value>
+      <webElementGuid>3b61adf4-0728-4f54-be55-48fcb9ab9e10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[8]/td[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>2f2a61d4-ebf8-4a0d-9b43-2468a10dc938</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>d39834a6-973e-48de-942c-2f1dcc375786</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornada_form:horaFinalCI' and @type = 'text' and @name = 'jornada_form:horaFinalCI']</value>
+      <webElementGuid>01208202-d4ed-40f8-bb8d-96af6bc5a373</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

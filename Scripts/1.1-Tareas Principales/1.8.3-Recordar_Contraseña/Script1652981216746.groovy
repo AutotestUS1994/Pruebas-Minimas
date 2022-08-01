@@ -20,6 +20,8 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
+WebUI.comment('No Aparece el correo pendiente')
+
 WebUI.openBrowser('http://192.168.2.19:8380/seguridadweb/')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario'), 

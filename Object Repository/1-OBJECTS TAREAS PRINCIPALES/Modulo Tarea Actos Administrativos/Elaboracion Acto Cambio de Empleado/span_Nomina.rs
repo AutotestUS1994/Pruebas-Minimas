@@ -6,12 +6,12 @@
    <elementGuidId>4296abb3-1d2d-4ca9-b5f8-60e79030d0cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.valor_campo_estandar</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nomina']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_ActosAdministrativos:arbolGrupo:0:j_idt98']/span</value>
+         <key>CSS</key>
+         <value>span.valor_campo_estandar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>44a90502-32b3-4a50-8c06-b55cf5d4ce79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>09848326-3c0e-4937-a59b-712131c3c11c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nomina                                             </value>
+      <webElementGuid>805efac1-3462-4c17-abd1-93805fc88afd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:arbolGrupo:0:j_idt98&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>b2e775d4-ac87-4aba-afa8-8a1bfb5fdf7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:arbolGrupo:0:j_idt98']/span</value>
+      <webElementGuid>a3dab879-cb1b-4461-b6b1-5a5a490f9d72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Elaborar'])[2]/following::span[5]</value>
+      <webElementGuid>f1aab672-80e4-4823-9f40-7ff3caae4ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modificar'])[1]/following::span[6]</value>
+      <webElementGuid>a28ef0c4-9c81-4018-9e24-0da6ac73675d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleados'])[1]/preceding::span[3]</value>
+      <webElementGuid>fd12884c-842c-4562-a61b-eec3967c29b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[12]</value>
+      <webElementGuid>4237fb3b-962d-434b-ad4d-7c6739b96e8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nomina']/parent::*</value>
+      <webElementGuid>8799e28a-434c-4d4f-bb06-515b034719be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a/span</value>
+      <webElementGuid>42bd8f0b-3672-4530-b0ce-3c0b7db6ab5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Nomina                                             ' or . = 'Nomina                                             ')]</value>
+      <webElementGuid>e2f7ea66-7575-4db8-af2d-f0c6e2eeb379</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

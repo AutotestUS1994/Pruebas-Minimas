@@ -11,8 +11,8 @@
       <entry>
          <key>XPATH</key>
          <value>
-
-//tr[8]/td[2]/table/tbody/tr/td[4]/input</value>
+//tr[7]/td[2]/table/tbody/tr/td[4]/input
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ebf00b17-2b7a-4d14-aed8-8c200bd8f7ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:minutoFinalCI</value>
+      <webElementGuid>822fa172-9f1f-4ca2-8df0-b394fe7b44ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,6 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>8a642aa9-4061-4a2b-8e8d-13cd6de02b20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,6 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:minutoFinalCI</value>
+      <webElementGuid>0253ac1f-cdde-49a4-9b03-a2dc35b4a098</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,6 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>7dd73416-c276-4ecf-a00e-3bda79f7a9af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,6 +63,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>63230453-f5cd-40c2-8cda-b709e25fa92c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,6 +71,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>1a678cc9-4f02-4bde-bef5-7086e046d897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,6 +79,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>mojarra.ab(this,event,'blur',0,'jornada_form:paneltotalcircular jornada_form:panelhorario')</value>
+      <webElementGuid>ad8ce3b0-818b-49bc-abe6-03af8df5fbdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,6 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:minutoFinalCI&quot;)</value>
+      <webElementGuid>3615fcf3-35f0-4cbb-a429-cc3ba33cc737</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,6 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornada_form:minutoFinalCI']</value>
+      <webElementGuid>0e67216d-13c8-4f94-859f-d5d4d7f2f730</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[8]/td[2]/table/tbody/tr/td[4]/input</value>
+      <webElementGuid>24454189-b9be-4647-ac31-18484e3e12cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/table/tbody/tr/td[4]/input</value>
+      <webElementGuid>91f80e58-8e4f-4036-8554-caa8d9bcd6a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,5 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornada_form:minutoFinalCI' and @type = 'text' and @name = 'jornada_form:minutoFinalCI']</value>
+      <webElementGuid>f412b562-1a6f-4650-90ae-652383f5f88f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
