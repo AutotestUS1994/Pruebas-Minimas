@@ -6,11 +6,11 @@
    <elementGuidId>a245031a-2846-40d1-9d72-667267b25f4c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/div/div/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='hojaVida:seccion:j_idt214:9:idTexto']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>accf0ca6-a9b3-444c-b948-cf245b568c95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt214:9:idTexto</value>
+      <webElementGuid>8c0cf067-2502-4832-87c9-2ec023352033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>93693b48-c1a5-4780-a39b-60c892df3b12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt214:9:idTexto</value>
+      <webElementGuid>a8586663-9fda-4b3d-8f0d-2ead6ba22f2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar  </value>
+      <webElementGuid>24040791-dd74-4c7c-bc3b-0d323eda2e08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>40</value>
+      <webElementGuid>2ac12f1b-3388-490b-a1ca-57e7860008bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>40</value>
+      <webElementGuid>74566bc9-39ff-4915-b931-d9f7c71639bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>11</value>
+      <webElementGuid>016e24d2-d099-493c-8ff2-637ae4f3a91c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hojaVida:seccion:j_idt214:9:idTexto&quot;)</value>
+      <webElementGuid>28843549-fefd-4ddd-a257-0121c15c0479</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='hojaVida:seccion:j_idt214:9:idTexto']</value>
+      <webElementGuid>9e2ade75-9063-48a1-b649-ba693daaf555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='hojaVida:seccion:j_idt210']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>fd1b176c-25e0-461d-96cb-d860b4c8ab15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <webElementGuid>fda72ea0-bf97-4b2e-a21e-f29739288a7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'hojaVida:seccion:j_idt214:9:idTexto' and @type = 'text' and @name = 'hojaVida:seccion:j_idt214:9:idTexto']</value>
+      <webElementGuid>651114a6-ac3d-45cc-9676-e2ea71385876</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

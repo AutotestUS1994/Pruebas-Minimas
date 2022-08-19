@@ -231,10 +231,26 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_A A A0'), 
         1)) {
+        WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_A A A0'), 
+            0)
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_A A A0'))
 
+        /*
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_A A A'))
+		*/
+        WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_A A A'), 
+            0)
 
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_A A A'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_AAA'), 
+            1)) {
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Cambiar Datos_A A A'), 
+                FailureHandling.STOP_ON_FAILURE)
+        }
+        
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_AAA'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_AAA'))
@@ -522,10 +538,16 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Cre
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Guardar1'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
 if (Result == 'Se guardo satisfactoriamente.') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Regresar'))
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Regresar'))
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-	}
+
+def zoom() {
+    WebUI.executeJavaScript('document.body.style.zoom=\'80%\'', null)
+}
+

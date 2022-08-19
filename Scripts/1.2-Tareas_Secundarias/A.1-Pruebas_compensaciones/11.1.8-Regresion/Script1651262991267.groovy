@@ -279,8 +279,6 @@ if (SecondResult == 'Regresion aplicada satifactoriamente.') {
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Empresa 1_form_templatej_idt24_input'), 
     'Actos Administrativos (act)')
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Actos Administrativos (act)'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Acto cambio del Empleado'))
@@ -289,29 +287,107 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/R
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Nomina'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_cambio de sueldo'))
+while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_cambio de sueldo'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_cambio de sueldo'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Elaboracin_form_popupSeleccionDerogarj_idt380'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Derogar'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Contrato_form_popupSeleccionDerogarTrasladoj_idt356'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Contrato_form_popupSeleccionDerogarTrasladoj_idt373'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Filtro Empleado_form_popupEmpleadoj_idt1928'), 
-    '185101')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Filtro Empleado_form_popupEmpleadoj_idt896'), 
+        '185101')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Filtro Empleado_form_popupEmpleadoj_idt1928'), 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Filtro Empleado_form_popupEmpleadoj_idt896'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_185101_R'))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Fecha Documento'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Fecha Documento'))
+
+        WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/select_- No Relacionado1  - Cambio Datos Del Puesto10 - Ingreso Puesto Nuevo11_R'), 
+            2)
+
+        String fechaAumento = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input__form_actoIngresoj_idt9851fecha_input'), 
+            FailureHandling.STOP_ON_FAILURE)
+		if(fechaAumento == '') {
+        
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input__form_actoIngresoj_idt9851fecha_input'), 
+            fecha())
+		}
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar_Regresion'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Aplicar_Regresion'))
+    } else {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Cerrar1'))
+
+        break
+    }
+}
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Empresa 1_form_templatej_idt24_input'), 
+    'Listado de Empleados (com)')
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_Actos Administrativos (act)'))
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    Keys.chord(Keys.F5))
+
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    1)
+
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
+    'Mendoza Cabra Empleado')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Nombre Funcionario_listadoEmpleadoj_idt64'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_185101-'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_185101'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_01012021'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Datos Empleado'))
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/select_- No Relacionado1  - Cambio Datos Del Puesto10 - Ingreso Puesto Nuevo11'), 
-    12)
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_1.300.000'), 0)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Fecha Documento - Copy (1)'), 
-    '01/07/2021')
+SueldoF = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/span_1.300.000'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar0'))
+if ((SueldoF == '689.455') || (SueldoF == '2.500.000')) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/div_Historicos'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Aplicar0'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Regresin'))
+
+    while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_ACTOS ADMINISTRATIVO'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_ACTOS ADMINISTRATIVO'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Aceptar'))
+
+        if (WebUI.waitForElementNotVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_ACTOS ADMINISTRATIVO'), 
+            1)) {
+            break
+        }
+    }
+} else {
+    WebUI.acceptAlert()
+}
+
+if ((SueldoF == '689.455') || (SueldoF == '2.500.000')) {
+    WebUI.closeBrowser()
+}
+
+def fecha() {
+    Date today = new Date()
+
+    String Dia = today.format('dd')
+
+    String Mes = today.format('MM')
+
+    String Año = today.format('yyyy')
+
+    String fecha = (((Dia + '/') + Mes) + '/') + Año
+}
 

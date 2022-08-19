@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Prueba 106 Empleado-106h</name>
+   <tag></tag>
+   <elementGuidId>7c1cb834-794e-4999-8af4-13bb621f9a44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/table/tbody/tr/td/div/div/table/tbody/tr/td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b0c38ab6-4f4c-477d-b734-673026fd305d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>5e9bd718-825b-45c6-ab11-ce5e11fb2415</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prueba 106 Empleado-106h</value>
+      <webElementGuid>bf04e1d8-c1c3-406c-a69b-938757cb65e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_mantenimientoVacacion:tabla_entrada_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[4]</value>
+      <webElementGuid>73140710-6107-4ba0-a11b-1342d3a71ee9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_mantenimientoVacacion:tabla_entrada_data']/tr/td[4]</value>
+      <webElementGuid>c27335b0-d056-4f56-b580-599e0449c010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::td[4]</value>
+      <webElementGuid>7faa8c9d-ac2f-49ec-98f0-4449122153e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Periodo'])[2]/following::td[4]</value>
+      <webElementGuid>2a59ee32-b4f3-4cce-a6d9-b6bfd24d7443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerrada'])[2]/preceding::td[4]</value>
+      <webElementGuid>b256f781-1091-4b34-81fc-c956d791193a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Prueba 106 Empleado-106h']/parent::*</value>
+      <webElementGuid>e74b8327-65be-4d34-8011-9ab63f5c8fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td/div/div/table/tbody/tr/td[4]</value>
+      <webElementGuid>0140f091-cc33-4394-aa46-9e49b9246b06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Prueba 106 Empleado-106h' or . = 'Prueba 106 Empleado-106h')]</value>
+      <webElementGuid>4145b925-13f4-4620-bd37-ecd6f1d3fc9d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

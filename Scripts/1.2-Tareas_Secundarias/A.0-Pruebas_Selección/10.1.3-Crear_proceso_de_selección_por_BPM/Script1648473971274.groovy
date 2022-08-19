@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.comment('NO SE PUEDE ELIMINAR REGISTROS')
 
@@ -41,7 +43,8 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Etapa'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Eliminar'))
@@ -71,8 +74,13 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/input_Evaluacin Artstica_popupEtapaSeleccion_formtabla1maximo'), 
         '10')
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Guardar1'))
-
+	/*--------------------------------------------------*/
+	
+	WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Guardar1'),
+		30)
+	
+	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+	
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Medio'))
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_Evaluacin Artstica'), 
@@ -166,7 +174,8 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Etapa'))
 
-    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'), 
+        1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_PRUEBA'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Eliminar'))

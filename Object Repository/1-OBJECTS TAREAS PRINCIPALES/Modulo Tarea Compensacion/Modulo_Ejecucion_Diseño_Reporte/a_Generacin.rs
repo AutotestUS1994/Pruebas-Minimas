@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Generación')])[2]</value>
+         <value>(//a[contains(text(),'Generación')])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>1c211a07-b21f-4e03-a2a5-b77a39472d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_ejecutar_reporte:j_idt66:j_idt68:j_idt679</value>
+      <webElementGuid>a31bece2-3560-47b4-abd5-c91fb1bf4118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ef022293-66d0-4c90-9327-d5e830d257af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>2fa8623c-6259-4231-a847-c6d1fc26dd30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_ejecutar_reporte:j_idt66:j_idt68:j_idt679&quot;,f:&quot;form_ejecutar_reporte&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>3461b3c0-c44f-4993-955a-79ac010daff4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generación </value>
+      <webElementGuid>13a28373-5f07-482a-a3d4-619844f613e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ejecutar_reporte:j_idt66:j_idt68:j_idt679&quot;)</value>
+      <webElementGuid>384b13d9-d208-4eaf-a2a4-34eea4e6cd76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_ejecutar_reporte:j_idt66:j_idt68:j_idt679']</value>
+      <webElementGuid>d9514a34-6c9b-465f-a62b-1c11d62aa73d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_ejecutar_reporte:j_idt66:j_idt68:j_idt674']/table/tbody/tr/td/a</value>
+      <webElementGuid>d5758a7a-3244-4b32-8455-322ce0e21f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Generación')])[2]</value>
+      <webElementGuid>d0ca4606-87c0-4a44-aa81-5601e49ab2d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/following::a[1]</value>
+      <webElementGuid>d549edc4-d06f-43bb-88a9-78393a7197b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[7]</value>
+      <webElementGuid>9e4e899d-c54c-4fde-acb3-134d5b26a8a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporte'])[1]/preceding::a[5]</value>
+      <webElementGuid>a860c26d-6e49-4205-b178-d3dc518da189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha final mes'])[1]/preceding::a[5]</value>
+      <webElementGuid>fa656f3f-9ffa-4c9e-927d-ea58d06b7792</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Generación']/parent::*</value>
+      <webElementGuid>a848dbf7-0723-4aa5-b081-7711ce091076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
+      <webElementGuid>07472a5c-bc85-4c5c-8072-a1eb67c67439</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>5d1d2257-7898-4bdd-abcb-094208a7ff58</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

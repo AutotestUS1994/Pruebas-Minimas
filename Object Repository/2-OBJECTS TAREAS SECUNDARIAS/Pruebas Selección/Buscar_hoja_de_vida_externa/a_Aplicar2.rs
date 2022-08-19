@@ -6,11 +6,11 @@
    <elementGuidId>e12a1583-f4cd-4055-b337-b780dae10c13</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7c1c57e7-f291-4fca-b3c6-1a6c9ec3cbdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filtroExterno:j_idt120</value>
+      <webElementGuid>313a5299-7447-4714-b1ec-f58fc8ca5322</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>37d493fe-b6f6-4fa5-9c34-078c14dd9a58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-guardar</value>
+      <webElementGuid>4c8c1237-5878-49de-9bc8-da40b1e420b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;filtroExterno:j_idt120&quot;,f:&quot;filtroExterno&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>19e71fe3-e600-45bc-b77e-1729cea15b56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>0ef3e84b-7131-4601-bbce-1fe0cc1ba1a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtroExterno:j_idt120&quot;)</value>
+      <webElementGuid>c5726cc2-0f98-495c-a3ed-20c4a0831cb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='filtroExterno:j_idt120']</value>
+      <webElementGuid>7b7b39f3-5cf5-47b4-88a3-1cd87b929ca4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='filtroExterno:panelPasivo_content']/table/tbody/tr/td[2]/table[3]/tbody/tr[2]/td/a</value>
+      <webElementGuid>dcd1e82f-75ac-4fe7-b93c-1bf203b970e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>a414b6e7-1f62-4957-b03b-b0bba16cc720</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar Filtro'])[1]/following::a[2]</value>
+      <webElementGuid>49ff57d2-e4d5-40da-a2c2-89eea3c08e2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciudad'])[1]/following::a[3]</value>
+      <webElementGuid>335b8b8e-e1f6-4ac6-99d2-25fa683becf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
+      <webElementGuid>bf5483bb-59bf-4575-80a5-918377d78a43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
+      <webElementGuid>9a6e4b8d-df17-411c-9a14-82aa113b503a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>d5c43b81-f170-4f48-8682-b9e0b8cb811e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>cc04a63d-9b33-4ea0-ae47-ca4a7cd4d279</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/a</value>
+      <webElementGuid>7c53a8a8-c107-413f-89ee-3c9f69309366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'filtroExterno:j_idt120' and @href = '#' and (text() = 'Aplicar' or . = 'Aplicar')]</value>
+      <webElementGuid>61d692c3-4a94-4c05-9e86-19dec80c3f7f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

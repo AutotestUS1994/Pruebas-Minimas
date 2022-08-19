@@ -6,12 +6,11 @@
    <elementGuidId>877c7858-6c6d-44b1-be54-b9213054c2e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;jornada_form:tipoJornadaCI&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[10]/td[2]/select
-</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>141f9adf-b9b0-4b69-85c4-a555a81d9141</webElementGuid>
+      <webElementGuid>ae6f0da4-1945-4150-9519-53cad317f5f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:tipoJornadaCI</value>
-      <webElementGuid>82a7d699-a6e7-41c4-853e-a5919d8553ab</webElementGuid>
+      <webElementGuid>27d048c7-3bdd-4097-ad45-b657f3189e64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:tipoJornadaCI</value>
-      <webElementGuid>d08e9b5c-0a1f-4284-91fa-0340ae11e0b9</webElementGuid>
+      <webElementGuid>bef472da-671a-42d0-bfb5-fe578dc31718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>387a5fe0-b702-435b-a190-c9b879b21fc3</webElementGuid>
+      <webElementGuid>cd4c2c06-072e-41f5-ac96-d11b6b53eee7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>e3fad2a5-a319-4149-a046-586b7c29b6db</webElementGuid>
+      <webElementGuid>e49a0974-24c5-4ec4-8462-b65406e8de11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +65,7 @@
 	Franja Adicional Por Autorizar
 	Franja Adicional Autorizada
 </value>
-      <webElementGuid>9c9fdc47-2046-45f1-934c-8142a20b10e1</webElementGuid>
+      <webElementGuid>57caf644-4b2e-4d7d-8020-84bef930c71c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:tipoJornadaCI&quot;)</value>
-      <webElementGuid>86de18cb-8153-4df3-a717-e7f1e6676ef0</webElementGuid>
+      <webElementGuid>c294f2f1-d515-4ebf-b250-9ab024c455c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='jornada_form:tipoJornadaCI']</value>
-      <webElementGuid>45175fe6-bdc3-4f27-ae24-c29fef268fe7</webElementGuid>
+      <webElementGuid>751dc008-0208-482f-9cfa-300acdd55530</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[11]/td[2]/select</value>
-      <webElementGuid>b52f72ea-6238-47c4-99d1-05bdd0f3995f</webElementGuid>
+      <webElementGuid>63b424b8-f13b-4812-b98d-b5f2303049ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jornada'])[2]/following::select[1]</value>
-      <webElementGuid>af12e81d-a3fb-4b9b-a505-ceabb7f91ab4</webElementGuid>
+      <webElementGuid>cf6445ca-861b-43fa-bb6e-0083e6e63f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[2]/following::select[1]</value>
-      <webElementGuid>a677bca0-a18a-4a9b-8975-38f08be7be15</webElementGuid>
+      <webElementGuid>b5971234-9a89-4658-8734-6be92cd7f11d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Horario'])[2]/preceding::select[1]</value>
-      <webElementGuid>c44567f4-3ff7-4e58-8439-16bef8dc09f9</webElementGuid>
+      <webElementGuid>b84bee19-e933-4732-9cae-faf1d6f24dc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[11]/td[2]/select</value>
-      <webElementGuid>4e57e530-c8a9-4f5d-925d-e5d1e995fd4a</webElementGuid>
+      <webElementGuid>ee7c2eb2-fc4a-447d-a97b-5d5ca6633e04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +137,7 @@
 	Franja Adicional Por Autorizar
 	Franja Adicional Autorizada
 ')]</value>
-      <webElementGuid>085824d1-a335-430f-8625-523b3d501090</webElementGuid>
+      <webElementGuid>076d23f7-ed28-4192-a801-51ddf9804d11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +145,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='jornada_form:tipoJornadaDI']</value>
-      <webElementGuid>a3c0b49f-8ae7-4c76-a160-764e91d06eed</webElementGuid>
+      <webElementGuid>bf824dbe-b30c-4ce0-9401-2eb596d2b05a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +153,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[9]/td[2]/select</value>
-      <webElementGuid>97b67c72-e0a3-415e-ad41-ee7910e7e6a6</webElementGuid>
+      <webElementGuid>d4b70cc4-cecb-4b4c-8f24-cf454c5a129d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +161,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Horas'])[1]/following::select[1]</value>
-      <webElementGuid>7d595802-186a-48a6-9286-ed407965c6d5</webElementGuid>
+      <webElementGuid>7810032b-6ef7-4e97-87df-fe43624c24de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,7 +169,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sitio'])[1]/preceding::select[1]</value>
-      <webElementGuid>7b2e4d32-6d60-42cf-89b1-86626fd52be0</webElementGuid>
+      <webElementGuid>64f2c50c-f998-4438-afa5-514301b7aa22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -178,7 +177,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Horario'])[1]/preceding::select[1]</value>
-      <webElementGuid>4e72c70c-c3e1-4310-a571-66271625c1e4</webElementGuid>
+      <webElementGuid>a4da3867-553d-470b-8852-bece515ac118</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -186,7 +185,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td[2]/select</value>
-      <webElementGuid>257c3be4-1f77-4c9f-aceb-84b3fdfe269a</webElementGuid>
+      <webElementGuid>8317f355-3363-45a9-9422-4adda35f7f72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -202,6 +201,6 @@
 	Franja Adicional Por Autorizar
 	Franja Adicional Autorizada
 ')]</value>
-      <webElementGuid>873eb379-020c-4a36-93f6-ed19f487f067</webElementGuid>
+      <webElementGuid>1d533cf3-a84f-470b-9e27-823157a4730c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

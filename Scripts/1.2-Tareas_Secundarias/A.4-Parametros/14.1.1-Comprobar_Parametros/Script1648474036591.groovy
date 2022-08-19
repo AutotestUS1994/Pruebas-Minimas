@@ -26,6 +26,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Co
 
 planSucesion()
 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/input_Empresa 1_form_templatej_idt24_input'), 0)
+
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/input_Empresa 1_form_templatej_idt24_input'), 
     'Parametros Bienestar (bie)')
 
@@ -162,15 +164,15 @@ def parEntidadInstructor() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Instructor'))
 
-    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Nuevo'), 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Nuevo'), 
         1)) {
-	String Resultado = 'PRUEBA OK'
-    WebUI.closeBrowser()
+        String Resultado = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
     }
-	else {
-		WebUI.acceptAlert()
-		}
-	}
+}
 
 def parCosteo() {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/li_Parametros'))

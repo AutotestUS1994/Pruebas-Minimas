@@ -6,11 +6,11 @@
    <elementGuidId>632c9ed9-ccbd-4a02-bebd-d72156d9ceb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[3]/tbody/tr/td/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>53b0f4fd-6d24-44f0-b95b-f51d19693624</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921</value>
+      <webElementGuid>d825b7de-2be6-4736-badf-a013ddff791b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6664dff1-aea9-4c9b-8d1f-11ec1f614b3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>4a335ea9-a78e-475f-bf82-5eaea6240a64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921&quot;,f:&quot;form_detalleLiquidacionTiempos&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>1d05e7b2-745f-4b6f-ba58-3d29ea5cdffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar </value>
+      <webElementGuid>96b76000-abfc-4d99-aaec-f699231cc354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921&quot;)</value>
+      <webElementGuid>2922ae02-f78d-4d1e-9507-1f6953519562</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921']</value>
+      <webElementGuid>14a2c5d4-9778-4d83-876e-4c400d0bc50b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt906']/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>25f4d462-95a7-492f-9ea6-8c1a87c873b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>51427c76-ffd6-4493-ad1c-c9b13bee8418</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar'])[1]/following::a[3]</value>
+      <webElementGuid>1fcc6340-5ae1-44a0-a281-dc128699a7ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[9]</value>
+      <webElementGuid>8ba04ecd-14c3-42cc-af9f-bb768a0f20a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inicial'])[1]/preceding::a[2]</value>
+      <webElementGuid>92a59570-6ca6-4aab-bd13-46a688ef67e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[1]/preceding::a[2]</value>
+      <webElementGuid>8f099f29-367e-4fc8-bcce-6e0defc6a1b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>d4d5ef34-86b6-438f-b3a8-10d8df74319b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[26]</value>
+      <webElementGuid>44807e3a-58b2-497c-89de-ceda5247decc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td/a</value>
+      <webElementGuid>5d826d63-822e-42f9-aaaa-51da418f7ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921' and @href = '#' and (text() = 'Aplicar ' or . = 'Aplicar ')]</value>
+      <webElementGuid>bbca56a8-5269-4a99-9156-efce13951285</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

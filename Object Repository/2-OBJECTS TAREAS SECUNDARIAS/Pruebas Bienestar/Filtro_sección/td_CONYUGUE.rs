@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='CONYUGUE']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Depende']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>85138db5-0758-4f4f-aa78-a47f09bb51d9</webElementGuid>
+      <webElementGuid>b90b235f-f17f-4d16-8167-623ef9c4fd1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>e8592abd-595c-4eb5-b9e5-9fec0f3921f8</webElementGuid>
+      <webElementGuid>7a942bc9-6ad7-4a04-8d7e-2f5118b30fdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CONYUGUE</value>
-      <webElementGuid>b9d58749-10c3-4a55-bb27-13aeb60b9087</webElementGuid>
+      <webElementGuid>bcb5269b-8d44-4bff-8167-f43e455081d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_dirigidoTipoBeneficiario:tabla_dirigido_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>23c81db5-7922-4b12-891e-5c8ca605091c</webElementGuid>
+      <webElementGuid>af331ec1-128b-465d-9ccd-b0103198be59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_dirigidoTipoBeneficiario:tabla_dirigido_data']/tr/td[2]</value>
-      <webElementGuid>a6683471-0d68-44d5-96ff-3dfbe6631663</webElementGuid>
+      <webElementGuid>d0171a4d-c34d-426e-9b8d-acbb5a72f65a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parentesco'])[1]/following::td[1]</value>
-      <webElementGuid>ff111cb3-a120-44af-bf9b-902c47d7d210</webElementGuid>
+      <webElementGuid>9d01474e-d62f-42da-8d5b-dbe2ce33dd7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Campo'])[1]/following::td[2]</value>
-      <webElementGuid>0c61fd19-6bb3-4e3d-9ab5-edd3807a8799</webElementGuid>
+      <webElementGuid>6fc42ca4-42e1-4f61-a9dc-a669bfe31e9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Campo Datos Presupuesto'])[1]/preceding::td[7]</value>
-      <webElementGuid>9a2d94f5-5b1a-4060-99ef-68192479692e</webElementGuid>
+      <webElementGuid>1809126a-32aa-4155-aa4e-c058ea5badcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción *'])[1]/preceding::td[7]</value>
-      <webElementGuid>8d3c08c4-5836-4430-926c-9362f1d1748f</webElementGuid>
+      <webElementGuid>a5574fe3-be26-4313-8f0e-570dfb61edcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CONYUGUE']/parent::*</value>
-      <webElementGuid>d82ec9a0-669c-4e48-ba17-05ecec1d5861</webElementGuid>
+      <webElementGuid>ea706149-03f0-4187-8ac0-7247f810a501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td[2]</value>
-      <webElementGuid>49dae1b6-6b6e-49f8-a853-9aa184641f99</webElementGuid>
+      <webElementGuid>10a8c455-85fd-4bd4-b83e-9111aed7a727</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'CONYUGUE' or . = 'CONYUGUE')]</value>
-      <webElementGuid>99468b53-64a8-47f6-bbd8-b30fa424bfb7</webElementGuid>
+      <webElementGuid>0000a78c-78eb-4578-9f5c-22416318fb9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

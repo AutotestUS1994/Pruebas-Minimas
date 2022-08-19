@@ -15,11 +15,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import io.appium.java_client.FindsByAndroidViewTag as FindsByAndroidViewTag
 import org.openqa.selenium.Keys as Keys
-
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 /*-----------------NUMERO ALEATORIO ------------------------*/
-
 double random_double = (Math.random() * 9999) + 999
 
 random_double = Math.round(random_double * 1000)
@@ -27,7 +29,6 @@ random_double = Math.round(random_double * 1000)
 String identificacion = random_double.toString().replace('.0', '')
 
 /*----------------------------------------------------------*/
-
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'), 
@@ -109,7 +110,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/T
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/i_Actos_glyphicons glyphicons-group'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Regresar'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Acto cambio del Empleado_form_ActosAdministrativostabla_principal_10j_idt79'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_elaborar'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Nomina'))
 
@@ -284,7 +289,11 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/i_Actos_glyphicons glyphicons-group'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Regresar'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Acto cambio del Empleado_form_ActosAdministrativostabla_principal_10j_idt79'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_elaborar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Nomina'))
 
@@ -425,7 +434,11 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Actos de Retiro del empleado'))
 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Regresar'))
+
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_elaborar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_terminacion de contrato'))
 
@@ -519,7 +532,11 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Actos de Retiro del empleado'))
 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Regresar'))
+
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Actos de Retiro del empleado_form_ActosAdministrativostabla_principal_10j_idt79'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_elaborar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_terminacion de contrato'))
 
@@ -593,8 +610,22 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Calculo Nomina'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales'))
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Prestaciones Sociales'))
+    } else {
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/input_Fecha de Retiro_cancelacion_contratofecharetiro_input'), 
+            Fecha())
 
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/input_Fecha de Retiro_cancelacion_contratofecharetiro_input'), 
+            Keys.chord(Keys.ESCAPE))
+    }
+    
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Calculo Nomina'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Calculo Nomina'))
+    }
+    
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/span_Si'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Reporte'))
@@ -603,5 +634,17 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
         1)) {
         WebUI.closeBrowser()
     }
+}
+
+def Fecha() {
+    Date today = new Date()
+
+    String Dia = today.format('dd')
+
+    String Mes = today.format('MM')
+
+    String Año = today.format('yyyy')
+
+    String FechaI = (((Dia + '/') + Mes) + '/') + Año
 }
 

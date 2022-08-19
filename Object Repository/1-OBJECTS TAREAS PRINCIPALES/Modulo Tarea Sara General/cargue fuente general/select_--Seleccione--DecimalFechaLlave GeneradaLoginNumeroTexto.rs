@@ -7,7 +7,9 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[2]/select</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[5]/div/div[2]/div[2]/table[1]/tbody/tr[2]/td[2]/select
+
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>45aec873-07b2-469d-b1e3-25016b89c445</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupfuentecampo:tipoDato</value>
+      <webElementGuid>1ddc93c2-f076-4888-9266-f8c77b98d943</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +39,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupfuentecampo:tipoDato</value>
+      <webElementGuid>5c80d04f-2f4d-486b-a26c-a05bf6fee83f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>99cb51f4-08f2-49c5-b9fc-464d107ece69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +55,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>1ad33a55-3080-4abe-a012-2cec5e7d787a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
 	Numero
 	Texto
 </value>
+      <webElementGuid>05e1ad42-8765-44f1-8541-c3a8badf9f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupfuentecampo:tipoDato&quot;)</value>
+      <webElementGuid>e3122381-5150-42ff-ac49-12a9660c2d90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_popupfuentecampo:tipoDato']</value>
+      <webElementGuid>fdfb4786-fda6-4f4d-b923-2187051fb7d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupfuentecampo:j_idt318_content']/div[2]/table/tbody/tr[2]/td[2]/select</value>
+      <webElementGuid>3e8b078e-4a7c-455f-b3fd-98b94169cc29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Dato'])[3]/following::select[1]</value>
+      <webElementGuid>33b8ea39-a921-4bdb-acef-812a4be1e483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción*'])[2]/following::select[1]</value>
+      <webElementGuid>5aa387c7-9d67-48ab-b67b-82ecead14634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Columna*'])[1]/preceding::select[1]</value>
+      <webElementGuid>72ad61f4-3c29-4777-b6ca-82c39167ba12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posición Inicial'])[1]/preceding::select[1]</value>
+      <webElementGuid>1c3a0e17-b9ce-4f7f-a410-fa6147a66b94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/select</value>
+      <webElementGuid>d5e39339-af83-4b8f-a7b6-e6c7730c4850</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +156,6 @@
 	Numero
 	Texto
 ')]</value>
+      <webElementGuid>95f6c602-b127-435a-81cb-f8cd5a7961b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

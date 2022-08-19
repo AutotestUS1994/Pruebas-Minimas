@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td/label</value>
+         <value>
+/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[1]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>c5224b75-6307-404e-8a3e-657a8d6b3c61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupReporte:j_idt1308:0</value>
+      <webElementGuid>753515f2-0cef-4680-938a-75770f887139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Excel</value>
+      <webElementGuid>542220b0-afee-429a-b278-58f09d7ad22b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1308&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>a82e572d-4c3d-481b-be70-7eb7c286d9ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td/label</value>
+      <webElementGuid>f9c15a92-b916-4fbf-a92c-b68728cca878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar'])[1]/following::label[1]</value>
+      <webElementGuid>a3d4a21b-d2aa-4fe8-954a-c587ec47856f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lista Cargo Empresa'])[1]/following::label[1]</value>
+      <webElementGuid>114f05ac-3218-4b8c-94df-83390342c962</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plantilla'])[1]/preceding::label[1]</value>
+      <webElementGuid>2cceeb02-2f77-4dc4-97e5-50c08d15df47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>e30f5ac7-2612-4e16-8008-00ffcf4543c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Excel']/parent::*</value>
+      <webElementGuid>7b17e375-d62d-49a4-afd2-ac830d76c435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/label</value>
+      <webElementGuid>0f03321b-77ed-4107-a1a5-42bf19b933b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Excel' or . = 'Excel')]</value>
+      <webElementGuid>9c923b8f-11c3-4f06-aaca-c45bc238dd55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

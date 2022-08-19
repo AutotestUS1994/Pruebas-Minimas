@@ -6,11 +6,11 @@
    <elementGuidId>a984763d-d90f-4e41-a1bd-8a82f3cb22fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>468e473d-5058-4472-8c69-04ff587be29b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_mostrarDatosMovPlanta:j_idt2040</value>
+      <webElementGuid>2a062358-b0e0-4ed8-a734-e96fdd79b8a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>1f9c5fc6-bec8-46ec-b9f5-740511822a9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-acepto</value>
+      <webElementGuid>6c4f4343-f33c-4854-8496-6e6a391709e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_mostrarDatosMovPlanta:j_idt2040&quot;,f:&quot;form_mostrarDatosMovPlanta&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>9e3bd8d9-9037-4a34-a43a-a7e5145521a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;form_mostrarDatosMovPlanta:j_idt2040&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Aplicar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+      <webElementGuid>af2d9a07-0c0d-4de5-a7da-4f686c65871e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>d0c2b332-ca11-42c2-a281-e553a8f11e39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_mostrarDatosMovPlanta:j_idt2040&quot;)</value>
+      <webElementGuid>6a6856cb-868a-4f63-897b-417f413e59a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_mostrarDatosMovPlanta:j_idt2040']</value>
+      <webElementGuid>147a3550-d6f5-46fd-a009-15c5f4592982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contenido_tabla']/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>27076094-82b9-4aed-9c80-7d0e0dbc7ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>22e5ba6a-1567-490e-a1f9-6e7929ecd4ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[2]</value>
+      <webElementGuid>f7f23fa9-854d-4343-b7bc-e069771bf4f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación*'])[1]/following::a[2]</value>
+      <webElementGuid>13a2c5fb-40b0-4646-8008-f1a7c30ea10c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>bf18b430-8d1c-4d63-b9ff-d9699facf9ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
+      <webElementGuid>bdad99cb-e1e2-4806-b763-ed685db31616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>aa074ae5-d1db-43dc-92bc-cf9342215a3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>8b27bad2-d710-42e0-8037-8e93aefc14d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>b06295bf-387a-40a8-ad15-ba58e7159134</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_mostrarDatosMovPlanta:j_idt2040' and @href = '#' and (text() = 'Aplicar' or . = 'Aplicar')]</value>
+      <webElementGuid>f4ab8987-e94a-4e52-a021-e5a91709eb6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

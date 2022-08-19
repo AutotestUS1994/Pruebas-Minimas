@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_popupEmpleado:idPopupEmpleado_content']/div[2]/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[1]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>f65f4722-8302-4d88-979b-47e048c0bb47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-textentry ui-widget ui-state-default ui-corner-all ui-state-optional ace_valor_campo_estandar</value>
+      <webElementGuid>bbe34517-aa84-46af-bf1d-5e1821de6ef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupFiltroEmpleado:parametroBusqueda_input</value>
+      <webElementGuid>6e72629d-1735-4e91-a406-196032ad97cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupFiltroEmpleado:parametroBusqueda_input</value>
+      <webElementGuid>7e2763cd-0020-4bce-89c3-7da14ada6f92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>6449b850-717e-47cb-b5ac-9e0bc4c3a0e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
+      <webElementGuid>e22dfac3-3b6d-4765-a535-6361d0ff7bb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Debe definir un filtro con 4 o mas caracteres</value>
+      <webElementGuid>0fcdb676-0b06-4094-bf6e-97dad6558054</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>f37c23cd-b3d3-4883-9430-611f0aad0cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupFiltroEmpleado:parametroBusqueda_input&quot;)</value>
+      <webElementGuid>a5915863-9ee3-4d63-b03e-481e229ddfb3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupFiltroEmpleado:parametroBusqueda_input']</value>
+      <webElementGuid>4a00e92d-0d2f-4526-82fb-c83d716bd678</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='popupFiltroEmpleado:parametroBusqueda']/span/input</value>
+      <webElementGuid>df48c179-1da5-4031-8e51-0f1ffa4fcea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/following::input[1]</value>
+      <webElementGuid>550e10c0-95af-4078-a1e1-533bf2e381f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro Empleado'])[1]/following::input[1]</value>
+      <webElementGuid>fad1453f-8a68-4291-8a29-00de82b9aa0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[2]/preceding::input[1]</value>
+      <webElementGuid>27fc00bf-838f-4f73-bb3d-00343f286093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[2]/preceding::input[2]</value>
+      <webElementGuid>30263a8d-4572-4696-857b-8a729c5a02d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +142,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span/input</value>
+      <webElementGuid>bf45e429-2e57-40de-98cb-b4b48c10bdda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

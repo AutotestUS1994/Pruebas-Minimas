@@ -6,12 +6,12 @@
    <elementGuidId>1fe82c1e-ea50-465f-b5de-005875e56835</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-boton.btn-filtrar</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Ejecutar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formImportarFuente'),{'formImportarFuente:j_idt330':'formImportarFuente:j_idt330'},'');return false&quot;]</value>
+         <key>CSS</key>
+         <value>a.us-boton.btn-filtrar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>07fadf9f-c21d-4e8d-b70f-e85bb3209172</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>2e8198f1-0bb3-401b-9287-806538a91c1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('formImportarFuente'),{'formImportarFuente:j_idt330':'formImportarFuente:j_idt330'},'');return false</value>
+      <webElementGuid>3ced85bf-5150-40a9-ac74-6c806e844fc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-filtrar</value>
+      <webElementGuid>d64a9ff9-04af-4a11-8a72-364a23848f99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ejecutar</value>
+      <webElementGuid>94e6d7da-8dd9-42c1-82b9-c927b45c4751</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formImportarFuente:DATOS&quot;)/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/a[@class=&quot;us-boton btn-filtrar&quot;]</value>
+      <webElementGuid>32ba2b2e-b1ca-4292-b7b8-9642803aa3f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('formImportarFuente'),{'formImportarFuente:j_idt330':'formImportarFuente:j_idt330'},'');return false&quot;]</value>
+      <webElementGuid>02e147e1-07df-48f3-a99b-a54c4009c58d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formImportarFuente:DATOS']/tbody/tr[2]/td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>f38f2a2c-3cbd-4825-92ea-19dccbdc2ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ejecutar')]</value>
+      <webElementGuid>44bdc1b8-8ee3-47d0-a6de-2b3640412503</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver'])[1]/following::a[4]</value>
+      <webElementGuid>36e1c43c-4a71-45ee-bca7-ac06860b0eda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Advertencia'])[1]/following::a[4]</value>
+      <webElementGuid>91574ace-ac8f-4e6b-98f9-b82ba15593cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>5014e2fe-6c40-4706-9b2d-17efcda090a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>d899f817-0594-4328-8cc1-9eb5c83183ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ejecutar']/parent::*</value>
+      <webElementGuid>d2a905dc-b9ed-441a-98f6-e5ba2197467d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>8756d92e-1e7b-4bdf-99df-5b49e33fdd4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>9540c390-ee5e-421f-a1a5-03113814810d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Ejecutar' or . = 'Ejecutar')]</value>
+      <webElementGuid>ef5b6f5a-e87e-4cc1-8b03-af31b8aa08ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

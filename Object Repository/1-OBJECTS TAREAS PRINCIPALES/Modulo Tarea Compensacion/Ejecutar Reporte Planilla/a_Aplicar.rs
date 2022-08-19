@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td/a</value>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>adc75465-0a9c-4a5b-9914-19947c1bc89d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ejecutarReportePlanilla:j_idt151</value>
+      <webElementGuid>7e863570-1c8c-46f7-b34e-b79015059352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>4729750b-faa5-40d8-96d2-a7d585938168</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-aplicar</value>
+      <webElementGuid>b2c4a0a0-fd0a-41b2-b7e9-7f35aef94dbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;ejecutarReportePlanilla:j_idt151&quot;,f:&quot;ejecutarReportePlanilla&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>0e28c0c8-c72e-40e7-9bda-a94c579210ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>83e1a3bc-fb3b-4a25-af0d-436fa89603d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ejecutarReportePlanilla:j_idt151&quot;)</value>
+      <webElementGuid>dba8ebb4-f06b-4507-a78a-8698d312606b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='ejecutarReportePlanilla:j_idt151']</value>
+      <webElementGuid>2133699c-17c7-4d30-9d0f-f55f7bdadcb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='ejecutarReportePlanilla']/table/tbody/tr/td[2]/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>a795a42f-5d14-449d-bcb6-65b299e89d0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>1fb44780-43bd-4797-88df-bb53a0fa7dae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Nomina'])[1]/following::a[2]</value>
+      <webElementGuid>32db1bf7-2da4-42d7-96b1-75453136d615</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PNP - PAGO DE NOMINA'])[2]/following::a[2]</value>
+      <webElementGuid>0a5dffa7-5d92-46a2-b082-7717a01cc27d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>11187e6e-2120-466c-98a1-615a1bddfb25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>3abfabfa-7efb-4191-bc18-247966dafedf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>c87d7cbd-e2ac-45d4-a582-ab7850b07b49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[26]</value>
+      <webElementGuid>5d277851-83a0-49aa-b59f-12d9933a26c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/a</value>
+      <webElementGuid>08a1d156-3196-45c5-b5b0-7c17b38cb4c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

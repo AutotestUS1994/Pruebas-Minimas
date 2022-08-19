@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td/div/div[2]/table/tbody/tr/td[2]/div/div[2]/span</value>
+         <value>/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[2]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>87430a9b-a8ae-4bb8-a625-f6a163cbc1df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-radiobutton-icon ui-icon ui-icon-blank ui-c</value>
+      <webElementGuid>43dd3b52-2c23-46fd-a740-0773ccf499e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1318&quot;)/tbody[1]/tr[1]/td[2]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]/span[@class=&quot;ui-radiobutton-icon ui-icon ui-icon-blank ui-c&quot;]</value>
+      <webElementGuid>ac20a3c2-9b95-48e5-a8ff-50f9c5abd1ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1318']/tbody/tr/td[2]/div/div[2]/span</value>
+      <webElementGuid>5188c798-6618-4db6-9377-537656fe7240</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div[2]/table/tbody/tr/td[2]/div/div[2]/span</value>
+      <webElementGuid>2a00365e-cc5d-4943-8368-75fd8966e41d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

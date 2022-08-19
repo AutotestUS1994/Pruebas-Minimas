@@ -6,11 +6,11 @@
    <elementGuidId>9f6c7cea-dbe6-4060-80b3-42fdb5dade65</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>e08c2d07-99b0-470a-b1fa-f04ea148df5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoEventos:j_idt355</value>
+      <webElementGuid>f7f468d6-2308-41fb-81cb-944cd1213a50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>95212f30-11ee-417b-a499-50df10f0b57b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-guardar</value>
+      <webElementGuid>0a6e37d7-4d74-4e6a-901d-823c2e77a0b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formListadoEventos:j_idt355&quot;,f:&quot;formListadoEventos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>87884497-7365-4859-b5d4-badf560644c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>67a5067f-9744-42df-9201-8da3db9ab0e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEventos:j_idt355&quot;)</value>
+      <webElementGuid>6866eeba-51bb-49fe-a2a1-8ae6fd40134d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formListadoEventos:j_idt355']</value>
+      <webElementGuid>0e0db862-5d52-4c4d-9bee-16b05a3d4d1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formListadoEventos:j_idt150_content']/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>f5842b40-1e68-4251-8274-15a7284cf2db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>b77c623d-0dd4-4f19-90e1-802a78ccbaef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente *'])[1]/following::a[1]</value>
+      <webElementGuid>2fe08ead-aa42-4f52-9164-31ea6bcc0c06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::a[1]</value>
+      <webElementGuid>4a5ed88b-e088-4a3e-be52-aeb8bb83c322</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>fd6b560f-0942-45f3-8fbd-a523f58f97b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>fe627ade-028b-4307-934b-0a5317bab00d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>953d6071-a6ec-4835-b83e-c0436d865799</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>83a5c182-8c61-4242-9db2-d2ace4892794</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
+      <webElementGuid>84bff47a-c4bf-49b3-af56-436f9d4b2d12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

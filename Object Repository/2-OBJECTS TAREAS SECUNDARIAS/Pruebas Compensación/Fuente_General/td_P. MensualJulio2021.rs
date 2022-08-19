@@ -7,86 +7,26 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div/div/table/tbody/tr[2]/td[2]</value>
+         <value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr[3]/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'P. MensualJulio2021' or . = 'P. MensualJulio2021')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>td</value>
-      <webElementGuid>3698beb0-4e5b-41c9-bbc2-58ca5f295bb2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>gridcell</value>
-      <webElementGuid>7d3b36bf-861f-4f4d-af58-0f5bb4e8d562</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>P. MensualJulio2021</value>
-      <webElementGuid>f6d48a09-142e-4e99-b73e-d163b6aaef64</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;formPopupPeriodo:tabla_ventanaPeriodo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>4d1c015c-6a05-465c-b51b-dcb752d00527</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>td</value>
-      <webElementGuid>3d0722d1-9b20-4127-9e64-47fe34a1ab8c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>gridcell</value>
-      <webElementGuid>db78132a-3786-4357-9be4-6606752f626c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>P. MensualJulio2021</value>
-      <webElementGuid>026cdac4-d162-405c-b7ab-be6392f246f8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;formPopupPeriodo:tabla_ventanaPeriodo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>b43611b4-5f09-4652-be79-d57e67cd964b</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formPopupPeriodo:tabla_ventanaPeriodo_data']/tr[2]/td[2]</value>
-      <webElementGuid>c58db20c-96f9-4d4f-91d2-d0c13a4104c8</webElementGuid>
+      <webElementGuid>22729033-c953-4050-b522-0a209593d53e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +34,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PM202107'])[1]/following::td[1]</value>
-      <webElementGuid>5d778966-6e9b-4be8-8f37-32e0e7b5d6f3</webElementGuid>
+      <webElementGuid>0d7448ba-c37f-47ae-a5f9-55705f0c1193</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +42,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[1]/following::td[2]</value>
-      <webElementGuid>e63789d0-1a9d-4a0d-85a0-da44d9acdac2</webElementGuid>
+      <webElementGuid>4324ea9e-fe8d-4be1-8678-6aee69f8a6cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +50,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[2]/preceding::td[1]</value>
-      <webElementGuid>f202d6ac-7bfa-4b85-9ea1-e613755b5c60</webElementGuid>
+      <webElementGuid>6b8e7441-2592-43da-be71-097c770d8d9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +58,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>60cccfcc-8b7b-4287-b8cc-373381d3db08</webElementGuid>
+      <webElementGuid>d1b5c3c4-dbd7-41e5-ade8-6f248acc2719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +66,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'P. MensualJulio2021' or . = 'P. MensualJulio2021')]</value>
-      <webElementGuid>459c1b1c-0c75-417f-81c3-598f118d4e70</webElementGuid>
+      <webElementGuid>6f83a20b-d967-46a6-9e59-0de9484685a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>d0bf0ffd-e567-442b-bfa8-f3cb2c64045a</webElementGuid>
+      <webElementGuid>e958839b-0844-4c4f-86ba-d80d2166e332</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

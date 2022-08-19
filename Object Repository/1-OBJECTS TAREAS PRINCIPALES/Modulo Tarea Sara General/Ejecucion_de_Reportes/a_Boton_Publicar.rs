@@ -6,12 +6,11 @@
    <elementGuidId>b0c3106f-df77-4a8b-83cf-af1186c80378</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Publicar')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Publicar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e45173d6-1824-4fa8-8cf2-1698ad0b995a</webElementGuid>
+      <webElementGuid>fabfdd61-0c96-4321-9a9e-6b4cf572b562</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupReporte:j_idt1331</value>
-      <webElementGuid>45fbc1cf-f9ec-4dc5-8bb6-85eded65563b</webElementGuid>
+      <webElementGuid>3ea0e525-b438-4c73-b006-a308b58896fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>6556bf8a-30e9-4e0d-ba5c-5d59a68071e3</webElementGuid>
+      <webElementGuid>d6c1440e-d946-4479-9e09-746d71884b62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-publicacion</value>
-      <webElementGuid>3707d931-716e-4ed0-a645-254420de2711</webElementGuid>
+      <webElementGuid>d956683b-c0d5-4d07-a81f-b2b02881a4e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupReporte:j_idt1331&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>1581b286-367b-4d44-a55c-8b7e07e5b867</webElementGuid>
+      <webElementGuid>34e59879-6e09-4800-9ae2-d110f0d17f15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Publicar</value>
-      <webElementGuid>eedd7705-edce-4882-bbc4-c87914468150</webElementGuid>
+      <webElementGuid>46a48bdc-6f9f-4ba8-ac96-e04323243bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1331&quot;)</value>
-      <webElementGuid>14a062d6-673a-4935-803a-dd7208232306</webElementGuid>
+      <webElementGuid>9d3829c4-e2e1-4c10-b4d4-4312c306f193</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupReporte:j_idt1331']</value>
-      <webElementGuid>6e0ad9db-d1cc-4606-ade9-9bad0fbd0860</webElementGuid>
+      <webElementGuid>b85987e6-167f-48c5-8eb6-eca3c450ef94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td[2]/a</value>
-      <webElementGuid>2c258a23-d1cb-44da-aad8-939af847ab15</webElementGuid>
+      <webElementGuid>84e3f7f8-fdf2-4e21-b1c8-b2d4b7d2e270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Publicar')]</value>
-      <webElementGuid>cd76d663-445a-4bce-a640-bdc12bdc029d</webElementGuid>
+      <webElementGuid>d452d1c8-0163-445f-b2ac-435f6c9306e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicar'])[1]/following::a[2]</value>
-      <webElementGuid>659470d7-916e-4bd2-941d-026f12216101</webElementGuid>
+      <webElementGuid>1c12207f-b88f-4ad7-ac99-350eb010ab95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/following::a[2]</value>
-      <webElementGuid>d85d85ce-71f2-4607-ad53-6d0e158c59a4</webElementGuid>
+      <webElementGuid>a3e55ac3-debf-423d-8c05-420ac19ba327</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::a[3]</value>
-      <webElementGuid>ebce591c-e5b4-4936-b6c3-b447307b2949</webElementGuid>
+      <webElementGuid>38556df9-f08b-4258-8d44-fb0ca4e331fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[2]/preceding::a[3]</value>
-      <webElementGuid>934e3c21-a4e0-4c3d-af96-b261a6e04952</webElementGuid>
+      <webElementGuid>6bce1951-194b-4b36-af07-d13ee80a2dba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[40]</value>
-      <webElementGuid>15d8829b-1c71-40f0-b421-17043621484e</webElementGuid>
+      <webElementGuid>d041aae9-1101-4078-9d81-c215f4c1784a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>b144462f-2b2c-48ff-b00f-7bc0b405da6a</webElementGuid>
+      <webElementGuid>68d8ed26-d006-4751-a90a-d8fae884f4c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupReporte:j_idt1331' and @href = '#' and (text() = 'Publicar' or . = 'Publicar')]</value>
-      <webElementGuid>b0cc95a5-2cef-4f9c-bda5-794f89d992b1</webElementGuid>
+      <webElementGuid>167a10d6-abf6-4f0f-9c7e-4fbbf28b2822</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

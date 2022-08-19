@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='popupNuevoPeriodo:panelNomina:j_idt316']</value>
+         <value>//a[contains(text(),'Guardar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>a405cc2b-54b2-488c-a2a7-b926edd40dad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupNuevoPeriodo:panelNomina:j_idt316</value>
+      <webElementGuid>8ca0668c-f24c-46bc-8410-fb5ad34203b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>1c9755e3-eedc-446d-98e3-7c756fd85587</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>bf634d65-b250-4bd5-ba57-d9f1c9eabd14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupNuevoPeriodo:panelNomina:j_idt316&quot;,f:&quot;popupNuevoPeriodo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>f75113ad-2485-4d3a-8604-fda815d43798</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>fcd26e38-9c17-4313-b04b-63bcfedf2829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupNuevoPeriodo:panelNomina:j_idt316&quot;)</value>
+      <webElementGuid>fd2da3a3-697c-4b56-a581-e4939533b8a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupNuevoPeriodo:panelNomina:j_idt316']</value>
+      <webElementGuid>fdc31f42-40aa-414d-8c10-d764424c37e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupNuevoPeriodo:panelNomina:periodoNomina']/table[4]/tbody/tr/td/a</value>
+      <webElementGuid>cdea818a-0c36-4be5-9b8f-b5ec357b82db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>2cf17fcf-4490-4908-8252-5831a97549d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado Publicación'])[1]/following::a[1]</value>
+      <webElementGuid>e2f90d8b-2a4e-4492-8e25-56e5f078100a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/following::a[1]</value>
+      <webElementGuid>712c94d5-4993-40be-9144-acbe3068705d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Definición Ciclo'])[1]/preceding::a[3]</value>
+      <webElementGuid>dcfcbb1d-fcaa-4e36-aea2-de94e84df005</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>e0af8358-36a6-4248-9534-11c7a5657fe0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[36]</value>
+      <webElementGuid>f75fe6d9-9022-48aa-8ea7-bbac8aa5b088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[4]/tbody/tr/td/a</value>
+      <webElementGuid>f83a7dcd-89e2-441c-8a04-6fcaf49608df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupNuevoPeriodo:panelNomina:j_idt316' and @href = '#' and (text() = 'Guardar' or . = 'Guardar')]</value>
+      <webElementGuid>4fe34281-db54-47b8-a0b7-1691904d478e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

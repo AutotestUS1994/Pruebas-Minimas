@@ -6,11 +6,11 @@
    <elementGuidId>79641faa-1d9a-4896-834d-1e32541b6835</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/form/table[2]/tbody/tr/td/table/tbody/tr[2]/td/div/div/div/table/tbody/tr/td/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f21188a7-94b3-4678-bd7a-af4f9a6be8b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:j_idt445</value>
+      <webElementGuid>296cb42d-0502-40d5-9b98-80c6fdbb0e28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>a255fad3-ddd5-4465-9a0d-6f35fa32c3d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
+      <webElementGuid>0b70d7c9-4898-4084-bd38-8afbc21ff2fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_contratacion:panelTab:j_idt445&quot;,f:&quot;form_contratacion&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>5a927579-8219-40d5-96df-f08cedfccc90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>351bcafa-88ed-42fe-a942-ac3394dcd15a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_contratacion:panelTab:j_idt445&quot;)</value>
+      <webElementGuid>d6005fc2-a8ad-4256-a4ac-b1e4e501f877</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_contratacion:panelTab:j_idt445']</value>
+      <webElementGuid>1de3bc4d-c55e-4c65-8de3-51d1540361aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_contratacion:panelTab:documento']/table/tbody/tr/td/a</value>
+      <webElementGuid>a9684c26-d2f3-4b80-9f81-c675045d75d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>bb569313-8369-40c1-91a0-25fad1749fbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Cumplido'])[1]/following::a[1]</value>
+      <webElementGuid>8164266c-ed07-4a5a-9bc3-54dfc1dc4c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INGRESO DEFINITIVO INDEFINIDO SALARIO BASICO'])[1]/following::a[1]</value>
+      <webElementGuid>2005235c-c0ee-4535-bcb4-49eabdfc590f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto'])[1]/preceding::a[3]</value>
+      <webElementGuid>4981c372-df77-4d5d-9c57-bb058906548f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver'])[1]/preceding::a[4]</value>
+      <webElementGuid>45f83597-ceb8-4015-b000-a17cc2250f1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>107e3b04-c268-4bfc-86dc-53d1487cabce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>726ba3d2-9c3f-4ce8-a027-81b86bce16b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td/a</value>
+      <webElementGuid>d2f998a9-2b58-4674-a43a-95b7fe50fb0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

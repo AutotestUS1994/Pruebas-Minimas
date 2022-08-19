@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Enviar correo y Publicar</name>
+   <tag></tag>
+   <elementGuidId>dda41827-b590-4a84-bd1e-e46d799b874e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ce128d83-e54d-4b94-a96b-4ed5d26cf7fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>idPopupComprobanteVacacion:tipo:1</value>
+      <webElementGuid>aee31af2-5ee6-490d-a524-66a56966d9fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Enviar correo y Publicar</value>
+      <webElementGuid>2985701a-b6fa-44c0-b343-4ad94857112d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idPopupComprobanteVacacion:tipo&quot;)/tbody[1]/tr[2]/td[1]/label[1]</value>
+      <webElementGuid>6268d153-40f2-4057-a9bd-cfb18b898ddd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='idPopupComprobanteVacacion:tipo']/tbody/tr[2]/td/label</value>
+      <webElementGuid>7c1e609a-bea3-4413-9c7f-2011fa7950cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar Correo'])[1]/following::label[1]</value>
+      <webElementGuid>ff64c5bd-6c02-4de2-a8a7-9e3b4c16b2e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprobante Vacaciones'])[1]/following::label[2]</value>
+      <webElementGuid>2174ddf2-5188-41f4-bf54-40f250580cfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicar'])[1]/preceding::label[1]</value>
+      <webElementGuid>f1ec79ca-da76-464d-b552-bff27de53b3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>814ecf32-e320-4f00-8058-4f33c9bf730e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enviar correo y Publicar']/parent::*</value>
+      <webElementGuid>f4e8cd83-b35e-41a8-a555-b21b85d57eb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/label</value>
+      <webElementGuid>b3d31a63-af43-4b17-9bdc-1346c02363fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Enviar correo y Publicar' or . = ' Enviar correo y Publicar')]</value>
+      <webElementGuid>a381fa35-f8c6-4c7d-8b97-9d31fcfba0a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

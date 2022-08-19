@@ -50,7 +50,10 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas C
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/input__form_actosDirectosEmpleadoj_idt25342fecha_input'), 
     Fecha())
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/a_Continuar'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/a_Continuar'),
+	30)
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 filepath = WebUI.getAttribute(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/input_Sueldo_form_actosDirectosEmpleadosueldo'), 
     'value')
@@ -113,14 +116,16 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/s
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/a_Aplicar2'))
 
-String Result=WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-	String Resultado = "PRUEBA OK"
-	WebUI.closeBrowser()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+if (Result == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+
 System.out.println(Fecha())
 
 def Fecha() {

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Tipo')]</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[4]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>62d62ce0-9d9a-40a0-a79f-57d56129895e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>reporteForm:j_idt626:j_idt628:j_idt1472</value>
+      <webElementGuid>2c363f54-0164-42ea-bee7-f56db72a30cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>771316af-fd07-45aa-a0fc-27b76e25710e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>83cb1469-b3b6-4f7f-949a-2eff129e46e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;reporteForm:j_idt626:j_idt628:j_idt1472&quot;,f:&quot;reporteForm&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>ef3e62e9-c487-4bc6-899e-5cd613c6c643</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tipo  </value>
+      <webElementGuid>48b46b25-548b-445d-98de-66dc4d400fef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reporteForm:j_idt626:j_idt628:j_idt1472&quot;)</value>
+      <webElementGuid>7f41c448-d003-4e3c-a159-7bf41e615ef7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='reporteForm:j_idt626:j_idt628:j_idt1472']</value>
+      <webElementGuid>977a9e92-87c2-4f43-ae39-d88ec238c3a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='reporteForm:j_idt626:j_idt628:j_idt629']/table[4]/tbody/tr/td/a</value>
+      <webElementGuid>324b0578-5f02-4d2a-883a-40fae26f5862</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Tipo')]</value>
+      <webElementGuid>ad915c2a-4e2f-4f4b-9c4f-0f47d51f7710</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporte'])[1]/following::a[4]</value>
+      <webElementGuid>502c82fd-5f41-45f6-b9ad-fb6fa2eaa3a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[10]</value>
+      <webElementGuid>f55acce2-3c12-4422-8b38-8bbe7932162a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo'])[1]/preceding::a[5]</value>
+      <webElementGuid>06fa8e6e-05af-47e9-ab94-8ed25099ff4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Campo'])[2]/preceding::a[5]</value>
+      <webElementGuid>3da80852-38f4-4a74-84f6-c51eff3dbb81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tipo']/parent::*</value>
+      <webElementGuid>ef445c13-d67c-49ea-bc66-d926db743072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>4872d180-56ec-4882-a8c2-c33e89c5889b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[4]/tbody/tr/td/a</value>
+      <webElementGuid>3f98fcbe-5c7e-4f2d-acff-ec79908822c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'reporteForm:j_idt626:j_idt628:j_idt1472' and @href = '#' and (text() = 'Tipo  ' or . = 'Tipo  ')]</value>
+      <webElementGuid>d1e1fb3a-2a17-49c9-a101-e4762736ebb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

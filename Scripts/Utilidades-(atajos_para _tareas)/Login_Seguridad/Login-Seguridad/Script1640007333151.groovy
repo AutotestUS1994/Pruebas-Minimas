@@ -25,11 +25,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-
-
 String i = GlobalVariable.G_Login_Seguridad
-
-
 
 URL url = new URL(i)
 
@@ -41,44 +37,34 @@ connection.setRequestMethod('GET')
 
 connection.setReadTimeout(2 * 1000)
 
-
-
 try {
-	connection.connect()
+    connection.connect()
 }
 catch (Exception ex) {
-	println('No se pudo conectar a la URL' + i)
-}
+    println('No se pudo conectar a la URL' + i)
+} 
 
 boolean flag = connection.connected
 
 println('Valor_ori: ' + flag)
 
 if (flag) {
-	WebUI.navigateToUrl(i)
+    WebUI.navigateToUrl(i)
 
-	a( //    break
-		) //} else {
-	//    println('No conecta a: ' + i)
-	//aqui coloca el wait y el clic a l modulo Actos
-	//TODO: revisar y quitar esto
+    a( //    break
+        //} else {
+        ) //    println('No conecta a: ' + i)
+    //aqui coloca el wait y el clic a l modulo Actos
+    //TODO: revisar y quitar esto
 }
 
 def a() {
-	
-	
-	WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario)
+    WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario)
 
-	WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
+    WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
 
-	WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), GlobalVariable.G_TimeOut)
+    WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), GlobalVariable.G_TimeOut)
 
-	WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
-	
-	WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ir'), 30)
-	
-	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-	
-	
-		
+    WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
 }
+

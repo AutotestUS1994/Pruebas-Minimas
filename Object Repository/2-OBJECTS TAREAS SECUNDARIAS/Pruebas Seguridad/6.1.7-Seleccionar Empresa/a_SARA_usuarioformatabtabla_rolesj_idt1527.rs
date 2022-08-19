@@ -6,12 +6,11 @@
    <elementGuidId>156b5915-8442-4582-a2db-febc3554126e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tfoot/tr/td[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='usuarioforma:tab:tabla_roles:j_idt152']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7b74c2e0-4e24-4bca-90d2-4053e1230a40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>usuarioforma:tab:tabla_roles:j_idt152</value>
+      <webElementGuid>b47416a4-21f7-4b88-9cfc-daef6672e493</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b7ba4cd6-452c-49ee-a3d2-6ab1e2b3fb4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <webElementGuid>b3fbbe9b-5c56-4f2d-a91e-85c518fcf537</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;usuarioforma:tab:tabla_roles:j_idt152&quot;,f:&quot;usuarioforma&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>a0a3f60e-2a6f-427c-8e34-9abd1813b9be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;usuarioforma:tab:tabla_roles:j_idt152&quot;)</value>
+      <webElementGuid>4f4fa25b-50ef-4550-a350-c2625c971458</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='usuarioforma:tab:tabla_roles:j_idt152']</value>
+      <webElementGuid>758ab1a3-598c-4b3f-8e78-680c86619f95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='usuarioforma:tab:tabla_roles_foot']/tr/td[5]/a</value>
+      <webElementGuid>097db7fe-8fc2-40cf-9880-7d103f18ebec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[60]</value>
+      <webElementGuid>724b17d6-b428-4dea-b2c6-51203238116d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tfoot/tr/td[5]/a</value>
+      <webElementGuid>73a23edf-bb7f-4a7c-b2db-3cb880d9d701</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'usuarioforma:tab:tabla_roles:j_idt152' and @href = '#']</value>
+      <webElementGuid>a67a2dca-dac2-4c65-b4a5-e2134e5925c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

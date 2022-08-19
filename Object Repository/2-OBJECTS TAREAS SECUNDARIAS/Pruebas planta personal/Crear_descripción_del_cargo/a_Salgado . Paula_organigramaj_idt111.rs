@@ -6,11 +6,12 @@
    <elementGuidId>0333ef4e-7ead-46be-b98b-e9ecb3f4cf16</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//*[@id=&quot;organigrama:j_idt112&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='organigrama:j_idt111']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>54429428-d7c1-48f4-9460-ab45476bd1d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>organigrama:j_idt111</value>
+      <webElementGuid>dc091be7-6595-4f74-b54e-c80fe3ba97d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>606cb97f-41e0-46ad-aa5a-32ecd42b69f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget glyphicons glyphicons-nameplate-alt x1_3 us-icon-planta</value>
+      <webElementGuid>d435a228-806c-4f8d-bd60-44171154c16a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Descripción del Cargo</value>
+      <webElementGuid>250a5a5a-ff69-4009-b0ca-cfe9d0284646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;organigrama:j_idt111&quot;,f:&quot;organigrama&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>11e57dfa-e1db-4286-bf93-cc7092c31db7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Descripción del Cargo</value>
+      <webElementGuid>31db4d28-fae2-412c-836c-922d0a5bfedb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:j_idt111&quot;)</value>
+      <webElementGuid>c4694f81-6154-4155-a507-58e908a95d55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='organigrama:j_idt111']</value>
+      <webElementGuid>894d3103-954e-467d-ad7b-1f42eeae38ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='organigrama:lider']/div/div[2]/div/a[3]</value>
+      <webElementGuid>ed00a496-cd2e-468b-b948-6fe898c04308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[38]</value>
+      <webElementGuid>4e788f46-10d0-4c43-b635-17bd45128490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a[3]</value>
+      <webElementGuid>e5ca2a33-9659-448f-8745-b6e81a7a3e78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'organigrama:j_idt111' and @href = '#' and @title = 'Descripción del Cargo']</value>
+      <webElementGuid>e5feffa2-16cc-4ba7-9a0d-24d894036b39</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='formParametros:j_idt63:j_idt65:j_idt161']</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/span/table/tbody/tr/td[1]/form/table/tbody/tr/td/table/tbody/tr/td/div/div[2]/table[1]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>2ad26875-bed8-4e1d-a071-68045ef490a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formParametros:j_idt63:j_idt65:j_idt161</value>
+      <webElementGuid>ba632f2c-8d46-4e9c-a49c-ecfbef6e2e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>1e1c185a-e6aa-4d8d-add0-1a1e24e2c444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>2ba9d6d2-a4b2-40ae-b144-e98bacfad140</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formParametros:j_idt63:j_idt65:j_idt161&quot;,f:&quot;formParametros&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>615f0bf9-bc5b-466c-b32f-6c3b82017cb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Concepto De Jornadas </value>
+      <webElementGuid>5af972d5-4721-41ea-bd97-03cc69bbac0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formParametros:j_idt63:j_idt65:j_idt161&quot;)</value>
+      <webElementGuid>62d9fbca-882f-48e0-836a-27613fc99cc7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formParametros:j_idt63:j_idt65:j_idt161']</value>
+      <webElementGuid>1210babc-2241-4182-9951-3fa64dcc9a25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formParametros:j_idt63:j_idt65:j_idt66']/table[19]/tbody/tr/td/a</value>
+      <webElementGuid>0edd66fe-2831-4a95-b037-66fcd509d2bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Concepto De Jornadas')]</value>
+      <webElementGuid>52a87cac-3949-4862-8c75-d8f6a3f98a2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[3]/following::a[19]</value>
+      <webElementGuid>082ca18d-2a04-4f88-94ef-31643433e894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::a[22]</value>
+      <webElementGuid>fb52cf19-4873-4221-85b4-d1240dd5d006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Consolidador'])[2]/preceding::a[6]</value>
+      <webElementGuid>780ac0d9-3cea-49e3-9fe8-fc3a3511242f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Consolidador*'])[1]/preceding::a[6]</value>
+      <webElementGuid>bd978875-2719-4f47-b472-64e9fcc65a71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Concepto De Jornadas']/parent::*</value>
+      <webElementGuid>7502803a-b40d-4f76-8a41-f0219b68de7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[39]</value>
+      <webElementGuid>11c8c391-1f88-492d-8368-6ab3b7a38f78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[19]/tbody/tr/td/a</value>
+      <webElementGuid>7b0f0dd2-d363-46e2-9226-352173d0d0b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'formParametros:j_idt63:j_idt65:j_idt161' and @href = '#' and (text() = 'Concepto De Jornadas ' or . = 'Concepto De Jornadas ')]</value>
+      <webElementGuid>ace7ebd5-fde0-4c31-98f4-cd44043397a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

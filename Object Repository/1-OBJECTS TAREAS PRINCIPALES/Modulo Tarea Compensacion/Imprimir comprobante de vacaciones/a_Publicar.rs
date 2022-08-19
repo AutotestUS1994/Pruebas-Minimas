@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>2f055172-b463-494f-8715-03c692405847</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-continuar</value>
+      <webElementGuid>7c477277-0e8f-4e2b-9b24-299230408b5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>3e1066f6-e49a-458a-82e9-06372950a156</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt712:_t720</value>
+      <webElementGuid>a92511f4-60b2-4685-b778-7e75bcf02dec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('j_idt712'),{'j_idt712:_t720':'j_idt712:_t720'},'');return false</value>
+      <webElementGuid>ab7250a4-e36d-4c46-af98-dc9b2e990a0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generar</value>
+      <webElementGuid>2541bc61-77a0-4b2f-882d-02a0bb4f1de4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt712:_t720&quot;)</value>
+      <webElementGuid>db776a12-e95b-475a-96f5-94f176dd408e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt712:_t720']</value>
+      <webElementGuid>f657f822-75a2-446f-9915-0d217f5ee296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='j_idt712:_t715']/a</value>
+      <webElementGuid>3c143840-3f50-425d-8215-b74e17c84017</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Generar')]</value>
+      <webElementGuid>fc21e653-7e05-4a8f-91ea-f958df6cd1db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Todos'])[1]/following::a[1]</value>
+      <webElementGuid>a6de22f6-7556-4169-9d1d-393a7a224b96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicar'])[1]/following::a[1]</value>
+      <webElementGuid>e2b676fe-cdcd-4290-8fef-3ccea17ab02a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[28]</value>
+      <webElementGuid>02430ea8-3703-42dc-929b-6ef267ce7a7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/span/a</value>
+      <webElementGuid>b15172cd-4af1-4ddd-90a7-d9473d2bccfb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

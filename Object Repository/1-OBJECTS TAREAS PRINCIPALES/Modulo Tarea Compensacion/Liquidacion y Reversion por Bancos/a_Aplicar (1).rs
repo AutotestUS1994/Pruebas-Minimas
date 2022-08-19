@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>3671c687-2378-41fb-9fae-0fb70930b489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popUpTraerGeneracionEntidadBancoBean:j_idt363</value>
+      <webElementGuid>ae454c7e-7b92-4840-9e1a-d0c83a3b2eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>3eb75a42-257d-41ed-90df-e5a7a793f2ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-aplicar</value>
+      <webElementGuid>8bc8a6b8-3163-49ea-8a9b-cd41843d021c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popUpTraerGeneracionEntidadBancoBean:j_idt363&quot;,f:&quot;form_popUpTraerGeneracionEntidadBancoBean&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>974052d1-aa98-4eab-b2ce-c1e0dd89ed95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>76421d6a-a5fd-4c0d-941e-d8c14cafd7ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popUpTraerGeneracionEntidadBancoBean:j_idt363&quot;)</value>
+      <webElementGuid>819e7368-0dcf-47c5-a6b8-07356340be12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popUpTraerGeneracionEntidadBancoBean:j_idt363']</value>
+      <webElementGuid>5e624b74-eb5e-493c-99f3-902c13bb1975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popUpTraerGeneracionEntidadBancoBean:j_idt314_content']/div[2]/a</value>
+      <webElementGuid>bf801eaf-74f3-46e1-af7b-27eeacf65920</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>d455ad8b-d6f8-4bff-a299-3be05b2aecda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha'])[1]/following::a[1]</value>
+      <webElementGuid>1bf44309-a027-4cc9-b71e-40dd1db1c7cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viaticos'])[2]/following::a[1]</value>
+      <webElementGuid>3554a561-6eb9-4ab5-891d-7daab0b18461</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
+      <webElementGuid>459518bc-eba1-4d1b-976b-9256266882d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
+      <webElementGuid>756206e5-beee-4907-9083-7ed8c2bfd969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>14368b95-5e91-4755-a855-4fb84dd8e4d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
+      <webElementGuid>a2ef40de-0529-4a7d-a2cd-446d1e01ec68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
+      <webElementGuid>6b6f4827-027d-4aee-8ed5-4c1c6d606acf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

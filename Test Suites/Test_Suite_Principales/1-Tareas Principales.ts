@@ -481,10 +481,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f950efa4-ec24-4a02-8b6f-aae45bf41bd3</guid>
+      <guid>42cd050e-ab0a-44aa-93c2-31eb842c54eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.6-Crear_Empresa</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.4-Crear_empresa_y_suario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

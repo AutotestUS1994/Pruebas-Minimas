@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Plantilla_ui-icon ui-icon-closethick - Copy</name>
+   <tag></tag>
+   <elementGuidId>53bab3ab-cb98-4f86-b14b-26513b7ce913</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all.ui-state-hover > span.ui-icon.ui-icon-closethick</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/div/form[6]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[2]/td/div/div[2]/table[1]/tbody/tr/td[3]/div/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>deaf4874-9b85-4ae8-82d3-814ad845c9b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>381f32e4-4c88-4be5-a66c-1adef49f1c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupReporte:j_idt1374&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>9575599d-2a83-4675-a76a-35b7164cd657</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupReporte:j_idt1374']/div/a/span</value>
+      <webElementGuid>543b4ac1-cdb0-4293-952e-cf7cb545a43a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/span</value>
+      <webElementGuid>28e5b69e-2518-4050-b76b-a79ac32c572d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

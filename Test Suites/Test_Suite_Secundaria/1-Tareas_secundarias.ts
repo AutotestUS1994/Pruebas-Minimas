@@ -159,6 +159,55 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>f9078be9-f18c-402e-94c0-32cba3fecd2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.3-Inscripción_masiva</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3b5c63a4-c5c2-4700-9722-51ddc49688e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.4-Inscripción_Individual_como_funcional</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ac035ca-a378-481a-8fcd-0ed5188b2ad1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.6-Sancionados</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d717072-fe2f-4875-8f62-8a9688f1bac1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.8-Programación_de_evaluación</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0cf70e73-4411-42fc-9d59-de1e5c2fa8e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa2e21ee-3cf1-406c-a3b7-1ad3555afb5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.2-Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>68c63147-b0bc-4d39-9271-bda9dde2df56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.3-Filtro_sección</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>140f129c-6d18-4d4e-bc7c-fd1c223a2669</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

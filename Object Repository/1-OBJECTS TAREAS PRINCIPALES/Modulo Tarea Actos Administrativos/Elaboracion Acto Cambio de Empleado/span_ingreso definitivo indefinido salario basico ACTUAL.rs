@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ingreso definitivo indefinido salario basico ACTUAL</name>
+   <tag></tag>
+   <elementGuidId>01ce6afb-cb16-40ac-881d-48518f2746b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[19]/span/span[3]/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>00f37eeb-2f76-43de-b58e-a5c684ed059a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>91ec5ad0-d44c-40a2-91d7-f11b8b52da30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ingreso definitivo indefinido salario basico </value>
+      <webElementGuid>2c939c3c-5ec9-4b29-b16f-f455ed6c9e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:arbolFormato:18:j_idt110&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>4becc66e-0394-4b52-9934-6ae171106a19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='form_ActosAdministrativos:arbolFormato:18:j_idt110']/span</value>
+      <webElementGuid>0b40835c-becb-458a-ba2f-6a6b91197aeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso temporal'])[1]/following::span[5]</value>
+      <webElementGuid>1faca7a4-4a21-4435-b9ca-d10d3927c0de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso termino fijo - s tradicional'])[1]/following::span[10]</value>
+      <webElementGuid>08e36ba4-24b4-4e61-bdb7-8f7338f4dfec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso carrera docente'])[1]/preceding::span[3]</value>
+      <webElementGuid>9f6c39fa-d2c1-4373-a4ba-7f86dd160f21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso aprendiz - etapa productiva'])[1]/preceding::span[8]</value>
+      <webElementGuid>79840c56-5289-47f7-b80c-1913302bbadf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ingreso definitivo indefinido salario basico']/parent::*</value>
+      <webElementGuid>c31f578a-bfad-47b2-b224-56d06ad80f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[19]/span/span[3]/div/a/span</value>
+      <webElementGuid>5e53562d-e342-4d2e-97a8-121385442fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ingreso definitivo indefinido salario basico ' or . = 'ingreso definitivo indefinido salario basico ')]</value>
+      <webElementGuid>3f2d3e81-169d-43a2-8f68-073744464289</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

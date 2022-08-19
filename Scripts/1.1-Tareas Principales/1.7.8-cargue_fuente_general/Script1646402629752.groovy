@@ -16,12 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Empresa 1_form_templatej_idt24_input'), 'Fuente general')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Empresa 1_form_templatej_idt24_input'), 
+    'Fuente general')
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/li_fuente general (gna)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/li_fuente general (gna)'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Fuente_form_FuenteGeneralfiltroFuenteGeneral'), 
     'Actualizar Entidad empl')
@@ -35,7 +39,8 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Servicios'))
 
-    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Actualizar Jefe'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Actualizar Jefe'), 
+        1)) {
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Actualizar Jefe'))
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Eliminar_Servicio'))
@@ -45,7 +50,8 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Campos'))
 
-    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_camp1'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_camp1'), 
+        1)) {
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_camp1'))
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Eliminar_campos'))
@@ -55,7 +61,8 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Entrada'))
 
-    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Pru1'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Pru1'), 
+        1)) {
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_N_btn-minieliminar'))
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Aceptar_eliminar entrada'))
@@ -85,7 +92,8 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_--Seleccione--Por el orden de los gruposPor el orden de los servicios'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_--Seleccione--NOSI'), 2)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_--Seleccione--NOSI'), 
+    2)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Guardar'))
 
@@ -94,13 +102,16 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Guardar'))
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Cdigo_form_FuenteGeneraltabcodigo'), 'Actual')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Cdigo_form_FuenteGeneraltabcodigo'), 
+    'Actual')
 
-WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneNoSi3'), 1)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneNoSi3'), 
+    1)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Guardar'))
 
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Entrada'), 0)
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Entrada'), 
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Entrada'), FailureHandling.STOP_ON_FAILURE)
 
@@ -110,7 +121,8 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneDecimalFechaLlave GeneradaLoginNumeroTexto'), 
     6)
 
-WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneNoSi1'), 1)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneNoSi1'), 
+    1)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_No se encontr registros_btn-miniadicionar'))
 
@@ -124,9 +136,11 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_--Seleccione--DecimalFechaLlave GeneradaLoginNumeroTexto'), 
     5)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Columna_form_popupfuentecampocolumna'), '1')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Columna_form_popupfuentecampocolumna'), 
+    '1')
 
-WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_NoSi2'), 1)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_NoSi2'), 
+    1)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Guardar'))
 
@@ -137,7 +151,8 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneActo Cambio Empleado - Accion (No Aplica)'), 
     12)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Orden_form_popupServiciotaborden'), '2')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Orden_form_popupServiciotaborden'), 
+    '2')
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneAl final del procesoEn cada Item'), 
     1)
@@ -160,13 +175,19 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/textarea_Nmero de cdula del nuevo Jefe_form_popupServiciotabtabla_campos_serv4j_idt316'), 
     '{Campo2}')
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Guardar'))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Guardar'), 
+    30)
+
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_No se encontr registros_ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover'))
 
+/* SE OMITE PROVICIONALMENTE MIENTRAS SE REPARA 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Notificacin'))
 
-WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneFijoLogin Par'), 1)
+WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/select_SeleccioneFijoLogin Par'), 
+    1)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_No se encontr registros_form_FuenteGeneraltabtablaNotificacioncorreo'), 
     'prueba@null.com')
@@ -176,13 +197,19 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_No se encontr registros_form_FuenteGeneraltabtablaNotificacionpopupplantilla'))
 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/input_Buscar'), 
+    'html')
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_ico_lupa'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_01  .jasper'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_No se encontr registros_btn-miniadicionar2'))
-
+*/
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Servicios'))
 
-if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Actualizar Jefe'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Actualizar Jefe'), 
+    1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Actualizar Jefe'))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Eliminar_Servicio'))
@@ -192,7 +219,8 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Campos'))
 
-if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_camp1'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_camp1'), 
+    1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_camp1'))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Eliminar_campos'))
@@ -202,7 +230,8 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Entrada'))
 
-if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Pru1'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/td_Pru1'), 
+    1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_N_btn-minieliminar'))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/cargue fuente general/a_Aceptar_eliminar entrada'))

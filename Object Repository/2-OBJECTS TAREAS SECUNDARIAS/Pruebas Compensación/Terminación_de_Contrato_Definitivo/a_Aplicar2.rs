@@ -6,11 +6,11 @@
    <elementGuidId>ee1987c6-1720-4b36-8e28-eaf6c370414f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>897b240c-d2b5-40fe-8080-cbd27942a163</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:j_idt1584</value>
+      <webElementGuid>37c447d3-eafd-45c6-a36d-a122ffe1a933</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>9887bedb-0c2c-4689-987b-85b0283f87db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
+      <webElementGuid>caba449f-415b-42bc-b628-2d022fdebe14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;entidadempleado_form:tab:j_idt1584&quot;,f:&quot;entidadempleado_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>20d56afb-8975-49ca-80fb-f8ef82bbfb6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>5454e68a-0bd0-49e3-995b-e8b622f35ece</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entidadempleado_form:tab:j_idt1584&quot;)</value>
+      <webElementGuid>8dc04360-8716-4a1e-a1c1-721093560d71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='entidadempleado_form:tab:j_idt1584']</value>
+      <webElementGuid>b931566d-4dda-47c3-9a02-13c4599290c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='entidadempleado_form:tab:j_idt1554']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>0df68667-b71d-442b-a21e-6a30cbbcbad5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>b9ab94e2-b9de-476a-bb21-e369816947f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Cuenta 1:ahorro 2: corr'])[1]/following::a[1]</value>
+      <webElementGuid>51efe52a-24d2-46ba-b354-5b09e2fc9403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciclo'])[1]/following::a[1]</value>
+      <webElementGuid>5859ce41-4190-4743-bcd8-69cfc08029ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>6562fbe5-2668-41ce-91a3-a104694dc0bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
+      <webElementGuid>b86764d9-9179-481e-895b-d37ce4a72ac3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>842b2a02-33b7-4585-8d8c-b84d94fff0fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[33]</value>
+      <webElementGuid>306ef13c-4310-404f-9310-4945ac2083a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
+      <webElementGuid>441e677d-c19c-41be-82cb-fd1da74b36ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'entidadempleado_form:tab:j_idt1584' and @href = '#' and (text() = 'Aplicar' or . = 'Aplicar')]</value>
+      <webElementGuid>81b61220-6fc0-484b-81c5-efbcd99a89f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

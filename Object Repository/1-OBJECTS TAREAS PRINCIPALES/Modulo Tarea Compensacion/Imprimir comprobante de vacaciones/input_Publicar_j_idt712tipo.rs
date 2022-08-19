@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='idPopupComprobanteVacacion:tipo']/tbody/tr[2]/td/label</value>
+         <value>
+//table[@id=&quot;idPopupComprobanteVacacion:tipo&quot;]/tbody/tr[3]/td/label</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>8a22bd6c-f74c-4ab2-8858-d58fd00adcd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>:tipo:</value>
+      <webElementGuid>d00cc3df-e33d-4b0b-b330-0b9cc29247f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +39,7 @@
       <name>name</name>
       <type>Main</type>
       <value>j_idt712:tipo</value>
+      <webElementGuid>41fb7f52-0e78-4eb3-b696-73b76f3afbef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>setFocus('');</value>
+      <webElementGuid>a5eb85dc-2f3b-4029-b284-dc3ea463c017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>;setFocus('');iceSubmitPartial(form, this, event);</value>
+      <webElementGuid>7897e970-dd72-4cd2-b45a-e79889c75ffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>setFocus(this.id);</value>
+      <webElementGuid>95f654de-4a1d-43b4-9fda-3746e970d2e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>Ice.util.radioCheckboxEnter(form,this,event);</value>
+      <webElementGuid>c2b228ca-f7cd-4a6e-adeb-446218b22b87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
+      <webElementGuid>44daf4c7-3b1e-4017-a9aa-f208ad3edc13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,6 +87,7 @@
       <name>value</name>
       <type>Main</type>
       <value>T</value>
+      <webElementGuid>27567a55-f442-46a1-b88d-807fde7fd75a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt712:tipo:_3&quot;)</value>
+      <webElementGuid>ee44aa9f-e442-46b6-ba02-6871c47a092a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +103,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='j_idt712:tipo:_3']</value>
+      <webElementGuid>07aefe8c-00ee-440e-82be-efffbf5a47a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +111,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='j_idt712:tipo']/table/tbody/tr[3]/td/input</value>
+      <webElementGuid>8cdaca77-16f1-4da6-a6ae-08b4c2d6a2ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicar'])[1]/following::input[1]</value>
+      <webElementGuid>0102dcca-5a95-491d-9e90-e269480ba24d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar Correo'])[1]/following::input[2]</value>
+      <webElementGuid>e17f5bb4-6dc9-45c1-b622-082542ec3a08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Todos'])[1]/preceding::input[1]</value>
+      <webElementGuid>e290ce4a-37cc-4b76-a846-19b1fd8004d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +143,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/table/tbody/tr[3]/td/input</value>
+      <webElementGuid>e9df60ef-5935-47e0-9127-a0d9e5550e5f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

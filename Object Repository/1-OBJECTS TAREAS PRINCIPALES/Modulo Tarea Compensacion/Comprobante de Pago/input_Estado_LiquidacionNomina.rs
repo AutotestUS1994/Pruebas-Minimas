@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-//div/table/tbody/tr/td/div/div[2]</value>
+         <value>//tr[@id='LiquidacionNomina:j_idt159_row_0']/td/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -23,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>b4d66328-bbcf-48f7-b1e9-cfb05aa7a3a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>LiquidacionNomina</value>
+      <webElementGuid>bbefa73c-25a7-4dde-a026-a0ab56770257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>:0:</value>
+      <webElementGuid>b67b660f-cb9b-4078-8c71-5d57a870977b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,6 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.ab(this,event,'click',0,0)</value>
+      <webElementGuid>35bd19df-0449-453a-aeae-d8de9d79c373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,6 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
+      <webElementGuid>91b82fd9-733f-438c-9e62-7b7e3a0c2d2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiquidacionNomina:j_idt159:0:_t162&quot;)</value>
+      <webElementGuid>c8b30b76-0651-4366-948c-d28452ac9d1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='LiquidacionNomina:j_idt159:0:_t162']</value>
+      <webElementGuid>fee78eb2-750e-4d7d-a66d-446b401d2584</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='LiquidacionNomina:j_idt159_row_0']/td/input</value>
+      <webElementGuid>6c7ba30e-0c69-4e4c-ba5c-7f150893d449</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::input[1]</value>
+      <webElementGuid>7172c11e-e607-4398-96e2-d7055c6a8054</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación'])[2]/following::input[1]</value>
+      <webElementGuid>3c1b5477-b8ba-4cb3-b167-1cf56c6c1e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INDEFINIDO'])[1]/preceding::input[1]</value>
+      <webElementGuid>ce758e3a-53dd-4b1f-ac14-97ad44f19d63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,5 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/div/table/tbody/tr/td/input</value>
+      <webElementGuid>ce82b1bd-327a-4f6f-8451-eeeb23cfb8d1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administ
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'))
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_Listado de Empleados (com)'), 
-    0)
+    1)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Identificacin_listadoEmpleadoIdentificacionEmpleado'), 
     '1234567890')
@@ -158,7 +158,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-if(Result == 'El concepto ha sido ingresado correctamente') {
-	WebUI.closeBrowser()
+if (Result == 'El concepto ha sido ingresado correctamente') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {WebUI.acceptAlert()}
+

@@ -410,7 +410,7 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_Nomina'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_ingreso definitivo indefinido salario basico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_ingreso definitivo indefinido salario basico ANTIGUO'))
 
     if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Continuar3'), 
         1)) {
@@ -449,7 +449,7 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_Nomina'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_ingreso definitivo indefinido salario basico'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/span_ingreso definitivo indefinido salario basico ANTIGUO'))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Elaboracion Acto Cambio de Empleado/a_Elaboracin_form_popupSeleccionDerogarj_idt144'))
 

@@ -6,11 +6,11 @@
    <elementGuidId>a4759797-2a07-440f-ad75-eb8f07b853d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/form/span/table[2]/tbody/tr/td/table/tbody/tr[3]/td/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_persona:j_idt345']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>5c7793f5-72a7-4a93-a7d2-829f1b40d775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_persona:j_idt345</value>
+      <webElementGuid>7b581222-3716-48bc-b546-db5974460053</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>f3c5770b-1b8e-41bd-b6c8-b128e23f2971</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-generar</value>
+      <webElementGuid>1271c1b7-892a-42ca-bf9c-b3a5f758e2f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_persona:j_idt345&quot;,f:&quot;form_persona&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>013f987a-e479-41b0-946f-cb8f1c3fdc26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Liquidar</value>
+      <webElementGuid>9f222b98-2bee-4f88-8bfd-3eb6d617d91f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_persona:j_idt345&quot;)</value>
+      <webElementGuid>095bbd42-a6d3-4a11-8061-7a30ac546950</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_persona:j_idt345']</value>
+      <webElementGuid>6a405d16-ab4d-4b4c-9a8b-a95e70515072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_persona:jornada']/table[2]/tbody/tr/td/table/tbody/tr[3]/td/a</value>
+      <webElementGuid>d06334d7-cf8d-4dae-904c-d49e862baf61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Liquidar')]</value>
+      <webElementGuid>a3bcdede-5ea0-4c1c-82f4-d8cd2590f11e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaria'])[1]/following::a[1]</value>
+      <webElementGuid>f5815009-9900-411e-8f5f-a29d167d0e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jornada'])[4]/preceding::a[2]</value>
+      <webElementGuid>c51843dc-c5a3-411a-a5f2-076edaa12f59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/preceding::a[2]</value>
+      <webElementGuid>2390149a-26ac-40a5-9dcc-20339106592e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Liquidar']/parent::*</value>
+      <webElementGuid>2119f0db-b4b3-451e-b760-a1b08596f4fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[38]</value>
+      <webElementGuid>f9273428-4c60-40a1-bb3c-c56934b505b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/a</value>
+      <webElementGuid>fccbd675-cc90-4964-8daf-d5265f5cf30c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_persona:j_idt345' and @href = '#' and (text() = 'Liquidar' or . = 'Liquidar')]</value>
+      <webElementGuid>239d7f06-b9a4-4480-9b4f-a6e2cab2f5d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,13 @@
    <elementGuidId>ad724c71-e9bc-409f-95c8-ab5fae4da092</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='growl_container']/div/div/div[2]/p</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@id = 'growls-default']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//*[@id=&quot;growl_container&quot;]/div/div/div[2]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>edced97d-360e-4208-8273-c1199501236e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>growls-default</value>
+      <webElementGuid>59c694aa-b6bc-4bad-9b72-8cf676eefa03</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='popupBusqueda_form:tablaBusqueda:0:_t398']</value>
+      <webElementGuid>68a16c31-e30c-4dc1-a730-c9d674828895</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='popupBusqueda_form:tablaBusqueda_row_0']/td[2]/span</value>
+      <webElementGuid>f006dff4-61c3-4c45-a063-c73e6010acd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[1]/following::span[1]</value>
+      <webElementGuid>5af5edbf-0f55-482b-9ca7-dbed0d540f96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre del Rol'])[1]/following::span[2]</value>
+      <webElementGuid>9a3fc98c-765e-4fbb-9197-4132be47a3ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ADMINISTRADOR'])[1]/preceding::span[1]</value>
+      <webElementGuid>d9ddec84-313d-42c3-81e6-a4024ac94df9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa 1'])[2]/preceding::span[2]</value>
+      <webElementGuid>dbfdddfc-2031-4306-80cd-808866687049</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +87,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/table/tbody/tr/td[2]/span</value>
+      <webElementGuid>85d08662-c0d3-41ff-96ae-77e0f6cc7ea8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

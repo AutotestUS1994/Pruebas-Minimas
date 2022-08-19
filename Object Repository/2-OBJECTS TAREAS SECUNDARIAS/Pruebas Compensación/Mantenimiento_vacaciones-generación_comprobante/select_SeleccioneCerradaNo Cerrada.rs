@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SeleccioneCerradaNo Cerrada</name>
+   <tag></tag>
+   <elementGuidId>81a6fe4e-a653-4502-bf79-6fca991711bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8f8e20f8-980e-4391-9983-5672586607a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_mantenimientoVacacion:estado</value>
+      <webElementGuid>136058bd-2246-4b38-bd4c-7a068c69c922</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_mantenimientoVacacion:estado</value>
+      <webElementGuid>2654ce64-2db7-47a5-90c7-97776941e0d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>9b79ffdc-b583-4c94-8b61-6dfb4e61320a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>086a7241-d6ca-4121-9447-d4dcb942ba11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_mantenimientoVacacion&quot;,p:&quot;form_mantenimientoVacacion:estado&quot;,u:&quot;form_mantenimientoVacacion:panel_registros&quot;});</value>
+      <webElementGuid>a7280e47-c30c-40be-8b67-4922d463ffdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	Seleccione
+	Cerrada
+	No Cerrada
+</value>
+      <webElementGuid>a0decd2c-3a11-484f-9364-7dd6c9d97cef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_mantenimientoVacacion:estado&quot;)</value>
+      <webElementGuid>13ae1701-9b1f-47cd-92a4-d911a2ff57df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_mantenimientoVacacion:estado']</value>
+      <webElementGuid>accf26d2-35e7-48e1-9d8f-4c09f7901924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_mantenimientoVacacion:panelFiltro_content']/table/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>2af4d148-edd1-44f8-b2f2-38e4393442bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
+      <webElementGuid>22bd4628-24a8-452e-aa53-1b48dcf54556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Periodo'])[1]/following::select[2]</value>
+      <webElementGuid>627a0bdf-582e-4370-ad23-9f06a30297f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cantidad Por Pagina'])[1]/preceding::select[1]</value>
+      <webElementGuid>2bba3d52-186d-4987-804b-dfc2160eb3f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[3]/preceding::select[1]</value>
+      <webElementGuid>17661269-804a-4abd-968d-952093edf094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/select</value>
+      <webElementGuid>21fde412-bba1-430b-90b4-bbbeeb9de98f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_mantenimientoVacacion:estado' and @name = 'form_mantenimientoVacacion:estado' and (text() = '	Seleccione
+	Cerrada
+	No Cerrada
+' or . = '	Seleccione
+	Cerrada
+	No Cerrada
+')]</value>
+      <webElementGuid>5d20d84d-b665-4da4-b752-d878c14d4a21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

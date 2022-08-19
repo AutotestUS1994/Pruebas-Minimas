@@ -6,12 +6,12 @@
    <elementGuidId>8f4cb619-5a5d-41e2-96b2-44306c9763d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;jornada_form:hastaCI_input&quot;]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>
-//tr[9]/td[2]/span/input</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d29febbc-140f-4284-b78a-6c5c18800031</webElementGuid>
+      <webElementGuid>f4ad2504-881d-4906-af6a-69cf5445aaa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:hastaCI_input</value>
-      <webElementGuid>e649fd1e-dc00-4a12-a934-0bbbf766a457</webElementGuid>
+      <webElementGuid>a72afb97-f7ec-494f-85db-4bf373ed219c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:hastaCI_input</value>
-      <webElementGuid>2a43d42b-572f-454f-af02-c6001ebfda18</webElementGuid>
+      <webElementGuid>3926e7b9-2863-45f7-a4f1-c22107f53d4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cbb93109-adca-44ab-8c25-0dddf1e3063f</webElementGuid>
+      <webElementGuid>2ec726ac-3c40-440e-8d1f-680cb278047a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
-      <webElementGuid>c306474b-6f61-4fe6-b1a1-a392d6b3c685</webElementGuid>
+      <webElementGuid>f3e57a7b-8b5d-4814-8047-001359d7d56b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>9d4d9633-e6f8-43ab-9032-4e9109d7c707</webElementGuid>
+      <webElementGuid>9c941e36-477b-4190-a7a5-3e56590ee13e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>24e7a02c-d557-483d-855c-c316a3639095</webElementGuid>
+      <webElementGuid>c8711ca5-aa3a-4226-8dcf-33dd734f09b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8261e892-15b5-4752-aebd-fb9265534d71</webElementGuid>
+      <webElementGuid>452bccdf-9c3d-406c-8898-d6207c910042</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:hastaCI_input&quot;)</value>
-      <webElementGuid>d1dce09e-ab14-412b-8ee8-6228f106032e</webElementGuid>
+      <webElementGuid>99650b66-4b63-4b00-951e-09f94c5dbc41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornada_form:hastaCI_input']</value>
-      <webElementGuid>375d506b-9605-4b98-8a90-3e332a48210e</webElementGuid>
+      <webElementGuid>88a5c832-506f-45ec-a0ea-5c4e66573d53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='jornada_form:hastaCI']/input</value>
-      <webElementGuid>17b1086e-13cc-4c53-85ad-2cb2c01b16b7</webElementGuid>
+      <webElementGuid>9ec3f80c-4970-4a39-846c-e10784394e86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[10]/td[2]/span/input</value>
-      <webElementGuid>81284f25-0557-4372-bac3-9cec73dd7e4d</webElementGuid>
+      <webElementGuid>c63e5e35-5d11-4b08-842f-da9e22cf3956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornada_form:hastaCI_input' and @name = 'jornada_form:hastaCI_input' and @type = 'text']</value>
-      <webElementGuid>a168d295-85f9-4cbe-85a2-09ede71c480d</webElementGuid>
+      <webElementGuid>17a27236-0925-47b0-9c82-2a3430fda06a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

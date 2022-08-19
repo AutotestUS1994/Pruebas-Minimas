@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/div/div[2]/span</value>
+         <value>/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[1]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>e44f2e0d-c11e-41dd-82aa-cf23839bd45e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-radiobutton-icon ui-icon ui-icon-blank ui-c</value>
+      <webElementGuid>ed89797f-ebf9-483d-899b-b0cd6432a817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1308&quot;)/tbody[1]/tr[1]/td[2]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]/span[@class=&quot;ui-radiobutton-icon ui-icon ui-icon-blank ui-c&quot;]</value>
+      <webElementGuid>57e55b30-f9eb-4219-81db-52e70ee4ce25</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td[2]/div/div[2]/span</value>
+      <webElementGuid>c38fd222-4727-48a2-bbdd-9b99855cc634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,5 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/div[2]/span</value>
+      <webElementGuid>80df354f-036b-42fa-9fc3-471105f3024b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

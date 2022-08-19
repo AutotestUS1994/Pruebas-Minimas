@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 Date today = new Date()
 
@@ -72,7 +74,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Si
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion'), 
     'pruebas k')
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'))
+
+
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'),
+	30)
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Grupos'))
 

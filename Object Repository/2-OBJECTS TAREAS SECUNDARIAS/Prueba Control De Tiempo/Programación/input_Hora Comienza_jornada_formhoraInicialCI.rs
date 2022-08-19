@@ -6,12 +6,12 @@
    <elementGuidId>0e35d12f-5364-42e6-9bcc-f874b559d202</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>
-//tr[7]/td[2]/table/tbody/tr/td[1]/input</value>
+//*[@id=&quot;jornada_form:horaInicialCI&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>153a06ce-5f6e-4eb1-908b-fff2e7379e7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:horaInicialCI</value>
+      <webElementGuid>0f1b0980-c686-4dd3-9432-c4c96ee5312f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>143d2291-0864-44eb-9ee7-79a3b0c2373a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:horaInicialCI</value>
+      <webElementGuid>97115c80-3f5b-416a-bc7e-91ec17e952bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>f397f664-9f22-490f-82e7-ec576ccad4ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
+      <webElementGuid>8b042df2-8721-4c4c-abdc-dd1bc1f6af79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>43af08fd-0a9f-4e6f-8562-78671650f2e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>mojarra.ab(this,event,'blur',0,'jornada_form:paneltotalcircular jornada_form:panelhorario')</value>
+      <webElementGuid>799b8f0d-3316-419c-ba8c-11f4fccf005b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:horaInicialCI&quot;)</value>
+      <webElementGuid>f19bfd7a-6944-4db4-a5ca-b01d6585e6ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornada_form:horaInicialCI']</value>
+      <webElementGuid>a1bbe909-3317-4cd3-835d-2020e49520f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[7]/td[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>84f4f590-bbc8-434c-861c-edf5501da611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>038939a0-7200-40bc-955e-8c321a192dee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornada_form:horaInicialCI' and @type = 'text' and @name = 'jornada_form:horaInicialCI']</value>
+      <webElementGuid>0721ae0f-9165-476d-b6e2-2f0a80eec538</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

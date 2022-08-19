@@ -1,7 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -18,18 +14,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.util.jar.JavaUtilJarAccessImpl as JavaUtilJarAccessImpl
-import org.openqa.selenium.WebElement as WebElement
-import org.apache.poi.hssf.record.PageBreakRecord.Break as Break
-import org.junit.After as After
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.testng.Assert as Assert
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import java.io.File as File
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-
+import org.openqa.selenium.WebElement as WebElement
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+import org.testng.Assert as Assert
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Empresa 1_form_templatej_idt24_input'), 
@@ -56,7 +53,14 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Excel'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Descargar'))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Fecha Terminacion_popupReportetablaParametroReporte0fecha_input'), 
+    Keys.chord(Keys.ESCAPE))
+
+WebElement element10 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Descargar'), 
+    30)
+
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element10))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Fecha Terminacion_popupReportetablaParametroReporte0fecha_input'), 
     Fecha())
@@ -76,12 +80,22 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/select_CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     '1')
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Excel_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
+WebElement element9 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Excel_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'), 
+    30)
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Excel'))
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element9))
+
+WebElement element11 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Excel'), 
+    30)
+
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element11))
 
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Fecha Terminacion_popupReportetablaParametroReporte0fecha_input'), 
     Keys.chord(Keys.ESCAPE))
+
+actualizar()
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/select_Lista Cargo Empresa_popupReportetablaParametroReporte5j_idt1304'), 
     2)
@@ -89,9 +103,24 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Fecha Terminacion_popupReportetablaParametroReporte0fecha_input'), 
     Keys.chord(Keys.ESCAPE))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Descargar_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
+WebElement element12 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Descargar_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'), 
+    30)
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Descargar'))
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element12))
+
+WebElement element13 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/div_plantilla'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element13))
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element12))
+
+WebElement checkDescargar = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/label_Descargar'), 
+    30)
+
+/*--------------------------------------------------*/
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(checkDescargar))
 
 /*------------------------clic javaScript------------------*/
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Generar'), 
@@ -242,6 +271,8 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '2')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Enviar correo_ui-radiobutton-icon ui-icon ui-icon-blank ui-c'))
+
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/span_Plantilla_ui-icon ui-icon-closethick - Copy'))
 
 /*Click JavaScript*/
 WebElement element3 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Boton_Publicar'), 
@@ -394,6 +425,13 @@ boolean archivoDescargado(String rutaA, String Archivo, String Archivo1) {
     return false
     
     WebUI.acceptAlert()
+}
+
+def actualizar() {
+    WebElement element014 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/div_plantilla'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element014))
 }
 
 def RamdomNum() {

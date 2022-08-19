@@ -6,11 +6,11 @@
    <elementGuidId>5415c590-b878-4c19-8dad-c2d3e6f7de0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>483b9f6c-01dc-46a1-823e-4385d8348f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupCopiarPerfil:j_idt2049</value>
+      <webElementGuid>a6bc7408-a672-494b-9096-5c0e62492a2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>df246bf6-d94f-4bc8-85f0-45de089753ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-aplicar</value>
+      <webElementGuid>929ce456-edef-45bf-b1bb-c105763e8b75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupCopiarPerfil:j_idt2049&quot;,f:&quot;popupCopiarPerfil&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>e5a05980-3aac-469a-bc28-9ab8d42b7fe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>9d9cb6fa-6514-4675-9dfb-ffac3342b6e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCopiarPerfil:j_idt2049&quot;)</value>
+      <webElementGuid>d1968c97-2665-469b-aa62-72148721cefd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupCopiarPerfil:j_idt2049']</value>
+      <webElementGuid>4bada3f3-5e6a-4171-9e77-8ae53c0cbc52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupCopiarPerfil:j_idt2001_content']/div[2]/table[3]/tbody/tr/td[2]/a</value>
+      <webElementGuid>283c0e76-7faf-477d-a060-f1e561761ef1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>b68c8187-c5af-47e7-9d1f-d9ea2f69c6c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::a[2]</value>
+      <webElementGuid>612ce128-1a6b-49a5-8091-281b7f1191da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='N'])[1]/following::a[3]</value>
+      <webElementGuid>2550252b-7c80-4d4d-97f0-79b4192b57d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indicador Plan'])[1]/preceding::a[3]</value>
+      <webElementGuid>2e39a6ca-864e-4f02-90bb-185b406774db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[3]/preceding::a[3]</value>
+      <webElementGuid>33b06c83-7900-48e0-8125-c410d8f8183a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>8bd182f4-a0b0-4f14-98fc-b04e55b3a7ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[78]</value>
+      <webElementGuid>92cd3796-9442-415a-8abc-1b9fc6642889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td[2]/a</value>
+      <webElementGuid>8d6b7183-2a19-4730-81e5-c6a8f32c5859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupCopiarPerfil:j_idt2049' and @href = '#' and (text() = 'Aplicar' or . = 'Aplicar')]</value>
+      <webElementGuid>b16ccca3-9162-4919-a5ad-527195f1c02b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

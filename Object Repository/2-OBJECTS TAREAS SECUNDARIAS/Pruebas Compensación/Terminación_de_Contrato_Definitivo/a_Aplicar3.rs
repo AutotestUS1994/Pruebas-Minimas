@@ -6,11 +6,11 @@
    <elementGuidId>979eb8df-13c9-4d13-b60d-cb9ee7bb4bb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div[2]/div/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>c28fc6eb-88c5-4bee-a3b5-7cb29dad228e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_actoAusentismo:j_idt1741</value>
+      <webElementGuid>37074a42-be6c-4073-8360-c73f0a7d1312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>f54fa2d6-c7f6-44ff-b33e-014e43888447</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-acepto</value>
+      <webElementGuid>b0382c4b-13bc-49e7-a42f-f297259ffd63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_actoAusentismo:j_idt1741&quot;,f:&quot;form_actoAusentismo&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>40a5d602-6530-4cb7-9275-4283925bed23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;form_actoAusentismo:j_idt1741&quot;,escape:true,header:&quot;Aplicar&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
+      <webElementGuid>b776ba12-9fd1-4dcb-b131-8a1ea9cbf0b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>c8e66e27-07b3-4fc6-b32d-0b25a9fe397e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_actoAusentismo:j_idt1741&quot;)</value>
+      <webElementGuid>5bccc05e-9e77-4ee6-adb3-82bb2af31137</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_actoAusentismo:j_idt1741']</value>
+      <webElementGuid>eb3943b0-d7c5-4f22-a304-18c52aab9a93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_actoAusentismo']/div[2]/div/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>d1275b15-a3d3-4c74-a2a4-6a3f543505a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>2e0e7c03-a278-4c97-b50a-ca59b0b6f010</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[2]</value>
+      <webElementGuid>e7ee5ce6-4b77-4968-9ec4-13f8b4cd3d16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo retiro'])[1]/following::a[2]</value>
+      <webElementGuid>6d6e4772-afd5-4d7e-8e23-36fd6f91ff1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>c584a9c7-d71b-43b6-8d07-1aa36c3014f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
+      <webElementGuid>38e0cf8d-9b6b-4077-88cc-565fd9f3d476</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>a7fd698d-f089-40c9-b7bd-e0468117558a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>ab31a6da-a45e-4322-835e-02cabf542bbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>f7b9ee64-2d87-49c6-993e-b229af832df8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,5 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_actoAusentismo:j_idt1741' and @href = '#' and (text() = 'Aplicar' or . = 'Aplicar')]</value>
+      <webElementGuid>48ae96f9-7af6-41c7-ad7f-54e2be583b88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

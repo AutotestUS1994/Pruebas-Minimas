@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Seleccione --COMPROBANTE DE VACACIONES</name>
+   <tag></tag>
+   <elementGuidId>274c0e58-cb87-4a34-8ed8-4120e20ac6d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;idPopupComprobanteVacacion:j_idt1052&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>49c705c2-2e02-4fb8-964e-afe55c6e0814</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>idPopupComprobanteVacacion:j_idt1052</value>
+      <webElementGuid>f88fc795-00fc-4088-8d5f-cf2bd9efabf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>7826d4d6-62b6-40d0-bd20-1517371b78a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>397bb052-b30e-4c6e-afa3-3439bf710221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione --
+	COMPROBANTE DE VACACIONES
+</value>
+      <webElementGuid>2ec02325-f44d-471a-9c4a-ee757f61a570</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idPopupComprobanteVacacion:j_idt1046_content&quot;)/div[@class=&quot;popupBody&quot;]/select[@class=&quot;caja_texto&quot;]</value>
+      <webElementGuid>ba581873-b515-413c-b5a8-b55a842a739e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='idPopupComprobanteVacacion:j_idt1052']</value>
+      <webElementGuid>0d9ec594-bc2b-4a02-8a00-8f65c93fb106</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='idPopupComprobanteVacacion:j_idt1046_content']/div[2]/select</value>
+      <webElementGuid>6d335eff-66fb-4f5d-8b81-3db555d83968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicar'])[1]/following::select[1]</value>
+      <webElementGuid>46787de0-17e8-471f-bdf9-001f0e971597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo y Publicar'])[1]/following::select[1]</value>
+      <webElementGuid>fe9aae06-7a34-4e89-9635-a5973bbe1fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[1]</value>
+      <webElementGuid>1102639a-a96c-4f25-95a6-cd590a5fc7cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::select[1]</value>
+      <webElementGuid>bc3273b2-f65e-478d-a3ba-d3a9bd9be839</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>546bfdc9-19eb-41c4-98da-53c97473f1dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'idPopupComprobanteVacacion:j_idt1052' and (text() = '	-- Seleccione --
+	COMPROBANTE DE VACACIONES
+' or . = '	-- Seleccione --
+	COMPROBANTE DE VACACIONES
+')]</value>
+      <webElementGuid>54eeb7bb-2a57-4ab3-84fd-bed256d14bf1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

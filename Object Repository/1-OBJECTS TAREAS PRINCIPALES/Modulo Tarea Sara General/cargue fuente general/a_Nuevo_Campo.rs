@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_FuenteGeneral'),{'form_FuenteGeneral:tab:j_idt171':'form_FuenteGeneral:tab:j_idt171'},'');return false&quot;]</value>
+         <value>//div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>d9a6efa5-d73b-4cf2-a7fe-fd81e52edb4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>3141d2f0-5879-4cd3-b826-9517b89826f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('form_FuenteGeneral'),{'form_FuenteGeneral:tab:j_idt171':'form_FuenteGeneral:tab:j_idt171'},'');return false</value>
+      <webElementGuid>85fa7557-e6ac-4fc9-aea7-e8fb0c03797f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-nuevo</value>
+      <webElementGuid>e32c68fe-4e59-4cf3-8c8c-036c841a8376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nuevo</value>
+      <webElementGuid>d54a1437-5695-4996-ba32-c118a906fec3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_FuenteGeneral:tab:j_idt157&quot;)/a[@class=&quot;us-boton btn-nuevo&quot;]</value>
+      <webElementGuid>78e984ba-600b-494e-a67d-3d4a930a2777</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_FuenteGeneral'),{'form_FuenteGeneral:tab:j_idt171':'form_FuenteGeneral:tab:j_idt171'},'');return false&quot;]</value>
+      <webElementGuid>8c8f8694-fad8-4342-9d97-dc96646ebdc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_FuenteGeneral:tab:j_idt157']/a</value>
+      <webElementGuid>f0b16393-efc3-4f04-af04-5d28f0820c59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Nuevo')])[2]</value>
+      <webElementGuid>710573bb-9475-47d8-ada6-438e11be6655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[1]</value>
+      <webElementGuid>6dad8b5b-fe26-4a03-96b9-22ce7c715ca2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Columna'])[1]/following::a[1]</value>
+      <webElementGuid>fc41e136-282a-4764-aee8-26f52edbc360</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Servicio'])[1]/preceding::a[1]</value>
+      <webElementGuid>ed0b1507-f7af-4259-b843-4c715ac55f23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[4]/preceding::a[1]</value>
+      <webElementGuid>2e0a9a4d-3f04-4c50-9ec0-312c7dcdcd91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[36]</value>
+      <webElementGuid>48f5409b-3fc4-4b1c-8599-80bdeee4ba1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
+      <webElementGuid>fa299e10-a938-439a-9d02-d6e61282692c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Nuevo' or . = 'Nuevo')]</value>
+      <webElementGuid>8f0487d1-b184-4827-b1c9-296565f4dc60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

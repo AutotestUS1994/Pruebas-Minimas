@@ -7,7 +7,9 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tbody[@id='grupoEvento:paginadorind_data']/tr/td[3]</value>
+         <value>
+//tbody[@id=&quot;grupoEvento:paginadorind_data&quot;]/tr[1]/td[3]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>8985528d-1d76-4669-b26b-902b3594d6b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>53f2022a-e666-44d5-b18d-7ffa7be4d9c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ardila Julio</value>
+      <webElementGuid>a4c2dd9a-e1fb-4cfe-812c-4753a71d11e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:paginadorind_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]</value>
+      <webElementGuid>78d59aec-be70-4f67-96cf-07334d86a0f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='grupoEvento:paginadorind_data']/tr/td[3]</value>
+      <webElementGuid>33b9e184-157f-419a-a7d7-03a938106870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[3]/following::td[3]</value>
+      <webElementGuid>412fdf3f-582d-4b79-93e1-1ccf0e4a66b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pariente'])[1]/following::td[3]</value>
+      <webElementGuid>b48470ef-a600-45fb-9cf2-ccd6042e591b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='prueba-S-SH'])[1]/preceding::td[1]</value>
+      <webElementGuid>208729a2-413d-402b-bee6-b9ba311c3a41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[2]/preceding::td[3]</value>
+      <webElementGuid>17fa96d5-ba48-47b0-9873-79f976559301</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ardila Julio']/parent::*</value>
+      <webElementGuid>cde5b2a9-623d-41bd-a81d-199b24159b26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +103,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>9cb9e7db-75b4-47f7-a17d-a44ab8400286</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

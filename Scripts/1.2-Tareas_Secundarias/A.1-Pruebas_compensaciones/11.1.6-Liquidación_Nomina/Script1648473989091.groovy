@@ -44,15 +44,17 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/L
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina0/td_Aya Silva Cindy Ximena'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Liquidación_Nomina0/a_ adicionales'))
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
-String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Result == 'Se guardo el mensaje') {
     String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td/div/div[2]/span</value>
+         <value>
+/html/body/div[1]/div[3]/div/div/form[6]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[2]/td/div/div[2]/table[1]/tbody/tr/td[1]/div/div[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b8d860bd-d5c7-483d-a092-dc0c5d11e982</webElementGuid>
+      <webElementGuid>2eaa4465-afbd-4240-8c7c-0d8e4cef9c43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-radiobutton-icon ui-icon ui-icon-blank ui-c</value>
-      <webElementGuid>c2319774-44b6-44bb-adb1-19acc04f5a22</webElementGuid>
+      <webElementGuid>eb1c39de-d7a8-4dff-8adf-9ef601917076</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1308&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]/span[@class=&quot;ui-radiobutton-icon ui-icon ui-icon-blank ui-c&quot;]</value>
-      <webElementGuid>8177a7ed-b813-4d41-b18a-8fbf4dff8c37</webElementGuid>
+      <webElementGuid>024054a4-5bd9-4522-ac29-c8ce3b40d0cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td/div/div[2]/span</value>
-      <webElementGuid>c48d8b52-7dad-42fa-8046-f9b7649a7301</webElementGuid>
+      <webElementGuid>e36d948f-2114-4151-b557-433a97cf0924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/div/div[2]/span</value>
-      <webElementGuid>9f34f2a9-af0d-4209-a97e-09203be3fbe0</webElementGuid>
+      <webElementGuid>dabc0d78-df37-43c4-8448-32583b1ed5b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

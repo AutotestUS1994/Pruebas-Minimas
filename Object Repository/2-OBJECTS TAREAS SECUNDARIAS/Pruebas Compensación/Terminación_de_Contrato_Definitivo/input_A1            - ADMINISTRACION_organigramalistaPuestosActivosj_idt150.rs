@@ -6,11 +6,11 @@
    <elementGuidId>641869f9-db34-4ebd-aed9-a10db0e8b152</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div/div[2]/div[5]/div[2]/div[1]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='organigrama:listaPuestosActivos:j_idt150']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ade00e20-bd7b-4151-9703-6c59e4fdaa4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>organigrama:listaPuestosActivos:j_idt150</value>
+      <webElementGuid>4a487a2d-bf5d-431a-8541-c23be45d63ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>organigrama:listaPuestosActivos:j_idt150</value>
+      <webElementGuid>cd76d4f7-86c2-48ad-8f24-4be0f572a422</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>1c43263e-024a-4417-ae51-2026d31abcb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all valor_campo_estandar ui-state-focus</value>
+      <webElementGuid>56f759ec-aaa1-415b-ab18-909f1243e0cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Buscar</value>
+      <webElementGuid>c4c71015-b630-4978-8995-568841fe3e8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;organigrama:listaPuestosActivos:j_idt150&quot;,e:&quot;valueChange&quot;,f:&quot;organigrama&quot;,p:&quot;organigrama:listaPuestosActivos:j_idt150&quot;,u:&quot;organigrama:listaPuestosActivos&quot;});</value>
+      <webElementGuid>1455339c-a995-4b3d-9f92-0ca1923f33cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>d2b118ae-6f2b-4e17-ad0e-7d9588327fc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>180b63e8-7565-4713-86c2-bbddcacb727a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>2d3746e2-201b-4b26-876f-117546de7ade</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:listaPuestosActivos:j_idt150&quot;)</value>
+      <webElementGuid>b189d413-ac8b-42c5-bfaf-cda0fe8c062f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='organigrama:listaPuestosActivos:j_idt150']</value>
+      <webElementGuid>9de0a355-01c6-41b6-bd30-4114c29ec51c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='organigrama:listaPuestosActivos']/div/input</value>
+      <webElementGuid>362313dc-053b-4b01-bd67-0948191c1a40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/input</value>
+      <webElementGuid>87c06f36-3b57-447f-bd6f-acd7cb4fd00e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'organigrama:listaPuestosActivos:j_idt150' and @name = 'organigrama:listaPuestosActivos:j_idt150' and @type = 'text' and @placeholder = 'Buscar']</value>
+      <webElementGuid>14ff47cf-6865-4359-a9a0-514e2851aa25</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

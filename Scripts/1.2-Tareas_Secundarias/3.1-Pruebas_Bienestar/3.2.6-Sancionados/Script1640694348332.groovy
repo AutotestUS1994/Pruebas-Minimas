@@ -36,13 +36,27 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
         'PRUEBAS K')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
-} else {
+} else if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_2'), 1)) {
+	if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_Diaz Blanco Guisell'),
+		1)) {
+		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Sancionados'))
+	
+		WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/select_-- Seleccione --1010220596 - A A A1057596487 - Diaz Blanco Guisell'),
+			2)
+	
+		WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/textarea_Observacin_form_sancionadoslistaSancionadosobservacion'),
+			'PRUEBAS K')
+	
+		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
+	}
+}
+else {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Nuevo'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Nombre_grupoEventoj_idt427'))
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
-        'guisell')
+        'constantino')
 
     WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/input_Filtro Empleado_form_popupFiltroEmpleadofiltroEmpleado'), 
         Keys.chord(Keys.ENTER))
@@ -72,13 +86,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/San
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/a_Observacin_form_sancionadoslistaSancionadosj_idt643'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_PRUEBAS K'), 1))
-{
-	String Resultado = 'Prueba ok'
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Sancionados/td_PRUEBAS K'), 
+    1)) {
+    String Resultado = 'Prueba ok'
+} else {
+    WebUI.acceptAlert()
 }
-else{
-	WebUI.acceptAlert()
-	}
 
 WebUI.closeBrowser()
 

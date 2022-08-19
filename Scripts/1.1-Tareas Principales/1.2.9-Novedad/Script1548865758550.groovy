@@ -37,6 +37,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Novedades'), 
     GlobalVariable.G_TimeOut)
 
+WebUI.scrollToElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Novedades'), 
+    0)
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Novedades'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/span_Nuevo'), 
@@ -100,9 +103,10 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Novedades/a_Guardar'))
 
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Alerta == 'Registro guardado') {
-WebUI.closeBrowser()
+
+if (Alerta == 'Registro guardado') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+

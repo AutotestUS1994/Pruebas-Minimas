@@ -6,11 +6,12 @@
    <elementGuidId>cbf2e73b-ea9a-4570-ab4a-f99640fdbb5c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[8]/td[2]/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[7]/td[2]/input
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>233cb110-b50c-4b03-bbe1-4098b5228ded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoEventos:pIPosicion</value>
+      <webElementGuid>e6aa7d87-2c3d-45f1-8bdf-0f0e35daef50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>cec99d90-2d65-4802-8a15-1f85891e8410</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formListadoEventos:pIPosicion</value>
+      <webElementGuid>3b953963-170f-41a0-bfb2-5afa54bd50e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>5596cbbb-8749-4ef8-9072-0ae065d0b376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>755eca72-991c-4211-af23-9f8e28dd1444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>b1eb9d15-d741-4f8a-afe0-7328e9c912d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEventos:pIPosicion&quot;)</value>
+      <webElementGuid>bfb307db-4603-400c-bb9e-e83a35b33a5f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formListadoEventos:pIPosicion']</value>
+      <webElementGuid>19346c72-56ce-44ef-b630-709778cb6297</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formListadoEventos:j_idt150_content']/div[2]/table/tbody/tr[8]/td[2]/input</value>
+      <webElementGuid>de4bdfcc-39df-4037-a0a1-03caa42215e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/input</value>
+      <webElementGuid>c4e9ea7d-2177-43f5-8a7e-c9d21932cb04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

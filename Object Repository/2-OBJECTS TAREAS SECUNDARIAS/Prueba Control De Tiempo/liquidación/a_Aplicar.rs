@@ -6,11 +6,11 @@
    <elementGuidId>3c45ed45-e36a-4c06-a17d-33a00f3db183</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>585313cb-6122-424a-b536-fc966aa71d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupFechaLiquidacionBean:j_idt126</value>
+      <webElementGuid>337742c3-32e1-4eef-b3d0-079f8d44748f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>3c9ee47b-66a4-4a38-b73f-1ed168224204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-acepto</value>
+      <webElementGuid>8bd0dc60-2e9c-4015-9dd0-14890beba933</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupFechaLiquidacionBean:j_idt126&quot;,f:&quot;form_popupFechaLiquidacionBean&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>3b6f348a-5ee4-43b8-bd20-07369092ef15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>7ca4957f-d1b8-4b59-bcfb-b2b9aa5ed843</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupFechaLiquidacionBean:j_idt126&quot;)</value>
+      <webElementGuid>41559ecc-4c51-4833-a697-6433b77c2fbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupFechaLiquidacionBean:j_idt126']</value>
+      <webElementGuid>5b368d8f-b907-4210-ab4a-5ee8d79191aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupFechaLiquidacionBean:j_idt114_content']/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>9fe32c3f-3582-45e5-a87b-ba753976a4d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>16d6956e-badf-4651-959f-b425aab45a55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso Liquidación'])[1]/following::a[1]</value>
+      <webElementGuid>fa7a2077-1c64-441d-9435-b17112a837fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[2]/following::a[1]</value>
+      <webElementGuid>4a20cc24-73ee-41bf-90db-9fa0c2aed3c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inconsistencias'])[1]/preceding::a[3]</value>
+      <webElementGuid>108b0408-f8eb-466b-8cf3-c9370c2854a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[3]</value>
+      <webElementGuid>1991e5ce-bc4a-498f-8f3d-7329ef1cf664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>19bb91f8-0979-4ebf-a013-748d23b45b28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[28]</value>
+      <webElementGuid>3916172b-1462-4d40-b5e0-203c09078688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>bf5d131e-933f-4394-b6f3-08c121cef57c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_popupFechaLiquidacionBean:j_idt126' and @href = '#' and (text() = 'Aplicar' or . = 'Aplicar')]</value>
+      <webElementGuid>de97ad12-d401-4407-876c-0f6c122deccc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

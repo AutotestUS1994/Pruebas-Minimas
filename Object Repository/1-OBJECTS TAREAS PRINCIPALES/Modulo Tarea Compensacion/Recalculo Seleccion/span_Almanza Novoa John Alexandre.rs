@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/div/div/table/tbody/tr/td[3]/span</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/span
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>c9051e07-7f5a-474e-bd58-50bf99a10db7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>d9b44491-cf5f-402d-a9af-ec4e5206af20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Almanza Novoa John Alexandre</value>
+      <webElementGuid>6f8b4933-04d4-46d8-89ed-974d77cea1ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiquidacionNomina:tabla_empleados_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[3]/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>143a2795-8aef-44d1-a65f-ba3664963055</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='LiquidacionNomina:tabla_empleados_data']/tr/td[3]/span</value>
+      <webElementGuid>38c162b1-ab95-4697-8dab-ec655ca5f24b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación'])[1]/following::span[4]</value>
+      <webElementGuid>eb12f85f-5391-40ca-ab5d-354c17fc4b6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Ingreso'])[1]/following::span[5]</value>
+      <webElementGuid>8695229d-e4f9-4ada-939b-78b817fba8a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/preceding::span[1]</value>
+      <webElementGuid>a0a30fc7-7e2f-4a92-bff3-ea3f8ed74258</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Indefinido'])[1]/preceding::span[2]</value>
+      <webElementGuid>9b49db9e-a426-4a5c-9d45-61767e9462b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Almanza Novoa John Alexandre']/parent::*</value>
+      <webElementGuid>fc080a54-870b-4673-b150-45ec50ed77d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/table/tbody/tr/td[3]/span</value>
+      <webElementGuid>4360c131-1d74-42dd-818b-f93ef65ed0c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

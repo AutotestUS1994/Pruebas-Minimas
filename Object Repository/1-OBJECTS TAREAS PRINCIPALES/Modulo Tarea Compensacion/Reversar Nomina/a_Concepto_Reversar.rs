@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[2]</value>
+         <value>//a[contains(text(),'Concepto')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>580b5b63-8692-48c1-9d54-c97eb2668315</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#calculoNomina:tab:j_idt277</value>
+      <webElementGuid>b288a759-9e7a-47b7-adf7-6a9f938ba341</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>7ab0c134-1224-49a7-a6d8-ebabf540269f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Concepto</value>
+      <webElementGuid>46dd47e7-0a4c-4fde-ab0f-15088ade187e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;calculoNomina:tab&quot;)/ul[@class=&quot;ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all&quot;]/li[@class=&quot;ui-tabs-header ui-state-default ui-corner-top&quot;]/a[1]</value>
+      <webElementGuid>8fa0a62d-f2b7-4dc0-b17d-363c76ed28c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='calculoNomina:tab']/ul/li[2]/a</value>
+      <webElementGuid>b5951b07-4263-4528-a5c3-f832e6a70be8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Concepto')]</value>
+      <webElementGuid>700aa80e-6fa7-4ff9-b6cf-fc44cab9388f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adicionales'])[1]/following::a[1]</value>
+      <webElementGuid>a1cc091a-f04b-420a-b3e9-41dfb8dcf51d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[2]</value>
+      <webElementGuid>fd9f7f57-427b-408a-8cf2-4808f9a72bfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Variable'])[1]/preceding::a[1]</value>
+      <webElementGuid>bbf35c25-891a-4307-adaf-a7e7a1844e5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Novedad Fecha'])[1]/preceding::a[2]</value>
+      <webElementGuid>ff0e6bb0-f1db-4233-af10-cd824fc6b86b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Concepto']/parent::*</value>
+      <webElementGuid>f44a2a6f-83cc-4f72-8d6b-4010a679849d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#calculoNomina:tab:j_idt277')]</value>
+      <webElementGuid>ec6a6fcf-a8b7-4fbe-890f-d9cfb6011286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,5 +125,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[2]/a</value>
+      <webElementGuid>523ca219-62e8-48da-82f0-8f5ea070ac84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

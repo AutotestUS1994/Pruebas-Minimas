@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/a</value>
+         <value>//a[contains(text(),'Ir')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>9d6d59e8-dfeb-44c4-a79d-2f0ec9a0bb39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>581871c5-c201-4e09-a57a-dba9c3f46a0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('form_inicio'),{'form_inicio:j_idt58:0:j_idt62':'form_inicio:j_idt58:0:j_idt62'},'');return false</value>
+      <webElementGuid>d9c51412-ec10-4b23-ad38-682d8ccb32ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-link-modcard us-background-linkcard</value>
+      <webElementGuid>b81c3573-1fb7-4933-a710-192ac0f868d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,6 +55,7 @@
       <type>Main</type>
       <value>Ir
 									</value>
+      <webElementGuid>f949da71-fb5d-426b-a10a-3c550f9319bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,6 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_inicio&quot;)/div[@class=&quot;us-modcard&quot;]/div[@class=&quot;col-xl-12 col-sm-6 col-md-4 col-lg-3&quot;]/div[@class=&quot;us-contenedor-modcard transition&quot;]/div[@class=&quot;us-link-cont-modcard transition&quot;]/a[@class=&quot;us-link-modcard us-background-linkcard&quot;]</value>
+      <webElementGuid>5bc8de7c-3e7a-43bc-9100-fdbe68a4d415</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,6 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_inicio'),{'form_inicio:j_idt58:0:j_idt62':'form_inicio:j_idt58:0:j_idt62'},'');return false&quot;]</value>
+      <webElementGuid>570023f4-fee4-4fc0-96e2-095095f6c1b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,6 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_inicio']/div/div/div/div/a</value>
+      <webElementGuid>6529230c-5e7c-4db9-997c-5b037fe72906</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ir')]</value>
+      <webElementGuid>1fcec757-8687-47e2-a7a8-5f418732e41a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[1]</value>
+      <webElementGuid>e3f0b79e-0ac7-41b1-9576-8e94fefae7c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ADMINISTRADOR'])[1]/following::a[4]</value>
+      <webElementGuid>19891383-e91b-4e6e-99a7-cb25a37e0e40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administración Compensación'])[1]/preceding::a[1]</value>
+      <webElementGuid>a5e5255b-8205-4fe1-b6c1-d3246b164837</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bienestar'])[1]/preceding::a[2]</value>
+      <webElementGuid>8695a246-df11-4fbc-8ef1-4cfef5a07385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ir']/parent::*</value>
+      <webElementGuid>929b5924-2b63-41b5-a293-59f726ebb7e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>d888158e-311f-41b9-acd4-ceacf18c4c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,5 +143,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
+      <webElementGuid>84efec74-7050-4594-ade4-c08cc38ee929</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

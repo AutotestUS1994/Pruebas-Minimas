@@ -75,7 +75,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Filtrar'))
 
 WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/span_Listado Hojas de Vida (hoj)'), 
-    0)
+    1)
 
 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Acevedo Rubio Luis Felipe'), 
     1)) {

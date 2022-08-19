@@ -44,7 +44,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/a_1'), 0)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/input_A1            - Administracion_organigramalistaPuestosActivosj_idt150'), 
-    'Mendoza Cabra')
+    'Mendoza 960')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/input_A1            - Administracion_organigramalistaPuestosActivosj_idt150'), 
     Keys.chord(Keys.ENTER))
@@ -54,13 +54,14 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/div_Mendoza Cabra Empleado Asistente'), 
     1)
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/div_Mendoza Cabra Empleado Asistente'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Buscar_Empleado/div_Mendoza Cabra Empleado Asistente'), 
     1)) {
-String Resultado = 'PRUEBA OK'
-WebUI.closeBrowser()
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+
 WebUI.closeBrowser()
 

@@ -41,15 +41,26 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ins
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Valor Persona A Pagar_formListadoEventospIValor'), 
     '100')
 
+
+
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
     '5')
+
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/select_pariente'), 
+    1)) {
+
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/select_pariente'), 
+    1)
+}
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 1)
 
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
     30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
-if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 1)) {
+
+if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 2)) {
     String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
     if (Result == 'Se ha registrado en el evento.') {
@@ -96,12 +107,12 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
 
         WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/input_Posicin_formListadoEventospIPosicion'), 
             '5')
-
+		
         WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Guardar'), 
             30)
 
         WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
-
+		
         String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
         if (Result0 == 'Se ha registrado en el evento.') {
@@ -110,8 +121,12 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
             WebUI.acceptAlert()
         }
     }
+    /*--------------------------------------------------*/
 } else {
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Aceptar'))
+    WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Aceptar'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element2))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/span_Cerrar Individual'))
 
@@ -169,5 +184,13 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
     } else {
         WebUI.acceptAlert()
     }
+}
+
+def zoom() {
+    WebUI.executeJavaScript('document.body.style.zoom=\'80%\'', null)
+}
+
+def zoom1() {
+    WebUI.executeJavaScript('document.body.style.zoom=\'100%\'', null)
 }
 

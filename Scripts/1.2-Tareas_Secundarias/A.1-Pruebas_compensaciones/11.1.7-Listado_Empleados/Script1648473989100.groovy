@@ -107,8 +107,9 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/select_-- seleccione --BC - PRESTAMO BANCOLOMBIAPC - PRESTAMO COMPAA'), 
         2)
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/span_Prestamo Compaa'))
+ 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Listado_Empleados/a_Pagos o Descuentos Extra'), 
         1)) {
         String Result = 'PRUEBA OK'

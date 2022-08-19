@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='popupReporte:j_idt1318']/tbody/tr/td/label</value>
+         <value>/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[2]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>854f996c-7d5e-4174-9b4f-72b91f8ae93d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupReporte:j_idt1318:0</value>
+      <webElementGuid>4e5087cd-8eff-4867-9af6-76d6e1eb5af6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Descargar</value>
+      <webElementGuid>f67c41d7-a5c6-48d6-90ff-507f4e30bc95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1318&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>54817655-c155-4962-8bc6-e075dcfa6e27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1318']/tbody/tr/td/label</value>
+      <webElementGuid>d18df283-8e82-4846-80f2-b6e42a53fdde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Que desea hacer'])[1]/following::label[1]</value>
+      <webElementGuid>8a71af25-ad3b-4856-abcb-a7e52cd910fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plantilla'])[1]/following::label[1]</value>
+      <webElementGuid>da13964d-0f29-426a-8410-e3f65b9ba025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/preceding::label[1]</value>
+      <webElementGuid>c5e80fb9-eda6-49a8-9234-dcecaf3f2c69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::label[2]</value>
+      <webElementGuid>0acf174a-9b87-42cb-b74a-f15b9b22c80a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Descargar']/parent::*</value>
+      <webElementGuid>21f1d57b-d46f-4447-ba89-b8f35cacd2cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div[2]/table/tbody/tr/td/label</value>
+      <webElementGuid>f7f890ab-a616-4edd-88eb-6ba1ee9157cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Descargar' or . = 'Descargar')]</value>
+      <webElementGuid>c544c64d-69f2-44e0-a452-57aa47592b37</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

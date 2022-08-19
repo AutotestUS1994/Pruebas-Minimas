@@ -6,11 +6,12 @@
    <elementGuidId>588a6ce5-6cae-4449-863a-9a68a0ede180</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[3]/td[2]/span
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td[2]/span</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>059bc96a-38a5-45ae-b5d6-f7f660802d2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>2f9dc2fd-97cd-49c5-844e-5c5b01d469dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>P. MensualJulio2021</value>
+      <webElementGuid>712afb97-778e-4185-bb57-f2e786e3ca33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupPeriodo:tabla_ventanaPeriodo_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>89d7c1f3-c57e-4421-b37a-9734ba3a0e26</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formPopupPeriodo:tabla_ventanaPeriodo_data']/tr[2]/td[2]/span</value>
+      <webElementGuid>7a61f0c5-2a11-435e-8e5f-1b4cf2fa9243</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PM202107'])[1]/following::span[1]</value>
+      <webElementGuid>92bc104f-725c-4be4-9943-035e968cce33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[1]/following::span[2]</value>
+      <webElementGuid>de621045-cfac-4e1b-b023-9426eea4b386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[2]/preceding::span[1]</value>
+      <webElementGuid>c9ecf51f-bdbf-4203-8b34-6f160f3bf2df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PM202106'])[1]/preceding::span[2]</value>
+      <webElementGuid>de9a98aa-8f6c-4023-bb1c-22bfc0e0d35d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='P. MensualJulio2021']/parent::*</value>
+      <webElementGuid>1a213d13-0ee6-444c-9168-918fa0752a8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/span</value>
+      <webElementGuid>ffd06cba-717b-42e9-94e7-f8771c6b8455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'P. MensualJulio2021' or . = 'P. MensualJulio2021')]</value>
+      <webElementGuid>b4f9bb3a-def9-4a4f-8199-31a3c58fa9e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

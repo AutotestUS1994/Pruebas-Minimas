@@ -6,11 +6,12 @@
    <elementGuidId>d69c71a9-b034-4a8b-932d-c9abee6c94d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//div/div[2]/table/tbody/tr/td/a/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/div/table/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>25da2156-2849-4d14-997c-2ca9996ca3b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_ActosAdministrativos:tabla_principal_1:0:j_idt79</value>
+      <webElementGuid>eb8fdd09-7080-4248-ad18-2f9508ab002c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>09fc0e54-21e6-4ac9-bf20-01ab5f308d10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget glyphicons glyphicons-disk-save x2 us-gris</value>
+      <webElementGuid>3eb0661c-ad10-4953-a2c0-fdfd223d74c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_ActosAdministrativos:tabla_principal_1:0:j_idt79&quot;,f:&quot;form_ActosAdministrativos&quot;,u:&quot;form_ActosAdministrativos&quot;,pa:[{name:&quot;estados&quot;,value:&quot;Elaborar&quot;}]});return false;</value>
+      <webElementGuid>b1513e73-7f0d-4ad5-a156-f954568d4afd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:tabla_principal_1:0:j_idt79&quot;)</value>
+      <webElementGuid>b3597b94-6497-4fd1-85d6-eaa9c6e0d380</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:tabla_principal_1:0:j_idt79']</value>
+      <webElementGuid>5163b177-11e5-4a7d-8ea9-1fbb6e9d90a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_ActosAdministrativos:tabla_principal_1_data']/tr/td/a</value>
+      <webElementGuid>819b38ab-bdca-4506-a656-b8c9645d98c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
+      <webElementGuid>1cc8994a-c821-4241-9a4f-67d60ef28a35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td/a</value>
+      <webElementGuid>72015a1b-2ed9-473b-8cfc-06486b01a277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_ActosAdministrativos:tabla_principal_1:0:j_idt79' and @href = '#']</value>
+      <webElementGuid>090636f0-d420-4a88-8574-480823db89e7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

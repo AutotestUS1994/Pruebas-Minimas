@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='form_popupfuentecampo:descripcion']</value>
+         <value>//input[@id=&quot;form_popupfuentecampo:descripcion&quot;]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>f3be4f14-3744-4eb4-8980-8b2ed40a7ccb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupfuentecampo:descripcion</value>
+      <webElementGuid>c75a6ab4-9c7e-45cc-a843-c831445f3293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>8a1b20d6-d43e-437e-92de-dd67a53f909e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupfuentecampo:descripcion</value>
+      <webElementGuid>25f90ba1-ee97-4114-84cb-e53431308099</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>bdcce564-e465-4760-9366-7f935b6f303f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
+      <webElementGuid>f5d6ab3c-4eba-48d5-b24c-7857f8479a52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupfuentecampo:descripcion&quot;)</value>
+      <webElementGuid>9fd9ff40-b7ae-448f-81d4-c4c129dc08a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popupfuentecampo:descripcion']</value>
+      <webElementGuid>10b32f84-e2a7-4d29-845c-f72f4b584acb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupfuentecampo:j_idt318_content']/div[2]/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>a96cc65e-a096-4467-b63a-66f6def7d3ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>484b571d-17d6-4c55-8178-57c18dd4ed73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_popupfuentecampo:descripcion' and @type = 'text' and @name = 'form_popupfuentecampo:descripcion']</value>
+      <webElementGuid>e47c37f8-7534-43c0-8965-2ac2564311b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

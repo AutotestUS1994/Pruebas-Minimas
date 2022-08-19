@@ -6,12 +6,12 @@
    <elementGuidId>daca5c0f-a1a1-4ae7-9dc0-974bf4fed04a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.us-boton.btn-filtrar</value>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <key>CSS</key>
+         <value>a.us-boton.btn-filtrar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>a1d6ca21-2ce9-42c6-857f-7990111d04c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>66e858b3-5d4c-41f8-84fb-9fd34b85ece8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('form_sucesoadicion'),{'form_sucesoadicion:j_idt238':'form_sucesoadicion:j_idt238'},'');return false</value>
+      <webElementGuid>69d80d3b-3497-474c-a35e-64d01971aa75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-filtrar</value>
+      <webElementGuid>5773b466-ea4f-4bb6-a3d0-3c987298a318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>ef5e4997-09c7-4d21-971a-759f4dece07a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_sucesoadicion&quot;)/div[@class=&quot;caja_contenido&quot;]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-filtrar&quot;]</value>
+      <webElementGuid>cb799ca6-45f1-486c-ba15-be2972c5e2c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_sucesoadicion'),{'form_sucesoadicion:j_idt238':'form_sucesoadicion:j_idt238'},'');return false&quot;]</value>
+      <webElementGuid>b39f573d-efc2-4148-bf34-82bf6e9ba13e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_sucesoadicion']/div/div/table/tbody/tr/td/a</value>
+      <webElementGuid>3662107b-57e5-403a-b014-73fb0109d5df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>6daac877-477e-4001-a11e-9720d337b37a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[1]/following::a[1]</value>
+      <webElementGuid>3e42d7c4-0ed5-46cd-b0a7-2d8ec933ff48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dcon_adicionado'])[1]/following::a[1]</value>
+      <webElementGuid>0df850c8-486b-4163-8b51-5d062466cd28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[3]</value>
+      <webElementGuid>fa607b12-0238-4d1c-9322-24eb18669615</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[3]</value>
+      <webElementGuid>5aabe2ac-e12c-4948-92c4-5209972708af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>d7e7f9b2-d4df-4490-a65f-1764f1af9e05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>ca44bdd3-1671-4dbc-ba40-91131302bc2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +142,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/table/tbody/tr/td/a</value>
+      <webElementGuid>dcfcb74d-fddf-42f6-9a7e-a78137af6ff6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

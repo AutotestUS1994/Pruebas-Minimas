@@ -24,38 +24,39 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Cre
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/span_Empresa'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'), 
-    0)
-
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'), 
+    1))
+{
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Eliminar'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_link_aceptar'))
-
+}
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Nuevo'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_Cdigo_empresa_formcodigoEmpresa'), 
     '5')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_Nombre_empresa_formnombreEmpresa'), 
-    'Pruebas katalon')
+    'Pruebas katalon2')
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --generalMexico'), 
     1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Aspirantes CALIDADSitio Calidad'), 
-    1)
+    2)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Grupo a'), 
     1)
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'))
+WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if (Result  == 'Se adiciono el registro correctamente'){
-	String Resultado = 'PRUEBA  OK'
+
+if (Result == 'Se adiciono el registro correctamente') {
+    String Resultado = 'PRUEBA  OK'
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+

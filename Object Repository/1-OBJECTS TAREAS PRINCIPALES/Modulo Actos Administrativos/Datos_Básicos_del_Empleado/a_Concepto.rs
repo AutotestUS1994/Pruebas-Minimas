@@ -6,12 +6,16 @@
    <elementGuidId>95a7293d-cbdc-408a-8a06-2062665403c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Concepto')]</value>
+         <key>BASIC</key>
+         <value>//*[@href = '#form_datobasicosempleado:tabDatosBasicos:tabConceptoEmpleado' and (text() = 'Concepto' or . = 'Concepto')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>li.ui-tabs-header.ui-state-default.ui-corner-top.ui-state-hover > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Concepto')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>88012cae-3f82-48ce-8914-fe0f93079727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#form_datobasicosempleado:tabDatosBasicos:tabConceptoEmpleado</value>
+      <webElementGuid>08fe5d96-b2c6-482d-8747-e1b48d633185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>b492c8e3-e636-4358-b0b2-6c21fcbd1444</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Concepto</value>
+      <webElementGuid>10bbcaa7-5366-40c0-8590-7d84e4f53f53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_datobasicosempleado:tabDatosBasicos&quot;)/ul[@class=&quot;ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all&quot;]/li[@class=&quot;ui-tabs-header ui-state-default ui-corner-top ui-state-hover&quot;]/a[1]</value>
+      <webElementGuid>0cc06587-f6f1-4063-9386-04507a11c9fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_datobasicosempleado:tabDatosBasicos']/ul/li[4]/a</value>
+      <webElementGuid>eb11a3c8-32ef-4e44-b953-946f3e6959aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Concepto')]</value>
+      <webElementGuid>4372c236-1f3e-4a56-ac6b-93083b5f98dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Novedad Fecha'])[1]/following::a[1]</value>
+      <webElementGuid>6980efbb-7743-4951-8bbf-56120abe4a40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Variable'])[1]/following::a[2]</value>
+      <webElementGuid>ec73e220-c6ff-441b-89b1-0841cb49d570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entidad Externa'])[2]/preceding::a[1]</value>
+      <webElementGuid>fefc1217-bc78-401d-bfd4-b19a54942d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo'])[1]/preceding::a[2]</value>
+      <webElementGuid>e07f4aea-c8a7-47fd-9b92-07a14e968911</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Concepto']/parent::*</value>
+      <webElementGuid>7b76f3d8-79d4-496c-8e91-29f2a3f3310b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#form_datobasicosempleado:tabDatosBasicos:tabConceptoEmpleado')]</value>
+      <webElementGuid>9d661ca9-cc69-4302-9bb5-eeaa2f74d396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[4]/a</value>
+      <webElementGuid>7495679d-d981-424a-bd6a-6c58f0f2224b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

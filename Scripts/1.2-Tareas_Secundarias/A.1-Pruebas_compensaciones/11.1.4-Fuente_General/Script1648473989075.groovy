@@ -32,7 +32,9 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Ge
     Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/td_Creacin Prestamos'))
+
 String ra = ''
+
 String ruta = Systema() + 'carguePrestamo.txt'
 
 WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/input_Cargar_formImportarFuentetabarchivo_input'), 
@@ -47,7 +49,13 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Ejecutar'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Continuar'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Continuar - Copy'), 
+    3)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Continuar - Copy'))
+}
+
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/mensaje'), 
+    0)
 
 String Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/mensaje'))
 
@@ -124,15 +132,15 @@ if (Result == '') {
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Liquidacin Periodica'))
 
-        while(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/span_Prestamo Compaa'), 
+        while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/span_Prestamo Compaa'), 
             1)) {
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/span_Prestamo Compaa'))
 
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/span_Prestamo Compaa'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_ReversarEliminar'))
 
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_ReversarEliminar'))
-
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Aceptar'))
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/a_Aceptar'))
         }
+        
         WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Fuente_General/input_Empresa 1_form_templatej_idt24_input'), 
             'importar fuente general')
 
@@ -173,23 +181,30 @@ if (Result == '') {
         }
     }
 }
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	println(RutaA)
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {ra = 'ERROR'
-		WebUI.acceptAlert()
-	}
+
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    println(RutaA)
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        ra = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
 }
+

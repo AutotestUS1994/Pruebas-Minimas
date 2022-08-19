@@ -6,11 +6,12 @@
    <elementGuidId>25cd7f1e-bb16-4237-b3c7-c0044e4c0758</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/form/table[2]/tbody/tr/td[2]/table/tbody/tr/td/div/div/div/table[3]/tbody/tr[3]/td[2]/textarea</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>9e44999d-7137-42f7-8499-3d91820f6dee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:motivo</value>
+      <webElementGuid>36465d18-f063-4d0d-940a-eb15418593dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:motivo</value>
+      <webElementGuid>9b77a49e-7ef7-494f-a33d-d4e4a7ee4a35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all caja_texto ui-inputtextarea-resizable ui-state-focus</value>
+      <webElementGuid>157b71c6-f132-4bb8-92b2-6c91ddf04892</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>3ff12902-c1cd-4a5d-9c31-43c945b4b760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
+      <webElementGuid>ee44d287-2852-447a-91b4-fe807be31798</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2147483647</value>
+      <webElementGuid>f53bb34d-74b4-43fd-8256-6d587b075738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return texto(event,this.value,200);</value>
+      <webElementGuid>892ce146-4497-43b1-8d6e-eabe02b26e63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>10f79902-08ae-4c61-a971-04fc668c8b5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>bd4aafb3-ee2a-42ed-9a7c-888264feac62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>462802db-8706-47b6-b358-16ede1cbc88e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>aria-multiline</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>ef20f722-78a7-4731-8463-be332318af80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,6 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_contratacion:panelTab:motivo&quot;)</value>
+      <webElementGuid>b7341f5a-c8ce-47b9-a138-99fe5677f61b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -112,6 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='form_contratacion:panelTab:motivo']</value>
+      <webElementGuid>cb5d96a5-7a14-4269-ab53-0fa112a12a44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_contratacion:panelTab:anulacion']/tbody/tr[3]/td[2]/textarea</value>
+      <webElementGuid>22c020cb-a725-4038-9fb0-4de0a97ae3c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +142,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
+      <webElementGuid>b5e1a275-c3dd-45ad-8431-87b60f6e6b87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

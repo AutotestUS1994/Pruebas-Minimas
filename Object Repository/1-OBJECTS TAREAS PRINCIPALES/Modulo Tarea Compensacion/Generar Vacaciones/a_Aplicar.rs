@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>6b41d491-f49c-434a-9568-574584f7a3fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>50eda82c-d54c-4926-8143-ad256401a5eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('generacionVacaciones'),{'generacionVacaciones:j_idt278':'generacionVacaciones:j_idt278'},'');return false</value>
+      <webElementGuid>3a25caa5-1494-4a2a-b16f-3273143a52b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-actualizar</value>
+      <webElementGuid>0233ac31-7080-4178-8612-698379998a2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>440f1037-2093-40bc-b3a4-9b523099e404</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;generacionVacaciones:generacionVac&quot;)/tbody[1]/tr[1]/td[1]/table[4]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton btn-actualizar&quot;]</value>
+      <webElementGuid>f82ed468-0f63-4dd4-80d3-286aa472c49c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('generacionVacaciones'),{'generacionVacaciones:j_idt278':'generacionVacaciones:j_idt278'},'');return false&quot;]</value>
+      <webElementGuid>f55d13e8-2e47-4033-9c11-23aaddf60544</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='generacionVacaciones:generacionVac']/tbody/tr/td/table[4]/tbody/tr/td/a</value>
+      <webElementGuid>63d05772-99a4-4da8-8ae7-343610edca5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>2428b9b8-217d-4231-8647-f64d1208a5ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::a[1]</value>
+      <webElementGuid>31236465-6300-4352-9498-6c7342444a50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='de'])[1]/following::a[1]</value>
+      <webElementGuid>243b727d-4540-4842-862a-2323cd5f9f9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Nomina'])[2]/preceding::a[2]</value>
+      <webElementGuid>b1cd0fb7-e2d2-466e-9480-5229472e5755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro'])[1]/preceding::a[2]</value>
+      <webElementGuid>eb70251b-a4bf-4d69-9588-171754c55a02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
+      <webElementGuid>bbe51a7d-1976-4edd-bf93-d4bcdbcf76b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[35]</value>
+      <webElementGuid>ffabe8da-84c1-4c3a-9d2a-446dd4649973</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +142,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[4]/tbody/tr/td/a</value>
+      <webElementGuid>69e5c63f-9a39-4003-9945-d251afcad8c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

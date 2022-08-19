@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr[6]/td[2]/select</value>
+         <value>//div[2]/table[1]/tbody/tr[6]/td[2]/select
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>2a1e575d-0c47-49a6-a191-0589579b7534</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupfuentecampo:obligatorio</value>
+      <webElementGuid>687b59d0-2415-4895-8f31-b98b9e3ac36e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupfuentecampo:obligatorio</value>
+      <webElementGuid>13b368cf-cfd6-4fe4-a9f5-28ccdb478003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>87a05f11-90ce-4ca7-811d-c3b109682659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>4fd87fe3-2238-4d2a-b5ee-d66d3c46720a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,6 +64,7 @@
       <value>	No
 	Si
 </value>
+      <webElementGuid>18ffa725-6d3b-48dc-a183-558d5f471259</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,6 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupfuentecampo:obligatorio&quot;)</value>
+      <webElementGuid>856ccf01-8223-40ea-b7db-122edf5170c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,6 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_popupfuentecampo:obligatorio']</value>
+      <webElementGuid>271ef69e-3456-4026-8a05-a06298b2ab91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupfuentecampo:j_idt318_content']/div[2]/table/tbody/tr[6]/td[2]/select</value>
+      <webElementGuid>19517686-8d62-4146-aa9b-63e29a93f5da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Obligatorio*'])[1]/following::select[1]</value>
+      <webElementGuid>75098dc5-7de1-4047-ab33-b43867b13e9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posición Final'])[1]/following::select[1]</value>
+      <webElementGuid>3b863e9e-6b0e-4cdd-9d86-9d1e870fe716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[4]/preceding::select[1]</value>
+      <webElementGuid>eac45d0b-3890-4c3b-a635-7385d01388a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[4]/preceding::select[1]</value>
+      <webElementGuid>0f71759f-60d0-4dff-94d8-01f1375ababe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr[6]/td[2]/select</value>
+      <webElementGuid>aa1ae344-8488-48ba-8148-0749903c285d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,5 +140,6 @@
 ' or . = '	No
 	Si
 ')]</value>
+      <webElementGuid>386d5495-d5a3-45fc-bc8f-934d9a64e84e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

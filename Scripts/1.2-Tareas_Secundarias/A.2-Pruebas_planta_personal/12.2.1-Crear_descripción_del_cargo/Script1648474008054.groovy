@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo/a_Salgado . Paula_organigramaj_idt111'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo/a_Aceptar'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo/a_Aceptar'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Crear_descripción_del_cargo/a_Aceptar'))
 }
 

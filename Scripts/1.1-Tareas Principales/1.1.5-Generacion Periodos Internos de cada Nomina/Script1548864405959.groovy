@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 Date today = new Date()
 
@@ -37,7 +39,10 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Eliminar_Periodo Agosto'), 
         0)
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Eliminar_Periodo Agosto'))
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Eliminar_Periodo Agosto'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Aceptar_ELiminar_Agosto'))
 }
@@ -46,7 +51,10 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
+    WebElement element1 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element1))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 }
@@ -71,10 +79,10 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
     'PM')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/input_Fecha Inicial_formPoGePepoGePeFechaInicial_input'), 
-    '01/09/2021')
+    '01/10/2021')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/input_Fecha Final_formPoGePepoGePeFechaFinal_input'), 
-    '30/09/2021')
+    '30/10/2021')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/a_Generar'), 
     GlobalVariable.G_TimeOut)
@@ -91,14 +99,19 @@ WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo 
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generacion Periodos Internos de Cada Nomina/td_P. MensualSeptiembre2021'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'))
+WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Eliminar'),
+	30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element2))
+
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear Periodos Internos de Cada Nomina/a_Aceptar'))
 
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Alerta == 'Se elimino el registro') {
-WebUI.closeBrowser()
+
+if (Alerta == 'Se elimino el registro') {
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+

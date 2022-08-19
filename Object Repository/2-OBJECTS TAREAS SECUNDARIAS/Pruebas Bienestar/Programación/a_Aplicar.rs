@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Aplicar')])[2]</value>
+         <value>(//a[contains(text(),'Aplicar')])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>6babe6db-79d0-431d-80bc-12757d7e586b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupHorarioBean:j_idt1841</value>
+      <webElementGuid>de2d8dd8-edd7-4f4a-be5f-6e2c0e977b33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ffa81f17-c990-4423-96dc-4aa04b23456a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-guardar</value>
+      <webElementGuid>bce03338-36ab-4938-bf53-47197d1e80e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupHorarioBean:j_idt1841&quot;,f:&quot;form_popupHorarioBean&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>406aafc7-0777-4182-bd19-c7d6bc36abbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
+      <webElementGuid>ded427c7-d3fd-40e0-b153-6ce4151be256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupHorarioBean:j_idt1841&quot;)</value>
+      <webElementGuid>53453d8a-9458-4bdd-8a22-8ce1a58158e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupHorarioBean:j_idt1841']</value>
+      <webElementGuid>5c84431a-23ee-42d2-aaa8-22324625d25c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupHorarioBean:j_idt1814_content']/div[2]/a</value>
+      <webElementGuid>5b11102e-0d4a-4ada-999a-eba9becf00de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
+      <webElementGuid>3fff5525-f71b-4b85-9833-94c85d0ae99d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[3]/following::a[1]</value>
+      <webElementGuid>7bfea874-2487-4509-b1d7-75edd37e4664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Horario'])[3]/following::a[1]</value>
+      <webElementGuid>8ece2af9-10ca-4535-a29c-5c09460deef5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/preceding::a[1]</value>
+      <webElementGuid>b9a3502f-aa81-45be-bbd0-9a954807d822</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[2]</value>
+      <webElementGuid>6a83fee4-589c-44ab-99d7-ccd6cc53247c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[57]</value>
+      <webElementGuid>5b38c5a6-fd22-4dce-a3b2-9931de5eb204</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[18]/div/div[2]/div[2]/a</value>
+      <webElementGuid>40c8d597-724b-4ce6-a453-5e843e292178</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

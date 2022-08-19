@@ -29,6 +29,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/input_Fecha_form_popUpTraer'), 
     '01/06/2021')
 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/input_Fecha_form_popUpTraer'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/a_Aplicar (1)'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidacion y Reversion por Bancos/span_Bogota_ui-chkbox-icon ui-icon ui-icon-blank ui-c'))

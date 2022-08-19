@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Cambiar Datos')]</value>
+         <value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/div/div[2]/div[2]/table[2]/tbody/tr/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f3542907-9f54-43a1-a6d3-62b7899839dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grupoEvento:j_idt605</value>
+      <webElementGuid>fc796df8-1584-4883-bc21-4afe70dbd006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>073c1a4e-e306-42b9-beba-3cfb4fb4638c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>33702bec-d889-47a4-802b-dde91a9ef19d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;grupoEvento:j_idt605&quot;,f:&quot;grupoEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>e4a4a018-5b4a-4222-927b-19cca0a6cf7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cambiar Datos</value>
+      <webElementGuid>46614d5c-17ac-46e9-8368-961950076b34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:j_idt605&quot;)</value>
+      <webElementGuid>893403c8-c798-48d4-bca1-f81c58b02a2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='grupoEvento:j_idt605']</value>
+      <webElementGuid>a9a3db64-eed9-4a9e-a5bb-1c67e50e259a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grupoEvento:j_idt396_content']/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>66852a48-4713-4b6c-be7a-4213aae3a901</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cambiar Datos')]</value>
+      <webElementGuid>6b261097-7214-4fbc-ad15-2a78c77f375d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inscripción'])[1]/following::a[1]</value>
+      <webElementGuid>6cb51058-5ab3-4f5a-a603-bf6e3bb1abec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posición'])[1]/following::a[1]</value>
+      <webElementGuid>5e8af964-354d-444e-a874-790ed6577651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::a[4]</value>
+      <webElementGuid>d85a58b2-5953-4a0f-a520-962087804ffd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[4]</value>
+      <webElementGuid>29b93d9d-607d-4868-b806-2bf42ceb0e39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cambiar Datos']/parent::*</value>
+      <webElementGuid>ebaff398-efa1-4cec-9255-133754f97a3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[48]</value>
+      <webElementGuid>6672e319-8f79-45e1-b40e-b6fd147d151c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +150,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>155e0967-60f2-4473-92e9-091adac38943</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

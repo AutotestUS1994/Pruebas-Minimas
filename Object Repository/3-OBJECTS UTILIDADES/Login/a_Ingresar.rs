@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='login:linkenviar']</value>
+         <value>//a[contains(text(),'Ingresar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>fb6f0e4e-fc00-4313-8ed0-7fb81b6353c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>login:linkenviar</value>
+      <webElementGuid>87ec7ee3-e166-4b14-96ac-08ac55c4fa32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>679d5476-61d3-431a-8bf6-09c59be6ebc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>jsf.util.chain(this,event,';convertirClave(\'51c349af96700fe3711210a7569f7f3414038ad5e64ac8d35c92ed8c8394a53925a81ac8d34959fff7489738f30e08a506e1\',\'10001\');','mojarra.jsfcljs(document.getElementById(\'login\'),{\'login:linkenviar\':\'login:linkenviar\'},\'\')');return false</value>
+      <webElementGuid>69040cf9-3540-4cfe-b83d-fd80c2604042</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-btn-primario us-login</value>
+      <webElementGuid>f44dc9dc-824d-4988-8e54-3695ae7228a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ingresar</value>
+      <webElementGuid>290cf318-9ca2-4be1-af18-1d5487ab629c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login:linkenviar&quot;)</value>
+      <webElementGuid>2dcb81d1-f8cc-4645-9b17-58b51b9e526c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='login:linkenviar']</value>
+      <webElementGuid>b0df933b-49ac-4f38-b3ed-ef110f465cc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='login']/div/div/div[3]/div[3]/a</value>
+      <webElementGuid>26dd38a2-4f0d-430c-ae82-0d28cf004af5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ingresar')]</value>
+      <webElementGuid>5f70e1f5-14b6-44b6-9514-5996da3fc3d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Olvide Mi Clave'])[1]/preceding::a[1]</value>
+      <webElementGuid>a0f8271c-844b-476b-9d94-636db011c854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>31267ea4-8da4-45bc-8100-a660ecb6b559</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <webElementGuid>332b258a-628f-403a-a947-ccbc488baab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>88225b70-363a-4500-9464-c7e2b37f9bd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
+      <webElementGuid>7bb21fed-8b3b-48ed-ad81-bb3709d3ff0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

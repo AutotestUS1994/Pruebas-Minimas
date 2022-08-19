@@ -16,6 +16,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+
 double random_double = (Math.random() * 9999) + 999
 
 random_double = Math.round(random_double * 1000)

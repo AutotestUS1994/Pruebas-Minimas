@@ -54,8 +54,8 @@ if (flag) {
     a( //    break
         //} else {
         //    println('No conecta a: ' + i)
-        ) //aqui coloca el wait y el clic a l modulo Actos
-    //TODO: revisar y quitar esto
+        //aqui coloca el wait y el clic a l modulo Actos
+        ) //TODO: revisar y quitar esto
 }
 
 def a() {
@@ -65,19 +65,14 @@ def a() {
         WebUI.callTestCase(findTestCase('0.1.2-Versión'), [:], FailureHandling.STOP_ON_FAILURE)
 
         WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+    } else {
+        WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), USER)
+
+        WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
+
+        WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), GlobalVariable.G_TimeOut)
+
+        WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
     }
-    else {
-    WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), USER)
-
-    WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
-
-    WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), GlobalVariable.G_TimeOut)
-
-    WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
-
-    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ir'), 30)
-
-    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-    }
-	}
+}
 

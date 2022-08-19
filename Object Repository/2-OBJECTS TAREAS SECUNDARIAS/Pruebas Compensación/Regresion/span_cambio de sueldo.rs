@@ -10,83 +10,22 @@
          <value>//*/text()[normalize-space(.)='cambio de sueldo']/parent::*</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'cambio de sueldo ' or . = 'cambio de sueldo ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>span</value>
-      <webElementGuid>4e36254e-9669-439d-96e9-a60e33e9d557</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>valor_campo_estandar</value>
-      <webElementGuid>33877015-71bc-4df2-bfc5-c02bb5e07d8d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>cambio de sueldo </value>
-      <webElementGuid>612d2584-e4d2-449b-9fb8-fc09439adaba</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;form_ActosAdministrativos:arbolFormato:31:j_idt109&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
-      <webElementGuid>e9e3bc32-4be8-4e64-8d6b-10188be5ed19</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>span</value>
-      <webElementGuid>63f136d9-472d-47b4-b666-4e7a3b63e7a5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>valor_campo_estandar</value>
-      <webElementGuid>a4f103c5-5ce1-4808-a8a7-e24a086ac251</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>cambio de sueldo </value>
-      <webElementGuid>5df4c94f-c115-4858-957f-92ae70f8c6b9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;form_ActosAdministrativos:arbolFormato:31:j_idt109&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
-      <webElementGuid>7e0b250a-ac86-4330-8f7a-12e8bf078dec</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:arbolFormato:31:j_idt109']/span</value>
-      <webElementGuid>e5fe50b7-ac68-4f7e-998b-4ba746254da3</webElementGuid>
+      <webElementGuid>7132a910-b4ae-4ba2-b2ac-6a6468a18687</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +33,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='cambio de unidad y cargo'])[1]/following::span[5]</value>
-      <webElementGuid>ed0c7b36-a035-41ed-a6f3-cbcf7a49c485</webElementGuid>
+      <webElementGuid>068e789a-50c9-4c79-8e3e-481044c26936</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +41,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='cambio etapa electiva a productiva'])[1]/following::span[10]</value>
-      <webElementGuid>37ce89ce-b4a9-411a-a3b3-8a938db6d5fe</webElementGuid>
+      <webElementGuid>3e8103b3-7a71-4dc0-80b9-0d76f545f845</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +49,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='asignacion de funciones'])[1]/preceding::span[3]</value>
-      <webElementGuid>b583a329-6e56-4e1f-ace7-ffbf50c648ee</webElementGuid>
+      <webElementGuid>6ddda995-7a3d-4b1a-b293-9224bff39bb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos (act)'])[1]/preceding::span[7]</value>
-      <webElementGuid>26ebc160-8edd-4623-a3b4-7c68ed278902</webElementGuid>
+      <webElementGuid>85a93d96-cbe2-4693-b0e3-999c8b514d77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='cambio de sueldo']/parent::*</value>
-      <webElementGuid>89001ec0-cd70-444f-b742-9b4daf7e7534</webElementGuid>
+      <webElementGuid>2038c174-1d7b-4c50-96a6-101ab60a12bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[32]/span/span[3]/div/a/span</value>
-      <webElementGuid>b5bdc26d-eff8-45d8-9c9c-139f8dd77ab1</webElementGuid>
+      <webElementGuid>37fbae7f-2dc1-4994-b99b-37a153feb5af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'cambio de sueldo ' or . = 'cambio de sueldo ')]</value>
-      <webElementGuid>16041cdd-9807-4781-9e74-2bebc7899192</webElementGuid>
+      <webElementGuid>e4094611-e0a2-4cdb-84fc-d4d77a4e75e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
