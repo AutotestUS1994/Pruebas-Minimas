@@ -29,6 +29,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/R
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
     2)
 
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/span_P. MensualJunio2021'), 
+    1)
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/span_P. MensualJunio2021'))
 
 WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Recálcular_nómina_por_empleado/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default'))
@@ -41,8 +44,9 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 
 if (Result == 'Recalculo Finalizado') {
     String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+

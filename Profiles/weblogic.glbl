@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Variable global logueo</description>
-      <initValue>'http://192.168.2.19:7001/saraweb'</initValue>
+      <initValue>'http://192.168.2.19:7001/saraweb\r\n'</initValue>
       <name>G_Login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

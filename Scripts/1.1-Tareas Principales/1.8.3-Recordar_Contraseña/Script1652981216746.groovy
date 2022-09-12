@@ -21,6 +21,9 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
 String link = GlobalVariable.G_Login_Seguridad
+
+String login = GlobalVariable.G_Login
+
 WebUI.comment('No Aparece el correo pendiente')
 
 WebUI.openBrowser(link)
@@ -87,7 +90,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Actualizar'))
 
-WebUI.openBrowser('http://192.168.2.19:8380/saraweb/')
+WebUI.openBrowser(login)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Olvide Mi Clave'))
 
@@ -98,7 +101,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 
 String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-WebUI.openBrowser('http://192.168.2.19:8380/seguridadweb/')
+WebUI.openBrowser(link)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario'), 
     'saraadmin')
@@ -156,7 +159,53 @@ while (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/
     }
 }
 
-WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'))
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'), 
+    1)) {
+    WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'))
+} else {
+    WebUI.refresh()
+
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Destinatario_listado_correoj_idt69'), 
+        'pruebas.automaticas.union@gmail.com')
+
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Asunto_listado_correoj_idt71'), 
+        'Generar Claves Usuario')
+
+    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Asunto_listado_correoj_idt71'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'), 
+        1)) {
+        WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'))
+    } else {
+        WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Destinatario_listado_correoj_idt69'), 
+            Keys.chord(Keys.F5))
+
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Destinatario_listado_correoj_idt69'), 
+            'pruebas.automaticas.union@gmail.com')
+
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Asunto_listado_correoj_idt71'), 
+            'Generar Claves Usuario')
+
+        WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Asunto_listado_correoj_idt71'), 
+            Keys.chord(Keys.ENTER))
+
+        if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'), 
+            1)) {
+            WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'))
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+}
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
 
 if (Result1 == 'Señor usuario, se ha remitido un correo electrónico al correo asociado.') {
     WebUI.openBrowser('http://192.168.2.19:8380/saraweb/')

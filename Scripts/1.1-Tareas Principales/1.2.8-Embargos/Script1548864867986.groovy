@@ -37,11 +37,22 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/select_-- seleccione --E5 - EM'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
+if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), 
+    1)) {
+
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), 
     '27/12/2018')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba'),
+	Keys.chord(Keys.ENTER))
+}
+else {
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba - postgres'), 
+    '27/12/2018')
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/input_Fecha Inicial _form_emba - postgres'),
+	Keys.chord(Keys.ENTER))
+}
+
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Embargos/a_Guardar'))
 

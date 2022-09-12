@@ -6,12 +6,13 @@
    <elementGuidId>53efe50e-589b-4c37-b382-2dd55e77ad48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all.ui-state-hover > span.ui-icon.ui-icon-closethick</value>
+         <key>XPATH</key>
+         <value>//div[2]/div/a/span
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/a/span</value>
+         <key>CSS</key>
+         <value>a.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-corner-all.ui-state-hover > span.ui-icon.ui-icon-closethick</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>cefa7f11-5392-43aa-af05-e2d5e6fea07b</webElementGuid>
+      <webElementGuid>e7d911d7-5ee3-4d7b-874e-aa1e12fcbe6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
-      <webElementGuid>a0a175ed-1519-45d0-9f5e-9e39634af4c8</webElementGuid>
+      <webElementGuid>f27aca4c-7bbe-4140-9553-c6814c33d710</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1374&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
-      <webElementGuid>78890d25-80f4-4c76-8172-47f3e8f1ad7d</webElementGuid>
+      <webElementGuid>bc7f0b38-8b90-4258-aadf-203608277b11</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupReporte:j_idt1374']/div/a/span</value>
-      <webElementGuid>1b7d8380-d6a9-4767-8a32-9a52e5a8b577</webElementGuid>
+      <webElementGuid>3d9ecd31-9b36-43c0-a8ed-2e19ee91603f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/span</value>
-      <webElementGuid>880f04d4-25b6-40d9-ab94-f0fef1619397</webElementGuid>
+      <webElementGuid>a5aac597-2993-496a-9756-a978a0066d02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

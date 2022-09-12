@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='66666']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='354968431354']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e5b9b3b1-730a-4dbf-abe4-7e7cb628bdfd</webElementGuid>
+      <webElementGuid>b4d08b90-6743-4bde-aba2-6449e9946946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>56cec19a-ced5-4306-a4bc-11f7f3ad30ff</webElementGuid>
+      <webElementGuid>43ae80d3-294e-4bee-9fad-9e655286a87a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>66666</value>
-      <webElementGuid>31ded723-a0f9-4e89-a18b-3b3e9fe41585</webElementGuid>
+      <webElementGuid>a6c63c0d-0c0c-45e2-86e8-4670cd23bda2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:tabla_principal_actos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]</value>
-      <webElementGuid>3b724af3-a6fb-48b7-9884-68c60c7fac77</webElementGuid>
+      <webElementGuid>62a24b0a-eb57-4dbb-8b2c-a17363417333</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_ActosAdministrativos:tabla_principal_actos_data']/tr/td[3]</value>
-      <webElementGuid>2905ec7a-5829-455b-b4b9-7c56d1092b89</webElementGuid>
+      <webElementGuid>270469ca-8990-449f-8e02-54eb38561f63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terminacion De Contrato'])[1]/following::td[1]</value>
-      <webElementGuid>6dde7730-19b1-4550-b8c4-4182bb17478b</webElementGuid>
+      <webElementGuid>c0d610ab-4eb4-40a6-9ac0-00650956c59e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[1]/following::td[2]</value>
-      <webElementGuid>4dc8e0a8-59ad-4a22-bcae-5b4902a35d3d</webElementGuid>
+      <webElementGuid>83677846-d338-4f6c-a6ce-e75a28d8a5cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='66666']/parent::*</value>
-      <webElementGuid>764db9d1-0919-463e-8842-6f5c565a5910</webElementGuid>
+      <webElementGuid>c19d86bb-bd39-4158-887c-29749badafd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>70a19308-8404-4482-a3cc-986b3fb45512</webElementGuid>
+      <webElementGuid>1b12cd9d-27f4-4694-abcd-dc225edfc88a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '66666' or . = '66666')]</value>
-      <webElementGuid>d8b7e2c7-5096-45cf-b09c-0e636e3a01b1</webElementGuid>
+      <webElementGuid>81cf0b6e-eee8-4a72-b5f4-6492a79f4cb4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
