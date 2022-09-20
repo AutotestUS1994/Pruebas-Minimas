@@ -22,6 +22,8 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+verificador()
+
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/input_Empresa 1_form_templatej_idt24_input'), 
     'listado de empleados (com)')
 
@@ -118,6 +120,8 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/s
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/a_Aplicar2'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+verificador()
 
 legalizar()
 
@@ -246,6 +250,76 @@ def legalizar() {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar0'))
 
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Aplicar0'))
+        }
+    }
+}
+
+def verificador() {
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/input_Empresa 1_form_templatej_idt24_input'), 
+        'actos administrativos')
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/span_Listado de Empleados'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/i_Actos_glyphicons glyphicons-group x3 icon-acto'))
+
+    String opcion1 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/span_opcion1'))
+
+    String opcion2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/span_opcion2'))
+
+    String opcion3 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/span_opcion3'))
+
+    String opcion4 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/span_opcion4'))
+
+    switch (((opcion1 && opcion2) && opcion3) && opcion4) {
+        case opcion1 == 'Eliminar':
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_icono1'))
+
+            break
+        case opcion2 == 'Eliminar':
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_icono2'))
+
+            break
+        case opcion3 == 'Eliminar':
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_icono3'))
+
+            break
+        case opcion4 == 'Eliminar':
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_icono4'))
+
+            break
+        default:
+            println('ERROR')
+
+            WebUI.acceptAlert()
+
+            break
+    }
+    
+    while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/input_Filtrar por Actos Administrativos'), 
+        1)) {
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/input_Filtrar por Actos Administrativos'), 
+            'Cambio De Sueldo')
+
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/input_Filtrar por Actos Administrativos'), 
+            Keys.chord(Keys.ENTER))
+
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/td_Cambio De Sueldo'), 
+            1)) {
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/td_Cambio De Sueldo'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_Aplicar'))
+
+            if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/span_Si'), 
+                1)) {
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/span_Si'))
+            }
+            
+            if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_Aceptar'), 
+                1)) {
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/verificarActoAdministrativos_cambio_DE_Sueldo/a_Aceptar'))
+            }
+        } else {
+            break
         }
     }
 }

@@ -495,6 +495,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>488d6afe-5606-4734-92c5-a8b26b8bfff4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.5-Permisos_Rol_Acceso</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e05cca4c-53ae-485f-a0e8-5c5edc853056</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

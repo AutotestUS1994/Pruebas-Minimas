@@ -6,12 +6,12 @@
    <elementGuidId>5f7d24bf-9480-4133-99c4-4ac4a61ee065</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.us-texto-recordar</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Olvidé mi Clave']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Olvide Mi Clave']/parent::*</value>
+         <key>CSS</key>
+         <value>span.us-texto-recordar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1a4bf36a-27e4-400b-bbdd-28d43bf6aed3</webElementGuid>
+      <webElementGuid>31a2eb7e-6097-4af6-a58d-58898626e2ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-texto-recordar</value>
-      <webElementGuid>f4552c12-a0ef-40f3-823a-f53c20d30313</webElementGuid>
+      <webElementGuid>aaa801e6-5f11-4d1e-b912-cfd10aa804d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Olvide Mi Clave</value>
-      <webElementGuid>f8bcf4d2-27c4-479a-a3c4-2caa78a94fd2</webElementGuid>
+      <webElementGuid>6812efb1-4dee-4256-b24e-51cc880f73f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login&quot;)/div[@class=&quot;us-container-login&quot;]/div[@class=&quot;us-caja-login&quot;]/div[3]/div[@class=&quot;us-ayuda&quot;]/a[1]/span[@class=&quot;us-texto-recordar&quot;]</value>
-      <webElementGuid>2c126735-95de-4c44-8228-4ad4b9cba9f7</webElementGuid>
+      <webElementGuid>a1163de6-d045-4c94-9f2f-941a64037366</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='login']/div/div/div[3]/div[4]/a/span</value>
-      <webElementGuid>c2bd3b54-1cc5-48f1-888c-10965189fb59</webElementGuid>
+      <webElementGuid>000950d9-aba4-4308-a524-1418113fc4e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recordar Clave'])[1]/preceding::span[3]</value>
-      <webElementGuid>c52405d0-9a2f-4951-93ad-7aadc868479d</webElementGuid>
+      <webElementGuid>d8b7e3fe-c241-4f7f-b68a-913b5e80d666</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingrese Login o Correo'])[1]/preceding::span[3]</value>
-      <webElementGuid>04b82d33-cde2-4b39-bc9f-93c80c6d3010</webElementGuid>
+      <webElementGuid>2c72adb7-9e8d-49af-bd7a-812b114342ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Olvide Mi Clave']/parent::*</value>
-      <webElementGuid>6f4522f8-e333-4db5-8fa1-1489782fd11f</webElementGuid>
+      <webElementGuid>0f45ffbe-efc5-4632-acd7-87c694b011e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/span</value>
-      <webElementGuid>54ebc43e-cf50-407f-aa64-b464a8f0a311</webElementGuid>
+      <webElementGuid>10d44493-5d38-49f9-9ee5-275f8968a0f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Olvide Mi Clave' or . = ' Olvide Mi Clave')]</value>
-      <webElementGuid>a731b615-ab59-431d-bf2b-2b316ac31825</webElementGuid>
+      <webElementGuid>5b68c99f-5711-434c-aa5b-fe96469e3ec2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

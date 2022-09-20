@@ -35,28 +35,31 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.scrollToPosition(0, 600)
 
-    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/span_Momento Evento Prueba-S'), 1))
-    {
-		String Resultado = 'PRUEBA OK'
-    }
-    else {
-		WebUI.acceptAlert()
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/span_Momento Evento Prueba-S'), 
+        1)) {
+        String Resultado = 'PRUEBA OK'
+    } else {
+        WebUI.acceptAlert()
     }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple'), [:], FailureHandling.STOP_ON_FAILURE)
 
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/td_Prueba-S'), 
+        1)) {
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/td_Prueba-S'))
+    }
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/a_Calendario'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/button_Mes'))
 
     WebUI.scrollToPosition(0, 100)
 
-    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/span_Momento Evento Prueba-S'), 1))
-    {
-		String Resultado = 'PRUEBA OK'
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Calendario/span_Momento Evento Prueba-S'), 
+        1)) {
+        String Resultado = 'PRUEBA OK'
+    } else {
+        WebUI.acceptAlert()
     }
-	else {
-    WebUI.acceptAlert()
-	}
-	}
+}
 

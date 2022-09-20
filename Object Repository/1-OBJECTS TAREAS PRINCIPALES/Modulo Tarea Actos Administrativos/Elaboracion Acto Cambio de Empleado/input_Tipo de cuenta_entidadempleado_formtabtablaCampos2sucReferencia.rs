@@ -8,7 +8,8 @@
       <entry>
          <key>XPATH</key>
          <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[2]/div/div[2]/div[2]/div/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[2]/td/div/div/table/tbody/tr[3]/td[2]/table/tbody/tr/td[1]/input</value>
+//div/div[2]/div[2]/div/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[2]/td/div/div/table/tbody/tr[3]/td[2]/table/tbody/tr/td[1]/input
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5b0686c7-25ff-44b5-bfe3-fb35cd63db59</webElementGuid>
+      <webElementGuid>ffa74030-94a4-4550-b0e8-f8328e1919d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:2:sucReferencia</value>
-      <webElementGuid>ee0cac35-09ce-48c4-937f-ac003e692f90</webElementGuid>
+      <webElementGuid>b2af77c7-8468-4ff9-bbd3-543eec4ae8a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>bcbae826-d260-491a-bf57-a01100566688</webElementGuid>
+      <webElementGuid>6156b1d9-ecae-4ff1-9663-3789f4dd87a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:2:sucReferencia</value>
-      <webElementGuid>0f1774e1-8050-4211-bc4d-77e4454eec6a</webElementGuid>
+      <webElementGuid>e9e241ac-7865-47da-9a13-6c801fd6a5df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>73c3ee56-efdc-41fe-be70-e28d26b416a5</webElementGuid>
+      <webElementGuid>eeab33fc-07ca-43d3-b8f0-505ad53470d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>ce3b4c41-3a8a-4a41-8b54-e5e0aa366c17</webElementGuid>
+      <webElementGuid>f0ce838c-2852-4180-bb4b-2261e548917e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entidadempleado_form:tab:tablaCampos:2:sucReferencia&quot;)</value>
-      <webElementGuid>739369bf-68f4-4b00-beef-7cd7e76b0fff</webElementGuid>
+      <webElementGuid>fddf82db-cd9e-40b8-8a58-c47e64293c1a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='entidadempleado_form:tab:tablaCampos:2:sucReferencia']</value>
-      <webElementGuid>86f644d6-1c82-4132-8323-9b0293d2adfb</webElementGuid>
+      <webElementGuid>a48686e2-c206-4f21-aa00-a92bdaa985d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='entidadempleado_form:tab:tablaCampos_data']/tr[3]/td[2]/input</value>
-      <webElementGuid>c5c2e4c6-5c63-44d1-b2f5-e60f4ebe39dc</webElementGuid>
+      <webElementGuid>ff68c534-8478-4a8e-af39-936bc92d9bf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/input</value>
-      <webElementGuid>d0186fd1-608d-4e97-924a-ec6ff44a18a2</webElementGuid>
+      <webElementGuid>77098bd3-5e16-4333-b76a-28227def5353</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

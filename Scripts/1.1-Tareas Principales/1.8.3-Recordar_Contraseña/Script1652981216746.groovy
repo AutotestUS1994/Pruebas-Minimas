@@ -199,14 +199,6 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     }
 }
 
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
 if (Result1 == 'Señor usuario, se ha remitido un correo electrónico al correo asociado.') {
     WebUI.openBrowser('http://192.168.2.19:8380/saraweb/')
 
