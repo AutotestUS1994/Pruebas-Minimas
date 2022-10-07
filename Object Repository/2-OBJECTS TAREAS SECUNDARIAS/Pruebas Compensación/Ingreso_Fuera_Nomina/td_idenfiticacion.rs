@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_idenfiticacion</name>
+   <tag></tag>
+   <elementGuidId>34be1e16-13a3-4167-9c41-abdfdc3f497d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>967b256e-627d-48e1-a916-8d34adb2c637</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>dbf68325-4da3-413f-911b-de4bc3d7e605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1379804E7</value>
+      <webElementGuid>2d409f45-84d5-4283-a1ac-0a5e4e671a4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formPopupHojaVida:listaHojaVida_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>74a12bcd-8b0a-4265-a7ea-f849add39ba9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='formPopupHojaVida:listaHojaVida_data']/tr/td</value>
+      <webElementGuid>5c30b18a-31fd-4e80-b5cb-8f11d45e0158</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro Hoja de Vida'])[1]/following::td[3]</value>
+      <webElementGuid>27b25b1f-b789-4c80-842d-5408b7c49c05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación*'])[1]/following::td[12]</value>
+      <webElementGuid>1571495a-e236-49ec-ae56-37b8b11f4305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[2]</value>
+      <webElementGuid>b09f6bdc-010f-442f-9f48-d4ff95c197c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/table/tbody/tr/td</value>
+      <webElementGuid>bcb10f65-96ad-41a9-8875-34caf95d177e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '1379804E7' or . = '1379804E7')]</value>
+      <webElementGuid>9fa2ff78-52d1-4a6e-b5b5-5b27d9720962</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

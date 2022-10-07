@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Seleccione Sucursal--BOGOTANO RELACIONADA</name>
+   <tag></tag>
+   <elementGuidId>f0ed3c51-0e46-4607-a74f-a34529f6ce63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[9]/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c0b469ac-abde-4016-b253-2d93dedbe4ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_actoIngreso:j_idt1115:8:idTexto7</value>
+      <webElementGuid>799432c0-c6e6-437e-b100-7b3b61d62f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_actoIngreso:j_idt1115:8:idTexto7</value>
+      <webElementGuid>5ea9312c-9257-4515-b486-d150567ce30b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar  </value>
+      <webElementGuid>793994cf-eef8-4a20-a1d5-c5504b98cc88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>78881946-80cc-468b-9eec-aa5b1c77ae6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>b20a9d67-b8c8-4618-b168-b2fce6dabe91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>form_actoIngreso:j_idt1115:8:j_idt1141</value>
+      <webElementGuid>27bb109c-e196-4ffd-bab8-059874a1a608</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	
+	-- Seleccione Sucursal--
+	BOGOTA
+	NO RELACIONADA
+</value>
+      <webElementGuid>a1798c96-ba63-48db-8a61-5ccb8c11a743</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_actoIngreso:j_idt1115:8:idTexto7&quot;)</value>
+      <webElementGuid>0e108b72-e7db-492c-9c8a-17a201a4e4d8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_actoIngreso:j_idt1115:8:idTexto7']</value>
+      <webElementGuid>b57e3d9a-6074-4888-b314-0f86c37ddc04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_actoIngreso:datosadicionales']/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[9]/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      <webElementGuid>7ddb0845-77a6-4315-b085-f226335f2e37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::select[1]</value>
+      <webElementGuid>60c07b4f-2940-443c-8b0d-6b573045814b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sucursal'])[1]/following::select[1]</value>
+      <webElementGuid>c2bfab08-a8c0-4714-bf54-62e5216d07a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Documento'])[2]/preceding::select[1]</value>
+      <webElementGuid>d426df5b-2b92-4a34-9a50-ace7273de1ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::select[1]</value>
+      <webElementGuid>6caccf8b-d4ac-4920-a139-d578fac59dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[9]/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      <webElementGuid>7fdbddc4-5c01-419b-b116-85cd397b83eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_actoIngreso:j_idt1115:8:idTexto7' and @name = 'form_actoIngreso:j_idt1115:8:idTexto7' and (text() = '	
+	-- Seleccione Sucursal--
+	BOGOTA
+	NO RELACIONADA
+' or . = '	
+	-- Seleccione Sucursal--
+	BOGOTA
+	NO RELACIONADA
+')]</value>
+      <webElementGuid>9f8517c7-4adc-4453-89cd-83f14e0e34da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

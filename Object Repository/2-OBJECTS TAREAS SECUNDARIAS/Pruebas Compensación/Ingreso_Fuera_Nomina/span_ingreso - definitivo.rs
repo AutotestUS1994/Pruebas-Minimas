@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ingreso - definitivo</name>
+   <tag></tag>
+   <elementGuidId>dfeccb06-b9c5-417d-bcfd-94f638886b0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'ingreso - definitivo ' or . = 'ingreso - definitivo ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4fa42cf6-ebe3-4fc6-a6d0-5cc383233398</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>7a43b6cb-21ac-4198-8a35-37e8dddc821a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ingreso - definitivo </value>
+      <webElementGuid>276adc73-5ec5-46e3-8368-91f57abef33f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:arbolFormato:22:j_idt110&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>8315e61d-b712-4c7b-acb5-2c044609dbbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='form_ActosAdministrativos:arbolFormato:22:j_idt110']/span</value>
+      <webElementGuid>b6bf5590-840a-42b4-ad17-40c150d659ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso aprendiz - etapa lectiva'])[1]/following::span[5]</value>
+      <webElementGuid>2aa7e8c9-17c0-40f6-984d-d97fa4a0fa44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso aprendiz - etapa productiva'])[1]/following::span[10]</value>
+      <webElementGuid>087c8104-8669-4259-be3e-153935ffe4e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='encargar a alguien'])[1]/preceding::span[3]</value>
+      <webElementGuid>69cb9255-8076-4557-a654-a0ebac66e71f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='doc-ingreso carrera docente np'])[1]/preceding::span[8]</value>
+      <webElementGuid>c7d4cc80-c6d0-4d00-92d9-7f9d04f68475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ingreso - definitivo']/parent::*</value>
+      <webElementGuid>278354bc-83ee-4d96-9bde-fb7282b1e886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[23]/span/span[3]/div/a/span</value>
+      <webElementGuid>af6325c6-a5e5-49c8-a311-03ed8ce09869</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ingreso - definitivo ' or . = 'ingreso - definitivo ')]</value>
+      <webElementGuid>56d6b96f-70ca-4eb3-882b-89b6fce68ae2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

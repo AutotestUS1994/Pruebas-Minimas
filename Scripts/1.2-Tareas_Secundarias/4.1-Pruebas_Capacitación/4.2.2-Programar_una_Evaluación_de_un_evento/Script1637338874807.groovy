@@ -25,9 +25,6 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Pr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/a_Evento'))
 
-WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/td_Encuesta De Satisfaccion Capacitacion'), 
-    0)
-
 if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/td_Encuesta De Satisfaccion Capacitacion'), 
     1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt766'))

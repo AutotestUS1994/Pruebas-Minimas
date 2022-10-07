@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_10 - Ingreso Puesto Nuevo</name>
+   <tag></tag>
+   <elementGuidId>6c4045d7-8e11-4a39-8104-c0f4aa183ede</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f16abc8d-02fd-4317-a4a4-5c99e54f9250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_actoIngreso:j_idt1115:3:idTexto7</value>
+      <webElementGuid>afb0cab4-7783-4c16-a4d4-78817c328bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_actoIngreso:j_idt1115:3:idTexto7</value>
+      <webElementGuid>21f95d85-22f0-41b7-8a05-ed35505e0b63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar  </value>
+      <webElementGuid>7aa1654b-173b-4917-9a24-ada4661b5051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>c4323ff8-9f5c-4259-937d-43bb695187e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>68a3cc4e-b812-48e4-9891-1ea215e97c0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>form_actoIngreso:j_idt1115:3:j_idt1141</value>
+      <webElementGuid>d5702cb7-753b-447f-8ff6-2a064143e94a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	
+	10 - Ingreso Puesto Nuevo
+</value>
+      <webElementGuid>f6b7fd08-b7c7-4d64-a271-f6c941ddf353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_actoIngreso:j_idt1115:3:idTexto7&quot;)</value>
+      <webElementGuid>4d643fa3-b18c-4b0f-8bba-17255612162e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_actoIngreso:j_idt1115:3:idTexto7']</value>
+      <webElementGuid>ecf5c9be-e8c1-4e7c-a248-4fcd2d008544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_actoIngreso:datosadicionales']/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      <webElementGuid>fe37f5ba-6472-4fc6-a185-cc88b366cc5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
+      <webElementGuid>31223a60-ea74-46ec-a58c-a0bba48dd1bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo de Ingreso'])[1]/following::select[1]</value>
+      <webElementGuid>b5eab3e5-38bb-40ec-9812-b89e2fbe77f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adicional'])[1]/preceding::select[1]</value>
+      <webElementGuid>e2a00939-84ae-4b6b-be57-2ae3a6b82f1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::select[1]</value>
+      <webElementGuid>e1a34860-75cc-4e8b-b2dd-13700d93ad05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>8e30b814-84b6-4c78-bd57-5bc5099e3634</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_actoIngreso:j_idt1115:3:idTexto7' and @name = 'form_actoIngreso:j_idt1115:3:idTexto7' and (text() = '	
+	10 - Ingreso Puesto Nuevo
+' or . = '	
+	10 - Ingreso Puesto Nuevo
+')]</value>
+      <webElementGuid>1ebd6568-cf0e-40e0-bdeb-be9e94f2aace</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

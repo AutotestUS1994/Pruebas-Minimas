@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Nueva Solicitud</name>
+   <tag></tag>
+   <elementGuidId>66273b67-a880-4a69-a105-1bc9c01475ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nueva Solicitud']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>44b01410-b68c-4658-95b9-50436f1b9947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nuevahoja_form:j_idt853</value>
+      <webElementGuid>4726f497-9f6e-42b1-8a5c-bedf01bc2ee6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>4b4cdbdb-f0bb-4fd5-be5a-1d3ca934f090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton us-large btn-nuevoExtendido</value>
+      <webElementGuid>d62a4354-ded0-4d2a-92d1-d724bf24f6a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;nuevahoja_form:j_idt853&quot;,f:&quot;nuevahoja_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>7a470723-1525-471d-8128-27303ae1887c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nueva Solicitud</value>
+      <webElementGuid>6fcd16f6-fd78-4099-91bf-5818a682cdb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nuevahoja_form:j_idt853&quot;)</value>
+      <webElementGuid>160f7ac3-3e99-4594-825a-8a0128c845da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='nuevahoja_form:j_idt853']</value>
+      <webElementGuid>977ef0c8-66b0-4726-a6e5-76da5fb585e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nuevahoja_form:dialog_nuevahoja_form_content']/div[2]/a</value>
+      <webElementGuid>89c0b29d-8be5-4c20-b0e8-bce390ab6164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Nueva Solicitud')]</value>
+      <webElementGuid>8afe209a-d252-4af5-9d32-ce23777c6502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Hoja'])[2]/following::a[1]</value>
+      <webElementGuid>c9e51295-75c4-4e30-9b27-8990d1fe512c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[3]/following::a[1]</value>
+      <webElementGuid>3a6624a9-0583-40f8-a705-d4609384b9fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>e027ec6f-8f21-480f-b673-2e3098a07f22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>e9e48b10-b803-41d6-890a-c7306094e0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nueva Solicitud']/parent::*</value>
+      <webElementGuid>3fcc6f2e-7750-4a7b-9bd2-11da5e6bb116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[49]</value>
+      <webElementGuid>aaa467b6-9c34-4107-95bf-ab653651a2cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>1786a2e3-2144-458d-b99a-b2d50dd7bb1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'nuevahoja_form:j_idt853' and @href = '#' and (text() = 'Nueva Solicitud' or . = 'Nueva Solicitud')]</value>
+      <webElementGuid>8abcd1cf-bfb2-4eaa-bd91-0d2417ee303d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

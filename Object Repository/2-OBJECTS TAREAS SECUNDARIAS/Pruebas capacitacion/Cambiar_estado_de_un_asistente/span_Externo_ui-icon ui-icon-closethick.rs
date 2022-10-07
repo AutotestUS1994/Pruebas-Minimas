@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Externo_ui-icon ui-icon-closethick</name>
+   <tag></tag>
+   <elementGuidId>eb045c4c-ae60-497b-bdb7-96a7f04a280b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-icon.ui-icon-closethick</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>79fe4a9f-25bc-42e4-a1fc-8a13bee15406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-icon ui-icon-closethick</value>
+      <webElementGuid>e92c1525-e18c-49ec-be3b-e08f19c85d5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formAsistenteEvento:j_idt478&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
+      <webElementGuid>222a49d4-a823-4241-b428-6067ba60809c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formAsistenteEvento:j_idt478']/div/a/span</value>
+      <webElementGuid>e2a986a9-c14d-434d-939d-ca9d4e2b9bb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/span</value>
+      <webElementGuid>85504c20-ef49-42e3-a624-e45f9943416f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

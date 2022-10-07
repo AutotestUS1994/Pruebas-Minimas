@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No es responsable de la Unidad</name>
+   <tag></tag>
+   <elementGuidId>d8f8c059-b71e-430b-bbc5-d41367e3f3c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>fce90dd3-7983-418f-b05f-b17c8b9140ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>datosPuestoTrabajo_form:listaResponsable:1</value>
+      <webElementGuid>d33cd07b-1fc7-4e29-af4c-7ecbb16d1602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No es responsable de la Unidad</value>
+      <webElementGuid>539284c9-8588-49ef-bcb4-89d384a04a8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;datosPuestoTrabajo_form:listaResponsable&quot;)/tbody[1]/tr[1]/td[2]/label[1]</value>
+      <webElementGuid>47555b60-c28b-4f89-a2fb-19445c525e5f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='datosPuestoTrabajo_form:listaResponsable']/tbody/tr/td[2]/label</value>
+      <webElementGuid>55975c1b-a028-48be-8d58-2f1ecef2d9ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Es responsable de la Unidad'])[1]/following::label[1]</value>
+      <webElementGuid>6eefec9e-2bce-4655-b0b4-6b562bf43c94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Responsable*'])[1]/following::label[2]</value>
+      <webElementGuid>4f8045aa-a9dd-4ca7-b75b-496383de7ab0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Líder'])[1]/preceding::label[1]</value>
+      <webElementGuid>8b1f4f8d-3b81-4574-9f6f-a4de22e9b486</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidad Jerarquica'])[1]/preceding::label[1]</value>
+      <webElementGuid>ede664f0-a871-4aa0-b21d-1d1183df2a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No es responsable de la Unidad']/parent::*</value>
+      <webElementGuid>eb590a11-7ba3-4c47-b98d-317a5f8a020f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/label</value>
+      <webElementGuid>902b4bd9-f888-4e39-9023-2ebcb4156cd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' No es responsable de la Unidad' or . = ' No es responsable de la Unidad')]</value>
+      <webElementGuid>180de06b-4db2-42ff-9bc2-bfbad941d978</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -89,9 +89,10 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/s
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/span_Nomina'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/input_Empleados_form_ActosAdministrativosj_idt104'), 
-    'cambio de sueldo')
+    'Cambio De Sueldo')
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/a_Empleados_form_ActosAdministrativosj_idt105'))
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/input_Empleados_form_ActosAdministrativosj_idt104'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/situacion_adminitrativa-(situacion-actos)/span_cambio de sueldo_'))
 

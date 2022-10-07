@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String mensaje = ''
+
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/td_Prueba'))
@@ -33,6 +35,19 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
         1)
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Actualizar'))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/label_Ya se encuentra registrado en el grupo'), 
+        1)) {
+        mensaje = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/label_Ya se encuentra registrado en el grupo'))
+
+        if (mensaje == 'Ya se encuentra registrado en el grupo') {
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Aceptar'))
+
+            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/span_Externo_ui-icon ui-icon-closethick'))
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.5-Insribir_un_asistente'), [:], 
         FailureHandling.STOP_ON_FAILURE)
@@ -45,17 +60,31 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
             1)
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Actualizar'))
+
+        if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/label_Ya se encuentra registrado en el grupo'), 
+            1)) {
+            mensaje = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/label_Ya se encuentra registrado en el grupo'))
+
+            if (mensaje == 'Ya se encuentra registrado en el grupo') {
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/a_Aceptar'))
+
+                WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Cambiar_estado_de_un_asistente/span_Externo_ui-icon ui-icon-closethick'))
+            } else {
+                WebUI.acceptAlert()
+            }
+        }
     }
 }
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'Registro Actualizado')
-{
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-WebUI.acceptAlert()
-}
 
+
+
+if (Result == 'Registro Actualizado') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

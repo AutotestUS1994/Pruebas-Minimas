@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Administracion</name>
+   <tag></tag>
+   <elementGuidId>dcef4fc5-4b3a-4750-899e-10ab431d6c1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Administracion' or . = 'Administracion')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a81f432a-9434-477d-8517-3439e44a4ae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-texto-arbol  </value>
+      <webElementGuid>e6b16e99-ec86-4054-8dcb-72b690694309</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Administracion</value>
+      <webElementGuid>143d135c-1e5e-41b6-8c2d-639ffc22be23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;organigrama:arbolUnidad:0_1_0&quot;)/span[@class=&quot;ui-treenode-content ui-tree-selectable&quot;]/span[@class=&quot;ui-treenode-label ui-corner-all&quot;]/span[@class=&quot;us-texto-arbol&quot;]</value>
+      <webElementGuid>cdee24ee-99c8-43c7-a7b8-950dbdab2689</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='organigrama:arbolUnidad:0_1_0']/span/span[3]/span</value>
+      <webElementGuid>178da0d0-c562-4169-b9fa-014fa996f881</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subdireccion General'])[1]/following::span[5]</value>
+      <webElementGuid>43e51dcd-64ab-439c-ba0c-008cd6f1b7eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte'])[1]/following::span[10]</value>
+      <webElementGuid>13917142-bb12-4ba4-a01b-d7fe3b6c15e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interna'])[1]/preceding::span[3]</value>
+      <webElementGuid>476ab4cd-e663-42e8-b25f-897c4b458ec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jefatura'])[1]/preceding::span[8]</value>
+      <webElementGuid>5128da49-364b-4712-b207-f2c299542eb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li/span/span[3]/span</value>
+      <webElementGuid>e3d449ae-4064-4f5b-a8a6-7ee5769869e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Administracion' or . = 'Administracion')]</value>
+      <webElementGuid>7330b681-caf3-483a-a0e8-5b73bd8213d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

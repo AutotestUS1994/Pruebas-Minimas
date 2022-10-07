@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_A1</name>
+   <tag></tag>
+   <elementGuidId>9adf0366-08f5-4bbc-ab33-402aadf83a14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[@id='form_popupUnidadUsuario:tabla_ventana_unidadUsuario_data']/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.ui-state-highlight.fila_tabla_ace.ui-state-hover > td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a845dd4e-ee0d-43dc-b7f8-2cf1481ba97c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>416ab425-f52c-46cf-92a2-fbf35c4e6ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>A1          </value>
+      <webElementGuid>58d66218-a11a-4533-8650-4ef443676531</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupUnidadUsuario:tabla_ventana_unidadUsuario_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>5c9bddc9-462c-4192-9f74-1da91960a576</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_popupUnidadUsuario:tabla_ventana_unidadUsuario_data']/tr/td</value>
+      <webElementGuid>b3620d43-f1db-4578-bba7-8277f184df4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/following::td[1]</value>
+      <webElementGuid>cecd0b1b-0c37-4a62-b58b-2f51327a7bda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Código'])[1]/following::td[1]</value>
+      <webElementGuid>f3ab76bc-29b3-49fd-903d-eb16503a3d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADMINISTRACION'])[1]/preceding::td[1]</value>
+      <webElementGuid>24431a15-11b6-46b6-b74a-ca4a6dee3009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/table/tbody/tr/td</value>
+      <webElementGuid>077c6aad-7099-4f4c-ab35-ea02e7b029b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'A1          ' or . = 'A1          ')]</value>
+      <webElementGuid>a763bec8-8666-4a34-b139-4f208a66077e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

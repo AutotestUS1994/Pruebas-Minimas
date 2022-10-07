@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Nomina</name>
+   <tag></tag>
+   <elementGuidId>1f1f2b7b-9f2c-421c-b960-2f8d807ef0a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Nomina                                             ' or . = 'Nomina                                             ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.valor_campo_estandar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>77485f67-d505-47af-85e1-de7a6c2907c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>ed604dfa-f06c-4644-a6c1-ac2b26126e80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nomina                                             </value>
+      <webElementGuid>96bfd959-755d-4984-b4f2-e24547fddc55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_ActosAdministrativos:arbolGrupo:0:j_idt99&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>92c682cb-183f-499b-a5bd-7fe3c2658f0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='form_ActosAdministrativos:arbolGrupo:0:j_idt99']/span</value>
+      <webElementGuid>45308507-fe52-486d-b977-7f28a87289be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elaborar'])[2]/following::span[5]</value>
+      <webElementGuid>3049290f-9dc8-4a71-a980-48f9ba1c45b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modificar'])[1]/following::span[6]</value>
+      <webElementGuid>a7e4b669-6f18-44ef-976f-0cb71724c339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleados'])[1]/preceding::span[3]</value>
+      <webElementGuid>cbd1b47f-7d0c-430b-91d9-ecf9372c3560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[12]</value>
+      <webElementGuid>ca8dfbf1-5f83-45fd-860f-45d63f083586</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nomina']/parent::*</value>
+      <webElementGuid>8af019f8-bf67-4457-903d-714c21793af9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/span</value>
+      <webElementGuid>896d8c85-499f-48d9-8a57-84b3fef96095</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Nomina                                             ' or . = 'Nomina                                             ')]</value>
+      <webElementGuid>f2ea34cb-d7bc-4d43-bde4-83eefa8e652e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

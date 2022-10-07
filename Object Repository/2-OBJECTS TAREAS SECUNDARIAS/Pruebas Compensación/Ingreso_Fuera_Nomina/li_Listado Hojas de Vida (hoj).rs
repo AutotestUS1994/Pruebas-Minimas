@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Listado Hojas de Vida (hoj)</name>
+   <tag></tag>
+   <elementGuidId>5cb6d4b9-371d-4af1-94fb-cb65dc206e45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ui-autocomplete-item.ui-autocomplete-list-item.ui-corner-all.ui-state-highlight</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>68611eff-fa56-4a22-8270-4349fa33e2ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>59c09ab7-bebe-4057-9c72-4c0ccf0103b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-label</name>
+      <type>Main</type>
+      <value>Listado Hojas de Vida (hoj)</value>
+      <webElementGuid>aed771ae-afe3-4e96-a2ac-2fa657aaea6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-value</name>
+      <type>Main</type>
+      <value>Listado Hojas de Vida (hoj)</value>
+      <webElementGuid>07ac052b-b85b-4cba-a9c1-e9e96fa22004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>e4e8f966-eda0-4250-b022-9a2f028c12e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Listado Hojas de Vida (hoj)</value>
+      <webElementGuid>6c537019-c9b5-4a7b-a79b-d278518af7d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>0e771e77-dccc-4ebf-9bd7-7b717a709fe5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+      <webElementGuid>433faa85-d7f3-4d32-8d7d-b123a93ecefc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::li[1]</value>
+      <webElementGuid>b4d5f9cd-655f-420c-b8e0-092fb79fdde0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sucursal'])[1]/following::li[1]</value>
+      <webElementGuid>15d5a786-0067-4245-99c2-19c552550c87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='(hoj)']/parent::*</value>
+      <webElementGuid>5073054f-48c6-4e3e-ab32-7648989a7aac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li</value>
+      <webElementGuid>c4df0515-7486-4b75-9e45-781f8b2a94fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Listado Hojas de Vida (hoj)' or . = 'Listado Hojas de Vida (hoj)')]</value>
+      <webElementGuid>ec18a2c2-84dc-44a0-9b85-5b74de2b4d61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

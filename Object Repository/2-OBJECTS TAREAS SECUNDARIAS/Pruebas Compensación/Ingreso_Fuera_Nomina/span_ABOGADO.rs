@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ABOGADO</name>
+   <tag></tag>
+   <elementGuidId>753042a3-9b10-4f0a-a06e-730ecd724532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'ABOGADO' or . = 'ABOGADO')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9ac7c664-f4a5-4a69-878e-2f74fbee2770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo</value>
+      <webElementGuid>1fe38010-ea5c-4ff7-b6d6-fcd2143bd5d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ABOGADO</value>
+      <webElementGuid>a8dd9eca-b0f1-4ab5-be00-bb2ef6430b38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupCargo_Form:j_idt1466_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>2786f2c6-45ea-47d0-ad05-63dd30b4c1fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='popupCargo_Form:j_idt1466_data']/tr/td[2]/span</value>
+      <webElementGuid>9c0549dd-df8c-419b-b578-473ebdb4d810</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivel Cargo'])[1]/following::span[2]</value>
+      <webElementGuid>fa2c322c-e813-4a0e-8e75-65f0a75b16dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::span[3]</value>
+      <webElementGuid>4020b609-ca87-45c7-b4bd-8d65655de607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[1]/preceding::span[1]</value>
+      <webElementGuid>fc5faa6e-3df2-48d0-999f-db3d8a5bd350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JEFE DE CONTROL DE CALIDAD JEFE DE CONTROL DE CALIDADJEFE DE CONTROL'])[1]/preceding::span[3]</value>
+      <webElementGuid>84f5551d-0f0b-4e57-a036-b12f922fc5de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ABOGADO']/parent::*</value>
+      <webElementGuid>b0b7e789-2832-4f9b-94f2-8e5b6a4ed869</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
+      <webElementGuid>6903f57b-4e6f-4194-b326-ec47f4e8be2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ABOGADO' or . = 'ABOGADO')]</value>
+      <webElementGuid>9c5a3b7e-7ef2-4288-9a45-ad5d8b1358e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

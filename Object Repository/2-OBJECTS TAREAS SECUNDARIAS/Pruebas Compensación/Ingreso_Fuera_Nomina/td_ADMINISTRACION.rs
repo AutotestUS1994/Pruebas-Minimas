@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_ADMINISTRACION</name>
+   <tag></tag>
+   <elementGuidId>b4fe794c-a9af-4cc5-833f-9b50d38e7449</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[(text() = 'ADMINISTRACION' or . = 'ADMINISTRACION')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e0b83ec3-fefb-4aba-a4fd-86779cb5cf97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>06114e03-9498-456a-b902-0af806bf2221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADMINISTRACION</value>
+      <webElementGuid>f0997b2a-084e-4fb3-a5d9-0aadafaf1ee0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupUnidadUsuario:tabla_ventana_unidadUsuario_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
+      <webElementGuid>176ee722-06a3-4c2f-9073-00727f94283f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_popupUnidadUsuario:tabla_ventana_unidadUsuario_data']/tr/td[2]</value>
+      <webElementGuid>d57f3fcf-56f8-49cd-8b09-744622046a81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A1'])[1]/following::td[1]</value>
+      <webElementGuid>04ed2f8d-fa84-40c5-a37f-3de8f77e666d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/following::td[2]</value>
+      <webElementGuid>452f56de-c07f-4b75-ba7a-81e6d3ea05b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UNIDAD NUEVA1'])[1]/preceding::td[2]</value>
+      <webElementGuid>f4720818-c378-4569-8c44-92264d24b089</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>f195f86f-e1c7-4260-933d-c62962482a6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'ADMINISTRACION' or . = 'ADMINISTRACION')]</value>
+      <webElementGuid>1bc14a75-2125-40d8-9617-a928eacb6c61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
