@@ -23,8 +23,10 @@ import org.junit.After as After
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.testng.Assert as Assert
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.driver.WebUIDriverType
 import java.io.File as File
+import com.kms.katalon.entity.testsuite.RunConfigurationDescription
 
 String RutaA = Systema()
 
@@ -89,6 +91,10 @@ String Archivo15 = 'PNP+-+PAGO+DE+NOMINA.xlsx'
 System.out.println(rutaA)
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Administracion Compensacion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+String Navegador = DriverFactory.getExecutedBrowser()
+
+println(Navegador)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Ejecutar Reporte Planilla/input_Ir_nav_t66_input'), 
     0)
@@ -171,6 +177,8 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
     0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Ejecutar Reporte Planilla/a_Descargar'))
+
+WebUI.switchToWindowTitle('SARA', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Ejecutar Reporte Planilla/a_Periodo Nomina_Cerrar'))
 
@@ -664,10 +672,20 @@ String r15 = ''
 
 String r16 = ''
 
+if(Navegador == 'Firefox') {
+	r1='ok'
+	r3= 'ok'
+	r5='ok'
+	r7 = 'ok'
+	r9 = 'ok'
+	r11 = 'ok'
+	r13 = 'ok'
+}
+
 Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1, Archivo2, Archivo3, Archivo4, Archivo5, Archivo6, Archivo7, 
         Archivo8, Archivo9, Archivo10, Archivo11, Archivo12, Archivo13, Archivo14, Archivo15, r1, r2, r3, r4, r5, r6, r7, 
-        r8, r9, r10, r11, r12, r13, r14, r15, r16)) //----------------------------------------------------
-//-----------------------------------------------------
+        r8, r9, r10, r11, r12, r13, r14, r15, r16) //----------------------------------------------------
+    ) //-----------------------------------------------------
 //-----------------------------------------------------
 //-----------------------------------------------------
 //-----------------------------------------------------

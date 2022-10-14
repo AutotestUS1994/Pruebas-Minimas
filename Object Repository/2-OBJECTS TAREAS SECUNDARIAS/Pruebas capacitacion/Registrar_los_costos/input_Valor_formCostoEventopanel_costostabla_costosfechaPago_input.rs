@@ -6,11 +6,12 @@
    <elementGuidId>0c155b91-689a-48ca-993c-7079f4579ddf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/form/div/div/div/div/div/table/tfoot/tr/td[3]/table/tbody/tr/td[1]/span/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//div/div/div/table/tfoot/tr/td[3]/table/tbody/tr/td[1]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5181351f-7f1d-4442-b032-c6ee739586b3</webElementGuid>
+      <webElementGuid>e0e30d15-7fc8-4423-902b-be9faa1d11e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formCostoEvento:panel_costos:tabla_costos:fechaPago_input</value>
-      <webElementGuid>9433212f-d65b-4046-aaa8-de87970aa654</webElementGuid>
+      <webElementGuid>5836018e-aedb-4c65-a278-7a958ea77424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formCostoEvento:panel_costos:tabla_costos:fechaPago_input</value>
-      <webElementGuid>2fb94d8e-a229-4ee4-ab12-8ff3cb1f76ab</webElementGuid>
+      <webElementGuid>0e6fff2e-3979-4c0f-9888-15f3a72e837c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8f0283e9-03ee-4e18-b700-6758858d6d88</webElementGuid>
+      <webElementGuid>0a4210c2-b3ff-434b-9a59-67115e900645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
-      <webElementGuid>73cc61e6-0a36-4aba-8fe5-536045f80d44</webElementGuid>
+      <webElementGuid>bc7d0ba4-a5de-4a87-8b66-6e04757533a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>d92bacef-5917-4d20-9e2f-89f5d51cd435</webElementGuid>
+      <webElementGuid>524c2a38-cc2a-4d9f-82cf-cdf8697a3428</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7dfed939-3dd7-46a1-90a8-bb7301157b82</webElementGuid>
+      <webElementGuid>c73a8e74-468b-4b1b-b2ae-381b43b16519</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a5dd7835-dcdc-46cc-9ae3-a9f6baf485d6</webElementGuid>
+      <webElementGuid>f514df17-5e23-43e2-9e12-747fe57ef9bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formCostoEvento:panel_costos:tabla_costos:fechaPago_input&quot;)</value>
-      <webElementGuid>7e511898-de57-4121-9905-8b7a4c276787</webElementGuid>
+      <webElementGuid>b51dc013-00ea-4819-926a-360292e8ba55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formCostoEvento:panel_costos:tabla_costos:fechaPago_input']</value>
-      <webElementGuid>68e8a1fe-bf46-432e-970a-c0be8931f3de</webElementGuid>
+      <webElementGuid>09d48c3a-e7b6-493b-bd7d-93fb70406ee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='formCostoEvento:panel_costos:tabla_costos:fechaPago']/input</value>
-      <webElementGuid>3a11002b-8e03-4cfa-9a1e-f0f136b174a1</webElementGuid>
+      <webElementGuid>78855bf1-7c1d-40bb-91e7-9b36ea9d1808</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/span/input</value>
-      <webElementGuid>f456e767-261c-4f99-9a43-9fd11ec8ca77</webElementGuid>
+      <webElementGuid>fd395ef1-362e-43d1-9fa7-49ff255e9117</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

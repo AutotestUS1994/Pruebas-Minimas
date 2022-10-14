@@ -34,20 +34,21 @@ if (resultEmpresa == 'PRUEBA OK') {
     println(resultUsuario())
 }
 
-if(resultUsuario == 'PRUEBA OK' && resultEmpresa == 'PRUEBA OK')
-{WebUI.closeBrowser()}
+if ((resultUsuario == 'PRUEBA OK') && (resultEmpresa == 'PRUEBA OK')) {
+    WebUI.closeBrowser()
+}
 
 def crearEmpresa() {
-	WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'),
-		'Empresa')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
+        'Empresa')
 
-	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/span_Empresa'))
-	
-	if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'),
-		1)) {
-		borrarEmpresa()
-	}
-	
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/span_Empresa'))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/td_Pruebas katalon'), 
+        1)) {
+        borrarEmpresa()
+    }
+    
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Nuevo'))
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/input_Cdigo_empresa_formcodigoEmpresa'), 
@@ -64,6 +65,8 @@ def crearEmpresa() {
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/select_-- Seleccione --Grupo a'), 
         1)
+
+    WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'), 0)
 
     WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'))
 
@@ -82,16 +85,17 @@ def crearUsuario() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/span_Usuario'))
 
-	WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/input_usuario'),
-		'Pruebas Katalon')
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/input_usuario'), 
+        'Pruebas Katalon')
 
-	WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/input_usuario'),
-		Keys.chord(Keys.ENTER))
-	if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/span_Pruebas Katalon'), 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/input_usuario'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares (1)/span_Pruebas Katalon'), 
         1)) {
-		borrarUsuario()
-	}
-	
+        borrarUsuario()
+    }
+    
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Nuevo'))
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Sesin_usuarioformatablogin'), 

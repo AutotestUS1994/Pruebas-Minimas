@@ -6,11 +6,12 @@
    <elementGuidId>edd51981-060a-4549-8bf7-0127c1d41ac4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='formAsistenteEvento:panelTabAsistenteEven:puntaje']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//input[@id=&quot;popupasistenteevento_form:panelTabAsistenteEven:puntaje&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>d0c19707-0557-459f-9a50-079d7ed6492b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:puntaje</value>
+      <webElementGuid>b203e523-07c6-4c0f-b198-40eacaf70eb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>aacf22fe-448d-4609-8196-1580ed7dbeaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:puntaje</value>
+      <webElementGuid>0e502072-e3f6-49ce-b409-b8e6056c1090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>5.0</value>
+      <webElementGuid>682d3a80-424d-4370-b9ea-db345edad25f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>f9e91fef-087b-442e-bfb6-38e112310253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>16</value>
+      <webElementGuid>2a0b7dd2-e522-463b-99d3-99b3f6f28683</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return decimal(event,this.value);</value>
+      <webElementGuid>deebe1d8-f683-4eb1-ac10-c958a332b05a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formAsistenteEvento:panelTabAsistenteEven:puntaje&quot;)</value>
+      <webElementGuid>0f081d00-a49d-45c7-b553-117dc9268854</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formAsistenteEvento:panelTabAsistenteEven:puntaje']</value>
+      <webElementGuid>6a55bee0-b3a6-447b-bc50-d40414c5a978</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='formAsistenteEvento:panelTabAsistenteEven:inputPuntaje']/input</value>
+      <webElementGuid>8c13cb76-5240-44fa-99ee-e11f9d09b1df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/span/input</value>
+      <webElementGuid>63a97bd8-a2f0-45b2-82bb-fd5475ca47f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formAsistenteEvento:panelTabAsistenteEven:puntaje' and @type = 'text' and @name = 'formAsistenteEvento:panelTabAsistenteEven:puntaje']</value>
+      <webElementGuid>4a816c18-fe8c-4e91-9013-a4e61002e3c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

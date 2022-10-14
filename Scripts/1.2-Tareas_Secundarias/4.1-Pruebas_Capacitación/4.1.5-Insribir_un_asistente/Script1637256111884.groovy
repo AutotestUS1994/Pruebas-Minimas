@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
+
 
 WebUI.comment('PENDIENTE POR REPARAR FALLA SE PUEDE EJECUTAR PERO FALLA')
 
@@ -44,11 +47,17 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas c
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Documento_formAsistenteEventopanelTabAsistenteEvendocumentoAsistenteAlfaNumerico'), 
     '123456789')
 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Nombres_formAsistenteEventopanelTabAsistenteEvennombresAsistente'), 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Nombres_formAsistenteEventopanelTabAsistenteEvennombresAsistente'), 
     'Pruebas')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Primer Apellido_formAsistenteEventopanelTabAsistenteEvenprimerApellidoAsistente'), 
     'prueba')
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Segundo Apellido_formAsistenteEventopanelTabAsistenteEvensegundoApellidoAsistente'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Segundo Apellido_formAsistenteEventopanelTabAsistenteEvensegundoApellidoAsistente'), 
     'ka')
@@ -73,3 +82,5 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Guardar'))
 
+//WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Guardar'),30)
+//WebUI.executeJavaScript('arguments[0].click()', Arrays.asList())

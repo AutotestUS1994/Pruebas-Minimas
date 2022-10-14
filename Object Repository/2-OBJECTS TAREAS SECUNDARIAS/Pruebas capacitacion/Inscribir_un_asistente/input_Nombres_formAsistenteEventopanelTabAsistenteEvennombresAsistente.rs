@@ -6,11 +6,12 @@
    <elementGuidId>dbefe05e-7088-440e-9e78-60bda7178cb4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/table/tbody/tr[2]/td[2]/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[20]/div/div[2]/table/tbody/tr/td/div/div/div/table/tbody/tr[2]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>0893a2dd-48c5-47df-b214-b5b8f0fe66ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:nombresAsistente</value>
+      <webElementGuid>01fa1966-861f-4c48-95e2-de15f1b8748a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>3b96c009-c7eb-4908-843d-b8f6d2e9faae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:nombresAsistente</value>
+      <webElementGuid>6cc74713-acc6-49db-8b79-f2c8cd64e71d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>5c1253f4-e5fa-4c82-8edc-8e83401dfc79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formAsistenteEvento:panelTabAsistenteEven:nombresAsistente&quot;)</value>
+      <webElementGuid>d5c9dfe9-5724-46cd-97bd-c9652d298b42</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formAsistenteEvento:panelTabAsistenteEven:nombresAsistente']</value>
+      <webElementGuid>f1e6d88f-27e5-4773-9765-f5e7177138fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formAsistenteEvento:panelTabAsistenteEven:paneldatos']/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>5630c1d4-48f8-4b3b-8298-dcdecdd488b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>4ca38568-10c7-4be1-a7af-3e977a299ec3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

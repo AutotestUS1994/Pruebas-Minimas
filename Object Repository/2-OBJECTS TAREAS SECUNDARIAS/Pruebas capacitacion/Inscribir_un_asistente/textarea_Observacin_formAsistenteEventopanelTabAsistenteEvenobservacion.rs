@@ -6,11 +6,11 @@
    <elementGuidId>8c1fbea5-9d98-4520-b999-cbe4f0ac01e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;popupasistenteevento_form:panelTabAsistenteEven:observacion&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>cc225214-5089-4551-8f49-f6ff8d11058c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:observacion</value>
+      <webElementGuid>9069b3ba-96aa-406e-8e54-f052f01a31fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:observacion</value>
+      <webElementGuid>e00d127f-8aed-42f8-b422-a750d4f4c6d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all valor_campo_estandar ui-inputtextarea-resizable ui-state-hover ui-state-focus</value>
+      <webElementGuid>c928041b-3566-4b0e-bdf1-b1c432c43d91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>20</value>
+      <webElementGuid>d6741568-c4b7-4f97-b551-9817a3c2cf48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
+      <webElementGuid>66678007-15d4-49b0-8e1d-08158d781b79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2147483647</value>
+      <webElementGuid>85189500-901b-4bf5-9e18-3e05e2fb1c62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>400eabf1-1eb0-4da0-941a-a94608ef689a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b509916f-bc34-4fb1-9c2f-3cc92346dd6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b17de9a8-b6ee-443e-a1a1-5e384fd9092d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>aria-multiline</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>c0e753bb-6b9f-48ac-bd8d-03b0990ff17a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formAsistenteEvento:panelTabAsistenteEven:observacion&quot;)</value>
+      <webElementGuid>9457626f-fa93-4639-a758-253f247682c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='formAsistenteEvento:panelTabAsistenteEven:observacion']</value>
+      <webElementGuid>952ce298-8c1d-4139-ab04-9c786526664c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formAsistenteEvento:panelTabAsistenteEven:paneldatos']/tbody/tr[6]/td[2]/textarea</value>
+      <webElementGuid>5c74ba5d-1bad-46e3-b829-80367b66b7df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
+      <webElementGuid>726d2f3b-45c3-4220-92c5-c4a42d02311a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +141,6 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formAsistenteEvento:panelTabAsistenteEven:paneldatos']/tbody/tr[5]/td[2]/textarea</value>
+      <webElementGuid>ff40ea41-ba90-4f80-94fd-95b1db14709b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

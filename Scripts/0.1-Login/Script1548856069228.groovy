@@ -57,52 +57,51 @@ if (flag) {
     a( //    break
         //} else {
         //    println('No conecta a: ' + i)
-        ) //aqui coloca el wait y el clic a l modulo Actos
-    //TODO: revisar y quitar esto
+        //aqui coloca el wait y el clic a l modulo Actos
+        ) //TODO: revisar y quitar esto
 }
+
 def zoom() {
-	
-	Robot robot = new Robot()
-	
-	robot.keyPress(KeyEvent.VK_CONTROL)
-	
-	robot.keyPress(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyPress(KeyEvent.VK_CONTROL)
-	
-	robot.keyPress(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyPress(KeyEvent.VK_CONTROL)
-	
-	robot.keyPress(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SUBTRACT)
+    Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
 }
+
 def a() {
-	zoom()
-	WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario)
+    zoom()
+
+    WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario)
 
     WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
 
     while (WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), 1)) {
-        WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), 
-            30)
-
-        WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
+       WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
     }
 }
 

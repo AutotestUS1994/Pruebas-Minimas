@@ -6,11 +6,12 @@
    <elementGuidId>9095cc5e-203b-444d-8ab0-c5c1ba0c4980</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/div/div/table/tbody/tr/td[2]/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;popupasistenteevento_form:panelTabAsistenteEven:origenOrganizacionAsistente&quot;]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>104da7b9-5c61-4ea5-955c-716abd448c56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:origenOrganizacionAsistente</value>
+      <webElementGuid>e5373e23-3b22-495b-9b0b-c87ab3d9c5e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formAsistenteEvento:panelTabAsistenteEven:origenOrganizacionAsistente</value>
+      <webElementGuid>7d90e5ba-83b9-4dc8-b684-27ba904b60f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>71e20540-62de-4df7-900b-3683268ddd56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>d9a2b4cb-9543-4e3b-af23-155ed7088cb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;formAsistenteEvento&quot;,p:&quot;formAsistenteEvento:panelTabAsistenteEven:origenOrganizacionAsistente&quot;,u:&quot;formAsistenteEvento:panelTabAsistenteEven:paneldatos&quot;});</value>
+      <webElementGuid>d906a819-1d8d-4324-a8d3-83ec077f1bd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,6 +73,7 @@
 	Externo
 	Interno
 </value>
+      <webElementGuid>40b8878d-3024-48a5-a691-87431bcc501b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,6 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formAsistenteEvento:panelTabAsistenteEven:origenOrganizacionAsistente&quot;)</value>
+      <webElementGuid>8d3551a6-2915-433a-b6f9-394148bbd0df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,6 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formAsistenteEvento:panelTabAsistenteEven:origenOrganizacionAsistente']</value>
+      <webElementGuid>2c0bff5a-2c0e-447f-ac02-fec0c7647884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formAsistenteEvento:panelTabAsistenteEven:paneldatos']/tbody/tr/td[2]/select</value>
+      <webElementGuid>3635f3a8-33f3-43dd-ad93-103443db0e2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Origen*'])[1]/following::select[1]</value>
+      <webElementGuid>326f5b62-6709-454b-a9a6-f7f16434daf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asistente'])[4]/following::select[1]</value>
+      <webElementGuid>d0aa896e-ebcd-4ef7-9a9d-56d1bf06c2fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asistente*'])[1]/preceding::select[1]</value>
+      <webElementGuid>fe02b756-c782-4ea4-841f-c9c890f11ff0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidad'])[1]/preceding::select[1]</value>
+      <webElementGuid>08063618-2f53-4707-a4f9-fbd8e6fffaab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,5 +137,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>d7f90abc-8aac-4a1e-ae23-054e38ba47fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
