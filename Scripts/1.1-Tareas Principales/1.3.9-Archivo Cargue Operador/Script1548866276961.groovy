@@ -14,6 +14,46 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL as GLOBAL
+import com.kms.katalon.core.annotation.Keyword as Keyword
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword as WebUIAbstractKeyword
+import org.junit.After as After
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.testng.Assert as Assert
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import java.io.File as File
+import org.openqa.selenium.Capabilities as Capabilities
+import java.awt.*
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+def Systema() {
+	String RutaA = System.getProperty('os.name')
+}
+String RutaA = Systema()
+
+if(RutaA == 'Windows 10') {
+	def rutaW = (System.getProperty('user.home')+'/Downloads/')
+	rutaW = rutaW.replace('/','\\')
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else if (RutaA == 'Linux') {
+	def rutaW = (System.getProperty('user.home')+'/Descargas/')
+	
+	println("ESTA ES LA RUTA"+ rutaW)
+	RutaA = rutaW
+}
+else {RutaA = 'ERROR'
+	WebUI.acceptAlert()
+}
+
+String rutaA = RutaA
+
+println(rutaA)
+
+String Archivo = 'tmpUnionE1_20190119.txt'
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Seguridad Social'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,5 +69,21 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Archivo Cargue Operador/a_Si'))
 
-WebUI.closeBrowser()
+WebUI.delay(5)
 
+Assert.assertTrue(archivoDescargado(rutaA, Archivo,))
+
+boolean archivoDescargado(String rutaA, String Archivo) {
+		File dir = new File(rutaA)
+	
+		File[] dirContentenidos = dir.listFiles()
+		
+		for (int i = 0; i < dirContentenidos.length; i++) {
+			if ((dirContentenidos[i]).getName().equals(Archivo)) {
+				(dirContentenidos[i]).delete()
+	
+				String ResultF0 = 'PRUEBA OK'
+				WebUI.closeBrowser()
+				return true
+			}}
+}

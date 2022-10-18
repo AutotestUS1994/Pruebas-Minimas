@@ -258,6 +258,9 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_d
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/input_Fecha Radicado_form_datosAccidentadofecharadicado_input'), 
     '10/07/2021')
 
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/input_Fecha Radicado_form_datosAccidentadofecharadicado_input'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/select_-- SELECCIONAR --COOPERADOESTUDIANTE O APRENDIZINDEPENDIENTEMISIONPLANTA'), 
     5)
 
@@ -313,11 +316,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_d
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/a_Guardar4'))
 
-String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-if(Result == 'Registro guardado') {
-	String Resultado = 'PRUEBA OK'
+if (Result == 'Registro guardado') {
+    String Resultado = 'PRUEBA OK'
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+
