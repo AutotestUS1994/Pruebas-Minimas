@@ -60,6 +60,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Admi
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/input__form_actoAusentismoj_id'), 
     '31/12/2018')
 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/input__form_actoAusentismoj_id'), 
+    Keys.chord(Keys.ESCAPE))
+
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/a_Continuar_1'), 
     GlobalVariable.G_TimeOut)
 
