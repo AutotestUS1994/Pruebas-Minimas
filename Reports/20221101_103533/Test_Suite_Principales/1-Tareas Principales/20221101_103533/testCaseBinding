@@ -1,0 +1,71 @@
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.3-Elaboracion Acto Cambio del Empleado y derogacion","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.3-Elaboracion Acto Cambio del Empleado y derogacion","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.4-Crear Periodos Internos de cada Nomina","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.4-Crear Periodos Internos de cada Nomina","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.5-Generacion Periodos Internos de cada Nomina","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.5-Generacion Periodos Internos de cada Nomina","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.6-crear vacaciones","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.6-crear vacaciones","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.7-Generar Vacaciones","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.7-Generar Vacaciones","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.8-Mantenimiento de Vacaciones Reliquidar","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.8-Mantenimiento de Vacaciones Reliquidar","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.1.9-Imprimir comprobante de vacaciones","testCaseId":"Test Cases/1.1-Tareas Principales/1.1.9-Imprimir comprobante de vacaciones","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.1-Reversar Vacaciones","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.1-Reversar Vacaciones","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.2-Legalizar licencia No Remunerada","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.2-Legalizar licencia No Remunerada","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.3-Legalizar Licencia Remunerada","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.3-Legalizar Licencia Remunerada","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.4-Incapacidad","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.4-Incapacidad","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.5-Solicitud_Certificado","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.5-Solicitud_Certificado","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.6-Legalizar Solicitud Nov Empleado","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.6-Legalizar Solicitud Nov Empleado","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.7-Liquidacion Periodica","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.7-Liquidacion Periodica","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.8-Embargos","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.8-Embargos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.2.9-Novedad","testCaseId":"Test Cases/1.1-Tareas Principales/1.2.9-Novedad","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.1-Periodo en Proceso - Archivo Plano","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.1-Periodo en Proceso - Archivo Plano","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.2-Recalculo Seleccion","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.2-Recalculo Seleccion","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.3-Recalculo Total","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.3-Recalculo Total","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.4-Reporte de Recalculo Total","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.4-Reporte de Recalculo Total","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.5-Comprobante de Pago","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.5-Comprobante de Pago","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.6-Reversar Nomina","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.6-Reversar Nomina","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.7-Liquidacion y reversion por bancos","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.7-Liquidacion y reversion por bancos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.8-Exportacion de Archivo de Seguridad Social","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.8-Exportacion de Archivo de Seguridad Social","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.3.9-Archivo Cargue Operador","testCaseId":"Test Cases/1.1-Tareas Principales/1.3.9-Archivo Cargue Operador","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.1-Liquidacion_de_contrato","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.1-Liquidacion_de_contrato","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.2-Acto Retiro Empleado","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.2-Acto Retiro Empleado","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.3-Generacion Interfaz","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.3-Generacion Interfaz","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.4-Crear Puesto de Trabajo","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.4-Crear Puesto de Trabajo","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.5-Actualizacion de Datos en Puesto de Trabajo","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.5-Actualizacion de Datos en Puesto de Trabajo","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.6-Prestamo Liquidacion Periodica","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.6-Prestamo Liquidacion Periodica","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.7-Liquidacion concepto de Nomina","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.7-Liquidacion concepto de Nomina","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.8-Tarea Importar Fuente general","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.8-Tarea Importar Fuente general","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.4.9-Verificacion de campo Total Abonado","testCaseId":"Test Cases/1.1-Tareas Principales/1.4.9-Verificacion de campo Total Abonado","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.1-Administracion embargos","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.1-Administracion embargos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.2-Liquidacion Entidad Externa","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.2-Liquidacion Entidad Externa","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.3-Reporte Planilla","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.3-Reporte Planilla","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.4-Ejecutar Reporte Plantilla","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.4-Ejecutar Reporte Plantilla","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.5- Crear Nomina Electrónica","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.6 Reporte Nomina Electronica","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.6 Reporte Nomina Electronica","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.7 Descargar Nomina Electronica","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.7 Descargar Nomina Electronica","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.5.9 Crear Viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.5.9 Crear Viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.1 Costos de Viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.1 Costos de Viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.2 Complementario de Viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.2 Complementario de Viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.3 Desembolsar Viático","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.3 Desembolsar Viático","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.5 Modificar Solicitud de Viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.5 Modificar Solicitud de Viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.6 Anulación y Legalización de viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.6 Anulación y Legalización de viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.7 Modificar retroactivos viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.7 Modificar retroactivos viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.8 Guardar retroactivo de viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.8 Guardar retroactivo de viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.9 Reporte Entidades Liquidadas Viáticos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.6.4 Derogación Viático","testCaseId":"Test Cases/1.1-Tareas Principales/1.6.4 Derogación Viático","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.1 Crear Histórico Vacaciones","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.1 Crear Histórico Vacaciones","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.2 Crear Histórica Incapacidad","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.4-Datos_Básicos_del_Empleado","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.4-Datos_Básicos_del_Empleado","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.5 Ejecucion Diseño Reporte","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.5 Ejecucion Diseño Reporte","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.6-Generacion_Interfaz_Contable","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.6-Generacion_Interfaz_Contable","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.7-Crear_Días_Festivos","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.7-Crear_Días_Festivos","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.8-cargue_fuente_general","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.8-cargue_fuente_general","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.7.9-Ejecucion_reporte_general","testCaseId":"Test Cases/1.1-Tareas Principales/1.7.9-Ejecucion_reporte_general","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.8.1-Seleccionar Empresa","testCaseId":"Test Cases/1.1-Tareas Principales/1.8.1-Seleccionar Empresa","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.8.2-Ejecucion_de_Reportes","testCaseId":"Test Cases/1.1-Tareas Principales/1.8.2-Ejecucion_de_Reportes","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/Listado hojas de Vida","testCaseId":"Test Cases/1.1-Tareas Principales/Listado hojas de Vida","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares","testCaseId":"Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.1-Crear_Usuario,_contraseña,_Accesos_Particulares","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles","testCaseId":"Test Cases/1.2-Tareas_Secundarias/6.1-Pruebas_Seguridad/6.1.2-Crear_Rol_y_Acceso_Roles","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.8.4-Crear_empresa_y_suario","testCaseId":"Test Cases/1.1-Tareas Principales/1.8.4-Crear_empresa_y_suario","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.8.3-Recordar_Contraseña","testCaseId":"Test Cases/1.1-Tareas Principales/1.8.3-Recordar_Contraseña","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.1-Tareas Principales/1.8.5-Permisos_Rol_Acceso","testCaseId":"Test Cases/1.1-Tareas Principales/1.8.5-Permisos_Rol_Acceso","iterationVariableName":""}
+{"testCaseName":"Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.9-situacion_adminitrativa-(situacion-actos)","testCaseId":"Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.9-situacion_adminitrativa-(situacion-actos)","iterationVariableName":""}

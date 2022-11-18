@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Terminacin Del Contrato</name>
+   <tag></tag>
+   <elementGuidId>1f9af1d9-74db-484f-abe9-1e3f84f1219e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Terminación Del Contrato')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>44f599fc-038a-462a-b0ea-5e1e3c326640</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_parametroformato:j_idt63:j_idt65:j_idt86</value>
+      <webElementGuid>05e0b741-cbfd-4d58-82ad-94d4fe67d65d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>68d151ba-fbf1-4cfb-8a7b-36acd110568b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>5a53e415-2d48-4b3f-a3de-f809e32ef4a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_parametroformato:j_idt63:j_idt65:j_idt86&quot;,f:&quot;form_parametroformato&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>bc2657bd-c63a-49e0-95af-c0d4066f07fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terminación Del Contrato </value>
+      <webElementGuid>c43f3ee3-c881-42c3-bcd4-02145eb5f994</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_parametroformato:j_idt63:j_idt65:j_idt86&quot;)</value>
+      <webElementGuid>207d3667-7d70-4abe-b27c-445d38b5f38a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_parametroformato:j_idt63:j_idt65:j_idt86']</value>
+      <webElementGuid>d67f546a-40c5-42ce-82a8-dfc2c774f9e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_parametroformato:j_idt63:j_idt65:j_idt66']/table[4]/tbody/tr/td/a</value>
+      <webElementGuid>ad16a858-0557-4950-9d9d-e26fec78f65e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Terminación Del Contrato')]</value>
+      <webElementGuid>7abcb863-ba67-4741-82a1-4553270aa4e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto Formato'])[1]/following::a[4]</value>
+      <webElementGuid>5badb643-2b43-48a9-9702-8fbd4b772d6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::a[8]</value>
+      <webElementGuid>4a6460c1-5171-463f-a7ca-483843ecea62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Búsqueda'])[1]/preceding::a[3]</value>
+      <webElementGuid>fd61f48b-dd4f-4190-a467-9d2ba2125140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formato'])[1]/preceding::a[4]</value>
+      <webElementGuid>3884a251-5b7a-4dbf-9f46-ce327efe1df7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terminación Del Contrato']/parent::*</value>
+      <webElementGuid>3942cf3d-ddb2-48e1-8d0e-73442eb0be2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[43]</value>
+      <webElementGuid>6a7c4b94-ed48-4ad0-ae41-8a42306f9a1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[4]/tbody/tr/td/a</value>
+      <webElementGuid>f3d4f371-1b8f-4ff9-9eac-95e5b8a0effb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_parametroformato:j_idt63:j_idt65:j_idt86' and @href = '#' and (text() = 'Terminación Del Contrato ' or . = 'Terminación Del Contrato ')]</value>
+      <webElementGuid>35f6f66d-f2c3-4a1f-8c2d-03066e786947</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

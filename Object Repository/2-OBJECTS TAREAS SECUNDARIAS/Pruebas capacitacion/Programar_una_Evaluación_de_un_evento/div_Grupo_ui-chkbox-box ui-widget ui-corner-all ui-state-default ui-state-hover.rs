@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td/div/div/table/tbody/tr/td/div/div[2]</value>
+         <value>//td/div/div/table/tbody/tr[1]/td[1]/div/div[2]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>47b017fe-412a-41fe-ae79-325983bac56b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover</value>
+      <webElementGuid>efa66028-ec9b-4212-9428-659410295f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupProgramarEvento_form:tabla:0:j_idt1265&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]</value>
+      <webElementGuid>0a61f06c-6a47-410a-bd2b-e389b50b9ee1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupProgramarEvento_form:tabla:0:j_idt1265']/div[2]</value>
+      <webElementGuid>82f01bfc-2132-499a-a071-f0a2f5e73bda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo'])[2]/following::div[3]</value>
+      <webElementGuid>736ca576-8bb0-48c1-89e3-8785ea307ac2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[5]/following::div[3]</value>
+      <webElementGuid>9a576886-a5b3-4287-b8fd-9405a660d4fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='. . .'])[1]/preceding::div[1]</value>
+      <webElementGuid>2a518733-44bb-47e0-8184-a94a8f6c811a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INSCRITO'])[2]/preceding::div[1]</value>
+      <webElementGuid>245a4b9b-61f7-440d-9484-c27592e3f637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +87,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/table/tbody/tr/td/div/div[2]</value>
+      <webElementGuid>0b71035c-e86d-414e-8937-add13a8d39cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

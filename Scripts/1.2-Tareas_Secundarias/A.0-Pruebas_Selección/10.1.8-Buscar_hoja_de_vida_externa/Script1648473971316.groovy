@@ -63,8 +63,20 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Busc
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_NO RELACIONADA_btn-procesoactivo us-icon-card-img'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar1'))
 
+
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar1'), 
+    1)) {
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar1'))
+}
+else {
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/cerrar_proceso participo'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_NO RELACIONADA_btn-hoja us-icon-card-img - Copy'))
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar1'))
+}
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/select_SINO'), 
     1)
 
@@ -74,7 +86,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Busc
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-if (Result == 'LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO'|| Result == 'SE ADICIONO AL PROCESO DE SELECCION') {
+if ((Result == 'LA HOJA DE VIDA YA ESTA ASOCIADA A ESTE PROCESO') || (Result == 'SE ADICIONO AL PROCESO DE SELECCION')) {
     String Resultado = 'PRUEBA OK'
 
     WebUI.closeBrowser()

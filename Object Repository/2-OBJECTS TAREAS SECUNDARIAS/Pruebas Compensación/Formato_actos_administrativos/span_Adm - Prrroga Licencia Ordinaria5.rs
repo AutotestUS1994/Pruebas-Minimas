@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Adm - Prrroga Licencia Ordinaria5</name>
+   <tag></tag>
+   <elementGuidId>db80f9e1-8184-48b2-b261-46cb0d18f383</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>911a53b1-1d65-401b-8c68-c7d32cfd7a7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo</value>
+      <webElementGuid>71962795-f4a1-41ca-a1ec-a3e35ee8452b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Adm - Prórroga Licencia Ordinaria</value>
+      <webElementGuid>388fb9d1-cdbd-4549-8593-f859cb18b444</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupFormato_form:tablaVentana_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>1ef14a48-a30f-4abb-be27-dcde86b449a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='popupFormato_form:tablaVentana_data']/tr/td[2]/span</value>
+      <webElementGuid>76b13161-f6b4-4d5a-a780-77f5a6bd5e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::span[2]</value>
+      <webElementGuid>449192cd-b6e1-4d01-bad1-e3aee3af2119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formato'])[3]/following::span[3]</value>
+      <webElementGuid>616b5d40-e74b-492a-ae2a-1a612e5c099a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adm - Terminación / Interrupción de una Licencia Ordinaria'])[1]/preceding::span[2]</value>
+      <webElementGuid>8816a8b4-c397-4d65-bd75-4bdb223c6825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comisión de servicios en el país'])[1]/preceding::span[4]</value>
+      <webElementGuid>6e16c165-a4ff-40d9-ab56-c1e89c151ac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Adm - Prórroga Licencia Ordinaria']/parent::*</value>
+      <webElementGuid>573dc222-288b-42eb-a014-460185097e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/span</value>
+      <webElementGuid>09181ca2-6db1-44d1-9ff3-7bb05574eb5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Adm - Prórroga Licencia Ordinaria' or . = 'Adm - Prórroga Licencia Ordinaria')]</value>
+      <webElementGuid>ff212780-651d-4a3d-9d31-22caad97864e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

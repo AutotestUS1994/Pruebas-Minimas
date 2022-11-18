@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Seleccione--NoNo AplicaSi1</name>
+   <tag></tag>
+   <elementGuidId>1d4c076b-9cff-4ec9-bac0-42794df91452</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[8]/td[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>763444af-e42d-47b6-aeca-c9235aa8bcb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_parametroformato:tabInfo:determinado</value>
+      <webElementGuid>654497e9-3579-4010-82da-25693cd7e9ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_parametroformato:tabInfo:determinado</value>
+      <webElementGuid>e5ed5e38-b6fd-4367-9d59-a22069eb5bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>43fcffe8-d8cb-49bb-a5fa-0c5d07acbdad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>57f66bd6-3d92-4ff8-948a-d71e91e46738</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--Seleccione--
+	No
+	No Aplica
+	Si
+</value>
+      <webElementGuid>343cc96a-914a-44be-a8d6-8d8f8aee128c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_parametroformato:tabInfo:determinado&quot;)</value>
+      <webElementGuid>95184a8b-a0ba-4a5a-879a-600c25828a76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_parametroformato:tabInfo:determinado']</value>
+      <webElementGuid>76607ac7-2488-4da6-84bd-ab924bdc2a6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='form_parametroformato:tabInfo:j_idt199']/div/table/tbody/tr[8]/td[2]/select</value>
+      <webElementGuid>41e2cfd8-4a3e-49a1-95aa-a3a6d82a7fac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Laboral De Terminado*'])[1]/following::select[1]</value>
+      <webElementGuid>5851f9b9-97ac-4e9f-818e-5b1d33b9acea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado Retirado'])[1]/following::select[2]</value>
+      <webElementGuid>96032516-6784-495e-b877-0e55191340e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/preceding::select[1]</value>
+      <webElementGuid>93a0424b-e93a-49de-b0e5-c0c842d2c57c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tabla 1'])[1]/preceding::select[2]</value>
+      <webElementGuid>010791e0-b585-4255-8d29-f2fd0084e3ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[8]/td[2]/select</value>
+      <webElementGuid>e69fd0e2-316c-4470-8cfb-28c488adf6e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_parametroformato:tabInfo:determinado' and @name = 'form_parametroformato:tabInfo:determinado' and (text() = '	--Seleccione--
+	No
+	No Aplica
+	Si
+' or . = '	--Seleccione--
+	No
+	No Aplica
+	Si
+')]</value>
+      <webElementGuid>c477a538-110a-4991-8ed6-b136a8cdfbdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

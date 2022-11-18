@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Movimiento Planta</name>
+   <tag></tag>
+   <elementGuidId>1ee95b99-66ca-4bc0-a8a2-b256fcc896d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Movimiento Planta')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ad6aa05b-4e36-41ac-8912-76e6644bb9ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_parametroformato:j_idt63:j_idt65:j_idt96</value>
+      <webElementGuid>8665a646-9dfd-4b51-b184-96d3b599a4a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>1edf0a5f-1e1d-4cc1-a9e0-77136818d6fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>6c9ddd64-e09e-4402-93d0-b49d5f78e26b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_parametroformato:j_idt63:j_idt65:j_idt96&quot;,f:&quot;form_parametroformato&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>1519fcfd-f3a9-4e7f-9476-9dcf03ecf608</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Movimiento Planta </value>
+      <webElementGuid>85730562-c437-4d6f-b331-fab829279024</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_parametroformato:j_idt63:j_idt65:j_idt96&quot;)</value>
+      <webElementGuid>fe11d122-180f-49d5-b54d-a3e760ea8544</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_parametroformato:j_idt63:j_idt65:j_idt96']</value>
+      <webElementGuid>86271f73-66ef-4f60-bee4-f741dea1feb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_parametroformato:j_idt63:j_idt65:j_idt66']/table[6]/tbody/tr/td/a</value>
+      <webElementGuid>b8562596-af5f-47f6-a6d0-4d0a5e34f168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Movimiento Planta')]</value>
+      <webElementGuid>6684da0c-7c9a-49c2-8c0a-9171c53fb016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto Formato'])[1]/following::a[6]</value>
+      <webElementGuid>fc7ceb26-60cc-498f-8b06-d6346da29a80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::a[10]</value>
+      <webElementGuid>acde32df-34e9-46a6-a5b2-ac4ec0fbf026</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Búsqueda'])[1]/preceding::a[1]</value>
+      <webElementGuid>a10e5270-dc06-40f0-9bb7-0f2513d11993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formato'])[1]/preceding::a[2]</value>
+      <webElementGuid>12c95d10-a55b-4803-8d0e-45655ac640f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Movimiento Planta']/parent::*</value>
+      <webElementGuid>d504c3bc-9f45-4a02-b138-1d4ea7b924a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[45]</value>
+      <webElementGuid>ef3efbf8-5489-45ad-b079-93c9a6326bbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[6]/tbody/tr/td/a</value>
+      <webElementGuid>b54c2e5c-517e-4ef4-897b-e2c2d0743e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_parametroformato:j_idt63:j_idt65:j_idt96' and @href = '#' and (text() = 'Movimiento Planta ' or . = 'Movimiento Planta ')]</value>
+      <webElementGuid>25282f30-efe0-4979-9e94-9453b71073fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

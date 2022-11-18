@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Seleccione--InterrupcinTerminacinLicenciaComisionNo AplicaProrroga5</name>
+   <tag></tag>
+   <elementGuidId>89029aa3-b8d9-41c0-abc3-39d9218fc32b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>4e78dc0a-c61a-43f3-9665-ea96c06c5ae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_parametroformato:acciont</value>
+      <webElementGuid>063c3ad5-9b8b-4da8-9e3d-f344104b5eab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_parametroformato:acciont</value>
+      <webElementGuid>cc025b41-4de6-4ecd-be4b-7645a51fb178</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>1f516bc6-d745-4e8f-8249-5f0197daaa1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>027da4a4-ddc1-4bcb-8306-a1216b8d9c99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_parametroformato&quot;,p:&quot;form_parametroformato&quot;,u:&quot;form_parametroformato&quot;});</value>
+      <webElementGuid>5ef30feb-1088-4290-b7a5-4d8dcabc1873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--Seleccione--
+	Interrupción/Terminación
+	Licencia/Comision
+	No Aplica
+	Prorroga
+</value>
+      <webElementGuid>af3be7ea-1a5e-43d3-b04c-69752cda5a8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_parametroformato:acciont&quot;)</value>
+      <webElementGuid>c51bf07b-c2b8-43c4-8726-7abd4b862e66</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_parametroformato:acciont']</value>
+      <webElementGuid>019abffd-48b7-4e15-b2e7-cdf4f54f9d8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_parametroformato:parametroFormatoPrincipal']/tbody/tr/td/span/table/tbody/tr/td/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>1b6af7cf-5197-4e9f-bb92-952ae1d42306</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acción*'])[1]/following::select[1]</value>
+      <webElementGuid>e5fb42e6-1736-4e20-bb46-cee53a5cd683</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción*'])[1]/following::select[1]</value>
+      <webElementGuid>ca45362b-2ddb-42eb-ba5b-0fc91343f541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo *'])[1]/preceding::select[1]</value>
+      <webElementGuid>a25ec10f-f88e-48ce-ae0d-220bb3f2f314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formato'])[1]/preceding::select[2]</value>
+      <webElementGuid>c7226ffa-3ed0-432b-abea-85cccadaa9e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>5b2cef3f-7495-426b-95a7-78a533ffbed2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_parametroformato:acciont' and @name = 'form_parametroformato:acciont' and (text() = '	--Seleccione--
+	Interrupción/Terminación
+	Licencia/Comision
+	No Aplica
+	Prorroga
+' or . = '	--Seleccione--
+	Interrupción/Terminación
+	Licencia/Comision
+	No Aplica
+	Prorroga
+')]</value>
+      <webElementGuid>48acc413-e5ee-46b1-8e52-3123ef673a00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

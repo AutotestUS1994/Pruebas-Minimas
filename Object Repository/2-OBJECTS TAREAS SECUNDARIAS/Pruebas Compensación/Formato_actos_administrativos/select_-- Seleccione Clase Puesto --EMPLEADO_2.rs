@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- Seleccione Clase Puesto --EMPLEADO_2</name>
+   <tag></tag>
+   <elementGuidId>ee0026ac-74d0-449c-bc64-711038772c69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset/div/table/tbody/tr[3]/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>31dfc14d-f090-4173-8ee4-44eb2c615e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_parametroformato:tabInfo:clasepuesto</value>
+      <webElementGuid>1a010fd9-1bb7-4b17-a857-db0f2bbc3aeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_parametroformato:tabInfo:clasepuesto</value>
+      <webElementGuid>e3b9df73-ecae-4b42-855f-c41498fea243</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>0510a90c-0cd4-4e9c-801f-aa8eaee3f1a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>38da3f66-b917-4b15-b0b1-33b245b4406e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- Seleccione Clase Puesto --
+	EMPLEADO                      
+	NUEVA ADMIN                   
+	AMPLEADO                      
+	ZUEVA ADMIN                   
+	ZONA                          
+	MAPA                          
+</value>
+      <webElementGuid>9f56ecad-c1b6-4edf-83f8-6cddfab6d297</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_parametroformato:tabInfo:clasepuesto&quot;)</value>
+      <webElementGuid>e287425b-b7d8-414c-baaa-74a6d23f3c84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_parametroformato:tabInfo:clasepuesto']</value>
+      <webElementGuid>a8a07ef6-863a-427c-a22c-8d99de79cb5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='form_parametroformato:tabInfo:j_idt199']/div/table/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>797d7592-389c-4904-9eca-91d9b382adf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clase puesto'])[1]/following::select[1]</value>
+      <webElementGuid>00c43599-8af6-41dc-b665-eeff8fc39016</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Planta'])[1]/following::select[2]</value>
+      <webElementGuid>2cc56316-2b70-4948-a1bb-c385ebfe1625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indicativo'])[1]/preceding::select[1]</value>
+      <webElementGuid>00f3cd5b-2152-41e8-ab2c-20b833256d5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generación Regresión'])[1]/preceding::select[1]</value>
+      <webElementGuid>469208e4-05b1-4680-bf11-66b555226ef7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/div/table/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>b9aa03f1-a0e7-4fa0-b78e-5b22286a6816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_parametroformato:tabInfo:clasepuesto' and @name = 'form_parametroformato:tabInfo:clasepuesto' and (text() = '	-- Seleccione Clase Puesto --
+	EMPLEADO                      
+	NUEVA ADMIN                   
+	AMPLEADO                      
+	ZUEVA ADMIN                   
+	ZONA                          
+	MAPA                          
+' or . = '	-- Seleccione Clase Puesto --
+	EMPLEADO                      
+	NUEVA ADMIN                   
+	AMPLEADO                      
+	ZUEVA ADMIN                   
+	ZONA                          
+	MAPA                          
+')]</value>
+      <webElementGuid>59e785ea-849b-4325-8c63-fb7bc2ba931a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

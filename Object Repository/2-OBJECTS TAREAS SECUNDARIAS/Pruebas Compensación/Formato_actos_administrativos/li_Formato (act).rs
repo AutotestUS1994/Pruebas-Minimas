@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Formato (act)</name>
+   <tag></tag>
+   <elementGuidId>9b73d257-801f-43e3-9d58-bc552c749a44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.ui-autocomplete-item.ui-autocomplete-list-item.ui-corner-all.ui-state-highlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>11662835-0450-42f2-9b78-060f9f2498d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>0d3777ec-dc8f-4d79-ad90-46caed20e6c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-label</name>
+      <type>Main</type>
+      <value>Formato (act)</value>
+      <webElementGuid>53961499-6c50-446b-8541-c3f1aaa8e72f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-value</name>
+      <type>Main</type>
+      <value>Formato (act)</value>
+      <webElementGuid>481af95b-2faa-4c76-a45f-8d7defb6917c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>23f02931-8274-4b6c-afa6-544b12e78f81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Formato (act)</value>
+      <webElementGuid>9a745127-ce29-42c2-9020-cc2cb6153ada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>6b2b2f0e-a193-4516-b851-673469b742eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+      <webElementGuid>1360edf5-0215-44b4-a008-35f2cee5de84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto Formato'])[1]/following::li[1]</value>
+      <webElementGuid>752017bb-7b0e-437e-82fe-90bad11201eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::li[4]</value>
+      <webElementGuid>bef74f6e-43e3-422e-bab1-f32b743f7abd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::li[1]</value>
+      <webElementGuid>e38e7210-4707-4c84-90ac-7e9b266f3f7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='(act)']/parent::*</value>
+      <webElementGuid>54156eaf-0c51-456b-8fc3-3eff3029f956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li</value>
+      <webElementGuid>bc462337-0345-4996-a9ed-7999c0394fe8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Formato (act)' or . = 'Formato (act)')]</value>
+      <webElementGuid>c7c23c21-3b97-42e0-9e36-ba8a2847528a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

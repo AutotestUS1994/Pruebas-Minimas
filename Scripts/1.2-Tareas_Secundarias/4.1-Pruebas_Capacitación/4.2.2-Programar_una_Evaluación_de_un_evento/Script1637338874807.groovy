@@ -38,10 +38,10 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/a_Programar'))
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/select_SeleccioneENCUESTA DE SATISFACCION CAPACITACION'), 
-    2)
+    1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/select_SeleccioneACEPTADOFINALIZADOINSCRITONO ACEPTADONO APROBADONO ASISTIO'), 
-    1)
+    0)
 
 WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/div_Grupo_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
@@ -51,11 +51,10 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/input_Fecha Limite_popupProgramarEvento_formfechaIn_input'), 
     Keys.chord(Keys.ESCAPE))
 
-while(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/a_Aplicar'), 
-    1)) {
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/a_Aplicar'))
-}
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_una_Evaluación_de_un_evento/a_Aplicar'))
+
+
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Result == 'Se aplico correctamente') {

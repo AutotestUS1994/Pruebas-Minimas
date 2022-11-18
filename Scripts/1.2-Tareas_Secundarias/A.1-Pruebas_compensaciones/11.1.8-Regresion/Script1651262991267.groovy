@@ -53,8 +53,7 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Fecha Documento'), '02/03/2021')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Fecha Documento'), Keys.chord(
-        Keys.ESCAPE))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/input_Fecha Documento'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar1'))
 

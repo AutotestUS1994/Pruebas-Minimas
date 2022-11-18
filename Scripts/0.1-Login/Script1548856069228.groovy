@@ -58,9 +58,12 @@ if (flag) {
         //} else {
         //    println('No conecta a: ' + i)
         //aqui coloca el wait y el clic a l modulo Actos
-        ) //TODO: revisar y quitar esto
-}
+        //TODO: revisar y quitar esto
+        
 
+    )
+}
+WebUI.switchToWindowTitle('SARA')
 def zoom() {
     Robot robot = new Robot()
 
@@ -101,7 +104,7 @@ def a() {
     WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'MkG4/TYiCFC3cb2driP7+Q==')
 
     while (WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), 1)) {
-       WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
+        WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
     }
 }
 

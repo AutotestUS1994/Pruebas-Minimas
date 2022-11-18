@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cambio Del Empleado</name>
+   <tag></tag>
+   <elementGuidId>80490d1a-798a-4dae-93dc-ad7ca993c16d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Cambio Del Empleado')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9250a1aa-b79b-46e3-8b7d-9312f085cc58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_parametroformato:j_idt63:j_idt65:j_idt71</value>
+      <webElementGuid>bb498550-7633-4f48-ac83-888063acb6c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>6b148b91-3384-4e9e-b27e-529c57f5f634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>40b50c42-541b-4aed-9147-6042c3ce7fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_parametroformato:j_idt63:j_idt65:j_idt71&quot;,f:&quot;form_parametroformato&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>a4a1cf4d-57b0-4633-8f56-4bd9e1d89d45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cambio Del Empleado </value>
+      <webElementGuid>4cbd9d5b-4e3a-44aa-b972-40ebf96ba511</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_parametroformato:j_idt63:j_idt65:j_idt71&quot;)</value>
+      <webElementGuid>03e251a8-fda6-44e7-88fa-6c73a94699a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_parametroformato:j_idt63:j_idt65:j_idt71']</value>
+      <webElementGuid>1ef5b135-cc71-4faf-923b-639d63af2305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_parametroformato:j_idt63:j_idt65:j_idt66']/table/tbody/tr/td/a</value>
+      <webElementGuid>83952958-362f-4287-833d-1aea4bf9781b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cambio Del Empleado')]</value>
+      <webElementGuid>c913915c-0c74-4baf-af10-f866d096dc02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto Formato'])[1]/following::a[1]</value>
+      <webElementGuid>5b68227b-618e-4def-9730-69a35a67bddf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::a[5]</value>
+      <webElementGuid>8260bd2f-677d-4e5c-82fa-daf50ee14b22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formato'])[1]/preceding::a[6]</value>
+      <webElementGuid>d8474fc7-64fd-447d-8a2d-86571568a1ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cambio Del Empleado']/parent::*</value>
+      <webElementGuid>32093987-1faf-4d4a-b025-b24a4bb91c67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[40]</value>
+      <webElementGuid>aaf8304a-ac31-4d67-98bf-c4e196069671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>f4b25a87-db72-40d8-bf5c-12239d5cbc97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_parametroformato:j_idt63:j_idt65:j_idt71' and @href = '#' and (text() = 'Cambio Del Empleado ' or . = 'Cambio Del Empleado ')]</value>
+      <webElementGuid>bf1ed0c8-8c39-493e-934e-8cbdc768db76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -621,6 +621,34 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>3f4f7481-f5b8-49c2-b664-986fd56f7972</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.9-situacion_adminitrativa-(situacion-actos)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b1873d6-9d5a-44b6-b69f-e70777ee0fc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.2.1-Mantenimiento_vacaciones-generación_comprobante</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3be4742-6a2e-49a4-8ffe-a24c02bc83a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.2.2-Ingreso_Fuera_Nomina</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>439db657-1639-4d66-8787-693cad36e4ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.2.3-Formato_actos_administrativos</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a151922a-62b1-4438-8868-5a794b369b19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

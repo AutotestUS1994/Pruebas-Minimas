@@ -6,12 +6,12 @@
    <elementGuidId>eecb7e80-89ea-4363-bbed-e7320fafbd66</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='form_actoIngreso:j_idt1115:6:fecha_input']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5a7cda0a-2112-4254-9034-eec0fca266a4</webElementGuid>
+      <webElementGuid>bf85b14a-e22a-4bde-82c7-68d9aef84d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_actoIngreso:j_idt1115:6:fecha_input</value>
-      <webElementGuid>012c5614-078b-4cbf-8ab9-52745746d2bf</webElementGuid>
+      <webElementGuid>4dbcbb83-e68e-42da-b316-04c9d3eb2de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_actoIngreso:j_idt1115:6:fecha_input</value>
-      <webElementGuid>aab1ef81-0424-48da-98a4-6f9e6ee48143</webElementGuid>
+      <webElementGuid>99f44fea-17f2-4a84-84a5-a2c6449f0906</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b669027b-ebcf-408a-90b0-99a1b9e411ce</webElementGuid>
+      <webElementGuid>e7434ffa-246c-4b7d-bab1-fa27633bf709</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
-      <webElementGuid>7955dd96-6a92-4116-9703-dad99504a8c4</webElementGuid>
+      <webElementGuid>5f4a71cc-fa0d-4fb2-9742-1a8a95d2e39f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>864ce89b-77cb-4c24-bcbb-996224397fda</webElementGuid>
+      <webElementGuid>8bb308d2-94a2-4d52-b359-239566f69f6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>ca08be71-55a9-445f-a186-5dab2c8025ff</webElementGuid>
+      <webElementGuid>ec2e1fdf-40db-4aaf-a286-e8b4a450bd72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>df38b660-5236-4400-9fd4-e47500a2fc6b</webElementGuid>
+      <webElementGuid>6bd9f685-4030-4e05-a826-56aee2de9293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>85bf5d6a-6d58-4f6c-98ad-4007d5dbb0c4</webElementGuid>
+      <webElementGuid>02718f90-c417-4d77-8586-9948d66335e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_actoIngreso:j_idt1115:6:fecha_input&quot;)</value>
-      <webElementGuid>db510e9d-4683-4970-b468-2177bfdc167a</webElementGuid>
+      <webElementGuid>998fb2ab-30ed-4cac-ac22-02850afd83e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_actoIngreso:j_idt1115:6:fecha_input']</value>
-      <webElementGuid>be450d44-7a21-43e8-9757-74ffe822980f</webElementGuid>
+      <webElementGuid>e8c29211-d713-44e3-8df7-bb905dfb859c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_actoIngreso:j_idt1115:6:fecha']/input</value>
-      <webElementGuid>97cbd743-b978-4abc-b752-b0931b71c5c5</webElementGuid>
+      <webElementGuid>4cbc4d7c-181e-4fa6-8168-0a9238f4583d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr/td/span/input</value>
-      <webElementGuid>a3ecd2b9-7254-4fb7-9fc8-b2c9e91189ae</webElementGuid>
+      <webElementGuid>3ec68470-14df-448d-ba1a-74fce06be744</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_actoIngreso:j_idt1115:6:fecha_input' and @name = 'form_actoIngreso:j_idt1115:6:fecha_input' and @type = 'text']</value>
-      <webElementGuid>85c7a247-c9f0-4366-a434-389caab71d0e</webElementGuid>
+      <webElementGuid>955ed040-fd6b-4ed6-8542-7ec816d4a826</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_NO RELACIONADA_btn-hoja us-icon-card-img - Copy</name>
+   <tag></tag>
+   <elementGuidId>342d2fd6-6c2b-4afa-a204-9a29a7438962</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div[1]/table/tbody/tr[1]/td[1]/div/div/div/div[2]/div/a[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.btn-hoja.us-icon-card-img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d2c2d433-27f4-44e2-8f72-9c7456afcbeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-hoja us-icon-card-img</value>
+      <webElementGuid>19415c84-1fdb-4b89-abff-bcc13239df1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;filtroExterno:hojas:0:j_idt160&quot;)/span[@class=&quot;btn-hoja us-icon-card-img&quot;]</value>
+      <webElementGuid>89d34821-0343-4c1d-9b61-f309afc9f571</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='filtroExterno:hojas:0:j_idt160']/span</value>
+      <webElementGuid>da4c0e61-36a6-4e88-9b5a-474db14c8ee2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a/span</value>
+      <webElementGuid>cb1ac6bd-9eaf-4a93-ac44-35f579ec3dc9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -42,6 +42,10 @@ Number sumaM = Mes + 1
 
 Number sumaA = Año + 1
 
+if(Dia > 30 || Dia > 31) {
+	Dia = Dia -30
+	MesN = MesN +1
+}
 /*--------------------------*/
 if (Mes < 10) {
     String suma1 = { 
@@ -60,6 +64,7 @@ if (sumaM < 10) {
 
 /*--------------------------*/
 if (sumaD > 30) {
+	
     sumaD = (sumaD - Dia)
 
     Mes = sumaM
@@ -68,7 +73,9 @@ if (sumaD > 30) {
 
     Mes
 }
-
+if (sumaD > 30) {
+	sumaD = 9
+}
 /*--------------------------*/
 if (sumaM > 12) {
     Año = sumaA
@@ -83,7 +90,8 @@ Number restaD0 = sumaD - 1
 
 /*----------------------------*/
 if (Dia0 > 30) {
-    Dia0 = (Dia0 - Dia)
+	
+    Dia0 = Dia0 - Dia
 
     MesN = sumaM
 } else {
@@ -104,6 +112,7 @@ if (restaD0 < 1) {
 }
 
 /*----------------------------*/
+
 def FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
 String FechaF = (((sumaD + '/') + Mes) + '/') + Año
@@ -111,6 +120,11 @@ String FechaF = (((sumaD + '/') + Mes) + '/') + Año
 String FechaI0 = (((Dia0 + '/') + MesN) + '/') + AñoN
 
 String FechaF0 = (((restaD0 + '/') + Mes) + '/') + Año
+
+println (FechaI)
+println (FechaF)
+println (FechaI0)
+println (FechaF0)
 
 /*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
