@@ -38,7 +38,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'), 
     GlobalVariable.G_TimeOut)
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'))
+WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Exportacion de Archivo de Seguridad Social/a_Si'))
 
 WebUI.closeBrowser()
 

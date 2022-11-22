@@ -136,8 +136,14 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/a_Guardar_modficar'))
 
     String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-	if(Result0 == 'El viatico ha sido insertado correctamente') {WebUI.closeBrowser()}
-	else(WebUI.acceptAlert())
+
+    if (Result0 == 'El viatico ha sido insertado correctamente') {
+        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.5.9 Crear Viáticos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -199,8 +205,13 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Modificar Solicitud de Viáticos/a_Guardar_modficar'))
 
     String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-	if(Result == 'El viatico ha sido insertado correctamente') {WebUI.closeBrowser()}
-	else(WebUI.acceptAlert())
-}
 
+    if (Result == 'El viatico ha sido insertado correctamente') {
+        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
+}
 

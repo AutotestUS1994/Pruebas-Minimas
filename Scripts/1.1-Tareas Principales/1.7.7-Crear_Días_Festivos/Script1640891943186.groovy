@@ -95,10 +95,14 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.scrollToElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), 
     0)
-if(Result == 'Registro Actualizado') {
-	String Resultado = 'PRUEBAS OK'
-	WebUI.closeBrowser()
+
+if (Result == 'Registro Actualizado') {
+    String Resultado = 'PRUEBAS OK'
+
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+

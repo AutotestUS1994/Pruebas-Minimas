@@ -76,10 +76,12 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
         String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-		if(Result == 'El viatico ha sido insertado correctamente') {
-			String Resultado = 'PRUEBA OK'
-		}
-		else {WebUI.acceptAlert()}
+
+        if (Result == 'El viatico ha sido insertado correctamente') {
+            String Resultado = 'PRUEBA OK'
+        } else {
+            WebUI.acceptAlert()
+        }
     } else {
         if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Derrogacion viatico/a_Cambiar Fecha Dato'), 
             1)) {
@@ -100,10 +102,13 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 
         String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-    if (Result0 == 'El viatico ha sido insertado correctamente') {WebUI.closeBrowser()}
-	else {WebUI.acceptAlert()}	
-	}
 
+        if (Result0 == 'El viatico ha sido insertado correctamente') {
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
 }
 
 WebUI.closeBrowser()

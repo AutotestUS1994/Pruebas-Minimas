@@ -122,7 +122,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
     2)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
-    4)
+    2)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --COOPERADOESTUDIANTE O APRENDIZINDEPENDIENTEMISIONPLANTA'), 
     5)

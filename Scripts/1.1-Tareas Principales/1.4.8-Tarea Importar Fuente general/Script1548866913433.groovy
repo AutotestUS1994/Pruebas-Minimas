@@ -39,30 +39,12 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Ge
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/td_Insertar Las Liquidaciones Periodicas De Prestamo'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
-
 String ra = ''
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {ra = 'ERROR'
-		WebUI.acceptAlert()
-	}
-}
 
 String ruta = Systema(ra) + 'ArchivoPlanoLiquidacionNomina.txt'
+
 println(ruta)
+
 WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Importar Fuente General/Archivo Cargue Fuente'), 
     ruta)
 
@@ -81,7 +63,34 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 if (Result == 'Se cargo el archivo') {
     String Resultado = 'PRUEBAS OK'
 
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()
 }
+
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        ra = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
+}
+

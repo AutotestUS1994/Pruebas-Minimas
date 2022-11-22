@@ -81,11 +81,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Filter by Aplicacin_formtabtabla_rolesj_idt135'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'Se adicionó el registro satisfactoriamente') {
-	String Resultado = 'Prueba ok'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+
+if (Result == 'Se adicionó el registro satisfactoriamente') {
+    String Resultado = 'Prueba ok'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

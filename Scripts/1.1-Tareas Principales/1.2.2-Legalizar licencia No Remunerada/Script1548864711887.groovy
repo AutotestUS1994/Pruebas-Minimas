@@ -163,32 +163,13 @@ WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))*/
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/Page_SARA/div_Se ha cargado el archivo_ui-fileupload-_55cbf6'))
 
 //String creado para redireccionar  los archivos requeridos por el test//
-
 //obtener  sistema  operativo y definir ruta
 String ra = ''
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {ra = 'ERROR'
-		WebUI.acceptAlert()
-	}
-}
-
 
 String ruta = Systema(ra) + 'ArchivoPlanoLiquidacionNomina.txt'
+
 println(ruta)
+
 WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Se ha cargado el archivo_popupDocumento'), 
     ruta)
 
@@ -209,9 +190,36 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/a_Guardar_1'))
 
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Alerta == 'Se modifico exitosamente su solicitud') {
-WebUI.closeBrowser()
+
+if (Alerta == 'Se modifico exitosamente su solicitud') {
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
+
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        ra = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
 }
+

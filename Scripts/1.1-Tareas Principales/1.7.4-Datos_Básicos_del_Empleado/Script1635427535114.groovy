@@ -137,6 +137,14 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/a_Concepto_conceptoempleado_formj_idt453'))
 
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/label_Concepto'))
+
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_concepto'), 
+    'HORA EXTRA DIURNA FESTIVA')
+
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_concepto'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/span_HORA EXTRA DIURNA FESTIVA'))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Datos_Básicos_del_Empleado/input_Vigencia_conceptoempleado_formfechaVigencia_input'), 

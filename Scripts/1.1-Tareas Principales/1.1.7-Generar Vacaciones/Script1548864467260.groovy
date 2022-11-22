@@ -79,10 +79,10 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Generar Vacaciones/a_Continuar'))
 
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Alerta == 'Se Actualizo correctamente el registro') {
-	String Resultado = 'PRUEBA OK'
-	
+
+if (Alerta == 'Se Actualizo correctamente el registro') {
+    String Resultado = 'PRUEBA OK'
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+

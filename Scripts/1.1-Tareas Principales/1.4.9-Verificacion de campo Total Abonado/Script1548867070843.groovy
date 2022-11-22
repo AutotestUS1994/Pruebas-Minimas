@@ -36,10 +36,12 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/span_PRESTAMO BANCOLOMBIA'))
 
-if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_ReversarEliminar'), 
-    1))
-{
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Verificacion de campo Total Abonado/a_ReversarEliminar'), 
+    1)) {
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else{WebUI.acceptAlert()}
 

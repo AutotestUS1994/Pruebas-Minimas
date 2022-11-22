@@ -57,29 +57,8 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
     0)
 
 //String creado para redireccionar  los archivos requeridos por el test//
-
 //obtener  sistema  operativo y definir ruta
 String ra = ''
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {ra = 'ERROR'
-		WebUI.acceptAlert()
-	}
-}
-
 
 String ruta = Systema(ra) + 'certificado_personal_planta.txt'
 
@@ -108,8 +87,34 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Alerta == 'SE PROCESARÁ SU SOLICITUD') {
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()
+}
+
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        ra = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
 }
 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Concepto</name>
+   <tag></tag>
+   <elementGuidId>8a53edba-7bf4-45d9-b804-d92dfb54c5c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>77263cf5-219d-490e-98dd-04a782b862d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Concepto</value>
+      <webElementGuid>f84905d8-69c0-4c8d-a15b-522aadf5e6f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;conceptoempleado_form:j_idt411_content&quot;)/div[@class=&quot;us-head-popup us-popup-img&quot;]/label[1]</value>
+      <webElementGuid>1373f823-47c3-4525-aa43-cfab77adca06</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='conceptoempleado_form:j_idt411_content']/div/label</value>
+      <webElementGuid>e5b7cff4-cd14-4bfe-a619-f871a913d407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Costo Incurre*'])[1]/following::label[1]</value>
+      <webElementGuid>3bb42ee5-14b6-4b60-b0e1-60362177ba46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Hasta'])[1]/following::label[1]</value>
+      <webElementGuid>51d64bdf-dfe8-4e48-93bd-d5e3317b4101</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Concepto*'])[1]/preceding::label[1]</value>
+      <webElementGuid>59edc156-c3ac-493b-a4c1-7808ffa4d9e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vigencia*'])[1]/preceding::label[1]</value>
+      <webElementGuid>9a368ba4-630a-4e3e-9971-5121a6d54fb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[9]/div/div[2]/div/label</value>
+      <webElementGuid>70a6faaa-ac9e-4aa3-85b9-db1fa363c102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Concepto' or . = 'Concepto')]</value>
+      <webElementGuid>0d4d95ea-837f-49ec-b7d9-d6cbbf2b7141</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

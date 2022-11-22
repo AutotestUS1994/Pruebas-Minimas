@@ -77,11 +77,14 @@ WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Comp
 WebUI.switchToWindowIndex(1, FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_doc'), 
-    1)||WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_doc - Copy'),1)) {
+    1) || WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_doc - Copy'), 
+    1)) {
     String Result = 'PRUEBA OK'
 
     WebUI.closeBrowser()
 } else if (WebUI.verifyElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Comprobante de Pago/a_doc - Copy'))) {
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+
     String Result = 'PRUEBA OK'
 
     WebUI.closeBrowser()
