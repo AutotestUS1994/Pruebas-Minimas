@@ -63,7 +63,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 if (Result == 'Se cargo el archivo') {
     String Resultado = 'PRUEBAS OK'
 
-    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+    
 
     WebUI.closeBrowser()
 } else {

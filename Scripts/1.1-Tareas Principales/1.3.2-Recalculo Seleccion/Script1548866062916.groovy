@@ -62,7 +62,7 @@ WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Alerta == 'Seleccione empleado') {
-    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+    
 
     WebUI.closeBrowser()
 } else {

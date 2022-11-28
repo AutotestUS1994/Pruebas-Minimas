@@ -102,7 +102,7 @@ String Alerta = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Solicitud Nov Empelado/a_Continuar'))
 
 if (Alerta == 'Se ha realizado el proceso') {
-    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+    
 
     WebUI.closeBrowser()
 } else if (Alerta == 'Realizado proceso...') {

@@ -35,7 +35,7 @@ if (resultEmpresa == 'PRUEBA OK') {
 }
 
 if ((resultUsuario == 'PRUEBA OK') && (resultEmpresa == 'PRUEBA OK')) {
-    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+    
 
     WebUI.closeBrowser()
 }

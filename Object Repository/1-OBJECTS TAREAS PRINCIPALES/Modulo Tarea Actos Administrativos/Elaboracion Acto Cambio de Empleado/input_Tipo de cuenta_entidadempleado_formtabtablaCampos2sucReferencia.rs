@@ -8,8 +8,7 @@
       <entry>
          <key>XPATH</key>
          <value>
-//div/div[2]/div[2]/div/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[2]/td/div/div/table/tbody/tr[3]/td[2]/table/tbody/tr/td[1]/input
-</value>
+//div/div[2]/div[2]/div/table/tbody/tr/td/table[1]/tbody/tr[2]/td/div/div/table/tbody/tr[3]/td[2]/table/tbody/tr/td[1]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ffa74030-94a4-4550-b0e8-f8328e1919d8</webElementGuid>
+      <webElementGuid>1555c23d-a63c-4697-b5d8-d4c1cb82216f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:2:sucReferencia</value>
-      <webElementGuid>b2af77c7-8468-4ff9-bbd3-543eec4ae8a1</webElementGuid>
+      <webElementGuid>325c3d25-9f11-4d80-8051-e3ee797eee59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6156b1d9-ecae-4ff1-9663-3789f4dd87a8</webElementGuid>
+      <webElementGuid>38af2e9c-7d68-4530-9307-c840f41a2251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>entidadempleado_form:tab:tablaCampos:2:sucReferencia</value>
-      <webElementGuid>e9e241ac-7865-47da-9a13-6c801fd6a5df</webElementGuid>
+      <webElementGuid>40ae6071-fe58-47d9-9ead-86d92c7fdb2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>eeab33fc-07ca-43d3-b8f0-505ad53470d1</webElementGuid>
+      <webElementGuid>6b183bc2-ee26-4c22-afd7-caf0338cba3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>8</value>
-      <webElementGuid>f0ce838c-2852-4180-bb4b-2261e548917e</webElementGuid>
+      <webElementGuid>b59eb7fe-382f-4c42-a3d8-2c3220507a73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entidadempleado_form:tab:tablaCampos:2:sucReferencia&quot;)</value>
-      <webElementGuid>fddf82db-cd9e-40b8-8a58-c47e64293c1a</webElementGuid>
+      <webElementGuid>bba970a8-f801-4d2b-bac8-00a270743779</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='entidadempleado_form:tab:tablaCampos:2:sucReferencia']</value>
-      <webElementGuid>a48686e2-c206-4f21-aa00-a92bdaa985d4</webElementGuid>
+      <webElementGuid>27ba2d50-62ab-4560-ae28-17e6aed19000</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='entidadempleado_form:tab:tablaCampos_data']/tr[3]/td[2]/input</value>
-      <webElementGuid>ff68c534-8478-4a8e-af39-936bc92d9bf7</webElementGuid>
+      <webElementGuid>48d82466-2da8-486a-9ba9-cfcacbc44719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[2]/input</value>
-      <webElementGuid>77098bd3-5e16-4333-b76a-28227def5353</webElementGuid>
+      <webElementGuid>04021d4b-e7e5-49f4-8e49-6043e2611b43</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

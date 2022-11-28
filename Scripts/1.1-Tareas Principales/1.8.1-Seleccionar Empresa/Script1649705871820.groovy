@@ -83,10 +83,10 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Contrasea'))
 
 WebUI.setEncryptedText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/input_Contrasea_usuarioformatabpasswordNuevo'), 
-    'MkG4/TYiCFC3cb2driP7+Q==')
+    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
 
 WebUI.setEncryptedText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/input_Confirmar_usuarioformatabpasswordConfirma'), 
-    'MkG4/TYiCFC3cb2driP7+Q==')
+    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Actualizar'))
 
@@ -177,23 +177,25 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Aceptar_informacion'))
             }
+            
             salir()
-            WebUI.closeBrowser()
 
-          
+            WebUI.closeBrowser()
         }
     }
 } else {
     WebUI.acceptAlert()
 }
+
 def salir() {
-	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Empresa 1_cerrar_menu'))
-	
-	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Administrador_glyphicons glyphicons-exit'))
-	
-			
-	WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/div_Ingresar Olvide Mi Clave'),0 )
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Empresa 1_cerrar_menu'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Administrador_glyphicons glyphicons-exit'))
+
+    WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/div_Ingresar Olvide Mi Clave'), 
+        0)
 }
+
 def Empresas() {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Acceso Particular'))
 

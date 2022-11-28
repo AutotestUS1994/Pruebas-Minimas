@@ -440,8 +440,6 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
     String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
     if (Alerta == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
-
         WebUI.closeBrowser()
     } else {
         WebUI.acceptAlert()
@@ -479,8 +477,6 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
     String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
     if (Alerta == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Cerrar_sesion_sara/cerrar_sesion'), [:], FailureHandling.STOP_ON_FAILURE)
-
         WebUI.closeBrowser()
     } else {
         WebUI.acceptAlert()
