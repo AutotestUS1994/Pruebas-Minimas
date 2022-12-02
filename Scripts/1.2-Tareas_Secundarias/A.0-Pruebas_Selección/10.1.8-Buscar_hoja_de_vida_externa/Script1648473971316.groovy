@@ -59,6 +59,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Busc
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aplicar2'))
 
+
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar'), 
+    1)) {
+
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/a_Aceptar'))
+}
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_Excluir candidatos bloqueados_ui-chkbox-icon ui-icon ui-icon-check ui-c'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Buscar_hoja_de_vida_externa/span_NO RELACIONADA_btn-procesoactivo us-icon-card-img'))

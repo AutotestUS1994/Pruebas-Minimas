@@ -27,15 +27,18 @@ Number Mes = ((today.format('MM')) as Integer)
 
 Number MesN = ((today.format('MM')) as Integer)
 
-Number Año = ((today.format('yyyy')) as Integer)
+Number AñoI = ((today.format('yyyy')) as Integer)
+
+Number AñoR = ((today.format('yyyy')) as Integer)
 
 /*-----------------------------------------------*/
 Number sumaD = Dia + 10
 
 Number sumaM = Mes + 1
 
-Number sumaA = Año + 1
+Number sumaA = AñoI + 1
 
+Number sumaAR = AñoI + 2
 /*--------------------------*/
 if (sumaD > 30) {
     sumaD = (sumaD - Dia)
@@ -49,17 +52,23 @@ if (sumaD > 30) {
 
 /*--------------------------*/
 if (sumaM > 12) {
-    Año = sumaA
+    AñoI = sumaA
 
     Mes = 1
 }
-
+println(MesN)
+println(Mes)
+if(MesN == 12 && Mes == 1) {
+	AñoR = sumaAR
+	println(AñoR)
+}
 /*---------------------------*/
-String FechaI = (((Dia + '/') + MesN) + '/') + Año
+String FechaI = (((Dia + '/') + MesN) + '/') + AñoI
 
-String FechaF = (((sumaD + '/') + Mes) + '/') + Año
+String FechaF = (((sumaD + '/') + Mes) + '/') + AñoR
 
 /*----------------------------------------------------*/
+
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 /*-----------------------------------------------------------------------------------------------------*/
