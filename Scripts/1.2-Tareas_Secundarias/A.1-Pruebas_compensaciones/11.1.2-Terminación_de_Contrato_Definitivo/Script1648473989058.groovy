@@ -20,6 +20,9 @@ import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 
 /*-----------------NUMERO ALEATORIO ------------------------*/
 double random_double = (Math.random() * 9999) + 999
@@ -245,6 +248,17 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/T
 WebUI.switchToWindowTitle('SARA')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Aplicar - Copy'))
+
+String informacion = ''
+
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a_informacion'), 
+    1)) {
+    informacion = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a_informacion'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a_Aceptar'))
+}
+
+WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/p_Puesto de trabajo ocupado (A1           12)'), 
     1)) {
@@ -521,13 +535,23 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Reporte'))
 
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_informacion'), 
+        1)) {
+        informacion = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a_informacion'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo (2)/a_Aceptar'))
+    }
+    
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Regresar'), 
         1)) {
         WebUI.closeBrowser()
     }
 } else {
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Cancelar'))
-
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Cancelar'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/a_Cancelar'))
+    }
+    
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'), 
         'Actos administrativos')
 
@@ -652,5 +676,15 @@ def Fecha() {
     String Año = today.format('yyyy')
 
     String FechaI = (((Dia + '/') + Mes) + '/') + Año
+}
+
+def Actualizar() {
+    Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SHIFT)
+
+    robot.keyRelease(KeyEvent.VK_R)
 }
 

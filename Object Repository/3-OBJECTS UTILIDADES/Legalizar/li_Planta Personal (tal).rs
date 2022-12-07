@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Planta Personal (tal)</name>
+   <tag></tag>
+   <elementGuidId>9b9262ee-a34e-4436-b2b5-065f30313bb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.ui-autocomplete-item.ui-autocomplete-list-item.ui-corner-all.ui-state-highlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0d0ab254-cda6-414c-97ce-a5f9bbdc6466</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>973fffa4-d02a-4232-b914-ca50c0ac25aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-label</name>
+      <type>Main</type>
+      <value>Planta Personal (tal)</value>
+      <webElementGuid>7bc209a4-c433-4bd0-95eb-6f930e20ed53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-value</name>
+      <type>Main</type>
+      <value>Planta Personal (tal)</value>
+      <webElementGuid>7fae790a-2b1d-415b-9e0b-5704e7a9d9f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>03490d4b-20b4-4211-b28e-56cb1028e519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Planta Personal (tal)</value>
+      <webElementGuid>07541fd3-15e8-4a6e-a18c-2c78364130b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>837750be-d581-462b-969b-7bd3b3581d7a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+      <webElementGuid>d35b2553-0a65-4615-b4e6-93a123311e5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::li[1]</value>
+      <webElementGuid>728d9035-deac-4ae9-9cd7-f1ce83f76b30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Correo'])[1]/following::li[1]</value>
+      <webElementGuid>c6c0f399-328d-4b3e-a3c2-f80b35ce2910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ersonal (tal)']/parent::*</value>
+      <webElementGuid>46380bab-3c5a-4b2a-a648-637b181b447e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/ul/li</value>
+      <webElementGuid>df0a344e-5f12-429e-ab8a-2634e366494b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Planta Personal (tal)' or . = 'Planta Personal (tal)')]</value>
+      <webElementGuid>047c512d-2f4b-41de-9ccc-0486d9037523</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
