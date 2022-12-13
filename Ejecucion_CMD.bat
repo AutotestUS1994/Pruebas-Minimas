@@ -1,1 +1,0 @@
-katalonc -noSplash -runMode=console -projectPath="C:\Users\diego.rojas\git\Pruebas-Minimas\Pruebas minimas.prj" -retry=0 -testSuiteCollectionPath="Test Suites/Ejecuciòn Firefox Chrome" -apiKey="testus2020" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true

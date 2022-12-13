@@ -707,7 +707,7 @@ boolean archivoDescargado(String rutaA, String Archivo, String Archivo1, String 
 
     File[] dirContenidos = dir.listFiles()
 
-    for (int i = 0; i < dirContenidos.length; i++) {
+    for(int i = 0; i < dirContenidos.length; i++) {
         if ((dirContenidos[i]).getName().equals(Archivo)) {
             (dirContenidos[i]).delete()
 
