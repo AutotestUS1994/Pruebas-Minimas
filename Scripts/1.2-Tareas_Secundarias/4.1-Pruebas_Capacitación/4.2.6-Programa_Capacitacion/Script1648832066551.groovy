@@ -311,7 +311,10 @@ def fechafinal() {
     } else {
         sumaM
     }
-    
+    if(Mes > 12) {
+		Mes = 1
+		Año = Año + 1
+	}
     String fechaF = (((sumaD + '/') + Mes) + '/') + Año
 }
 

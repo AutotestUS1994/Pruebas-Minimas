@@ -67,6 +67,12 @@ if (MesF > 12) {
     MesF = 1
 }
 
+if (Mes > 12) {
+    Mes = 1
+
+    Año = (Año + 1)
+}
+
 String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
 String FechaF = (((DiaF + '/') + Mes) + '/') + Año
@@ -172,8 +178,11 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ra = ''
+
 String ruta2 = Systema(ra) + 'saraapp.png'
+
 println(ruta2)
+
 WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/input_Choose_form_publicacionEventotabla1archivo_input'), 
     ruta2)
 
@@ -249,22 +258,28 @@ if (Es1 == Imagen2) {
         }
     }
 }
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {ra = 'ERROR'
-		WebUI.acceptAlert()
-	}
+
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        ra = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
 }
+
