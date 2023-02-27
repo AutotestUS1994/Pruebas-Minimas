@@ -30,17 +30,11 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Prog
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
     1)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
-    '29/06/2017')
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_filtroprocesoseleccion'), 
+    '544')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
-    '29/06/2017')
-
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
-    Keys.chord(Keys.ESCAPE))
-
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_filtroprocesoseleccion'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/td_8028     - Analista De Sistemas'))
 
@@ -101,23 +95,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Pr
 
 WebUI.check(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Evaluacin Artstica_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_Fecha_popupCitacion_formfecha_inicial_input'), 
-    Fecha())
-
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--010203040506070809101112'), 
-    8)
-
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--00153045'), 
-    1)
-
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/select_--AMPM'), 
-    2)
-
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Continuar'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'), 
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_ui-chkbox-icon2'), 
     1)) {
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/div_Constantino  Jhon9741850_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/span_ui-chkbox-icon2'))
 }
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Generar'))
@@ -135,23 +117,28 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/a_Actualizar'))
 }
+
 if (Result == 'El candidato ha sido registrado correctamente') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else if (Result == 'Las citaciones han sido generadas correctamente') {
-	String Resultado0 = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else if (Result == 'Las citaciones han sido generadas correctamente') {
+    String Resultado0 = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 
-def Fecha () {
-	Date today = new Date()
-	String Dia = (today.format('dd'))
-	String Mes = (today.format('MM'))
-	String Año = (today.format ('yyyy'))
-	String FECHA = (((Dia + '/')+ Mes)+ '/')+ Año
+def Fecha() {
+    Date today = new Date()
 
+    String Dia = today.format('dd')
+
+    String Mes = today.format('MM')
+
+    String Año = today.format('yyyy')
+
+    String FECHA = (((Dia + '/') + Mes) + '/') + Año
 }
+

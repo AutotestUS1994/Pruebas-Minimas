@@ -289,8 +289,10 @@ def fechafinal() {
     Number Mes = ((today.format('MM')) as Integer)
 
     Number Año = ((today.format('yyyy')) as Integer)
+	
+	String mesMenor = ""
 
-    def sumaD = Dia + 10
+    def sumaD = Dia + 2
 
     def sumaM = Mes + 1
 
@@ -315,7 +317,13 @@ def fechafinal() {
 		Mes = 1
 		Año = Año + 1
 	}
+	if(Mes < 10) {
+		mesMenor= "0"+Mes
+		String fechaF = (((sumaD + '/') + mesMenor) + '/') + Año
+	}
+	else {
     String fechaF = (((sumaD + '/') + Mes) + '/') + Año
+	}
 }
 
 def nombreAlea() {

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/table/tbody/tr/td[2]</value>
+         <value>
+/div/div[1]/table/tbody/tr[1]/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e4f7c779-6c7e-404f-ad49-6dce28eb29ac</webElementGuid>
+      <webElementGuid>8a61ae71-489d-401b-9251-e2ec4d44fdd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>1caea03e-3368-4758-8a37-ef493f26b1d8</webElementGuid>
+      <webElementGuid>abb69f92-110d-44d5-a6b5-e94655537cb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ingreso Definitivo Indefinido Salario Basico</value>
-      <webElementGuid>4afc5536-d249-4d4d-9f42-3e3bce166221</webElementGuid>
+      <webElementGuid>30b74c01-8aca-480e-8880-2249b1a59bd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:tabla_principal_actos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>6c304fee-49d6-4e8f-9692-27904ec3754c</webElementGuid>
+      <webElementGuid>40ef6122-39de-4b50-abf3-e689ab00fad9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_ActosAdministrativos:tabla_principal_actos_data']/tr/td[2]</value>
-      <webElementGuid>b94f7c91-7cab-4e33-82ae-281422167d96</webElementGuid>
+      <webElementGuid>332a8406-46b5-4143-a4f6-26e0983d67a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina'])[1]/following::td[1]</value>
-      <webElementGuid>1e18bb82-d805-4be8-96bc-5713c812a20a</webElementGuid>
+      <webElementGuid>ba095d88-4ca1-44c7-90a5-abb8beaeb4e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo'])[1]/following::td[2]</value>
-      <webElementGuid>9c6379d6-55a2-4bca-89ae-97b689c6b2ce</webElementGuid>
+      <webElementGuid>a233ca6a-d5e9-4b43-bd05-81a9bcc79dff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ingreso Definitivo Indefinido Salario Basico']/parent::*</value>
-      <webElementGuid>321906f2-6e8e-4f3a-bc5d-1d65522d10a8</webElementGuid>
+      <webElementGuid>490ee7d2-e0fa-4a04-9b4a-206e4a4b4ea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>f37dcd1e-083e-430a-b511-718efb5b7514</webElementGuid>
+      <webElementGuid>f756f5c6-9b20-4bf0-a315-6f3735ffd27c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Ingreso Definitivo Indefinido Salario Basico' or . = 'Ingreso Definitivo Indefinido Salario Basico')]</value>
-      <webElementGuid>56b21e58-7afe-49c1-af7c-e522ef0a30d9</webElementGuid>
+      <webElementGuid>c4b8147d-c046-46f3-8ba9-24c047253a67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -69,11 +69,12 @@ def a() {
     } else {
         WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), USER)
 
-        WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+        WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhT6NnI7sEyng')
 
-        WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), GlobalVariable.G_TimeOut)
-
+        if(WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), 1))
+        {
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
+        }
     }
 }
 

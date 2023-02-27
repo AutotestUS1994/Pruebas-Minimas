@@ -6,11 +6,12 @@
    <elementGuidId>2fc7790d-7c49-41f5-8de0-b7c8bb7ea968</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[2]/td[2]/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//tr[1]/td[5]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>24fe4fc1-6239-4ace-943f-e555f6e7b71c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:descripcionTipoBeneficio</value>
+      <webElementGuid>03a1864c-8a5d-4aa5-ae57-c53692a3011a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>5cc3f885-2f42-44dc-b3ad-fad500379adf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:descripcionTipoBeneficio</value>
+      <webElementGuid>913299fd-89e6-4c2f-92f5-36929ff8f73c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>6b5f51d1-54f9-444f-bbfa-b414e034d214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>8244f77f-8712-4391-b76f-b07a9aa6b519</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formDetalleTipoBeneficioBienestar:descripcionTipoBeneficio&quot;)</value>
+      <webElementGuid>a4dda004-678f-4b26-9b3e-79c2fb38a17d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formDetalleTipoBeneficioBienestar:descripcionTipoBeneficio']</value>
+      <webElementGuid>e337b14c-f9bf-4c87-97ae-9ac616d88807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formDetalleTipoBeneficioBienestar']/table/tbody/tr/td/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>178a8e25-e270-43d1-9607-960461deeb16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/input</value>
+      <webElementGuid>eac2fb58-2dab-4e05-a011-8d03b022e966</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

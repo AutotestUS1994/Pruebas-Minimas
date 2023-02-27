@@ -6,15 +6,14 @@
    <elementGuidId>426316b5-829f-4e78-bd90-f5bb90e47f66</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/div/form[6]/div/div[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a
-</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +24,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupReporte:j_idt1326']</value>
-      <webElementGuid>06598224-4470-42ff-88f6-ba7bfe2a8679</webElementGuid>
+      <webElementGuid>a1a54619-2dbe-4d43-a6e1-cd398045767a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -33,7 +32,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:idEjecutar']/tbody/tr/td[2]/a</value>
-      <webElementGuid>ca9d09a8-5ab7-4ae6-b802-b97e0b0a95ee</webElementGuid>
+      <webElementGuid>08440f3f-1c8d-408f-aa35-e6389443a53b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -41,7 +40,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Generar')]</value>
-      <webElementGuid>8c172f65-7f4e-4553-8fed-8145eff55950</webElementGuid>
+      <webElementGuid>89f44108-4f35-4577-a157-ea4ee0e2528b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,7 +48,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Segundo Plano'])[1]/following::a[2]</value>
-      <webElementGuid>2eaf7c32-e7ec-40ff-bd6c-e63089e8b1d6</webElementGuid>
+      <webElementGuid>78b05cde-1c16-4174-9538-bc340f3c4aa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +56,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/following::a[2]</value>
-      <webElementGuid>1e7b4197-684b-48d3-9239-af1debb22010</webElementGuid>
+      <webElementGuid>7ba32108-1407-4cf1-a3a7-96afa6dbc1ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::a[3]</value>
-      <webElementGuid>317432d7-cd6e-4cde-b909-90da2602394f</webElementGuid>
+      <webElementGuid>8ff62bb2-3bd5-4c26-93df-19c5e543d34c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[2]/preceding::a[3]</value>
-      <webElementGuid>1c585c3b-81ea-474d-aa34-26fd11720b2b</webElementGuid>
+      <webElementGuid>aa4e9ecd-7f8b-4a04-9b85-f4ca0fa8d316</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[33]</value>
-      <webElementGuid>8410c9db-ede2-4a03-85bf-dac12fc52be7</webElementGuid>
+      <webElementGuid>3bedd3f7-0d1b-4220-9cbe-aab45512022d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>3a225649-54ff-4acb-92aa-d07772df5892</webElementGuid>
+      <webElementGuid>0821d922-383f-4b09-9ab9-baa3590b99c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupReporte:j_idt1326' and @href = '#' and (text() = 'Generar' or . = 'Generar')]</value>
-      <webElementGuid>6c76a4c3-4115-4127-b332-cb0abb0eda15</webElementGuid>
+      <webElementGuid>7c850410-94e7-4034-b9e1-b21fb4e8e58a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso Externo'])[1]/following::a[2]</value>
-      <webElementGuid>6baef4bb-6afc-452f-96c4-4f4e2b37c700</webElementGuid>
+      <webElementGuid>196bb030-29a6-4f9b-b631-fc3d498849a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[2]</value>
-      <webElementGuid>cbd19275-7a38-45a9-82dc-ca25363e02b3</webElementGuid>
+      <webElementGuid>c20cb6a8-275e-4112-b8bf-9db5071f84b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
-      <webElementGuid>ed689dd2-e95a-4fee-b8c0-01a3ca6b8218</webElementGuid>
+      <webElementGuid>ff472fe2-fcd0-4517-8d19-22dd0f27b4bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +128,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descargar'])[1]/following::a[2]</value>
-      <webElementGuid>b1d9a1fc-2c99-4264-8708-e309d159d25c</webElementGuid>
+      <webElementGuid>ebcfb179-1673-4223-a14c-c348f86d51a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

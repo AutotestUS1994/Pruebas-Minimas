@@ -6,12 +6,12 @@
    <elementGuidId>8a9516b3-ff64-4daa-ab78-c2f91b1a2d99</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.ui-state-highlight.fila_tabla_ace.ui-state-hover > td</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Prueba Proceso Selección Etapa Proceso']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='PRUEBA']/parent::*</value>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.ui-state-highlight.fila_tabla_ace.ui-state-hover > td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>e3554094-7464-4898-8219-4ea34ce86510</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>05f53de9-cf78-46b9-b80a-ba10875f9797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PRUEBA</value>
+      <webElementGuid>1a80326c-e767-4bcf-ba31-5090bf33806a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCitacion_form:listaEtapas_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
+      <webElementGuid>6715d051-bc82-4168-8c8a-fa1428d171e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='popupCitacion_form:listaEtapas_data']/tr[9]/td</value>
+      <webElementGuid>59bc177b-0c00-4859-9367-b38e1651ec97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratación'])[1]/following::td[1]</value>
+      <webElementGuid>f3370e7a-d586-427b-99d5-137e0318106b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrevista Jefe Inmediato'])[1]/following::td[2]</value>
+      <webElementGuid>3b3ddd59-0782-4d83-a193-fffc13607987</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Proceso Selección Etapa Proceso'])[1]/preceding::td[1]</value>
+      <webElementGuid>b186ed4f-e7a5-4197-a80c-79ab10b42cd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Competencia Selección'])[1]/preceding::td[3]</value>
+      <webElementGuid>be5e3610-2601-4e7c-98b5-e9e595bd267c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PRUEBA']/parent::*</value>
+      <webElementGuid>46be4b3f-4827-4bea-94dd-a8bf96d41116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td</value>
+      <webElementGuid>43f4d44a-f22a-41ac-a253-aa490c04279e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'PRUEBA' or . = 'PRUEBA')]</value>
+      <webElementGuid>003163a5-eeb6-4024-88a7-6196a1cd8dd4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

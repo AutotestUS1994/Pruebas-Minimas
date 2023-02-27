@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
     GlobalVariable.G_Usuario)
 
 WebUI.setEncryptedText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword'), 
-    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Ingresar'))
 
@@ -107,7 +107,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gen
     'saraadmin')
 
 WebUI.setEncryptedText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword'), 
-    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Ingresar'))
 

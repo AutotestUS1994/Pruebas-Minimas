@@ -6,12 +6,11 @@
    <elementGuidId>d6827844-5a39-464c-b40c-ae00797de908</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//th[2]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9f57a4fe-b54f-4937-9a85-4f20d3258912</webElementGuid>
+      <webElementGuid>87fabc2d-97d1-4e5c-a1ce-b7314da14366</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter</value>
-      <webElementGuid>907d3da0-8d19-48b3-82dd-b2b4bbae4a3b</webElementGuid>
+      <webElementGuid>66226fce-6b0c-4aa1-ac4c-f4f5f2ee7118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter</value>
-      <webElementGuid>e7d50719-1287-4aa1-b42d-a839a2ef5d7d</webElementGuid>
+      <webElementGuid>cab7c80e-8076-42a9-a1f7-2d09d6215f2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-column-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
-      <webElementGuid>9b4e6186-c4aa-473f-8d82-4a0379ce3dd7</webElementGuid>
+      <webElementGuid>654ba99e-86aa-4b48-be60-9dcb51a08706</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>5c9d83f9-6643-4430-a8f9-f18593b87c7b</webElementGuid>
+      <webElementGuid>afbcfe2e-549e-4cf6-a8b0-4fd2048cf9ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter_label</value>
-      <webElementGuid>ac09671e-92fd-4030-8dea-5231570ed8a0</webElementGuid>
+      <webElementGuid>a07cfcdf-f121-4511-bbea-0b46beb8e479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>315e8920-8ec5-48c3-8266-4ff17a9a7335</webElementGuid>
+      <webElementGuid>412b21ca-0723-492c-bb5e-55ea92101e73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1297e521-0796-4e9a-9e7e-7d98988d47f2</webElementGuid>
+      <webElementGuid>64c4b457-bedc-4fd1-aad1-d1b5948b8a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>531d8fa8-b69f-4152-88cb-842fb1c61bd5</webElementGuid>
+      <webElementGuid>94190af3-0a7c-47be-9ca1-ee918d0f06c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter&quot;)</value>
-      <webElementGuid>eb4b0e35-d4b0-4efe-89c8-618d5b35423d</webElementGuid>
+      <webElementGuid>7d369cce-8be9-4ded-b557-6cf95cfb8fc1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter']</value>
-      <webElementGuid>b4d579fd-2619-4aa2-87e3-90508facd459</webElementGuid>
+      <webElementGuid>5774d24a-a996-4a64-8058-56e45240fa31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//th[@id='form_ActosAdministrativos:tabla_principal_actos:j_idt115']/input</value>
-      <webElementGuid>08702e1d-7e78-42d4-9d39-2f4f8aab03d1</webElementGuid>
+      <webElementGuid>c94a2630-3284-4bbe-bc0e-0a8cf0e5fb2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[2]/input</value>
-      <webElementGuid>68672674-bc1f-4f8e-a462-2bcda39394e1</webElementGuid>
+      <webElementGuid>f530b9ce-3a8a-4224-8abe-9cf6e401bfd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter' and @name = 'form_ActosAdministrativos:tabla_principal_actos:j_idt115:filter']</value>
-      <webElementGuid>b8efe1ae-52c7-4f18-80d8-5ab882bf41a8</webElementGuid>
+      <webElementGuid>a1f3b65e-119e-4d06-ab44-dbea22c81923</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

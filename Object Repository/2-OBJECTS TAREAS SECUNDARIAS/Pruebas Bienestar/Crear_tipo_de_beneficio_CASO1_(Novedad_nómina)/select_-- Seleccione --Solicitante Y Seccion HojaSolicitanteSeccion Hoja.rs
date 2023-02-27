@@ -6,11 +6,12 @@
    <elementGuidId>06522784-1ec6-4aec-9fa9-d44b8e4caccb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[4]/td[2]/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//tr[2]/td[5]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>260870b9-b6f9-4bea-880a-c9351d48fc28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:empleado</value>
+      <webElementGuid>47d70b36-796e-45fc-aa21-f4648026e601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:empleado</value>
+      <webElementGuid>f76c6d11-7b22-4ffa-b459-968a2e782379</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>81ddf0cc-d44b-4c80-8219-2c00a45c2f9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>3e382d2e-6034-4eea-b123-dcf210b8cb92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;formDetalleTipoBeneficioBienestar&quot;,p:&quot;formDetalleTipoBeneficioBienestar&quot;,u:&quot;formDetalleTipoBeneficioBienestar&quot;});</value>
+      <webElementGuid>d22c9278-3e62-4537-9733-7b6eabe5535c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,6 +74,7 @@
 	Solicitante
 	Seccion Hoja
 </value>
+      <webElementGuid>c0bee8fb-8bae-428a-93c7-cfa273f40234</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,6 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formDetalleTipoBeneficioBienestar:empleado&quot;)</value>
+      <webElementGuid>fb7cbc2d-60ac-4854-b8c2-a9b3da8c9265</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,6 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formDetalleTipoBeneficioBienestar:empleado']</value>
+      <webElementGuid>bae91094-59ae-4137-835f-8e097c0438a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formDetalleTipoBeneficioBienestar']/table/tbody/tr/td/table/tbody/tr[4]/td[2]/select</value>
+      <webElementGuid>7a2c3b62-180c-47de-ab1b-cdd0eefdfe41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dirigido a *'])[1]/following::select[1]</value>
+      <webElementGuid>bf8682f8-c332-472f-8358-d36a709e06f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Beneficio *'])[1]/following::select[2]</value>
+      <webElementGuid>a778fe62-2151-45ce-83e2-934f4e1527a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forma Recaudo *'])[1]/preceding::select[1]</value>
+      <webElementGuid>321f6115-109d-4d76-af6d-cf0e77f114d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maneja Tarifas *'])[1]/preceding::select[2]</value>
+      <webElementGuid>35e4626a-cd9a-41bc-ba31-affd8c23c4b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,5 +138,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[2]/select</value>
+      <webElementGuid>8b722a1d-dcd6-4a51-a192-4f363940e313</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

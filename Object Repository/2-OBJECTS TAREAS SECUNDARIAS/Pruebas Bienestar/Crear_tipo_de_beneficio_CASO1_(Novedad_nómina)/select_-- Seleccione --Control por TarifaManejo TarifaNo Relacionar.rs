@@ -6,11 +6,12 @@
    <elementGuidId>1327667b-13ce-4da6-974d-bc3e2e733f31</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[12]/td[2]/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[4]/td[2]/select
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>6b8ca76e-c773-46a5-957e-b3eba982d5da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:tarifas</value>
+      <webElementGuid>508bdc2d-d5d2-47fb-861c-2953328c81b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:tarifas</value>
+      <webElementGuid>afc95172-76f0-42e6-afb4-19fdf0c4a992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>989b38fe-7299-443c-8a4c-a1dd42c11768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>546a5e6d-89a6-461a-b9d2-35893f7e816a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,6 +66,7 @@
 	Manejo Tarifa
 	No Relacionar
 </value>
+      <webElementGuid>7adac84a-efda-472f-bd70-c3df3b20bb3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formDetalleTipoBeneficioBienestar:tarifas&quot;)</value>
+      <webElementGuid>74bce48c-a504-4fa5-9891-e7ceb8880eb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formDetalleTipoBeneficioBienestar:tarifas']</value>
+      <webElementGuid>10d911f3-c80a-4793-8334-860fadf6f0a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formDetalleTipoBeneficioBienestar']/table/tbody/tr/td/table/tbody/tr[12]/td[2]/select</value>
+      <webElementGuid>42613b9d-75d1-4656-a2b5-375be4869d2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maneja Tarifas *'])[1]/following::select[1]</value>
+      <webElementGuid>f3053e44-5869-4206-8aa5-e0611c74927c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forma Recaudo *'])[1]/following::select[2]</value>
+      <webElementGuid>56c308cb-3e25-4600-b96f-9fe7578fe702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Programación Por Periodo *'])[1]/preceding::select[1]</value>
+      <webElementGuid>d28bfafa-fd87-4810-8421-4e4397269af7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nivel'])[1]/preceding::select[2]</value>
+      <webElementGuid>02c5fc37-dbac-4026-bc22-6b8b626566ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[12]/td[2]/select</value>
+      <webElementGuid>61b04fed-4c9d-4ecd-9afa-b74166a99305</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

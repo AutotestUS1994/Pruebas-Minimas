@@ -66,10 +66,28 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
     if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 1)) {
         String puesto = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-        String subPuesto = puesto.substring(30, 36)
+        String contador = puesto.length()
 
-        println(subPuesto)
+        String TokenCount = Integer.parseInt(contador)
 
+        int TokenCount1 = Integer.parseInt(TokenCount)
+
+        System.out.println(TokenCount1)
+
+        String subPuesto = ""
+
+
+        if (TokenCount1 == 49) {
+            subPuesto = puesto.substring(43, 48)
+        } else if (TokenCount1 == 36) {
+            subPuesto = puesto.substring(29, 35)
+
+        } else {
+			println(TokenCount1)
+			WebUI.acceptAlert()
+			println(TokenCount1)
+        }
+        
         if (puesto != 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
             liberar(subPuesto)
         }
@@ -101,11 +119,10 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
         }
     }
     
-    if(WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'), 1))
-    {
-
-    WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'))
+    if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'), 1)) {
+        WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'))
     }
+    
     WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Legalizar/input_Filtrar por Actos Administrativos_form_ActosAdministrativostabla_principal_actosj_idt115filter'), 
         'Ingreso Definitivo Indefinido Salario Basico')
 
@@ -120,10 +137,14 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
 
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Aplicar'))
 
+        while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_incluir'), 1)) {
+            WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_incluir'))
+        }
+        
         if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 1)) {
             String puesto = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-            String subPuesto = puesto.substring(31, 35)
+            String subPuesto = puesto.substring(43, 48)
 
             println(subPuesto)
 

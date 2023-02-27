@@ -61,10 +61,10 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Solicitante Y Seccion HojaSolicitanteSeccion Hoja'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --familia'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --DescuentoNo RecaudoNovedad hacia NminaPrestamo'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --DescuentoNo RecaudoNovedad hacia NminaPrestamo'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --familia'), 
     1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_-- Seleccione --Control por TarifaManejo TarifaNo Relacionar'), 
@@ -79,15 +79,18 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas B
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_Convenio--Seleccione--NoSi'), 
     2)
 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/select_--Seleccione --No requiere formalizar'), 
+    1)
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_tipo_de_beneficio_CASO1_(Novedad_nómina)/a_Guardar'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-if(Result == 'Se Guardó el registro correctamente') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-	}
-else {
-WebUI.acceptAlert()
+if (Result == 'Se Guardó el registro correctamente') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

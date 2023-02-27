@@ -463,8 +463,9 @@ if (informacion == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'
         String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
         if (Alerta == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-			WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:],
-				FailureHandling.STOP_ON_FAILURE)
+            WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), 
+                [:], FailureHandling.STOP_ON_FAILURE)
+
             WebUI.closeBrowser()
         } else {
             WebUI.acceptAlert()
@@ -717,8 +718,9 @@ if (informacion == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'
     String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
     if (Alerta == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-		WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:],
-			FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:], 
+            FailureHandling.STOP_ON_FAILURE)
+
         WebUI.closeBrowser()
     } else {
         WebUI.acceptAlert()
@@ -760,9 +762,9 @@ if (informacion == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE'
     String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
     if (Alerta == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-		WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:],
-			FailureHandling.STOP_ON_FAILURE)
-		
+        WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:], 
+            FailureHandling.STOP_ON_FAILURE)
+
         WebUI.closeBrowser()
 
         WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Legalizar'), [:], 

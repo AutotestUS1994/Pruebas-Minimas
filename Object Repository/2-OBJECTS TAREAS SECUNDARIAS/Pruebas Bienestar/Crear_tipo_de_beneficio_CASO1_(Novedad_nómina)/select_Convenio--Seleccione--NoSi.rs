@@ -6,11 +6,11 @@
    <elementGuidId>b34a8d66-48dd-494a-a112-c1941fd3e3db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='formDetalleTipoBeneficioBienestar:conveniocontrato']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[8]/td[5]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>8b7e4988-336a-40a2-9533-b96255c72944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:conveniocontrato</value>
+      <webElementGuid>71c9ad12-f322-4d95-bc39-a0b42250ef1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formDetalleTipoBeneficioBienestar:conveniocontrato</value>
+      <webElementGuid>a578a6e8-628e-428f-9b4b-f21af9269678</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>9ae6bbf0-3e0b-4d49-aee9-15c131474102</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>f1aeecc2-178f-43d4-b703-5ce35b6ec2ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,6 +64,7 @@
 	No
 	Si
 </value>
+      <webElementGuid>cb124e56-acae-4bd3-8c2a-a368e62920af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,6 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formDetalleTipoBeneficioBienestar:conveniocontrato&quot;)</value>
+      <webElementGuid>7feab052-040d-41b6-a942-25e354d75ff6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,6 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formDetalleTipoBeneficioBienestar:conveniocontrato']</value>
+      <webElementGuid>ce5fdc9c-d9b3-4a7f-ad98-b1e14072cef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='formDetalleTipoBeneficioBienestar']/table/tbody/tr/td/table/tbody/tr[23]/td[2]/select</value>
+      <webElementGuid>ee18e84d-71dd-4875-b5ee-506d37935b45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Convenio Contrato'])[1]/following::select[1]</value>
+      <webElementGuid>8a13bb6b-c2c0-4f2c-b042-3ef0040dcd5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Control Fecha Asignación'])[1]/following::select[2]</value>
+      <webElementGuid>ca0b479b-d14d-4aaf-af08-1bfd944dff38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Requiere Formalizar *'])[1]/preceding::select[1]</value>
+      <webElementGuid>b215caad-2dfd-45a1-b388-3f2a33bacc58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Formula'])[1]/preceding::select[2]</value>
+      <webElementGuid>3b9cd116-325c-4b9c-a5e3-132183d9879b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,5 +128,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[23]/td[2]/select</value>
+      <webElementGuid>4dd6d038-19b6-4e13-9ea1-d09a7fbe84d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

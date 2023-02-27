@@ -62,8 +62,6 @@ if (flag) {
         )
 }
 
-WebUI.switchToWindowTitle('SARA')
-
 def zoom() {
     Robot robot = new Robot()
 
@@ -97,11 +95,17 @@ def zoom() {
 }
 
 def a() {
-    zoom()
+    if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), 0)) {
+        WebUI.switchToWindowTitle('SARA')
 
+        zoom()
+    } else {
+        WebUI.acceptAlert()
+    }
+    
     WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario)
 
-    WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhT6NnI7sEyng')
 
     while (WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), 1)) {
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'))
