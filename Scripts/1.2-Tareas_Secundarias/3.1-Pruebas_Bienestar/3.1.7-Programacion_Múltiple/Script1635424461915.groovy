@@ -42,10 +42,12 @@ Number sumaM = Mes + 1
 
 Number sumaA = Año + 1
 
-if(Dia > 30 || Dia > 31) {
-	Dia = Dia -30
-	MesN = MesN +1
+if ((Dia > 30) || (Dia > 31)) {
+    Dia = (Dia - 30)
+
+    MesN = (MesN + 1)
 }
+
 /*--------------------------*/
 if (Mes < 10) {
     String suma1 = { 
@@ -64,7 +66,6 @@ if (sumaM < 10) {
 
 /*--------------------------*/
 if (sumaD > 30) {
-	
     sumaD = (sumaD - Dia)
 
     Mes = sumaM
@@ -73,9 +74,11 @@ if (sumaD > 30) {
 
     Mes
 }
+
 if (sumaD > 30) {
-	sumaD = 9
+    sumaD = 9
 }
+
 /*--------------------------*/
 if (sumaM > 12) {
     Año = sumaA
@@ -90,8 +93,7 @@ Number restaD0 = sumaD - 1
 
 /*----------------------------*/
 if (Dia0 > 30) {
-	
-    Dia0 = Dia0 - Dia
+    Dia0 = (Dia0 - Dia)
 
     MesN = sumaM
 } else {
@@ -112,7 +114,6 @@ if (restaD0 < 1) {
 }
 
 /*----------------------------*/
-
 def FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
 String FechaF = (((sumaD + '/') + Mes) + '/') + Año
@@ -121,10 +122,13 @@ String FechaI0 = (((Dia0 + '/') + MesN) + '/') + AñoN
 
 String FechaF0 = (((restaD0 + '/') + Mes) + '/') + Año
 
-println (FechaI)
-println (FechaF)
-println (FechaI0)
-println (FechaF0)
+println(FechaI)
+
+println(FechaF)
+
+println(FechaI0)
+
+println(FechaF0)
 
 /*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -154,17 +158,11 @@ WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     FechaI)
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
-    Keys.chord(Keys.ENTER))
-
 WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     0)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     FechaF)
-
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
-    Keys.chord(Keys.ESCAPE))
 
 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'), 
     1)) {
@@ -185,9 +183,6 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
-    Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/label_MAR'), 
     0)
@@ -245,9 +240,6 @@ WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     FechaI0)
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
-    Keys.chord(Keys.ENTER))
-
 WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     0)
 
@@ -304,12 +296,13 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Guardar'))
 
-String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), FailureHandling.STOP_ON_FAILURE)
-if(Result == 'Se guardo satisfactoriamente.') {
-	String Resultado = 'PRUEBAS OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), FailureHandling.STOP_ON_FAILURE)
+
+if (Result == 'Se guardo satisfactoriamente.') {
+    String Resultado = 'PRUEBAS OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

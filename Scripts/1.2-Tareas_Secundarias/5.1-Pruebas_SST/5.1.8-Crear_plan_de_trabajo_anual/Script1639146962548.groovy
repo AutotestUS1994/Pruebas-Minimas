@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
@@ -122,9 +121,6 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_pla
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/input_Fecha_form_datosBasicosPlanTrabajofecha_input'), 
     '01/07/2021')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/input_Fecha_form_datosBasicosPlanTrabajofecha_input'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/select_SEDE NORTESEDE OCCIDENTESEDE SUR'), 
     0)
 
@@ -212,8 +208,11 @@ WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 //String creado para redireccionar  los archivos requeridos por el test//
 String ra = ''
+
 String ruta = Systema(ra) + 'prueba.pdf'
+
 println(ra)
+
 WebUI.uploadFile(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/input_Cargar Archivo_popupCargarArchivoForminputFileName_input'), 
     ruta)
 
@@ -228,34 +227,39 @@ WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_plan_de_trabajo_anual/a_Descargar_form_actividadesObjetivosPlanTrabajotabsActividadestablaAnexosj_idt770'))
 
-String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 WebUI.scrollToPosition(400, 400)
-if(Result == 'Registro Actualizado') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-WebUI.acceptAlert()
-}
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {ra = 'ERROR'
-		WebUI.acceptAlert()
-	}
+
+if (Result == 'Registro Actualizado') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        ra = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
+}
 

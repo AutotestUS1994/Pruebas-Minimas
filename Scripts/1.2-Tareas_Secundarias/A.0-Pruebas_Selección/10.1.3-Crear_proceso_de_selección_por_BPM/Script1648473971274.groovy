@@ -74,13 +74,12 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/input_Evaluacin Artstica_popupEtapaSeleccion_formtabla1maximo'), 
         '10')
 
-	/*--------------------------------------------------*/
-	
-	WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Guardar1'),
-		30)
-	
-	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
-	
+    /*--------------------------------------------------*/
+    WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Guardar1'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Medio'))
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/td_Evaluacin Artstica'), 
@@ -154,9 +153,6 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/input_Proceso_seleccion_procesofecha_inicio_input'), 
         '29/06/2017')
-
-    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/input_Proceso_seleccion_procesofecha_inicio_input'), 
-        Keys.chord(Keys.ESCAPE))
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/select_Concurso InternoMixtoProceso Externo'), 
         0)

@@ -132,9 +132,6 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/input_Fecha Rango_formRegistroEventofechaFinal_input'), 
         '27/11/2021')
 
-    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/input_Fecha Rango_formRegistroEventofechaFinal_input'), 
-        Keys.chord(Keys.ESCAPE))
-
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Evento_de_Capacitacion/textarea_Descripcin del evento_formRegistroEventoj_idt1890idTexto5'), 
         'Prueba')
 
@@ -389,7 +386,15 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     }
 }
 
-WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 1)) {
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result == "Se ingreso el registro") {
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
+}
 
 WebUI.comment('no se esta verificando bien para eliminar los registros')
 

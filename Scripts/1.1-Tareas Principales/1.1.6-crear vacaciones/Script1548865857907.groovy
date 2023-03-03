@@ -95,6 +95,12 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Periodo Servicio_form_'), 
     '01/06/2021')
 
+WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Periodo Servicio_form_'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Periodo Servicio_form_'), 
+    '01/06/2021')
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/span_Periodo Servicio'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -110,8 +116,6 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Fecha Origen_form_vacaciones'), 
     '01/06/2021')
 
-//WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Fecha Origen_form_vacaciones'), 
-//    '01/12/2018')
 WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Fecha Origen_form_vacaciones'), 
     Keys.chord(Keys.ENTER))
 
@@ -144,9 +148,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Salida Nomina_form_vacaciones'), 
     '01/06/2021')
-
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/input_Salida Nomina_form_vacaciones'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Dias con Permisos Pasivos Permitidos/select_SeleccioneChequeEntidad_'), 
     '3')

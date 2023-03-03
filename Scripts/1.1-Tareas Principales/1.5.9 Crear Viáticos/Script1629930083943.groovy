@@ -46,9 +46,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administra
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Documento_popupViaticoProgramadoFormfechaViat_input'), 
     '01/07/2021')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Documento_popupViaticoProgramadoFormfechaViat_input'), 
-    Keys.chord(Keys.ENTER))
-
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/td_Programada'), 
     1)) {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.7.3 Eliminar Viàtico'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -204,9 +201,6 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
         '01/10/2021')
 
-    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
-        Keys.chord(Keys.ESCAPE))
-
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Destino --Barranquilla'), 
         '3')
 
@@ -295,7 +289,7 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
         Keys.chord(Keys.ENTER))
-	
+
     String ruta = Systema() + 'viaticos.pdf'
 
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
@@ -427,9 +421,6 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
         '01/10/2021')
 
-    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
-        Keys.chord(Keys.ESCAPE))
-
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/select_--- Seleccione Destino --Barranquilla'), 
         '3')
 
@@ -518,9 +509,13 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
 
     WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Descripcin_popupAnexoArchivodescripcion'), 
         Keys.chord(Keys.ENTER))
-	String ra =  ''
+
+    String ra = ''
+
     String ruta = Systema(ra) + 'viaticos.pdf'
-	println(ruta)
+
+    println(ruta)
+
     WebUI.uploadFile(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/Page_SARA/input_Se ha cargado el archivo_popupAnexoArchivoinputFileNameArchivo_input'), 
         ruta)
 
@@ -533,22 +528,27 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     }
 }
 
-def Systema(ra) {
-	String RutaA = System.getProperty('os.name')
-	if(RutaA == 'Windows 10') {
-		
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		rutaW = rutaW.replace('/', '\\')
-		println("Esta es la ruta:" + rutaW)
-		ra = rutaW
-	}
-	else if (RutaA == 'Linux') {
-		def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
-		
-		println("ESTA ES LA RUTA"+ rutaW)
-		ra = rutaW
-	}
-	else {RutaA = 'ERROR'
-		WebUI.acceptAlert()
-	}
+def Systema(def ra) {
+    String RutaA = System.getProperty('os.name')
+
+    if (RutaA == 'Windows 10') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        rutaW = rutaW.replace('/', '\\')
+
+        println('Esta es la ruta:' + rutaW)
+
+        ra = rutaW
+    } else if (RutaA == 'Linux') {
+        def rutaW = RunConfiguration.getProjectDir() + '/1.Requerimientos/Documento para pruebas/'
+
+        println('ESTA ES LA RUTA' + rutaW)
+
+        ra = rutaW
+    } else {
+        RutaA = 'ERROR'
+
+        WebUI.acceptAlert()
+    }
 }
+

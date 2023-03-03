@@ -8,11 +8,10 @@
       <entry>
          <key>XPATH</key>
          <value>
-/html/body/div[6]/table/tbody/tr[3]/td[3]/a</value>
+/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td/span/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -56,7 +56,7 @@ WebUI.sendKeys(findTestObject('3-OBJECTS UTILIDADES/Legalizar/input_Filtrar por 
     Keys.chord(Keys.ENTER))
 
 while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/td_Ingreso Definitivo Indefinido Salario Basico'), 
-    1)) {
+    2)) {
     WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/td_Ingreso Definitivo Indefinido Salario Basico'))
 
     WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Continuar'))
@@ -74,18 +74,18 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
 
         System.out.println(TokenCount1)
 
-        String subPuesto = ""
-
+        String subPuesto = ''
 
         if (TokenCount1 == 49) {
             subPuesto = puesto.substring(43, 48)
         } else if (TokenCount1 == 36) {
             subPuesto = puesto.substring(29, 35)
-
         } else {
-			println(TokenCount1)
-			WebUI.acceptAlert()
-			println(TokenCount1)
+            println(TokenCount1)
+
+            WebUI.acceptAlert()
+
+            println(TokenCount1)
         }
         
         if (puesto != 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
@@ -182,17 +182,9 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
 
         WebUI.sendKeys(findTestObject('3-OBJECTS UTILIDADES/Legalizar/input_Filtrar por Actos Administrativos_form_ActosAdministrativostabla_principal_actosj_idt115filter'), 
             Keys.chord(Keys.ENTER))
-
-        WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'), 1, { 
-                WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'))
-
-                WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/span_Legalizar'))
-
-                WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/span_Eliminar'))
-            })
     }
     
-    if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'), 1)) {
+    if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'), 2)) {
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Cancelar'))
     }
 }

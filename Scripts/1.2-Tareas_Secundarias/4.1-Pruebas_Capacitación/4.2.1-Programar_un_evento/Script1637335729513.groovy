@@ -39,9 +39,6 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Pr
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/input_Das_diaeventoPopup_formdia_input'), 
     '24/12/2021')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/input_Das_diaeventoPopup_formdia_input'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_010203040506070809101112_1'), 
     0)
 
@@ -76,9 +73,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Pr
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-if(Result == 'Se ingreso el registro') {
-	String Resultado = 'PRueba ok'
+if (Result == 'Se ingreso el registro') {
+    String Resultado = 'PRueba ok'
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-}
+

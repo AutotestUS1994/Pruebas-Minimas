@@ -57,9 +57,6 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/input_Fecha Pago_cancelacion_c'), 
     '31/07/2021')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/input_Fecha Pago_cancelacion_c'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/span_Calculo Nomina'))
 
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/select_-- Seleccione --comprob'), 
@@ -100,9 +97,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/input_Base_variableFechaPeriodo_formcantidadFecha_input'), 
     '01/06/2021')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/input_Base_variableFechaPeriodo_formcantidadFecha_input'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/input_Valor_variableFechaPeriodo_formvalor'), 
     '100000')
 
@@ -125,8 +119,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 if (WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Regresar'), 
     1)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Liquidar Conceptos y Variables/a_Regresar'))
-
-    
 
     WebUI.closeBrowser()
 } else {

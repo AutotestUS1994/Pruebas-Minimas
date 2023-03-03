@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button/span</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[5]/div/div[2]/div[2]/div/div/div[1]/table/thead/tr/th[1]/span/center/table/tbody/tr/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>d4fb9ffa-5a4c-44d5-bd98-68c285d94a10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button-text ui-c</value>
+      <webElementGuid>0cba2673-edb3-475c-b7ad-f296cf228da0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ui-button</value>
+      <webElementGuid>3c078cbf-b9a1-4667-b205-1e610d87a34d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;invitacionEventosPopupForm:j_idt1366:j_idt1370:j_idt1381_button&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
+      <webElementGuid>eeeb1302-0d5e-4867-84c4-ba88b509152e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='invitacionEventosPopupForm:j_idt1366:j_idt1370:j_idt1381_button']/span[2]</value>
+      <webElementGuid>d40c1d5a-558a-4ea1-923a-9b7d84fd6256</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[2]/following::span[4]</value>
+      <webElementGuid>02fa8b6a-9c59-428b-9c3f-4df0f79f96bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Campo'])[1]/following::span[4]</value>
+      <webElementGuid>0e6f6420-cab7-4b5f-b793-4edf83017eda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[2]/preceding::span[1]</value>
+      <webElementGuid>c610d6c7-1e81-431c-ba48-ebb12332769a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado'])[1]/preceding::span[2]</value>
+      <webElementGuid>2b87b156-c9d4-4975-aa18-01f35fc29a28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ui-button']/parent::*</value>
+      <webElementGuid>116e7699-446e-4091-bba2-cb8158e12ab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span[2]</value>
+      <webElementGuid>bceb6f62-0cda-4c3e-a6c1-69d0b675b96a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

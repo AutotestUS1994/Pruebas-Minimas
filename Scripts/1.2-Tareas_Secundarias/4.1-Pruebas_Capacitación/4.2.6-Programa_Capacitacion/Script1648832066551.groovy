@@ -38,9 +38,6 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
     fechainicial())
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --.BARRANQUILLABOGOTACALIFRANCIAIBIZA'), 
     '3')
 
@@ -153,9 +150,6 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
     fechainicial())
-
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/input_Fecha Inicial_form_datosPlanCapacitacionfechaInicial_input'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programa capacitacion/select_-- Seleccione --.BARRANQUILLABOGOTACALIFRANCIAIBIZA'), 
     '3')
@@ -289,8 +283,8 @@ def fechafinal() {
     Number Mes = ((today.format('MM')) as Integer)
 
     Number Año = ((today.format('yyyy')) as Integer)
-	
-	String mesMenor = ""
+
+    String mesMenor = ''
 
     def sumaD = Dia + 2
 
@@ -313,17 +307,20 @@ def fechafinal() {
     } else {
         sumaM
     }
-    if(Mes > 12) {
-		Mes = 1
-		Año = Año + 1
-	}
-	if(Mes < 10) {
-		mesMenor= "0"+Mes
-		String fechaF = (((sumaD + '/') + mesMenor) + '/') + Año
-	}
-	else {
-    String fechaF = (((sumaD + '/') + Mes) + '/') + Año
-	}
+    
+    if (Mes > 12) {
+        Mes = 1
+
+        Año = (Año + 1)
+    }
+    
+    if (Mes < 10) {
+        mesMenor = ('0' + Mes)
+
+        String fechaF = (((sumaD + '/') + mesMenor) + '/') + Año
+    } else {
+        String fechaF = (((sumaD + '/') + Mes) + '/') + Año
+    }
 }
 
 def nombreAlea() {

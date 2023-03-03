@@ -73,9 +73,6 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
     '18/01/2019')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input'), 
     '27/02/2019')
 
@@ -95,9 +92,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiemp
 if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
     1)) {
     String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-	WebUI.acceptAlert()
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

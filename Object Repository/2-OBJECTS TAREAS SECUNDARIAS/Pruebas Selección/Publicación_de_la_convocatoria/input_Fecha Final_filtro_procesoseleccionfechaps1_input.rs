@@ -6,11 +6,12 @@
    <elementGuidId>30b0e1f5-42f8-4d6e-b703-95c3d71e12af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>
+//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/span/div[1]/div[2]/table/tbody/tr[2]/td[4]/span/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[4]/span/input</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>65af75fc-cb1e-4c90-8d0d-412fa24260bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:fechaps1_input</value>
+      <webElementGuid>04a4675a-4e22-405f-b5f4-1f0c96e6ae08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:fechaps1_input</value>
+      <webElementGuid>470bfc6c-76b9-40e7-a9cd-19b4c4955a75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>17e99f2a-68d1-4ae7-91d0-739d0fabbc8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>7e194bf4-76ca-4f94-a7b8-38a912bb2299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>11ef899a-588a-4737-ae63-71e060917517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e8cc72f0-1890-4a35-b944-a53172dec9ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e04b8f35-175d-4351-ab9f-4b5a2bce78c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtro_procesoseleccion:fechaps1_input&quot;)</value>
+      <webElementGuid>0178b74f-433a-4a91-b225-560eaab74635</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='filtro_procesoseleccion:fechaps1_input']</value>
+      <webElementGuid>45123169-dff6-4004-84ce-8ef54ac656af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='filtro_procesoseleccion:fechaps1']/input</value>
+      <webElementGuid>206f6e86-299c-4285-b1df-a183228e1b15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/span/input</value>
+      <webElementGuid>291bf988-ea26-4da4-b9dc-a94630b2fa2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'filtro_procesoseleccion:fechaps1_input' and @name = 'filtro_procesoseleccion:fechaps1_input' and @type = 'text']</value>
+      <webElementGuid>79dbad63-525c-4079-b19c-360519d5238c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

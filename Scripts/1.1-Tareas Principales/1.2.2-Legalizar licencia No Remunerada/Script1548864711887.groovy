@@ -105,14 +105,8 @@ WebUI.waitForElementPresent(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha Salida_form_licenc'), 
     '01/01/2021')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha Salida_form_licenc'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha Salida Nomina_form'), 
     '28/02/2021')
-
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha Salida Nomina_form'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/textarea_Observacin_form_licen'), 
     'Prueba 2021')
@@ -120,17 +114,11 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha 1_form_licenciaEmp'), 
     '01/01/2021')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha 1_form_licenciaEmp'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Das Ausentismo_form_lice'), 
     '2')
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha 1_form_licenciaEmp_11'), 
     '28/02/2021')
-
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Fecha 1_form_licenciaEmp_11'), 
-    Keys.chord(Keys.ESCAPE))
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/textarea_Area_form_licenciaEmp'), 
     'Prueba 2021')
@@ -179,9 +167,6 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Vigencia_popupDocumentoNovedad_formvigencia_input'), 
     '01/12/2021')
 
-WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/input_Vigencia_popupDocumentoNovedad_formvigencia_input'), 
-    Keys.chord(Keys.ESCAPE))
-
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Legalizar Licencia No Remunerada/textarea_Observacin_popupDocumentoNovedad_formobservacion'), 
     'PRUEBA')
 
@@ -192,8 +177,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Alerta == 'Se modifico exitosamente su solicitud') {
-    
-
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()

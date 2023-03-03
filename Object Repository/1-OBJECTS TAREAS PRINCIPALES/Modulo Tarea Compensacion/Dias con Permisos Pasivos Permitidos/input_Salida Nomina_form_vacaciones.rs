@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/span/input</value>
+         <value>//td[2]/span/input
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>1de7eeb6-6a59-4338-8175-0c8170c4e93f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_vacacionesEmpleado:tabsVacaciones:salidaVa_input</value>
+      <webElementGuid>5c1e5c92-3b0e-4b75-95c4-87d1526a5091</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_vacacionesEmpleado:tabsVacaciones:salidaVa_input</value>
+      <webElementGuid>e376f1bb-b8c5-4d79-a4a7-41f19f01e952</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>74e55b6b-a796-4122-a478-bf087f166217</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>d94075a4-79ef-49a2-9dfb-0c459b1b20ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>8fc2144b-4d78-46a1-9c6d-1e42ac4a6fbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>4b66e242-38e5-4e64-9ad7-78e621557bbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b5c331ee-8fe6-4a2f-9b3f-756baa74503f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_vacacionesEmpleado:tabsVacaciones:salidaVa_input&quot;)</value>
+      <webElementGuid>a066dc53-b90f-4767-b062-de031cc2f1bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_vacacionesEmpleado:tabsVacaciones:salidaVa_input']</value>
+      <webElementGuid>4c12fa93-3c25-4e40-abd0-8b582fd17bf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_vacacionesEmpleado:tabsVacaciones:salidaVa']/input</value>
+      <webElementGuid>35587b79-795c-4c57-b35d-a8860b7bdd68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/input</value>
+      <webElementGuid>b527fb1e-8140-4cf4-a497-bf13f92096ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

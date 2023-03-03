@@ -52,6 +52,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Pu
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
+    '10/07/2017')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/input_Fecha Final_filtro_procesoseleccionfechaps1_input'), 
+    Keys.chord(Keys.ENTER))
+
 WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Publicación_de_la_convocatoria/td_8028     - Analista De Sistemas'), 
     0)
 

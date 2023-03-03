@@ -6,12 +6,12 @@
    <elementGuidId>81a6fe4e-a653-4502-bf79-6fca991711bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//td[6]/select
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[2]/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>8f8e20f8-980e-4391-9983-5672586607a8</webElementGuid>
+      <webElementGuid>018034ca-9a98-4d5b-916b-2644a8adc5f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_mantenimientoVacacion:estado</value>
-      <webElementGuid>136058bd-2246-4b38-bd4c-7a068c69c922</webElementGuid>
+      <webElementGuid>36d4e6a4-07f3-4983-97ce-17479f384acb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_mantenimientoVacacion:estado</value>
-      <webElementGuid>2654ce64-2db7-47a5-90c7-97776941e0d6</webElementGuid>
+      <webElementGuid>7762bd4d-14c9-4cb8-ae76-2a81b9549a43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>9b79ffdc-b583-4c94-8b61-6dfb4e61320a</webElementGuid>
+      <webElementGuid>e38d5cb4-2db4-43b0-9915-f654563972c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>086a7241-d6ca-4121-9447-d4dcb942ba11</webElementGuid>
+      <webElementGuid>94311a3f-ebee-4d43-84ab-5e648eb5cc14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_mantenimientoVacacion&quot;,p:&quot;form_mantenimientoVacacion:estado&quot;,u:&quot;form_mantenimientoVacacion:panel_registros&quot;});</value>
-      <webElementGuid>a7280e47-c30c-40be-8b67-4922d463ffdc</webElementGuid>
+      <webElementGuid>ad646801-a036-45ff-afd5-abbc3aa0a220</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
 	Cerrada
 	No Cerrada
 </value>
-      <webElementGuid>a0decd2c-3a11-484f-9364-7dd6c9d97cef</webElementGuid>
+      <webElementGuid>a31a0bb7-5c08-4d2a-89b5-9b82340a55e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_mantenimientoVacacion:estado&quot;)</value>
-      <webElementGuid>13ae1701-9b1f-47cd-92a4-d911a2ff57df</webElementGuid>
+      <webElementGuid>d34bf489-8277-4740-ae89-7c123c5498d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_mantenimientoVacacion:estado']</value>
-      <webElementGuid>accf26d2-35e7-48e1-9d8f-4c09f7901924</webElementGuid>
+      <webElementGuid>b908101e-3b71-4d36-b77f-76637aaf5b6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_mantenimientoVacacion:panelFiltro_content']/table/tbody/tr[3]/td[2]/select</value>
-      <webElementGuid>2af4d148-edd1-44f8-b2f2-38e4393442bb</webElementGuid>
+      <webElementGuid>967cedab-2aab-4c25-8513-de2751060153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
-      <webElementGuid>22bd4628-24a8-452e-aa53-1b48dcf54556</webElementGuid>
+      <webElementGuid>dfbf932e-37af-47e4-98a3-1c5081c3d01b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Periodo'])[1]/following::select[2]</value>
-      <webElementGuid>627a0bdf-582e-4370-ad23-9f06a30297f7</webElementGuid>
+      <webElementGuid>36bf6553-2a10-49fc-a0e1-b177dda8f61e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cantidad Por Pagina'])[1]/preceding::select[1]</value>
-      <webElementGuid>2bba3d52-186d-4987-804b-dfc2160eb3f1</webElementGuid>
+      <webElementGuid>055c61c8-3455-4f9c-af49-f31388e33ba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[3]/preceding::select[1]</value>
-      <webElementGuid>17661269-804a-4abd-968d-952093edf094</webElementGuid>
+      <webElementGuid>3e59ef73-c484-4926-98aa-576e0be6be2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/select</value>
-      <webElementGuid>21fde412-bba1-430b-90b4-bbbeeb9de98f</webElementGuid>
+      <webElementGuid>13ef6463-bcfd-4286-bfa0-2066e072cd56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +151,6 @@
 	Cerrada
 	No Cerrada
 ')]</value>
-      <webElementGuid>5d20d84d-b665-4da4-b752-d878c14d4a21</webElementGuid>
+      <webElementGuid>0abd3cba-47b5-4932-a7c7-30977827b7f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

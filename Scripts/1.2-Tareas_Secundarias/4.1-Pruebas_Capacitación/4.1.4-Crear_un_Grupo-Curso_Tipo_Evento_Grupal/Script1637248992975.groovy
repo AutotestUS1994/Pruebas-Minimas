@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
-    1)) {
+    2)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/div_Grupos'))
@@ -54,7 +54,10 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.1-Nuevo_Curso'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
+    WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], 
+        FailureHandling.STOP_ON_FAILURE)
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'), 
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba'))
 
@@ -62,15 +65,12 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Registro'))
 
-        if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'), 
-            1)) {
-            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/td_Prueba1'))
 
-            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Eliminar'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Eliminar'))
 
-            WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Aceptar_Eliminar'))
-        }
-        
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Aceptar_Eliminar'))
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Nuevo'))
 
         WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/input_Cdigo_popupGruposEvento_formcodigo'), 
@@ -86,18 +86,20 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             '50')
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Crear_un_Grupo-Curso_Tipo_Evento_Grupal/a_Guardar'))
+    } else {
+        String mensaje = 'No hay un registro llamado prueba en la tarea control evento capacitacion ejecutar 4.1.3'
+
+        WebUI.acceptAlert()
     }
 }
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-if(Result == 'El grupo ha sido adicionado correctamente') {
-	
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
-}
-else {
-WebUI.acceptAlert()
-}
+if (Result == 'El grupo ha sido adicionado correctamente') {
+    String Resultado = 'PRUEBA OK'
 
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
+}
 

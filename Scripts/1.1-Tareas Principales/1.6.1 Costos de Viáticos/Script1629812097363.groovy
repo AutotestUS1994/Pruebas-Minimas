@@ -97,9 +97,6 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_Factura_form_popupcostoviaticosfechafactura_input'), 
         '01/07/2021')
 
-    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_Factura_form_popupcostoviaticosfechafactura_input'), 
-        Keys.chord(Keys.ESCAPE))
-
     if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_viatico_form_popupcostoviaticosdestino'), 
         1)) {
         WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Costos de Viáticos/input_viatico_form_popupcostoviaticosdestino'), 
