@@ -19,6 +19,12 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
+String Entorno = GlobalVariable.G_Identificador
+
+if (Entorno == 'weblogic') {
+    WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.6-Configuracion_para_weblogic_gdbc'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
 WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Empresa 1_form_templatej_idt24_input'), 
@@ -86,6 +92,10 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 
 if (Result == 'El candidato ha sido registrado correctamente') {
     String Resultado = 'PRUEBA OK'
+
+    if (Entorno == 'weblogic') {
+        WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
+    }
 } else {
     WebUI.acceptAlert()
 }

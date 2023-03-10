@@ -49,4 +49,9 @@
       <initValue>'Usuario'</initValue>
       <name>G_Usuario_617</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'wildfly'</initValue>
+      <name>G_Identificador</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

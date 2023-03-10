@@ -20,6 +20,12 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
+String Entorno = GlobalVariable.G_Identificador
+
+if (Entorno == 'weblogic') {
+    WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.6-Configuracion_para_weblogic_gdbc'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
 Date today = new Date()
 
 /*-----------------fecha------------------------ */
@@ -81,6 +87,10 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 if (Result == 'El proceso ha sido publicado exitosamente') {
     String Resultado = 'PRUEBA OK'
 
+    if (Entorno == 'weblogic') {
+        WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
+    }
+    
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()

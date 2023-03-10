@@ -48,7 +48,7 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Ge
     Keys.chord(Keys.ENTER))
 
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Prueba_Contrasea'), 
-    1)) {
+    2)) {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Prueba_Contrasea'))
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Eliminar'))
@@ -56,7 +56,31 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Aceptar'))
 }
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Nuevo'))
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_esta pagina no funciona'), 
+    1)) {
+    String falla = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_esta pagina no funciona'))
+
+    if (falla == 'Esta página no funciona') {
+        WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+        WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Portal_usuarioformaparametroBusqueda'), 
+            'Prueba_Contraseña')
+
+        WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Portal_usuarioformaparametroBusqueda'), 
+            Keys.chord(Keys.ENTER))
+
+        if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Prueba_Contrasea'), 
+            2)) {
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Prueba_Contrasea'))
+
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Eliminar'))
+
+            WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Aceptar'))
+        }
+    }
+} else {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Nuevo'))
+}
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Sesin_usuarioformatablogin'), 
     'Prueba')
@@ -104,7 +128,7 @@ String Result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alert
 WebUI.openBrowser(link)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario'), 
-    'saraadmin')
+    GlobalVariable.G_Usuario)
 
 WebUI.setEncryptedText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword'), 
     'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
