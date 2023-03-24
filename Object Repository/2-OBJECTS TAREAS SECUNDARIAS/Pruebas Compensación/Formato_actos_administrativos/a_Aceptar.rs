@@ -6,12 +6,12 @@
    <elementGuidId>07ec2e83-0178-4d95-9aa5-0dc2566e4ddb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Aceptar')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Aceptar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8f1bed4c-17a0-4d5c-95a8-31c401b2c42b</webElementGuid>
+      <webElementGuid>27a3463d-981f-4af2-a90b-92d296e92f6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupConfirmacionDialog:j_idt1105</value>
-      <webElementGuid>eca5eac0-eddd-4e43-afc4-32b8990df2bf</webElementGuid>
+      <value>popupConfirmacionDialog:j_idt1099</value>
+      <webElementGuid>794ed55f-5c0e-4ca9-93f3-ba2b47ca4033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>add79ef1-b2c2-4950-b284-484c671fdd1e</webElementGuid>
+      <webElementGuid>190fd197-80b5-483e-8e0c-e1143da94436</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-btn-si us-btn-popup</value>
-      <webElementGuid>b031029d-4e56-48f6-9d6b-6294c3f3574b</webElementGuid>
+      <webElementGuid>56dd3c9d-8063-4d79-9502-b7ae4522746b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;popupConfirmacionDialog:j_idt1105&quot;,f:&quot;popupConfirmacionDialog&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>95527400-3147-4ab8-9d06-350e64c9928a</webElementGuid>
+      <value>PrimeFaces.ab({s:&quot;popupConfirmacionDialog:j_idt1099&quot;,f:&quot;popupConfirmacionDialog&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>4cb054d0-8b41-45ec-a3fd-5cea5fe58e6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,31 +62,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Aceptar</value>
-      <webElementGuid>5445b15a-bab5-4c59-88e0-6713889a7252</webElementGuid>
+      <webElementGuid>55a18bdd-8b81-4eb1-aac6-ac384cd1ece3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupConfirmacionDialog:j_idt1105&quot;)</value>
-      <webElementGuid>3cf8b834-45d9-44eb-9c82-a55876553c2f</webElementGuid>
+      <value>id(&quot;popupConfirmacionDialog:j_idt1099&quot;)</value>
+      <webElementGuid>280a2af5-b0b7-4e93-8d8a-9778db24dae1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='popupConfirmacionDialog:j_idt1105']</value>
-      <webElementGuid>c83e961e-b422-4195-af03-8dfc3556a80d</webElementGuid>
+      <value>//a[@id='popupConfirmacionDialog:j_idt1099']</value>
+      <webElementGuid>1d275601-f8db-487f-b942-4f9ca797622a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupConfirmacionDialog:j_idt1098_content']/div[3]/a</value>
-      <webElementGuid>33f9c75a-0f0f-467b-b425-4c2af48727a2</webElementGuid>
+      <value>//div[@id='popupConfirmacionDialog:j_idt1092_content']/div[3]/a</value>
+      <webElementGuid>a7381497-2a6f-4b90-86d5-5d1fdb3003c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Aceptar')]</value>
-      <webElementGuid>1cb68250-eda0-4844-9ad3-d028156a8cf7</webElementGuid>
+      <webElementGuid>f9b82c22-5591-4d8b-8325-758c764054f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Desea eliminar el registro'])[1]/following::a[1]</value>
-      <webElementGuid>563652ec-7c56-4fee-b78c-8d5e4f6aab1d</webElementGuid>
+      <webElementGuid>5013dd27-5ff5-4cfc-8256-68f109225897</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
-      <webElementGuid>cc0bad28-5d41-4b39-9c55-d6fde6031194</webElementGuid>
+      <webElementGuid>b1864f41-b4c9-4844-a8b6-33fb5907ea2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-      <webElementGuid>ae5de3e6-0d02-4284-9a44-91cafab93810</webElementGuid>
+      <webElementGuid>6e272153-d772-43f9-9f46-28ce906a8f5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
-      <webElementGuid>59086a93-90fd-44ae-8b31-fc066317ba80</webElementGuid>
+      <webElementGuid>0696e41f-2345-4a36-9049-a893b59ea8bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,15 +134,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
-      <webElementGuid>79c1ab01-e2ea-466d-a4f2-dbbdb1502051</webElementGuid>
+      <webElementGuid>721b4caa-cf89-4f2c-8f2a-b9f943c4e558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[50]</value>
-      <webElementGuid>0ddbd941-4893-4201-814b-2b86100a19d7</webElementGuid>
+      <value>(//a[contains(@href, '#')])[52]</value>
+      <webElementGuid>0835dca2-1c43-48d0-bc9f-0e617013d8f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,14 +150,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>2ada8c4e-15ab-48e8-9d79-b30038e68c17</webElementGuid>
+      <webElementGuid>976d3c7c-991a-428e-8b72-cb7f31f7120a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'popupConfirmacionDialog:j_idt1105' and @href = '#' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
-      <webElementGuid>c49bc9f5-70d9-446c-9800-c37c6eb4936d</webElementGuid>
+      <value>//a[@id = 'popupConfirmacionDialog:j_idt1099' and @href = '#' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>2adba4c6-3528-44d8-a1e9-af0c7f296063</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

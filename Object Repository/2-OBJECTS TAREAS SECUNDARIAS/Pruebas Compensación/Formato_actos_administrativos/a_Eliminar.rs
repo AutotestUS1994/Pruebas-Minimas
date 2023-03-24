@@ -6,12 +6,12 @@
    <elementGuidId>2f4827b2-a941-439a-9551-93a0f59c175b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Eliminar')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eliminar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5a85bce7-8c94-468f-a9f8-66bb26a15b82</webElementGuid>
+      <webElementGuid>98bdcc80-78f8-4770-8a6b-c029eaa76ce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_parametroformato:tabInfo:j_idt317</value>
-      <webElementGuid>3349cdc0-75aa-49b8-b8bd-e43de863c7e6</webElementGuid>
+      <value>form_parametroformato:tabInfo:j_idt311</value>
+      <webElementGuid>11db24ac-9ee4-4515-a03f-139f8548bb80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>575d06e1-1a08-4303-821c-186b4c27ba40</webElementGuid>
+      <webElementGuid>1ba3b333-d00e-4e2f-9d74-016d77c9b16c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-eliminar</value>
-      <webElementGuid>d5623fed-246d-4829-b061-21f12044ece3</webElementGuid>
+      <webElementGuid>33799f06-1f2d-4d55-8064-6d4e20d3f6ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:&quot;form_parametroformato:tabInfo:j_idt317&quot;,f:&quot;form_parametroformato&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>6a02007f-6509-4c46-aac7-1625cf39fedf</webElementGuid>
+      <value>PrimeFaces.ab({s:&quot;form_parametroformato:tabInfo:j_idt311&quot;,f:&quot;form_parametroformato&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>0cdc5165-4b3e-4ad6-b627-6bea6edb15d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,23 +62,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
-      <webElementGuid>a06edfca-5a03-4dd2-b0f4-adefd479fbbe</webElementGuid>
+      <webElementGuid>e480796c-2d3d-4d48-bf47-abca147ea7dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_parametroformato:tabInfo:j_idt317&quot;)</value>
-      <webElementGuid>acb8e40b-7dc2-4830-864c-07e0fb60bc8e</webElementGuid>
+      <value>id(&quot;form_parametroformato:tabInfo:j_idt311&quot;)</value>
+      <webElementGuid>53a2b776-9d07-4e82-a3dd-81db1604ddf6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='form_parametroformato:tabInfo:j_idt317']</value>
-      <webElementGuid>34579deb-7206-44ed-8c59-10dcc3a01311</webElementGuid>
+      <value>//a[@id='form_parametroformato:tabInfo:j_idt311']</value>
+      <webElementGuid>633e2856-fe33-43ab-afe0-40161041f6ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_parametroformato:tabInfo:tabFormato']/a[2]</value>
-      <webElementGuid>8756f453-d9fd-4e67-970f-9f9367ab2594</webElementGuid>
+      <webElementGuid>e9c1af8c-7905-48e8-84bf-9d9a44cfcdf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Eliminar')]</value>
-      <webElementGuid>10d3e0e8-573e-4160-97e0-a3e113914f3f</webElementGuid>
+      <webElementGuid>02e44e1b-a54b-4726-a81f-102a3ade1549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo 20'])[1]/following::a[2]</value>
-      <webElementGuid>96d2958e-73cd-46c9-ba55-1790cfff6a18</webElementGuid>
+      <webElementGuid>9547a8dd-61e9-43e5-8f2c-37501c39cbd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,23 +110,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Titulo 19'])[1]/following::a[2]</value>
-      <webElementGuid>2c130cb3-0eb1-4da8-8a99-f44bd16b59a4</webElementGuid>
+      <webElementGuid>df11eb1f-a850-459d-b2b2-d84a12f2703d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-      <webElementGuid>ca59f0ca-7f3d-47ee-9c6d-cb01859d3798</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrada'])[1]/preceding::a[1]</value>
+      <webElementGuid>ba9dacb7-b8e6-4d42-a6ee-be00a93b2dfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
-      <webElementGuid>0b34efbd-f6ca-4a3f-b03f-bdf035bafa69</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Derogar'])[1]/preceding::a[1]</value>
+      <webElementGuid>7a4447bc-b618-47cd-9631-25feab0b7d79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,15 +134,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Eliminar']/parent::*</value>
-      <webElementGuid>d7ae433b-846f-401a-850a-225d26fe80ee</webElementGuid>
+      <webElementGuid>7cc45568-5192-430b-b3da-910a2c05c0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[48]</value>
-      <webElementGuid>1f08c8c0-6559-427f-8650-c86d458c016a</webElementGuid>
+      <value>(//a[contains(@href, '#')])[50]</value>
+      <webElementGuid>96bb20ad-0ce3-4077-873b-1ed9ac446b51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,14 +150,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>66a88044-396d-44b7-811d-91bcb552891b</webElementGuid>
+      <webElementGuid>9fb934e1-6fa6-4354-9b58-237823baa43f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'form_parametroformato:tabInfo:j_idt317' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
-      <webElementGuid>867802e6-4e19-484b-baed-4328e8f6c8b8</webElementGuid>
+      <value>//a[@id = 'form_parametroformato:tabInfo:j_idt311' and @href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+      <webElementGuid>a92b0774-b364-443e-bb80-b6849776365d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -344,12 +344,15 @@ if (trasladoFuncion == 'Registro Actualizado') {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Regresar'))
 }
 
+verificar2023()
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Vacacines4'))
+
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Nuevo4'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Formato_form_parametroformatoformato4'), 
-    '1990')
+    '2023')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Descripcin_form_parametroformatodescripcion4'), 
     'PruebasKatalon')
@@ -438,7 +441,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Nuevo4'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Formato_form_parametroformatoformato5'), 
-    '1990')
+    '2023')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Descripcin_form_parametroformatodescripcion5'), 
     'PruebasKatalon')
@@ -533,7 +536,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Nuevo4'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Formato_form_parametroformatoformato5'), 
-    '1990')
+    '2023')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Descripcin_form_parametroformatodescripcion5'), 
     'PruebasKatalon')
@@ -628,7 +631,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Nuevo4'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Formato_form_parametroformatoformato5'), 
-    '1990')
+    '2023')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Descripcin_form_parametroformatodescripcion5'), 
     'PruebasKatalon')
@@ -720,7 +723,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Nuevo4'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Formato_form_parametroformatoformato5'), 
-    '1990')
+    '2023')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Descripcin_form_parametroformatodescripcion5'), 
     'PruebasKatalon')
@@ -805,5 +808,129 @@ String eliminar4 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Ale
 
 if (eliminar4 != 'El formato ha sido eliminado') {
     WebUI.acceptAlert()
-}else {WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)}
+} else {
+    WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+}
+
+def verificar2023() {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Vacacines4'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        '2023')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Aceptar'))
+
+        String result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (result1 != '') {
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+    
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Ausentismo'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        '2023')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Aceptar'))
+
+        String result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (result1 != '') {
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+    
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Terminacin Del Contrato'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        '2023')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Aceptar'))
+
+        String result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (result1 != '') {
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+    
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Especiales'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        '2023')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Aceptar'))
+
+        String result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (result1 != '') {
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+    
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Movimiento Planta'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        '2023')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'), 
+        1)) {
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Eliminar'))
+
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Aceptar'))
+
+        String result1 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (result1 != '') {
+        } else {
+            WebUI.acceptAlert()
+        }
+    }
+}
 

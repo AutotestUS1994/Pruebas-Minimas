@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td/input</value>
+         <value>//input[@id='form_parametroformato:conceptofiltro']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>213551e7-fe75-4e98-b4ac-02e79e9ec8c6</webElementGuid>
+      <webElementGuid>11c426d1-4d75-46f6-8e56-ff37fbe3c985</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_parametroformato:conceptofiltro</value>
-      <webElementGuid>5f195fd4-7d68-4cee-8bc7-2a7e09412108</webElementGuid>
+      <webElementGuid>ed357f50-42fd-42a1-aa59-de1c889b3dae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_parametroformato:conceptofiltro</value>
-      <webElementGuid>429a7617-9ef8-46e2-8bd6-abd323b35b02</webElementGuid>
+      <webElementGuid>8840c947-42f9-4bd9-9497-691e078cde34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>76c407db-b8f9-40eb-ae36-cd05a33da641</webElementGuid>
+      <webElementGuid>7c940675-b4f1-48ab-928f-1f0d1ed9f074</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-focus</value>
-      <webElementGuid>297f5450-132e-4d95-9c72-560c15a08d38</webElementGuid>
+      <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-hover ui-state-focus</value>
+      <webElementGuid>2eb907d3-1136-4b7e-95b9-8864c239ade2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>size</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>85419323-e79a-49d8-aefe-5ee569b0bf29</webElementGuid>
+      <webElementGuid>6da78c0e-e24e-48ac-9c0d-3efdd498a14c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_parametroformato:conceptofiltro&quot;,e:&quot;valueChange&quot;,f:&quot;form_parametroformato&quot;,p:&quot;form_parametroformato:conceptofiltro&quot;});</value>
-      <webElementGuid>eeb52fca-bf2a-4b11-9180-6dbdf9121939</webElementGuid>
+      <webElementGuid>364a5e30-005f-4217-978d-8748d4265794</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>a63c627a-05e9-48ac-8a2c-0af72aba7b10</webElementGuid>
+      <webElementGuid>e5cc3eed-8489-4a79-99fd-c408ee24c00a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ca59c7eb-bfa3-4f09-b39e-d2b889d0858a</webElementGuid>
+      <webElementGuid>6d5bdbbb-7229-4ca1-b4ee-a36f4888be07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>421dddd7-54e8-407a-a514-bd6fd92889a0</webElementGuid>
+      <webElementGuid>57a7493a-04b5-4f0f-8508-691a847ea5cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_parametroformato:conceptofiltro&quot;)</value>
-      <webElementGuid>e215ead0-3c73-4fa4-b2b7-5eadfe99ce1c</webElementGuid>
+      <webElementGuid>8f0de753-baa9-45d6-b650-a94d6b19385c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_parametroformato:conceptofiltro']</value>
-      <webElementGuid>a19e86fc-ec1a-4e86-8896-f1e66e7e69a6</webElementGuid>
+      <webElementGuid>84e74aef-cd9d-4396-8523-2957c612926c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_parametroformato:parametroFormatoPrincipal']/tbody/tr/td/span/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/input</value>
-      <webElementGuid>4066c41e-141f-4215-b7d3-b26a70b305ae</webElementGuid>
+      <webElementGuid>9a3adf82-1822-42d5-a10e-6a52d2934660</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/input</value>
-      <webElementGuid>7ec0e03b-b368-4e86-aa55-2c3dbf53805e</webElementGuid>
+      <webElementGuid>f36b3ccd-1141-4105-9b21-c981477c3139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_parametroformato:conceptofiltro' and @name = 'form_parametroformato:conceptofiltro' and @type = 'text']</value>
-      <webElementGuid>3964dda0-d5a5-461c-9b46-27ca155c7f6b</webElementGuid>
+      <webElementGuid>b103ea8b-6f31-4025-9c85-dcfa0c33a3d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import javax.swing.*
 
 String Result = ""
 
@@ -42,8 +43,13 @@ filePath = WebUI.getAttribute(findTestObject('3-OBJECTS UTILIDADES/Configuracion
 println(filePath)
 
 if ((filePath == 'java:/CompensacionDS') && (GlobalVariable.G_Identificador == 'wildfly')) {
-    WebUI.closeBrowser()
+	JOptionPane.showMessageDialog(null, "Alerta la conexión debe ser jdbc/AspirantesDS pero en este momento es java:/CompensacionDS")
+	WebUI.acceptAlert()
+	
 } else if ((filePath == 'jdbc/CompensacionDS') && (GlobalVariable.G_Identificador == 'wildfly')) {
+	
+	WebUI.closeBrowser()
+	/*
     WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/input_Url_conexion_formpanelTabInformacionconexionUrl'), 
         'java:/CompensacionDS')
 
@@ -53,8 +59,12 @@ if ((filePath == 'java:/CompensacionDS') && (GlobalVariable.G_Identificador == '
 	 
 	if(Result == 'Se actualizo la Conexion correctamente') {
 		WebUI.closeBrowser()
-	}else {WebUI.acceptAlert()}
+	}else {WebUI.acceptAlert()}*/
 } else {
+	
+	JOptionPane.showMessageDialog(null, "Alerta la conexión debe ser java:/AspirantesDS pero en este momento es jdbc/CompensacionDS")
+	WebUI.acceptAlert()
+	/*
     WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/input_Url_conexion_formpanelTabInformacionconexionUrl'), 
         'jdbc/CompensacionDS')
 
@@ -64,6 +74,6 @@ if ((filePath == 'java:/CompensacionDS') && (GlobalVariable.G_Identificador == '
 	
 	if(Result == 'Se actualizo la Conexion correctamente') {
 		WebUI.closeBrowser()
-	}else {WebUI.acceptAlert()}
+	}else {WebUI.acceptAlert()}*/
 	}
 

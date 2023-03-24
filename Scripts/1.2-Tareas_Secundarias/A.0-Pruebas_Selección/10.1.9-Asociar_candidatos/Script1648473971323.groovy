@@ -93,9 +93,7 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 if (Result == 'El candidato ha sido registrado correctamente') {
     String Resultado = 'PRUEBA OK'
 
-    if (Entorno == 'weblogic') {
-        WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
-    }
+
 } else {
     WebUI.acceptAlert()
 }

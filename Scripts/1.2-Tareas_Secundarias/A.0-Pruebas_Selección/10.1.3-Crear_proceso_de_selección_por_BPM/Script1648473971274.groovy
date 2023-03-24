@@ -119,9 +119,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/p_La etapa ha sido actualizada correctamente'), 
         0)
 
-    if (Entorno == 'weblogic') {
-        WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
-    }
+
     
     WebUI.closeBrowser()
 } else {
@@ -246,9 +244,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/p_La etapa ha sido actualizada correctamente'), 
         0)
 
-    if (Entorno == 'weblogic') {
-        WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
-    }
+  
     
     WebUI.closeBrowser()
 }
