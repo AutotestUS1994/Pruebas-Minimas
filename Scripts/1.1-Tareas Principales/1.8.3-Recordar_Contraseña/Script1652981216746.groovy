@@ -230,7 +230,7 @@ if (Result1 == 'Señor usuario, se ha remitido un correo electrónico al correo 
         'Prueba')
 
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword1'), 
-        'saraadmin1')
+        'SoloAutomaticas2023*')
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Ingresar1'))
 

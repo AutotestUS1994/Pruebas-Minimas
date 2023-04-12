@@ -146,6 +146,8 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/select_Lista Cargo Empresa_popupReportetablaParametroReporte5j_idt1304'), 
     2)
 
+zoom()
+
 WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Generar'))
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Continuar'), 
@@ -464,5 +466,9 @@ def zoom() {
     robot.keyPress(KeyEvent.VK_CONTROL)
 
     robot.keyPress(KeyEvent.VK_SUBTRACT)
+	
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+	
+	robot.keyRelease(KeyEvent.VK_SUBTRACT)
 }
 

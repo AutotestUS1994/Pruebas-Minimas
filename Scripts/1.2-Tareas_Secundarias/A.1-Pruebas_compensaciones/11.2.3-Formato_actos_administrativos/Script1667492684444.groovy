@@ -348,7 +348,6 @@ verificar2023()
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Vacacines4'))
 
-
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/a_Nuevo4'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Formato_form_parametroformatoformato4'), 
@@ -703,6 +702,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
     'PRUEBASKATALON')
 
+WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+    0)
+
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
     Keys.chord(Keys.ENTER))
 
@@ -794,6 +796,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/F
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
     'PRUEBASKATALON')
+
+WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+    0)
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
     Keys.chord(Keys.ENTER))

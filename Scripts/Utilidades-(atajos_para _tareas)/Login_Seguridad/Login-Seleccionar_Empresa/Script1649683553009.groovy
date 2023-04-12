@@ -57,13 +57,14 @@ if (flag) {
         //} else {
         //    println('No conecta a: ' + i)
         //aqui coloca el wait y el clic a l modulo Actos
-        ) //TODO: revisar y quitar esto
+        //TODO: revisar y quitar esto
+        )
 }
 
 def a() {
     WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Login/input_USUARIO_loginusuario'), GlobalVariable.G_Usuario_617)
 
-    WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    WebUI.setEncryptedText(findTestObject('3-OBJECTS UTILIDADES/Login/input_CLAVE_loginpassword'), 'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
     WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Login/a_Ingresar'), GlobalVariable.G_TimeOut)
 

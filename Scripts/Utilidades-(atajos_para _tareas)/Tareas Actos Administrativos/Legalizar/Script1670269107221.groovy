@@ -201,7 +201,13 @@ def actualizar() {
 
     robot.keyPress(KeyEvent.VK_SHIFT)
 
-    robot.keyRelease(KeyEvent.VK_R)
+	robot.keyPress(KeyEvent.VK_R)
+	
+	robot.keyRelease(KeyEvent.VK_CONTROL)
+	
+	robot.keyRelease(KeyEvent.VK_SHIFT)
+    
+	robot.keyRelease(KeyEvent.VK_R)
 }
 
 def liberar(def subPuesto) {

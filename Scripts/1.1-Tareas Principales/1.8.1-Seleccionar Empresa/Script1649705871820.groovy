@@ -83,12 +83,14 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Contrasea'))
 
 WebUI.setEncryptedText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/input_Contrasea_usuarioformatabpasswordNuevo'), 
-    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
 WebUI.setEncryptedText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/input_Confirmar_usuarioformatabpasswordConfirma'), 
-    'SlAwMcyRKqrwbnzhAs8HhWECfgo3Mk5F')
+    'SlAwMcyRKqrwbnzhAs8HhdIg46CWr/2Q')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Actualizar'))
+
+WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 0)
 
 Empresas()
 

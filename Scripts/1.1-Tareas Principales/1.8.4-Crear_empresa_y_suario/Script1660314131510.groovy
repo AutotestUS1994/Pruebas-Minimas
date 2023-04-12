@@ -35,8 +35,6 @@ if (resultEmpresa == 'PRUEBA OK') {
 }
 
 if ((resultUsuario == 'PRUEBA OK') && (resultEmpresa == 'PRUEBA OK')) {
-    
-
     WebUI.closeBrowser()
 }
 
@@ -71,6 +69,8 @@ def crearEmpresa() {
     WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'), 0)
 
     WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Empresa/a_Actualizar'))
+
+    WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 0)
 
     String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
@@ -144,6 +144,8 @@ def crearUsuario() {
         2)
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Aplicacin_usuarioformatabtabla_rolesj_idt148'))
+
+    WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 0)
 
     String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
