@@ -100,9 +100,47 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
 }
 
-String Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'))
+WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'), 
+    0)
+String Result = ""
 
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'),
+	 1)){
+ Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'))
+}
+else if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_informacion'), 
+	1)) {
+Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_informacion'))
+}
+else {WebUI.acceptAlert()}
+if (Result == 'No hay cambios que guardar') {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a__hojaVidaseccionj_idt21411j_idt254'))
+
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+        'MEDELLIN')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921'), 
+        Keys.chord(Keys.ENTER))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_05001 MEDELLIN'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar'))
+}
+
+		
+if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'),
+	 1)){
+ Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente'))
+}
+else if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_informacion'), 
+	1)) {
+Result = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_informacion'))
+
+while(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Aceptar'), 1))
+	{
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Aceptar'))
+	}
+}
 
 if (Result == 'Sus datos han sido Actualizados correctamente') {
     String Resultado = 'PRUEBAS OK'

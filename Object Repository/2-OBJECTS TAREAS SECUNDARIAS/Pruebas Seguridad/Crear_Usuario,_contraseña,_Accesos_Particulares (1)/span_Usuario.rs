@@ -6,12 +6,13 @@
    <elementGuidId>02d004b1-8648-4fce-8796-62c506336fb2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.ui-autocomplete-query</value>
+         <key>XPATH</key>
+         <value>
+//body/span/ul/li[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span/ul/li/span</value>
+         <key>CSS</key>
+         <value>span.ui-autocomplete-query</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ae108fdc-5803-4391-8ab1-bc8d994a3107</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-query</value>
+      <webElementGuid>a30195db-8d8b-4976-a9b1-c6a3a4e8c611</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Usuario</value>
+      <webElementGuid>6f739ce2-b421-4397-b652-2a250cc639fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
+      <webElementGuid>ff36ba0f-419a-4cd9-93e0-65af26082844</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
+      <webElementGuid>328b22c8-5b2b-49d4-9fce-3879f265206a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='usuario weblogic'])[1]/following::span[3]</value>
+      <webElementGuid>441e07d2-1fa3-473e-aadb-df03d6b69653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='weblogic'])[1]/following::span[4]</value>
+      <webElementGuid>1999b516-6670-4267-9d6b-1a215352c7f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario'])[5]/preceding::span[1]</value>
+      <webElementGuid>243afde6-9fbe-40ec-b3e9-f62ea8f7e7ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +87,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li/span</value>
+      <webElementGuid>060812fb-66d6-4cd3-a2dd-e835a3b2b605</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

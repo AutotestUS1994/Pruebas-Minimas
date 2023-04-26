@@ -235,7 +235,7 @@ WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modul
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_12kataloonNOMINA CATORCENAL'))
 
 WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_12kataloonNOMINA CATORCENAL'), 
-    '7')
+    '2')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_--- Seleccione Vinculac'), 
     GlobalVariable.G_TimeOut)
@@ -264,8 +264,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Result == 'Se Inserto el registro correctamente') {
-    
-
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()

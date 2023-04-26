@@ -35,13 +35,12 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/input_Filtro Hoja de Vida_formPopupHojaVidaj_idt13270'), 
     Keys.chord(Keys.ENTER))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'), 
-    1))
-{
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'))
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'), 
+    1)) {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_A A A1'))
+} else {
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_concat(, ,  autocomplete, , off, , )_ui-icon ui-icon-closethick'))
 }
-else
-{WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_concat(, ,  autocomplete, , off, , )_ui-icon ui-icon-closethick'))}
 
 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/td_A A A'), 
     1)) {
@@ -147,7 +146,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
     2)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/select_12kataloonkataloonNOMINA CATORCENALNOMINA'), 
-    8)
+    2)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/a_Guardar'))
 

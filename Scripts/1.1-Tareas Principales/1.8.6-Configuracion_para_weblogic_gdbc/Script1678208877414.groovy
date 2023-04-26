@@ -42,11 +42,13 @@ filePath = WebUI.getAttribute(findTestObject('3-OBJECTS UTILIDADES/Configuracion
 
 println(filePath)
 
-if ((filePath == 'java:/CompensacionDS') && (GlobalVariable.G_Identificador == 'wildfly')) {
-	JOptionPane.showMessageDialog(null, "Alerta la conexión debe ser jdbc/AspirantesDS pero en este momento es java:/CompensacionDS")
-	WebUI.acceptAlert()
+if ((filePath == 'jdbc/CompensacionDS') && (GlobalVariable.G_Identificador == 'wildfly')) {
+    WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/input_Url_conexion_formpanelTabInformacionconexionUrl'), 
+        'java:/AspirantesDS')
+
+	WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/a_Actualizar'))
 	
-} else if ((filePath == 'jdbc/CompensacionDS') && (GlobalVariable.G_Identificador == 'wildfly')) {
+} else if ((filePath == 'java:/AspirantesDS') && (GlobalVariable.G_Identificador == 'wildfly')) {
 	
 	WebUI.closeBrowser()
 	/*
@@ -62,8 +64,10 @@ if ((filePath == 'java:/CompensacionDS') && (GlobalVariable.G_Identificador == '
 	}else {WebUI.acceptAlert()}*/
 } else {
 	
-	JOptionPane.showMessageDialog(null, "Alerta la conexión debe ser java:/AspirantesDS pero en este momento es jdbc/CompensacionDS")
-	WebUI.acceptAlert()
+    WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/input_Url_conexion_formpanelTabInformacionconexionUrl'), 
+        'jdbc/AspirantesDS')
+
+    WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/a_Actualizar'))
 	/*
     WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Configuracion_para_weblogic_gdbc/input_Url_conexion_formpanelTabInformacionconexionUrl'), 
         'jdbc/CompensacionDS')

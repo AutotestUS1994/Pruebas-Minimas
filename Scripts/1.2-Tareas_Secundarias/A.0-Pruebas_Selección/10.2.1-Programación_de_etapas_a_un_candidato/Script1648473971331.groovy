@@ -31,7 +31,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
     1)
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_filtroprocesoseleccion'), 
-    '544')
+    '659')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Programación_de_etapas_a_un_candidato/input_filtroprocesoseleccion'), 
     Keys.chord(Keys.ENTER))

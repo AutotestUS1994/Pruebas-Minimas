@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario'])[4]/following::span[1]</value>
+         <value>//td[(text() = 'Usuario' or . = 'Usuario')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>de9d265d-dd98-4c5c-a59a-bed6a3baeabf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Usuario</value>
+      <webElementGuid>4f85651a-c0a3-4774-affc-5295d4e10763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;usuarioforma:tabla_usuario_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace&quot;]/td[2]/span[1]</value>
+      <webElementGuid>52c9e544-471e-4158-b184-75f4519b305c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='usuarioforma:tabla_usuario_data']/tr[6]/td[2]/span</value>
+      <webElementGuid>c567a97f-483c-42d8-84f1-2023aecef2f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario'])[4]/following::span[1]</value>
+      <webElementGuid>700da45d-bf59-41f2-acdf-be7c6186edbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='XXXZXS XXXRXY XXXXXXS'])[2]/following::span[2]</value>
+      <webElementGuid>56e07314-59ce-45a0-a947-a73d0728edb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='weblogic'])[1]/preceding::span[1]</value>
+      <webElementGuid>38426d3c-4bb0-4431-b7df-6970828df1b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='usuario weblogic'])[1]/preceding::span[2]</value>
+      <webElementGuid>10446250-a471-4429-8c2e-5460c65f34cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td[2]/span</value>
+      <webElementGuid>2e3f8460-013e-44ea-86eb-2053831d6b41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Usuario' or . = 'Usuario')]</value>
+      <webElementGuid>366b2a06-abc4-4f30-aa77-3a62bac99a0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

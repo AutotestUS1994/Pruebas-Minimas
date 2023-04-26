@@ -6,12 +6,11 @@
    <elementGuidId>bfac6417-6db6-4312-8b3f-e07a51699a85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[2]/tbody/tr/td[2]/textarea</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table[1]/tbody/tr/td[2]/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>147eac8b-f319-4e3b-aff2-b143450a02b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupNoAutorizar_form:motivo</value>
+      <webElementGuid>71826aa2-d8e9-4bd6-ab56-f0917fcdcf73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupNoAutorizar_form:motivo</value>
+      <webElementGuid>634faf81-3042-428a-9369-2834db4f7407</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>87ffd413-59bc-4215-b61c-108e6aa09e54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return texto (event,this.value,4000);</value>
+      <webElementGuid>bb051dba-9ed5-42e0-a9f7-656cc4a415de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>6</value>
+      <webElementGuid>501e4541-9897-42fd-aeb2-6a484f28453c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupNoAutorizar_form:motivo&quot;)</value>
+      <webElementGuid>e53b6384-ad83-4bd5-9242-89957a1f78a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='popupNoAutorizar_form:motivo']</value>
+      <webElementGuid>5f3f020d-a95f-48e9-b702-13393296515b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupNoAutorizar_form:j_idt616_content']/div[2]/table[2]/tbody/tr/td[2]/textarea</value>
+      <webElementGuid>b21992c9-c0d3-4f02-8ab1-b759c737abb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td[2]/textarea</value>
+      <webElementGuid>fb12ed41-4fcd-418e-9d12-11b82bfeb707</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'popupNoAutorizar_form:motivo' and @name = 'popupNoAutorizar_form:motivo']</value>
+      <webElementGuid>4da7e926-7167-4d29-9e8a-730dc350d74e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

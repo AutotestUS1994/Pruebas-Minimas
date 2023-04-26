@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Usuario</name>
+   <tag></tag>
+   <elementGuidId>f57f3e3b-1f84-465a-b858-abb10eeaecb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-odd.ui-datatable-selectable.fila_tabla_ace.ui-state-hover > td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[(text() = 'Usuario' or . = 'Usuario')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>5abb5933-4368-4db5-836b-11dfef08fac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>gridcell</value>
+      <webElementGuid>ad845ce4-d74c-4692-bba5-b2ed7c2cc605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Usuario</value>
+      <webElementGuid>3b9a1cd3-78bb-47b7-ae20-ce6501b95795</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;usuarioforma:tabla_usuario_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
+      <webElementGuid>cc323075-2539-4675-9cec-9ca6423d5983</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='usuarioforma:tabla_usuario_data']/tr[2]/td[2]</value>
+      <webElementGuid>cf91e51e-a379-4880-bd22-2da5bc737440</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usuario'])[4]/following::td[1]</value>
+      <webElementGuid>78041fae-11a9-40f0-bebd-6d5b9642deda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Noborrar Usuario Portal'])[1]/following::td[2]</value>
+      <webElementGuid>d1735d01-5459-4200-a6ef-b67ab4b483b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='weblogic'])[1]/preceding::td[1]</value>
+      <webElementGuid>2ead6bf3-725e-4ab8-8716-aa3eba7be2df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>add67b2f-724c-457a-a206-193e3dfbb9c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Usuario' or . = 'Usuario')]</value>
+      <webElementGuid>d6b3278b-1952-4232-a47a-ffe042e86c27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

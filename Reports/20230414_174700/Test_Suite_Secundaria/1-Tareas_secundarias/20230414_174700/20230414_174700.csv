@@ -1,0 +1,693 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1-Tareas_secundarias,Chrome 111.0.0.0,,,2023-04-14 17:47:04,2023-04-14 17:57:36,"10m - 32,415s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.0-Nueva_Categoria,Chrome 111.0.0.0,,,2023-04-14 17:47:04,2023-04-14 17:47:25,"20,816s",PASSED
+"callTestCase(findTestCase(""0.1.1-Login_detector""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:47:05,2023-04-14 17:47:14,"8,932s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:47:14,2023-04-14 17:47:14,"0,567s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search""), ""categoria"")",Chrome 111.0.0.0,,,2023-04-14 17:47:14,2023-04-14 17:47:15,"0,731s",PASSED
+"waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:47:15,2023-04-14 17:47:16,"1,435s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_categoria""))",Chrome 111.0.0.0,,,2023-04-14 17:47:16,2023-04-14 17:47:17,"0,431s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:47:17,2023-04-14 17:47:18,"1,146s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Actos Administrativos_form_categoriaSeccionj_idt61""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:47:18,2023-04-14 17:47:19,"0,564s",PASSED
+"if (waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_prueba""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:47:19,2023-04-14 17:47:21,"2,178s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:47:21,2023-04-14 17:47:21,"0,624s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Descripcin_form_categoriaSecciondescripcion""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:47:21,2023-04-14 17:47:22,"0,999s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/input_Orden_form_categoriaSeccionorden""), ""5"")",Chrome 111.0.0.0,,,2023-04-14 17:47:22,2023-04-14 17:47:23,"0,737s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:47:23,2023-04-14 17:47:23,"0,381s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 111.0.0.0,,,2023-04-14 17:47:23,2023-04-14 17:47:24,"0,597s",PASSED
+"if (Result == ""Se adiciono el registro correctamente"")",Chrome 111.0.0.0,,,2023-04-14 17:47:24,2023-04-14 17:47:25,"0,757s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.1-Nueva_Seccion,Chrome 111.0.0.0,,,2023-04-14 17:47:25,2023-04-14 17:47:51,"26,179s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:47:25,2023-04-14 17:47:33,"7,943s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 111.0.0.0,,,2023-04-14 17:47:33,2023-04-14 17:47:34,"0,588s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 111.0.0.0,,,2023-04-14 17:47:34,2023-04-14 17:47:34,"0,509s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/label_Parametros de Formularios""))",Chrome 111.0.0.0,,,2023-04-14 17:47:34,2023-04-14 17:47:35,"0,390s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Seccion""))",Chrome 111.0.0.0,,,2023-04-14 17:47:35,2023-04-14 17:47:35,"0,449s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:47:35,2023-04-14 17:47:36,"0,790s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""))",Chrome 111.0.0.0,,,2023-04-14 17:47:36,2023-04-14 17:47:36,"0,388s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:47:36,2023-04-14 17:47:37,"0,689s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Nueva Hoja Vida_seccion_formj_idt60""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:47:37,2023-04-14 17:47:38,"0,558s",PASSED
+"if (waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/span_Prueba""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:47:38,2023-04-14 17:47:39,"1,652s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:47:39,2023-04-14 17:47:40,"0,663s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Descripcin_seccion_formtabdescripcion""), ""Prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:47:40,2023-04-14 17:47:41,"0,903s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Orden_seccion_formtaborden""), ""12345"")",Chrome 111.0.0.0,,,2023-04-14 17:47:41,2023-04-14 17:47:41,"0,694s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneBienes""), ""2"")",Chrome 111.0.0.0,,,2023-04-14 17:47:41,2023-04-14 17:47:43,"1,013s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneAreas de experiencia""), ""5"")",Chrome 111.0.0.0,,,2023-04-14 17:47:43,2023-04-14 17:47:44,"1,053s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje_seccion_formtabmensaje""), ""PRUEBA"")",Chrome 111.0.0.0,,,2023-04-14 17:47:44,2023-04-14 17:47:45,"1,005s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Mensaje Final_seccion_formtabmensaje_final""), ""PRUEBA"")",Chrome 111.0.0.0,,,2023-04-14 17:47:45,2023-04-14 17:47:45,"0,719s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/textarea_Texto Confirmar_seccion_formtabmensaje_aceptacion""), ""PRUEBA"")",Chrome 111.0.0.0,,,2023-04-14 17:47:45,2023-04-14 17:47:46,"0,808s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneMultiplex AnexosNo solicitarnico anexo""), ""2"")",Chrome 111.0.0.0,,,2023-04-14 17:47:46,2023-04-14 17:47:47,"1,050s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/select_SeleccioneSiNo""), ""1"")",Chrome 111.0.0.0,,,2023-04-14 17:47:47,2023-04-14 17:47:48,"1,147s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/input_Externo_seccion_formtabexterno""), ""PRUEBA"")",Chrome 111.0.0.0,,,2023-04-14 17:47:48,2023-04-14 17:47:49,"0,742s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_sección/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:47:49,2023-04-14 17:47:49,"0,410s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 111.0.0.0,,,2023-04-14 17:47:49,2023-04-14 17:47:50,"0,805s",PASSED
+"if (Result == ""Se adiciono el registro correctamente"")",Chrome 111.0.0.0,,,2023-04-14 17:47:50,2023-04-14 17:47:51,"0,737s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-14 17:47:51,2023-04-14 17:47:51,"0,015s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.2-Nuevo_Formulario_Hoja_de_vida,Chrome 111.0.0.0,,,2023-04-14 17:47:51,2023-04-14 17:48:08,"17,333s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:47:51,2023-04-14 17:47:58,"6,779s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 111.0.0.0,,,2023-04-14 17:47:58,2023-04-14 17:47:59,"0,582s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 111.0.0.0,,,2023-04-14 17:47:59,2023-04-14 17:47:59,"0,487s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/label_Parametros de Formularios""))",Chrome 111.0.0.0,,,2023-04-14 17:47:59,2023-04-14 17:48:00,"0,380s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Formulario""))",Chrome 111.0.0.0,,,2023-04-14 17:48:00,2023-04-14 17:48:00,"0,376s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:48:00,2023-04-14 17:48:01,"1,066s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nueva Hoja Vida_form_formularioj_idt61""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:48:01,2023-04-14 17:48:02,"0,598s",PASSED
+"if (waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/span_Prueba""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:48:02,2023-04-14 17:48:04,"2,353s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:48:04,2023-04-14 17:48:05,"0,726s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Nombre_form_formularionombre""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:48:05,2023-04-14 17:48:06,"0,912s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/input_Cdigo_form_formulariomodulo""), ""123"")",Chrome 111.0.0.0,,,2023-04-14 17:48:06,2023-04-14 17:48:06,"0,681s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nuevo_Formulario_Hoja_de_vida1/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:48:06,2023-04-14 17:48:07,"0,377s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 111.0.0.0,,,2023-04-14 17:48:07,2023-04-14 17:48:08,"0,896s",PASSED
+"if (Result == ""Se adiciono el registro correctamente"")",Chrome 111.0.0.0,,,2023-04-14 17:48:08,2023-04-14 17:48:08,"0,759s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-14 17:48:08,2023-04-14 17:48:08,"0,005s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.3-Crear_Nueva_Tipo_de_Hoja,Chrome 111.0.0.0,,,2023-04-14 17:48:08,2023-04-14 17:48:30,"21,413s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:48:09,2023-04-14 17:48:16,"6,902s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Empresa 1_form_templatej_idt24_input""), ""Tipo de Hoja"")",Chrome 111.0.0.0,,,2023-04-14 17:48:16,2023-04-14 17:48:16,"0,678s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_Tipo de Hoja""))",Chrome 111.0.0.0,,,2023-04-14 17:48:16,2023-04-14 17:48:18,"1,383s",PASSED
+"if (waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/span_P1""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:48:18,2023-04-14 17:48:20,"2,589s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:48:20,2023-04-14 17:48:21,"0,659s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Tipo Relacin Hoja_form_tipohojavinculacion""), ""P1"")",Chrome 111.0.0.0,,,2023-04-14 17:48:21,2023-04-14 17:48:22,"1,004s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/input_Descripcin_form_tipohojadescripcion""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:48:22,2023-04-14 17:48:23,"0,789s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Directa""))",Chrome 111.0.0.0,,,2023-04-14 17:48:23,2023-04-14 17:48:23,"0,386s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_Si_Crear Hoja""))",Chrome 111.0.0.0,,,2023-04-14 17:48:23,2023-04-14 17:48:24,"0,388s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Aprobada""))",Chrome 111.0.0.0,,,2023-04-14 17:48:24,2023-04-14 17:48:24,"0,406s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/label_No_Novedad Rechazada""))",Chrome 111.0.0.0,,,2023-04-14 17:48:24,2023-04-14 17:48:24,"0,403s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Formulario Asociados""), 8)",Chrome 111.0.0.0,,,2023-04-14 17:48:24,2023-04-14 17:48:25,"1,065s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Hoja Asociar""), 3)",Chrome 111.0.0.0,,,2023-04-14 17:48:25,2023-04-14 17:48:26,"0,955s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Gestion Periodo""), 2)",Chrome 111.0.0.0,,,2023-04-14 17:48:26,2023-04-14 17:48:27,"1,055s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/select_Modo""), 1)",Chrome 111.0.0.0,,,2023-04-14 17:48:27,2023-04-14 17:48:28,"1,038s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Tipo_de_Hoja/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:48:28,2023-04-14 17:48:29,"0,407s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 111.0.0.0,,,2023-04-14 17:48:29,2023-04-14 17:48:30,"0,917s",PASSED
+"if (Result == ""Se adiciono el registro correctamente"")",Chrome 111.0.0.0,,,2023-04-14 17:48:30,2023-04-14 17:48:30,"0,001s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.4-Crear_Nueva_Hoja_de_Vida,Chrome 111.0.0.0,,,2023-04-14 17:48:30,2023-04-14 17:49:09,"38,894s",PASSED
+"callTestCase(findTestCase(""1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:48:30,2023-04-14 17:49:09,"38,586s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.5-Crear_Nueva_Hoja_de_Vida_(adjuntar_documento),Chrome 111.0.0.0,,,2023-04-14 17:49:09,2023-04-14 17:49:30,"21,410s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:49:09,2023-04-14 17:49:16,"7,060s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 111.0.0.0,,,2023-04-14 17:49:16,2023-04-14 17:49:17,"0,613s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 111.0.0.0,,,2023-04-14 17:49:17,2023-04-14 17:49:17,"0,499s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:49:17,2023-04-14 17:49:18,"0,336s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/label_Nueva Hoja Vida""))",Chrome 111.0.0.0,,,2023-04-14 17:49:18,2023-04-14 17:49:18,"0,364s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:49:18,2023-04-14 17:49:18,"0,345s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Listado Hojas de Vida""))",Chrome 111.0.0.0,,,2023-04-14 17:49:18,2023-04-14 17:49:19,"0,368s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63""), ""355682169"")",Chrome 111.0.0.0,,,2023-04-14 17:49:19,2023-04-14 17:49:20,"1,341s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Identificacin_listado_hojaVidaj_idt63""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:49:20,2023-04-14 17:49:20,"0,356s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/td_355682169""))",Chrome 111.0.0.0,,,2023-04-14 17:49:20,2023-04-14 17:49:21,"0,595s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Adjuntar Archivo""))",Chrome 111.0.0.0,,,2023-04-14 17:49:21,2023-04-14 17:49:22,"0,834s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:49:22,2023-04-14 17:49:22,"0,663s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Descripcin_hojaVidasecciondescripcion""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:49:22,2023-04-14 17:49:23,"0,996s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/a_Continuar""))",Chrome 111.0.0.0,,,2023-04-14 17:49:23,2023-04-14 17:49:24,"0,428s",PASSED
+"ra = """"",Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:24,"0,000s",PASSED
+"ruta = Systema(ra) + ""HojaDeVida.pdf""",Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:24,"0,002s",PASSED
+"RutaA = System.getProperty(""os.name"")",Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:24,"0,002s",PASSED
+"if (RutaA == ""Windows 10"")",Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:24,"0,003s",PASSED
+println(ruta),Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:24,"0,000s",PASSED
+"uploadFile(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/input_Cargar Archivo_popupCargarArchivoForminputFileName_input""), ruta)",Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:24,"0,575s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 111.0.0.0,,,2023-04-14 17:49:24,2023-04-14 17:49:25,"0,686s",PASSED
+"while (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Crear_Nueva_Hoja_de_Vida_(adjuntar_documento)/span_prueba""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:49:25,2023-04-14 17:49:29,"4,239s",PASSED
+"if (Result == ""Se Ingreso anexo exitosamente"")",Chrome 111.0.0.0,,,2023-04-14 17:49:29,2023-04-14 17:49:30,"0,752s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.6-Impresión_Hoja_Vida_Plantilla,Chrome 111.0.0.0,,,2023-04-14 17:49:30,2023-04-14 17:49:44,"14,336s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:49:30,2023-04-14 17:49:37,"6,987s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 111.0.0.0,,,2023-04-14 17:49:37,2023-04-14 17:49:38,"0,603s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 111.0.0.0,,,2023-04-14 17:49:38,2023-04-14 17:49:39,"0,484s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/label_Nueva Hoja Vida""))",Chrome 111.0.0.0,,,2023-04-14 17:49:39,2023-04-14 17:49:39,"0,363s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:49:39,2023-04-14 17:49:39,"0,341s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Listado Hojas de Vida""))",Chrome 111.0.0.0,,,2023-04-14 17:49:39,2023-04-14 17:49:40,"0,401s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:49:40,2023-04-14 17:49:41,"1,013s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63""), ""80769954"")",Chrome 111.0.0.0,,,2023-04-14 17:49:41,2023-04-14 17:49:41,"0,773s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/input_Identificacin_listado_hojaVidaj_idt63""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:49:41,2023-04-14 17:49:42,"0,364s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_355682169""))",Chrome 111.0.0.0,,,2023-04-14 17:49:42,2023-04-14 17:49:42,"0,649s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/a_Generar""))",Chrome 111.0.0.0,,,2023-04-14 17:49:42,2023-04-14 17:49:43,"0,831s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Impresión_Hoja_Vida_Plantilla/td_espaol impresion empleado""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:49:43,2023-04-14 17:49:44,"1,161s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.7-Impresión_Hoja_Vida_Función_Pública,Chrome 111.0.0.0,,,2023-04-14 17:49:44,2023-04-14 17:50:09,"24,423s",PASSED
+"callTestCase(findTestCase(""1.1-Tareas Principales/1.1.2-Imprimir Hoja de Vida""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:49:45,2023-04-14 17:50:09,"24,048s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.1.8-Aprobación_Novedades,Chrome 111.0.0.0,,,2023-04-14 17:50:09,2023-04-14 17:50:37,"28,543s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:50:09,2023-04-14 17:50:16,"7,019s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 111.0.0.0,,,2023-04-14 17:50:16,2023-04-14 17:50:17,"0,568s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 111.0.0.0,,,2023-04-14 17:50:17,2023-04-14 17:50:17,"0,472s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida""))",Chrome 111.0.0.0,,,2023-04-14 17:50:17,2023-04-14 17:50:18,"0,367s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades""))",Chrome 111.0.0.0,,,2023-04-14 17:50:18,2023-04-14 17:50:18,"0,369s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada""), 3)",Chrome 111.0.0.0,,,2023-04-14 17:50:18,2023-04-14 17:50:20,"1,861s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:50:20,2023-04-14 17:50:22,"2,128s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:50:22,2023-04-14 17:50:30,"7,877s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/input_Secciones_form_templatej_idt286j_idt29""))",Chrome 111.0.0.0,,,2023-04-14 17:50:30,2023-04-14 17:50:30,"0,569s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_ADMINISTRADOR DEL SISTEMA - SARA_cerrar_menu""))",Chrome 111.0.0.0,,,2023-04-14 17:50:30,2023-04-14 17:50:31,"0,476s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/label_Nueva Hoja Vida""))",Chrome 111.0.0.0,,,2023-04-14 17:50:31,2023-04-14 17:50:31,"0,378s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/a_Novedades""))",Chrome 111.0.0.0,,,2023-04-14 17:50:31,2023-04-14 17:50:32,"0,373s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/select_-- Seleccione --AprobadaCanceladaPendienteRechazada""), 3)",Chrome 111.0.0.0,,,2023-04-14 17:50:32,2023-04-14 17:50:33,"1,795s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Aprobación_Novedades/span_DIAZ BLANCO GUISELL""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:50:33,2023-04-14 17:50:37,"3,906s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/2.1-Pruebas_Hoja_de_Vida/2.2.2-Notificar_Novedades_Hoja_Vida,Chrome 111.0.0.0,,,2023-04-14 17:50:37,2023-04-14 17:51:02,"24,467s",PASSED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,001s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,010s",PASSED
+Añom = Año - 20,Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,000s",PASSED
+AñoB = Año - 32,Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,000s",PASSED
+"Fecha = Dia + ""/"" + Mes + ""/"" + Añom",Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,000s",PASSED
+"FechaB = Dia + ""/"" + Mes + ""/"" + AñoB",Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:38,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:50:38,2023-04-14 17:50:44,"6,413s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:50:44,2023-04-14 17:50:45,"0,331s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input""), ""Listado Hojas de Vida (hoj)"")",Chrome 111.0.0.0,,,2023-04-14 17:50:45,2023-04-14 17:50:45,"0,714s",PASSED
+"waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:50:45,2023-04-14 17:50:47,"1,576s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Listado Hojas de Vida (hoj)""))",Chrome 111.0.0.0,,,2023-04-14 17:50:47,2023-04-14 17:50:47,"0,410s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63""), ""354968431354"")",Chrome 111.0.0.0,,,2023-04-14 17:50:47,2023-04-14 17:50:49,"1,710s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Identificacin_listado_hojaVidaj_idt63""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:50:49,2023-04-14 17:50:49,"0,353s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_354968431354""))",Chrome 111.0.0.0,,,2023-04-14 17:50:49,2023-04-14 17:50:50,"0,658s",PASSED
+"FechaG = getText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input""), STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:50:50,2023-04-14 17:50:51,"0,774s",PASSED
+if (Fecha == FechaG),Chrome 111.0.0.0,,,2023-04-14 17:50:51,2023-04-14 17:50:51,"0,000s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Fecha Expedicin_hojaVidaseccionj_idt2106fecha_input""), Fecha)",Chrome 111.0.0.0,,,2023-04-14 17:50:51,2023-04-14 17:50:52,"0,841s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a__hojaVidaseccionj_idt21411j_idt254""))",Chrome 111.0.0.0,,,2023-04-14 17:50:52,2023-04-14 17:50:52,"0,601s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921""), ""BOGOTÁ"")",Chrome 111.0.0.0,,,2023-04-14 17:50:52,2023-04-14 17:50:53,"1,084s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Ubicacin Geogrfica_formPopUpUbicacionj_idt921""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:50:53,2023-04-14 17:50:54,"0,365s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/td_11001     BOGOT""))",Chrome 111.0.0.0,,,2023-04-14 17:50:54,2023-04-14 17:50:54,"0,614s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a__hojaVidaseccionj_idt21412j_idt254""))",Chrome 111.0.0.0,,,2023-04-14 17:50:54,2023-04-14 17:50:55,"0,736s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Nacionalidad_j_idt930j_idt935""), ""Colombiana"")",Chrome 111.0.0.0,,,2023-04-14 17:50:55,2023-04-14 17:50:56,"1,004s",PASSED
+"sendKeys(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/input_Nacionalidad_j_idt930j_idt935""), Keys.chord(ENTER))",Chrome 111.0.0.0,,,2023-04-14 17:50:56,2023-04-14 17:50:57,"0,709s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/span_Colombiana""))",Chrome 111.0.0.0,,,2023-04-14 17:50:57,2023-04-14 17:50:57,"0,566s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:50:57,2023-04-14 17:50:58,"0,719s",PASSED
+"if (waitForElementVisible(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/div_INFONo hay cambios que guardar""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:50:58,2023-04-14 17:51:00,"2,266s",PASSED
+"Result = getText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/label_Sus datos han sido Actualizados correctamente""))",Chrome 111.0.0.0,,,2023-04-14 17:51:00,2023-04-14 17:51:01,"0,388s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Notificar_Novedades_Hoja_Vida/a_Aceptar""))",Chrome 111.0.0.0,,,2023-04-14 17:51:01,2023-04-14 17:51:01,"0,434s",PASSED
+"if (Result == ""Sus datos han sido Actualizados correctamente"")",Chrome 111.0.0.0,,,2023-04-14 17:51:01,2023-04-14 17:51:02,"0,746s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.1-Crear_un_Evento,Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:54:54,"3m - 52,560s",PASSED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,001s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"MesN = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"AñoN = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+sumaA = Año + 1,Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+if (sumaD > 30),Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+if (sumaM > 12),Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"FechaF = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:02,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:51:02,2023-04-14 17:51:12,"9,873s",PASSED
+"if (waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_Prueba-S""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:51:12,2023-04-14 17:51:54,"41,826s",PASSED
+"if (waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_Prueba-S-SH""), 1))",Chrome 111.0.0.0,,,2023-04-14 17:51:54,2023-04-14 17:54:04,"2m - 10,081s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:54:04,2023-04-14 17:54:05,"0,880s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --aprea de Saludrea Formativarea Deportivarea de cienciasrea Social""), 3)",Chrome 111.0.0.0,,,2023-04-14 17:54:05,2023-04-14 17:54:07,"1,602s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Promocin y prevencinActivate Acompaamiento psicosocial Semana de la SaludSeguimiento puestos de trabajo""), ""1"")",Chrome 111.0.0.0,,,2023-04-14 17:54:07,2023-04-14 17:54:08,"1,549s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Evento grupo Bienestar MultipleEvento Grupo Bienestar Multiple SIEvento Grupo Bienestar nicoEvento Individual Multiple SS""), 5)",Chrome 111.0.0.0,,,2023-04-14 17:54:08,2023-04-14 17:54:10,"1,493s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aplicar""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:54:10,2023-04-14 17:54:10,"0,601s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aplicar""))",Chrome 111.0.0.0,,,2023-04-14 17:54:10,2023-04-14 17:54:11,"0,470s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:54:11,2023-04-14 17:54:12,"1,294s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), ""Prueba-S"")",Chrome 111.0.0.0,,,2023-04-14 17:54:12,2023-04-14 17:54:13,"0,723s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Inicial Desarrollo_formEventosfechaIn_input""), FechaI)",Chrome 111.0.0.0,,,2023-04-14 17:54:13,2023-04-14 17:54:13,"0,749s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Final Desarrollo_formEventosfechaFin_input""), FechaF)",Chrome 111.0.0.0,,,2023-04-14 17:54:13,2023-04-14 17:54:14,"0,960s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:54:14,2023-04-14 17:54:15,"0,510s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos""))",Chrome 111.0.0.0,,,2023-04-14 17:54:15,2023-04-14 17:54:16,"0,926s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Nuevo1""))",Chrome 111.0.0.0,,,2023-04-14 17:54:16,2023-04-14 17:54:17,"0,844s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Cdigo_popupMomentoEvento_formcodigo""), ""355682169"")",Chrome 111.0.0.0,,,2023-04-14 17:54:17,2023-04-14 17:54:18,"1,591s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Nombre_popupMomentoEvento_formpMENombre""), ""prueba"")",Chrome 111.0.0.0,,,2023-04-14 17:54:18,2023-04-14 17:54:19,"0,870s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --ESCENARIO DE PRUEBASALON 1""), 1)",Chrome 111.0.0.0,,,2023-04-14 17:54:19,2023-04-14 17:54:20,"1,112s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --FemeninaMasculinaMixta""), 3)",Chrome 111.0.0.0,,,2023-04-14 17:54:20,2023-04-14 17:54:21,"1,174s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Nivel BsicoNivel IntermedionicoNivel Avanzado""), 1)",Chrome 111.0.0.0,,,2023-04-14 17:54:21,2023-04-14 17:54:23,"1,040s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo""), ""150"")",Chrome 111.0.0.0,,,2023-04-14 17:54:23,2023-04-14 17:54:23,"0,773s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo""), ""1"")",Chrome 111.0.0.0,,,2023-04-14 17:54:23,2023-04-14 17:54:24,"0,792s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --CanceladoProgramada""), 2)",Chrome 111.0.0.0,,,2023-04-14 17:54:24,2023-04-14 17:54:25,"1,132s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input""), FechaI)",Chrome 111.0.0.0,,,2023-04-14 17:54:25,2023-04-14 17:54:26,"0,813s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input""), FechaF)",Chrome 111.0.0.0,,,2023-04-14 17:54:26,2023-04-14 17:54:27,"0,961s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Guardar1""))",Chrome 111.0.0.0,,,2023-04-14 17:54:27,2023-04-14 17:54:28,"0,564s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Regresar""))",Chrome 111.0.0.0,,,2023-04-14 17:54:28,2023-04-14 17:54:29,"1,100s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Nuevo""))",Chrome 111.0.0.0,,,2023-04-14 17:54:29,2023-04-14 17:54:30,"0,903s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --aprea de Saludrea Formativarea Deportivarea de cienciasrea Social""), 5)",Chrome 111.0.0.0,,,2023-04-14 17:54:30,2023-04-14 17:54:31,"1,573s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Promocin y prevencinActivate Acompaamiento psicosocial Semana de la SaludSeguimiento puestos de trabajo""), ""1"")",Chrome 111.0.0.0,,,2023-04-14 17:54:31,2023-04-14 17:54:33,"1,406s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Evento grupo Bienestar MultipleEvento Grupo Bienestar Multiple SIEvento Grupo Bienestar nicoEvento Individual Multiple SS""), 2)",Chrome 111.0.0.0,,,2023-04-14 17:54:33,2023-04-14 17:54:34,"1,390s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aplicar""))",Chrome 111.0.0.0,,,2023-04-14 17:54:34,2023-04-14 17:54:35,"0,635s",PASSED
+"waitForElementClickable(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), 0)",Chrome 111.0.0.0,,,2023-04-14 17:54:35,2023-04-14 17:54:36,"1,214s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Nombre_formEventosfENombre""), ""Prueba-S-SH"")",Chrome 111.0.0.0,,,2023-04-14 17:54:36,2023-04-14 17:54:37,"0,821s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Inicial Desarrollo_formEventosfechaIn_input""), FechaI)",Chrome 111.0.0.0,,,2023-04-14 17:54:37,2023-04-14 17:54:37,"0,827s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Final Desarrollo_formEventosfechaFin_input""), FechaF)",Chrome 111.0.0.0,,,2023-04-14 17:54:37,2023-04-14 17:54:38,"0,991s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Guardar""))",Chrome 111.0.0.0,,,2023-04-14 17:54:38,2023-04-14 17:54:39,"0,554s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos""))",Chrome 111.0.0.0,,,2023-04-14 17:54:39,2023-04-14 17:54:40,"0,924s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Nuevo1""))",Chrome 111.0.0.0,,,2023-04-14 17:54:40,2023-04-14 17:54:41,"0,828s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Cdigo_popupMomentoEvento_formcodigo""), ""355682169"")",Chrome 111.0.0.0,,,2023-04-14 17:54:41,2023-04-14 17:54:42,"1,721s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Nombre_popupMomentoEvento_formpMENombre""), ""prueba-S-SH"")",Chrome 111.0.0.0,,,2023-04-14 17:54:42,2023-04-14 17:54:43,"0,880s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --ESCENARIO DE PRUEBASALON 1""), 1)",Chrome 111.0.0.0,,,2023-04-14 17:54:43,2023-04-14 17:54:44,"1,042s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --FemeninaMasculinaMixta""), 3)",Chrome 111.0.0.0,,,2023-04-14 17:54:44,2023-04-14 17:54:46,"1,162s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Nivel BsicoNivel IntermedionicoNivel Avanzado""), 1)",Chrome 111.0.0.0,,,2023-04-14 17:54:46,2023-04-14 17:54:47,"1,109s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Cupo Mximo_popupMomentoEvento_formpMECupoMaximo""), ""150"")",Chrome 111.0.0.0,,,2023-04-14 17:54:47,2023-04-14 17:54:47,"0,737s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Cupo Minimo_popupMomentoEvento_formpMECupoMinimo""), ""1"")",Chrome 111.0.0.0,,,2023-04-14 17:54:47,2023-04-14 17:54:48,"0,829s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --Canizalez Acero Marta BrigitteMendoza 1010 Empleado""), 2)",Chrome 111.0.0.0,,,2023-04-14 17:54:48,2023-04-14 17:54:49,"1,123s",PASSED
+"selectOptionByIndex(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/select_-- Seleccione --CanceladoProgramada""), 2)",Chrome 111.0.0.0,,,2023-04-14 17:54:49,2023-04-14 17:54:50,"1,151s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input""), FechaI)",Chrome 111.0.0.0,,,2023-04-14 17:54:50,2023-04-14 17:54:51,"0,851s",PASSED
+"setText(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input""), FechaF)",Chrome 111.0.0.0,,,2023-04-14 17:54:51,2023-04-14 17:54:52,"1,016s",PASSED
+"click(findTestObject(""2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Guardar1""))",Chrome 111.0.0.0,,,2023-04-14 17:54:52,2023-04-14 17:54:53,"0,622s",PASSED
+"Result = getText(findTestObject(""3-OBJECTS UTILIDADES/Alerta/Alerta""))",Chrome 111.0.0.0,,,2023-04-14 17:54:53,2023-04-14 17:54:54,"1,043s",PASSED
+"if (Result == ""Se guardo satisfactoriamente."")",Chrome 111.0.0.0,,,2023-04-14 17:54:54,2023-04-14 17:54:54,"0,438s",PASSED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.2-Ingresar_instructores,Chrome 111.0.0.0,,,2023-04-14 17:54:54,2023-04-14 17:54:57,"2,732s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:54:55,2023-04-14 17:54:57,"2,265s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.3-Ingresar entidades,Chrome 111.0.0.0,,,2023-04-14 17:54:57,2023-04-14 17:54:59,"2,027s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:54:58,2023-04-14 17:54:59,"1,545s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.4-Filtro_de_asistentes,Chrome 111.0.0.0,,,2023-04-14 17:54:59,2023-04-14 17:55:01,"1,981s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:00,2023-04-14 17:55:01,"1,511s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.5-Publicación_del_evento,Chrome 111.0.0.0,,,2023-04-14 17:55:01,2023-04-14 17:55:03,"2,207s",FAILED
+"comment(""No Ejecutar. Falla con imagen subida"")",Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,001s",PASSED
+fecha = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+Dia = fecha.getDate(),Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,010s",PASSED
+Mes = fecha.getMonth() + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+MesN = fecha.getMonth() + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+Año = fecha.getYear() + 1900,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+AñoN = fecha.getYear() + 1900,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+DiaF = Dia + 10,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+MesF = Mes + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+AñoF = Año + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+if (DiaF > 30),Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+if (MesF > 12),Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+if (Mes > 12),Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+"FechaF = DiaF + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:02,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:02,2023-04-14 17:55:03,"1,519s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.6-Programación,Chrome 111.0.0.0,,,2023-04-14 17:55:03,2023-04-14 17:55:05,"1,897s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:04,2023-04-14 17:55:05,"1,518s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.7-Programacion_Múltiple,Chrome 111.0.0.0,,,2023-04-14 17:55:05,2023-04-14 17:55:07,"2,072s",FAILED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,001s",PASSED
+"Mes1 = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"MesN = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"AñoN = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+sumaA = Año + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (Dia > 30 || Dia > 31),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (Mes < 10),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (sumaM < 10),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (sumaD > 30),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (sumaD > 30),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (sumaM > 12),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+Dia0 = Dia + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+restaD0 = sumaD - 1,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (Dia0 > 30),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+if (restaD0 < 1),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"FechaF = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"FechaI0 = Dia0 + ""/"" + MesN + ""/"" + AñoN",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"FechaF0 = restaD0 + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+println(FechaI),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,010s",PASSED
+println(FechaF),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+println(FechaI0),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+println(FechaF0),Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:06,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:06,2023-04-14 17:55:07,"1,525s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.8-Calendario,Chrome 111.0.0.0,,,2023-04-14 17:55:07,2023-04-14 17:55:09,"1,813s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:08,2023-04-14 17:55:09,"1,476s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.1.9-Deducción_de_costos_al_plan_inversión,Chrome 111.0.0.0,,,2023-04-14 17:55:09,2023-04-14 17:55:11,"1,954s",FAILED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"MesN = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"AñoN = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+sumaA = Año + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+if (sumaD > 30),Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+if (sumaM > 12),Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"Fechaini = Dia + ""/"" + MesN + ""/"" + AñoN",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"Fechafin = sumaD + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:10,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:10,2023-04-14 17:55:11,"1,558s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.1 -inscripción_a_un_evento,Chrome 111.0.0.0,,,2023-04-14 17:55:11,2023-04-14 17:55:13,"2,281s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:12,2023-04-14 17:55:13,"1,767s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.2-Invitación,Chrome 111.0.0.0,,,2023-04-14 17:55:13,2023-04-14 17:55:16,"2,071s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:14,2023-04-14 17:55:16,"1,513s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.3-Inscripción_masiva,Chrome 111.0.0.0,,,2023-04-14 17:55:16,2023-04-14 17:55:18,"2,063s",FAILED
+"comment(""FALLA POR CUPOS LLENOS"")",Chrome 111.0.0.0,,,2023-04-14 17:55:16,2023-04-14 17:55:16,"0,002s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:16,2023-04-14 17:55:18,"1,575s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.4-Inscripción_Individual_como_funcional,Chrome 111.0.0.0,,,2023-04-14 17:55:18,2023-04-14 17:55:20,"2,067s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:18,2023-04-14 17:55:20,"1,463s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.6-Sancionados,Chrome 111.0.0.0,,,2023-04-14 17:55:20,2023-04-14 17:55:22,"1,824s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:20,2023-04-14 17:55:21,"1,479s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.2.8-Programación_de_evaluación,Chrome 111.0.0.0,,,2023-04-14 17:55:22,2023-04-14 17:55:23,"1,910s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:22,2023-04-14 17:55:23,"1,534s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.1-Recursos,Chrome 111.0.0.0,,,2023-04-14 17:55:23,2023-04-14 17:55:25,"1,842s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:24,2023-04-14 17:55:25,"1,505s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.2-Crear_tipo_de_beneficio_CASO1_(Novedad_nómina),Chrome 111.0.0.0,,,2023-04-14 17:55:25,2023-04-14 17:55:27,"1,715s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:26,2023-04-14 17:55:27,"1,379s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/3.3.3-Filtro_sección,Chrome 111.0.0.0,,,2023-04-14 17:55:27,2023-04-14 17:55:29,"1,800s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:27,2023-04-14 17:55:29,"1,477s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.1-Nuevo_Curso,Chrome 111.0.0.0,,,2023-04-14 17:55:29,2023-04-14 17:55:31,"1,727s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:29,2023-04-14 17:55:31,"1,389s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.2-Nuevo _Instructor-Entidad,Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:32,"1,782s",FAILED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,001s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"MesN = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"AñoI = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"AñoR = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+sumaD = Dia + 10,Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+sumaM = Mes + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+sumaA = AñoI + 1,Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+sumaAR = AñoI + 2,Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+if (sumaD > 30),Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+else,Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+if (sumaM > 12),Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+println(MesN),Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+println(Mes),Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+if (MesN == 12 && Mes == 1),Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"FechaI = Dia + ""/"" + MesN + ""/"" + AñoI",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"FechaF = sumaD + ""/"" + Mes + ""/"" + AñoR",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:31,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:31,2023-04-14 17:55:32,"1,417s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.3-Evento_de_Capacitación,Chrome 111.0.0.0,,,2023-04-14 17:55:32,2023-04-14 17:55:35,"2,259s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:33,2023-04-14 17:55:35,"1,797s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.4-Crear_un_Grupo-Curso_Tipo_Evento_Grupal,Chrome 111.0.0.0,,,2023-04-14 17:55:35,2023-04-14 17:55:36,"1,806s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:35,2023-04-14 17:55:36,"1,488s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.5-Insribir_un_asistente,Chrome 111.0.0.0,,,2023-04-14 17:55:36,2023-04-14 17:55:38,"1,804s",FAILED
+"comment(""PENDIENTE POR REPARAR FALLA SE PUEDE EJECUTAR PERO FALLA"")",Chrome 111.0.0.0,,,2023-04-14 17:55:37,2023-04-14 17:55:37,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:37,2023-04-14 17:55:38,"1,436s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.6-Enviar_una_invitación,Chrome 111.0.0.0,,,2023-04-14 17:55:38,2023-04-14 17:55:41,"2,711s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:39,2023-04-14 17:55:41,"2,363s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.7-Cambiar_estado_de_un_asistente,Chrome 111.0.0.0,,,2023-04-14 17:55:41,2023-04-14 17:55:44,"2,752s",FAILED
+"mensaje = """"",Chrome 111.0.0.0,,,2023-04-14 17:55:41,2023-04-14 17:55:41,"0,000s",PASSED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:41,2023-04-14 17:55:44,"2,433s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.8-Asociar_Recursos,Chrome 111.0.0.0,,,2023-04-14 17:55:44,2023-04-14 17:55:46,"2,179s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:44,2023-04-14 17:55:46,"1,870s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.1.9-Registrar_los_costos,Chrome 111.0.0.0,,,2023-04-14 17:55:46,2023-04-14 17:55:48,"2,162s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:46,2023-04-14 17:55:48,"1,867s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.1-Programar_un_evento,Chrome 111.0.0.0,,,2023-04-14 17:55:48,2023-04-14 17:55:50,"1,754s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:48,2023-04-14 17:55:50,"1,448s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.2-Programar_una_Evaluación_de_un_evento,Chrome 111.0.0.0,,,2023-04-14 17:55:50,2023-04-14 17:55:52,"1,780s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:50,2023-04-14 17:55:52,"1,444s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.3-Crear_una_Necesidad_de_Capacitación,Chrome 111.0.0.0,,,2023-04-14 17:55:52,2023-04-14 17:55:53,"1,687s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:52,2023-04-14 17:55:53,"1,349s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.4-Reserva_de_Salones,Chrome 111.0.0.0,,,2023-04-14 17:55:53,2023-04-14 17:55:55,"1,792s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:54,2023-04-14 17:55:55,"1,456s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.5-Enviar_y_imprimir_Diploma,Chrome 111.0.0.0,,,2023-04-14 17:55:55,2023-04-14 17:55:57,"1,744s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:55,2023-04-14 17:55:57,"1,414s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/4.1-Pruebas_Capacitación/4.2.6-Programa_Capacitacion,Chrome 111.0.0.0,,,2023-04-14 17:55:57,2023-04-14 17:55:59,"1,816s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:57,2023-04-14 17:55:59,"1,376s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.1-Reporte_de_accidente_de_trabajo,Chrome 111.0.0.0,,,2023-04-14 17:55:59,2023-04-14 17:56:00,"1,790s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:55:59,2023-04-14 17:56:00,"1,401s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.2-Investigación_Accidente_de_Trabajo,Chrome 111.0.0.0,,,2023-04-14 17:56:00,2023-04-14 17:56:02,"1,837s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:01,2023-04-14 17:56:02,"1,412s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.3-Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes,Chrome 111.0.0.0,,,2023-04-14 17:56:02,2023-04-14 17:56:04,"1,774s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:03,2023-04-14 17:56:04,"1,396s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.4-Creación_de_Matriz_de_Peligros,Chrome 111.0.0.0,,,2023-04-14 17:56:04,2023-04-14 17:56:06,"1,755s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:04,2023-04-14 17:56:06,"1,350s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.5-Diligenciar_una_inspección,Chrome 111.0.0.0,,,2023-04-14 17:56:06,2023-04-14 17:56:08,"1,780s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:06,2023-04-14 17:56:08,"1,429s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.6-Crear_una_entidad_de_riesgo_sst,Chrome 111.0.0.0,,,2023-04-14 17:56:08,2023-04-14 17:56:09,"1,644s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:08,2023-04-14 17:56:09,"1,312s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.7-Crear_un_Sistema_de_Vigilancia_Epidemiologica,Chrome 111.0.0.0,,,2023-04-14 17:56:09,2023-04-14 17:56:11,"1,743s",FAILED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:56:10,2023-04-14 17:56:10,"0,000s",PASSED
+"todaysDate = today.format(""dd/MM/yyyy HH:mm"")",Chrome 111.0.0.0,,,2023-04-14 17:56:10,2023-04-14 17:56:10,"0,000s",PASSED
+"comment(""FALTA CONDICION PARA ELIMINAR REGISTRO."")",Chrome 111.0.0.0,,,2023-04-14 17:56:10,2023-04-14 17:56:10,"0,000s",PASSED
+"comment(""conflicto con base de datos no permite eliminar registro"")",Chrome 111.0.0.0,,,2023-04-14 17:56:10,2023-04-14 17:56:10,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:10,2023-04-14 17:56:11,"1,345s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.8-Crear_plan_de_trabajo_anual,Chrome 111.0.0.0,,,2023-04-14 17:56:11,2023-04-14 17:56:13,"1,831s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:11,2023-04-14 17:56:13,"1,461s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/5.1-Pruebas_SST/5.1.9-Creación_de_Grupos_de_Apoyo,Chrome 111.0.0.0,,,2023-04-14 17:56:13,2023-04-14 17:56:15,"1,775s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:13,2023-04-14 17:56:15,"1,396s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.1-Crear_un_tipo_Documento,Chrome 111.0.0.0,,,2023-04-14 17:56:15,2023-04-14 17:56:16,"1,800s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:15,2023-04-14 17:56:16,"1,465s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.2-Crear_un_Momento,Chrome 111.0.0.0,,,2023-04-14 17:56:16,2023-04-14 17:56:18,"1,742s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:17,2023-04-14 17:56:18,"1,427s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.3-Crear_un_Origen_de_Contratación,Chrome 111.0.0.0,,,2023-04-14 17:56:18,2023-04-14 17:56:20,"1,602s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:18,2023-04-14 17:56:20,"1,285s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.4-Crear_un_Registro_de_Contratación,Chrome 111.0.0.0,,,2023-04-14 17:56:20,2023-04-14 17:56:21,"1,702s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:20,2023-04-14 17:56:21,"1,367s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.5-Validar_la_creación_del_Registro_de_Contratación_por_BPM,Chrome 111.0.0.0,,,2023-04-14 17:56:21,2023-04-14 17:56:23,"1,800s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:22,2023-04-14 17:56:23,"1,477s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.6-Validar_Documentos,Chrome 111.0.0.0,,,2023-04-14 17:56:23,2023-04-14 17:56:25,"1,783s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:24,2023-04-14 17:56:25,"1,406s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.7-Elaborar_Contrato,Chrome 111.0.0.0,,,2023-04-14 17:56:25,2023-04-14 17:56:27,"1,722s",FAILED
+"comment(""SE GENERA FALLA AL DAR CLICK SOBRE REGISTRO ACTIVIDAD"")",Chrome 111.0.0.0,,,2023-04-14 17:56:25,2023-04-14 17:56:25,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:25,2023-04-14 17:56:27,"1,403s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/7.1-Pruebas_Vinculación/7.1.8-Cerrar_Proceso_de_Contratación,Chrome 111.0.0.0,,,2023-04-14 17:56:27,2023-04-14 17:56:28,"1,666s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:27,2023-04-14 17:56:28,"1,349s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.1-Seguimiento_a_objeto_Succeso_Adicion,Chrome 111.0.0.0,,,2023-04-14 17:56:28,2023-04-14 17:56:30,"2,036s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:29,2023-04-14 17:56:30,"1,710s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.2-Seguimiento_a_objeto_Succeso_Actualización,Chrome 111.0.0.0,,,2023-04-14 17:56:30,2023-04-14 17:56:32,"1,756s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:31,2023-04-14 17:56:32,"1,437s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.3-Seguimiento_a_objeto_Succeso_Borrado,Chrome 111.0.0.0,,,2023-04-14 17:56:32,2023-04-14 17:56:34,"1,719s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:32,2023-04-14 17:56:34,"1,392s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.4-Seguimiento_a_objeto_Succeso_Acceso,Chrome 111.0.0.0,,,2023-04-14 17:56:34,2023-04-14 17:56:36,"1,786s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:34,2023-04-14 17:56:36,"1,461s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.5-Seguimiento_a_objeto_Succeso_Petición,Chrome 111.0.0.0,,,2023-04-14 17:56:36,2023-04-14 17:56:37,"1,635s",FAILED
+"callTestCase(findTestCase(""Utilidades-(atajos_para _tareas)/Modulos/Modulo Auditoria""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:36,2023-04-14 17:56:37,"1,315s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.1-Crear_un_periodo_de_evaluación,Chrome 111.0.0.0,,,2023-04-14 17:56:37,2023-04-14 17:56:39,"1,641s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:38,2023-04-14 17:56:39,"1,320s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.2-Crear_una_Fase,Chrome 111.0.0.0,,,2023-04-14 17:56:39,2023-04-14 17:56:41,"1,708s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:39,2023-04-14 17:56:41,"1,387s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.3-Crear_una_Etapa,Chrome 111.0.0.0,,,2023-04-14 17:56:41,2023-04-14 17:56:42,"1,739s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:41,2023-04-14 17:56:42,"1,413s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.4-Crear_modelos_de_evaluaciones 360º 180º 90º,Chrome 111.0.0.0,,,2023-04-14 17:56:42,2023-04-14 17:56:44,"1,673s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:43,2023-04-14 17:56:44,"1,349s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.5-Programar_la_evaluación_Individual,Chrome 111.0.0.0,,,2023-04-14 17:56:44,2023-04-14 17:56:46,"1,773s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:44,2023-04-14 17:56:46,"1,452s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.1-Crear_un_requerimiento_según_motivo_y_formato,Chrome 111.0.0.0,,,2023-04-14 17:56:46,2023-04-14 17:56:48,"1,784s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:46,2023-04-14 17:56:48,"1,465s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.2-Flujo_aprobación_requerimiento,Chrome 111.0.0.0,,,2023-04-14 17:56:48,2023-04-14 17:56:49,"1,709s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:48,2023-04-14 17:56:49,"1,393s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.3-Crear_proceso_de_selección_por_BPM,Chrome 111.0.0.0,,,2023-04-14 17:56:49,2023-04-14 17:56:51,"1,740s",FAILED
+Entorno = G_Identificador,Chrome 111.0.0.0,,,2023-04-14 17:56:50,2023-04-14 17:56:50,"0,000s",PASSED
+"if (Entorno == ""weblogic"")",Chrome 111.0.0.0,,,2023-04-14 17:56:50,2023-04-14 17:56:50,"0,000s",PASSED
+"comment(""NO SE PUEDE ELIMINAR REGISTROS"")",Chrome 111.0.0.0,,,2023-04-14 17:56:50,2023-04-14 17:56:50,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:50,2023-04-14 17:56:51,"1,354s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.4-Condición_de_derecho,Chrome 111.0.0.0,,,2023-04-14 17:56:51,2023-04-14 17:56:53,"1,677s",FAILED
+Entorno = G_Identificador,Chrome 111.0.0.0,,,2023-04-14 17:56:51,2023-04-14 17:56:51,"0,000s",PASSED
+"if (Entorno == ""weblogic"")",Chrome 111.0.0.0,,,2023-04-14 17:56:51,2023-04-14 17:56:51,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:51,2023-04-14 17:56:53,"1,347s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.5-Publicación_de_la_convocatoria,Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:55,"1,847s",FAILED
+Entorno = G_Identificador,Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"if (Entorno == ""weblogic"")",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"Año = today.format(""yyyy"")",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+AñoM = Año + 1,Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"fechaI = Dia + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"fechaF = Dia + ""/"" + Mes + ""/"" + AñoM",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:53,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:53,2023-04-14 17:56:55,"1,437s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.7-Buscar_hoja_de_vida,Chrome 111.0.0.0,,,2023-04-14 17:56:55,2023-04-14 17:56:56,"1,708s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:55,2023-04-14 17:56:56,"1,390s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.8-Buscar_hoja_de_vida_externa,Chrome 111.0.0.0,,,2023-04-14 17:56:56,2023-04-14 17:56:58,"1,787s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:57,2023-04-14 17:56:58,"1,442s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.1.9-Asociar_candidatos,Chrome 111.0.0.0,,,2023-04-14 17:56:58,2023-04-14 17:57:00,"1,751s",FAILED
+Entorno = G_Identificador,Chrome 111.0.0.0,,,2023-04-14 17:56:58,2023-04-14 17:56:58,"0,000s",PASSED
+"if (Entorno == ""weblogic"")",Chrome 111.0.0.0,,,2023-04-14 17:56:58,2023-04-14 17:56:58,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:56:58,2023-04-14 17:57:00,"1,381s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.0-Pruebas_Selección/10.2.1-Programación_de_etapas_a_un_candidato,Chrome 111.0.0.0,,,2023-04-14 17:57:00,2023-04-14 17:57:02,"1,708s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:00,2023-04-14 17:57:02,"1,323s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.1-Recálcular_nómina_por_empleado,Chrome 111.0.0.0,,,2023-04-14 17:57:02,2023-04-14 17:57:03,"1,709s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:02,2023-04-14 17:57:03,"1,389s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.2-Terminación_de_Contrato_Definitivo,Chrome 111.0.0.0,,,2023-04-14 17:57:03,2023-04-14 17:57:05,"1,897s",FAILED
+random_double = Math.random() * 9999 + 999,Chrome 111.0.0.0,,,2023-04-14 17:57:04,2023-04-14 17:57:04,"0,003s",PASSED
+random_double = Math.round(random_double * 1000),Chrome 111.0.0.0,,,2023-04-14 17:57:04,2023-04-14 17:57:04,"0,000s",PASSED
+"identificacion = toString().replace("".0"", """")",Chrome 111.0.0.0,,,2023-04-14 17:57:04,2023-04-14 17:57:04,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:04,2023-04-14 17:57:05,"1,425s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.3-Liquidación_Nomina,Chrome 111.0.0.0,,,2023-04-14 17:57:05,2023-04-14 17:57:07,"1,752s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:06,2023-04-14 17:57:07,"1,421s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.4-Fuente_General,Chrome 111.0.0.0,,,2023-04-14 17:57:07,2023-04-14 17:57:09,"1,744s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:07,2023-04-14 17:57:09,"1,392s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.5-Listado_Empleados,Chrome 111.0.0.0,,,2023-04-14 17:57:09,2023-04-14 17:57:10,"1,818s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:09,2023-04-14 17:57:10,"1,495s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.6-Liquidación_Nomina,Chrome 111.0.0.0,,,2023-04-14 17:57:10,2023-04-14 17:57:12,"1,696s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:11,2023-04-14 17:57:12,"1,379s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.7-Listado_Empleados,Chrome 111.0.0.0,,,2023-04-14 17:57:12,2023-04-14 17:57:14,"1,771s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:13,2023-04-14 17:57:14,"1,450s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.8-Regresion,Chrome 111.0.0.0,,,2023-04-14 17:57:14,2023-04-14 17:57:16,"1,708s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:14,2023-04-14 17:57:16,"1,329s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.9-situacion_adminitrativa-(situacion-actos),Chrome 111.0.0.0,,,2023-04-14 17:57:16,2023-04-14 17:57:17,"1,818s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:16,2023-04-14 17:57:17,"1,412s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.2.1-Mantenimiento_vacaciones-generación_comprobante,Chrome 111.0.0.0,,,2023-04-14 17:57:17,2023-04-14 17:57:19,"1,682s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:18,2023-04-14 17:57:19,"1,375s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.2.2-Ingreso_Fuera_Nomina,Chrome 111.0.0.0,,,2023-04-14 17:57:19,2023-04-14 17:57:21,"1,783s",FAILED
+numero = aleatorio(),Chrome 111.0.0.0,,,2023-04-14 17:57:20,2023-04-14 17:57:20,"0,000s",PASSED
+random_double = Math.random() * 9999 + 999,Chrome 111.0.0.0,,,2023-04-14 17:57:20,2023-04-14 17:57:20,"0,000s",PASSED
+random_double = Math.round(random_double * 1000),Chrome 111.0.0.0,,,2023-04-14 17:57:20,2023-04-14 17:57:20,"0,000s",PASSED
+"numeroRandom = toString().replace("".0"", """")",Chrome 111.0.0.0,,,2023-04-14 17:57:20,2023-04-14 17:57:20,"0,000s",PASSED
+"filePath = """"",Chrome 111.0.0.0,,,2023-04-14 17:57:20,2023-04-14 17:57:20,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:20,2023-04-14 17:57:21,"1,444s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.2.3-Formato_actos_administrativos,Chrome 111.0.0.0,,,2023-04-14 17:57:21,2023-04-14 17:57:23,"1,726s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:21,2023-04-14 17:57:23,"1,341s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.1-Crear_una_unidad,Chrome 111.0.0.0,,,2023-04-14 17:57:23,2023-04-14 17:57:24,"1,575s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:23,2023-04-14 17:57:24,"1,251s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.2-Crear_una_unidad_transversal,Chrome 111.0.0.0,,,2023-04-14 17:57:24,2023-04-14 17:57:26,"1,806s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:25,2023-04-14 17:57:26,"1,441s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.3-Crear_un_puesto_de_trabajo_y_buscar_puesto,Chrome 111.0.0.0,,,2023-04-14 17:57:26,2023-04-14 17:57:28,"1,592s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:26,2023-04-14 17:57:28,"1,266s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.4-Ajuste_relación_(Encargos),Chrome 111.0.0.0,,,2023-04-14 17:57:28,2023-04-14 17:57:29,"1,661s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:28,2023-04-14 17:57:29,"1,336s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.5-Buscar_Empleado,Chrome 111.0.0.0,,,2023-04-14 17:57:29,2023-04-14 17:57:31,"1,661s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:30,2023-04-14 17:57:31,"1,342s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo,Chrome 111.0.0.0,,,2023-04-14 17:57:31,2023-04-14 17:57:33,"1,578s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:31,2023-04-14 17:57:33,"1,257s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.7-Consultar_posición__nómina,Chrome 111.0.0.0,,,2023-04-14 17:57:33,2023-04-14 17:57:34,"1,768s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:33,2023-04-14 17:57:34,"1,460s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.8-Solicitar_requerimiento,Chrome 111.0.0.0,,,2023-04-14 17:57:34,2023-04-14 17:57:36,"1,747s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:35,2023-04-14 17:57:36,"1,418s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.9-Visualizar_opción_otros,Chrome 111.0.0.0,,,2023-04-14 17:57:36,2023-04-14 17:57:38,"1,794s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:36,2023-04-14 17:57:38,"1,486s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.1-Crear_descripción_del_cargo,Chrome 111.0.0.0,,,2023-04-14 17:57:38,2023-04-14 17:57:40,"1,856s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:38,2023-04-14 17:57:40,"1,545s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.2-Copiar_perfil,Chrome 111.0.0.0,,,2023-04-14 17:57:40,2023-04-14 17:57:42,"1,822s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:40,2023-04-14 17:57:42,"1,503s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.3-Crear_descripción_del_cargo_(PUESTO_TRABAJO_MULTIPLE),Chrome 111.0.0.0,,,2023-04-14 17:57:42,2023-04-14 17:57:43,"1,772s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:42,2023-04-14 17:57:43,"1,432s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.4-Copiar_perfil_(Puesto_de_Trabajo),Chrome 111.0.0.0,,,2023-04-14 17:57:43,2023-04-14 17:57:45,"1,718s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.1.6-Buscar_puesto_de_trabajo""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:44,2023-04-14 17:57:45,"1,377s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.5-Crear_descripción_del_cargo_(Puesto_Trabajo_Múltiple),Chrome 111.0.0.0,,,2023-04-14 17:57:45,2023-04-14 17:57:47,"1,810s",FAILED
+"callTestCase(findTestCase(""1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.3-Crear_descripción_del_cargo_(PUESTO_TRABAJO_MULTIPLE)""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:45,2023-04-14 17:57:47,"1,493s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.6-Definir_perfil,Chrome 111.0.0.0,,,2023-04-14 17:57:47,2023-04-14 17:57:49,"1,705s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:47,2023-04-14 17:57:49,"1,384s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.7-Impresión_de_descripción_del_cargo,Chrome 111.0.0.0,,,2023-04-14 17:57:49,2023-04-14 17:57:50,"1,700s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:49,2023-04-14 17:57:50,"1,380s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.8-Acto_administrativo-Crear_puesto,Chrome 111.0.0.0,,,2023-04-14 17:57:50,2023-04-14 17:57:52,"1,753s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:51,2023-04-14 17:57:52,"1,429s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.2-Pruebas_planta_personal/12.2.9-Acto_administrativo-Traslado_puesto,Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:54,"1,796s",FAILED
+today = new java.util.Date(),Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:52,"0,000s",PASSED
+"Dia = today.format(""dd"")",Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:52,"0,000s",PASSED
+"Mes = today.format(""MM"")",Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:52,"0,000s",PASSED
+"Año = today.format(""yyy"")",Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:52,"0,000s",PASSED
+"Fecha = Dia + ""/"" + Mes + ""/"" + Año",Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:52,"0,000s",PASSED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:52,2023-04-14 17:57:54,"1,425s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo,Chrome 111.0.0.0,,,2023-04-14 17:57:54,2023-04-14 17:57:56,"1,689s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:54,2023-04-14 17:57:56,"1,320s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.3-Programación,Chrome 111.0.0.0,,,2023-04-14 17:57:56,2023-04-14 17:57:57,"1,605s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:56,2023-04-14 17:57:57,"1,281s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.4-Jornada,Chrome 111.0.0.0,,,2023-04-14 17:57:57,2023-04-14 17:57:59,"1,668s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:57,2023-04-14 17:57:59,"1,360s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.5-Concepto,Chrome 111.0.0.0,,,2023-04-14 17:57:59,2023-04-14 17:58:00,"1,626s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:57:59,2023-04-14 17:58:00,"1,307s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.6-Reloj,Chrome 111.0.0.0,,,2023-04-14 17:58:00,2023-04-14 17:58:02,"1,563s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:01,2023-04-14 17:58:02,"1,247s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo,Chrome 111.0.0.0,,,2023-04-14 17:58:02,2023-04-14 17:58:04,"1,779s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:02,2023-04-14 17:58:04,"1,416s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.8-Funciones,Chrome 111.0.0.0,,,2023-04-14 17:58:04,2023-04-14 17:58:05,"1,699s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:04,2023-04-14 17:58:05,"1,386s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.2-Liquidación_reversar,Chrome 111.0.0.0,,,2023-04-14 17:58:05,2023-04-14 17:58:07,"1,732s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:06,2023-04-14 17:58:07,"1,411s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.3-Aplicar,Chrome 111.0.0.0,,,2023-04-14 17:58:07,2023-04-14 17:58:09,"1,612s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:08,2023-04-14 17:58:09,"1,304s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento,Chrome 111.0.0.0,,,2023-04-14 17:58:09,2023-04-14 17:58:11,"1,712s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:09,2023-04-14 17:58:11,"1,379s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento,Chrome 111.0.0.0,,,2023-04-14 17:58:11,2023-04-14 17:58:12,"1,670s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:11,2023-04-14 17:58:12,"1,346s",FAILED
+,,,,,,,
+Test Cases/1.2-Tareas_Secundarias/A.4-Parametros/14.1.1-Comprobar_Parametros,Chrome 111.0.0.0,,,2023-04-14 17:58:12,2023-04-14 17:58:14,"1,641s",FAILED
+"callTestCase(findTestCase(""0.1-Login""), [:], STOP_ON_FAILURE)",Chrome 111.0.0.0,,,2023-04-14 17:58:13,2023-04-14 17:58:14,"1,265s",FAILED

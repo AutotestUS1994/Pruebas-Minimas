@@ -35,7 +35,14 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 	
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
 	}else {  WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_3'))
+		if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'),1))
+		{
 		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+		}else {
+			WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_4')) 
+			
+			WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+			}
 		}
 	}
 

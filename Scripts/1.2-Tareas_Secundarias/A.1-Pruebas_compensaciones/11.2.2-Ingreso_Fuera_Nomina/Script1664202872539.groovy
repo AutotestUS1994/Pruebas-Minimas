@@ -367,7 +367,7 @@ def puesto(def filePath) {
         2)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/ingreso_fuera_nomina_2/select_12kataloonkataloonNOMINA CATORCENALNOMINA CATORCENALNOMINA MENSUALNOMINA'), 
-        8)
+        2)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/ingreso_fuera_nomina_2/select_0.5APRENDIZ ETAPA LECTIVA6APRENDIZ ETAPA PRODUCTIVA96ASISTENTE DE INVESTIGACION'), 
         8)

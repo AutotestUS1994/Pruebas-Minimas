@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[2]/input</value>
+         <value>//tr[3]/td[2]/input
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>3cf8cfbd-433c-471b-bbaa-d4a3b8e10add</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupTestigoAccidente:telefono</value>
+      <webElementGuid>9ca0f1b8-0440-418f-8486-a5a9ea1dfe52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ea2a52a2-f9f1-4b39-9bab-6f15217b69d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupTestigoAccidente:telefono</value>
+      <webElementGuid>d8cb7c74-0291-4ba9-a22e-5e3055290dd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>71c3cc5e-b0be-49ee-bec0-4a71dfa0b2d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
+      <webElementGuid>99efa227-73bf-4949-b03e-34c325da33fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupTestigoAccidente:telefono&quot;)</value>
+      <webElementGuid>76d74da1-d685-4eb8-ab92-4a5774ea4bda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popupTestigoAccidente:telefono']</value>
+      <webElementGuid>dffa80a3-cd54-4f6f-975c-d9634791fae3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_popupTestigoAccidente:panelPrincipal']/tbody/tr/td/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>8b09702f-fbb2-41aa-a8f9-871e094ac2ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/input</value>
+      <webElementGuid>7d7776ba-e69c-4fc9-af73-46d75a940314</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

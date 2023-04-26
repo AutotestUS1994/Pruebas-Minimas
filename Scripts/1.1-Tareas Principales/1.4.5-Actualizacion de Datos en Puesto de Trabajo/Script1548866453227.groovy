@@ -70,12 +70,12 @@ if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPAL
 }
 
 if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
-    7, 1, FailureHandling.OPTIONAL)) {
+    2, 1, FailureHandling.OPTIONAL)) {
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
-        '6')
+        '3')
 } else {
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Tipo Periodo'), 
-        7)
+        2)
 }
 
 if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_Vinculacion'), 

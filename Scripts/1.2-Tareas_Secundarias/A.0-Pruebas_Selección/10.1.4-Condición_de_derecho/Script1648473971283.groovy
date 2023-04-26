@@ -34,7 +34,7 @@ WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/span_Proceso de Se'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/input_filtro_procesoseleccion'), 
-    '544')
+    '659')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/input_filtro_procesoseleccion'), 
     Keys.chord(Keys.ENTER))
@@ -88,7 +88,7 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 if (Result == 'Se guardó el registro correctamente') {
     String Resultado = 'PRUEBA OK'
 
-
+    WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.acceptAlert()
 }

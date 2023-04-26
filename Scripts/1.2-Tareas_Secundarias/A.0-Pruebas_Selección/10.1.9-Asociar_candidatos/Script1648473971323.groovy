@@ -36,7 +36,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
     1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
-    '544')
+    '659')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
     Keys.chord(Keys.ENTER))
@@ -93,7 +93,7 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 if (Result == 'El candidato ha sido registrado correctamente') {
     String Resultado = 'PRUEBA OK'
 
-
+    WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.7-Configuracio_conexiones_default'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.acceptAlert()
 }

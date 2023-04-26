@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/label</value>
+         <value>
+//div[2]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>8a4ee73f-ab9f-4cd0-994f-3f951a816dcd</webElementGuid>
+      <webElementGuid>6bc609f3-0390-4631-9592-3fd6cb0bc94e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sus datos han sido Actualizados correctamente</value>
-      <webElementGuid>23565b33-6fb0-4fff-9488-f1193eecc4ec</webElementGuid>
+      <webElementGuid>69b546ab-983b-48b8-8a54-0ce50a09a72d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupInfoDialog:j_idt832_content&quot;)/div[@class=&quot;us-margin-popup&quot;]/label[1]</value>
-      <webElementGuid>ac188099-5016-4fe4-960f-019022398b01</webElementGuid>
+      <webElementGuid>4d2edf9e-13b2-4077-9a33-376e0cdab854</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupInfoDialog:j_idt832_content']/div[2]/label</value>
-      <webElementGuid>5ad8558c-fca7-4c15-baed-480bbfe9cba5</webElementGuid>
+      <webElementGuid>ca3cdba3-0211-4eae-85d9-31fcc2d25fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información'])[1]/following::label[1]</value>
-      <webElementGuid>07eab244-8bf8-4e23-b586-5b3f82551c85</webElementGuid>
+      <webElementGuid>a284cb52-5228-4940-87cb-47788ad6d807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Sanguíneo'])[1]/following::label[3]</value>
-      <webElementGuid>e05edfec-1681-4c19-a64b-c40b4d292545</webElementGuid>
+      <webElementGuid>3b6cde9b-04d4-4bc6-a86c-6dc8e40c8988</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[1]</value>
-      <webElementGuid>209d13c1-e1ff-4040-9bac-a9d7a4478658</webElementGuid>
+      <webElementGuid>6505956d-39fe-4b1a-b079-d1d3d4281a71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::label[1]</value>
-      <webElementGuid>e41f1248-0933-42fc-a7a5-a4858c39840a</webElementGuid>
+      <webElementGuid>fa86de53-0547-4622-9ec1-47681514bb17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sus datos han sido Actualizados correctamente']/parent::*</value>
-      <webElementGuid>44d2236b-a343-43ef-b06c-a36ceada0f21</webElementGuid>
+      <webElementGuid>352ff0fa-d660-4b56-9f2c-1043ebaf817f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/label</value>
-      <webElementGuid>66a1b5a4-aaac-449b-b1ec-c112dc687b3f</webElementGuid>
+      <webElementGuid>20960fa6-2acb-4c81-9df4-53e7f3399cb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Sus datos han sido Actualizados correctamente' or . = 'Sus datos han sido Actualizados correctamente')]</value>
-      <webElementGuid>04ec72ed-8e45-43e4-857d-6fd609623fa1</webElementGuid>
+      <webElementGuid>93842d84-7e71-4de7-b0cb-9130df89a4ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
