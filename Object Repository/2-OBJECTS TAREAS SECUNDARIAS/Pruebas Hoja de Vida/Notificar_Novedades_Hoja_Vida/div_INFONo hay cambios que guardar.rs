@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = 'INFO:No hay cambios que guardar' or . = 'INFO:No hay cambios que guardar')]</value>
+         <value>//*[@id=&quot;growl_container&quot;]/div/div/div[2]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>9f5764f6-dff2-4ab8-8e99-c8455e865e5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-growl-message</value>
+      <webElementGuid>cdc5159a-04d6-4bc6-8908-d51f1ab7097d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>INFO:No hay cambios que guardar</value>
+      <webElementGuid>1ae1d693-7459-4748-89da-423cd63a3b06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;growl_container&quot;)/div[@class=&quot;ui-growl-item-container ui-state-highlight ui-corner-all ui-helper-hidden ui-shadow ui-growl-info&quot;]/div[@class=&quot;ui-growl-item&quot;]/div[@class=&quot;ui-growl-message&quot;]</value>
+      <webElementGuid>22cc1ebb-6cef-49f0-a0e0-7315cfdf894a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='growl_container']/div/div/div[2]</value>
+      <webElementGuid>cf0c79ac-5da9-44ad-90cd-4dbcbbb4d457</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='InformaciÃ³n'])[1]/following::div[1]</value>
+      <webElementGuid>b611f92f-bd65-43cb-87bc-398968c2c212</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Sanguíneo'])[1]/following::div[10]</value>
+      <webElementGuid>5b469b65-943a-4760-b169-4cb1742dd157</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[3]</value>
+      <webElementGuid>d385de4b-03e4-4ee9-9cdf-5c36d0b0bbdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div[2]</value>
+      <webElementGuid>edd6a0b6-2d74-4f28-80e8-0397fc4f5d36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'INFO:No hay cambios que guardar' or . = 'INFO:No hay cambios que guardar')]</value>
+      <webElementGuid>2f211731-4957-43b8-9963-e4ad3a25c02d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

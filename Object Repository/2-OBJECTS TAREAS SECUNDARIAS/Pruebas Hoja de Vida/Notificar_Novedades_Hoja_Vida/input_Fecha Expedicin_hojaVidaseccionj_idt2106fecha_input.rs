@@ -8,7 +8,7 @@
       <entry>
          <key>XPATH</key>
          <value>
-//tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td/span/input</value>
+//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/div/div[1]/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[1]/td/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>e5665fce-0b06-41ad-9fe8-040ea87a656a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt210:6:fecha_input</value>
+      <webElementGuid>9ab64e2c-4590-4e3c-8d52-5a1d95e02c41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt210:6:fecha_input</value>
+      <webElementGuid>48cd2222-b754-4ed4-8b11-6ba2390b462f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>b4c1a93d-d82a-460b-bad2-bca7edca7d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>13/09/2013</value>
+      <webElementGuid>f344efd7-180e-4f49-8890-661afaf097db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>35a33662-6e5d-4a38-88f0-a8e8224608c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>8</value>
+      <webElementGuid>96ce4ca5-0d8a-4421-9f2f-ee1379760415</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>23a96999-1fd0-4970-a3ba-6e4ad5707a97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>f5b714ab-2d1a-45b7-9c6e-53cd8c644e68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e1c3bc14-03d2-47fc-88fc-f798bed53be9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hojaVida:seccion:j_idt210:6:fecha_input&quot;)</value>
+      <webElementGuid>efbd2584-9e06-4a4a-9e7c-08a14fe4259a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='hojaVida:seccion:j_idt210:6:fecha_input']</value>
+      <webElementGuid>ccd4f804-ac87-4488-b4f1-7c302704b3bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='hojaVida:seccion:j_idt210:6:fecha']/input</value>
+      <webElementGuid>b825943b-f745-4631-a0ed-e2ed3f86e2ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr/td/span/input</value>
+      <webElementGuid>39fa0109-9a76-4cd5-bc81-932f005fbe89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

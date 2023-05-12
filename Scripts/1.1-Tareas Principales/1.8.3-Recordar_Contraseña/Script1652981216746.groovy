@@ -224,9 +224,11 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 }
 
 if (Result1 == 'Señor usuario, se ha remitido un correo electrónico al correo asociado.') {
-    WebUI.openBrowser('http://192.168.2.19:8380/saraweb/')
-
-    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario1'), 
+	String i = GlobalVariable.G_Login
+	
+	WebUI.openBrowser(i)
+    
+	WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario1'), 
         'Prueba')
 
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword1'), 
