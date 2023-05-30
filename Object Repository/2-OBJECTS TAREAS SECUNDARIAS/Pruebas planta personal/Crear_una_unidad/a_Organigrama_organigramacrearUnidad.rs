@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[3]/table/tbody/tr/td[2]/a</value>
+         <value>//a[@id='organigrama:crearUnidad']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>cd5e33c4-d64c-4f86-8efe-300913ac0840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>organigrama:crearUnidad</value>
+      <webElementGuid>30ca24a8-1fdc-419b-af0c-7a7345fc2d7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>ba343fb3-1ff6-4bf6-aff2-9255a96f0e34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget imagenMiniAdicionarUnidad</value>
+      <webElementGuid>10f53147-26f7-4a4e-9682-874c207aba90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Crear Unidad</value>
+      <webElementGuid>f0eef043-8c77-4a25-87d4-4289e4af2bc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;organigrama:crearUnidad&quot;,f:&quot;organigrama&quot;,p:&quot;organigrama:crearUnidad&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>657773d3-af21-45c2-be2d-40f91dcca0a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Crear Unidad</value>
+      <webElementGuid>a8a4f796-59a5-41d2-83e6-5ead4eaa1e27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:crearUnidad&quot;)</value>
+      <webElementGuid>f4b82e03-6f55-41dd-99e9-0439ff6dbe64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='organigrama:crearUnidad']</value>
+      <webElementGuid>03d24ef1-bbb6-4630-a3df-195041bf23ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='organigrama']/div/div/div[2]/div/table/tbody/tr/td[3]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>6f3ffdc4-85d9-49ef-8536-f5e3913657c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>f9cca2b2-a9f5-4261-a647-9b740d5dc86a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>8f32dc61-49e5-4b9d-b280-c5fa958c4d00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'organigrama:crearUnidad' and @href = '#' and @title = 'Crear Unidad']</value>
+      <webElementGuid>8a741257-378e-4976-8982-2618a1f3b8e7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

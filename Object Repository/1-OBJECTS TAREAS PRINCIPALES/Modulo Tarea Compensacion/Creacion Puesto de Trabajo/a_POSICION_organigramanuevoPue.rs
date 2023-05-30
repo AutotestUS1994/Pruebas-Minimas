@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[3]/table/tbody/tr/td[2]/a</value>
+         <value>//td[2]/table/tbody/tr/td[2]/a
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>70cd2685-082c-40de-949d-24c80da93c4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>imagenMiniAdicionarPuesto</value>
+      <webElementGuid>e3658897-d11c-4a8f-b16f-aed0dd3ccaf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>d9e60d74-12b3-4809-bb44-de24e9c8d944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>organigrama:nuevoPuestoTrabajo</value>
+      <webElementGuid>d1f0daa3-e7fb-4da6-a51a-7038ab806115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>jsf.util.chain(this,event,'return (confirm(\'Desea crear un nuevo puesto en la unidad Administracion?\'));','mojarra.jsfcljs(document.getElementById(\'organigrama\'),{\'organigrama:nuevoPuestoTrabajo\':\'organigrama:nuevoPuestoTrabajo\'},\'\')');return false</value>
+      <webElementGuid>305a0cf4-b144-4545-95b9-e9b29aa7ae20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +63,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Crear Puesto</value>
+      <webElementGuid>da5bd3fa-4948-44e9-86c0-3d2d23aec097</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:nuevoPuestoTrabajo&quot;)</value>
+      <webElementGuid>31947a88-9cae-4089-88f1-9f93fc416403</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='organigrama:nuevoPuestoTrabajo']</value>
+      <webElementGuid>922b227f-fcdb-4f3f-a9e8-98e83ffa5e56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='organigrama']/div/div/div[2]/div/table/tbody/tr/td[3]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>f97e7951-548f-4c44-8b2d-85e3e5c781e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +95,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[42]</value>
+      <webElementGuid>6f81aeae-4f5d-4600-911d-df8a4b9798ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +103,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>7ffbdbd9-4907-496d-9d6c-6cf39884217a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

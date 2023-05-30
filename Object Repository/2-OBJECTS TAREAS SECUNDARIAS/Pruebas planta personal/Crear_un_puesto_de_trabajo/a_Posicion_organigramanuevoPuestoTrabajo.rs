@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[3]/table/tbody/tr/td[2]/a</value>
+         <value>//a[@id='organigrama:nuevoPuestoTrabajo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7bdfb4c6-63e3-49c3-8889-58fd1ce556a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>organigrama:nuevoPuestoTrabajo</value>
+      <webElementGuid>b54ec0e7-023b-4123-8648-e475dafaa081</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b1b29756-a438-44c0-9293-062e37cdf764</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget imagenMiniAdicionarPuesto</value>
+      <webElementGuid>26964e32-ee2d-4b99-9feb-7cb81877aa58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Crear Puesto</value>
+      <webElementGuid>92af7965-750e-4548-9c9d-531333be985d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;organigrama:nuevoPuestoTrabajo&quot;,f:&quot;organigrama&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>fb31d836-41a3-4322-9467-fa9e454e3209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Crear Puesto</value>
+      <webElementGuid>8c8ec9a3-b841-42c0-a8ca-7b813a05ad18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:nuevoPuestoTrabajo&quot;)</value>
+      <webElementGuid>549f20cf-102d-460c-9154-f9293d1899fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='organigrama:nuevoPuestoTrabajo']</value>
+      <webElementGuid>4ae1cbbd-23b7-4328-93c0-127f698a7811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='organigrama']/div/div/div[2]/div/table/tbody/tr/td[3]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>dfc1fe4f-ac01-4ecd-81f6-11eb0a9e64df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>2c0a00f6-5801-417d-b679-212de3f78992</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>88a4f8dc-ddec-465f-b0f4-3ba7a3d871d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'organigrama:nuevoPuestoTrabajo' and @href = '#' and @title = 'Crear Puesto']</value>
+      <webElementGuid>d725d997-5e05-40c9-9bbb-7ea76646fd09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

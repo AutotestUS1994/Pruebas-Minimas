@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[3]/table/tbody/tr/td[2]/a</value>
+         <value>//a[@id='organigrama:nuevoPuestoTrabajo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>da992146-61d6-48b4-a29b-53412d499557</webElementGuid>
+      <webElementGuid>37cfba8f-5881-447c-93d0-3bd3fa8a82c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>organigrama:nuevoPuestoTrabajo</value>
-      <webElementGuid>9304b2ef-b635-437f-84d3-bd255afc7811</webElementGuid>
+      <webElementGuid>d52744ae-ff82-43b9-a21c-e425fea8d62a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>4985d5bb-6c50-4914-987b-869a5536e0c2</webElementGuid>
+      <webElementGuid>76f3f072-4a22-4dd1-a8ca-03bbb4d36213</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget imagenMiniAdicionarPuesto</value>
-      <webElementGuid>0db4adec-c343-4feb-909f-036b08e240c3</webElementGuid>
+      <webElementGuid>934bf018-b9d0-4cbd-bf16-494cdc3ee748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Crear Puesto</value>
-      <webElementGuid>cf3bcdfc-3e3e-4125-8448-1e238f1542a6</webElementGuid>
+      <webElementGuid>3bb76d99-2a72-4554-8293-42ac5dba3a1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;organigrama:nuevoPuestoTrabajo&quot;,f:&quot;organigrama&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>8ee10b92-7763-4484-9824-96bb8f228215</webElementGuid>
+      <webElementGuid>d8c3e232-4741-4d30-928b-e96b0cc880e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Crear Puesto</value>
-      <webElementGuid>12841840-744c-42a0-b660-98e60289ea31</webElementGuid>
+      <webElementGuid>461bbcd6-f2b4-4967-b129-269054d21435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:nuevoPuestoTrabajo&quot;)</value>
-      <webElementGuid>e66c8cc6-d8cc-4f71-a816-ffc8aa5db2d5</webElementGuid>
+      <webElementGuid>747c7259-d0b3-4e2f-bbf6-8b25b2df062f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='organigrama:nuevoPuestoTrabajo']</value>
-      <webElementGuid>370232c3-6491-41f6-9988-eb6a43293b88</webElementGuid>
+      <webElementGuid>84e84142-fade-4a5c-a2e5-16a4fc861e88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='organigrama']/div/div/div[2]/div/table/tbody/tr/td[3]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>c311e3f1-44ae-4e81-b733-0691bb360d0c</webElementGuid>
+      <webElementGuid>fc8bac30-b4c0-4a3b-a94e-184ce2ae416e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[49]</value>
-      <webElementGuid>0d2bedca-0aff-45f7-93f1-3c35a9110d05</webElementGuid>
+      <webElementGuid>679fbb98-a854-455c-9def-394d012a6bc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>dc2397d5-607f-435a-811a-6351d6873587</webElementGuid>
+      <webElementGuid>6509ce9c-a4e8-4f6d-91ad-0fd488942cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'organigrama:nuevoPuestoTrabajo' and @href = '#' and @title = 'Crear Puesto']</value>
-      <webElementGuid>2d4a04e2-7b33-4878-9978-a80e5c57888d</webElementGuid>
+      <webElementGuid>01b0d607-e575-4dea-b192-6a46be7f43c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
