@@ -23,7 +23,7 @@ import javax.swing.*
 import java.awt.event.*
 import java.awt.*
 
-WebUI.callTestCase(findTestCase('0.1.1-Login_detector'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.2-Login_detector'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Hoja de Vida/Nueva_Categoria/span_Categora_buscar glyphicons glyphicons-search'), 
     0)

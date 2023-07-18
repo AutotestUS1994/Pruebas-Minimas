@@ -6,11 +6,12 @@
    <elementGuidId>e007ae25-3a80-4cb1-a156-797596d95d59</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[7]/td[3]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[30]/td[3]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>993a755f-4b59-46d9-98c4-bba0fefd8cbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>37184cac-fba6-46b3-bf76-b4827bd59063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>06/12/2021 07:52:37</value>
+      <webElementGuid>ac6c1fc1-e26c-4fd0-b3de-e8da6c78eaf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_visor:j_idt253:tabla_sucesos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd fila_tabla_ace&quot;]/td[3]</value>
+      <webElementGuid>8f5b6f1d-0ec2-45cd-a6aa-b6d73bfe51cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_visor:j_idt253:tabla_sucesos_data']/tr[30]/td[3]</value>
+      <webElementGuid>746c4687-83db-41f4-91e8-03093662b334</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='saraadmin'])[27]/following::td[1]</value>
+      <webElementGuid>1ae4aabc-9e31-4e1c-8b18-03983278b023</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[87]/following::td[4]</value>
+      <webElementGuid>9aed80f2-1dad-44a9-a90a-3f9c6b3495c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='actocambioemp_ace'])[31]/preceding::td[1]</value>
+      <webElementGuid>5f30f294-1122-45b8-89e3-b1e03a781cdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[88]/preceding::td[2]</value>
+      <webElementGuid>eae61729-6455-4782-83bd-c55557c4fcc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='06/12/2021 07:52:37']/parent::*</value>
+      <webElementGuid>cb0a3154-50f1-4793-8d37-6d0cf08dd290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[30]/td[3]</value>
+      <webElementGuid>8dde579a-b26b-4558-a2d0-4e50b839428d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

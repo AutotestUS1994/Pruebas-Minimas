@@ -19,12 +19,12 @@ WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Adminis
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Periodo Nomina_LiquidacionNominaj_idt63'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
 
@@ -32,33 +32,50 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     2)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_P MensualJulio2021'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_P MensualJulio2021'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Reclculo Total'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Reclculo Total'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_Si'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/span_Si'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'), 
-    GlobalVariable.G_TimeNomina)
+    0)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'), 
-    GlobalVariable.G_TimeNomina)
+    0)
 
 String Resultado = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Resultado'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'))
-if(Resultado == 'Recalculo terminado Exitosamente') {
-	String Result = 'PRUEBA OK'
-	}
+def i = '0'
 
-else {
-WebUI.acceptAlert()
+while (i >= 10 && WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'), 
+    1)== false && i++ ) {
+    
+    println(Resultado)
+
+    println(i)
 }
+
+String newResultado = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Resultado'))
+
+
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'), 
+    1)
+
+WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Total/a_Continuar'))
+
+if (newResultado == 'Recalculo terminado Exitosamente') {
+    String Result = 'PRUEBA OK'
+} else {
+    WebUI.acceptAlert()
+}
+

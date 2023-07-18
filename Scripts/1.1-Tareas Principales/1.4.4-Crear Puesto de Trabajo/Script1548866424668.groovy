@@ -22,17 +22,17 @@ WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Adminis
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Administracion'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Administracion'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_POSICION_organigramanuevoPue'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_POSICION_organigramanuevoPue'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Cargo _datosPuestoTrabajo_fo'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Cargo _datosPuestoTrabajo_fo'))
 
@@ -45,7 +45,7 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_ABOGADO'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --PLANTA'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --PLANTA'))
 
@@ -53,7 +53,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '1')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --AMPLEAD'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --AMPLEAD'))
 
@@ -61,7 +61,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '2')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --Bloquea'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --Bloquea'))
 
@@ -78,7 +78,7 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensa
     'Prueba')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --No Rese'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --No Rese'))
 
@@ -86,7 +86,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '1')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --Asignac'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione --Asignac'))
 
@@ -94,37 +94,37 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '4')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/label_Es responsable de la Unidad'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/label_Es responsable de la Unidad'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Lder_datosPuestoTrabajo_form'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Lder_datosPuestoTrabajo_form'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/label_Dentro de la Unidad'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/label_Dentro de la Unidad'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Continuar'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Continuar'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_Galeano . Maria'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_Galeano . Maria'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Aplicar'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Aplicar'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Unidad Jerarquica_datosPuest'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Unidad Jerarquica_datosPuest'))
 
@@ -135,22 +135,22 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
     Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_ADMINISTRACION'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_ADMINISTRACION'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/label_No'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/label_No'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_Actualizar'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_Actualizar'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Titular_datosPuestoTrabajo_f'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Titular_datosPuestoTrabajo_f'))
 
@@ -161,52 +161,52 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
     Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Temporal_datosPuestoTrabajo_'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Temporal_datosPuestoTrabajo_'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Funcin_datosPuestoTrabajo_fo'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Funcin_datosPuestoTrabajo_fo'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Empalme_datosPuestoTrabajo'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Empalme_datosPuestoTrabajo'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_SALGADO PAULA'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Zona Econmica _datosPuestoTr'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/a_Zona Econmica _datosPuestoTr'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_QUINCENAL'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/span_QUINCENAL'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione empleados'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione empleados'))
 
@@ -214,7 +214,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '1')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione Ubicacin'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_-- Seleccione Ubicacin'))
 
@@ -222,7 +222,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '106')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_2120 HORAS1240 HORAS'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_2120 HORAS1240 HORAS'))
 
@@ -230,7 +230,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '4')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_12kataloonNOMINA CATORCENAL'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_12kataloonNOMINA CATORCENAL'))
 
@@ -238,7 +238,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '2')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_--- Seleccione Vinculac'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_--- Seleccione Vinculac'))
 
@@ -246,7 +246,7 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     '8')
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_--Seleccione--ADMINISTR'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Creacion Puesto de Trabajo/select_--Seleccione--ADMINISTR'))
 

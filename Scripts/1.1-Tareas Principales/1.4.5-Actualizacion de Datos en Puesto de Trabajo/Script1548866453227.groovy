@@ -16,12 +16,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.Keys as Keys
 
+String indentificacion
+
 /*Este test genera errores devido a que katalon y la opcion verifyOptionSelectedByIndex detiene el test por lo que se hace necesario agregar  un STOPO_ ON_FAILURE*/
-double random_double = (Math.random() * 9999) + 999
+identificacion = NumAleatorio()
 
-random_double = Math.round((random_double * 100) + 1000000)
-
-String identificacion = random_double.toString().replace('.0', '')
+println(identificacion)
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Administracion Compensacion/Tarea Planta Personal'), 
     [:], FailureHandling.STOP_ON_FAILURE)
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/span_Centro Costo de Prueba'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/Select_--Seleccione empleados_linea'), 
     FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
@@ -47,7 +47,7 @@ if (WebUI.verifyOptionSelectedByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPAL
     WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
         3)
 } else {
-    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/select_-- Seleccione empleados_lineacosto'), 
+    WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Actualizacion de Datos en Puesto de Trabajo/Select_--Seleccione empleados_linea'), 
         1)
 }
 
@@ -109,6 +109,14 @@ if (Result == 'Se Actualizo el registro correctamente') {
     salir()
 } else {
     WebUI.acceptAlert()
+}
+
+def NumAleatorio() {
+    double random_double = (Math.random() * 9999) + 999
+
+    random_double = Math.round((random_double * 100) + 1000000)
+
+    String identificacion = random_double.toString().replace('.0', '')
 }
 
 def salir() {

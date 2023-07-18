@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/form/table[2]/tbody/tr/td/table/tbody/tr[2]/td/div/div/div/table/tbody/tr/td/a</value>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table[2]/tbody/tr/td/table/tbody/tr[2]/td/div/div/div/table/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>56b2cd14-3335-4a2c-b86b-3354c5f66db0</webElementGuid>
+      <webElementGuid>4b7fd879-885d-49af-9044-303e5051e96a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:j_idt445</value>
-      <webElementGuid>5ca92a4e-ce88-447b-8cff-752dfa5a2ef6</webElementGuid>
+      <webElementGuid>272003b9-eeac-42cc-9ea4-12faf52d43f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>235e51fa-90d3-4f5d-94a7-637fe744db04</webElementGuid>
+      <webElementGuid>4c84afdd-cf08-4c91-b494-ab3be5506997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
-      <webElementGuid>c39f499b-96a9-46dd-9604-490d3ea7cd47</webElementGuid>
+      <webElementGuid>eff5f8db-e0e9-42af-9828-d356af1952f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_contratacion:panelTab:j_idt445&quot;,f:&quot;form_contratacion&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>5381bfdd-9599-4a9b-8c4c-327e0e29a2d4</webElementGuid>
+      <webElementGuid>f2d201a9-a02e-4498-8fc7-33880924075d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar</value>
-      <webElementGuid>34139dad-c359-4bd7-870e-5863c181c122</webElementGuid>
+      <webElementGuid>e09cb4ad-2a03-4238-b395-8988963c623c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_contratacion:panelTab:j_idt445&quot;)</value>
-      <webElementGuid>97c45381-e769-4c1e-9f3f-2fec2e8638a8</webElementGuid>
+      <webElementGuid>a2f9be19-db90-4340-ac24-07c980d4fbe5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_contratacion:panelTab:j_idt445']</value>
-      <webElementGuid>f0a37504-a15b-4406-b3b1-451810fdf84d</webElementGuid>
+      <webElementGuid>f7420402-ca0e-4da1-a855-f89b3f9c8272</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_contratacion:panelTab:documento']/table/tbody/tr/td/a</value>
-      <webElementGuid>b5ed96dd-9d6e-455f-a63a-aae529cf4ee2</webElementGuid>
+      <webElementGuid>efc1e08f-8d5b-42ca-a3df-a5e7b618cc2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
-      <webElementGuid>26862435-652d-4e1e-b706-a13ecc19b0a6</webElementGuid>
+      <webElementGuid>dd73ab56-3265-4c04-9050-829b214c8918</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Cumplido'])[1]/following::a[1]</value>
-      <webElementGuid>b1a69899-0073-47ee-9ba6-7b181a789c7f</webElementGuid>
+      <webElementGuid>b7466a3c-1d92-43e6-abfb-c4208d9e07a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula'])[1]/following::a[1]</value>
-      <webElementGuid>6a735e1f-3551-4de0-985d-ed26e9cc16c0</webElementGuid>
+      <webElementGuid>48db3af8-f237-4ae9-a2f1-8a6c88338a57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto'])[1]/preceding::a[3]</value>
-      <webElementGuid>6cd609c9-a249-4ffb-900a-c25e2fa2bed4</webElementGuid>
+      <webElementGuid>d4cf4aae-54f5-43f8-a09a-bcc6b549c4e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver'])[1]/preceding::a[4]</value>
-      <webElementGuid>79bd761f-aa70-4c47-a518-80fe9a213d26</webElementGuid>
+      <webElementGuid>16050625-7e13-4be7-a216-01b968a5c887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
-      <webElementGuid>cefc40ec-e109-4044-aa95-3c91f4c0d5b8</webElementGuid>
+      <webElementGuid>4c1c44f9-f92d-44b6-b5d3-564faa08320c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
-      <webElementGuid>91f0c235-b47c-4407-acd7-a01474789147</webElementGuid>
+      <webElementGuid>4fae8335-2b12-4cfb-8df8-dcf6494c9d21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td/a</value>
-      <webElementGuid>29ef6807-666b-4cab-ace1-7463fa08172a</webElementGuid>
+      <webElementGuid>3ed732be-6967-4c24-a5a7-96d5919efc0c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

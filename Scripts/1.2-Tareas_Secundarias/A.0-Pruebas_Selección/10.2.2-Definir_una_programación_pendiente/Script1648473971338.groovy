@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.comment('genera error al actualizar')
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/input_Empresa 1_form_templatej_idt24_input'), 
     'Evaluacion Proceso Seleccion (tal)')
@@ -36,9 +36,11 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/De
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--010203040506070809101112'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--00153045'), 3)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--00153045'), 
+    3)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--AMPM'), 2)
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/select_--AMPM'), 
+    2)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Definir_una_programación_pendiente/a_Actualizar'))
 

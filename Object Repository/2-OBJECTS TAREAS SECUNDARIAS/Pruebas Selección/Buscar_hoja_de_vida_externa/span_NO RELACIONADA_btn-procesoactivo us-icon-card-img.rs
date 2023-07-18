@@ -6,14 +6,14 @@
    <elementGuidId>fa79d578-3cae-4921-848d-fcccafde961d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>
-
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div[1]/table/tbody/tr[1]/td[1]/div/div/div/div[2]/div/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.btn-procesoactivo.us-icon-card-img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td/table/tbody/tr[2]/td/div/div[1]/table/tbody/tr/td
+
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6a851934-f5e7-405d-8ab6-00a75148f910</webElementGuid>
+      <webElementGuid>472374ee-9730-4d0d-8be8-77fc17b55ca1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +32,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-procesoactivo us-icon-card-img</value>
-      <webElementGuid>c156ef56-9537-494f-ac20-8c59b7674dc9</webElementGuid>
+      <webElementGuid>455adf66-378c-4305-a496-0269787f4d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtroExterno:hojas:0:j_idt173&quot;)/span[@class=&quot;btn-procesoactivo us-icon-card-img&quot;]</value>
-      <webElementGuid>ae8e4a27-9acc-4aba-ab88-2e35227ee73e</webElementGuid>
+      <webElementGuid>e82b27d4-65da-4162-add8-9ff7472b9cc7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='filtroExterno:hojas:0:j_idt173']/span</value>
-      <webElementGuid>0d139808-8edc-46fd-878e-48d4c1ba13a2</webElementGuid>
+      <webElementGuid>7eea6353-dbe1-4266-90ca-609b0f749222</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/span</value>
-      <webElementGuid>af50ffb0-3968-4ff4-a77b-b82cb1777b88</webElementGuid>
+      <webElementGuid>36dbd9d5-31fb-4b8d-9d8d-3931ea4f9ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,14 +64,14 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='filtroExterno:hojas:1:j_idt173']/span</value>
-      <webElementGuid>93a3931d-c5dc-4798-8149-053d3c079c4b</webElementGuid>
+      <webElementGuid>8d2d594c-dc8c-4b1c-b54c-a25348789edb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td/div/div/div/div[2]/div/a/span</value>
-      <webElementGuid>f51b2094-1488-4ae6-82af-2a27944aa438</webElementGuid>
+      <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div[1]/table/tbody/tr[1]/td[1]/div/div/div/div[2]/div/a/span</value>
+      <webElementGuid>7a076b2e-a693-4619-a6a0-2079a9e40be9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

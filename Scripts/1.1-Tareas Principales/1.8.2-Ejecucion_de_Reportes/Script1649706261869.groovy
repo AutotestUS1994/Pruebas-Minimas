@@ -28,7 +28,7 @@ import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 import org.testng.Assert as Assert
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/input_Empresa 1_form_templatej_idt24_input'), 
     'Ejecucion Reporte (gna)')

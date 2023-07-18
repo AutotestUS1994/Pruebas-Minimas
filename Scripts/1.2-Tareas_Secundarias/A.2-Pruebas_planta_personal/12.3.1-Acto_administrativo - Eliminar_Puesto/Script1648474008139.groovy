@@ -34,7 +34,7 @@ String Año = today.format('yyyy')
 /*-----------------------------------------------*/
 String Fecha = (((Dia + '/') + Mes) + '/') + Año
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/input_Empresa 1_form_templatej_idt24_input'), 
     'actos administrativos')
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/span_eliminar puesto de trabajo'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/input__form_actoMovPlantaj_idt22710fecha_input'), 
+WebUI.setText(findTestObject('null'), 
     Fecha)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas planta personal/Acto_administrativo - Eliminar_Puesto/select_- No Relacionado1  - Cambio Datos Del Puesto10 - Ingreso Puesto Nuevo11'), 

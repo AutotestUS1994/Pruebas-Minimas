@@ -23,7 +23,7 @@ if (Entorno == 'weblogic') {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.8.6-Configuracion_para_weblogic_gdbc'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Condición_de_derecho/input_Empresa 1_form_templatej_idt24_input'), 
     'proceso de seleccion')

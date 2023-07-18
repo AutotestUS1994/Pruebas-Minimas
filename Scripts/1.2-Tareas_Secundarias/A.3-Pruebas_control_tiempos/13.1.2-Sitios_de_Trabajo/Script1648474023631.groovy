@@ -20,9 +20,10 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input'), 'listado persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/input_Empresa 1_form_templatej_idt24_input'), 
+    'listado persona')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Listado Persona'))
 
@@ -32,20 +33,20 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiemp
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/li_02-Sede Externo'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/td_9'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/td_9'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/td_9'))
 
-	WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Add'),
-		30)
-	
-	WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
+    WebElement element0 = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Add'), 
+        30)
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element0))
 }
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Oficina'))
 
-
-
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Add'),
-	30)
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Sitios_de_Trabajo/span_Add'), 
+    30)
 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
+

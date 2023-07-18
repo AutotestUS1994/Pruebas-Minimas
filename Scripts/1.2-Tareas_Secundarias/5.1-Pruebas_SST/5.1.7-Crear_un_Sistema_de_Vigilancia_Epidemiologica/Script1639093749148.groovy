@@ -28,7 +28,7 @@ WebUI.comment('FALTA CONDICION PARA ELIMINAR REGISTRO.')
 
 WebUI.comment('conflicto con base de datos no permite eliminar registro')
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/input_Entidad de Riesgo_form_templatej_idt24_input'), 
     'vigilancia epidemiologica')
@@ -74,10 +74,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Si
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/textarea_Observacin_form_popupInscritostabobservacion'), 
     'pruebas k')
 
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'), 
+    30)
 
-
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Guardar'),
-	30)
 /*--------------------------------------------------*/
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 

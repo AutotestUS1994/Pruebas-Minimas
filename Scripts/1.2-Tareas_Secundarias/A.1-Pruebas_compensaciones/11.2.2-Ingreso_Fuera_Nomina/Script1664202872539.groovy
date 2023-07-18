@@ -21,7 +21,7 @@ String numero = aleatorio()
 
 String filePath = ''
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 puesto(filePath)
 

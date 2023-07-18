@@ -20,7 +20,7 @@ import org.openqa.selenium.WebElement as WebElement
 
 //WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Hoja de Vida'), [:], FailureHandling.STOP_ON_FAILURE) debe borrar todo lo que sea Modulos
 //WebUI.delay(2) debe reemplazar por wait for elemento /objet
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/input_Listado Hojas De Vida_form_templatej_idt24_input'), 
     GlobalVariable.G_TimeOut)
@@ -30,7 +30,9 @@ WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado 
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'), 
     0)
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'),30)
 
-WebUI.executeJavaScript ('arguments[0].click()',Arrays.asList(element))
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Listado Hojas de Vida/Tareas Listado Hojas de Vida/span_Listado Hojas de Vida (hoj)'), 
+    30)
+
+WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 

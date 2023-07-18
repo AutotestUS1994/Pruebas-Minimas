@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Reserva_de_Salones/input_Listado Necesidad Capacitacin_form_templatej_idt24_input'), 
     'Reserva de Salones')
@@ -86,10 +86,12 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS 
 WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'Registro guardado correctamente.') {
-	String Resultado = 'PRUEBA OK'
-	WebUI.closeBrowser()
+
+if (Result == 'Registro guardado correctamente.') {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else{
-	WebUI.acceptAlert()
-}
+

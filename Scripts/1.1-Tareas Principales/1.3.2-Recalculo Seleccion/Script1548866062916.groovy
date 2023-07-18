@@ -20,12 +20,12 @@ WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Adminis
     [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/a_Periodo Nomina_LiquidacionNominaj_idt63'), 
-    GlobalVariable.G_TimeOut, FailureHandling.STOP_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/a_Periodo Nomina_LiquidacionNominaj_idt63'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/select_--  Seleccione  --Periodo CerradoPeriodo en Proceso'))
 
@@ -33,12 +33,12 @@ WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Ta
     2)
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/span_P MensualJulio2021'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/span_P MensualJulio2021'))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/a_Nombre Persona_LiquidacionNo'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/a_Nombre Persona_LiquidacionNo'))
 
@@ -49,7 +49,7 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compens
     Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/span_Almanza Novoa John Alexandre'), 
-    GlobalVariable.G_TimeOut)
+    0)
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Recalculo Seleccion/span_Almanza Novoa John Alexandre'))
 
@@ -62,8 +62,6 @@ WebUI.waitForElementClickable(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 String Alerta = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
 if (Alerta == 'Seleccione empleado') {
-    
-
     WebUI.closeBrowser()
 } else {
     WebUI.acceptAlert()

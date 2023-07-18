@@ -39,6 +39,7 @@ Number sumaM = Mes + 1
 Number sumaA = AñoI + 1
 
 Number sumaAR = AñoI + 2
+
 /*--------------------------*/
 if (sumaD > 30) {
     sumaD = (sumaD - Dia)
@@ -56,20 +57,23 @@ if (sumaM > 12) {
 
     Mes = 1
 }
+
 println(MesN)
+
 println(Mes)
-if(MesN == 12 && Mes == 1) {
-	AñoR = sumaAR
-	println(AñoR)
+
+if ((MesN == 12) && (Mes == 1)) {
+    AñoR = sumaAR
+
+    println(AñoR)
 }
+
 /*---------------------------*/
 String FechaI = (((Dia + '/') + MesN) + '/') + AñoI
 
 String FechaF = (((sumaD + '/') + Mes) + '/') + AñoR
 
-/*----------------------------------------------------*/
-
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 /*-----------------------------------------------------------------------------------------------------*/
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/input_Parmetros EntidadInstructor_form_templatej_idt24_input'), 
@@ -135,9 +139,10 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo _Instructor-Entidad/a_Guardar'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'Se ingreso el registro') {
-	String Resultado = 'PRUEBA OK'
+
+if (Result == 'Se ingreso el registro') {
+    String Resultado = 'PRUEBA OK'
+} else {
+    WebUI.acceptAlert()
 }
-else {
-WebUI.acceptAlert()
-}
+

@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.comment('No se pueden eliminar conceptos y genera conflicto al intentar eliminar persona')
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/input_Empresa 1_form_templatej_idt24_input'), 'Listado Persona')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/input_Empresa 1_form_templatej_idt24_input'), 
+    'Listado Persona')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/span_Listado Persona'))
 
-if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/td_1010220596'), 1)) {
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/td_1010220596'), 
+    1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/td_1010220596'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Listado de Personas/a_Reloj'))

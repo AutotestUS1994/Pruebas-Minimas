@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/input_ADMINISTRADOR DEL SISTEMA - SARA_form_templatej_idt24_input'), 
     'Cursos (cap)')
@@ -67,81 +67,125 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/textarea_Metodologa_form_cursopestaniasmetodologia'), 
     'virtual')
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_-- Seleccione --CARTAS DE RETIROCERT'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_-- Seleccione --CARTAS DE RETIROCERT'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-String optionT= ""
+String optionT = ''
 
 /*PROCESO PARA OBTENER EL TEXTO DE CADA SELECT*/
+String option1 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option1'))
 
-String option1= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option1'))
-String option2= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option2'))
-String option3= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option3'))
-String option4= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option4'))
-String option5= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option5'))
-String option6= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option6'))
-String option7= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option7'))
-String option8= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option8'))
-String option9= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option9'))
-String option10= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option10'))
-String option11= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option11'))
-String option12= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option12'))
-String option13= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option13'))
-String option14= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option14'))
-String option15= WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option5'))
+String option2 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option2'))
 
-switch(option1 != ""||option2 != ""||option3 != ""||option4 != ""||option5 != ""||option6 != ""||option7 != ""||option8 != ""||
-	option9 != ""||option10 != ""||option11 != ""||option12 != ""||option13 != ""||option14 != ""||option15 != "") 
-{
-	case option1 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option1'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option2 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option2'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option3 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option3'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option4 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option4'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option5 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option5'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option6 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option6'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option7 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option7'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option8 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option8'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option9 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option9'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option10 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option10'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option11 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option11'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option12 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option12'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option13 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option13'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option14 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option14'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	case option15 =="PLANTILLA DIPLOMA12":
-		WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option15'), FailureHandling.STOP_ON_FAILURE)
-		break;
-	default:
-		WebUI.acceptAlert()
-		break;
-		}
+String option3 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option3'))
 
+String option4 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option4'))
+
+String option5 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option5'))
+
+String option6 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option6'))
+
+String option7 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option7'))
+
+String option8 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option8'))
+
+String option9 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option9'))
+
+String option10 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option10'))
+
+String option11 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option11'))
+
+String option12 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option12'))
+
+String option13 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option13'))
+
+String option14 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option14'))
+
+String option15 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option5'))
+
+switch (((((((((((((((option1 != '') || (option2 != '')) || (option3 != '')) || (option4 != '')) || (option5 != '')) || 
+(option6 != '')) || (option7 != '')) || (option8 != '')) || (option9 != '')) || (option10 != '')) || (option11 != '')) || 
+(option12 != '')) || (option13 != '')) || (option14 != '')) || (option15 != '')) {
+    case option1 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option1'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option2 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option2'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option3 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option3'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option4 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option4'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option5 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option5'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option6 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option6'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option7 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option7'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option8 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option8'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option9 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option9'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option10 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option10'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option11 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option11'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option12 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option12'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option13 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option13'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option14 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option14'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case option15 == 'PLANTILLA DIPLOMA12':
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/options/option_option15'), 
+            FailureHandling.STOP_ON_FAILURE)
+
+        break
+    default:
+        WebUI.acceptAlert()
+
+        break
+}
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Nuevo_Curso/select_SeleccioneNINGUNOIcetexInstituto Caro y Cuervo.PositivaSena'), 
     5)

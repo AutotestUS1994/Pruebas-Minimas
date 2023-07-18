@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/input_Empresa 1_form_templatej_idt24_input'), 
     'parametros contratacion')
@@ -58,11 +58,12 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas V
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear_un_tipo_Documento/a_Guardar'))
 
 String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-if(Result == 'Se adiciono el registro correctamente') {
-	String Resultado = 'Se adiciono el registro correctamente'
-	WebUI.closeBrowser()
-	}
-else {
-	WebUI.acceptAlert()
+
+if (Result == 'Se adiciono el registro correctamente') {
+    String Resultado = 'Se adiciono el registro correctamente'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
 

@@ -35,7 +35,7 @@ import org.testng.Assert as Assert
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.io.File as File
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 String Navegador = DriverFactory.getExecutedBrowser()
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input'), 
     'gestion herramientas')
@@ -49,18 +49,19 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
 
-    String Result =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-	if(Result == 'Registro ingresado correctamente..') {
-		String Resultado = 'PRUEBA OK'
-		WebUI.closeBrowser()
-	}
-    else {
-		WebUI.acceptAlert()
-	}
+    String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+    if (Result == 'Registro ingresado correctamente..') {
+        String Resultado = 'PRUEBA OK'
+
+        WebUI.closeBrowser()
+    } else {
+        WebUI.acceptAlert()
+    }
 } else {
     WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/9.1-Pruebas_Evaluaciones/9.1.3-Crear_una_Etapa'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/input_Empresa 1_form_templatej_idt24_input'), 
         'gestion herramientas')
@@ -92,14 +93,15 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Crear_modelos_de_evaluaciones 360º 180º 90º/a_Guardar'))
 
-        String Result0 =WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-		if(Result0 == 'Registro ingresado correctamente..') {
-			String Resultado1 = 'PRUEBA OK'
-			WebUI.closeBrowser()
-		}
-        else {
-			WebUI.acceptAlert()
-		}
+        String Result0 = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
+
+        if (Result0 == 'Registro ingresado correctamente..') {
+            String Resultado1 = 'PRUEBA OK'
+
+            WebUI.closeBrowser()
+        } else {
+            WebUI.acceptAlert()
+        }
     }
 }
 

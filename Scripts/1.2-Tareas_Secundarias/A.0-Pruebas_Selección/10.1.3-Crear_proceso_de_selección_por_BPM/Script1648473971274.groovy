@@ -27,7 +27,7 @@ if (Entorno == 'weblogic') {
 
 WebUI.comment('NO SE PUEDE ELIMINAR REGISTROS')
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/input_Empresa 1_form_templatej_idt24_input'), 
     'proceso de seleccion')

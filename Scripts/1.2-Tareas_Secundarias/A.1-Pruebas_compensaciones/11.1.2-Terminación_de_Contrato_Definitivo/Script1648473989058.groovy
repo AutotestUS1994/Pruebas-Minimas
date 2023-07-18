@@ -31,8 +31,7 @@ random_double = Math.round(random_double * 1000)
 
 String identificacion = random_double.toString().replace('.0', '')
 
-/*----------------------------------------------------------*/
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Terminación_de_Contrato_Definitivo/input_Empresa 1_form_templatej_idt24_input'), 
     'Listado Hojas de Vida')
@@ -664,12 +663,12 @@ def Actualizar() {
 
     robot.keyPress(KeyEvent.VK_SHIFT)
 
-	robot.keyPress(KeyEvent.VK_R)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SHIFT)
-    
-	robot.keyRelease(KeyEvent.VK_R)
+    robot.keyPress(KeyEvent.VK_R)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SHIFT)
+
+    robot.keyRelease(KeyEvent.VK_R)
 }
 

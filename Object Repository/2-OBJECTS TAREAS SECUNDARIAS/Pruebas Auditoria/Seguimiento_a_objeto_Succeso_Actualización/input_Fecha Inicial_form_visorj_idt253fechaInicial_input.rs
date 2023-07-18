@@ -6,11 +6,12 @@
    <elementGuidId>a4d39ce7-dd9f-4837-8cd5-bf566c51652c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//td[4]/span/input
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[3]/span/input</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>c24a66e6-2d54-416c-a5f3-ffd14974224d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_visor:j_idt253:fechaInicial_input</value>
+      <webElementGuid>c4524be4-88e4-4cd8-8587-1ed8cf0d836e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_visor:j_idt253:fechaInicial_input</value>
+      <webElementGuid>dcaf9fd2-076a-4018-92c2-21b7665970c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>883388f2-261e-44bf-bf37-e990cfb34134</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-filled ui-state-focus ui-state-hover</value>
+      <webElementGuid>857a0a89-a237-44cc-952a-7334737f044c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>66314f4d-ee11-4f2e-bed5-bbbf4d552149</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>c6709a96-4271-4acb-940c-147a2949e7e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b30337ff-1c67-4899-a8f9-a2d8a1b8cce3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_visor:j_idt253:fechaInicial_input&quot;)</value>
+      <webElementGuid>d5866f71-8883-4a7f-9406-e85bede72691</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_visor:j_idt253:fechaInicial_input']</value>
+      <webElementGuid>c0a38951-54ec-4aef-9bc1-b44040aa9d04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_visor:j_idt253:fechaInicial']/input</value>
+      <webElementGuid>646b128f-639e-4b90-bb3d-38f513890680</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span/input</value>
+      <webElementGuid>cabb29d3-0849-4dc7-a352-27fdda5d04cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/input_Empresa 1_form_templatej_idt24_input'), 
     'Manejo proceso')
@@ -28,13 +28,12 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Fluj
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/td_MOD1-Requerimiento de personal'))
 
-if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/input_Descripcin_formFlujoTrabajopanelTabPrincipalpanelTabInternodescripcion'), 
-    1))
-{
-	String Resultado ='PRUEBA OK'
-	WebUI.closeBrowser()
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Flujo_aprobación_requerimiento/input_Descripcin_formFlujoTrabajopanelTabPrincipalpanelTabInternodescripcion'), 
+    1)) {
+    String Resultado = 'PRUEBA OK'
+
+    WebUI.closeBrowser()
+} else {
+    WebUI.acceptAlert()
 }
-else {
-	WebUI.acceptAlert()
-	}
 
