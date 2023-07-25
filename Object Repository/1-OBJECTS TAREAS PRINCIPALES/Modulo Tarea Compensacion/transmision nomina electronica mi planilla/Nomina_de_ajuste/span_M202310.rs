@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_M202310</name>
+   <tag></tag>
+   <elementGuidId>a7ff3abd-3e52-4941-82c6-d7ae89a783a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table/tbody/tr[10]/td/span
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.ui-widget-content.ui-datatable-even.ui-datatable-selectable.ui-state-hover > td > span.valor_campo_none</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>be974da4-f156-4bc6-b7bc-4bc61bb07338</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_none</value>
+      <webElementGuid>b9709ba7-eb2f-4395-ae0c-0277f8fb9fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>M202310 </value>
+      <webElementGuid>074c06ae-2026-4a62-877d-6c7ac4ebb8f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;historico_nomina:j_idt1979_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-hover&quot;]/td[1]/span[@class=&quot;valor_campo_none&quot;]</value>
+      <webElementGuid>083e4f24-2e17-47db-9f55-6b1dfb7d6318</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='historico_nomina:j_idt1979_data']/tr[3]/td/span</value>
+      <webElementGuid>5bf1fc35-07eb-4875-8ac5-6f5b4fbab903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M202311'])[1]/following::span[1]</value>
+      <webElementGuid>5c6fc21f-9e7f-47bd-bd0c-e46d25fb8a52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M202312'])[1]/following::span[2]</value>
+      <webElementGuid>8e612298-7f78-40c5-bf37-2e2ef9df25a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M202309'])[1]/preceding::span[1]</value>
+      <webElementGuid>e92605cf-632b-401c-9dba-aca6ca34c36c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M202308'])[1]/preceding::span[2]</value>
+      <webElementGuid>0d430910-7cd9-4ee0-a53f-a45b642d4732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='M202310']/parent::*</value>
+      <webElementGuid>fa340ec3-9f49-4d13-88cc-1bd7f2ecba44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr[3]/td/span</value>
+      <webElementGuid>6ae01643-d37b-45bb-b5b0-e618a3559d19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'M202310 ' or . = 'M202310 ')]</value>
+      <webElementGuid>2b78d05d-ae0d-4b85-ad07-d713c61296a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

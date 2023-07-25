@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Banco De Bogota_13</name>
+   <tag></tag>
+   <elementGuidId>9a40be80-3d50-49fb-b769-1fb492c98a82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[13]/td[2]/span
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3fe0931d-8e04-42a8-9d6e-7911cc8b1164</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_none</value>
+      <webElementGuid>cd0f3520-1e64-4931-907a-48716d5028c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Banco De Bogota</value>
+      <webElementGuid>4516dd56-789d-440a-9981-1db0b556e827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pagoEntidadExterna:tabla_entrada_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even fila_tabla_ace&quot;]/td[2]/span[@class=&quot;valor_campo_none&quot;]</value>
+      <webElementGuid>2f225322-0fb2-406a-8c79-0c2097934cf7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='pagoEntidadExterna:tabla_entrada_data']/tr[5]/td[2]/span</value>
+      <webElementGuid>184ddc08-c994-4f5a-ad8a-24157d24dde8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogota'])[4]/following::span[2]</value>
+      <webElementGuid>c3e220a9-88bd-44bb-b566-30bd1d7fc938</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Afc - Bancolombia'])[1]/following::span[3]</value>
+      <webElementGuid>ad4c2e9f-0930-49f5-8275-c06021ee14db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogota'])[5]/preceding::span[1]</value>
+      <webElementGuid>ac10c3e1-de79-4d78-a9cc-3b94f1343196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bancafe'])[1]/preceding::span[3]</value>
+      <webElementGuid>7386dd82-f1cc-4f88-bed2-d0c839a58021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Banco De Bogota']/parent::*</value>
+      <webElementGuid>2ee05e58-6f3b-4706-be25-433cdf8517a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[2]/span</value>
+      <webElementGuid>a7c3bace-d8b9-40db-a08f-656a6ef7246c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Banco De Bogota' or . = 'Banco De Bogota')]</value>
+      <webElementGuid>f47e314d-87b2-495e-819b-922f94c0d02f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

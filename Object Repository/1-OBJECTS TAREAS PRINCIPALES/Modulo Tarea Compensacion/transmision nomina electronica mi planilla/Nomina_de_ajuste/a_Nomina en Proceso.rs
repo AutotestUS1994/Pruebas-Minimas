@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Nomina en Proceso</name>
+   <tag></tag>
+   <elementGuidId>cf350f2a-2748-479c-b745-a6f7757df8ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Nomina en Proceso']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e5fac316-fdc8-4fac-8c76-5a1e9ca6d5eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_menuEmpleado:j_idt1640:j_idt1642:j_idt1765</value>
+      <webElementGuid>fe15ce98-3ab9-4e27-8ca8-d05f149eaf1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>b0188761-f141-4086-a52c-32c62e18326f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>1004ef02-9bea-45fa-89e5-4ba9034d30fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;form_menuEmpleado:j_idt1640:j_idt1642:j_idt1765&quot;,f:&quot;form_menuEmpleado&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>8732e5ea-fba0-48d8-9214-613d29302385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nomina en Proceso </value>
+      <webElementGuid>5e36e319-5d61-44ba-ba09-6293fcbc4fe3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_menuEmpleado:j_idt1640:j_idt1642:j_idt1765&quot;)</value>
+      <webElementGuid>aed48ffa-e464-4bed-9d41-1f43a10b8535</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='form_menuEmpleado:j_idt1640:j_idt1642:j_idt1765']</value>
+      <webElementGuid>64346998-8b66-470e-b49a-9462b5ce1236</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_menuEmpleado:j_idt1640:j_idt1642:j_idt1740']/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>3694c1dc-e4cc-4092-9476-bc4d015d2721</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Nomina en Proceso')]</value>
+      <webElementGuid>83f954eb-73f6-42cf-976e-06ceee0418d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historicos'])[1]/following::a[5]</value>
+      <webElementGuid>24c4929d-f26c-49f0-a410-9547364d4b4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proceso'])[1]/following::a[24]</value>
+      <webElementGuid>4216415b-aa2f-4522-8f0f-1746d610aeea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Serrano Diana Marcela'])[1]/preceding::a[4]</value>
+      <webElementGuid>ab3c61be-7aa4-469d-842e-dae71518917f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[4]</value>
+      <webElementGuid>bd6a035a-9856-420e-8a27-bf486f93f5b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nomina en Proceso']/parent::*</value>
+      <webElementGuid>ac238034-aa49-4e77-a36c-90269870e517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[45]</value>
+      <webElementGuid>fd6f1af6-4842-4a9d-afa8-e067512e727a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>0253c6df-52b0-4e63-a375-2349c0a7b3f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'form_menuEmpleado:j_idt1640:j_idt1642:j_idt1765' and @href = '#' and (text() = 'Nomina en Proceso ' or . = 'Nomina en Proceso ')]</value>
+      <webElementGuid>ab2eea38-b4ae-4a7a-bc30-8d7cfdc89c61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Fuera Nomina Concepto</name>
+   <tag></tag>
+   <elementGuidId>cf4d2a84-2e6c-4ffe-b5aa-f7973dad2bf8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Fuera Nomina Concepto']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>23aa8661-7cef-43dc-a729-9f4ea0735824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>historico_nomina:j_idt2012:j_idt2036</value>
+      <webElementGuid>935fbfbe-6a2b-4512-9881-cb873eba4011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>4e50a796-13ff-42da-9350-c3f815eceacf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget us-boton us-menuhorizontal</value>
+      <webElementGuid>fc594c36-42b8-4efe-8e13-d89054b8639c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;historico_nomina:j_idt2012:j_idt2036&quot;,f:&quot;historico_nomina&quot;,u:&quot;historico_nomina&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>0ee6f10c-2d2e-4035-844b-d51372f7805e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fuera Nomina Concepto </value>
+      <webElementGuid>b9a051ee-43bf-4f71-96fc-9d8e34a31daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;historico_nomina:j_idt2012:j_idt2036&quot;)</value>
+      <webElementGuid>e3081770-0bed-4e94-9897-24fd5e2f18fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='historico_nomina:j_idt2012:j_idt2036']</value>
+      <webElementGuid>c07ea016-aeca-4430-83dc-7430c45b326d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='historico_nomina']/table[2]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/div/a[8]</value>
+      <webElementGuid>fadaa6e7-f7ad-44c6-97eb-a37f6c17a8ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Fuera Nomina Concepto')]</value>
+      <webElementGuid>126b9d76-6e07-476a-9b94-a7c49a8f8ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciclo'])[1]/following::a[8]</value>
+      <webElementGuid>09edc973-9a0e-4663-99b0-c8035a712197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pago'])[1]/following::a[8]</value>
+      <webElementGuid>2922f5c8-87fa-4a0e-9e83-71072ce23327</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo'])[3]/preceding::a[2]</value>
+      <webElementGuid>79247726-f1c0-48bf-8026-5c462e26c43f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidad Organizacional'])[1]/preceding::a[2]</value>
+      <webElementGuid>d3800a24-3920-4a5f-a671-5d6f79c11ebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Fuera Nomina Concepto']/parent::*</value>
+      <webElementGuid>9b6463e1-1e6c-4eb3-a9d5-8c660e8eb8e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>f916f0c5-5c7d-4daf-8f26-02999e90d352</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[8]</value>
+      <webElementGuid>360fd785-2491-43b9-8910-2d273a999bfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'historico_nomina:j_idt2012:j_idt2036' and @href = '#' and (text() = 'Fuera Nomina Concepto ' or . = 'Fuera Nomina Concepto ')]</value>
+      <webElementGuid>1c73b566-62de-48dc-ad32-7ae9cf18f14c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Definitiva</name>
+   <tag></tag>
+   <elementGuidId>bab100b5-13bb-47a6-9104-7787ed65049a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Definitiva']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>b1706c1b-ff90-47ca-9388-fc7d45b42c74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>popupLiquidarEntidadExterna:proceso:0</value>
+      <webElementGuid>f84ddd74-9785-4cb7-bea8-01e923a399fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Definitiva</value>
+      <webElementGuid>44aae9d9-7200-47f1-9918-6a6dda921b3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupLiquidarEntidadExterna:proceso&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
+      <webElementGuid>83d9cf3e-95f8-4184-a9ac-0724042d7d09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='popupLiquidarEntidadExterna:proceso']/tbody/tr/td/label</value>
+      <webElementGuid>eb8d33e8-da8b-46fe-bc7f-31c9a9f6eb9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccione el Proceso :'])[1]/following::label[1]</value>
+      <webElementGuid>8600c7c5-2532-4407-aff0-16a39daaeb83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Variable'])[1]/following::label[1]</value>
+      <webElementGuid>0814fb9c-c832-4074-a410-511d099a783e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informativa'])[1]/preceding::label[1]</value>
+      <webElementGuid>c3637eaf-9e5f-4441-8515-03b565155d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>312d0958-ee22-44a7-9c65-6bbdaff5cfc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Definitiva']/parent::*</value>
+      <webElementGuid>ee09fab3-be23-4fb0-b2be-782d2740deb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/label</value>
+      <webElementGuid>cfe91bf3-85cb-42c9-882c-67821b6b1a25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Definitiva' or . = ' Definitiva')]</value>
+      <webElementGuid>23a3af3e-a01b-4b99-9c23-8f2b0f147176</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

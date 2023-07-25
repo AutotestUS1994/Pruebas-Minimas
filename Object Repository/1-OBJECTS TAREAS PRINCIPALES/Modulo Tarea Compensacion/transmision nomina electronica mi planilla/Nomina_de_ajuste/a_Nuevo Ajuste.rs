@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Nuevo Ajuste</name>
+   <tag></tag>
+   <elementGuidId>214ae2e2-fddc-4ef0-ba77-25058d57df49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Nuevo Ajuste')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3ec66321-5cff-4722-a90a-32714746d8c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>j_idt97:j_idt100:j_idt102:j_idt846</value>
+      <webElementGuid>49f893cb-9ad2-4d3d-916f-3c4e69774211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>d31c829a-5ad1-4560-9908-712c096c0d02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-commandlink ui-widget</value>
+      <webElementGuid>74f747df-77b0-47da-beac-3777cc050054</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:&quot;j_idt97:j_idt100:j_idt102:j_idt846&quot;,f:&quot;j_idt97&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>7083dbfe-b901-4969-9cad-05ae540f29ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nuevo Ajuste </value>
+      <webElementGuid>f3f03421-c4db-407f-b2f7-f8ae70173e64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;j_idt97:j_idt100:j_idt102:j_idt846&quot;)</value>
+      <webElementGuid>766bdf3c-7b27-47ec-9bc1-88c3e0abe8ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='j_idt97:j_idt100:j_idt102:j_idt846']</value>
+      <webElementGuid>293bd0e0-22f0-439f-ae8c-8ee0d169b54b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='j_idt97:j_idt100:j_idt102:j_idt816']/table[6]/tbody/tr/td/a</value>
+      <webElementGuid>88b9ae6e-d6ef-4474-8260-c67c8b67faa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Nuevo Ajuste')]</value>
+      <webElementGuid>6872d9b9-ac5e-40e9-b5f7-95e8a20ece31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomina Electronica'])[2]/following::a[6]</value>
+      <webElementGuid>f96f7faf-e1bb-4155-829e-d9821f37ec6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parámetros'])[2]/following::a[10]</value>
+      <webElementGuid>deef93f4-0db6-4779-b9c6-56e956fc92c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Plantilla'])[1]/preceding::a[5]</value>
+      <webElementGuid>d8e01fe2-0dfc-4c82-a5d1-5248fa2cd10c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ano'])[1]/preceding::a[5]</value>
+      <webElementGuid>d28c9a30-d78d-4698-8a35-fcc3c9b25a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nuevo Ajuste']/parent::*</value>
+      <webElementGuid>58016acb-e793-4d7a-942c-363809cb8bf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>5ecb054d-ee52-4d98-a3d2-363133777b5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[6]/tbody/tr/td/a</value>
+      <webElementGuid>c301c6a5-2b66-4cf7-99f5-6569686c4975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'j_idt97:j_idt100:j_idt102:j_idt846' and @href = '#' and (text() = 'Nuevo Ajuste ' or . = 'Nuevo Ajuste ')]</value>
+      <webElementGuid>01ca30af-35a9-4d0b-94a2-2998dafd55c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

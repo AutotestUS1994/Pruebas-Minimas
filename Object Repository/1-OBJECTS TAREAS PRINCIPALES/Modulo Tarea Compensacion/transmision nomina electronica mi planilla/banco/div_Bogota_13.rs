@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Si</name>
+   <name>div_Bogota_13</name>
    <tag></tag>
-   <elementGuidId>cba3c788-08c7-4104-8e32-67d81423e9a6</elementGuidId>
+   <elementGuidId>2de2eba4-8944-411a-b107-6841d80a1127</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
+         <value>//tr[13]/td/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default.ui-state-hover</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>8a803072-96c6-4805-9cdc-b67c5f2a1651</webElementGuid>
+      <value>div</value>
+      <webElementGuid>79e69ef2-6fac-4ca8-ba19-0bac1b297234</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-button-text ui-c</value>
-      <webElementGuid>24bedc3a-e6a6-43e6-85b0-b58df551234c</webElementGuid>
+      <value>ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover</value>
+      <webElementGuid>515134bd-b29d-4abc-a5d1-d9d9198a16a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Si</value>
-      <webElementGuid>1b923760-9a16-460e-ba8d-fb19172e5e82</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;j_idt1671:j_idt1674&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
-      <webElementGuid>ec144135-aae7-465f-990a-5193064c947e</webElementGuid>
+      <value>id(&quot;pagoEntidadExterna:tabla_entrada:4:j_idt96&quot;)/div[@class=&quot;ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]</value>
+      <webElementGuid>b858a4af-f4dc-4057-a41e-898ba9901715</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='j_idt1671:j_idt1674']/span</value>
-      <webElementGuid>b6ba83b7-6c12-4609-baba-995152fc3b6b</webElementGuid>
+      <value>//div[@id='pagoEntidadExterna:tabla_entrada:4:j_idt96']/div[2]</value>
+      <webElementGuid>0666cb9b-9c3e-427b-bb4f-b7fbe0e8e7fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::span[1]</value>
-      <webElementGuid>1ffebb24-400c-4fa1-80bd-adc82906ebcb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogota'])[4]/following::div[3]</value>
+      <webElementGuid>4ec825a5-b8d1-4e83-a452-55c0f91d3926</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='DESEA CONFIRMAR'])[1]/following::span[2]</value>
-      <webElementGuid>19456287-6780-4ca0-83ad-88d732017a3d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Afc - Bancolombia'])[1]/following::div[3]</value>
+      <webElementGuid>bfd80b35-284a-4b5f-b913-5665bf0de465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Si']/parent::*</value>
-      <webElementGuid>8259eee4-458c-421c-bebc-57cef33a5545</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Banco De Bogota'])[1]/preceding::div[1]</value>
+      <webElementGuid>8bd363e9-24b8-4372-beb8-330f7c49ba65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogota'])[5]/preceding::div[1]</value>
+      <webElementGuid>a6d3294d-ca64-4f9a-ba40-5509fe773c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]/span</value>
-      <webElementGuid>cc6a2bb5-be26-4735-9c71-e8f50a35ae34</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = 'Si' or . = 'Si')]</value>
-      <webElementGuid>f9538e0d-f84b-484a-a87e-f2c6bcdd8b36</webElementGuid>
+      <value>//tr[5]/td/div/div[2]</value>
+      <webElementGuid>a4f0464b-cfcc-475e-b02e-3b0232afb8ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

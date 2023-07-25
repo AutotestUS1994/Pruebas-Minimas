@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_VALOR4_form_actoIngresoj_idt10129j_idt1028</name>
+   <name>input_Nmina Eletrnica popup</name>
    <tag></tag>
    <elementGuidId>ae53e8ff-3dde-4b8e-85d6-eb94110458d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+         <value>//div[2]/table/tbody/tr/td/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;form_actoIngreso:j_idt1012:9:j_idt1028&quot;]</value>
+         <value>input[name=&quot;popup_nominaelectronicaajsute:j_idt868&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>511aeca4-85e6-4b2e-a838-24adb6f7e3bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,75 +30,62 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>5c8f4da5-f643-43c6-b51c-22d2100ff63c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>form_actoIngreso:j_idt1012:9:j_idt1028</value>
+      <value>popup_nominaelectronicaajsute:j_idt868</value>
+      <webElementGuid>f02c987c-42d4-45d1-9c94-51a7e78ed251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>valor_campo_estandar</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>23</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeypress</name>
-      <type>Main</type>
-      <value>return decimal(event,this.value);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>size</name>
-      <type>Main</type>
-      <value>20</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>2</value>
+      <value>caja_texto</value>
+      <webElementGuid>e713347a-543c-45cd-ba9b-bd16d67a9e92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_actoIngreso:datosadicionales&quot;)/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[10]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/input[@class=&quot;valor_campo_estandar&quot;]</value>
+      <value>id(&quot;popup_nominaelectronicaajsute:j_idt863_content&quot;)/div[@class=&quot;popupBody&quot;]/table[1]/tbody[1]/tr[1]/td[1]/input[@class=&quot;caja_texto&quot;]</value>
+      <webElementGuid>a331ebfb-76ea-4fcf-bb8a-d0d3b6c3ff5c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='form_actoIngreso:j_idt1012:9:j_idt1028']</value>
+      <value>//input[@name='popup_nominaelectronicaajsute:j_idt868']</value>
+      <webElementGuid>e2eae15b-4250-4d97-aa1a-a4bdd1d7217f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='form_actoIngreso:datosadicionales']/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <value>//div[@id='popup_nominaelectronicaajsute:j_idt863_content']/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>21825d30-8cf9-4bb4-a00b-902341828503</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[10]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+      <value>//div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>145199ec-f860-4500-ac31-05fe5fa5f5f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'popup_nominaelectronicaajsute:j_idt868']</value>
+      <webElementGuid>e63a00fa-8f5c-42a7-8752-ae2cb0818452</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

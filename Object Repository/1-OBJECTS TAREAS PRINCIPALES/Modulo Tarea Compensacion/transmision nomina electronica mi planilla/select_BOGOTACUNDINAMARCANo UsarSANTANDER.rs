@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_BOGOTACUNDINAMARCANo UsarSANTANDER</name>
+   <tag></tag>
+   <elementGuidId>a5ccac75-5b8c-4d36-838b-aebdf4b67995</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='popup_nominaelectronica:sucursal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dd122d45-c4d0-453d-8e0b-7ebea289a1de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>popup_nominaelectronica:sucursal</value>
+      <webElementGuid>76971686-0e64-4d5a-9214-919d1c354277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>popup_nominaelectronica:sucursal</value>
+      <webElementGuid>d1b18470-f28b-43c0-aaae-4a6983a29fa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo</value>
+      <webElementGuid>703b6fb9-f0b3-4e6b-9dc2-561e79742027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>9239f958-9f60-4875-ad5c-332fd3606053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;popup_nominaelectronica&quot;,p:&quot;popup_nominaelectronica:sucursal&quot;});</value>
+      <webElementGuid>76d93c67-e680-4c64-a50a-cc25ea03437f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	
+	BOGOTA
+	CUNDINAMARCA
+	No Usar
+	SANTANDER
+</value>
+      <webElementGuid>fe58d942-c8be-47b4-98cf-b0819f477036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popup_nominaelectronica:sucursal&quot;)</value>
+      <webElementGuid>18670f2f-8c56-499a-a1ff-ffbed80334f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='popup_nominaelectronica:sucursal']</value>
+      <webElementGuid>2055400c-7e0f-4b01-ab27-2c3d32fc0b07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popup_nominaelectronica:j_idt235_content']/div[2]/table/tbody/tr[4]/td[2]/select</value>
+      <webElementGuid>b450302a-5b17-4414-abcd-bd87c80f8b76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sucursal'])[3]/following::select[1]</value>
+      <webElementGuid>dc1394b4-b6d4-4ebe-a0a1-c7786318451d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambiente'])[1]/following::select[2]</value>
+      <webElementGuid>330182c7-5c76-4b7f-bcfe-130abc9bc1e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mes'])[2]/preceding::select[1]</value>
+      <webElementGuid>2d2f7374-8049-4c99-b704-8776eb7a0483</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[2]</value>
+      <webElementGuid>26a3e71f-e76b-4f5c-9744-fcb623ac5ae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[2]/select</value>
+      <webElementGuid>f9a8adcb-dc73-4363-a2e1-a87ca1cf12c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'popup_nominaelectronica:sucursal' and @name = 'popup_nominaelectronica:sucursal' and (text() = '	
+	BOGOTA
+	CUNDINAMARCA
+	No Usar
+	SANTANDER
+' or . = '	
+	BOGOTA
+	CUNDINAMARCA
+	No Usar
+	SANTANDER
+')]</value>
+      <webElementGuid>40b7fe61-606a-487b-a2ba-219c1f4f529e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
