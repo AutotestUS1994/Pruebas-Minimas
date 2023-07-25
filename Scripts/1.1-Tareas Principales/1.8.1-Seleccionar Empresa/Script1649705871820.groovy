@@ -233,7 +233,7 @@ def Empresas() {
         14)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
-        3)
+        4)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
         5)
@@ -317,7 +317,7 @@ def Empresas() {
         4)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
-        3)
+        4)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneaspirantesempleadosDSflexoPruebasFlexoPruebasJboosInformixjavaSaraDS'), 
         4)
