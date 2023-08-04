@@ -6,12 +6,11 @@
    <elementGuidId>7ea90ad1-b325-40b0-bcb6-6b66fed18c86</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Recálculo Total')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='LiquidacionNomina:j_idt97:j_idt99:j_idt110']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0034f5d8-b42d-43d9-9247-e6691643890b</webElementGuid>
+      <webElementGuid>ad9d69cd-c8a2-45f9-a818-a368ae507882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>LiquidacionNomina:j_idt97:j_idt99:j_idt110</value>
-      <webElementGuid>5b56a6f5-c26c-419c-9be3-05841e24a454</webElementGuid>
+      <webElementGuid>4291ec2f-bb27-4902-b2a1-458084d21a6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>cf6a133b-45c7-4513-a372-2224945b337b</webElementGuid>
+      <webElementGuid>31d491d9-f17f-4154-94c1-c2f855aef853</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
-      <webElementGuid>5e3f424c-ccad-4649-a6ab-553b9dd14758</webElementGuid>
+      <webElementGuid>1247f248-8954-472b-8a49-147cb327b78d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>data-pfconfirmcommand</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;LiquidacionNomina:j_idt97:j_idt99:j_idt110&quot;,f:&quot;LiquidacionNomina&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
-      <webElementGuid>db115124-80bf-4792-b249-f26e289680cf</webElementGuid>
+      <webElementGuid>86ed619b-fcf0-450c-a643-0cd345e495f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.confirm({source:&quot;LiquidacionNomina:j_idt97:j_idt99:j_idt110&quot;,type:&quot;dialog&quot;,escape:true,header:&quot;Recálculo Total&quot;,message:&quot;DESEA CONFIRMAR&quot;,icon:&quot;pi pi-exclamation-triangle&quot;,beforeShow:&quot;&quot;});return false;</value>
-      <webElementGuid>2a81005e-3a5e-424f-9985-8454b71481d5</webElementGuid>
+      <webElementGuid>f6972754-fe03-4a91-a3d4-398a4cdf8915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Recálculo Total </value>
-      <webElementGuid>5453fb0f-bdae-44d2-8994-e59828724643</webElementGuid>
+      <webElementGuid>87a3a065-5a89-4817-9a47-1d951f941ca6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LiquidacionNomina:j_idt97:j_idt99:j_idt110&quot;)</value>
-      <webElementGuid>81cf6419-aa76-4519-a86c-fba27347b237</webElementGuid>
+      <webElementGuid>ffe631f6-99e3-4e3c-a930-6be980967886</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='LiquidacionNomina:j_idt97:j_idt99:j_idt110']</value>
-      <webElementGuid>e43d1124-3d11-4511-8413-49fdce2d188d</webElementGuid>
+      <webElementGuid>83bb3638-bf80-42d4-a0a5-b9f956acedd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='LiquidacionNomina:j_idt97:j_idt99:j_idt100']/table[2]/tbody/tr/td/a</value>
-      <webElementGuid>6e83f868-a7ba-4074-a459-7d6a830a6fdf</webElementGuid>
+      <webElementGuid>6f97893a-dade-45f3-8497-92a8b6b91442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Recálculo Total')]</value>
-      <webElementGuid>19bf3eb0-2114-4002-886c-2c7c7c0c1153</webElementGuid>
+      <webElementGuid>adb745bb-0757-45e1-8516-201c688ddb80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Opciones'])[1]/following::a[2]</value>
-      <webElementGuid>9297ad71-6957-4ae2-8297-ffebd7baa07f</webElementGuid>
+      <webElementGuid>987c426b-dddb-441d-b497-55a1ab50b80d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ciclo'])[1]/following::a[2]</value>
-      <webElementGuid>3424e775-54b3-4ac9-abbf-d8a2111de9b0</webElementGuid>
+      <webElementGuid>7669269a-d97c-489f-a8c9-d113ef729f4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro'])[1]/preceding::a[15]</value>
-      <webElementGuid>6ba77e28-d01b-456a-a6c0-70976f58aef8</webElementGuid>
+      <webElementGuid>e5157ae4-e6c0-495c-9988-9352b29a5560</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre Persona'])[1]/preceding::a[16]</value>
-      <webElementGuid>13cd30c7-b95a-410d-aa1b-4273fa8ea783</webElementGuid>
+      <webElementGuid>73531a72-b69e-4597-9f41-0a3ef66c95ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Recálculo Total']/parent::*</value>
-      <webElementGuid>5a7a0353-c44c-4845-b991-5205f7966a3c</webElementGuid>
+      <webElementGuid>ded7d213-3237-4bfb-b869-17cfbb1ef307</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
-      <webElementGuid>c38e5415-5b64-4ab1-89a2-0a145fe7e197</webElementGuid>
+      <webElementGuid>d8f9178b-4c5f-463c-8263-72bb1526df5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
-      <webElementGuid>ca66413f-f24c-4dc1-920d-e05c157f70d9</webElementGuid>
+      <webElementGuid>5f660f52-db05-4812-b12f-9cf4dc8c2cd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'LiquidacionNomina:j_idt97:j_idt99:j_idt110' and @href = '#' and (text() = 'Recálculo Total ' or . = 'Recálculo Total ')]</value>
-      <webElementGuid>65474dcd-d8e1-4a04-abbf-fb97f949d9e2</webElementGuid>
+      <webElementGuid>a91fc8f4-8f95-4c21-9ca9-568b6c58b5a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

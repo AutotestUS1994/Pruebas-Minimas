@@ -6,11 +6,11 @@
    <elementGuidId>073c8b7a-9e29-43a2-9a6c-0672d612a847</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[19]/span/span[3]/div/a/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='ingreso definitivo indefinido salario basico']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3ff26502-ecbc-4ed6-8d80-14493764b540</webElementGuid>
+      <webElementGuid>31455291-8dba-4e15-acfa-24cc826eddfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>ae3e92be-f08b-4206-bafc-d69ee4aee46b</webElementGuid>
+      <webElementGuid>c8afe6f6-c22e-4c82-9b8e-1f00c4921667</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ingreso definitivo indefinido salario basico </value>
-      <webElementGuid>2f6bf4e4-0076-47a7-a7f4-ecb20d6e9b1a</webElementGuid>
+      <webElementGuid>3c65038e-b9c2-4fe5-b147-d2c96fa6dbd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:arbolFormato:18:j_idt109&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
-      <webElementGuid>48c336ea-a19b-486a-8e0e-ebea1667625b</webElementGuid>
+      <webElementGuid>4a0bde7d-950d-41e2-a464-622a5297cab6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:arbolFormato:18:j_idt109']/span</value>
-      <webElementGuid>40dda92a-6f3d-4b8b-a5db-cf2a7be9e42b</webElementGuid>
+      <webElementGuid>68ba9933-f0a2-4c78-bd04-297663919434</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso temporal'])[1]/following::span[5]</value>
-      <webElementGuid>91aee0b0-15cc-4563-854b-09a96d42046b</webElementGuid>
+      <webElementGuid>3e19fbee-d59f-4c0d-84c9-5670011dc449</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso termino fijo - s tradicional'])[1]/following::span[10]</value>
-      <webElementGuid>72566993-1101-4efb-a11d-48844177b105</webElementGuid>
+      <webElementGuid>984231bf-3cbd-4e74-bac8-abe48f3e426a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso carrera docente'])[1]/preceding::span[3]</value>
-      <webElementGuid>c9147c0f-894e-4f9a-8ad8-67489acbc060</webElementGuid>
+      <webElementGuid>66c0d253-7a5b-47eb-aad9-277f36101c3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso aprendiz - etapa productiva'])[1]/preceding::span[8]</value>
-      <webElementGuid>6f41cb89-eea0-430e-9b51-5f74ae478a34</webElementGuid>
+      <webElementGuid>5d246a6e-53b1-41b0-8735-4315a22a2231</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ingreso definitivo indefinido salario basico']/parent::*</value>
-      <webElementGuid>a26d7c24-dcd3-428a-85d7-0379802a592b</webElementGuid>
+      <webElementGuid>05326baf-e807-4fb4-add1-8e0d3eb22bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[19]/span/span[3]/div/a/span</value>
-      <webElementGuid>6695fa83-b479-4f8b-91a4-35fc7629437a</webElementGuid>
+      <webElementGuid>3d0e6acd-a7ad-4037-b01c-b4bf12871623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'ingreso definitivo indefinido salario basico ' or . = 'ingreso definitivo indefinido salario basico ')]</value>
-      <webElementGuid>67b344c5-e16a-431d-9a32-e5b8ec6bd24a</webElementGuid>
+      <webElementGuid>0aeaea1b-da47-490c-8178-a6e4ed5ce753</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

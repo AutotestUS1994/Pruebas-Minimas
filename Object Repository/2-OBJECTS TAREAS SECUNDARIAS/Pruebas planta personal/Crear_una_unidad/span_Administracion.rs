@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[2]/ul/li/span/span[3]/span</value>
+         <value>//li[2]/ul/li/div/span[3]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>8d077fb2-4e49-415d-9a48-e246bd4820e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-texto-arbol us-tx-primario </value>
+      <webElementGuid>b88a3994-0ee0-4bfa-ab5f-fdc9a2b01879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administracion</value>
+      <webElementGuid>bdff63b1-daf2-4e91-9153-6e69d66dffd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:arbolUnidad:0_1_0&quot;)/span[@class=&quot;ui-treenode-content ui-tree-selectable&quot;]/span[@class=&quot;ui-treenode-label ui-corner-all&quot;]/span[@class=&quot;us-texto-arbol us-tx-primario&quot;]</value>
+      <webElementGuid>b466a5c4-9e64-4ca0-b19e-ce7433a16e54</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='organigrama:arbolUnidad:0_1_0']/span/span[3]/span</value>
+      <webElementGuid>9237cce5-466f-4444-807e-24c8d002a05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Subdireccion General'])[1]/following::span[5]</value>
+      <webElementGuid>d8febc56-f06d-42e4-87d9-4d49c480468d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administracion'])[1]/following::span[10]</value>
+      <webElementGuid>bb1543e5-b229-4f6f-88e9-46ef96db8eec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gerencia'])[1]/preceding::span[3]</value>
+      <webElementGuid>4e398ad4-7421-4256-943f-f17404765214</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tecnologia'])[1]/preceding::span[8]</value>
+      <webElementGuid>54d82cba-9ec9-40ca-9ab4-ac0ac42b1656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/ul/li/span/span[3]/span</value>
+      <webElementGuid>3707afda-c43d-4e17-b465-62c2ee2d210f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Administracion' or . = 'Administracion')]</value>
+      <webElementGuid>ed9f463c-34c3-41c9-a2c7-4b7295c8ed4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

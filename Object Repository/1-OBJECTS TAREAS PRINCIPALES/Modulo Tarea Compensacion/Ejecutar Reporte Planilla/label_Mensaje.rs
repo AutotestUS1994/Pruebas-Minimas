@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Mensaje</name>
+   <tag></tag>
+   <elementGuidId>08305f68-5b47-403e-8ecc-8610f48da015</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Mensaje']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7ee981e5-3253-4574-b5d4-91a51b92f3c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mensaje</value>
+      <webElementGuid>d7c9e705-3dca-47f7-a0f3-c25d07a805ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popupErrorDialog:dialog_popupFoto_content&quot;)/div[@class=&quot;us-head-popup us-popup-img&quot;]/label[1]</value>
+      <webElementGuid>15046861-4495-4423-bff4-cef6e0db2e1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popupErrorDialog:dialog_popupFoto_content']/div/label</value>
+      <webElementGuid>922ec541-e256-4847-ada7-6272f8cce68c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Multiples'])[1]/following::label[1]</value>
+      <webElementGuid>43859d86-f1e9-40b6-b3a2-67b26c6422b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Correo'])[1]/following::label[1]</value>
+      <webElementGuid>23308ca4-7165-4d02-9c49-48f4432cc8ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UNI-NODEFINIDO'])[1]/preceding::label[1]</value>
+      <webElementGuid>f0afce8e-4c10-4422-9daf-c2c91cc58939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='java.io.IOException'])[1]/preceding::label[1]</value>
+      <webElementGuid>2a450e04-25de-4ea1-b5ba-c635179f5bfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mensaje']/parent::*</value>
+      <webElementGuid>e2c0d7ff-3902-40e6-b51e-26f76bbf6766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[10]/div/div[2]/div/label</value>
+      <webElementGuid>e7f4e99d-245b-44b7-a68f-f2926ddcc358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Mensaje' or . = 'Mensaje')]</value>
+      <webElementGuid>477c6507-f93c-417b-80b3-d8680d603ccd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

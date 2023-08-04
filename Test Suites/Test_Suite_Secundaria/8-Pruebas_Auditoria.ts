@@ -36,7 +36,7 @@
       <guid>5d4563ec-9f2d-43f5-a908-9c91760c5eda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.4-Seguimiento_a_objeto_Succeso_Acceso</testCaseId>
+      <testCaseId>Test Cases/1.2-Tareas_Secundarias/8.1-Pruebas_Auditoria/8.1.4-Seguimiento_a_objeto_Suceso_Acceso</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

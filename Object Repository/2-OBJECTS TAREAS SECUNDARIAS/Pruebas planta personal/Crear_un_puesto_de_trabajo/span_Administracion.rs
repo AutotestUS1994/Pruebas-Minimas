@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[2]/ul/li/span/span[3]/span</value>
+         <value>//li[2]/ul/li/div/span[3]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>561fa797-c9e5-4acd-97a9-f45ebd60c035</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-texto-arbol  </value>
+      <webElementGuid>1be73cbc-ae5b-44e6-89bb-a068d5e48eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Administracion</value>
+      <webElementGuid>b93c05a8-2207-460e-a681-de2963e4d017</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;organigrama:arbolUnidad:0_1_0&quot;)/span[@class=&quot;ui-treenode-content ui-tree-selectable&quot;]/span[@class=&quot;ui-treenode-label ui-corner-all ui-state-hover&quot;]/span[@class=&quot;us-texto-arbol&quot;]</value>
+      <webElementGuid>7b00b77d-5e09-46b1-a888-b2fb44b7c7dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='organigrama:arbolUnidad:0_1_0']/span/span[3]/span</value>
+      <webElementGuid>19fa58ce-626a-4904-9747-2d0d67eb06cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Subdireccion General'])[1]/following::span[5]</value>
+      <webElementGuid>0cda771c-5e2a-4431-8f93-802ea3acb681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte'])[1]/following::span[10]</value>
+      <webElementGuid>a19a3b78-ff7b-4e23-9c49-810fb4902ece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Interna'])[1]/preceding::span[3]</value>
+      <webElementGuid>bc197388-aa6d-462f-9ded-88095d9036df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jefatura'])[1]/preceding::span[8]</value>
+      <webElementGuid>be703ee9-879d-46a8-9c84-fc88d9c33a12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/ul/li/span/span[3]/span</value>
+      <webElementGuid>a4d521db-71aa-4a2d-9dc5-e8466570596d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Administracion' or . = 'Administracion')]</value>
+      <webElementGuid>af3c3d04-ed7f-423e-8e32-fc5ab766fbd3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

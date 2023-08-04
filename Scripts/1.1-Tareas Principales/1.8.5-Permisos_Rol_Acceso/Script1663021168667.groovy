@@ -103,7 +103,7 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/input_Control Acceso_rolAccesousuario'), 
     'PruebasKatalonPorRol')
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Aplicar'))
+WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Aplicar'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Copiar Permisos'))
 
@@ -149,8 +149,6 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 
 if (result == 'Se ha realizado la copia de permisos') {
     String Resultado = 'PRUEBA OK'
-
-    
 
     WebUI.closeBrowser()
 } else {

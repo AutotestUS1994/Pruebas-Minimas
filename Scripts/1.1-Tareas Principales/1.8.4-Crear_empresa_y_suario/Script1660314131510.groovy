@@ -74,7 +74,7 @@ def crearEmpresa() {
 
     String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
 
-    if (Result == 'Se adiciono el registro correctamente') {
+    if (Result == 'Se actualizo correctamente el registro' ||Result == 'Se adiciono el registro correctamente') {
         String Resultado = 'PRUEBA  OK'
     } else {
         WebUI.acceptAlert()
@@ -112,7 +112,8 @@ def crearUsuario() {
     WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Correo_usuarioformatabemail'), 
         identificacion() + 'noodle@gmail.com')
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/label_Activo'))
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/label_Activo'), 
+        1)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/select_-- Seleccione --Grupo a'), 
         1)

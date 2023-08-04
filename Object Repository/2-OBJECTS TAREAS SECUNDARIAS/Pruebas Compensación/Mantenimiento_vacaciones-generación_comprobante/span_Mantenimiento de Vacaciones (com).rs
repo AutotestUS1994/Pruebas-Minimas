@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Mantenimiento de Vacaciones (com)']/parent::*</value>
+         <value>//span/ul/li/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0b37acd4-60ea-49f5-b76b-157fdef51356</webElementGuid>
+      <webElementGuid>9187c7ff-cfe5-4d56-a8ec-6ea184ff61c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-query</value>
-      <webElementGuid>ec18b0b4-d262-4cc3-8800-3aec3b2cf4ca</webElementGuid>
+      <webElementGuid>6fd71725-2ef2-4f0c-a7d8-417fc88d8437</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mantenimiento de Vacaciones (com)</value>
-      <webElementGuid>944a1ba8-b733-429d-930d-c3524f847185</webElementGuid>
+      <webElementGuid>0be4b81c-629c-4f09-a8f8-d29179701f29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
-      <webElementGuid>0149c11b-03fd-4233-89f2-00d627e8af78</webElementGuid>
+      <webElementGuid>4e94b1f7-cbcd-449e-b328-ce8e0706009f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
-      <webElementGuid>3dbe3c61-47d3-4a8e-8c91-de20a3adc5c5</webElementGuid>
+      <webElementGuid>c131b0cd-9387-4225-828e-dcd02681ae4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoja de Vida'])[2]/following::span[3]</value>
-      <webElementGuid>28cf504b-e71a-49eb-b45c-e8ff8d4ed11b</webElementGuid>
+      <webElementGuid>a4a40b9d-b91e-4679-bc48-776d58177ad7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bienvenido a'])[1]/following::span[3]</value>
-      <webElementGuid>c3ccd4ea-c7d4-4dc2-bfb2-11ab35e1beee</webElementGuid>
+      <webElementGuid>5518edbb-4c1a-40f8-a33c-3a788898d6dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[5]</value>
-      <webElementGuid>8fd01d78-580c-4adf-a7db-184a05e29d39</webElementGuid>
+      <webElementGuid>1c587f02-7c37-4684-a241-9ebc59153f75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[6]</value>
-      <webElementGuid>a336fb48-0305-4d25-b994-c9953961d8fb</webElementGuid>
+      <webElementGuid>a0bb592e-adf5-462d-96d7-aaef15bd211e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Mantenimiento de Vacaciones (com)']/parent::*</value>
-      <webElementGuid>caa7bd1f-6628-46ce-887d-dae72acb5a7f</webElementGuid>
+      <webElementGuid>f9cf168e-ced7-4291-a60e-ea657f408939</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li/span</value>
-      <webElementGuid>1c77d1e9-bd4a-43d6-8912-81fc04f256c4</webElementGuid>
+      <webElementGuid>5fbd14f6-e5ac-4a89-9a18-c1a5830c3c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Mantenimiento de Vacaciones (com)' or . = 'Mantenimiento de Vacaciones (com)')]</value>
-      <webElementGuid>b15e4720-a5fb-4bcb-be29-a1ce56d09f6c</webElementGuid>
+      <webElementGuid>f44bb922-9095-4b8d-9129-79ee0c6d5ac9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>8dc517e9-4319-4d8a-87c5-57164b931e0b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[19]/span/span[3]/div/a/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='ingreso definitivo indefinido salario basico']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>b3b349e7-a056-4927-a767-043515c10650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>0547ce0c-dc17-4b53-87a9-8bb5d462e908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ingreso definitivo indefinido salario basico </value>
+      <webElementGuid>82296652-b771-4c47-a06b-0ce5a92c8c5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:arbolFormato:18:j_idt105&quot;)/span[@class=&quot;valor_campo_estandar&quot;]</value>
+      <webElementGuid>02b62987-2553-4a78-9a17-f895e18ab161</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:arbolFormato:18:j_idt105']/span</value>
+      <webElementGuid>3cbb73f3-0729-4900-a654-632e09fa9802</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso temporal'])[1]/following::span[5]</value>
+      <webElementGuid>36e4d4e1-4967-46ee-87fb-fe9053ec7f3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso termino fijo - s tradicional'])[1]/following::span[10]</value>
+      <webElementGuid>1af3333e-a470-4a33-ba3a-dbe9773c0930</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso carrera docente'])[1]/preceding::span[3]</value>
+      <webElementGuid>dd49eb09-c42d-43d5-a0cf-e0af90cf2441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ingreso aprendiz - etapa productiva'])[1]/preceding::span[8]</value>
+      <webElementGuid>dc2c1951-a277-472d-b49c-a1c813eb4c9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ingreso definitivo indefinido salario basico']/parent::*</value>
+      <webElementGuid>6a4cf5c4-f146-4e06-a6ec-b0053393ac97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[19]/span/span[3]/div/a/span</value>
+      <webElementGuid>83437e2f-8ebf-4f6a-8230-32cd73f38ba2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

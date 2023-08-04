@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Rol Acceso (gna)']/parent::*</value>
+         <value>//span/ul/li/span
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c2eba420-d02b-4058-a1bb-985e0c0f3afd</webElementGuid>
+      <webElementGuid>80630ee8-c7dd-4fb7-a2c6-0e46dff09ed8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-query</value>
-      <webElementGuid>80b625c9-4777-41c2-a64b-130803b7ec01</webElementGuid>
+      <webElementGuid>5120c553-91bb-4c91-ac63-ca2138a2f9fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Rol Acceso (gna)</value>
-      <webElementGuid>f5437dcd-1fc2-4441-bba8-48e2f23fddf7</webElementGuid>
+      <webElementGuid>3b974dab-435f-4d44-b16e-593f387c4be4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]/span[@class=&quot;ui-autocomplete-query&quot;]</value>
-      <webElementGuid>de19bcd7-fcb1-4e37-b525-27182030f7b2</webElementGuid>
+      <webElementGuid>89e965a0-6bd0-4919-bb09-134abf8080ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li/span</value>
-      <webElementGuid>81c71beb-f4c1-4810-b7a6-7f1cd660b3c8</webElementGuid>
+      <webElementGuid>3300d7d7-42c1-4c38-8e4e-06b7d55b78ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoja de Vida'])[2]/following::span[3]</value>
-      <webElementGuid>c00a58b8-aa3a-4716-9dc6-31c3c3adcdb9</webElementGuid>
+      <webElementGuid>c2fb315c-5dba-481f-bb32-888786a656ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bienvenido a'])[1]/following::span[3]</value>
-      <webElementGuid>3e693be1-2681-4695-b7fe-adb16cebd8b2</webElementGuid>
+      <webElementGuid>815a6fa4-84bc-4655-b129-19b9dd5442c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[5]</value>
-      <webElementGuid>21acb34b-0910-44ba-b82c-4cb57740d6fe</webElementGuid>
+      <webElementGuid>c72318a9-6240-41e8-a2ce-763eb62632b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[6]</value>
-      <webElementGuid>8b1479f0-d398-4996-93c5-b8bc9b99387e</webElementGuid>
+      <webElementGuid>17065912-cfc7-4c17-92f9-2de3a995b753</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Rol Acceso (gna)']/parent::*</value>
-      <webElementGuid>c6e1a604-8949-47a6-9744-9e5183de3adc</webElementGuid>
+      <webElementGuid>cfb90b23-dc0d-41b2-959f-221000774dbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li/span</value>
-      <webElementGuid>25bb4eea-5895-472b-bb2d-6ce7d1295a04</webElementGuid>
+      <webElementGuid>a12332bb-2334-4ce1-aec9-83ddcf0073f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Rol Acceso (gna)' or . = 'Rol Acceso (gna)')]</value>
-      <webElementGuid>add42bd7-20bb-433c-b32f-374e126e0a7a</webElementGuid>
+      <webElementGuid>fd87aad7-38de-46c9-b9aa-92a80787a171</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -288,7 +288,7 @@
       <guid>7ef921ad-1448-4a1c-b141-f68c122482d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.4-Ejecutar Reporte Plantilla</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.4-Ejecutar Reporte Planilla</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -506,6 +506,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.1-Pruebas_compensaciones/11.1.9-situacion_adminitrativa-(situacion-actos)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21eeec51-c381-46e5-8d86-d66bc4aa43e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.8-Transmision_nomina_electronica_mi_planilla</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cbfbbaea-2163-4365-a37f-6ba3cddb1431</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.9-Nomina_de_Ajuste</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[9]/td[2]/select</value>
+         <value>
+//tr[10]/td[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>75889d3a-0619-4a2c-9251-59ee46397fdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>empresa_form:listaGrupo</value>
+      <webElementGuid>c13e3e85-32c6-4893-8053-c7f75df7c918</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>empresa_form:listaGrupo</value>
+      <webElementGuid>21cf2257-46a5-4274-adf5-91e45e65e6ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>df124766-173d-4ca1-9448-3d88d6f55db9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>0f9e3e7d-12ef-4fbf-8a79-704bd6c27ce9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,6 +64,7 @@
       <value>	-- Seleccione --
 	Grupo a
 </value>
+      <webElementGuid>ea9631c9-009d-4294-b91d-8d9a97ed1e67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,6 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;empresa_form:listaGrupo&quot;)</value>
+      <webElementGuid>1b25a9e2-b809-4c12-96e0-56cc1635827b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,6 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='empresa_form:listaGrupo']</value>
+      <webElementGuid>b463d99c-77af-40ce-90de-b46863ffefc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='empresa_form:panelConfiguracion']/table/tbody/tr[9]/td[2]/select</value>
+      <webElementGuid>837de170-1530-4685-b6e1-c7fe636b6232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Acceso'])[2]/following::select[1]</value>
+      <webElementGuid>4d960448-d361-4934-93b1-fae77a282c03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Propiedad Monitoreo'])[1]/following::select[1]</value>
+      <webElementGuid>fb03a063-d168-453b-8908-65e28a220a6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[1]</value>
+      <webElementGuid>458aaf14-93f9-4f79-97b4-19c6e1d94973</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::select[1]</value>
+      <webElementGuid>21e7baf7-da7f-441a-8b88-547adc9265cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,5 +128,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td[2]/select</value>
+      <webElementGuid>25ab5df3-7b31-48b0-bc95-6807023ed302</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
