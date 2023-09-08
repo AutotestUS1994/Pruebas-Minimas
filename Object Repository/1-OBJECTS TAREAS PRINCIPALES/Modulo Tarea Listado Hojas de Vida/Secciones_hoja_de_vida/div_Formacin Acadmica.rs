@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Formacin Acadmica</name>
+   <tag></tag>
+   <elementGuidId>bf50de11-b9a8-4855-a387-da1bfd441a85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td/table/tbody/tr/td/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cd017501-f7a7-4f1c-afbe-08566a16de4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-texto-hijo</value>
+      <webElementGuid>218b4b13-82eb-4650-8123-0af6b5d44eab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Formación Académica</value>
+      <webElementGuid>192b9116-7370-4605-ba45-8891a86a7d70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hojaVida:j_idt126:0:j_idt129:1:j_idt132&quot;)/div[@class=&quot;us-texto-hijo&quot;]</value>
+      <webElementGuid>db273482-417e-4a63-9ca8-377cbdde69f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='hojaVida:j_idt126:0:j_idt129:1:j_idt132']/div</value>
+      <webElementGuid>271e0b27-5beb-4c46-b763-8e63417b8fd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Básica'])[1]/following::div[1]</value>
+      <webElementGuid>5685745d-13d4-407e-ba1f-a4b29acfae03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informacion Basica'])[1]/following::div[2]</value>
+      <webElementGuid>3ed7259e-7e91-4779-bea9-007e63471c1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Experiencia Laboral'])[1]/preceding::div[1]</value>
+      <webElementGuid>3a171c60-80a3-4933-bdaa-3b5cec554553</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::div[2]</value>
+      <webElementGuid>2f6d7fe5-18f8-4741-8749-ed4c78a7ad19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Formación Académica']/parent::*</value>
+      <webElementGuid>4de63a39-9e46-43fe-a126-5465f4ad204e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr/td/a/div</value>
+      <webElementGuid>590cd21c-81c4-4a58-8cf3-6b5689d2b6b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Formación Académica' or . = 'Formación Académica')]</value>
+      <webElementGuid>590f8967-6aa4-4b77-9e2e-80d1e5c6fe72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

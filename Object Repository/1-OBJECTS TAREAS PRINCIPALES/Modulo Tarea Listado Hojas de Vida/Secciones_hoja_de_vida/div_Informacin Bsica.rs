@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Informacin Bsica</name>
+   <tag></tag>
+   <elementGuidId>efd49dde-d5ca-4d9e-b571-1ed5b46131a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Información Básica']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-texto-hijo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9ec82f29-58fd-43b5-9c50-b0c2c0ce40fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-texto-hijo</value>
+      <webElementGuid>19ddd973-96f6-49cb-8e5f-3eafee0905c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Información Básica</value>
+      <webElementGuid>ace0dc6e-a561-4e8b-9d43-3ae03ba5b27e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hojaVida:j_idt126:0:j_idt129:0:j_idt132&quot;)/div[@class=&quot;us-texto-hijo&quot;]</value>
+      <webElementGuid>39178ccd-994b-4332-b08f-e16b6cbc2b63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='hojaVida:j_idt126:0:j_idt129:0:j_idt132']/div</value>
+      <webElementGuid>a9f1d311-b76e-4f78-a358-aa69184f9ac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Informacion Basica'])[1]/following::div[1]</value>
+      <webElementGuid>0a6a2cfc-6475-410b-8d48-52d4a72391b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avance 27 %'])[1]/following::div[4]</value>
+      <webElementGuid>03fe23c5-08f6-4726-9a99-d270bdc8f168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Formación Académica'])[1]/preceding::div[1]</value>
+      <webElementGuid>1937f776-0652-4ebf-81f6-24d04276fd12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Experiencia Laboral'])[1]/preceding::div[2]</value>
+      <webElementGuid>488c4810-1638-4c0e-9a5e-f2a89e247580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Información Básica']/parent::*</value>
+      <webElementGuid>b950b08c-49cb-4c1d-8e05-47f17b6ac43f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>09da37e2-ca61-4525-b0f2-a88053c64346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Información Básica' or . = 'Información Básica')]</value>
+      <webElementGuid>613b37ab-dbb3-4c57-9bf8-c446d04a2373</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

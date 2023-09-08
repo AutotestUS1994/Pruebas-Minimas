@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Informacin Del Inmueble</name>
+   <tag></tag>
+   <elementGuidId>70eaefac-7cf1-4949-9ff1-cfc088cc3320</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Información Del Inmueble' or . = 'Información Del Inmueble')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-texto-hijo-falta</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b0da7b7e-c4bc-4861-8282-19b45d9c2444</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-texto-hijo-falta</value>
+      <webElementGuid>9b795491-63a3-45d8-aa79-46954d971153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Información Del Inmueble</value>
+      <webElementGuid>258e5429-e86c-44e2-9776-2446179fd028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hojaVida:j_idt126:0:j_idt129:4:j_idt132&quot;)/div[@class=&quot;us-texto-hijo-falta&quot;]</value>
+      <webElementGuid>c1a6bfb2-df85-4da9-b10d-0afb7f6f2df8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='hojaVida:j_idt126:0:j_idt129:4:j_idt132']/div</value>
+      <webElementGuid>b52ab1c8-c86c-407a-a2fc-d93da337a47c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Familia'])[1]/following::div[1]</value>
+      <webElementGuid>6f09395e-f467-4925-a12d-7083c61cc0a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Experiencia Laboral'])[1]/following::div[2]</value>
+      <webElementGuid>f13aa109-758f-4c7a-a837-8cad9aa8a441</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::div[1]</value>
+      <webElementGuid>d346e5ee-b810-4372-8739-2b7bbcb57d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoja Intelecto'])[1]/preceding::div[1]</value>
+      <webElementGuid>4e1718d4-f42b-4481-9442-9f38f0fe0160</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Información Del Inmueble']/parent::*</value>
+      <webElementGuid>e777d4d5-f8df-476a-b7e8-13d387fe1600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td/table/tbody/tr/td/a/div</value>
+      <webElementGuid>7f1ae70f-7939-4573-9c56-61ef950ad0af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Información Del Inmueble' or . = 'Información Del Inmueble')]</value>
+      <webElementGuid>e13e33b8-50e6-4a62-af63-e20e314733dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

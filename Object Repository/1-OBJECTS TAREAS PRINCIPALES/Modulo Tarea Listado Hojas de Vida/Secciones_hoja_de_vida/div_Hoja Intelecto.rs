@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Hoja Intelecto</name>
+   <tag></tag>
+   <elementGuidId>83835547-2346-42d3-a116-e10eaa51d84a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Hoja Intelecto' or . = 'Hoja Intelecto')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.us-texto-hijo-falta</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0ee4c8ee-3ed1-4302-a5cc-50ead36f450a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>us-texto-hijo-falta</value>
+      <webElementGuid>d002acbe-1c37-45fa-ba5d-fcbc7cec2faa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hoja Intelecto</value>
+      <webElementGuid>2e81bd2c-8369-49ff-aab3-11d6d7efa38b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hojaVida:j_idt126:0:j_idt129:5:j_idt132&quot;)/div[@class=&quot;us-texto-hijo-falta&quot;]</value>
+      <webElementGuid>f322ee4c-b3d0-423d-bce0-6aab4eee734e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='hojaVida:j_idt126:0:j_idt129:5:j_idt132']/div</value>
+      <webElementGuid>9ae79c41-22b8-46f4-96cc-6eb1f0bf5128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Del Inmueble'])[1]/following::div[1]</value>
+      <webElementGuid>8c41abbe-f259-4b8a-b671-4b77544c695e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Familia'])[1]/following::div[2]</value>
+      <webElementGuid>4a057fd0-2bd5-47ea-b693-aad2858fff13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[1]/preceding::div[1]</value>
+      <webElementGuid>1fffa7c1-c546-4d83-88b8-723778a9d11c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Educacion'])[1]/preceding::div[2]</value>
+      <webElementGuid>c5682e96-13ea-476b-9530-68ee0728935b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hoja Intelecto']/parent::*</value>
+      <webElementGuid>7d538e21-a065-43f1-a50d-20b6725de561</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td/table/tbody/tr/td/a/div</value>
+      <webElementGuid>cab8e81d-6e6f-464b-8d57-016cd9974b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Hoja Intelecto' or . = 'Hoja Intelecto')]</value>
+      <webElementGuid>e9af8911-e60b-4f48-8189-d5eaa20b5402</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

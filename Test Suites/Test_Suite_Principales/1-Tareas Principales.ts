@@ -522,4 +522,11 @@
       <testCaseId>Test Cases/1.1-Tareas Principales/1.8.9-Nomina_de_Ajuste</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>bc2d230f-9f7c-4824-9fee-146e8a2b14fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.9.1-Secciones_hoja_de_vida</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

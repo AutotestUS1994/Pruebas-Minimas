@@ -6,11 +6,12 @@
    <elementGuidId>4b87327f-342a-4ad5-aa62-ffa6c6bc8798</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td/span/div/div/div[1]/table/tbody/tr[8]/td[2]/select
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td[2]/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>f9018ebb-f3df-4756-bc10-2151b804717f</webElementGuid>
+      <webElementGuid>9d5c3fa0-e1e4-48bd-9235-360873c33608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>usuarioforma:tab:estado:1</value>
-      <webElementGuid>7d50c60f-e1f2-4e80-9068-42d782142c0c</webElementGuid>
+      <webElementGuid>65c8c1b6-f275-4c52-96b5-fa16391c7e0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Activo</value>
-      <webElementGuid>a65759bd-22b6-49bf-9dc9-6bc7a474a746</webElementGuid>
+      <webElementGuid>7b8105a2-6e2f-4910-bfe7-4ffedb79a836</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;usuarioforma:tab:estado&quot;)/tbody[1]/tr[1]/td[2]/label[1]</value>
-      <webElementGuid>bbcb165a-5e0d-4a30-8ff7-a9fe808d259f</webElementGuid>
+      <webElementGuid>f7a6da18-4c10-47e9-aea8-037f9299a931</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='usuarioforma:tab:estado']/tbody/tr/td[2]/label</value>
-      <webElementGuid>5aa0afd1-7ea3-4b6a-a08f-a1c6652c4b37</webElementGuid>
+      <webElementGuid>cffa7596-6736-4b63-9546-f660ba178b19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo LDAP'])[1]/following::label[1]</value>
-      <webElementGuid>7af692d7-137f-4c88-919e-f44399bbf818</webElementGuid>
+      <webElementGuid>de4cb01a-5da0-408b-be50-5aadfefe3e9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::label[2]</value>
-      <webElementGuid>74afb812-743a-49dc-8d28-400d4cca617c</webElementGuid>
+      <webElementGuid>08099161-23f8-4bc4-8ce1-100bc5f808e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactiva'])[1]/preceding::label[1]</value>
-      <webElementGuid>304af0ff-a577-4a7e-873e-d7dbc8f962f9</webElementGuid>
+      <webElementGuid>df324278-46ea-4caf-8ce1-9f4eeb05b817</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Acceso'])[2]/preceding::label[2]</value>
-      <webElementGuid>b99982ce-f928-471f-965c-14f4f08b1912</webElementGuid>
+      <webElementGuid>4e319af4-876c-4ef6-910c-048a462ac50c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Activo']/parent::*</value>
-      <webElementGuid>4251a9b7-edbc-4f63-81a8-769d8c99a57e</webElementGuid>
+      <webElementGuid>f99d0f18-3f7a-47be-aef3-44f2338cf6a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/label</value>
-      <webElementGuid>242622fd-a6ab-4cb8-aa55-26a992f7acce</webElementGuid>
+      <webElementGuid>1211cb29-68eb-49d5-88c7-69406d6fd47a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = ' Activo' or . = ' Activo')]</value>
-      <webElementGuid>710a931f-674c-41a6-9a9a-67c006588622</webElementGuid>
+      <webElementGuid>dd088646-f6dc-49a4-954e-fddf9b6662e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

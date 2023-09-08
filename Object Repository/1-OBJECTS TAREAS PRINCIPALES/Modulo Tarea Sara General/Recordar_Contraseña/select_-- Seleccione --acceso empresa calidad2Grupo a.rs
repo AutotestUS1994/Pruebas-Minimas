@@ -6,12 +6,12 @@
    <elementGuidId>19acabda-0982-4bb5-906c-df34a8319cfc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>
+/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td/span/div/div/div[1]/table/tbody/tr[10]/td[2]/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>19b33451-a73a-4a05-9576-01135b6b7eba</webElementGuid>
+      <webElementGuid>59013085-b242-4bbf-a2a2-ddbdbcf5055f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>usuarioforma:tab:listaGrupo</value>
-      <webElementGuid>14982378-3303-4a38-9ac6-ce5884ef6912</webElementGuid>
+      <webElementGuid>8105583a-655e-44e5-ab79-cc7be2d562a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>usuarioforma:tab:listaGrupo</value>
-      <webElementGuid>003a614b-22cf-4e2f-a400-0d3671620096</webElementGuid>
+      <webElementGuid>8eea781b-3c79-4013-8fe2-a03803ebe653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>c6f04611-4ba4-406b-b080-6310d7bf0203</webElementGuid>
+      <webElementGuid>27840ddf-83ae-4ddd-bd66-7b7d0735a5f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>21f21e05-3d2c-4190-8c93-86532e707c67</webElementGuid>
+      <webElementGuid>e43577c5-51cd-4fa8-8c49-721cb51cbbbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
 	acceso empresa calidad2
 	Grupo a
 </value>
-      <webElementGuid>3a4f57f2-7e06-41fd-ab8e-6fe93cda628b</webElementGuid>
+      <webElementGuid>f7255545-8732-4388-8f37-812c73375c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;usuarioforma:tab:listaGrupo&quot;)</value>
-      <webElementGuid>ecd09298-b808-4f0c-ba68-1f81d1bef5a9</webElementGuid>
+      <webElementGuid>2760de59-7f3d-4269-84b3-81a4756a393b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='usuarioforma:tab:listaGrupo']</value>
-      <webElementGuid>626bd050-e343-422c-ba67-1b9d80e39520</webElementGuid>
+      <webElementGuid>7bc06cb0-0efb-4ff7-86c8-dc4ada846e19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='usuarioforma:tab:j_idt87']/table/tbody/tr[8]/td[2]/select</value>
-      <webElementGuid>d6d6538e-f577-4f71-a4fc-bd6ef96e6920</webElementGuid>
+      <webElementGuid>e7041c5a-2049-48ad-9925-4fafe1233459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Acceso'])[2]/following::select[1]</value>
-      <webElementGuid>f98c551e-b1f8-42c9-b2d8-79e6417359e5</webElementGuid>
+      <webElementGuid>e6738286-084a-46c5-9d1a-732fa3926de7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactiva'])[1]/following::select[1]</value>
-      <webElementGuid>be4811c6-9fb9-48e3-bf20-399d63c33038</webElementGuid>
+      <webElementGuid>8707189f-6631-4e19-81de-100ffe08ee22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::select[1]</value>
-      <webElementGuid>b96eb461-9785-426f-ac06-80708be40236</webElementGuid>
+      <webElementGuid>d88fd861-567e-4962-8168-af94bd743760</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::select[1]</value>
-      <webElementGuid>6db8278f-61f5-420f-8da0-17123e9a84ea</webElementGuid>
+      <webElementGuid>2b02774c-b2da-4483-aeb2-8189779fbf83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>b7d0e27f-578b-42f3-957e-90250b7248e0</webElementGuid>
+      <webElementGuid>6bda9c40-c098-41de-a168-b12117e0feaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +143,6 @@
 	acceso empresa calidad2
 	Grupo a
 ')]</value>
-      <webElementGuid>6fd006be-7bd3-4c43-8468-c0ffb5e0275e</webElementGuid>
+      <webElementGuid>965e3d57-d228-46f2-8662-5b7ed965ffa2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
