@@ -29,7 +29,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Va
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM (1)/select_SeleccionarSiNo'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/select_--Seleccione--CALIDADMENSUAL ABC'), 
     1)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Validar_la_creación_del_Registro_de_Contratación_por_BPM/a_Unidad Organizacional_popupConfirmacionRequerimientoj_idt132'))

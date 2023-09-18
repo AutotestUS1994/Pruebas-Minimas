@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Seleccione--CALIDADMENSUAL ABC</name>
+   <tag></tag>
+   <elementGuidId>b27b5d76-bb8b-4e36-a97a-8e75c6e8cda8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>995cd5a9-a3f6-4754-b659-b25f4f8024e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_contratacion:panelTab:empresa</value>
+      <webElementGuid>7e4219b3-36af-4413-83ba-068d8f3fbd5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_contratacion:panelTab:empresa</value>
+      <webElementGuid>91cd06a6-4ed3-4429-9e1c-bd86d995b375</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo</value>
+      <webElementGuid>4669c082-2dd5-4ce3-923d-87ac347df283</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>308c6caa-8052-484c-a370-7ec0fdb82591</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_contratacion&quot;,p:&quot;form_contratacion&quot;,u:&quot;form_contratacion&quot;});</value>
+      <webElementGuid>f93845d3-c00a-40ef-a765-e75223ff4ea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--Seleccione--
+	CALIDAD
+	MENSUAL ABC
+	MODELO EMPRESA QUINCENAL
+	PANSIONADOS
+	PENSIONADOS BASE
+	PRUEBAS
+</value>
+      <webElementGuid>8e592b49-2d9f-4b2d-9809-d40c0596f7e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_contratacion:panelTab:empresa&quot;)</value>
+      <webElementGuid>27f7e5cc-88aa-441e-ac56-ea84c77d1132</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_contratacion:panelTab:empresa']</value>
+      <webElementGuid>deba5b07-7e45-4505-a793-7de86ec57762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_contratacion:panelTab:panelDatos']/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>9d2d5a6c-9d58-4ee4-9f90-c907a3fa2001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa*'])[1]/following::select[1]</value>
+      <webElementGuid>cf330adc-67bd-4a0d-8f39-4bfc93f73b05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre*'])[1]/following::select[1]</value>
+      <webElementGuid>282deb1d-fbce-4843-8733-3e02d0a85119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubicación Física*'])[1]/preceding::select[1]</value>
+      <webElementGuid>8996c49e-1fb2-462e-bebd-24f7ecc5cfa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clasificación*'])[1]/preceding::select[1]</value>
+      <webElementGuid>eb304349-270f-4212-b6bd-c927840043c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>732b8b24-7ac6-4a04-8b92-55552b33c985</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

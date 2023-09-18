@@ -213,7 +213,7 @@ def salir() {
 def Empresas() {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Acceso Particular'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -227,7 +227,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_No se encontr registros_usuarioformatabtabla_rolesj_idt152'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         13)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -241,7 +241,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_No se encontr registros_usuarioformatabtabla_rolesj_idt152 - Copy'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         14)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -255,7 +255,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_No se encontr registros_usuarioformatabtabla_rolesj_idt152 - Copy (1)'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         9)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -269,7 +269,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_rolesj_idt1523'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         8)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -283,7 +283,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_rolesj_idt1524'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         7)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -297,7 +297,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_rolesj_idt1525'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         6)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -311,7 +311,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_rolesj_idt1526'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         5)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -325,7 +325,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_rolesj_idt1527'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         4)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 
@@ -339,7 +339,7 @@ def Empresas() {
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_rolesj_idt1528'))
 
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administradorAdministrador Calidad 3ADMONAspirantesAspirantesjjAuditoriaCAPACITACIONCOLABORADOR'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_Seleccione1234234administrador'), 
         3)
 
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/select_SeleccioneCALIDADEmpresa 1Pruebas katalon'), 

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon</name>
+   <tag></tag>
+   <elementGuidId>a1973f31-105a-4be9-8b66-b381449960c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[7]/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>988d147c-35a8-4400-855b-4d1bc533f5df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_popupCasoAtep:tab:ubicacionfis</value>
+      <webElementGuid>7f7e7702-8689-4f14-9171-02af2277cc59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_popupCasoAtep:tab:ubicacionfis</value>
+      <webElementGuid>3377302a-287c-4d4e-867c-287ed0a9fc9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>58391fed-9144-4f50-a004-bdfffc964ff1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>15de429b-7912-44d6-8efd-2e1e6c29bde4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	-- SELECCIONAR --
+	Aula Inteligente
+	Sala de Juntas
+	Salon Externo
+	Salon Principal
+</value>
+      <webElementGuid>600f2c53-e819-4676-bad6-589b16be7d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupCasoAtep:tab:ubicacionfis&quot;)</value>
+      <webElementGuid>b81bf8af-cacb-46bb-b034-684d9b4da015</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_popupCasoAtep:tab:ubicacionfis']</value>
+      <webElementGuid>745eca9b-dd65-462f-899b-c46a632b66dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_popupCasoAtep:tab:j_idt97']/div/table/tbody/tr[7]/td[2]/select</value>
+      <webElementGuid>a8c16270-2c99-4fd3-8c24-f711a66bb4f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubicación Física*'])[1]/following::select[1]</value>
+      <webElementGuid>bd504499-1b2e-4e92-b8d6-de23f23aa51d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidad Organizacional*'])[1]/following::select[1]</value>
+      <webElementGuid>9a790fcb-3bca-4c61-a378-97f4e2094467</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vinculación Laboral*'])[1]/preceding::select[1]</value>
+      <webElementGuid>d9f1196e-d557-4515-bb14-d123c54f4e37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargo*'])[1]/preceding::select[2]</value>
+      <webElementGuid>e176b630-4873-4e01-84a0-8c4d4db963ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[2]/select</value>
+      <webElementGuid>0055417d-6f85-40e2-85c1-81b83731afa0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

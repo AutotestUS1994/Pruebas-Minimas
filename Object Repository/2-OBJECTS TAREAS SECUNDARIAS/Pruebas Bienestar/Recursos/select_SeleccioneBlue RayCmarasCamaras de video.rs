@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SeleccioneBlue RayCmarasCamaras de video</name>
+   <tag></tag>
+   <elementGuidId>b0205e53-99ba-4f6d-a613-fbef483aeb1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td/table/tbody/tr/td/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5126b6fa-a73c-47f5-ae1a-bd13bb1aa365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formRecursoLogistico:panel_recursos:tabla_recursos:medioAudioVisual</value>
+      <webElementGuid>954ae512-aba5-412c-a20e-b6c91e79cb47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>formRecursoLogistico:panel_recursos:tabla_recursos:medioAudioVisual</value>
+      <webElementGuid>7165f588-e867-4c79-8618-9221409306f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>913a416e-5351-4397-8b72-7ff5156cbd8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>42bc67a5-5eb4-4528-9d55-8091c86e0149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	Seleccione
+	Blue Ray
+	Cámaras
+	Camaras de video
+	Comedores
+	Estación de cafe
+	Internet
+	Ipad
+	Luces
+	Microfonos
+	Pantallas
+	Portátil
+	Sonido
+	Tablets
+	Tarima
+	Teleconferencia
+</value>
+      <webElementGuid>29eed832-d429-4e82-8304-387b07f03f8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formRecursoLogistico:panel_recursos:tabla_recursos:medioAudioVisual&quot;)</value>
+      <webElementGuid>9aa0b729-2ac4-4ef2-bbc6-33e80772427c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='formRecursoLogistico:panel_recursos:tabla_recursos:medioAudioVisual']</value>
+      <webElementGuid>6d76460f-d66d-4e04-870d-d2f6053efb41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tfoot[@id='formRecursoLogistico:panel_recursos:tabla_recursos_foot']/tr/td/table/tbody/tr/td/select</value>
+      <webElementGuid>7919cb46-2ab9-4d19-a5c2-d2d56789ce0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Necesidad'])[1]/following::select[1]</value>
+      <webElementGuid>985e19a4-1172-48f1-9686-56a03f3b1aec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recursos'])[3]/following::select[1]</value>
+      <webElementGuid>9ac1866c-3f99-46c1-b3d4-777751f3da35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/preceding::select[2]</value>
+      <webElementGuid>e45c1e5f-b1fc-4faa-a0d1-e24b188bd9fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::select[2]</value>
+      <webElementGuid>874e2d34-d867-47a3-b516-3f5ff08456e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td/select</value>
+      <webElementGuid>e91a96dd-d3ad-4bc6-aefd-b486be7c4ecc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

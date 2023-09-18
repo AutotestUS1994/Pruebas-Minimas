@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SeleccionarCALIDADMENSUAL ABCMODELO EMPRESA</name>
+   <tag></tag>
+   <elementGuidId>095d128e-874b-4a7f-8173-23060f19b76d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/td/table/tbody/tr/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>29e51809-53eb-4a9b-9743-1c4899cf841e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_datosMatrizPeligro:listaEmpresa</value>
+      <webElementGuid>1bcd1080-2d46-4cc8-a54a-0f71f1c1899d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_datosMatrizPeligro:listaEmpresa</value>
+      <webElementGuid>7240bf83-8ae0-4c31-9d02-37b138fb8d20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>25c219bf-3d6c-44e0-88ae-de501d102147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>f08425d3-ba5b-4f2d-afa3-1bec02eb236e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_datosMatrizPeligro&quot;,p:&quot;form_datosMatrizPeligro&quot;,u:&quot;form_datosMatrizPeligro&quot;});</value>
+      <webElementGuid>65bf5ea8-17e1-4b90-9919-d92d45b90a74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	Seleccionar
+	CALIDAD
+	MENSUAL ABC
+	MODELO EMPRESA QUINCENAL
+	PANSIONADOS
+	PENSIONADOS BASE
+	PRUEBAS
+</value>
+      <webElementGuid>05e612c5-cee2-4ee0-8fa3-b02eaa4bbd11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_datosMatrizPeligro:listaEmpresa&quot;)</value>
+      <webElementGuid>e7b6013c-704f-468e-aefd-12a8152a4838</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_datosMatrizPeligro:listaEmpresa']</value>
+      <webElementGuid>51508542-0a5b-4b58-b3be-36de60143782</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_datosMatrizPeligro:detalle']/tbody/tr/td[2]/select</value>
+      <webElementGuid>68d1354a-27c1-42d8-b8b9-a8b45b968b96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa*'])[1]/following::select[1]</value>
+      <webElementGuid>17d55d93-3b0d-4d89-bae4-d943a75e1e60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo*'])[1]/following::select[2]</value>
+      <webElementGuid>e62d577e-bfed-4f58-93aa-54d7994746a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[1]</value>
+      <webElementGuid>70d59491-ef99-4469-9696-66aa31d7206f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::select[1]</value>
+      <webElementGuid>66a36a69-a03a-4df2-ab78-8cd392298d39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>09ada05c-823b-4bb5-9a40-ad58a635bc4e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

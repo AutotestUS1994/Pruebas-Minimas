@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Seleccione--CALIDADMENSUAL ABC</name>
+   <tag></tag>
+   <elementGuidId>c4d52c8e-38c5-44a0-8127-9d6ada645261</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[5]/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>786a213c-87d0-44bd-9889-2498b0a2a7f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_popupDetalleEvaluacion:empresa</value>
+      <webElementGuid>5d1762b8-cd88-477a-84c7-5b76b86e9574</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_popupDetalleEvaluacion:empresa</value>
+      <webElementGuid>c0c7a01a-deb9-4297-a43d-1c9cebb12e3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>0a22abb8-7d31-4db5-af72-ae7f40364f27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>90d2b158-2a1a-4d02-8174-ff92206b1c12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_popupDetalleEvaluacion&quot;,p:&quot;form_popupDetalleEvaluacion&quot;,u:&quot;form_popupDetalleEvaluacion&quot;});</value>
+      <webElementGuid>98429e91-481c-4b84-80f6-0617d12e011b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--Seleccione--
+	CALIDAD
+	MENSUAL ABC
+	MODELO EMPRESA QUINCENAL
+	PANSIONADOS
+	PENSIONADOS BASE
+	PRUEBAS
+</value>
+      <webElementGuid>56a65f3a-5fb0-4a2f-8188-3e19bba5c53f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_popupDetalleEvaluacion:empresa&quot;)</value>
+      <webElementGuid>0302937e-e1e7-4558-80e6-4d3fa7491a65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_popupDetalleEvaluacion:empresa']</value>
+      <webElementGuid>2fedfd12-9d29-4c40-950a-fca0fbbefea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form_popupDetalleEvaluacion:panel_filtro']/tbody/tr[5]/td[2]/select</value>
+      <webElementGuid>37bbcd76-1aa4-4e04-817d-f447399e5246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa*'])[1]/following::select[1]</value>
+      <webElementGuid>41037326-c613-423d-86af-b15e1641362c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificacion Evaluado*'])[1]/following::select[1]</value>
+      <webElementGuid>42a0d097-ee58-4a07-81fe-af2c826c0724</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unidad Organizacional*'])[1]/preceding::select[1]</value>
+      <webElementGuid>60b292df-3fb3-42b9-94cb-be23fddb7f23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargo*'])[1]/preceding::select[2]</value>
+      <webElementGuid>e2ff1641-5e3a-4722-a1c3-56c64505886d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[2]/select</value>
+      <webElementGuid>3f69716b-202f-482a-b813-f7067aed5866</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

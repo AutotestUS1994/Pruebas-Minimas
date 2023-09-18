@@ -89,7 +89,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_DIAZ BLANCO GUISELL_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_CONSTA BELFEGORD  JHON1393138_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/div_CONSTA BELFEGORD JHON1393138_ui-chkbox-box'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Crear_un_Sistema_de_Vigilancia_Epidemiologica/a_Enviar'))
 

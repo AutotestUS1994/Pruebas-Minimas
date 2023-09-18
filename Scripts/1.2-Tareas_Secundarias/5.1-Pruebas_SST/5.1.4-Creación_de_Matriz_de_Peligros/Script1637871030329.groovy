@@ -113,7 +113,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_d
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/2/select_SeleccionarPeriodo 2018Periodo No. 1'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_SeleccionarCALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_SeleccionarCALIDADMENSUAL ABCMODELO EMPRESA'), 
     1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/input_Descripcin_form_datosMatrizPeligrodescripcion'), 
@@ -154,7 +154,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_d
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/a_Nuevo3'))
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_SeleccionarFsicoPrueba cdigo repetidoCondiciones de SeguridadPsicosocialBiomecnicoAuditivoFenmenos NaturalesVisualMotriz'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_SeleccionarFsicoPrueba cdigo repetidoCondiciones'), 
     '1')
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Creación_de_Matriz_de_Peligros/1/select_Seleccionar'), 

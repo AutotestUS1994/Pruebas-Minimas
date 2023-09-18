@@ -55,7 +55,7 @@ WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/P
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/span_A A A'))
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--Seleccione--CALIDADMENSUAL ABC'), 
     '1')
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Evaluacion/Programar_la_evaluación_Individual/select_--- Seleccione Unidad Organizacional ---1111123456ADMINISTRACIONADMINISTRACIONAnalista'), 

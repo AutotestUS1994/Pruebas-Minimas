@@ -78,10 +78,10 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneEmpresa 1Empresa 1'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneSaraDS_Jboss (CompensacionDS)SaraDS_weblogic (CompensacionDS)seguridad jdbcSeguridadDS_Jboss'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_SeleccioneSaraDS_Jboss (CompensacionDS)'), 
     1)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_--Seleccione--NUCLEO SISTEMASARAPORTAL SARASARA PRIMESARA APPSOFIASEGURIDADLMSSERVICIOSREGISTRO PERSONA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/select_--Seleccione--NUCLEO SISTEMASARAPORTAL'), 
     2)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Filter by Aplicacin_formtabtabla_rolesj_idt135'))

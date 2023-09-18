@@ -139,7 +139,7 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 			2)
 	}
 	
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/select_--Seleccione--CALIDADMENSUAL ABCMODELO EMPRESA QUINCENALPANSIONADOSPENSIONADOS BASEPRUEBAS'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/select_--Seleccione--CALIDADMENSUAL ABC'), 
         1)
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_proceso_de_selección_por_BPM/a_Unidad Organizacional_popupConfirmacionRequerimientoj_idt132'))

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Seleccione--CALIDADMENSUAL ABCMODELO</name>
+   <tag></tag>
+   <elementGuidId>c3cc03a0-676e-44cb-944e-572ac75c582a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>70488970-45a9-4145-a745-533d0bf1716a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formRegistroEvento:j_idt189:1:idTexto7</value>
+      <webElementGuid>00e05895-1145-4b42-8ba9-07bbccde1d6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>formRegistroEvento:j_idt189:1:idTexto7</value>
+      <webElementGuid>fc80ec8c-848a-45fe-9e7b-d591c319d49d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar  </value>
+      <webElementGuid>ea6aff83-23a9-43b0-9441-bacfea5ea9eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4282824d-25d9-488d-bdca-e65fc4a2700c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>7</value>
+      <webElementGuid>bc6ed6bd-e739-4183-a630-4434ba8b6833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	
+	--Seleccione--
+	CALIDAD
+	MENSUAL ABC
+	MODELO EMPRESA QUINCENAL
+	PANSIONADOS
+	PENSIONADOS BASE
+	PRUEBAS
+</value>
+      <webElementGuid>36d314d2-3342-4173-9c57-d0d580e307e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formRegistroEvento:j_idt189:1:idTexto7&quot;)</value>
+      <webElementGuid>a5305d3d-08cb-4020-95af-b74cf2193357</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='formRegistroEvento:j_idt189:1:idTexto7']</value>
+      <webElementGuid>a99d3321-948c-4cd2-bb16-5ffc01915a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formRegistroEvento']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      <webElementGuid>df2d2944-9649-4427-ae11-385403f28c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
+      <webElementGuid>f5e1886b-c66c-498f-be83-7654379d6df8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa'])[1]/following::select[1]</value>
+      <webElementGuid>3c6c0cbb-3494-41f2-89a7-42942f01e2c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicacion Inicial'])[1]/preceding::select[1]</value>
+      <webElementGuid>6ae4e438-8ade-443b-8077-ab50004ac725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publicacion Final'])[1]/preceding::select[1]</value>
+      <webElementGuid>4c2024ea-9270-4de6-a768-f14a11c2b9db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/table/tbody/tr/td/table/tbody/tr/td/select</value>
+      <webElementGuid>027d6cf5-6dc9-42fc-ae5f-a50a33af3610</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

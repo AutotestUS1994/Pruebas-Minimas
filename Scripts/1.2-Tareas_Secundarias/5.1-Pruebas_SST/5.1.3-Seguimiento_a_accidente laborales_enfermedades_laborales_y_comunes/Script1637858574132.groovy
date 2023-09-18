@@ -121,10 +121,10 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_--Seleccione--AccidenteEnfermedad ComnEnfermedad Laboral'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --Aula InteligenteSala de JuntasSalon'), 
     2)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --COOPERADOESTUDIANTE O APRENDIZINDEPENDIENTEMISIONPLANTA'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --COOPERADOESTUDIANTE O'), 
     5)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Seguimiento_a_accidente laborales_enfermedades_laborales_y_comunes (1)/select_-- SELECCIONAR --EPS - ALIANSALUD EPSEPS - CAFESALUDEPS'), 

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SeleccioneSaraDS_Jboss (CompensacionDS)</name>
+   <tag></tag>
+   <elementGuidId>fa9285ce-69e3-4be3-a1c5-e88a4f0eb972</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[3]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>444dc538-27b6-488a-8789-f606cab15019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>usuarioforma:tab:tabla_roles:selectConexion</value>
+      <webElementGuid>fc4ab7e6-80a5-42f5-88a7-4687b0a7e21c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>usuarioforma:tab:tabla_roles:selectConexion</value>
+      <webElementGuid>71ac6f79-985e-47b9-8472-1388f276bdc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>e63ec0f1-6960-43b9-a5ce-43589043cb43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>a3ed464b-f0cd-440e-956e-5220e81f4170</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	Seleccione
+	SaraDS_Jboss (CompensacionDS)
+	SaraDS_weblogic (CompensacionDS)
+	seguridad jdbc
+	SeguridadDS_Jboss
+</value>
+      <webElementGuid>b065a8b6-d902-4940-8817-74289788aa6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;usuarioforma:tab:tabla_roles:selectConexion&quot;)</value>
+      <webElementGuid>e2b641ec-d21b-45ec-8fd8-f140fbf97a0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='usuarioforma:tab:tabla_roles:selectConexion']</value>
+      <webElementGuid>614f83ee-74ae-452a-ba5a-565458bf7703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tfoot[@id='usuarioforma:tab:tabla_roles_foot']/tr/td[3]/select</value>
+      <webElementGuid>52320707-79a2-40bb-833e-7a6bc79bd314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicación'])[1]/following::select[3]</value>
+      <webElementGuid>6be752bc-79d0-47df-8f34-f6a00fc61480</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conexiónes'])[1]/following::select[3]</value>
+      <webElementGuid>9e5bac18-ed7c-4449-aa3c-52b289a9c868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/preceding::select[2]</value>
+      <webElementGuid>7c478d32-4a7d-42db-bbe9-9c1784504c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pruebas Katalon'])[3]/preceding::select[2]</value>
+      <webElementGuid>c91002b7-b9df-48bf-a260-0ae3589f791c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/select</value>
+      <webElementGuid>d83c3ca8-151e-444b-ad4f-e1b963754c5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

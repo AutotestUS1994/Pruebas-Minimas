@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Seleccione--NUCLEO SISTEMASARAPORTAL</name>
+   <tag></tag>
+   <elementGuidId>932a6c92-988e-409a-9648-df0cb9da7124</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[4]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>21c57370-83a9-4f25-9961-01fb5b066645</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>usuarioforma:tab:tabla_roles:selectAplicacion</value>
+      <webElementGuid>464a4920-f306-4d76-8914-9625c0152141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>usuarioforma:tab:tabla_roles:selectAplicacion</value>
+      <webElementGuid>61f20969-4990-44a4-91aa-d367d48002e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caja_texto</value>
+      <webElementGuid>aa23ece3-9d0d-44e6-873d-3aa42eea29cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>5394851e-e9ea-4877-8c59-be336fc61ae1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--Seleccione--
+	NUCLEO SISTEMA
+	SARA
+	PORTAL SARA
+	SARA PRIME
+	SARA APP
+	SOFIA
+	SEGURIDAD
+	LMS
+	SERVICIOS
+	REGISTRO PERSONA
+</value>
+      <webElementGuid>4e6446f2-b467-4beb-9ae9-402802811125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;usuarioforma:tab:tabla_roles:selectAplicacion&quot;)</value>
+      <webElementGuid>4f9eb988-1782-4de5-b837-7fc27cdec3c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='usuarioforma:tab:tabla_roles:selectAplicacion']</value>
+      <webElementGuid>1f7d67d1-8687-4988-a083-263a27952ec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tfoot[@id='usuarioforma:tab:tabla_roles_foot']/tr/td[4]/select</value>
+      <webElementGuid>66b08907-217a-4571-9e2e-e1b1e3b1bc42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicación'])[1]/following::select[4]</value>
+      <webElementGuid>bbe7e200-167a-42ed-8cc9-7a2de36d7993</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Conexiónes'])[1]/following::select[4]</value>
+      <webElementGuid>ccaa850d-39f4-4ed5-a854-e6dd0e2edd7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/preceding::select[1]</value>
+      <webElementGuid>b9e88879-5fd0-4c9f-9a4b-6ed866fa1975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pruebas Katalon'])[3]/preceding::select[1]</value>
+      <webElementGuid>278b7845-1501-413e-a8b7-3ceb6ebe1405</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/select</value>
+      <webElementGuid>b80b60cc-f4bc-4491-99c1-5b46a8a132db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
