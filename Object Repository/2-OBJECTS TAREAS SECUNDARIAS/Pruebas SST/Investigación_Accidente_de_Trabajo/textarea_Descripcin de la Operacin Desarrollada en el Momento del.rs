@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Mantenimiento de Vacaciones_form_templatej_idt24_input</name>
+   <name>textarea_Descripcin de la Operacin Desarrollada en el Momento del</name>
    <tag></tag>
-   <elementGuidId>44c5f8d7-0d55-4928-9144-e66389b710f2</elementGuidId>
+   <elementGuidId>e1f423c8-5f82-4d5d-a72f-179d0a00a56b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/input</value>
+         <value>//td[2]/table/tbody/tr[2]/td[2]/textarea</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -20,63 +20,64 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>textarea</value>
+      <webElementGuid>c9a42d3c-4054-406f-851a-cdaeb5402474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
+      <value>j_idt1827:tabInvestigacionAccidentado:operacion</value>
+      <webElementGuid>e0ac3e66-5e4b-440c-b782-ee31b9192fdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>form_template:j_idt24_input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>j_idt1827:tabInvestigacionAccidentado:operacion</value>
+      <webElementGuid>e92a0660-20d9-4f03-b4a0-b67a6d9e47dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-focus</value>
+      <value>ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all caja_texto ui-inputtextarea-resizable ui-state-hover ui-state-focus</value>
+      <webElementGuid>e1713b83-9ff9-4777-85b7-febf4798c513</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>cols</name>
       <type>Main</type>
-      <value>off</value>
+      <value>20</value>
+      <webElementGuid>ea66c9e5-d838-4aea-930c-c81f15fc227b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>size</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>305</value>
+      <value>3</value>
+      <webElementGuid>836ea10e-c709-4054-8b8c-92a1f6d8db6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>this.value='';</value>
+      <value>2147483647</value>
+      <webElementGuid>877bbee4-7b2b-4d7f-899e-f1f809184448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>onkeypress</name>
       <type>Main</type>
-      <value>Mantenimiento de Vacaciones (com)</value>
+      <value>return texto (event,this.value,4000);</value>
+      <webElementGuid>219aa486-331f-4159-b2e0-0cf32b63a15d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>7ba0fb07-66b3-408e-90c1-80d59962b1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>612be655-1269-40a6-b1cd-8150279fa0f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,40 +101,46 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>e11cef55-3fb9-443d-a3eb-d7d2cb9675b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-autocomplete</name>
+      <name>aria-multiline</name>
       <type>Main</type>
-      <value>list</value>
+      <value>true</value>
+      <webElementGuid>9fa6aadf-f48e-4df3-a23b-9e1d16fd8693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_template:j_idt24_input&quot;)</value>
+      <value>id(&quot;j_idt1827:tabInvestigacionAccidentado:operacion&quot;)</value>
+      <webElementGuid>180b02e9-a249-46c2-acc4-7214f752423a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='form_template:j_idt24_input']</value>
+      <value>//textarea[@id='j_idt1827:tabInvestigacionAccidentado:operacion']</value>
+      <webElementGuid>2a5b4ea0-1239-4c95-9147-d8282cde2cad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='form_template:j_idt24']/input</value>
+      <value>//table[@id='j_idt1827:tabInvestigacionAccidentado:panelPrincipal']/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/textarea</value>
+      <webElementGuid>1d006fe3-7b2b-493d-a0b4-bcb8296f5b9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//td[2]/table/tbody/tr[2]/td[2]/textarea</value>
+      <webElementGuid>7774f8ac-1e12-4687-9756-3a1e7d316648</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

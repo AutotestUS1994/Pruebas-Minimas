@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_-- Seleccione --Promocin y prevencinActivate Acompaamiento psicosocial Semana de la SaludSeguimiento puestos de trabajo</name>
+   <name>select_--Seleccione--AnuladoAutorizada</name>
    <tag></tag>
-   <elementGuidId>353913aa-b290-48f3-adaa-bfe160b3267b</elementGuidId>
+   <elementGuidId>2a69d2a7-b1f1-42d7-82cc-beedaef7b81d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/select</value>
+         <value>//td[4]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,20 +21,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>b253c98f-dc47-4a43-a47e-de48aacc131a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>popupTipoPrograma_form:j_idt1600</value>
+      <value>form_listadoviaticos:j_idt91</value>
+      <webElementGuid>2eed67fd-1c91-41fb-9586-b1dab036ee20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>popupTipoPrograma_form:j_idt1600</value>
+      <value>form_listadoviaticos:j_idt91</value>
+      <webElementGuid>1cf53c10-1b39-4ddd-9cd9-79b063f7fef9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>bad29ae6-e7f3-42fb-af0b-c048ffb0b8ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,81 +53,93 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>68ec9bba-d482-4ce5-adb4-2256c7ce4de6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onchange</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;popupTipoPrograma_form&quot;,p:&quot;popupTipoPrograma_form&quot;,u:&quot;popupTipoPrograma_form&quot;});</value>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_listadoviaticos&quot;,p:&quot;form_listadoviaticos&quot;,u:&quot;form_listadoviaticos&quot;});</value>
+      <webElementGuid>4822a4fc-7221-40ba-b15a-520cfe5568ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>	-- Seleccione --
-	Promoción y prevención
-	Activate 
-	Acompañamiento psicosocial 
-	Semana de la Salud
-	Seguimiento puestos de trabajo
+      <value>	--Seleccione--
+	Anulado
+	Autorizada
+	Derogada
+	No Autorizada
+	Programada
+	Solicitado
 </value>
+      <webElementGuid>c33b3646-16b5-4401-ad0e-edc20136dae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupTipoPrograma_form:j_idt1600&quot;)</value>
+      <value>id(&quot;form_listadoviaticos:j_idt91&quot;)</value>
+      <webElementGuid>ce31a867-a03b-4248-8676-a80d93900013</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='popupTipoPrograma_form:j_idt1600']</value>
+      <value>//select[@id='form_listadoviaticos:j_idt91']</value>
+      <webElementGuid>009071c4-6878-4957-81f1-69bbf9f5a04c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='popupTipoPrograma_form:programas']/select</value>
+      <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[3]/td[4]/select</value>
+      <webElementGuid>0fb48707-d2d9-4d70-b714-b3049737f5d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programas'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
+      <webElementGuid>cf257113-4dbe-4691-bf45-9d10f341277b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Área'])[1]/following::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión'])[1]/following::select[2]</value>
+      <webElementGuid>5d87c2bb-59cc-4c24-881a-7232d5a69d68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[5]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/preceding::select[1]</value>
+      <webElementGuid>186a9ee5-ab34-43b0-96ef-98b0d6ba0e37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación'])[1]/preceding::select[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Año'])[1]/preceding::select[1]</value>
+      <webElementGuid>52103d80-39a3-4008-9d36-0edf2b21d29e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/select</value>
+      <value>//td[4]/select</value>
+      <webElementGuid>e57fa17e-bc1e-4078-96d2-55d10d767c59</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

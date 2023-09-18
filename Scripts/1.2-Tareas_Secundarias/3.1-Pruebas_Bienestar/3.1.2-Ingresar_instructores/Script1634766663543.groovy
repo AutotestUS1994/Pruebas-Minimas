@@ -32,7 +32,7 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Aceptar'))
     }
     
-    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado'), 
+    WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/select_-- Seleccione --Beltran Daza Jose AndresCanizalez'), 
         4)
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores_form_entrenadorlistaEntrenadoresj_idt618'))

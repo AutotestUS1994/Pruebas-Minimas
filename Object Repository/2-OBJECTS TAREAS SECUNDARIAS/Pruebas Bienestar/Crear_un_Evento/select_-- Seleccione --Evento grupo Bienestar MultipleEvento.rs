@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_-- Seleccione --Beltran Daza Jose AndresCanizalez Acero Marta BrigitteBuitrago Buitrago Andrea12501250Mendoza 1010 Empleado</name>
+   <name>select_-- Seleccione --Evento grupo Bienestar MultipleEvento</name>
    <tag></tag>
-   <elementGuidId>66d731e9-65e4-4d0a-b6a9-d85ab3422e52</elementGuidId>
+   <elementGuidId>6176f781-f1f2-4e85-968e-24767a4bf567</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[3]/td[2]/span/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tfoot/tr/td/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,20 +21,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>f248e4e7-4b6e-44cf-a191-257571d3ddf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_entrenador:listaEntrenadores:entrenador</value>
+      <value>popupTipoPrograma_form:j_idt1603</value>
+      <webElementGuid>c3754c19-35a9-4cff-a1e7-bb65c3fabe12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>form_entrenador:listaEntrenadores:entrenador</value>
+      <value>popupTipoPrograma_form:j_idt1603</value>
+      <webElementGuid>fc437b9b-6c8f-4207-8be3-9cce1b398dd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>e6cd4d84-69eb-4d6a-a98c-8800a50f80f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,13 +53,15 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>97378df8-e138-4af0-9187-b92fc528fc44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onchange</name>
       <type>Main</type>
-      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_entrenador&quot;,p:&quot;form_entrenador&quot;,u:&quot;form_entrenador&quot;});</value>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;popupTipoPrograma_form&quot;,p:&quot;popupTipoPrograma_form&quot;,u:&quot;popupTipoPrograma_form&quot;});</value>
+      <webElementGuid>2d22f968-b4dd-44bc-981a-f946942a0164</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,67 +69,75 @@
       <name>text</name>
       <type>Main</type>
       <value>	-- Seleccione --
-	Beltran Daza Jose Andres
-	Canizalez Acero Marta Brigitte
-	Buitrago Buitrago Andrea
-	12501250
-	Mendoza 1010 Empleado
+	Evento grupo Bienestar Multiple
+	Evento Grupo Bienestar Multiple SI
+	Evento Grupo Bienestar Único
+	Evento Individual Multiple SS
 </value>
+      <webElementGuid>511c8568-4d67-4d7f-b746-c782fa8ec825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_entrenador:listaEntrenadores:entrenador&quot;)</value>
+      <value>id(&quot;popupTipoPrograma_form:j_idt1603&quot;)</value>
+      <webElementGuid>e081d93a-0443-4817-b4d2-114a2609e06e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='form_entrenador:listaEntrenadores:entrenador']</value>
+      <value>//select[@id='popupTipoPrograma_form:j_idt1603']</value>
+      <webElementGuid>12734b29-363c-4579-a123-67bf065ff7c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tfoot[@id='form_entrenador:listaEntrenadores_foot']/tr/td/select</value>
+      <value>//span[@id='popupTipoPrograma_form:tipoEvento']/select</value>
+      <webElementGuid>1accb1f0-5c1a-4e30-bb5a-1090c29257ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructores'])[2]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[5]/following::select[1]</value>
+      <webElementGuid>3984b777-c194-427c-b610-a12567422ac7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Final Desarrollo'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programas'])[1]/following::select[2]</value>
+      <webElementGuid>331e47f1-4dab-497a-8a06-cf8f526a6f87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación'])[1]/preceding::select[1]</value>
+      <webElementGuid>54db874f-88e8-4e54-a907-af93b3092413</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nueva Fecha Vigencia'])[1]/preceding::select[1]</value>
+      <webElementGuid>f85de9a6-5e49-4ecf-81eb-9bb41eec4cbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tfoot/tr/td/select</value>
+      <value>//tr[3]/td[2]/span/select</value>
+      <webElementGuid>3ad0f0b6-69d1-4a28-8a26-a11fb689af6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

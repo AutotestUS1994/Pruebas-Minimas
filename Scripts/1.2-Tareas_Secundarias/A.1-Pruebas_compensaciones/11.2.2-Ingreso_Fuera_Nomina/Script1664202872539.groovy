@@ -42,7 +42,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/I
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/input_Identificacin_nuevahoja_formcedula'), 
     numero)
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico'), 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol'), 
     4)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/a_Nueva Solicitud'))

@@ -73,10 +73,10 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investiga
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/select_-- SELECCIONAR --GraveLeveUrgente'), 
     '2')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo (1)/textarea_Descripcin del rea de Trabajo en Dnde Ocurri el Accidente_j_idt1827tabInvestigacionAccidentadoareaTrabajo'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo (1)/textarea_Descripcin del rea de Trabajo en Dnde'), 
     'null')
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Descripcin de la Operacin Desarrollada en el Momento del Accidente_j_idt1827tabInvestigacionAccidentadooperacion'), 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Descripcin de la Operacin Desarrollada en el Momento del'), 
     'null')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/textarea_Acciones Adoptadas Despus del Accidente_j_idt1827tabInvestigacionAccidentadoacciones'), 

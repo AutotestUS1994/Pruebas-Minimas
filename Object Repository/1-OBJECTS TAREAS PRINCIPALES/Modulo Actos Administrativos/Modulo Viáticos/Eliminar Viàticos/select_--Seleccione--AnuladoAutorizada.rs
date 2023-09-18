@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_-- Seleccione --.ASPIRANTEAspirante NPxEspaol Tipo Hoja EmpleadoIngles Tipo Hoja AspirantepruebaTcnico</name>
+   <name>select_--Seleccione--AnuladoAutorizada</name>
    <tag></tag>
-   <elementGuidId>4583c927-d702-4041-ad7f-38e785296eba</elementGuidId>
+   <elementGuidId>559dd057-bbd7-4e68-8c94-d36955ba6505</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/table/tbody/tr[2]/td[2]/select</value>
+         <value>//td[4]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +21,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>825d4740-3d7e-452a-812f-22a90098c724</webElementGuid>
+      <webElementGuid>dce3e412-06b8-4fa3-b246-4c18b25206f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>nuevahoja_form:tipo</value>
-      <webElementGuid>185da905-1b20-4c33-bd14-5b68e5719955</webElementGuid>
+      <value>form_listadoviaticos:j_idt91</value>
+      <webElementGuid>3e43f4ae-2be3-4243-86ff-fa8f754dc800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>nuevahoja_form:tipo</value>
-      <webElementGuid>2b09699e-323d-47b8-8480-64171931f87f</webElementGuid>
+      <value>form_listadoviaticos:j_idt91</value>
+      <webElementGuid>695acca1-0740-4afe-846c-deae2097e806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>valor_campo</value>
-      <webElementGuid>8e31499b-5811-41ef-bdc9-8cb38949e143</webElementGuid>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>834eb554-9f97-4c9c-b4fa-bceaf17210c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,110 +53,93 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>540adf2e-6a4a-494f-91eb-05d33e284176</webElementGuid>
+      <webElementGuid>fbad941a-7dca-4a7f-afba-ed9db82862a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_listadoviaticos&quot;,p:&quot;form_listadoviaticos&quot;,u:&quot;form_listadoviaticos&quot;});</value>
+      <webElementGuid>2df00da0-3dcd-4375-a385-2a2faddcad05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>	-- Seleccione --
-	.
-	ASPIRANTE
-	Aspirante NPx
-	Español Tipo Hoja Empleado
-	Ingles Tipo Hoja Aspirante
-	prueba
-	Técnico
+      <value>	--Seleccione--
+	Anulado
+	Autorizada
+	Derogada
+	No Autorizada
+	Programada
+	Solicitado
 </value>
-      <webElementGuid>834e347f-b4c3-4447-b110-89545a79bd77</webElementGuid>
+      <webElementGuid>4275235f-7dec-474b-9f57-7e702d1ff902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nuevahoja_form:tipo&quot;)</value>
-      <webElementGuid>7f7d6b42-14b5-47da-8562-c70638f1adf4</webElementGuid>
+      <value>id(&quot;form_listadoviaticos:j_idt91&quot;)</value>
+      <webElementGuid>316a98b8-9fbc-4fae-b613-512cbd652a25</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='nuevahoja_form:tipo']</value>
-      <webElementGuid>d2c16aae-db65-4f10-b163-c258f6f813b3</webElementGuid>
+      <value>//select[@id='form_listadoviaticos:j_idt91']</value>
+      <webElementGuid>41a1f885-cf8f-495c-ae30-80df12da768f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nuevahoja_form:dialog_nuevahoja_form_content']/div[2]/table/tbody/tr[2]/td[2]/select</value>
-      <webElementGuid>3669502a-5359-401c-a38e-67a9faf15c5d</webElementGuid>
+      <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[3]/td[4]/select</value>
+      <webElementGuid>25d07d51-90a0-47ce-ac89-5b045f5fd198</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo de Hoja'])[2]/following::select[1]</value>
-      <webElementGuid>b8d458f3-52f9-4de2-9ba8-2126463f3ec1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
+      <webElementGuid>e249849a-1e64-41df-8957-4453207e14cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[3]/following::select[1]</value>
-      <webElementGuid>816f4eaa-d561-4a5c-8fb2-0e8bd3b53d0e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión'])[1]/following::select[2]</value>
+      <webElementGuid>61db5a32-c770-427d-99ad-55d46768995c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[1]</value>
-      <webElementGuid>9c80561f-820d-49a1-9d41-474cb1a6b34a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/preceding::select[1]</value>
+      <webElementGuid>4f55474b-641d-4b48-b16e-171402db2ff8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::select[1]</value>
-      <webElementGuid>a2997314-fd99-46ba-8dcf-bc29870081f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Año'])[1]/preceding::select[1]</value>
+      <webElementGuid>88db796a-0738-4677-9094-1b1a4dcdaac9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/table/tbody/tr[2]/td[2]/select</value>
-      <webElementGuid>139509ca-f765-4565-9e31-897a09045b58</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//select[@id = 'nuevahoja_form:tipo' and @name = 'nuevahoja_form:tipo' and (text() = '	-- Seleccione --
-	.
-	ASPIRANTE
-	Aspirante NPx
-	Español Tipo Hoja Empleado
-	Ingles Tipo Hoja Aspirante
-	prueba
-	Técnico
-' or . = '	-- Seleccione --
-	.
-	ASPIRANTE
-	Aspirante NPx
-	Español Tipo Hoja Empleado
-	Ingles Tipo Hoja Aspirante
-	prueba
-	Técnico
-')]</value>
-      <webElementGuid>b8bf06c0-b80a-4e16-991e-4ffe121b3877</webElementGuid>
+      <value>//td[4]/select</value>
+      <webElementGuid>0d5a2e9e-ce03-4436-96f9-f34446189c3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

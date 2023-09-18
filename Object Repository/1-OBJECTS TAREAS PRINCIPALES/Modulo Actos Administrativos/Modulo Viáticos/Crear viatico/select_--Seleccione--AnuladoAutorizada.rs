@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_--Seleccione--AnuladoAutorizadaDerogadaNo AutorizadaProgramadaSolicitado</name>
+   <name>select_--Seleccione--AnuladoAutorizada</name>
    <tag></tag>
-   <elementGuidId>62baa590-fa07-4fc2-8fc0-7854d308c241</elementGuidId>
+   <elementGuidId>7b69ec51-0249-4790-98b3-1b2028a42479</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -21,20 +21,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>bda9d826-03fd-41c2-b7c4-8892e18008ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>form_listadoviaticos:j_idt91</value>
+      <webElementGuid>2db3c213-5985-4311-94eb-8605b32e7460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>form_listadoviaticos:j_idt91</value>
+      <webElementGuid>b75797dc-5572-4e36-930d-f81d601ba3fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>fedc2987-7494-4a87-9b26-889d92e1a5e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>c2aba1d9-872f-4018-be63-d0633dbea1e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,9 +61,10 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_listadoviaticos&quot;,p:&quot;form_listadoviaticos&quot;,u:&quot;form_listadoviaticos&quot;});</value>
+      <webElementGuid>8a8c2bcf-0328-4024-bc3d-a51220538e00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -70,6 +76,7 @@
 	Programada
 	Solicitado
 </value>
+      <webElementGuid>265000e6-7d1f-4ed5-8ffb-a0af81675437</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,13 +84,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:j_idt91&quot;)</value>
+      <webElementGuid>97328c78-1cdc-4e4f-b6cf-04b30c61d8e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_listadoviaticos:j_idt91']</value>
+      <webElementGuid>2165ceba-8255-4c73-96f3-df514bc24d97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +100,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[3]/td[4]/select</value>
+      <webElementGuid>412aa01b-6a57-469c-a3d4-8b1ec9016bdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
+      <webElementGuid>7c82652e-5525-48d5-9306-3a118839017a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión'])[1]/following::select[2]</value>
+      <webElementGuid>0a3efeb5-e669-4a92-837c-8c14e0e82768</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo'])[1]/preceding::select[1]</value>
+      <webElementGuid>a542d24e-7eae-4137-849a-e0fab0d03448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Año'])[1]/preceding::select[1]</value>
+      <webElementGuid>22d85f90-c2a7-4681-933e-7aa883d5b1f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +140,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/select</value>
+      <webElementGuid>e3b98403-fb64-4f4b-94c4-376d2cb2809d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

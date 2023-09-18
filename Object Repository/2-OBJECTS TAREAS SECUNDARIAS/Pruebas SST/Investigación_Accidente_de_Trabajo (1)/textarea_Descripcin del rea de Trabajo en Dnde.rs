@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Descripcin del rea de Trabajo en Dnde Ocurri el Accidente_j_idt1827tabInvestigacionAccidentadoareaTrabajo</name>
+   <name>textarea_Descripcin del rea de Trabajo en Dnde</name>
    <tag></tag>
    <elementGuidId>ec00cbe8-90f5-46d4-bece-35a76e985c61</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//td[2]/table/tbody/tr/td[2]/textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
+      <webElementGuid>9cfe05f3-aa2b-4041-bf0d-774be1925caf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt1827:tabInvestigacionAccidentado:areaTrabajo</value>
+      <webElementGuid>f7afb767-7b99-4563-889c-9bcd0cc1b58d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>j_idt1827:tabInvestigacionAccidentado:areaTrabajo</value>
+      <webElementGuid>801d935a-3b26-4fc2-9850-a5d69ec8695a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all caja_texto ui-inputtextarea-resizable ui-state-focus</value>
+      <webElementGuid>eac72898-5003-4fa0-a77b-0a03a09ed68f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>20</value>
+      <webElementGuid>f218bf28-53f5-47ad-b69e-c34efa738a79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
+      <webElementGuid>c08fac1e-837b-4fe9-9670-60ea09d776ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2147483647</value>
+      <webElementGuid>67722899-5438-4cb7-a284-7e0ce44ffcd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return texto (event,this.value,4000);</value>
+      <webElementGuid>8f9f3a71-c854-4cba-a45e-e93237dc1e1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>11221a66-13f2-40ff-a7a1-003f6f7ac641</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>8b4b5079-110a-4921-86f9-ff13f8c1b916</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>6628f6a6-ae23-42cf-8e50-f79ec7bcf222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>aria-multiline</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>d56d5e4e-9fe9-40c6-93af-a1c84f969718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt1827:tabInvestigacionAccidentado:areaTrabajo&quot;)</value>
+      <webElementGuid>ea52ae62-1ae8-494a-a8ae-d80153379de6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='j_idt1827:tabInvestigacionAccidentado:areaTrabajo']</value>
+      <webElementGuid>94c2a33d-3e4e-4dd2-9c0d-5a9208c220a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='j_idt1827:tabInvestigacionAccidentado:panelPrincipal']/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/textarea</value>
+      <webElementGuid>ec69d65f-f7c7-477c-b71f-03a5e06182f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/textarea</value>
+      <webElementGuid>835c8206-a1fd-4c54-9876-cde75cac36a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

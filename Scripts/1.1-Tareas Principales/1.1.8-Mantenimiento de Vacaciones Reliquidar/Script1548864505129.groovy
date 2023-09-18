@@ -18,10 +18,10 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
+WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form'), 
     0)
 
-WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form'), 
     'Mantenimiento de Vacaciones')
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/span_mantenimiento de vacaciones reliquidar'), 
@@ -40,10 +40,10 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     1)) {
     WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.7-Generar Vacaciones'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
+    WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form'), 
         0)
 
-    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form_templatej_idt24_input'), 
+    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/input_Mantenimiento de Vacaciones_form'), 
         'Mantenimiento de Vacaciones (com)')
 
     WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Periodo en Proceso - Archivo Plano/Mantenimiento de Vacaciones Reliquidar/span_Mantenimiento de Vacaciones tarea'), 
