@@ -6,12 +6,12 @@
    <elementGuidId>55299133-7eda-4066-a101-8a286019cd41</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='cerrar_menu']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#cerrar_menu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>84870c7d-0f77-4490-b4d8-babd1b64ba14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cerrar_menu</value>
+      <webElementGuid>84aeda35-92a4-4159-bd6b-d5edb4395dbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>glyphicons glyphicons-chevron-right us-cl-primario us-boton-menu movimiento</value>
+      <webElementGuid>58ad5fd6-f5e6-49e4-a044-57742c26a63e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cerrar_menu&quot;)</value>
+      <webElementGuid>bcec5f2c-7fca-4a67-b669-5d996ed7fcdf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='cerrar_menu']</value>
+      <webElementGuid>15c3472e-ea01-4000-87a1-ff2c5b3f33d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='j_idt39']/div/a</value>
+      <webElementGuid>03bb5fd4-5ca6-4852-8ea4-1365f678a189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +70,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/a</value>
+      <webElementGuid>78bc22f1-fd30-4955-aed3-9505cd0711b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

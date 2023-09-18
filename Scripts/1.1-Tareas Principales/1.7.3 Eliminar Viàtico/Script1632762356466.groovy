@@ -63,9 +63,6 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
         '01/07/2021')
 
-    WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Fecha_form_detalleviaticosFechaNumero_input'), 
-        Keys.chord(Keys.ESCAPE))
-
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Eliminar Viàticos/input_Nmero_form_detalleviaticosNumero'), 
         '5')
 

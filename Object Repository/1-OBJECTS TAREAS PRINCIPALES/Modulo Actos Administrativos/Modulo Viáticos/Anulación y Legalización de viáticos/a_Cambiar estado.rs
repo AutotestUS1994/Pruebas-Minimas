@@ -6,11 +6,11 @@
    <elementGuidId>58d3ce63-2f42-4304-85a4-d4cd55ceb232</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[2]/table/tbody/tr[4]/td/a[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Cambiar estado')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>47f00a75-00da-4258-8815-ed72b8c9778b</webElementGuid>
+      <webElementGuid>f713ad01-90ab-40ac-a0a7-f929a3dbe6d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupcostoviaticos:j_idt249</value>
-      <webElementGuid>4195575b-19ca-4ee4-bc33-d28c3bcb256e</webElementGuid>
+      <webElementGuid>9a1f5724-9ffb-407a-b128-19cd17bad60e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>0e1659c7-432f-4754-9470-b55cad3e2c61</webElementGuid>
+      <webElementGuid>26ebf4ae-b612-4b29-92a2-8989f631366f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
-      <webElementGuid>0592f37d-2489-4027-a9ba-0b79c53dc75e</webElementGuid>
+      <webElementGuid>077aac29-cbb8-4cdc-b065-9e9b98913b16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupcostoviaticos:j_idt249&quot;,f:&quot;form_popupcostoviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>d2c65125-41f1-4afd-9d05-01674072c004</webElementGuid>
+      <webElementGuid>bf31179b-b959-4153-9034-75a1019234a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cambiar estado</value>
-      <webElementGuid>2aabafea-8718-4d65-964e-35ce5021f60d</webElementGuid>
+      <webElementGuid>713ee3d0-6378-4596-9bf5-006d98ae9079</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupcostoviaticos:j_idt249&quot;)</value>
-      <webElementGuid>4d8cc74f-c617-4ac5-af59-e4e18d3a55f6</webElementGuid>
+      <webElementGuid>9360b33e-bb07-47b9-afd6-d5cd54c013bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupcostoviaticos:j_idt249']</value>
-      <webElementGuid>900ffd1f-ef6f-41d1-940e-f57c010b39f5</webElementGuid>
+      <webElementGuid>4630f368-1e66-4d4f-acce-3f8660475f2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupcostoviaticos:j_idt144_content']/table/tbody/tr[4]/td/a</value>
-      <webElementGuid>89ab21df-d9e3-4836-ab4e-5dfb2b7657f5</webElementGuid>
+      <webElementGuid>0098865e-e82d-430d-8ada-119d794de8f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cambiar estado')]</value>
-      <webElementGuid>d6c46767-968d-4e2b-9334-7f3564913afb</webElementGuid>
+      <webElementGuid>60049e21-aea0-4f7a-91e5-d50304562f78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[1]</value>
-      <webElementGuid>3e944443-b018-486e-afff-ba20ba08acd3</webElementGuid>
+      <webElementGuid>904c8a9a-d913-48e9-beba-dda714c105eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Resolución'])[2]/following::a[1]</value>
-      <webElementGuid>8a7a8d49-6402-4e97-9c57-cdcfc8f76949</webElementGuid>
+      <webElementGuid>a7f56766-d6c8-487f-8795-d426d0eddd61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/preceding::a[2]</value>
-      <webElementGuid>79342df0-e75c-4624-998e-bce3de2ef019</webElementGuid>
+      <webElementGuid>1644e32e-d88b-4516-9f0e-3090b3d053ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
-      <webElementGuid>832200f1-493b-4cf6-acd7-f8d632c6d1e1</webElementGuid>
+      <webElementGuid>e4250c15-3e72-4097-8208-04f1154c283c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cambiar estado']/parent::*</value>
-      <webElementGuid>645c5f2b-3bc2-421e-8ac4-f5e2f7d8393b</webElementGuid>
+      <webElementGuid>a994eb1c-c3c6-43a8-b1c3-92a86b68e0d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[35]</value>
-      <webElementGuid>646f5338-8d6b-4842-ac79-1d420c15804e</webElementGuid>
+      <webElementGuid>e9c99ee6-a7f2-43ec-b1d8-c956340e7b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td/a</value>
-      <webElementGuid>b71d0265-de7c-4bd6-ad05-69fcc3107052</webElementGuid>
+      <webElementGuid>ed9c956b-c5fb-4955-8ee1-af36b0fc9732</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
