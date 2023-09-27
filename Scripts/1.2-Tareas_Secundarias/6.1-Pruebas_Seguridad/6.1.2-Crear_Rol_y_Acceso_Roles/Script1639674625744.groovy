@@ -25,11 +25,20 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Cre
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/li_Roles'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
-    'pruebas katalon')
+if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
+    1)) {
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
+        'pruebas katalon')
 
-WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
-    Keys.chord(Keys.ENTER))
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
+        Keys.chord(Keys.ENTER))
+} else {
+    WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61 - Copy'), 
+        'pruebas katalon')
+
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61 - Copy'), 
+        Keys.chord(Keys.ENTER))
+}
 
 while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/td_Pruebas katalon'), 
     1)) {
@@ -49,12 +58,21 @@ while (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Eliminar'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_link_aceptar'))
-	
-	WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'),
-		'pruebas katalon')
-	
-	WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'),
-		Keys.chord(Keys.ENTER))
+
+    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
+        1)) {
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
+            'pruebas katalon')
+
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61'), 
+            Keys.chord(Keys.ENTER))
+    } else {
+        WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61 - Copy'), 
+            'pruebas katalon')
+
+        WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/input_Portal_formj_idt61 - Copy'), 
+            Keys.chord(Keys.ENTER))
+    }
 }
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Rol_y_Acceso_Roles/a_Nuevo'))

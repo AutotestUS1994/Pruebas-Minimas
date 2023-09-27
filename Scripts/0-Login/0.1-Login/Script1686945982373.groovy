@@ -79,11 +79,11 @@ def logueo(def user) {
 
     WebUI.click(findTestObject('0-Login/0.1-Login/a_Ingresar'))
 
-    if(WebUI.waitForElementVisible(findTestObject('0-Login/0.1-Login/input_Empresa 1_form_templatej_idt24_input'), 0)) {
-		
-		String Result = "login ok"
-	}else {WebUI.acceptAlert()}
-	
+    if (WebUI.waitForElementVisible(findTestObject('0-Login/0.1-Login/input_Empresa 1_form_templatej_idt24_input'), 0)) {
+        String Result = 'login ok'
+    } else {
+        WebUI.acceptAlert()
+    }
 }
 
 def zoom() {
