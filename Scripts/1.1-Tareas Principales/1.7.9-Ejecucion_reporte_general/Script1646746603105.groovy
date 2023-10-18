@@ -36,8 +36,10 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.io.File as File
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.configuration.RunConfiguration
 
-String ResultCIR
+String profileName = RunConfiguration.getExecutionProfile();
+String ResultCIR;
 
 WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -68,7 +70,18 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_plantilla'))
 
-WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
+println(profileName);
+
+if(profileName == "default") {
+	WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
+}
+else if(profileName == "weblogic")
+{
+	WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargarWeblogic'))
+}
+else {
+	WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
+}
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Generar_cir'))
 

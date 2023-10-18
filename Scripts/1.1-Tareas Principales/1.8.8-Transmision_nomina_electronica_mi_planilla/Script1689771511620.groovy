@@ -106,8 +106,9 @@ if (identificador != 'wildfly') {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Generar0'))
 
     periodo = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/td_30042023_0'))
-
-    if (periodo == '30/12/2023') {
+    int mesperiodo = Integer.valueOf(periodo.substring(3, 5));
+	println(mesperiodo) 
+    if (mesperiodo == 12) {
         WebUI.acceptAlert()
     } else {
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/td_30042023_0'))
@@ -138,7 +139,7 @@ if (identificador != 'wildfly') {
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/td_30042023_1'))
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Aplicar0'))
-
+        //TODO : INICIO OPTIMIZAR CODIGO 
         banco1 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/banco/span_Banco De Bogota_1'))
 
         banco2 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/banco/span_Banco De Bogota_2'))
@@ -261,7 +262,7 @@ if (identificador != 'wildfly') {
 
                 break
         }
-        
+        //TODO: FIN OPTIMIZAR CODIGO
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Liquidar'))
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/label_Definitiva'))
@@ -289,139 +290,12 @@ if (identificador != 'wildfly') {
         WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_BOGOTACUNDINAMARCANo UsarSANTANDER'), 
             1)
 
-        println(periodo)
+        println(mesperiodo)
 
-        switch (periodo != '') {
-            case periodo == '30/01/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    1)
+        WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
+                    mesperiodo)
 
-                break
-            case periodo == '31/01/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    1)
-
-                break
-            case periodo == '30/02/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    2)
-
-                break
-            case periodo == '28/02/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    2)
-
-                break
-            case periodo == '31/02/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    2)
-
-                break
-            case periodo == '30/03/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    3)
-
-                break
-            case periodo == '31/03/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    3)
-
-                break
-            case periodo == '30/04/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    4)
-
-                break
-            case periodo == '31/04/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    4)
-
-                break
-            case periodo == '30/05/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    5)
-
-                break
-            case periodo == '31/05/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    5)
-
-                break
-            case periodo == '30/06/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    6)
-
-                break
-            case periodo == '31/06/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    6)
-
-                break
-            case periodo == '30/07/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    7)
-
-                break
-            case periodo == '31/07/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    7)
-
-                break
-            case periodo == '30/08/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    8)
-
-                break
-            case periodo == '31/08/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    8)
-
-                break
-            case periodo == '30/09/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    9)
-
-                break
-            case periodo == '31/09/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    9)
-
-                break
-            case periodo == '30/10/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    10)
-
-                break
-            case periodo == '31/10/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    10)
-
-                break
-            case periodo == '30/11/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    11)
-
-                break
-            case periodo == '31/11/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    11)
-
-                break
-            case periodo == '30/12/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    12)
-
-                break
-            case periodo == '31/12/2023':
-                WebUI.selectOptionByIndex(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/select_-- seleccione --EneroFebreroMarzoAbrilMayoJunioJulio'), 
-                    12)
-
-                break
-            default:
-                WebUI.acceptAlert()
-
-                break
-        }
+     
         
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Guardar'))
 
@@ -433,7 +307,7 @@ if (identificador != 'wildfly') {
 
         println(estado0)
 
-        if (estado0 != 'Generado Sin Transmitir') {
+        if (estado0 != 'E' ) { //'Generado Sin Transmitir'
             WebUI.acceptAlert()
 
             WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Transmitir'))
@@ -446,15 +320,15 @@ if (identificador != 'wildfly') {
 
             estado1 = obtenerEstado()
 
-            while (((estado1 != 'Transmision satisfactoria') && (i <= 3)) && i++) {
+            while ((!estado1.equals("T") && i <= 6) && i++) { //Transmision satisfactoria
                 estado1 = obtenerEstado()
 
                 estado3 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/span_Valor_ campo_none'))
 
-                if ((estado1 == 'Transmision satisfactoria') && (estado3 == 'Transmision satisfactoria')) {
+                if (estado1.equals("T") && estado3.equals("Transmision satisfactoria")) {
                     break
                 } else {
-                    WebUI.delay(120)
+                    WebUI.delay(60)
 
                     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Resumen'))
 
@@ -468,7 +342,7 @@ if (identificador != 'wildfly') {
 
             println(estadoFinal)
 
-            if ((estadoFinal == 'Transmision satisfactoria') && (estado3 == 'Transmision satisfactoria')) {
+            if (estadoFinal.equals("T") && estado3.equals("Transmision satisfactoria")) {
                 String Resultado = 'Prueba ok'
 
                 WebUI.takeScreenshot()
@@ -480,89 +354,14 @@ if (identificador != 'wildfly') {
 }
 
 def obtenerEstado() {
-    String estado0 = ''
-
-    Boolean option1 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option1'), 
-        'selected')
-
-    Boolean option2 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option2'), 
-        'selected')
-
-    Boolean option3 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option3'), 
-        'selected')
-
-    Boolean option4 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option4'), 
-        'selected')
-
-    Boolean option5 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option5'), 
-        'selected')
-
-    Boolean option6 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option6'), 
-        'selected')
-
-    Boolean option7 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option7'), 
-        'selected')
-
-    Boolean option8 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option8'), 
-        'selected')
-
-    println(option1)
-
-    println(option2)
-
-    println(option3)
-
-    println(option4)
-
-    println(option5)
-
-    println(option6)
-
-    println(option7)
-
-    println(option8)
-
-    switch ((((((((option1 != true) || (option2 != true)) || (option3 != true)) || (option4 != true)) || (option5 != true)) || 
-    (option6 != true)) || (option7 != true)) || ((option8 != true) && println(((((((((option1 + option2) + option3) + option4) + 
-        option5) + option6) + option5) + option6) + option7) + option8))) {
-        case option1 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option1'))
-
-            break
-        case option2 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option2'))
-
-            break
-        case option3 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option3'))
-
-            break
-        case option4 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option4'))
-
-            break
-        case option5 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option5'))
-
-            break
-        case option6 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option6'))
-
-            break
-        case option7 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option7'))
-
-            break
-        case option8 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option8'))
-
-            break
-        default:
-            WebUI.acceptAlert()
-
-            break
-    }
     
-    return estado0
+
+	//El bloque de codigo que estaba sobra. el objetivo es obtener la opcion seleccionada de la lista
+	//<select > con id que contenga la palabra "estado".  Obtener el texto y evaluar que sea "Transmision satisfactoria"
+   
+	TestObject selectEstado = findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/Select_Estado_NE")
+	 String estadoEncabezado=  WebUI.getAttribute(selectEstado,'value')
+	 println(estadoEncabezado)	 
+    return estadoEncabezado
 }
 

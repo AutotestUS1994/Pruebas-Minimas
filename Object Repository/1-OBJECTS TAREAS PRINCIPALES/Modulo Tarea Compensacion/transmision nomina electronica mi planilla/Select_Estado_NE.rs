@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Valor_ campo_none</name>
+   <name>Select_Estado_NE</name>
    <tag></tag>
-   <elementGuidId>523da88a-d2d0-4313-8d0f-2e5257e65806</elementGuidId>
+   <elementGuidId>86f0a101-5856-4a60-a69a-725d2ef4997d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td/form/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[1]/td/div/div/table/tbody/tr/td[1]/span</value>
+         <value>//select[contains(@id, 'estado') and @disabled = 'disabled']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Nuevo1</name>
+   <name>a_6</name>
    <tag></tag>
-   <elementGuidId>2b1926da-0a28-432c-9320-49324f5359a2</elementGuidId>
+   <elementGuidId>708218da-e482-4aec-bc8b-d038bb392b33</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Nuevo')]</value>
+         <value>//span/a[3]
+</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.us-boton.btn-nuevo</value>
+         <value>a.ui-paginator-page.ui-state-default.ui-corner-all.ui-state-hover.ui-state-focus</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +23,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>81f6154b-03f2-4cf6-bb4b-5b9744d762c6</webElementGuid>
+      <webElementGuid>f0fcbc9a-bdcb-4073-8e94-7eb2baaa6f36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-paginator-page ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
+      <webElementGuid>afdb8a19-4553-472b-832d-281ebfcf67f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Page 2</value>
+      <webElementGuid>5a8a5f28-1005-4928-83a7-4351019e8bc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e6eda864-7c47-4893-8734-ad80f2eb07c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,126 +55,102 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>54cbbd6e-4ce3-458b-aeab-4d186996daf8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('reporteForm'),{'reporteForm:j_idt708':'reporteForm:j_idt708'},'');return false</value>
-      <webElementGuid>5e6dc45a-3db7-4a99-8bb7-b11cf4faece3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>us-boton btn-nuevo</value>
-      <webElementGuid>2665873a-9bd3-46da-b892-fd7eb127908b</webElementGuid>
+      <webElementGuid>981149ed-22f8-49ba-a759-3fe58fbed1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nuevo</value>
-      <webElementGuid>47dcd1bb-70ee-4776-91d2-8d9ffbb60478</webElementGuid>
+      <value>2</value>
+      <webElementGuid>92cfaa36-c23c-4303-858f-8145d11d214b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;reporteForm&quot;)/div[@class=&quot;caja_contenido&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;arribaCont&quot;]/table[2]/tbody[1]/tr[2]/td[1]/a[@class=&quot;us-boton btn-nuevo&quot;]</value>
-      <webElementGuid>146ed60a-2fc1-472e-ba87-9310b69abc98</webElementGuid>
+      <value>id(&quot;listadoRequerimientoPersonalLista_form:listaRequerimiento_paginator_bottom&quot;)/span[@class=&quot;ui-paginator-pages&quot;]/a[@class=&quot;ui-paginator-page ui-state-default ui-corner-all ui-state-hover ui-state-focus&quot;]</value>
+      <webElementGuid>5da010c3-d9be-4749-8142-a09518f25b2d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('reporteForm'),{'reporteForm:j_idt708':'reporteForm:j_idt708'},'');return false&quot;]</value>
-      <webElementGuid>9380c87f-ccaa-43d2-b073-bdf5dc16df1c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='reporteForm']/div/table/tbody/tr/td[2]/table[2]/tbody/tr[2]/td/a</value>
-      <webElementGuid>059abafa-04b2-462d-9152-1646131b8815</webElementGuid>
+      <value>//div[@id='listadoRequerimientoPersonalLista_form:listaRequerimiento_paginator_bottom']/span/a[2]</value>
+      <webElementGuid>a6344f54-d015-4693-abc2-df73edc8fc7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Nuevo')]</value>
-      <webElementGuid>890b3a66-5770-4b47-af7e-7dbd93bfadb2</webElementGuid>
+      <value>//a[contains(text(),'2')]</value>
+      <webElementGuid>7c618463-c89c-4cff-8c54-627b2aeb938d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::a[1]</value>
-      <webElementGuid>ee61d7f1-be87-4add-bbd7-af768b75d386</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P'])[1]/following::a[2]</value>
+      <webElementGuid>9773003d-da91-4e57-98c7-74b13876ca23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orden'])[1]/following::a[1]</value>
-      <webElementGuid>23688ae3-8f66-44da-b15f-878f14a9bd1d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/following::a[3]</value>
+      <webElementGuid>78ea5382-ac91-4100-b1c9-a1df71463f4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
-      <webElementGuid>6aa116bc-667d-4396-ae6d-a6b61a714de3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N'])[1]/preceding::a[1]</value>
+      <webElementGuid>ed5080bf-b632-48bc-811b-83804cdae1eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
-      <webElementGuid>d40eedcd-2382-4fd7-9d21-07f7525105f6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/preceding::a[2]</value>
+      <webElementGuid>66890228-9e1e-4925-a9e9-475f3dd4e97b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
-      <webElementGuid>86fd8424-444b-43d4-8132-2a2ad5795eac</webElementGuid>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>20082417-a576-41d0-98a2-15d74ac61027</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[32]</value>
-      <webElementGuid>f04baeaf-6745-4b15-b122-60b7a104403c</webElementGuid>
+      <value>(//a[contains(@href, '#')])[43]</value>
+      <webElementGuid>18921e98-8a4a-4a02-b0d0-9ba8f410dc5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td/a</value>
-      <webElementGuid>826bdb91-10b7-4bce-a9b7-2f4b19bce0c3</webElementGuid>
+      <value>//span/a[2]</value>
+      <webElementGuid>f6416da3-4d28-45f6-bd73-052985163355</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Nuevo' or . = 'Nuevo')]</value>
-      <webElementGuid>14d3148a-5329-464f-95a8-84df653e5375</webElementGuid>
+      <value>//a[@href = '#' and (text() = '2' or . = '2')]</value>
+      <webElementGuid>8b79b7c6-1520-4b81-acc2-22ed8fa3b5bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,12 @@
    <elementGuidId>fc38068e-f36e-4405-a668-6ba3182704bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//span[(text() = 'PRUEBA' or . = 'PRUEBA')]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='PRUEBA']/parent::*</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>ba814110-bf78-4d93-92b4-7a8a0bf20713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PRUEBA</value>
+      <webElementGuid>5310ec24-61f4-433e-ac27-7d0b6bfa48ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listadoRequerimientoPersonalLista_form:listaRequerimiento_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]/span[1]</value>
+      <webElementGuid>acaa01b8-4258-41f4-ad9e-b323bb42bd14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='listadoRequerimientoPersonalLista_form:listaRequerimiento_data']/tr[19]/td[3]/span</value>
+      <webElementGuid>17e742fa-edcf-465a-94b3-815097aca504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administracion'])[6]/following::span[1]</value>
+      <webElementGuid>5eb35d76-2b90-4c10-8054-abbfe21f9331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calidad'])[19]/following::span[1]</value>
+      <webElementGuid>442f145e-5cf1-4e46-b5fc-1831bc1578a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Licencia De Maternidad'])[2]/preceding::span[2]</value>
+      <webElementGuid>d63481f5-4d02-47d1-9836-7a09a85d3f96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud'])[15]/preceding::span[4]</value>
+      <webElementGuid>60b6f3b7-b817-4310-b7b5-2ea8e598c974</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PRUEBA']/parent::*</value>
+      <webElementGuid>a12dd217-2578-448d-bb07-2ff8a590f7bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[19]/td[3]/span</value>
+      <webElementGuid>60ca2d92-3722-4bdf-829a-45c829da0bac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'PRUEBA' or . = 'PRUEBA')]</value>
+      <webElementGuid>5bfe0542-a35f-45e9-b4e0-8c4eba54da69</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
