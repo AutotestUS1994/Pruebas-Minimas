@@ -512,14 +512,15 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_GenerarButton'))
 
+
 String estado0 = ''
 
 estado0 = obtenerEstado()
 
 println(estado0)
 
-if (estado0 != 'Generado Sin Transmitir') {
-    WebUI.acceptAlert()
+if (estado0 != 'E' ) {
+	WebUI.acceptAlert()
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Transmitir'))
 } else {
@@ -533,18 +534,18 @@ if (estado0 != 'Generado Sin Transmitir') {
 
     Number i = 0
 
-    while ((estado1 != 'Transmision satisfactoria') && (i <= 3)) {
+    while ((!estado1.equals("T") && i <= 6)) { //Transmision satisfactoria
 		
 		estado1 = obtenerEstado()		
 		
 		estado3 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/span_Valor_ campo_none'))
 		println(estado1)
 		
-		if(estado1 =='Transmision satisfactoria'&& estado3=='Transmision satisfactoria') {
+		if(estado1.equals("T") && estado3.equals("Transmision satisfactoria")) {
 			break
 		}else {
 		
-        WebUI.delay(120)
+        WebUI.delay(60)
 
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/a_Resumen'))
 
@@ -559,23 +560,23 @@ if (estado0 != 'Generado Sin Transmitir') {
 
     println(estadoFinal)
 
-    if (estadoFinal == 'Transmision satisfactoria') {
+    if (estadoFinal.equals("T") && estado3.equals("Transmision satisfactoria")) {
         String Resultado = 'Prueba ok'
 
         WebUI.takeScreenshot()
-    } else if (estadoFinal == 'Proceso validacion del operador') {
+    } else if (estadoFinal.equals("P") || estadoFinal == 'Proceso validacion del operador') {
         Number j = 0
 
         println(estadoFinal)
 
-        while (((estadoFinal != 'Transmision satisfactoria') && (j <= 3)) && j++) {
+        while ((!estadoFinal.equals("T") || (estadoFinal != 'Transmision satisfactoria') && (j <= 3)) && j++) {
             
 			estadoFinal = obtenerEstado()
 			
 			estado3 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/span_Valor_ campo_none'))
 			
 			println(estadoFinal)
-			if(estadoFinal == 'Transmision satisfactoria'&& estado3 == 'Transmision satisfactoria') {
+			if(estadoFinal == 'T' && estado3 == 'Transmision satisfactoria') {
 				break
 			}
 			else {
@@ -589,7 +590,7 @@ if (estado0 != 'Generado Sin Transmitir') {
 			}
         }
         
-        if (estadoFinal == 'Transmision satisfactoria' && estado3=='Transmision satisfactoria') {
+        if (estadoFinal == 'T' && estado3=='Transmision satisfactoria') {
             Resultado = 'Prueba ok'
 
             WebUI.takeScreenshot()
@@ -602,92 +603,13 @@ if (estado0 != 'Generado Sin Transmitir') {
 }
 }
 def obtenerEstado() {
-    String estado0 = ''
-
-    Boolean option1 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option1'), 
-        'selected')
-
-    Boolean option2 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option2'), 
-        'selected')
-
-    Boolean option3 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option3'), 
-        'selected')
-
-    Boolean option4 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option4'), 
-        'selected')
-
-    Boolean option5 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option5'), 
-        'selected')
-
-    Boolean option6 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option6'), 
-        'selected')
-
-    Boolean option7 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option7'), 
-        'selected')
-
-    Boolean option8 = WebUI.getAttribute(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option8'), 
-        'selected')
-
-    println(option1)
-
-    println(option2)
-
-    println(option3)
-
-    println(option4)
-
-    println(option5)
-
-    println(option6)
-
-    println(option7)
-
-    println(option8)
-
-    switch ((((((((option1 != true) || (option2 != true)) || (option3 != true)) || (option4 != true)) || (option5 != true)) || 
-    (option6 != true)) || (option7 != true)) || ((option8 != true) && println(((((((((option1 + option2) + option3) + option4) + 
-        option5) + option6) + option5) + option6) + option7) + option8))) {
-        case option1 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option1'))
-
-            break
-        case option2 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option2'))
-
-            break
-        case option3 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option3'))
-
-            break
-        case option4 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option4'))
-
-            break
-        case option5 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option5'))
-
-            break
-        case option6 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option6'))
-
-            break
-        case option7 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option7'))
-
-            break
-        case option8 == true:
-            estado0 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/option8'))
-
-            break
-        default:
-            WebUI.acceptAlert()
-
-            break
-    }
-    
-    println(estado0)
-
-    return estado0
+   //El bloque de codigo que estaba sobra. el objetivo es obtener la opcion seleccionada de la lista
+	//<select > con id que contenga la palabra "estado".  Obtener el texto y evaluar que sea "Transmision satisfactoria"
+   
+	TestObject selectEstado = findTestObject("1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/transmision nomina electronica mi planilla/Select_Estado_NE")
+	 String estadoEncabezado=  WebUI.getAttribute(selectEstado,'value')
+	 println(estadoEncabezado)	 
+    return estadoEncabezado
 }
 
 def clic(def periodo, def periodoNE, def periodo1, def periodo2, def periodo3, def periodo4, def periodo5, def periodo6, def periodo7, def periodo8, def periodo9, def periodo10) {
