@@ -76,6 +76,8 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_TEST FB_form_costoEventolistaCostoEvento0j_idt663'))
 
+        println('estoy aqui2')
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar -1'))
     }
     
@@ -89,10 +91,14 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             1)) {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582'))
 
+            println('estoy aqui1')
+
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar'))
         }
         
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
+
+        println('estoy aqui 3')
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
     }
@@ -130,6 +136,8 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Grupo_pestaa'))
 
             /*-------------------------------------------------------------------------------------*/
+            println('estoy aqui 4')
+
             WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar0'), 
                 30)
 
@@ -154,6 +162,8 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Publicacin'))
+
+    println('estoy aqui 5')
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_http'), 
         1)) {
@@ -203,12 +213,26 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar 0'))
 
+        println('estoy aqui 6')
+
         WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'), 
             1)
     }
     
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
+    println('estoy aqui 7')
 
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
+	
+	
+	if(WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Advertencia'),1)) {
+		
+    String Advertencia = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Advertencia'))
+
+    if (Advertencia == 'Existe un grupo asociados a este elemento.') {
+        WebUI.callTestCase(findTestCase('1.2-Tareas_Secundarias/3.1-Pruebas_Bienestar/prueba'), [:], FailureHandling.STOP_ON_FAILURE)
+    }
+	}
+    
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar2'))
 }
 
@@ -251,6 +275,8 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
                 FailureHandling.STOP_ON_FAILURE)
         }
         
+        println('estoy aqui 8')
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_AAA'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_AAA'))
@@ -320,9 +346,13 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1586'), 
                 FailureHandling.STOP_ON_FAILURE)
 
+            println('estoy aqui 9')
+
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE0'))
         }
         
+        println('estoy aqui 10')
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_momentoE'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE'))
@@ -376,6 +406,8 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt885'))
 
+        println('estoy aqui 11')
+
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar evento'))
     }
     
@@ -399,6 +431,8 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Registro0'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
+
+    println('ojala si')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar2'))
 }

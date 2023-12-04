@@ -38,7 +38,7 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Eliminar Permisos'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Aceptar'))
+    WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Si'))
 }
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Permisos Por Login Usuario'))
@@ -75,7 +75,7 @@ WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Eliminar Permisos'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Aceptar'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Si'))
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Permisos Por Rol'), 
     0)
@@ -125,11 +125,11 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Gener
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Periodo'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Asociar todo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Asociar todorol'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Si'))
 
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_DesasociarTodo'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_DesasociarTodorol'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Permisos Rol Acceso/a_Si'))
 

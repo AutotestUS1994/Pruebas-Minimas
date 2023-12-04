@@ -33,7 +33,9 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
     WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar'))
+
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'))
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), 
         1)) {
@@ -70,20 +72,20 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Nuevo'))
 }
 
+WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual'), 
+    1)
+
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Inicial_form_popupFechaLiquidacionBeanfechaInicial_input'), 
     '18/01/2019')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/input_Fecha Final_form_popupFechaLiquidacionBeanfechaFinal_input'), 
     '27/02/2019')
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/select_--Seleccione--Proceso de liquidacin DesarrolloProceso de liquidacin Mensual'), 
-    1)
-
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aplicar'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Liquidar'))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/div_Liquidacin realizada con xito'))
 

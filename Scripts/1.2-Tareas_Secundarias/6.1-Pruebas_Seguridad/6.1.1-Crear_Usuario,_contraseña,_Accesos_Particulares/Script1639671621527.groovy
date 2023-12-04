@@ -19,10 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateForma
 
 /*GENERADOR DE FECHA Y HORA*/
-Date today = new Date()
-
-String todaysDate = today.format('dd/MM/yyyy HH:mm')
-
 /*--------------------------------------------------------*/
 /*GENERADOR DE NUMERO ALEATORIO*/
 double random_double = (Math.random() * 9999) + 999
@@ -62,7 +58,10 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Nuevo'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Sesin_usuarioformatablogin'), 
-    todaysDate)
+    'PruebasKatalon1')
+
+WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Sesin_usuarioformatablogin'), 
+    Keys.chord(Keys.TAB))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Documento_usuarioformatabdocumento'), 
     identificacion)
@@ -112,6 +111,5 @@ String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta
 if (Result == 'Se adicionó el registro satisfactoriamente') {
     String Resultado = 'PRUEBA OK'
 } else {
-    WebUI.acceptAlert()
 }
 

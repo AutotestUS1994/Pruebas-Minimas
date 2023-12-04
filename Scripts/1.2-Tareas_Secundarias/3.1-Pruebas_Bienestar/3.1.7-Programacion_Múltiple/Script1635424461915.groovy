@@ -38,18 +38,18 @@ Number AñoN = ((today.format('yyyy')) as Integer)
 /*-----------------------------------------------*/
 Number sumaD = Dia + 10
 
-Number sumaM = Mes + 1
+Number sumaM = Mes + 0
 
 Number sumaA = Año + 1
 
-if ((Dia > 30) || (Dia > 31)) {
+if ((Dia < 30) || (Dia > 31)) {
     Dia = (Dia - 30)
 
     MesN = (MesN + 1)
 }
 
 /*--------------------------*/
-if (Mes < 10) {
+if (Mes >= 10) {
     String suma1 = { 
         '0' + Mes
     }
@@ -65,7 +65,7 @@ if (sumaM < 10) {
 }
 
 /*--------------------------*/
-if (sumaD > 30) {
+/*if (sumaD > 30) {
     sumaD = (sumaD - Dia)
 
     Mes = sumaM
@@ -78,7 +78,14 @@ if (sumaD > 30) {
 if (sumaD > 30) {
     sumaD = 9
 }
+*/
+if(sumaD > 30) {
+	sumaD = (sumaD - Dia)
+}
 
+if(MesN <= Mes) {
+	Mes= MesN + 1
+}
 /*--------------------------*/
 if (sumaM > 12) {
     Año = sumaA
@@ -100,6 +107,10 @@ if (Dia0 > 30) {
     Dia0
 
     MesN
+}
+
+if(Dia0 <= sumaD) {
+	Dia0 = sumaD
 }
 
 /*----------------------------*/
@@ -151,6 +162,7 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Pro
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Termina_popupMomentoEvento_formpMEInscripcionFinaliza_input'), 
     FechaF)
+
 
 WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     0)

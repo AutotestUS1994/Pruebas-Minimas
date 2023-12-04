@@ -775,13 +775,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e917d567-3ee4-4ab4-892d-ab97636d8aae</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.2-Sitios_de_Trabajo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>28a0d89c-339e-4f73-80cc-a0cbd10403d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -810,13 +803,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5bb1318c-0f3e-4533-b4a4-533b9116c5fe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.1.7-Dispositivo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2b052cc3-3c3a-426f-af62-ce3381e084f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -842,13 +828,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.4-Histórico_Evento</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>70f307df-9e24-43aa-9d4b-13cabe458aba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/1.2-Tareas_Secundarias/A.3-Pruebas_control_tiempos/13.2.5-Inconsistencias_Evento</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

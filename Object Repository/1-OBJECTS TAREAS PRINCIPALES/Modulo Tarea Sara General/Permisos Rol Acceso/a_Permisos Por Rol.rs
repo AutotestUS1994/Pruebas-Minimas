@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>40a64954-67e3-437c-ab32-6ae03999c7ff</webElementGuid>
+      <webElementGuid>86ba5208-465f-4e61-ba64-9527a4a7965e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>rolAcceso:j_idt63:j_idt65:j_idt76</value>
-      <webElementGuid>a359adcf-1488-415a-aec1-dc94014e8d78</webElementGuid>
+      <webElementGuid>765bfaae-5c4c-48d6-b305-cad55eb5f825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>a8851e5e-79a8-44e5-b536-c814fc2eb4dd</webElementGuid>
+      <webElementGuid>33b11ef4-926c-4464-9db2-7dfe81e89695</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
-      <webElementGuid>5e60df96-6b45-48b3-97b1-e6074fec4a4e</webElementGuid>
+      <webElementGuid>9022eca4-42ed-4988-8648-f75004b86286</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;rolAcceso:j_idt63:j_idt65:j_idt76&quot;,f:&quot;rolAcceso&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
-      <webElementGuid>e766c69f-7d81-49e4-aff1-b1650c684af5</webElementGuid>
+      <webElementGuid>419f0f5c-79de-4fc8-92ea-3e7134b58d97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Permisos Por Rol </value>
-      <webElementGuid>cea754bb-96ac-4028-9358-6cd50274359b</webElementGuid>
+      <webElementGuid>97d3d474-7d44-43ab-8ee3-85777511e3fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rolAcceso:j_idt63:j_idt65:j_idt76&quot;)</value>
-      <webElementGuid>5f6b86be-bed0-44f9-935c-c9f447a1015c</webElementGuid>
+      <webElementGuid>77ce5be6-f032-448a-9297-d41645463edc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='rolAcceso:j_idt63:j_idt65:j_idt76']</value>
-      <webElementGuid>eef4758e-9a9f-4df3-9428-30a2d56bf041</webElementGuid>
+      <webElementGuid>00372c6f-6725-4c2e-8d2c-b465f570f6a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rolAcceso:j_idt63:j_idt65:j_idt66']/table[2]/tbody/tr/td/a</value>
-      <webElementGuid>81c495d7-ae34-4bc9-b882-1633ad526348</webElementGuid>
+      <webElementGuid>8669cbec-f01f-4176-b90a-e8a1c29ae2b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Permisos Por Rol')]</value>
-      <webElementGuid>319748dc-e8d5-4be0-8adb-52123ebcc717</webElementGuid>
+      <webElementGuid>c80b7511-f7d8-472a-adb7-6458544cca30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Permisos'])[1]/following::a[2]</value>
-      <webElementGuid>103ab98e-9f95-4672-ad2c-edff166a58a8</webElementGuid>
+      <webElementGuid>46f7c8d5-9a6d-401c-96d7-9bd1b4755216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::a[6]</value>
-      <webElementGuid>0d4ac3e2-afb3-4acc-aad0-5d3e45479856</webElementGuid>
+      <webElementGuid>a81c4d2a-6716-4614-8c35-4de88a9c2fdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Permisos Por Login Usuario'])[2]/preceding::a[1]</value>
-      <webElementGuid>ada3bdb9-d411-48cf-94ee-b2d66719a80b</webElementGuid>
+      <webElementGuid>eb75d8ce-6bb8-4b20-a924-fd5218657fc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Control Acceso'])[1]/preceding::a[2]</value>
-      <webElementGuid>f8196cea-ee23-418a-a866-4d1c04dc926a</webElementGuid>
+      <webElementGuid>5f3277b8-f7fb-4643-9ba7-fb38f79780ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Permisos Por Rol']/parent::*</value>
-      <webElementGuid>c25ae15c-2fad-4475-b198-1d8cd145ec0b</webElementGuid>
+      <webElementGuid>117502e8-95e7-4e6b-99fa-39803b615ba6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[41]</value>
-      <webElementGuid>f23ac9aa-705a-4e99-a0e7-0199692b2597</webElementGuid>
+      <webElementGuid>e6ada39d-f96a-4cd8-9660-1d2f3b7419b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
-      <webElementGuid>925da4b6-f4be-4258-b51c-81011089b378</webElementGuid>
+      <webElementGuid>fc4b617c-715b-4dbe-a483-417d7ebfd92b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'rolAcceso:j_idt63:j_idt65:j_idt76' and @href = '#' and (text() = 'Permisos Por Rol ' or . = 'Permisos Por Rol ')]</value>
-      <webElementGuid>5a96d6f9-81d8-442d-84a8-874d5d287941</webElementGuid>
+      <webElementGuid>dbc22c9e-af17-4ddb-a024-412170f1e8b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

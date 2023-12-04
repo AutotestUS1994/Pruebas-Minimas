@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form/div/div[2]/table/tbody/tr/td/div</value>
+         <value>//body/div[1]/div[3]/div/div/form[9]/div/div[2]/div[3]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>38d4a44d-2ca6-433c-8d79-edc82fb17cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-margin-popup</value>
+      <webElementGuid>478eb779-b5c4-4e02-a5da-76d6784226e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Liquidación realizada con éxito.</value>
+      <webElementGuid>ae0f0364-b292-437e-bfdb-c616a6c84c8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmInfo_popupEspera:contenedorEspera&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;us-margin-popup&quot;]</value>
+      <webElementGuid>186d61ab-7bfa-49c2-8fb5-b5647cc7e76d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr/td/div</value>
+      <webElementGuid>4793d872-0e41-4ec1-9c0c-a960221f00b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::div[6]</value>
+      <webElementGuid>35ae3fd6-6379-4cc3-a7ed-5783b4593fcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::div[7]</value>
+      <webElementGuid>acd145ed-2ccf-4ff0-9ca0-adf4ea55ee65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[10]</value>
+      <webElementGuid>01433157-ff8d-4f79-b07a-04e2c39a6f08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::div[10]</value>
+      <webElementGuid>13a1e8ac-71f8-415c-bd35-af970ccf2bb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Liquidación realizada con éxito.']/parent::*</value>
+      <webElementGuid>7c3f2db3-1808-42dc-9ed9-6d1ee29f2827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]/table/tbody/tr/td/div</value>
+      <webElementGuid>7527a825-b2a9-44f6-8a39-598244f06681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Liquidación realizada con éxito.' or . = 'Liquidación realizada con éxito.')]</value>
+      <webElementGuid>20bb80b9-990e-4cf1-a711-d6233bd55672</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

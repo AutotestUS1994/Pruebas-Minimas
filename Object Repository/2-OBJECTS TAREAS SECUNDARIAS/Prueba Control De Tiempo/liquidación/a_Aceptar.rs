@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Aceptar')]</value>
+         <value>//body/div[1]/div[3]/div/div/form[9]/div/div[2]/div[3]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>cf95d0d4-34ca-49a0-81fd-a7f82b2921bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>480acd1a-f0ae-4da1-bd97-c239b8223ae8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt857':'popupConfirmacionDialog:j_idt857'},'');return false</value>
+      <webElementGuid>eedad3a3-7ce4-4d76-bb57-d70896929c41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-btn-si us-btn-popup</value>
+      <webElementGuid>ac65c50a-ccd7-472a-9cbc-820433566fe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aceptar</value>
+      <webElementGuid>c6526183-f6b1-4b81-9d70-a41b5e881907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupConfirmacionDialog:j_idt850_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/a[@class=&quot;us-btn-si us-btn-popup&quot;]</value>
+      <webElementGuid>e8d58d5c-70f4-4bef-8a57-07dc194e9e35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt857':'popupConfirmacionDialog:j_idt857'},'');return false&quot;]</value>
+      <webElementGuid>2ec1ef92-7652-425a-9c1b-a54fe64756c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupConfirmacionDialog:j_idt850_content']/div[3]/a</value>
+      <webElementGuid>1fa26ba6-ed84-4a83-8e89-dc8d77a9f99e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Aceptar')]</value>
+      <webElementGuid>e5422660-4f92-44b6-9313-f49558a825cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirma reversión del proceso?'])[1]/following::a[1]</value>
+      <webElementGuid>8616a266-9509-4a69-a057-25949ff7700b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
+      <webElementGuid>a5162723-063e-48e5-9d92-a8e8d7551a87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>bcb1abc8-3663-4fdd-803e-05b85c5c8fa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
+      <webElementGuid>87fe2709-46d1-40d2-ab95-97e4ab330a7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>077da0f1-1cf8-4d4d-a0ad-71d34e388616</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[33]</value>
+      <webElementGuid>e9951b3c-fa9b-4403-a2bb-11358582cb5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
+      <webElementGuid>3069fbe1-5b7d-4b64-9344-f5d72bb1ee5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +150,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>f190527e-0fb6-42c7-935d-c83c7a8f144a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirma proceso de liquidación?'])[1]/following::a[1]</value>
+      <webElementGuid>3bd23ecf-16ec-487f-9e9a-ea6237e79ac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,6 +166,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prev'])[1]/preceding::a[2]</value>
+      <webElementGuid>02858823-2fbb-463f-aa96-e43af3f7f92b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +174,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[3]</value>
+      <webElementGuid>a4d6dcad-3e8d-4c2c-9092-fd4c4dfd1dbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,5 +182,6 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[30]</value>
+      <webElementGuid>58d56f6d-b530-4d8f-8f1b-2cf57c3220c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

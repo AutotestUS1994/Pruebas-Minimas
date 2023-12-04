@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[13]/div/div[2]/div[2]/table/tbody/tr/td[2]/table/tbody/tr[1]/td/a</value>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[6]/div/div[2]/div[2]/table/tbody/tr/td[2]/table/tbody/tr[1]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -77,7 +77,7 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Individual'))
 
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_A A A'))
+        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_ A A A'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Cambiar Datos'))
 
@@ -141,7 +141,7 @@ if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Aler
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Individual'))
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_A A A'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/td_ A A A'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Inscripción_a_un_evento/a_Cambiar Datos'))
 

@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>c125c483-fd28-4c8c-a3cd-c3f2feec9df1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupMomentoEvento_form:pMEInscripcionFinaliza_input</value>
+      <webElementGuid>873744e9-8863-48ef-91b7-aaf60ccf2d48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupMomentoEvento_form:pMEInscripcionFinaliza_input</value>
+      <webElementGuid>426d67e2-e0ef-491c-8321-0ad8b3947eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>a4301a96-a1d8-4568-b41e-2c9a58c1281e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>10/11/2021</value>
+      <webElementGuid>47335084-2c19-4ed0-a233-24983690e9b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>acf6b70e-3ec4-402c-b043-f0fc0efd22d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>200d7e7e-6501-483d-8ea1-b0f00b5d46d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>ce1e5870-3595-4aba-a828-35583eaf7e35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>1e4c398e-6b54-472f-bb41-c2faf3dced73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupMomentoEvento_form:pMEInscripcionFinaliza_input&quot;)</value>
+      <webElementGuid>42868b31-2653-44e9-ac1a-b61a2ebe0bf5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupMomentoEvento_form:pMEInscripcionFinaliza_input']</value>
+      <webElementGuid>37791116-8420-4689-acd5-1e87bdb395bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='popupMomentoEvento_form:pMEInscripcionFinaliza']/input</value>
+      <webElementGuid>8915bd4a-8c44-49f2-8278-49b3988e25b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/span/input</value>
+      <webElementGuid>be7558f9-92b2-43ad-a9f2-d60f4426f3cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

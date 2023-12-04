@@ -10,8 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/span/input
-</value>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/form/div/table[3]/tbody/tr[3]/td[2]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>e47f129d-fc1d-4bb7-ada8-255c7964b383</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:diaDI_input</value>
+      <webElementGuid>f7751df8-ad15-43c0-bbe0-456c726ba620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:diaDI_input</value>
+      <webElementGuid>ee9e8837-ab0c-4a85-974d-c7eb93ff9736</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>b407f0c6-fdee-4822-b768-70c19cb7b82b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus ui-state-hover</value>
+      <webElementGuid>71e548f1-6938-4aef-9be7-145e3a9f3631</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>8891d66b-8ad9-4257-8255-a909c61b363f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3f077a9c-4f68-4824-9596-edd9d9706eef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>35ccfec6-bdf1-44fb-9324-3fe5f2fa0928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:diaDI_input&quot;)</value>
+      <webElementGuid>aeaf91e4-263e-4919-b3a8-cce19e8350b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornada_form:diaDI_input']</value>
+      <webElementGuid>42a87120-2db2-4882-be59-04e19c2c9057</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='jornada_form:diaDI']/input</value>
+      <webElementGuid>1c4332b9-3822-4899-a5c5-d804b952c688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/input</value>
+      <webElementGuid>4246a1b8-5780-4622-bcf6-aa24d09123b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornada_form:diaDI_input' and @name = 'jornada_form:diaDI_input' and @type = 'text']</value>
+      <webElementGuid>6ffdfbb9-3dd0-4fcb-88be-64e9f8fc1b0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f39ce4bf-8962-4989-a4ac-86c1e6f83d36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Idform_persona_menu:j_idt109:j_idt111:j_idt1709</value>
+      <webElementGuid>56ae3cf3-6b71-447f-988b-285c14f2af54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>f5272b13-225b-4c23-bf6c-16108537bb94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>1d1ff3c5-fa00-424b-a0db-9b4983da5943</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;Idform_persona_menu:j_idt109:j_idt111:j_idt1709&quot;,f:&quot;Idform_persona_menu&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>820bd214-90d9-4758-a574-952ed1b6eb6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sitios de Trabajo </value>
+      <webElementGuid>03779041-1387-4936-af91-3da1c258bfe8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Idform_persona_menu:j_idt109:j_idt111:j_idt1709&quot;)</value>
+      <webElementGuid>f359a4aa-f87e-457b-be9d-0bef7574e58d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='Idform_persona_menu:j_idt109:j_idt111:j_idt1709']</value>
+      <webElementGuid>2a8ce54c-2011-4ce3-8b2a-abcc7402bb63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Idform_persona_menu:j_idt109:j_idt111:j_idt1699']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>f1a1f229-52f8-46c5-8c30-826d4cbc7720</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sitios de Trabajo')]</value>
+      <webElementGuid>243bd981-0923-4bfc-93c4-8e86604aba7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tiempos'])[1]/following::a[2]</value>
+      <webElementGuid>069540a8-71b0-474c-b460-df3508e85f8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[8]</value>
+      <webElementGuid>0a8dd71c-b939-448c-b78a-53452a064f02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Servicios'])[1]/preceding::a[7]</value>
+      <webElementGuid>d5cb67e0-5ce2-422b-bf47-8507f2bd92d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Históricos'])[1]/preceding::a[9]</value>
+      <webElementGuid>809de3a0-5de7-428e-9717-27f4b8798c83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sitios de Trabajo']/parent::*</value>
+      <webElementGuid>8e061f62-a570-4869-9764-924c26e8a8eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>7f69d608-9ab1-4abc-931f-507e12138157</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[2]/tbody/tr/td/a</value>
+      <webElementGuid>f6a49320-5dcc-4e4e-ac05-24263f86dc0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'Idform_persona_menu:j_idt109:j_idt111:j_idt1709' and @href = '#' and (text() = 'Sitios de Trabajo ' or . = 'Sitios de Trabajo ')]</value>
+      <webElementGuid>fbdf4cfe-0fbd-4c82-80bf-578666774a7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

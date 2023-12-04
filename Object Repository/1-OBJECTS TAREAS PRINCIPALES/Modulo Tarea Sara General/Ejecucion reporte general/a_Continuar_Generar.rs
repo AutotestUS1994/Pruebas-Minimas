@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Aceptar</name>
+   <name>a_Continuar_Generar</name>
    <tag></tag>
-   <elementGuidId>e73625ea-bdb1-4982-828a-ab91cad04850</elementGuidId>
+   <elementGuidId>e871e4f5-5063-4e0a-8d94-87a19b1629fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.us-btn-si.us-btn-popup</value>
+         <value>a.us-boton.btn-descargar</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/div/form[9]/div/div[2]/div[3]/a[1]
-</value>
+         <value>//*/text()[normalize-space(.)='Continuar']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,87 +22,79 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5a58d979-5f30-4186-936c-3493849eaf3f</webElementGuid>
+      <webElementGuid>1d2e9995-f0c7-44c3-b880-2db6413b9a4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>5fb1dd78-fe9e-445b-b5ae-0343754cac53</webElementGuid>
+      <value>/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc61c36c30c64c34c66c35c66c61c61c64c36c34c33c62c63c62c61c62c35c61c35c37c33c36c65c33c36c37c33c34c61&amp;E=CIR_-_CERTIFICADO_DE_INGRESOS_Y_RETENCIONES.pdf</value>
+      <webElementGuid>a7cd4ea9-b697-4b80-86b5-e23548354646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>target</name>
       <type>Main</type>
-      <value>mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt857':'popupConfirmacionDialog:j_idt857'},'');return false</value>
-      <webElementGuid>ad93f513-4ce6-405a-93a0-e09c728dfd70</webElementGuid>
+      <value>_black</value>
+      <webElementGuid>2bb38df6-b7cd-4cad-beed-3773e772487e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>us-btn-si us-btn-popup</value>
-      <webElementGuid>a6ba29ea-dcb8-44f1-ade4-99f6c5708ffa</webElementGuid>
+      <value>us-boton  btn-descargar</value>
+      <webElementGuid>2642c115-dfb2-4140-8909-fc7035706a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Aceptar</value>
-      <webElementGuid>ca631d3e-d294-4528-bc5b-12bfb9b4944a</webElementGuid>
+      <value>Descargar</value>
+      <webElementGuid>f8ac0083-2e58-43cf-a3f6-42d268be7ce8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;popupConfirmacionDialog:j_idt850_content&quot;)/div[@class=&quot;us-margin-popup-btn&quot;]/a[@class=&quot;us-btn-si us-btn-popup&quot;]</value>
-      <webElementGuid>2fb49efa-a25c-452d-9685-61fdd85cbb39</webElementGuid>
+      <value>id(&quot;popupReporte:dialogPopupReporte_content&quot;)/table[@class=&quot;popupBody&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;us-boton  btn-descargar&quot;]</value>
+      <webElementGuid>cdcd840c-6322-48c0-b7b6-6518d7bc6fc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('popupConfirmacionDialog'),{'popupConfirmacionDialog:j_idt857':'popupConfirmacionDialog:j_idt857'},'');return false&quot;]</value>
-      <webElementGuid>5ebee56c-a396-4909-8a00-cc2474738877</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='popupConfirmacionDialog:j_idt850_content']/div[3]/a</value>
-      <webElementGuid>cb79efe7-5032-4644-8bce-dbe3d0b8d88e</webElementGuid>
+      <value>//div[@id='popupReporte:dialogPopupReporte_content']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>065727ff-4434-4e39-b684-6ac738cc23c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Aceptar')]</value>
-      <webElementGuid>5076e128-50fd-47f1-b0a7-44385fa5b6fb</webElementGuid>
+      <value>//a[contains(text(),'Descargar')]</value>
+      <webElementGuid>64249704-2066-4798-bbb6-69bfa31465df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirma proceso de nómina?'])[1]/following::a[1]</value>
-      <webElementGuid>036c6ba0-25a0-497a-b8db-12911a4a0138</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes Generales'])[1]/following::a[1]</value>
+      <webElementGuid>2080bf6e-c4f1-410d-99eb-53a6d283498e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación'])[1]/following::a[1]</value>
-      <webElementGuid>1b90adfb-1244-4a2c-853b-22cd5f33f148</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Procedimiento'])[1]/following::a[4]</value>
+      <webElementGuid>72838d4f-8056-49e0-8aa2-4e6722a1d500</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
-      <webElementGuid>db87ce5b-4612-4b36-bed2-0a37815aa0f4</webElementGuid>
+      <webElementGuid>922126e2-c96f-4c0e-a312-7771d00da16d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,38 +110,38 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[2]</value>
-      <webElementGuid>63d53d65-217b-445c-b076-8b0dfb489b91</webElementGuid>
+      <webElementGuid>6b6d69a6-a6f6-4873-b8bd-54c27685479c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
-      <webElementGuid>727d78b1-0e8e-4ec4-8efb-ae2af2e11a07</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Descargar']/parent::*</value>
+      <webElementGuid>144ac03f-2753-4416-b518-15462b3d82b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[32]</value>
-      <webElementGuid>92179ba8-572b-4b48-962f-b7eb8cd31fbc</webElementGuid>
+      <value>//a[contains(@href, '/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc61c36c30c64c34c66c35c66c61c61c64c36c34c33c62c63c62c61c62c35c61c35c37c33c36c65c33c36c37c33c34c61&amp;E=CIR_-_CERTIFICADO_DE_INGRESOS_Y_RETENCIONES.pdf')]</value>
+      <webElementGuid>449bcbd8-b306-4f93-a3eb-eecf2287ec05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a</value>
-      <webElementGuid>541b9058-0d8d-4c39-bfb1-43764dd72454</webElementGuid>
+      <value>//td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      <webElementGuid>2c8179a0-6f62-4ef5-b702-26e7ec4f3ef1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
-      <webElementGuid>7ba496fe-86b3-4fbd-987f-131bf809254c</webElementGuid>
+      <value>//a[@href = '/saraweb/descargaArchivosSeguro?A=c74c6dc70c52c53c5fc61c36c30c64c34c66c35c66c61c61c64c36c34c33c62c63c62c61c62c35c61c35c37c33c36c65c33c36c37c33c34c61&amp;E=CIR_-_CERTIFICADO_DE_INGRESOS_Y_RETENCIONES.pdf' and (text() = 'Descargar' or . = 'Descargar')]</value>
+      <webElementGuid>45cd47e1-9da4-4bc8-ad4b-d8854c3fc431</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

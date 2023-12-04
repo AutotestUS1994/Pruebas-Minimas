@@ -264,10 +264,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e6eeb8e-7f32-4780-aaa9-2f94c57e82f5</guid>
+      <guid>9dfea49f-ac44-4817-90e2-678a7a2d8a6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.1-Administracion embargos</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -313,10 +313,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9dfea49f-ac44-4817-90e2-678a7a2d8a6b</guid>
+      <guid>0e6eeb8e-7f32-4780-aaa9-2f94c57e82f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.8 Reversar Nomina Electronica</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.5.1-Administracion embargos</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -484,7 +484,7 @@
       <guid>42cd050e-ab0a-44aa-93c2-31eb842c54eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.4-Crear_empresa_y_suario</testCaseId>
+      <testCaseId>Test Cases/1.1-Tareas Principales/1.8.4-Crear_empresa_y_usuario</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

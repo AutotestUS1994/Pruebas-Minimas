@@ -6,12 +6,11 @@
    <elementGuidId>b82a8f9d-7728-47b6-9f9f-2a9a72e64595</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Periodo')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1942f4a8-90dc-4809-8d19-445be3100a26</webElementGuid>
+      <webElementGuid>13270fda-6819-4fde-a2d8-c59aa8fb75a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>rolAcceso:j_idt974:j_idt65:j_idt71</value>
-      <webElementGuid>c880265c-2533-4c4b-8a44-e12e1dca35f3</webElementGuid>
+      <webElementGuid>a45843f1-636e-49ce-8579-16a0c65287b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>aeb3b5bb-7e45-4780-834a-8ac4b7bef12b</webElementGuid>
+      <webElementGuid>44026070-cece-42b8-ac52-71172020bd72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
-      <webElementGuid>1dd66a29-6e8c-43ea-9a71-b507613bce2b</webElementGuid>
+      <webElementGuid>870968c2-878d-4064-9833-50fbb2497555</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;rolAcceso:j_idt974:j_idt65:j_idt71&quot;,f:&quot;rolAcceso&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
-      <webElementGuid>b065a597-3b7c-4936-85d6-d465df92545d</webElementGuid>
+      <webElementGuid>a6b280fe-385e-4b47-9a84-00ea1b3bd964</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Periodo </value>
-      <webElementGuid>e91512c0-06c6-4f64-b323-6f4ad4273c81</webElementGuid>
+      <webElementGuid>905afd4f-bdeb-4e64-886b-c3b9c85b5256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rolAcceso:j_idt974:j_idt65:j_idt71&quot;)</value>
-      <webElementGuid>0c5487ec-bcca-48bb-9e3c-29372d5281ef</webElementGuid>
+      <webElementGuid>413c43ec-4712-4287-aa0b-9fc147e6ed30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='rolAcceso:j_idt974:j_idt65:j_idt71']</value>
-      <webElementGuid>5af5460a-3eb8-4600-9e39-f7983f6036f9</webElementGuid>
+      <webElementGuid>2e9dac9e-4548-4d1e-88bf-ffd8cbd3f71b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rolAcceso:j_idt974:j_idt65:j_idt66']/table/tbody/tr/td/a</value>
-      <webElementGuid>8f3c97dd-ba77-47e8-9d5b-4a25e6f010c6</webElementGuid>
+      <webElementGuid>aa24d7e9-a0a6-480b-9465-98511fa9994c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Periodo')]</value>
-      <webElementGuid>7cf9badf-e9e6-426b-9f94-b728b991c427</webElementGuid>
+      <webElementGuid>02880cd9-507d-48d7-8efe-43f397ac3efd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login Acceso'])[1]/following::a[1]</value>
-      <webElementGuid>e62ec9d4-adb8-450c-a737-23bdb6fb29a8</webElementGuid>
+      <webElementGuid>a9b22cd7-59eb-498a-bd63-8dff8827d1d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::a[5]</value>
-      <webElementGuid>605569ef-4457-4a16-ad2c-f4f569f19b62</webElementGuid>
+      <webElementGuid>e683b421-dde4-4390-b93f-26146a757775</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Permisos Por Login Usuario'])[1]/preceding::a[15]</value>
-      <webElementGuid>af336816-a550-44f0-9d24-f6c4816264b3</webElementGuid>
+      <webElementGuid>a4fed15d-aefa-4d05-87fd-bdecbe68c184</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Control Acceso'])[1]/preceding::a[15]</value>
-      <webElementGuid>aa098d49-fbc4-4f72-a233-faaa6342da6c</webElementGuid>
+      <webElementGuid>3186b055-2854-4d79-b9c7-3fd1ab28a35a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Periodo']/parent::*</value>
-      <webElementGuid>6fe81a1e-c5f4-4207-aa01-d39e01e456ff</webElementGuid>
+      <webElementGuid>22c42c27-d61f-4c0d-b390-e08fd68e6cbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[40]</value>
-      <webElementGuid>fb6f1659-73f7-4e56-b442-1c0c2a81d9de</webElementGuid>
+      <webElementGuid>a1c30d80-c7b6-430a-a295-e02e351bdf39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/a</value>
-      <webElementGuid>b637d538-cf15-4179-81c9-b1b3f7daf074</webElementGuid>
+      <webElementGuid>45396708-bc24-470b-b4c4-fe68cf0d4dec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'rolAcceso:j_idt974:j_idt65:j_idt71' and @href = '#' and (text() = 'Periodo ' or . = 'Periodo ')]</value>
-      <webElementGuid>3250bc31-90c8-4597-867e-586d3662d41e</webElementGuid>
+      <webElementGuid>2f9df1c4-4c5a-4fb6-932d-eefc77a6fab5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Sancionados')]</value>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[1]/span/form/table/tbody/tr[1]/td/div/div[4]/table[5]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>13d709ca-5f11-4841-a439-726699f71bec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt116:j_idt117:j_idt119:j_idt2382</value>
+      <webElementGuid>020435d1-455c-41eb-9226-46807b1d9eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>a5648ae9-8b7f-439d-88b0-e71b53ceb0ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>ff130ed5-0b6d-4ef9-93d1-5f04460a7dce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.addSubmitParam('j_idt116',{'j_idt116:j_idt117:j_idt119:j_idt2382':'j_idt116:j_idt117:j_idt119:j_idt2382'}).submit('j_idt116');return false;</value>
+      <webElementGuid>58e47e7d-1f46-4cf2-b25a-ad4a94a503b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sancionados </value>
+      <webElementGuid>30651cb9-e7b0-4539-817b-bcbea084f70f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt116:j_idt117:j_idt119:j_idt2382&quot;)</value>
+      <webElementGuid>b4061559-6ab1-44de-8e13-3cf32f625000</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt116:j_idt117:j_idt119:j_idt2382']</value>
+      <webElementGuid>430c7996-8574-44c7-8545-c1814143423b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt116:j_idt117:j_idt119:j_idt2357']/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>da1aa995-e455-4584-bae1-c26fbefcfb26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sancionados')]</value>
+      <webElementGuid>357944b2-4106-4d43-93d0-3a0129f43ee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Participante'])[1]/following::a[5]</value>
+      <webElementGuid>fdae3aee-faa9-4e06-a799-fca2357ba1a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos Evento'])[1]/following::a[13]</value>
+      <webElementGuid>757afea2-d078-409e-b5e7-6692f08637f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación'])[1]/preceding::a[1]</value>
+      <webElementGuid>6915a9c3-d4ee-4735-b6f4-637561960075</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recursos'])[1]/preceding::a[5]</value>
+      <webElementGuid>8076437a-e9ad-4198-a707-ecf834b509a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sancionados']/parent::*</value>
+      <webElementGuid>86bcc080-6165-426d-9fd9-8eba0d60e807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[34]</value>
+      <webElementGuid>7ab9c5ce-2752-43d5-9be1-42a988e84d70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>c8be715b-7684-498d-8941-9e6239d0e8a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

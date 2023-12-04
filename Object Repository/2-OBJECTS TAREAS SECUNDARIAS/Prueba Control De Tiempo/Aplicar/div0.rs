@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form/div/div[2]/table/tbody/tr/td/div</value>
+         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/table[1]/tbody/tr[1]/td/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e2590ba1-4ed9-4bf5-8eb4-94a241d1e541</webElementGuid>
+      <webElementGuid>945d949c-cfd7-4668-a060-1c55d5ff8e33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-margin-popup</value>
-      <webElementGuid>06773b28-4a87-4945-97f5-d823a5ebf263</webElementGuid>
+      <webElementGuid>de665f5b-6610-4bcc-9c35-1f7c3fa62a17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceso realizado con éxito.</value>
-      <webElementGuid>15fd12fa-0866-4a6f-aad6-861029522a90</webElementGuid>
+      <webElementGuid>64678d20-c4f3-4098-af0c-92ed6d6ff120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmInfo_popupEspera:contenedorEspera&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;us-margin-popup&quot;]</value>
-      <webElementGuid>e282ae54-0c2a-4245-8255-aa2fdbe515f3</webElementGuid>
+      <webElementGuid>5ef045eb-2f12-42e0-b4c2-6a2d8de05f22</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr/td/div</value>
-      <webElementGuid>ca270f9d-778a-4a4e-af6c-122c87bdb39b</webElementGuid>
+      <webElementGuid>4d88efcc-6abb-40ee-b874-333525038b42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::div[6]</value>
-      <webElementGuid>281ae33c-66d2-4c51-a1f8-f6f40cf1557e</webElementGuid>
+      <webElementGuid>d646c265-b347-48bc-b035-39542937a125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::div[7]</value>
-      <webElementGuid>bb711f8b-a3f9-48c5-bf9c-75a3ec8afcd8</webElementGuid>
+      <webElementGuid>d875130b-c946-416a-83b5-9efe40a434d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[8]</value>
-      <webElementGuid>cc2112d0-bb43-4e32-a1ee-465c26fb1041</webElementGuid>
+      <webElementGuid>06f88ee6-8531-4ad8-877e-580bc75f29eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[8]</value>
-      <webElementGuid>2782e6cd-d005-4772-82a1-6e18f9965530</webElementGuid>
+      <webElementGuid>fdfe5f07-51d6-4d48-8d99-e73cea0075e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proceso realizado con éxito.']/parent::*</value>
-      <webElementGuid>2d382f40-c132-4d3a-a90c-d0d78e454a86</webElementGuid>
+      <webElementGuid>5efdf0f6-ee77-479f-96d8-85c6fce808f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>bc426147-e978-4e39-8a03-31b91b475cb9</webElementGuid>
+      <webElementGuid>1e5ff3c5-3e96-4b6a-b727-ddf0dcd2a1c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Proceso realizado con éxito.' or . = 'Proceso realizado con éxito.')]</value>
-      <webElementGuid>b07253c4-ed77-4a66-bac9-4a455266bc22</webElementGuid>
+      <webElementGuid>9355e8de-01d8-4b59-8c66-0dbadda7940c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

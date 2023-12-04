@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bef2c310-8904-4060-8ae3-0c5e4bc5ecad</webElementGuid>
+      <webElementGuid>4cae1dcd-1fa6-4454-83cf-e150e1348084</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>072816ed-5a32-4ca0-9c1d-67484333f547</webElementGuid>
+      <webElementGuid>1129b43b-6b9b-4fe9-af63-58ea914534df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PruebasKatalon</value>
-      <webElementGuid>d820b265-76f2-4d8a-bb7b-8facd9944141</webElementGuid>
+      <webElementGuid>277c111e-3814-452a-b2bd-8f17e78addd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_parametroformato:tabla_formatos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>62160286-b127-4cfb-a81f-90e19e482a6a</webElementGuid>
+      <webElementGuid>6b9be1c2-ef86-4ec9-adc2-10a7a2581f3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_parametroformato:tabla_formatos_data']/tr/td[2]/span</value>
-      <webElementGuid>e424962c-7594-4ac3-bfd7-ce7de433ff0b</webElementGuid>
+      <webElementGuid>812f8830-2fc1-4b0b-bc32-1d022c3f3c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::span[2]</value>
-      <webElementGuid>154237bd-de31-4969-9dde-0a73c208c4f2</webElementGuid>
+      <webElementGuid>20dbfa7c-cf57-4a7d-9341-95bd63a774a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Formato'])[1]/following::span[3]</value>
-      <webElementGuid>6265dff2-fac8-4764-8357-68801b7f4071</webElementGuid>
+      <webElementGuid>aa723fb7-2ff6-4068-9878-db6c74c0ea1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[7]</value>
-      <webElementGuid>7b4df7c8-4786-4939-9bc2-00766014e99f</webElementGuid>
+      <webElementGuid>2e0d3748-6ef3-40fe-90c9-61896065235c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::span[8]</value>
-      <webElementGuid>7f550f92-7ec2-4fce-817d-1bd21bca7b24</webElementGuid>
+      <webElementGuid>52357c67-6b08-422c-be95-62dd2086d20b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PruebasKatalon']/parent::*</value>
-      <webElementGuid>b412dd83-ed05-4758-b2a7-47ca277ddfd2</webElementGuid>
+      <webElementGuid>d51b1576-4a4c-48d8-9405-881194ac529e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span</value>
-      <webElementGuid>0a29bb63-55af-4c8e-a9bc-76951875c03a</webElementGuid>
+      <webElementGuid>6ca0bd38-1dcc-4681-b2ad-c9e67eb7e953</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'PruebasKatalon' or . = 'PruebasKatalon')]</value>
-      <webElementGuid>708f975a-a2eb-4a3a-808d-d2c70597cf1f</webElementGuid>
+      <webElementGuid>b62ad603-79da-48d3-a011-ea66b6404028</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
