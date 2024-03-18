@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[5]/td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>22f2c74c-bb2e-4185-a0bc-81ac1fbec85b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:Destino</value>
+      <webElementGuid>4b14660f-b5f3-497b-afc4-57784e863ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleviaticos:Destino</value>
+      <webElementGuid>2c58d6cb-c391-4d8b-af63-695371139319</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>03a1fc68-203c-4529-af58-cdbf8c311cd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>20c38e08-8340-4849-b05c-fab80ce495b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,6 +71,7 @@
 	Mexico
 	NACIONAL
 </value>
+      <webElementGuid>0988db15-f6f9-4e7f-8705-5a4aa40f1dd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,6 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:Destino&quot;)</value>
+      <webElementGuid>902c7926-5adc-41be-8a3c-1c821d61172d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,6 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_detalleviaticos:Destino']</value>
+      <webElementGuid>a75c82a0-c23a-4fb0-8ac5-eecb50c30ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/table/tbody/tr/td/select</value>
+      <webElementGuid>c2b1a535-b44b-46a7-837c-4ad95ce003c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Destino*'])[1]/following::select[1]</value>
+      <webElementGuid>e064d32f-4b03-4612-88e6-32b3d568a091</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
+      <webElementGuid>4e4f1578-91f8-4672-99cc-b0f8e558ab25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión*'])[1]/preceding::select[1]</value>
+      <webElementGuid>418d587c-53a0-4320-bc2f-8218addca1c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambito*'])[1]/preceding::select[2]</value>
+      <webElementGuid>338c0270-e8b9-47d0-92b6-b8d2023704d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,5 +135,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
+      <webElementGuid>9d222867-9f19-486d-b6c4-62c6b997b60a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

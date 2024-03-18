@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[2]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
+         <value>//body/div[1]/div[4]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[2]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>854f996c-7d5e-4174-9b4f-72b91f8ae93d</webElementGuid>
+      <webElementGuid>03eeb9a9-ec10-4911-8e28-015535aa455f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupReporte:j_idt1318:0</value>
-      <webElementGuid>4e5087cd-8eff-4867-9af6-76d6e1eb5af6</webElementGuid>
+      <webElementGuid>75a4de8c-a81a-4180-83e1-7811190c09e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Descargar</value>
-      <webElementGuid>f67c41d7-a5c6-48d6-90ff-507f4e30bc95</webElementGuid>
+      <webElementGuid>7cbfd11c-9950-4503-a84c-487561cb0ba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1318&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
-      <webElementGuid>54817655-c155-4962-8bc6-e075dcfa6e27</webElementGuid>
+      <webElementGuid>34528f98-b5b9-4674-840d-e2138930745a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1318']/tbody/tr/td/label</value>
-      <webElementGuid>d18df283-8e82-4846-80f2-b6e42a53fdde</webElementGuid>
+      <webElementGuid>c116fd98-a10e-4e78-a820-fef4f1200a44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Que desea hacer'])[1]/following::label[1]</value>
-      <webElementGuid>8a71af25-ad3b-4856-abcb-a7e52cd910fd</webElementGuid>
+      <webElementGuid>c5e35489-f8d0-4afa-a426-9b60a07fbd2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plantilla'])[1]/following::label[1]</value>
-      <webElementGuid>da13964d-0f29-426a-8410-e3f65b9ba025</webElementGuid>
+      <webElementGuid>73aaebae-bc15-4405-9027-f86dd34dedc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar correo'])[1]/preceding::label[1]</value>
-      <webElementGuid>c5e80fb9-eda6-49a8-9234-dcecaf3f2c69</webElementGuid>
+      <webElementGuid>65cf947d-9ac3-400b-96cf-a95294f145ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::label[2]</value>
-      <webElementGuid>0acf174a-9b87-42cb-b74a-f15b9b22c80a</webElementGuid>
+      <webElementGuid>9a699189-4099-4f40-a854-37fb10af5d7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Descargar']/parent::*</value>
-      <webElementGuid>21f1d57b-d46f-4447-ba89-b8f35cacd2cf</webElementGuid>
+      <webElementGuid>f4a810ec-f71d-4ee3-a103-ae9843a6cb43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div[2]/table/tbody/tr/td/label</value>
-      <webElementGuid>f7f890ab-a616-4edd-88eb-6ba1ee9157cd</webElementGuid>
+      <webElementGuid>93a08c57-2e21-4df9-90f2-875102664e36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Descargar' or . = 'Descargar')]</value>
-      <webElementGuid>c544c64d-69f2-44e0-a452-57aa47592b37</webElementGuid>
+      <webElementGuid>a924f34a-4b56-4b43-9547-14c1a32ff32a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

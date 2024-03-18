@@ -36,7 +36,7 @@ if (identificador != 'weblogic') {
 def version() {
     String user = GlobalVariable.G_Usuario
 
-    WebUI.openBrowser('http://192.168.2.19:7001/console/')
+    WebUI.openBrowser('http://192.168.20.44:7001/console/')
 
     WebUI.maximizeWindow()
 

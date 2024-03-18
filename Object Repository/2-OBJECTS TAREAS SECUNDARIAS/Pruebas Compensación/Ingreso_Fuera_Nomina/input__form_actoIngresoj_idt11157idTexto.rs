@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0e813160-49e8-458c-9889-6ea08d0100c0</webElementGuid>
+      <webElementGuid>76ec170f-ee61-4a73-bac3-5dfa841efa68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_actoIngreso:j_idt1115:7:idTexto</value>
-      <webElementGuid>78e19998-8955-443a-bb0e-b9ca644b9c50</webElementGuid>
+      <webElementGuid>7ec802eb-440c-4ee5-a190-538376bd68af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2ebd7865-c5e9-4a12-a1fd-f503f641da57</webElementGuid>
+      <webElementGuid>561deb1a-f591-4987-a2ac-2b8fb87b1f27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_actoIngreso:j_idt1115:7:idTexto</value>
-      <webElementGuid>bf51db50-03a5-48ab-92ac-e1d0a6e3f9eb</webElementGuid>
+      <webElementGuid>a877145c-42e4-4058-875a-bc59d3749c15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar  </value>
-      <webElementGuid>2486e1d5-c815-4ad1-a251-3e5a7f07ea00</webElementGuid>
+      <webElementGuid>b1e9cb76-ee71-436e-9d54-dc50227fe96e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>07b57e0f-35a2-44be-aa22-7daf786dc279</webElementGuid>
+      <webElementGuid>cee6dbe7-ad24-4480-aabb-c7833cad36d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>8abea7ef-678b-4c0f-a444-528cc3da36a1</webElementGuid>
+      <webElementGuid>c5e96a54-4634-4b92-841b-6581986e562f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>dfb2930e-184a-4a75-adc3-d333782505f3</webElementGuid>
+      <webElementGuid>68c9c6f1-5908-4aef-9f95-3f42b878c42c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>form_actoIngreso:j_idt1115:7:j_idt1126</value>
-      <webElementGuid>945d6c25-c47b-4b8b-907e-04099c81c340</webElementGuid>
+      <webElementGuid>b2336119-f096-4b10-a12a-c2cfda386528</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_actoIngreso:j_idt1115:7:idTexto&quot;)</value>
-      <webElementGuid>d5e3b320-798d-473c-9fe1-08af756088ce</webElementGuid>
+      <webElementGuid>6dd0d080-8108-42dc-9bf8-fd68d011cb6b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_actoIngreso:j_idt1115:7:idTexto']</value>
-      <webElementGuid>28b42124-0a03-4ed0-99f8-bf024f699d3f</webElementGuid>
+      <webElementGuid>1f8df9d2-5f30-479b-99d2-a5e3f3484b65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_actoIngreso:datosadicionales']/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
-      <webElementGuid>fe359b33-869d-443e-93a5-bc0b8613752b</webElementGuid>
+      <webElementGuid>12b1a065-9095-4375-bd6d-191bd00def7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
-      <webElementGuid>b40d7d56-5735-40b0-8b57-bb688c4ccda0</webElementGuid>
+      <webElementGuid>c0e0a683-55cc-43f2-a582-45ac2d961531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_actoIngreso:j_idt1115:7:idTexto' and @type = 'text' and @name = 'form_actoIngreso:j_idt1115:7:idTexto']</value>
-      <webElementGuid>40e7dbbe-4917-4364-9c46-46f2e8be1212</webElementGuid>
+      <webElementGuid>62d38a87-f0d2-42e0-acb9-948062094d10</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

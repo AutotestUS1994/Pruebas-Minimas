@@ -6,13 +6,13 @@
    <elementGuidId>18849449-f342-404e-8a45-e4fa37ca144e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/fieldset/div/div[2]/table[1]/tbody/tr/td/div/a[1]
-</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//em[starts-with(@id, 'calculoNomina:') and (text() = 'Concepto' or . = 'Concepto')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/fieldset/div/div[2]/table[1]/tbody/tr/td/div/a[1]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>em</value>
-      <webElementGuid>4f488b7b-ac23-44c8-a1a5-6a9a64ec88ef</webElementGuid>
+      <webElementGuid>1a4d30b0-7480-44a7-9b1a-e00c530dc27b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>calculoNomina:</value>
-      <webElementGuid>c98ff349-3e35-425e-8829-fb83479cc637</webElementGuid>
+      <webElementGuid>b373dfd1-364b-4220-b095-706254d92ad5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>if(ice.ace.util.isEventSourceInputElement(event)) event.cancelBubble = true;</value>
-      <webElementGuid>c1dbd702-fc82-481e-9d8b-5a6e47fb26a7</webElementGuid>
+      <webElementGuid>ea26912c-1ac0-4ad9-aac6-f2e6e8df25bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Concepto</value>
-      <webElementGuid>02c03eb8-b6a2-4e4a-9227-f7c22916df44</webElementGuid>
+      <webElementGuid>deed6a12-01c2-4c9e-9fdb-f8e9ec979d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;calculoNomina:j_idt151Lbl&quot;)</value>
-      <webElementGuid>b3feda5c-b02a-4a30-bb8f-3801ef26dc4e</webElementGuid>
+      <webElementGuid>b11da784-05b9-4ebf-8a23-2357a64cd8ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//em[@id='calculoNomina:j_idt151Lbl']</value>
-      <webElementGuid>8650f838-2925-472e-b0c1-111cc792deb8</webElementGuid>
+      <webElementGuid>f6138074-c95a-4221-b287-5c57170e22f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='calculoNomina:j_idt151tab1']/em</value>
-      <webElementGuid>e07a8ac1-6a45-46c4-b624-e6aece6591ce</webElementGuid>
+      <webElementGuid>75c28ea4-f314-43ab-83e8-3ec025869fb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adicionales'])[1]/following::em[1]</value>
-      <webElementGuid>d62a590e-4cf7-4050-836e-90fbc10da2bb</webElementGuid>
+      <webElementGuid>90f6f900-b313-4cb6-9685-99204f518b8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguimiento'])[1]/following::em[2]</value>
-      <webElementGuid>b15b4964-e296-4b50-8d2b-2de19b983126</webElementGuid>
+      <webElementGuid>b53ae2a4-c4a4-48ad-a884-b982a1d9d889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Variable'])[1]/preceding::em[1]</value>
-      <webElementGuid>b7316361-7905-41da-9b92-a032c15477a9</webElementGuid>
+      <webElementGuid>7f526e07-126f-4ba0-a847-695760250a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Novedad Fecha'])[1]/preceding::em[2]</value>
-      <webElementGuid>c93aa90b-f24d-4862-b8d3-38dd9dcf7d98</webElementGuid>
+      <webElementGuid>4bec16d0-7416-4cf5-be97-e5b22c80936f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div/em</value>
-      <webElementGuid>e9a8b947-630c-4c5d-91ae-95b30e80e8c0</webElementGuid>
+      <webElementGuid>f6ea5d61-f76e-4b18-aabd-dbf1b630dc57</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

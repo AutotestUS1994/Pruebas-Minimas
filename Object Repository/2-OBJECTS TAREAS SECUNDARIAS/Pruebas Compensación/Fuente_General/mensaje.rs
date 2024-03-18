@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/table/tbody/tr[2]/td/table/tbody/tr[1]/td/span/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[3]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/table/tbody/tr[2]/td/table/tbody/tr[1]/td/span/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>2973d8bd-ef4a-4f9b-8597-be4607c26a3e</webElementGuid>
+      <webElementGuid>41288e5a-190d-40ae-855e-1db3503b2357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1651521975399</value>
-      <webElementGuid>fdd2d248-691a-4fe9-acd9-1f31e7aea827</webElementGuid>
+      <webElementGuid>f818f174-075f-436d-b9a2-a3a728bb7853</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

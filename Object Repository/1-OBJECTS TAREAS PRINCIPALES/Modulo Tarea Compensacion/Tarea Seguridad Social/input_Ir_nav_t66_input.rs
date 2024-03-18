@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/input</value>
+         <value>//body/div[1]/div[2]/form/span[1]/div[2]/div/span[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,6 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>01246624-0904-4719-b207-3e35513df4db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,6 +26,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
+      <webElementGuid>94a542c7-109e-475d-abdb-0ac85ae3f97d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,6 +34,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>398b46c6-fd60-4120-ade7-b62b7186d101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-optional</value>
+      <webElementGuid>90da5014-4a01-4a27-a8ad-646b201680b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,6 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nav:_t66_input</value>
+      <webElementGuid>354723c8-6679-4007-a8f9-81630cf2b936</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +58,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>setFocus(this.id);</value>
+      <webElementGuid>f76c65cc-e218-4628-8d59-19f9864fb199</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,6 +66,7 @@
       <name>onmousedown</name>
       <type>Main</type>
       <value>this.focus();</value>
+      <webElementGuid>c1c41634-0591-4d60-a06c-0896ada9084c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +74,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>92101f0b-a017-4b54-a5e3-5ec0dbd34146</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,6 +82,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>d2fe7b05-9571-40b7-a813-9c3858372a32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,6 +90,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nav:_t66_input</value>
+      <webElementGuid>9ada519d-b697-4e5a-bcd2-27db1c702be8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,6 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav:_t66_input&quot;)</value>
+      <webElementGuid>5f852b7d-24ca-4a85-85e0-da2ba59242fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,6 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_template:j_idt24_input']</value>
+      <webElementGuid>59622df5-893e-403b-ac62-1e3d315571ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24']/input</value>
+      <webElementGuid>ffd59df3-f5a0-4a14-a43f-d335ea699bce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,5 +122,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
+      <webElementGuid>7af80fb7-5383-4a08-bb86-a859c0a8960a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>Variable global logueo</description>
-      <initValue>'http://192.168.2.19:8380/saraweb'</initValue>
+      <initValue>'http://192.168.20.44:8380/saraweb'</initValue>
       <name>G_Login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Variable global logueo seguridad</description>
-      <initValue>'http://192.168.2.19:8380/seguridadweb/'</initValue>
+      <initValue>'http://192.168.20.44:8380/seguridadweb/'</initValue>
       <name>G_Login_Seguridad</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

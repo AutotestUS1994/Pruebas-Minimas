@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/div/div/div/table/tfoot/tr/td[1]/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/div/div/div/table/tfoot/tr/td[1]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>334ed5f5-87a5-4504-873d-a48689e48f2a</webElementGuid>
+      <webElementGuid>f12434ab-1bff-45ff-bf5b-9569db73063b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_sancionados:listaSancionados:sancionados</value>
-      <webElementGuid>07a91e6f-703d-4c90-8f98-8c96c754f5bd</webElementGuid>
+      <webElementGuid>5803b816-6cdb-414e-b6d5-b5afd60a88ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_sancionados:listaSancionados:sancionados</value>
-      <webElementGuid>ea52c311-776e-4d5f-be23-ab8c79f9c4c8</webElementGuid>
+      <webElementGuid>cfed4501-a68e-4992-90eb-392e2019c70d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>818af31d-ef3b-4aad-8833-08718691a966</webElementGuid>
+      <webElementGuid>eb067d57-1967-4eef-bd1a-5f85f7b24fd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>80d068f9-f6c5-4599-922a-06773342efb9</webElementGuid>
+      <webElementGuid>291448bc-0e3a-4c61-b824-de1999864feb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
 	1010220596 - A A A
 	1057596487 - Diaz Blanco Guisell
 </value>
-      <webElementGuid>6fb30122-5683-445f-904a-58422b401f68</webElementGuid>
+      <webElementGuid>727ec445-5f1c-492f-b46a-314276f92712</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_sancionados:listaSancionados:sancionados&quot;)</value>
-      <webElementGuid>c6be85c0-6db1-4a67-8543-1ae1d9a63f88</webElementGuid>
+      <webElementGuid>964154c6-1938-4e79-92d0-8ace3154f740</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_sancionados:listaSancionados:sancionados']</value>
-      <webElementGuid>522f0dc9-77e7-416c-8e11-2859fdb9acf0</webElementGuid>
+      <webElementGuid>d82fd5e4-c1ce-4182-856d-73572c921c15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='form_sancionados:listaSancionados_foot']/tr/td/select</value>
-      <webElementGuid>6b4d92d5-bfd9-45fe-a96a-c47782fe97bc</webElementGuid>
+      <webElementGuid>4f3574c6-3889-41c7-882e-41bb040bdc44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Observación'])[1]/following::select[1]</value>
-      <webElementGuid>66eb44cf-227f-4c0d-8f28-592482ff58fa</webElementGuid>
+      <webElementGuid>5505ca4a-f72c-4e57-9512-ae6a324226fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sancionado'])[1]/following::select[1]</value>
-      <webElementGuid>2fdd3f8f-4029-4f48-9009-fddd2c31a146</webElementGuid>
+      <webElementGuid>194048e7-a6f6-4199-a8a7-23772d02780f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/preceding::select[1]</value>
-      <webElementGuid>78e2b356-1977-4be4-bcf0-d0f5b0d3a50c</webElementGuid>
+      <webElementGuid>855e5266-daa3-4640-8a07-bf097ca38411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar Estado'])[1]/preceding::select[1]</value>
-      <webElementGuid>f552ea73-3f45-4228-8c2e-f6c83d255b8f</webElementGuid>
+      <webElementGuid>74cb9dff-f2f7-4398-a655-b57c1b78396e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,6 +128,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tfoot/tr/td/select</value>
-      <webElementGuid>fb29a1e0-b80d-4ba1-bc15-48e167c1c804</webElementGuid>
+      <webElementGuid>71c9ff62-20e4-47e6-9474-793d97bf67bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

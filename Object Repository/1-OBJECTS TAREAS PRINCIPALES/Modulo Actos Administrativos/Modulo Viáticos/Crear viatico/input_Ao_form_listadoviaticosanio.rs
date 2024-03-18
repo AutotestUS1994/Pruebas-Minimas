@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[1]/div[2]/table[1]/tbody/tr[4]/td[4]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ba89f944-22c7-45f8-8b23-ee8b85a90b7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoviaticos:anio</value>
+      <webElementGuid>77b0d28e-02bb-4ce4-bab6-76e756d4ccef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_listadoviaticos:anio</value>
+      <webElementGuid>0d730669-bd2c-4f65-a63e-bcfd90bb3210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>b9c5c2a3-5990-4543-95fb-ba078b0e7332</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>2022</value>
+      <webElementGuid>24fe032b-73e9-4b93-824c-87fd7b38d57d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-filled ui-state-focus</value>
+      <webElementGuid>598c4e67-734c-452e-803e-5a0326bcfefb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>4</value>
+      <webElementGuid>7bf12365-94de-443f-9637-1717a0f113c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>5ed623b4-fe86-4197-8a5c-d6e2da2e8462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_listadoviaticos:anio&quot;,e:&quot;valueChange&quot;,f:&quot;form_listadoviaticos&quot;,p:&quot;form_listadoviaticos:anio&quot;,u:&quot;form_listadoviaticos:tabla_listado_viaticos_multiple&quot;});</value>
+      <webElementGuid>a4168566-16a0-45e1-be07-f5d4fb020f3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>c1c31fb0-0c83-46ac-9927-7304862c2d5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3b0b6a02-3e49-4795-a10b-f746ac9dd1c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>51f28a1d-4e20-4a0b-b16a-8191e8456673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:anio&quot;)</value>
+      <webElementGuid>e9adca3f-d99d-4498-ae26-49802b893679</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_listadoviaticos:anio']</value>
+      <webElementGuid>bf90f8d6-c9a9-4175-bb16-78af09041d02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_listadoviaticos:panelFiltroMultiple_content']/table/tbody/tr[4]/td[3]/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>49ea9561-ce50-4490-8d6f-fc15843ef72b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/input</value>
+      <webElementGuid>39c6ccb6-4878-410d-8cc3-9d5a69e2446d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

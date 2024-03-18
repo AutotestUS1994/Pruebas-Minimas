@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/div/div[1]/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[13]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/a</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr[2]/td/div/div/div[1]/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[13]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>12569383-d0ef-4068-a949-0996568c05ed</webElementGuid>
+      <webElementGuid>e8e2394f-8608-4563-9640-cf01fbc90675</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt214:12:j_idt254</value>
-      <webElementGuid>7c107afc-c9f8-4593-aa1b-bf90265583c4</webElementGuid>
+      <webElementGuid>a86e69cb-2f1d-4ce1-bb6a-736f1354de28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>68637ca4-6691-4a1e-b12d-1ebccd3e0e03</webElementGuid>
+      <webElementGuid>ecb5bc32-ad9a-4f2b-bd18-6ae0ab58161b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
-      <webElementGuid>32110b35-46bc-4893-9773-335600927429</webElementGuid>
+      <webElementGuid>f3caafc5-e591-40d1-b70d-4c3f385c9cb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>buscaPosicion(this.id);;PrimeFaces.ab({s:&quot;hojaVida:seccion:j_idt214:12:j_idt254&quot;,f:&quot;hojaVida&quot;,u:&quot;areaAplicacion&quot;,pa:[{name:&quot;campo&quot;,value:&quot;co.com.unionsoluciones.fwk.web.backing.formulario.CampoFormulario@da3dad4&quot;}]});return false;</value>
-      <webElementGuid>ec7b493c-b984-4988-9efb-345eeb2a748e</webElementGuid>
+      <webElementGuid>044ebed3-c9a2-4362-8590-f99ffea6af8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>13</value>
-      <webElementGuid>5c03d26e-9259-40d0-a166-033deb000096</webElementGuid>
+      <webElementGuid>cda71a80-7824-44e3-b428-9a578d221557</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hojaVida:seccion:j_idt214:12:j_idt254&quot;)</value>
-      <webElementGuid>8f7e34b0-7f9b-4784-8027-eed40d22e205</webElementGuid>
+      <webElementGuid>be5024a4-97a0-4ece-a892-166f4485b5ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='hojaVida:seccion:j_idt214:12:j_idt254']</value>
-      <webElementGuid>f8bb47b6-fcad-4233-8046-efd22b955e39</webElementGuid>
+      <webElementGuid>543a1f67-8172-4e3e-a054-f12fefc0fe4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='hojaVida:seccion:j_idt210']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[13]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>bdb50efa-4fe3-4896-bf34-1906c85f8ee9</webElementGuid>
+      <webElementGuid>bef5fc24-826d-4e7c-bbc1-c62cbcc3decd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
-      <webElementGuid>568aee2c-f942-45b1-98b2-1c377f98d379</webElementGuid>
+      <webElementGuid>2f3372d9-fad4-4680-8579-50647daec4ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[13]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>f6278662-247d-4f03-b033-ca68ff94d399</webElementGuid>
+      <webElementGuid>86011d3b-bee5-4406-ac79-f981a03f1a9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'hojaVida:seccion:j_idt214:12:j_idt254' and @href = '#']</value>
-      <webElementGuid>f2b157a5-4eec-4647-b4d6-b9dfaa8c1c06</webElementGuid>
+      <webElementGuid>12f83a15-20e0-46c5-a0ce-50323134e8a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

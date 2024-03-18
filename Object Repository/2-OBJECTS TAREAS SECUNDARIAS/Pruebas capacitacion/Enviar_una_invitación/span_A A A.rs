@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr/td[2]/span</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr/td[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f24590f7-1d2a-436b-9155-73271d40ec8f</webElementGuid>
+      <webElementGuid>de84bceb-fb6d-4d4e-ace4-e3453af28b5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_none</value>
-      <webElementGuid>40cf2cb5-31a7-4694-aede-8e27f7b46c83</webElementGuid>
+      <webElementGuid>2c57c8f8-29a4-4028-ab4b-cfd3c3e3f597</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>A A A</value>
-      <webElementGuid>9befebe9-2727-403c-b27b-ddaa4812856b</webElementGuid>
+      <webElementGuid>4658b4d0-b69a-4430-a51a-77d6e0719873</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopupHojaVida:listaHojaVida_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]/span[@class=&quot;valor_campo_none&quot;]</value>
-      <webElementGuid>cfe365a6-665d-4bce-b9e2-3c53402c8704</webElementGuid>
+      <webElementGuid>76ff1027-8612-4ed8-badd-f638a216ab7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formPopupHojaVida:listaHojaVida_data']/tr/td[2]/span</value>
-      <webElementGuid>d581e7fa-414a-45b9-ad16-ced0d874b2f1</webElementGuid>
+      <webElementGuid>6a2e4d63-77c6-4214-8181-41a24f964b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro Hoja de Vida'])[1]/following::span[4]</value>
-      <webElementGuid>4f3fbbf3-a4da-40f9-b122-ccd7e5366025</webElementGuid>
+      <webElementGuid>3b92e9b4-5a52-4010-b36a-692189fa90ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asunto'])[1]/following::span[6]</value>
-      <webElementGuid>c0471b76-65ca-44dc-ba56-edb2a952ede5</webElementGuid>
+      <webElementGuid>681db3fe-1125-422f-83ed-99f09ed1dc47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='codigoxyz'])[1]/preceding::span[1]</value>
-      <webElementGuid>cdfad5aa-119a-4f80-9348-3998dab5f7ac</webElementGuid>
+      <webElementGuid>10fa09d1-3bdc-49ff-bd70-48b9e29da231</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aalfalfa Aalfalfa Aalfalfa'])[1]/preceding::span[2]</value>
-      <webElementGuid>d39022ab-f7ea-4d52-991f-d4f2dc63e549</webElementGuid>
+      <webElementGuid>f7c5e0b6-5462-4cec-a207-108984ab6a4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='A A A']/parent::*</value>
-      <webElementGuid>46066bbf-95fb-4599-bf00-06f11a6031bc</webElementGuid>
+      <webElementGuid>18539774-d305-426e-a158-a8aa16aee1dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td[2]/span</value>
-      <webElementGuid>0d698bc7-52a4-4e91-8c62-81395d7e0010</webElementGuid>
+      <webElementGuid>855bbbbe-c939-4892-a481-c59457dc6a72</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

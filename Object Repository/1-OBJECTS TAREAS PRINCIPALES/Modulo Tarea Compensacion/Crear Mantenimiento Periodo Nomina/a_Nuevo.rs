@@ -6,12 +6,12 @@
    <elementGuidId>533c19e1-09ce-44be-98d8-862b6976f3d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/form[1]/div[2]/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and starts-with(@id, 'tipoperiodo_form:') and (text() = 'Nuevo' or . = 'Nuevo')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/form[1]/div[2]/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>2c08706a-e18b-48ae-9515-e183b4469392</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-nuevo</value>
+      <webElementGuid>7313d63b-1a75-4825-961c-43da5df01271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>013e6791-944c-4fef-b8af-48b841dd6e4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>tipoperiodo_form:</value>
+      <webElementGuid>19fd074d-aca8-4bf7-bced-5b42be87a0d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('tipoperiodo_form'),{'tipoperiodo_form:_t505':'tipoperiodo_form:_t505'},'');return false</value>
+      <webElementGuid>50297a3a-9390-4f7f-8dd1-35f2848033bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nuevo</value>
+      <webElementGuid>39378932-3626-477e-8402-b36f3a174e6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tipoperiodo_form:_t505&quot;)</value>
+      <webElementGuid>5f57b11c-93e7-4399-82a9-85a5fb3d473b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='tipoperiodo_form:_t505']</value>
+      <webElementGuid>60fb7894-aad2-4bb5-8a43-730f6b69f383</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tipoperiodo_form:j_idt490_main']/table/tbody/tr[3]/td/table/tbody/tr/td/a</value>
+      <webElementGuid>b438820f-4cba-4482-ab48-0893db54864f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last'])[1]/following::a[1]</value>
+      <webElementGuid>cdaa2464-5eba-4607-af9f-6a5b7d8c90e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[1]</value>
+      <webElementGuid>24828f37-28b7-4bab-9320-8c7b15ab52f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[23]</value>
+      <webElementGuid>56a9d86f-2cd7-4e1d-a45d-22a37a8a8c59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/table/tbody/tr/td/a</value>
+      <webElementGuid>fbd51136-c8b2-4abd-8272-852ed18cdcf6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

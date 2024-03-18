@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr[1]/td[2]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div/table/tbody/tr[1]/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>eef690cf-196a-43f1-a2e1-d7260c89b39d</webElementGuid>
+      <webElementGuid>60b0e77f-67e9-43ca-b744-8db2d039ffa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>6817ab13-96c9-4174-bbb6-adfd49c40df7</webElementGuid>
+      <webElementGuid>c6b662e0-2b54-4445-9236-17ad7d6e94d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>APRENDIZ SENA PRODUCTIVA</value>
-      <webElementGuid>5edaeb54-6ab2-4604-92f2-0249d649c812</webElementGuid>
+      <webElementGuid>72e45e60-4b81-487e-bf4c-e446bfecedb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCargo_Form:j_idt1792_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace&quot;]/td[2]/span[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>e54d882f-0bfa-4747-b69b-bfdefbb366e6</webElementGuid>
+      <webElementGuid>000b7cb0-8e0c-42a6-bc71-4b9d0139874c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='popupCargo_Form:j_idt1792_data']/tr[4]/td[2]/span</value>
-      <webElementGuid>de59c9b8-3c42-45c5-8474-7d5c8a1f8918</webElementGuid>
+      <webElementGuid>f08dcbac-87f6-4e56-9240-0d14082c3485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[3]/following::span[2]</value>
-      <webElementGuid>27b17bc7-9842-4378-a9e9-95c83e3a17a6</webElementGuid>
+      <webElementGuid>3187abe5-b2c4-48a1-acb8-2e0a574f18a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='APRENDIZ SENA LECTIVA'])[1]/following::span[3]</value>
-      <webElementGuid>97102f29-213b-4838-9d85-9b0367e257d7</webElementGuid>
+      <webElementGuid>4d535e10-b71a-40d1-8eeb-b184099d022c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[4]/preceding::span[1]</value>
-      <webElementGuid>ddefbeb8-c79c-4686-98d4-3a97e42bbde4</webElementGuid>
+      <webElementGuid>5261c952-22a4-4d02-83b0-4a1350dece9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ASESOR TECNICO-COMERCIAL'])[1]/preceding::span[3]</value>
-      <webElementGuid>fc9bb397-fccf-49c3-891e-fe8443c3c3a9</webElementGuid>
+      <webElementGuid>10481814-ee91-4215-a70e-48f5d9dd83d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='APRENDIZ SENA PRODUCTIVA']/parent::*</value>
-      <webElementGuid>49183522-704f-4757-92b3-9b0abd9f4042</webElementGuid>
+      <webElementGuid>9ca3903f-123d-4875-8059-444c8f94289d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr[4]/td[2]/span</value>
-      <webElementGuid>4c80db21-8e2a-49ff-beb9-0a023fbad312</webElementGuid>
+      <webElementGuid>f87ec565-73b5-457c-a955-a9d50e4ef365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'APRENDIZ SENA PRODUCTIVA' or . = 'APRENDIZ SENA PRODUCTIVA')]</value>
-      <webElementGuid>d4eee10e-3188-419a-9fe5-b839ecd87175</webElementGuid>
+      <webElementGuid>13b645a7-fc53-4125-aeb3-8fb4eacd373c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

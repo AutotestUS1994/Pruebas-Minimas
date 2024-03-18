@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[1]/td/table/tbody/tr/td[1]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[1]/td/table/tbody/tr/td[1]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>450bfa35-faef-4c19-97dc-a29a3021eeef</webElementGuid>
+      <webElementGuid>a492d5c1-8dfe-4198-91c4-c48532de2b1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formPopUpUbicacion:j_idt921</value>
-      <webElementGuid>683ca308-7321-40ae-a676-0992386e7b8c</webElementGuid>
+      <webElementGuid>fedaf4ea-3d74-405b-ada5-1095de7d8875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formPopUpUbicacion:j_idt921</value>
-      <webElementGuid>c3756a22-5913-4185-b35f-c336f89aa01e</webElementGuid>
+      <webElementGuid>015a531b-58a7-4514-907e-f36eb75aeec6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d6e354d8-bc42-4bf4-aabf-90a24efe00b8</webElementGuid>
+      <webElementGuid>3111de1a-264f-4864-8d84-ba60be7be83b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-focus ui-state-hover</value>
-      <webElementGuid>3f2f255d-d744-42e0-b184-26a09e1c678d</webElementGuid>
+      <webElementGuid>5fb07e03-71b3-43e0-a6d1-34b4126ddd8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Ciudad</value>
-      <webElementGuid>a717574c-0d85-446d-86a5-4770c906eb60</webElementGuid>
+      <webElementGuid>b7c799fe-584a-4a93-af9f-29e8b1ed6e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>69e7cffa-1aad-4173-92ec-1319e3cc0bbd</webElementGuid>
+      <webElementGuid>9ae1555d-3cf3-4f41-a137-868973499622</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formPopUpUbicacion:j_idt921&quot;,e:&quot;valueChange&quot;,f:&quot;formPopUpUbicacion&quot;,p:&quot;formPopUpUbicacion:j_idt921&quot;,u:&quot;formPopUpUbicacion:tabla_ubicaciones&quot;});</value>
-      <webElementGuid>58d4c7f7-f89e-4c4d-bdbf-aad5897c97f7</webElementGuid>
+      <webElementGuid>e740c19e-8e7e-4cd4-9088-f8aadfe97cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>3c6e26ff-0b1c-4ed1-8bb5-7f2e63476cf2</webElementGuid>
+      <webElementGuid>283e0f2b-944d-46fb-8cb5-6fd4ac7ceedc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a92c928c-d86f-45d0-9e34-9c578cece5e9</webElementGuid>
+      <webElementGuid>50de9843-f43f-4d01-9074-753bfc353aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f05e27a5-d93c-4f41-99d0-48cc21277831</webElementGuid>
+      <webElementGuid>86fda922-1c1f-4e73-b3bc-2c213c044282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopUpUbicacion:j_idt921&quot;)</value>
-      <webElementGuid>dd16514b-6ed2-414f-a4d9-479ea57b539c</webElementGuid>
+      <webElementGuid>cc5b443a-9a86-4b8d-871b-b5cd3a75b345</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formPopUpUbicacion:j_idt921']</value>
-      <webElementGuid>5a8d3cf0-7fa9-4890-9a45-33d37accddfd</webElementGuid>
+      <webElementGuid>c8db52fb-92d8-4367-b0d9-cadde4c60975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formPopUpUbicacion:filtroBase']/tbody/tr/td/table/tbody/tr/td/input</value>
-      <webElementGuid>5dacbde9-1303-4024-82de-be32debd5773</webElementGuid>
+      <webElementGuid>b8286aed-b1b1-48b0-a9cc-2ea65706ee65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
-      <webElementGuid>41d4ff9d-a58e-4e59-948a-71efc554f870</webElementGuid>
+      <webElementGuid>68a36c80-6cc9-43f7-9962-d25972a53e49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formPopUpUbicacion:j_idt921' and @name = 'formPopUpUbicacion:j_idt921' and @type = 'text' and @placeholder = 'Ciudad']</value>
-      <webElementGuid>45a99385-b1fa-46a9-822d-da236ae52727</webElementGuid>
+      <webElementGuid>c1a06455-0ad8-42ff-a6e8-a2c7273f0d0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/form/div/table[3]/tbody/tr[2]/td[2]/table/tbody/tr[1]/td/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/form/div/table[3]/tbody/tr[2]/td[2]/table/tbody/tr[1]/td/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>08a72d2a-1963-45a4-b129-bbfd55404eb2</webElementGuid>
+      <webElementGuid>3b9b8cf4-c62c-43eb-832e-6a39d976582f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>jornada_form:horaInicialDI</value>
-      <webElementGuid>bec74193-17b0-4e7e-90fe-b6b3c42e8746</webElementGuid>
+      <webElementGuid>2d1f5da0-e9fe-4c93-9314-c91a5c95d0dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1ea54050-eb1e-4d04-8da1-4c066ed8064a</webElementGuid>
+      <webElementGuid>392a483f-103e-41db-839b-8110dcb96363</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>jornada_form:horaInicialDI</value>
-      <webElementGuid>290f7cdc-e343-4024-afb0-aa7c0663acb1</webElementGuid>
+      <webElementGuid>372e4c7c-bc2b-4e66-acc3-c7ed250b773b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>69111d8c-2954-4ea2-958a-3f34fc05fecf</webElementGuid>
+      <webElementGuid>fbb01638-db83-4f51-8b2b-35c9a7f76eb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>60d8c62c-ccc7-4112-8de5-10314a442576</webElementGuid>
+      <webElementGuid>c3a83e43-432b-48b1-b440-9bbff95b7c82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
-      <webElementGuid>c0ae2da5-fc53-4cec-88a0-648ce1b2ba9a</webElementGuid>
+      <webElementGuid>32e990b5-c9a9-4b63-81b8-2483fe7c2fe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>mojarra.ab(this,event,'blur',0,'jornada_form:paneltotalhoras jornada_form:panelhorario')</value>
-      <webElementGuid>7d25391f-97e6-4a1e-8b62-7a56c2ee36c1</webElementGuid>
+      <webElementGuid>93fbd8f7-500e-4d7a-9370-6013c9339d62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;jornada_form:horaInicialDI&quot;)</value>
-      <webElementGuid>55538975-414d-44ac-a811-67c884ae4d80</webElementGuid>
+      <webElementGuid>7dc9a4d7-812f-4b3d-a52e-cf98118a4b4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='jornada_form:horaInicialDI']</value>
-      <webElementGuid>0f16a968-c2ea-4b9c-9583-06ee9912b31d</webElementGuid>
+      <webElementGuid>8d6d7805-b1a6-4e9f-ba2a-dbaa8fce037d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='jornada_form:idPanelJornada']/table/tbody/tr[6]/td[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>cfe3599a-aa44-4c1e-b3bd-994a77bbb7be</webElementGuid>
+      <webElementGuid>5dd189f1-677b-414d-a2d6-56d7b764ff14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>d6329b8e-14b3-442a-981c-36ebdde94669</webElementGuid>
+      <webElementGuid>d3ca8b66-f916-4c48-9062-3da7ccd6901f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'jornada_form:horaInicialDI' and @type = 'text' and @name = 'jornada_form:horaInicialDI']</value>
-      <webElementGuid>76476b09-f3bc-432b-b7d8-385240a4d0d4</webElementGuid>
+      <webElementGuid>7193d29d-8702-44d4-8108-bd2199753d20</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

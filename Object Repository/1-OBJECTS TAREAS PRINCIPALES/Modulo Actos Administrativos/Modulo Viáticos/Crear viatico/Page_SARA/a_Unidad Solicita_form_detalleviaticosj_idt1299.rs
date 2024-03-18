@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td[2]/a</value>
+         <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[9]/td[2]/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>12f01a2c-5e5c-4ee1-ad85-29d4eaf2089b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:j_idt1299</value>
+      <webElementGuid>7670739f-bee8-409e-bec1-3573c5633ad4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>88a0c88d-a1e7-404e-b2e0-97bc06a5345b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>54359b60-2ef8-4f51-a367-b244236b5bb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleviaticos:j_idt1299&quot;,f:&quot;form_detalleviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>803ca6a8-fb37-4208-9a46-327e18ca4c3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:j_idt1299&quot;)</value>
+      <webElementGuid>0a557273-3069-4e3f-83df-5c4662789717</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleviaticos:j_idt1299']</value>
+      <webElementGuid>1713a214-5851-4521-af7d-b104a03bd8de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>1cfd2078-a777-4c5c-a83c-6d6b9716fd0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[26]</value>
+      <webElementGuid>4dca5a5f-ad6e-4a20-9e49-5d7143447de6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>670a8993-977d-4555-abe4-feb7857f0a02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

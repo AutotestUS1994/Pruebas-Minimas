@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[1]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[1]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b0da1479-b5b8-413d-83a6-c38c8e55ef78</webElementGuid>
+      <webElementGuid>ea333bf1-7125-4362-a6da-d8593ce7bf1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt930:j_idt935</value>
-      <webElementGuid>7d4b166f-6a68-483c-b61e-45b1bb4fe0e9</webElementGuid>
+      <webElementGuid>23b52397-6fa2-4976-80f2-bfd9efc5746b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>j_idt930:j_idt935</value>
-      <webElementGuid>f46d0546-975c-47a1-a8fd-c586fa65e68a</webElementGuid>
+      <webElementGuid>5782f423-a4a1-407d-a272-c2dfccdda317</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0de7e335-2676-400e-bacf-36be0d02a796</webElementGuid>
+      <webElementGuid>179c0b7d-e9dc-4d13-9d2d-6aedc83f1b39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-focus ui-state-hover</value>
-      <webElementGuid>11c19bdc-dcd3-429f-8f38-d6a48bcb1054</webElementGuid>
+      <webElementGuid>6e4592d5-4ad2-4c71-a389-24a7dad32396</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>size</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>a6b00ad2-8434-444a-8831-716079f4799c</webElementGuid>
+      <webElementGuid>0a27fd38-fd47-4643-8796-cf4082f55aec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;j_idt930:j_idt935&quot;,e:&quot;valueChange&quot;,f:&quot;j_idt930&quot;,p:&quot;j_idt930:j_idt935&quot;,u:&quot;j_idt930&quot;});</value>
-      <webElementGuid>80a27697-483e-405a-a769-a794556c21ff</webElementGuid>
+      <webElementGuid>1df1d705-7cee-4bb1-8c82-fa05021b009d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>6715751a-ec4b-4fd9-aad0-dac99ba5d29f</webElementGuid>
+      <webElementGuid>646d6b10-faaa-447e-baff-4bb8044316c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e8ab6269-8134-4ddf-953b-c4a655c660d4</webElementGuid>
+      <webElementGuid>f14fc2c8-cfcc-4f37-93b1-00e524861094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c767b8fc-531b-4613-95dc-2cc7aa906f93</webElementGuid>
+      <webElementGuid>2ff67669-5364-4a10-bcc9-c35a6b80ed12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt930:j_idt935&quot;)</value>
-      <webElementGuid>8e16feec-5616-4c52-b295-8a08004b756b</webElementGuid>
+      <webElementGuid>5da4c7e0-fdfb-4e77-b087-fa77686f9e35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='j_idt930:j_idt935']</value>
-      <webElementGuid>a64d7aaf-a57c-4d89-bad8-0d1557833227</webElementGuid>
+      <webElementGuid>442dc9bb-d323-43df-8869-ae7b933740c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt930:dialog_popUpNacionalidad_content']/div[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>78e257e2-9dc7-4ac3-b7d9-3042da651d20</webElementGuid>
+      <webElementGuid>b6538a9a-8d04-4866-a65d-96b4bf6c7c36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>af937663-f2f8-461d-b1dd-95dc72f5d925</webElementGuid>
+      <webElementGuid>7dd963e9-b118-44d5-9ef0-ae4e21a5b9ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'j_idt930:j_idt935' and @name = 'j_idt930:j_idt935' and @type = 'text']</value>
-      <webElementGuid>3c931407-30ad-4066-8871-fe0d6fae1859</webElementGuid>
+      <webElementGuid>ed22290d-a385-4b53-b045-f5c4111afc6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

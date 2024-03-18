@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[1]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
+         <value>//body/div[1]/div[4]/div/div/form[6]/div[1]/div[2]/table/tbody/tr[1]/td/table/tbody/tr[5]/td/table/tbody/tr[1]/td/div/div[2]/table/tbody/tr/td[1]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>c5224b75-6307-404e-8a3e-657a8d6b3c61</webElementGuid>
+      <webElementGuid>e7911473-4b56-41ad-afdf-69fef740d70c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupReporte:j_idt1308:0</value>
-      <webElementGuid>753515f2-0cef-4680-938a-75770f887139</webElementGuid>
+      <webElementGuid>8c8013a0-a32b-4b4c-813a-ea90309c7817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Excel</value>
-      <webElementGuid>542220b0-afee-429a-b278-58f09d7ad22b</webElementGuid>
+      <webElementGuid>5c2396ef-3965-409a-816a-da456907be8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1308&quot;)/tbody[1]/tr[1]/td[1]/label[1]</value>
-      <webElementGuid>a82e572d-4c3d-481b-be70-7eb7c286d9ef</webElementGuid>
+      <webElementGuid>656cc3c8-7090-4ac0-92ae-6ba107158b13</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1308']/tbody/tr/td/label</value>
-      <webElementGuid>f9c15a92-b916-4fbf-a92c-b68728cca878</webElementGuid>
+      <webElementGuid>f19a7dcb-2700-43ff-a8ee-38f5564b75a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generar'])[1]/following::label[1]</value>
-      <webElementGuid>a3d4a21b-d2aa-4fe8-954a-c587ec47856f</webElementGuid>
+      <webElementGuid>aa2c98da-9fb3-4a3a-a908-aeb5e3422005</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lista Cargo Empresa'])[1]/following::label[1]</value>
-      <webElementGuid>114f05ac-3218-4b8c-94df-83390342c962</webElementGuid>
+      <webElementGuid>ec14c408-635a-4ef3-9595-bb0b892b7d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plantilla'])[1]/preceding::label[1]</value>
-      <webElementGuid>2cceeb02-2f77-4dc4-97e5-50c08d15df47</webElementGuid>
+      <webElementGuid>069e23f5-e943-49d0-9406-d1f8acf71930</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
-      <webElementGuid>e30f5ac7-2612-4e16-8008-00ffcf4543c9</webElementGuid>
+      <webElementGuid>bb9786ab-401b-442e-a332-82005d0a3b68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Excel']/parent::*</value>
-      <webElementGuid>7b17e375-d62d-49a4-afd2-ac830d76c435</webElementGuid>
+      <webElementGuid>bf7d705c-ed67-4c9f-a3a0-49e25b53b86d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/label</value>
-      <webElementGuid>0f03321b-77ed-4107-a1a5-42bf19b933b8</webElementGuid>
+      <webElementGuid>323f3c6a-2118-452f-8aa5-23334a7dce71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Excel' or . = 'Excel')]</value>
-      <webElementGuid>9c923b8f-11c3-4f06-aaca-c45bc238dd55</webElementGuid>
+      <webElementGuid>19ad22c9-e404-469b-af18-bbd5adcb9080</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

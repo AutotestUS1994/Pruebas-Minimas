@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_registroCostoDisponible</name>
+   <tag></tag>
+   <elementGuidId>ebb4754c-cac9-49fb-995e-f6b03ef4e034</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[contains(text(),'Disponible')])</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>d8d11067-8c0e-43a6-a8eb-16cb32645a3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>01/07/2021</value>
+      <webElementGuid>027dd743-6888-495c-a1b4-8091b11ea26e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_listadoviaticos:j_idt135_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[2]</value>
+      <webElementGuid>180455cb-b866-4e82-a1c7-4498794c8d99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='form_listadoviaticos:j_idt135_data']/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>f1a8ccfb-2182-44ce-a0fc-13aa9a1bf48f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[3]/following::td[3]</value>
+      <webElementGuid>8ced4f2b-fff3-4833-ad57-b3978552b3ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[4]/following::td[3]</value>
+      <webElementGuid>56167cdf-337e-4ddc-9bc1-5731429b64e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[3]/preceding::td[1]</value>
+      <webElementGuid>6419d6f9-d8f4-4709-ada6-2118a5f941be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Programada'])[3]/preceding::td[2]</value>
+      <webElementGuid>84f4845f-6f67-4deb-a035-152b189acdea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>8f0a2f77-4926-464e-83ed-d9bde1ca052c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

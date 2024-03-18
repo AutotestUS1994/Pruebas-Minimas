@@ -6,12 +6,12 @@
    <elementGuidId>697dfcc5-1d57-49e2-a284-25cc773eca81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/form[1]/div/table/tbody/tr/td/div/div/div/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = '#' and starts-with(@id, 'tipoPeriodo:') and (text() = 'Guardar' or . = 'Guardar')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/form[1]/div/table/tbody/tr/td/div/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>582bb7ed-0e40-4857-9d63-8a918903c3b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton btn-actualizar</value>
+      <webElementGuid>3ebe5835-759f-4d4a-aef0-7b63ab051a1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>abbaf99c-c37f-48fe-bd33-127a3416345b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>tipoPeriodo:</value>
+      <webElementGuid>3e5a6d63-fefb-43e0-9909-1f6c17db153e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('tipoPeriodo'),{'tipoPeriodo:_t163':'tipoPeriodo:_t163'},'');return false</value>
+      <webElementGuid>25f6f8b9-0aa6-4470-9f9a-0a403f73ac78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>6b8da850-45c3-4de7-bdc5-7001580c6651</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tipoPeriodo:_t163&quot;)</value>
+      <webElementGuid>29747371-5cba-419b-a975-2bf3c9f423cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='tipoPeriodo:_t163']</value>
+      <webElementGuid>8a45867c-b3f6-4c88-8105-e54c03fb956c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tipoPeriodo:NuevoTipoPeriodo']/a</value>
+      <webElementGuid>29ab616e-843f-4bf7-9e84-3ddb32964b0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modo'])[2]/following::a[1]</value>
+      <webElementGuid>0b68d23b-8176-4d81-af22-e8b2b033633f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado Laboral*'])[1]/following::a[1]</value>
+      <webElementGuid>777918d7-03f4-4d9d-b110-5da48e95be6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[21]</value>
+      <webElementGuid>f763a793-efcb-49e8-a181-e9823a9be90c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/a</value>
+      <webElementGuid>088d2c5c-930f-44ce-9d83-d0133e71df5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

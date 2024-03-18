@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>
-//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[20]/div/div[1]/a/span</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[20]/div/div[1]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fcf902d9-7de8-493b-9cdb-d74982f786ee</webElementGuid>
+      <webElementGuid>d9e94cb8-410f-442f-bea7-1273b8695c9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-icon ui-icon-closethick</value>
-      <webElementGuid>6a21e9ac-1999-467e-b445-31d07063e6f9</webElementGuid>
+      <webElementGuid>cff5bc3d-5762-487c-847e-e74cbef7b446</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formAsistenteEvento:j_idt496&quot;)/div[@class=&quot;ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top&quot;]/a[@class=&quot;ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all ui-state-hover&quot;]/span[@class=&quot;ui-icon ui-icon-closethick&quot;]</value>
-      <webElementGuid>d4f9540d-c41f-49f4-965c-951b8336a3a6</webElementGuid>
+      <webElementGuid>952ab929-8e64-4116-90a6-095a10e0d500</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formAsistenteEvento:j_idt496']/div/a/span</value>
-      <webElementGuid>cc3f5229-2dc8-4491-9f7b-3ea018aefee7</webElementGuid>
+      <webElementGuid>58729df3-27a5-4057-8b6a-ba675bdb822a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/span</value>
-      <webElementGuid>a1d6414f-8282-4e33-aa6e-b6b269ef32c9</webElementGuid>
+      <webElementGuid>5efb8f53-7b9b-490f-9413-82a0d9fea743</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

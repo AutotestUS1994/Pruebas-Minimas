@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[5]/td[2]/table/tbody/tr/td/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[6]/td[2]/table/tbody/tr/td/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>935d1621-db6c-42b0-9c02-87b7801aa83f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:TipoComision</value>
+      <webElementGuid>c3d67731-9c0d-4493-9c3d-1fd7e4296801</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleviaticos:TipoComision</value>
+      <webElementGuid>43847824-5546-4e9b-9055-a19594af90f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>06414c3e-cf62-45dc-9766-c7d24925db20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>3f21e74f-bddd-43d7-bd80-a821b89c03b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,6 +67,7 @@
 	OPERATIVO
 	SUPERVISIÓN
 </value>
+      <webElementGuid>0c142960-466e-48ac-a83d-4b84246ec24a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:TipoComision&quot;)</value>
+      <webElementGuid>86b0263e-af77-46c8-8c45-df92846ff4bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -76,6 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_detalleviaticos:TipoComision']</value>
+      <webElementGuid>43abf3c5-0483-4b69-b33b-44e6020ef73b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[5]/td[2]/table/tbody/tr/td/select</value>
+      <webElementGuid>24f834e1-71e7-444e-80fc-f3c905ddfed7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión*'])[1]/following::select[1]</value>
+      <webElementGuid>8341ec32-1e65-473b-b75e-d5787dbe898f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Destino*'])[1]/following::select[2]</value>
+      <webElementGuid>6de63e29-6c9d-4f43-a237-5de4778aeb59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambito*'])[1]/preceding::select[1]</value>
+      <webElementGuid>6a435aaa-37b5-40ca-aafe-0472882d9e25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rubro*'])[1]/preceding::select[2]</value>
+      <webElementGuid>2cc6607b-71df-46cb-b652-13e171d80ee3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,5 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[2]/table/tbody/tr/td/select</value>
+      <webElementGuid>3ae9ecd3-e979-4b7f-b8a5-43747f014766</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

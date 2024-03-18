@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DestinoProgramacion</name>
+   <tag></tag>
+   <elementGuidId>7d2c9e74-d20b-4511-aaca-f6b4b6cafb56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div[2]/div/div/table[1]/tbody/tr[7]/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>ef6f3d86-6a33-4077-af0c-d0784ab93969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_detalleviaticos:Destino</value>
+      <webElementGuid>1b81710b-3c34-441f-82ba-91e8c236ea93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_detalleviaticos:Destino</value>
+      <webElementGuid>b0d0308d-755a-4c2b-b384-2f92f6eb7535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>aa4b679b-3367-4a05-9f4e-20224c80b7a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>a101e289-8317-48f3-ae83-d78bd4d1ebd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--- Seleccione Destino --
+	AMERICA
+	Anticipo vuelos presidenciales
+	Barranquilla (Cerrejón)
+	Comisión en el País- Trab oficial/ Empl Publico
+	Comisión País- Militares
+	Comísión Presidencia Exterior- 3
+	EUROPA, ASIA, ÁFRICA, OCEANÍA Y CANADÁ
+	Mexico
+	NACIONAL
+</value>
+      <webElementGuid>bde976b9-55cd-4089-81d6-14a120401587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_detalleviaticos:Destino&quot;)</value>
+      <webElementGuid>6c513a0d-c9df-47b4-ab4e-41fba6acebaa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_detalleviaticos:Destino']</value>
+      <webElementGuid>f63fb010-49a6-4985-b97f-546d5769082f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/table/tbody/tr/td/select</value>
+      <webElementGuid>c5e2b29b-742f-45b5-b2e8-b05cc636900d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Destino*'])[1]/following::select[1]</value>
+      <webElementGuid>5f150cb2-4722-41d8-818d-0ba72fa43664</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
+      <webElementGuid>e783fbe8-28ff-497d-b700-50471aaaf9cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión*'])[1]/preceding::select[1]</value>
+      <webElementGuid>4b93f2e7-ead3-498c-a93e-5e69b54dc5aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambito*'])[1]/preceding::select[2]</value>
+      <webElementGuid>b328ef54-b730-430a-82f7-be148dfb0dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>aa2fca41-b572-4580-bcd8-612de28eb632</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

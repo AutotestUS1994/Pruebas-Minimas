@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[1]/a/span</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[1]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>aec255b4-d653-4914-a39b-e13d897fb54c</webElementGuid>
+      <webElementGuid>0f5a155b-b866-4b23-b6f6-48d53f74d63a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-radiobutton-icon ui-icon ui-icon-blank ui-c</value>
-      <webElementGuid>ffe05830-3fab-4b4f-aa1d-27272477a0f5</webElementGuid>
+      <webElementGuid>b9b485c0-5290-48d3-92e6-91ac4fe630e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:j_idt1320&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;ui-radiobutton ui-widget&quot;]/div[@class=&quot;ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-hover&quot;]/span[@class=&quot;ui-radiobutton-icon ui-icon ui-icon-blank ui-c&quot;]</value>
-      <webElementGuid>7468b456-970f-40ac-8709-e861f091f8ca</webElementGuid>
+      <webElementGuid>ab1945ce-627e-4513-9bb8-8745a2760caf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:j_idt1320']/tbody/tr/td/div/div[2]/span</value>
-      <webElementGuid>5c427326-4e7b-4bf0-a0f4-17e36d51890a</webElementGuid>
+      <webElementGuid>bb231903-6d93-42fd-9eee-f0043e78e6a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/div/div[2]/table/tbody/tr/td/div/div[2]/span</value>
-      <webElementGuid>a23cd97f-e2ea-4656-9278-2a038cdf7053</webElementGuid>
+      <webElementGuid>76df35cb-0319-4de2-bff1-8126413384ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

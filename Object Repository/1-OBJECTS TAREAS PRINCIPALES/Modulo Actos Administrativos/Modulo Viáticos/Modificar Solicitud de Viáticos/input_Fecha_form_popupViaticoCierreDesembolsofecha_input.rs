@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[2]/span/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[8]/div/div[2]/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>adb5e06a-3565-4c7e-b4e9-4dfd9dfdca9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupViaticoCierreDesembolso:fecha_input</value>
+      <webElementGuid>24259e4c-f6ac-4c73-acc9-cbe43f0121ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupViaticoCierreDesembolso:fecha_input</value>
+      <webElementGuid>b6ff1f15-58e8-46e4-9c1f-eeb7e5c8ee78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>de3be359-1c3f-4378-b5a1-0896158c55d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>01/07/2021</value>
+      <webElementGuid>5cd88e77-c2b5-41f6-9a3b-155baf6d64f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>f32e9a93-81cd-49e9-be02-d59159a7f09d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>7edf642d-67be-4538-bf24-dbbc843ef8cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>8e3b1410-ac06-4f25-ae09-5a9fed4a5dce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>f1ad52a9-2e65-47c4-87b3-2df1e7826a41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupViaticoCierreDesembolso:fecha_input&quot;)</value>
+      <webElementGuid>81181d68-df30-430f-a6af-8e495cc2307a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popupViaticoCierreDesembolso:fecha_input']</value>
+      <webElementGuid>8a134cfc-6e42-48e9-a976-7b43297081f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_popupViaticoCierreDesembolso:fecha']/input</value>
+      <webElementGuid>d0503e52-ce7d-477e-b45c-24426d65d84f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/span/input</value>
+      <webElementGuid>990a77fd-a677-475f-a2f5-f0091e90c3ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

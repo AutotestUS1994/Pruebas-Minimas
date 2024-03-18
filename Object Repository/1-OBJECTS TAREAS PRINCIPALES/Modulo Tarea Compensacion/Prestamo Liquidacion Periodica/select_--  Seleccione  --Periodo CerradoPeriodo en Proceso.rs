@@ -6,6 +6,13 @@
    <elementGuidId>45025e54-2893-4add-8897-cce13f580433</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'formPopupPeriodo:estadoPeriodo' and @name = 'formPopupPeriodo:estadoPeriodo' and (text() = '	--  Seleccione  --
 	Periodo Cerrado
@@ -14,15 +21,6 @@
 	Periodo Cerrado
 	Periodo en Proceso
 ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/select</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +31,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formPopupPeriodo:estadoPeriodo']</value>
-      <webElementGuid>14055990-1fea-421b-b649-299751ee58df</webElementGuid>
+      <webElementGuid>2aa7106b-de6a-4477-8791-dbc534812a79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -41,7 +39,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formPopupPeriodo:idPopupPeriodo_content']/div[2]/table/tbody/tr/td[2]/select</value>
-      <webElementGuid>a496181c-060b-4ecf-a393-b241a2ca988b</webElementGuid>
+      <webElementGuid>28bc3b26-4e38-4dd9-8a71-171240bc36d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,7 +47,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
-      <webElementGuid>ba89f8bd-3c3f-43e5-b41e-04dbb6260ebb</webElementGuid>
+      <webElementGuid>06904965-4000-409d-9cdf-b5ac3db2fd92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Nomina'])[2]/following::select[1]</value>
-      <webElementGuid>df4fac62-78db-478d-951a-610fa95076b2</webElementGuid>
+      <webElementGuid>4558bc03-0188-4d50-875f-3a967bfb1467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtro'])[1]/preceding::select[1]</value>
-      <webElementGuid>21c71ea6-4198-47eb-bd44-86796ae0153e</webElementGuid>
+      <webElementGuid>1c58de81-0f34-432e-b502-74071c740deb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Periodo Nomina'])[3]/preceding::select[1]</value>
-      <webElementGuid>9400afd7-d604-462f-9fff-5bc3f7758f7d</webElementGuid>
+      <webElementGuid>a9b254d4-c4bf-4f36-99b6-c4756c6ecc4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>6ca61126-791a-4111-b37a-5a9eb8d8da22</webElementGuid>
+      <webElementGuid>b3599a61-f375-425f-bd66-bae0a906f122</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +93,6 @@
 	Periodo Cerrado
 	Periodo en Proceso
 ')]</value>
-      <webElementGuid>07c0b83a-65b9-4b9f-bc54-4db72cae6088</webElementGuid>
+      <webElementGuid>1d243a9f-bbeb-4d0d-aabc-2e43df87b124</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

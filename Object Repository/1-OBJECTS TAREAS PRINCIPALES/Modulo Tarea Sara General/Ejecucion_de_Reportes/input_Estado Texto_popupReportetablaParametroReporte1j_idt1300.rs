@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-//body/div[1]/div[3]/div/div/form[6]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div[4]/div/div/form[6]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>59a3d9bf-168e-4cd3-ab52-c31f3335d7fd</webElementGuid>
+      <webElementGuid>fc070327-506b-4617-ace9-e46e2dc73f4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupReporte:tablaParametroReporte:1:j_idt1300</value>
-      <webElementGuid>d1bc45c4-e33b-4582-b34b-1abfab71e7c3</webElementGuid>
+      <webElementGuid>0b28dbe7-8acb-4bd7-b5fe-0df4b317fca8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupReporte:tablaParametroReporte:1:j_idt1300</value>
-      <webElementGuid>1f3b5c0c-7255-4824-85bb-b20e5872cab8</webElementGuid>
+      <webElementGuid>464123d4-9d2d-40ed-8a5e-1cf64f0f173a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e7f0a9b0-8118-4e0e-a9a0-10fe602e4396</webElementGuid>
+      <webElementGuid>a70e9717-fe0a-4446-8f2c-078d72487de1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-hover ui-state-focus</value>
-      <webElementGuid>f769319c-0412-4bf4-ace2-48989c514b18</webElementGuid>
+      <webElementGuid>6e9449bf-e5ef-4060-bbb3-2547e51287fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupReporte:tablaParametroReporte:1:j_idt1300&quot;,e:&quot;valueChange&quot;,f:&quot;popupReporte&quot;,p:&quot;popupReporte:tablaParametroReporte:1:j_idt1300&quot;,u:&quot;popupReporte:tablaParametroReporte:1&quot;});</value>
-      <webElementGuid>d7b1ab6c-4210-4f6e-bde0-d7d05622f252</webElementGuid>
+      <webElementGuid>67ac46e4-ef83-4efd-8e6b-5e1c7bdfca8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>6bff553c-7b03-46f4-8f5e-52f4e4f1a2a4</webElementGuid>
+      <webElementGuid>9d87c547-ad54-4649-8e69-6f954347b5a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>169b047c-0023-46c3-89cd-004d36163104</webElementGuid>
+      <webElementGuid>20fba1a7-3304-4593-8a49-b647e7c8c8e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>57f3f917-c581-4d95-b262-de6bdfd3db66</webElementGuid>
+      <webElementGuid>8c4880ec-cff6-47d9-a022-5368bbdc75a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupReporte:tablaParametroReporte:1:j_idt1300&quot;)</value>
-      <webElementGuid>39929124-0cd8-4a0b-8b16-08b584cb1af9</webElementGuid>
+      <webElementGuid>5b39f8ef-5805-4422-b14f-73a45691c5d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupReporte:tablaParametroReporte:1:j_idt1300']</value>
-      <webElementGuid>d27b4194-d93d-437b-8634-92032bc383bd</webElementGuid>
+      <webElementGuid>d9c03663-8235-458f-984c-4bcde5006b01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupReporte:tablaParametroReporte']/tbody/tr[2]/td[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>9fec744d-7226-437c-9b76-c06aa196cb11</webElementGuid>
+      <webElementGuid>1c5bac91-001a-4bec-bcd2-39d35538c991</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>3ad5bb76-b19f-4d08-8a52-4a5130d3070e</webElementGuid>
+      <webElementGuid>c556e57a-9867-4b4f-a5d5-4ff3e9f8288d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'popupReporte:tablaParametroReporte:1:j_idt1300' and @name = 'popupReporte:tablaParametroReporte:1:j_idt1300' and @type = 'text']</value>
-      <webElementGuid>cfa8fd86-7611-433e-822a-1d025a0ae92f</webElementGuid>
+      <webElementGuid>8f4d7e97-8bae-4396-a15c-79c2e1d0474b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

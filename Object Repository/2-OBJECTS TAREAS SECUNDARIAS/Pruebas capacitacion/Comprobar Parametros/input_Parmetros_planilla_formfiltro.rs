@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/form/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td[2]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/form/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6be513c5-5d70-4f91-a86b-c20a7b20aa85</webElementGuid>
+      <webElementGuid>8342a9a2-92ab-4dbd-b5e5-bac41e1a20fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>planilla_form:filtro</value>
-      <webElementGuid>e0c19263-c101-42da-8c51-4b5c1564621b</webElementGuid>
+      <webElementGuid>5dba22af-a80e-41d9-868d-465f01f158d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>planilla_form:filtro</value>
-      <webElementGuid>f3799f98-8ef7-4657-a79c-54b66a69c37d</webElementGuid>
+      <webElementGuid>2e0bd8bd-f11b-4e90-8c77-ce6d81f3047d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ed5aa620-d3d8-4562-aae8-0eb3e0dcd357</webElementGuid>
+      <webElementGuid>3cc4625b-5b90-4c7c-a852-da8ea192e411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-hover ui-state-focus</value>
-      <webElementGuid>531a5e4d-e9d7-4011-9466-2eb63478960f</webElementGuid>
+      <webElementGuid>0aaf9d80-a275-45a3-a277-cf7f01c0531b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>189924c9-cc18-4229-8040-67e2fd5aac38</webElementGuid>
+      <webElementGuid>2a3b5fa1-bbf4-4a24-9698-0c4d450e309d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;planilla_form:filtro&quot;,e:&quot;valueChange&quot;,f:&quot;planilla_form&quot;,p:&quot;planilla_form:filtro&quot;,u:&quot;planilla_form:tabla&quot;});</value>
-      <webElementGuid>eec17588-06d6-4e64-ad12-6ab7059f361b</webElementGuid>
+      <webElementGuid>376fdd64-c480-4a22-a516-a88907603efd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>9f7d1f82-d84e-4fbe-ba03-4cb841aeaab8</webElementGuid>
+      <webElementGuid>c135a879-eaea-4390-93fe-32edb009a70d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2587b70a-3e70-4c3f-b551-2133ba282149</webElementGuid>
+      <webElementGuid>7414aff6-2d56-48bf-904a-c071756ab03c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4ed1c888-371b-46e3-bed9-fdc36199dd66</webElementGuid>
+      <webElementGuid>ac205112-1917-4152-87f5-78ac34811d96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;planilla_form:filtro&quot;)</value>
-      <webElementGuid>dffd3e0a-7944-409e-a6d1-73979d077867</webElementGuid>
+      <webElementGuid>49e88ef6-ca51-4a23-a151-0b206a9bfb5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='planilla_form:filtro']</value>
-      <webElementGuid>b8cb7631-639b-4556-a3c5-2bf869a31afa</webElementGuid>
+      <webElementGuid>72f2db25-47a6-4030-8442-668e053bcd43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='planilla_form']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/input</value>
-      <webElementGuid>ed9263c5-198c-49b8-a245-89089063e49c</webElementGuid>
+      <webElementGuid>8c6a24e2-b519-4eca-bacd-334ecc9de5b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/input</value>
-      <webElementGuid>4f413b40-61fc-4c2a-98c2-bf4070c9bf7a</webElementGuid>
+      <webElementGuid>c3095df6-1bdc-4da8-929d-2cb8d52c5739</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'planilla_form:filtro' and @name = 'planilla_form:filtro' and @type = 'text']</value>
-      <webElementGuid>0a4793b8-eba6-4a2e-8c0c-a1fe50c6f34c</webElementGuid>
+      <webElementGuid>cd2d0878-6ee4-4eb6-a55e-b23f62fd7706</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

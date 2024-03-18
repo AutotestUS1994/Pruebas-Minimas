@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr[2]/td/table/tbody/tr[1]/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/span/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr[2]/td/table/tbody/tr[1]/td/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6928d8d0-d8d4-4fcc-a984-6d6dcb91f6ee</webElementGuid>
+      <webElementGuid>4ac2ba7d-14d5-449d-ab5a-c3123c9636c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cancelacion_contrato:fecharetiro_input</value>
-      <webElementGuid>8fe33245-a6c1-49de-99d7-4d96baec88f6</webElementGuid>
+      <webElementGuid>41a9dce6-e904-448c-b6de-b29ab2374013</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>cancelacion_contrato:fecharetiro_input</value>
-      <webElementGuid>0d528885-e022-4047-b2cf-06f7a21d8ff1</webElementGuid>
+      <webElementGuid>8a22c943-6b47-4145-af3e-5466d9b687a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9bdde99e-82ea-4919-9c04-b233b0d26159</webElementGuid>
+      <webElementGuid>49c3fe97-b1e4-4547-8137-963b9e0123b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
-      <webElementGuid>583ce05e-33c0-4b4e-8eb7-54f8c372b74a</webElementGuid>
+      <webElementGuid>de7a49e4-8968-4add-9bf7-714fbc05b6c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>740aa968-fd38-4d2f-b2bd-82fa5d3f6a4d</webElementGuid>
+      <webElementGuid>b897bb0c-8952-4aa2-bb4f-f39045a41b95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>666388b4-9671-4ba9-8a7a-5a95fd848c00</webElementGuid>
+      <webElementGuid>9d4929d4-a8cb-4064-9dd5-cd62e5f913db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>51d9aabd-0737-44ea-88aa-e0033cd28234</webElementGuid>
+      <webElementGuid>501d64a1-ac39-4c6f-bd86-2ec675591880</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cancelacion_contrato:fecharetiro_input&quot;)</value>
-      <webElementGuid>170f4ed7-e190-4a9e-b385-f79fb1ffe513</webElementGuid>
+      <webElementGuid>afb1244c-3a3f-4221-aa05-2067c2121ec1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='cancelacion_contrato:fecharetiro_input']</value>
-      <webElementGuid>5b32a98d-0cbf-40c2-a7c6-970ac1d1c586</webElementGuid>
+      <webElementGuid>1b8f2437-0d44-46bf-bae0-f94d2dfefa67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='cancelacion_contrato:fecharetiro']/input</value>
-      <webElementGuid>b33a8372-71c3-45cd-9ad3-0504917eabab</webElementGuid>
+      <webElementGuid>0eccf7da-1801-4abf-9bca-91fabd75a12b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/input</value>
-      <webElementGuid>f167a94a-830c-45ca-a82e-cc05ea4a47bc</webElementGuid>
+      <webElementGuid>723e30cc-47f8-4a3d-90fc-e4154028e171</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'cancelacion_contrato:fecharetiro_input' and @name = 'cancelacion_contrato:fecharetiro_input' and @type = 'text']</value>
-      <webElementGuid>4e362a41-4fea-4613-b0a3-3fddabba178d</webElementGuid>
+      <webElementGuid>c4f5272e-aaa8-4323-9377-c66d4a25c0e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

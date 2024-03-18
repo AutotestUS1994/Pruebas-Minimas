@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-//body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div[1]/table/tbody/tr[1]/td[1]/div/div/div/div[2]/div/a[2]/span</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div[1]/table/tbody/tr[1]/td[1]/div/div/div/div[2]/div/a[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d2c2d433-27f4-44e2-8f72-9c7456afcbeb</webElementGuid>
+      <webElementGuid>613255c0-911e-4960-a702-7fe77b868f82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn-hoja us-icon-card-img</value>
-      <webElementGuid>19415c84-1fdb-4b89-abff-bcc13239df1f</webElementGuid>
+      <webElementGuid>cd444c86-7c65-4285-82fd-0e7c4754c06c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtroExterno:hojas:0:j_idt160&quot;)/span[@class=&quot;btn-hoja us-icon-card-img&quot;]</value>
-      <webElementGuid>89d34821-0343-4c1d-9b61-f309afc9f571</webElementGuid>
+      <webElementGuid>b256c855-b188-43c4-a892-0394f0a97452</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='filtroExterno:hojas:0:j_idt160']/span</value>
-      <webElementGuid>da4c0e61-36a6-4e88-9b5a-474db14c8ee2</webElementGuid>
+      <webElementGuid>87bc5eec-86ae-4897-97dd-dc57222b1888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a/span</value>
-      <webElementGuid>cb1ac6bd-9eaf-4a93-ac44-35f579ec3dc9</webElementGuid>
+      <webElementGuid>49dcf405-44c1-40e4-ad3c-f6dd1d45dda4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

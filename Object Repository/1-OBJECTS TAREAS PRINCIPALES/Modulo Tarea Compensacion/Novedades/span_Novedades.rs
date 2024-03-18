@@ -6,12 +6,12 @@
    <elementGuidId>f191e81a-74d8-4150-bcc9-43d38ce407d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[1]/form/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[15]/tbody/tr/td/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[contains(@id, 'form_menuEmpleado') and (text() = 'Novedades' or . = 'Novedades')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[1]/form/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[15]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dd02e8c6-6cbf-4d73-88bf-1b86746f51e0</webElementGuid>
+      <webElementGuid>7fb8fa77-b703-4a4c-895f-88332a3cd719</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_menuEmpleado</value>
-      <webElementGuid>2785d256-9ff5-4bc6-a616-6ac41a33a31c</webElementGuid>
+      <webElementGuid>04554c95-c5fe-40a7-b6e7-e0f376c6ca00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Novedades</value>
-      <webElementGuid>4ec803ef-ac93-4ee1-80e9-a455209edcdc</webElementGuid>
+      <webElementGuid>f8900915-a9bb-468d-812c-096fa470c19c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_menuEmpleado:j_idt83:_t162&quot;)</value>
-      <webElementGuid>5ab01a75-a85f-4af5-ad6f-5725f108e3cb</webElementGuid>
+      <webElementGuid>d22e3198-f8b0-4aaf-986f-0729a85628a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='form_menuEmpleado:j_idt83:_t162']</value>
-      <webElementGuid>83c1cee3-4ce5-4a6f-99d6-da0d77c2517f</webElementGuid>
+      <webElementGuid>961a1f08-4d1b-40f5-998e-6de617efa10e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_menuEmpleado:j_idt83:_t161']/span</value>
-      <webElementGuid>46c3af85-63f6-450d-98d7-f3e59991ab32</webElementGuid>
+      <webElementGuid>5a157a5d-9314-46a2-a1cd-97d9e18e7587</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bonos Pensionados'])[1]/following::span[2]</value>
-      <webElementGuid>25cf93e5-c46e-49d9-bab3-01dfd1dd56c3</webElementGuid>
+      <webElementGuid>5873d609-c38b-4305-927f-4ae76f8c160b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Situación Administrativa'])[1]/following::span[4]</value>
-      <webElementGuid>f26d8f28-3dae-4d61-8652-13fe44a7ce88</webElementGuid>
+      <webElementGuid>fccb9305-a5ab-4950-9dca-f91d4f811cca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Archivo'])[1]/preceding::span[2]</value>
-      <webElementGuid>a834a6d0-a6d0-4393-b276-af8762d41833</webElementGuid>
+      <webElementGuid>6cef5046-4f60-4a1c-a3c3-31f6cc3a40f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipos Documentales'])[1]/preceding::span[4]</value>
-      <webElementGuid>9e05a2ee-a560-49f9-9dbd-d7f7fd2dcdb8</webElementGuid>
+      <webElementGuid>742d102e-8b04-4081-96dd-a19b26281ca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[15]/tbody/tr/td/div/a/span</value>
-      <webElementGuid>0c40feb7-d7e1-4c7a-8c56-9118f082762b</webElementGuid>
+      <webElementGuid>b78d6b5a-001b-439e-9807-fd1072c6960b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

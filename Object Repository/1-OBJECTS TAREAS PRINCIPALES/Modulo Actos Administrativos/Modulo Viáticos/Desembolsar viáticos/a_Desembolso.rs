@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Desembolso']/parent::*</value>
+         <value>(//a[contains(text(),'Desembolso')])
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>18b6a848-e6e2-4bff-84db-3d7663ee0a99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1547</value>
+      <webElementGuid>46bade4e-ade3-455c-826e-be630cd94dce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>a396a8f3-3fac-497c-85af-b644b88638a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>35e94420-ce0d-43d4-8e39-7b874b80ccb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1547&quot;,f:&quot;form_detalleviaticosMenu&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>0da2d67c-2505-4c5a-839f-d0b89407b083</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Desembolso </value>
+      <webElementGuid>1562308b-af67-4ebc-b2aa-ad092fc818a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1547&quot;)</value>
+      <webElementGuid>84637ccc-5e7d-4b8d-ab96-e454cc4a3b30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1547']</value>
+      <webElementGuid>cb12ca40-71db-4955-9d89-63b3fbbd789f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1207']/table[5]/tbody/tr/td/a</value>
+      <webElementGuid>2fd9f7e0-6bc0-47d5-a7bd-be979ba7c5fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Desembolso')])[2]</value>
+      <webElementGuid>bfeded12-6a23-46cd-a4ff-ad1868fbedbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viatico'])[1]/following::a[5]</value>
+      <webElementGuid>b43cde38-8e81-41dc-9045-467058a76bed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[11]</value>
+      <webElementGuid>7ecbf8d8-4dcf-4e39-a728-9925e682ccd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Número Resolución*'])[1]/preceding::a[3]</value>
+      <webElementGuid>4e1d3660-cf54-444e-9171-db6fa04b9d61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha*'])[1]/preceding::a[3]</value>
+      <webElementGuid>91aa2ee8-bc14-43a8-a077-66bba4b2419f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Desembolso']/parent::*</value>
+      <webElementGuid>03165c05-2d8b-47eb-a6b3-f83ecee54c16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +142,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>70cbfc82-125e-4138-984d-9ec208f7dd43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +150,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[5]/tbody/tr/td/a</value>
+      <webElementGuid>e9be9e48-fbac-4080-99e0-0c69883cde93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

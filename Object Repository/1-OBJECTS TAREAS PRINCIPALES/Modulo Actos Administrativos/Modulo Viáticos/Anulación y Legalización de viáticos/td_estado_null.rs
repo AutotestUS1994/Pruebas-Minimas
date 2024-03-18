@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Plan Inversión'])[1]/following::td[3]</value>
+         <value>(//span[contains(text(),'Prueba Plan Inversión')])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>f1f45afa-5f1d-48fe-a5ad-f4bf7ce1043c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>01/07/2021</value>
+      <webElementGuid>ff05a556-e90f-42e1-843b-2422cdc845c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:j_idt135_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/table[1]/tbody[1]/tr[1]/td[2]</value>
+      <webElementGuid>e897a2c7-a0bf-4d45-aa34-6c6c163cee69</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_listadoviaticos:j_idt135_data']/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>34cd08e2-cbc1-4fe0-b10f-98be90e48f27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[3]/following::td[3]</value>
+      <webElementGuid>65c0aecc-c661-4d2b-a8d2-af05c9c783cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitado'])[4]/following::td[3]</value>
+      <webElementGuid>6931256d-9705-48ec-a4ea-b29c56f34607</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[3]/preceding::td[1]</value>
+      <webElementGuid>846fe8c6-eeb9-4742-9c31-06c66bb5888c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Programada'])[3]/preceding::td[2]</value>
+      <webElementGuid>4d5ccbfb-d1fb-4ad6-8284-349ed2f29bf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,5 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/table/tbody/tr/td/table/tbody/tr/td[2]</value>
+      <webElementGuid>6bc80ab4-0e37-4b9e-9e12-94400a72ba14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

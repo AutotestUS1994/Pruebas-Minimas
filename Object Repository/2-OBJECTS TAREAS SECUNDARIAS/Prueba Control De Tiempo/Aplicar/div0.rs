@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/table[1]/tbody/tr[1]/td/div</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/table[1]/tbody/tr[1]/td/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>945d949c-cfd7-4668-a060-1c55d5ff8e33</webElementGuid>
+      <webElementGuid>719e844a-7cf9-4795-b415-569ffeaac71a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-margin-popup</value>
-      <webElementGuid>de665f5b-6610-4bcc-9c35-1f7c3fa62a17</webElementGuid>
+      <webElementGuid>e4016431-ebaf-4859-8010-7d2e46d81670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceso realizado con éxito.</value>
-      <webElementGuid>64678d20-c4f3-4098-af0c-92ed6d6ff120</webElementGuid>
+      <webElementGuid>273b11f2-66d8-4bf2-8cca-d5900c89ed98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;frmInfo_popupEspera:contenedorEspera&quot;)/tbody[1]/tr[1]/td[1]/div[@class=&quot;us-margin-popup&quot;]</value>
-      <webElementGuid>5ef045eb-2f12-42e0-b4c2-6a2d8de05f22</webElementGuid>
+      <webElementGuid>85b1c8e4-6ada-4b22-b7de-2b2aef89654d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='frmInfo_popupEspera:contenedorEspera']/tbody/tr/td/div</value>
-      <webElementGuid>4d88efcc-6abb-40ee-b874-333525038b42</webElementGuid>
+      <webElementGuid>54f09fa8-3a14-4d15-81d9-a91a7bb93498</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensaje'])[1]/following::div[6]</value>
-      <webElementGuid>d646c265-b347-48bc-b035-39542937a125</webElementGuid>
+      <webElementGuid>7845d2ff-ea94-447a-9bbb-2153745da523</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::div[7]</value>
-      <webElementGuid>d875130b-c946-416a-83b5-9efe40a434d3</webElementGuid>
+      <webElementGuid>243b3e41-d242-44b9-9627-8b3a3b85ee54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[8]</value>
-      <webElementGuid>06f88ee6-8531-4ad8-877e-580bc75f29eb</webElementGuid>
+      <webElementGuid>5b2abed8-1d05-49d5-b065-fefac7788e7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[8]</value>
-      <webElementGuid>fdfe5f07-51d6-4d48-8d99-e73cea0075e9</webElementGuid>
+      <webElementGuid>4e554d8e-a0d5-4420-8072-1860b98165a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proceso realizado con éxito.']/parent::*</value>
-      <webElementGuid>5efdf0f6-ee77-479f-96d8-85c6fce808f3</webElementGuid>
+      <webElementGuid>bedd1285-d45b-47e3-ac51-f899e6308b80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]/table/tbody/tr/td/div</value>
-      <webElementGuid>1e5ff3c5-3e96-4b6a-b727-ddf0dcd2a1c1</webElementGuid>
+      <webElementGuid>494d9329-b0b9-4309-b38e-3fb22be2de7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Proceso realizado con éxito.' or . = 'Proceso realizado con éxito.')]</value>
-      <webElementGuid>9355e8de-01d8-4b59-8c66-0dbadda7940c</webElementGuid>
+      <webElementGuid>f2b47229-c369-4b5f-a36d-7ca9f6050840</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

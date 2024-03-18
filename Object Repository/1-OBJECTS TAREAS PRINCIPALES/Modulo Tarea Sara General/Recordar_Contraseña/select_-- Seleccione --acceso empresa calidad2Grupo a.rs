@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>
-/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td/span/div/div/div[1]/table/tbody/tr[10]/td[2]/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td/span/div/div/div[1]/table/tbody/tr[10]/td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>59013085-b242-4bbf-a2a2-ddbdbcf5055f</webElementGuid>
+      <webElementGuid>fd44ac2e-d872-4d11-a552-39569cc7aeda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>usuarioforma:tab:listaGrupo</value>
-      <webElementGuid>8105583a-655e-44e5-ab79-cc7be2d562a4</webElementGuid>
+      <webElementGuid>d39a0380-a655-4987-8678-ac2c4b355a4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>usuarioforma:tab:listaGrupo</value>
-      <webElementGuid>8eea781b-3c79-4013-8fe2-a03803ebe653</webElementGuid>
+      <webElementGuid>9644ec4f-253b-413c-b779-b0059607610a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>27840ddf-83ae-4ddd-bd66-7b7d0735a5f8</webElementGuid>
+      <webElementGuid>17e324e0-f376-4c39-af80-6458b95e07a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>e43577c5-51cd-4fa8-8c49-721cb51cbbbb</webElementGuid>
+      <webElementGuid>ca60d0ff-5f48-47cf-aa37-75d27c3b78d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +64,7 @@
 	acceso empresa calidad2
 	Grupo a
 </value>
-      <webElementGuid>f7255545-8732-4388-8f37-812c73375c19</webElementGuid>
+      <webElementGuid>af7217c5-5498-4f7a-8a1b-a983921bf8c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;usuarioforma:tab:listaGrupo&quot;)</value>
-      <webElementGuid>2760de59-7f3d-4269-84b3-81a4756a393b</webElementGuid>
+      <webElementGuid>b81eee4e-1381-4818-b37a-b67a5d5b9307</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='usuarioforma:tab:listaGrupo']</value>
-      <webElementGuid>7bc06cb0-0efb-4ff7-86c8-dc4ada846e19</webElementGuid>
+      <webElementGuid>3d720575-95a1-47e5-a9a5-0c1c7a98650b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='usuarioforma:tab:j_idt87']/table/tbody/tr[8]/td[2]/select</value>
-      <webElementGuid>e7041c5a-2049-48ad-9925-4fafe1233459</webElementGuid>
+      <webElementGuid>0b41cb72-8588-4e51-b4c6-8efd25cce2fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo Acceso'])[2]/following::select[1]</value>
-      <webElementGuid>e6738286-084a-46c5-9d1a-732fa3926de7</webElementGuid>
+      <webElementGuid>e059a1ed-0d7a-4e46-ab77-fa3e3ce5eee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactiva'])[1]/following::select[1]</value>
-      <webElementGuid>8707189f-6631-4e19-81de-100ffe08ee22</webElementGuid>
+      <webElementGuid>363e5e67-1892-4bd2-b602-84566f445657</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::select[1]</value>
-      <webElementGuid>d88fd861-567e-4962-8168-af94bd743760</webElementGuid>
+      <webElementGuid>8149a427-0501-4b48-a3c4-160cf292db0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::select[1]</value>
-      <webElementGuid>2b02774c-b2da-4483-aeb2-8189779fbf83</webElementGuid>
+      <webElementGuid>1a20b516-b8c1-4ff2-ad26-7d463dc3e5cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>6bda9c40-c098-41de-a168-b12117e0feaa</webElementGuid>
+      <webElementGuid>bde9a8f8-634f-44e1-acab-b72314f720a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +142,6 @@
 	acceso empresa calidad2
 	Grupo a
 ')]</value>
-      <webElementGuid>965e3d57-d228-46f2-8662-5b7ed965ffa2</webElementGuid>
+      <webElementGuid>b4980b2a-6ae0-4863-b4fa-53694f1eabf1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

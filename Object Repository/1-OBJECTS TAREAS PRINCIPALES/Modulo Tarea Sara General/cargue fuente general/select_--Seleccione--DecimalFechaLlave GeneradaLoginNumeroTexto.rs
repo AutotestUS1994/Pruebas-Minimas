@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[5]/div/div[2]/div[2]/table[1]/tbody/tr[2]/td[2]/select
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[5]/div/div[2]/div[2]/table[1]/tbody/tr[2]/td[2]/select
 
 </value>
       </entry>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>45aec873-07b2-469d-b1e3-25016b89c445</webElementGuid>
+      <webElementGuid>ca0acab0-8d20-4d8e-9bbe-15d495562c9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupfuentecampo:tipoDato</value>
-      <webElementGuid>1ddc93c2-f076-4888-9266-f8c77b98d943</webElementGuid>
+      <webElementGuid>30171c60-6ce0-4b2e-862e-73c4009b3f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupfuentecampo:tipoDato</value>
-      <webElementGuid>5c80d04f-2f4d-486b-a26c-a05bf6fee83f</webElementGuid>
+      <webElementGuid>b0c0e257-373c-4ced-a8a1-c11c65a7cc69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>99cb51f4-08f2-49c5-b9fc-464d107ece69</webElementGuid>
+      <webElementGuid>26aed02b-025d-4f6e-8f4f-245316cabed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>1ad33a55-3080-4abe-a012-2cec5e7d787a</webElementGuid>
+      <webElementGuid>1bb633cf-1bf3-4db9-b5c8-f1202682629a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
 	Numero
 	Texto
 </value>
-      <webElementGuid>05e1ad42-8765-44f1-8541-c3a8badf9f2d</webElementGuid>
+      <webElementGuid>931b1780-ac3b-4f53-913f-c397dc8109c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupfuentecampo:tipoDato&quot;)</value>
-      <webElementGuid>e3122381-5150-42ff-ac49-12a9660c2d90</webElementGuid>
+      <webElementGuid>22c90ad1-5291-4817-be44-a89bed82a213</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_popupfuentecampo:tipoDato']</value>
-      <webElementGuid>fdfb4786-fda6-4f4d-b923-2187051fb7d4</webElementGuid>
+      <webElementGuid>e3b4294f-f1b7-4b5d-a77e-fddb1dbaab04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupfuentecampo:j_idt318_content']/div[2]/table/tbody/tr[2]/td[2]/select</value>
-      <webElementGuid>3e8b078e-4a7c-455f-b3fd-98b94169cc29</webElementGuid>
+      <webElementGuid>06f4417c-f52f-4aa1-a2dc-899d6782b1c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Dato'])[3]/following::select[1]</value>
-      <webElementGuid>33b8ea39-a921-4bdb-acef-812a4be1e483</webElementGuid>
+      <webElementGuid>4e4c7b66-cc7f-4380-ac14-d721e8de46ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción*'])[2]/following::select[1]</value>
-      <webElementGuid>5aa387c7-9d67-48ab-b67b-82ecead14634</webElementGuid>
+      <webElementGuid>e9574f8b-fdc1-4957-9e41-a871a0dbea1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Columna*'])[1]/preceding::select[1]</value>
-      <webElementGuid>72ad61f4-3c29-4777-b6ca-82c39167ba12</webElementGuid>
+      <webElementGuid>f8d7b795-fe7e-4c6b-af40-0b879627c57a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posición Inicial'])[1]/preceding::select[1]</value>
-      <webElementGuid>1c3a0e17-b9ce-4f7f-a410-fa6147a66b94</webElementGuid>
+      <webElementGuid>4ec7cf84-4714-4a0b-8ea0-89c6efdc96fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/select</value>
-      <webElementGuid>d5e39339-af83-4b8f-a7b6-e6c7730c4850</webElementGuid>
+      <webElementGuid>72e924c9-01d7-4941-b8dd-125fdbef9316</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -156,6 +156,6 @@
 	Numero
 	Texto
 ')]</value>
-      <webElementGuid>95f6c602-b127-435a-81cb-f8cd5a7961b4</webElementGuid>
+      <webElementGuid>6fcbaf9a-3a94-4242-ace9-fb98fe908db3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

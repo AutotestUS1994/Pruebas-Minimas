@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[5]/td[2]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/table/tbody/tr/td[2]/table/tbody/tr/td[1]/table/tbody/tr[5]/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c75a6ec2-9080-4df0-9770-775b7a16fa90</webElementGuid>
+      <webElementGuid>a41bbc95-eca8-4345-9898-3bae2ca44985</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>datosPuestoTrabajo_form:cargocodigo</value>
-      <webElementGuid>b61c4f67-43b0-4995-b54a-21d49c7d1216</webElementGuid>
+      <webElementGuid>c08b9e82-04cd-4e61-af1c-4bbe7cd6408f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7375d72d-3d52-444e-af10-c8e024fc6ef5</webElementGuid>
+      <webElementGuid>8598e65e-0e4d-4764-aa31-22a0f6977b7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>datosPuestoTrabajo_form:cargocodigo</value>
-      <webElementGuid>eb79c769-80bc-48c3-a553-0133cb06896a</webElementGuid>
+      <webElementGuid>5bfc5c76-7b47-44d7-84d3-14479d96bb87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>20139   </value>
-      <webElementGuid>b9e770c2-590e-4012-ba35-d706a2b32643</webElementGuid>
+      <webElementGuid>c2c14715-5a1a-44cb-b023-3ca3265e7f76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>a3dbb133-2340-4716-a080-a69584b35810</webElementGuid>
+      <webElementGuid>562f2231-f24a-4318-8d39-a395568e3b95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>disabled</name>
       <type>Main</type>
       <value>disabled</value>
-      <webElementGuid>d2c95e41-a989-4acb-b371-4968ff1a7848</webElementGuid>
+      <webElementGuid>19d46399-876b-4b35-8931-199de4c81c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;datosPuestoTrabajo_form:cargocodigo&quot;)</value>
-      <webElementGuid>b76d465d-ad62-4812-bbc2-7510269848ea</webElementGuid>
+      <webElementGuid>8967009c-b848-434b-95d4-f0121e424cc2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='datosPuestoTrabajo_form:cargocodigo']</value>
-      <webElementGuid>58a38577-70f2-4239-a75a-8152f3a31b74</webElementGuid>
+      <webElementGuid>7bcf8ae2-20c8-4e9a-8183-8c0216b2919f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='datosPuestoTrabajo_form']/div/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>7e9645aa-7462-4bf8-8d33-74f24b92713c</webElementGuid>
+      <webElementGuid>e27f9306-9d98-41ab-bf89-568b3e0a7c70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>24a18972-1e55-41cb-8dce-bbce17fae634</webElementGuid>
+      <webElementGuid>35b57f87-e742-4108-9806-0b06249b2ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'datosPuestoTrabajo_form:cargocodigo' and @type = 'text' and @name = 'datosPuestoTrabajo_form:cargocodigo']</value>
-      <webElementGuid>5cc39b1d-fdf5-4b1c-bd4a-b66d8bf51386</webElementGuid>
+      <webElementGuid>8338f2f6-6433-458a-b032-a597d294494c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

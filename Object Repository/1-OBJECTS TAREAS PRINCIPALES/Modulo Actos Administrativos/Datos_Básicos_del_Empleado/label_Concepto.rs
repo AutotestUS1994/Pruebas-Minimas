@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[1]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>77263cf5-219d-490e-98dd-04a782b862d4</webElementGuid>
+      <webElementGuid>f225b505-85bc-4c05-b72f-4884f8794b32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Concepto</value>
-      <webElementGuid>f84905d8-69c0-4c8d-a15b-522aadf5e6f8</webElementGuid>
+      <webElementGuid>fecdce7a-ef2a-40cc-b1aa-cb1b2036e59e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;conceptoempleado_form:j_idt411_content&quot;)/div[@class=&quot;us-head-popup us-popup-img&quot;]/label[1]</value>
-      <webElementGuid>1373f823-47c3-4525-aa43-cfab77adca06</webElementGuid>
+      <webElementGuid>76c43401-a2d6-4940-8b38-d3c0bd8a5372</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='conceptoempleado_form:j_idt411_content']/div/label</value>
-      <webElementGuid>e5b7cff4-cd14-4bfe-a619-f871a913d407</webElementGuid>
+      <webElementGuid>b2a3ea9d-5d81-4f56-ba59-64dd0315eab8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Costo Incurre*'])[1]/following::label[1]</value>
-      <webElementGuid>3bb42ee5-14b6-4b60-b0e1-60362177ba46</webElementGuid>
+      <webElementGuid>26292f64-c4af-4c59-8a73-ea20120e14d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Hasta'])[1]/following::label[1]</value>
-      <webElementGuid>51d64bdf-dfe8-4e48-93bd-d5e3317b4101</webElementGuid>
+      <webElementGuid>09b7fdf4-733f-4933-ba60-f6afc049b9cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Concepto*'])[1]/preceding::label[1]</value>
-      <webElementGuid>59edc156-c3ac-493b-a4c1-7808ffa4d9e7</webElementGuid>
+      <webElementGuid>b4bf744d-a8ea-4914-9db5-015238afecdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vigencia*'])[1]/preceding::label[1]</value>
-      <webElementGuid>9a368ba4-630a-4e3e-9971-5121a6d54fb8</webElementGuid>
+      <webElementGuid>ea43e061-3f1e-43ba-8ec5-402bde126c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[9]/div/div[2]/div/label</value>
-      <webElementGuid>70a6faaa-ac9e-4aa3-85b9-db1fa363c102</webElementGuid>
+      <webElementGuid>632c58fd-b62c-4016-b49f-8b34d5f2132f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Concepto' or . = 'Concepto')]</value>
-      <webElementGuid>0d4d95ea-837f-49ec-b7d9-d6cbbf2b7141</webElementGuid>
+      <webElementGuid>001543d8-6ecb-43ba-a9d7-a5ef91e6801f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Costos']/parent::*</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[1]/form/table/tbody/tr[1]/td/table/tbody/tr[1]/td/div/div[2]/table[3]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>11d7e6b0-3e5d-41bd-807e-fe4ed0309596</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1537</value>
+      <webElementGuid>a60d3f02-e74f-4f3f-a826-b5ac9e5a21b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>35474a13-25a4-4e60-bcaa-4a857b3fe1f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>4ecff9c8-01d9-4fe1-8997-8f3eb787e784</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1537&quot;,f:&quot;form_detalleviaticosMenu&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
+      <webElementGuid>5a0adfa8-30ff-49bc-a635-b24fbc1866b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Costos </value>
+      <webElementGuid>05b06612-d282-493f-a3ef-627980a5fc5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1537&quot;)</value>
+      <webElementGuid>ca1b2313-10ef-4b9a-9bdd-e6076f66063f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1537']</value>
+      <webElementGuid>1828b765-8b79-4357-96c2-979d774503ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticosMenu:j_idt1204:j_idt1206:j_idt1207']/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>9fba4050-bdc1-4c44-b872-6f91629c760b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Costos')])[3]</value>
+      <webElementGuid>3bc5c1dd-0c8c-4e3b-904f-2860b2c46381</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viatico'])[1]/following::a[3]</value>
+      <webElementGuid>baf564d6-6485-4b3c-bdfa-925b85256952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[9]</value>
+      <webElementGuid>9946bb03-e823-4c96-a8aa-7e810b1ff9df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información Básica'])[1]/preceding::a[5]</value>
+      <webElementGuid>a9f249cb-516f-4a98-9910-be60b3a7e90f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha'])[1]/preceding::a[5]</value>
+      <webElementGuid>e5fa0a9f-5ae0-4051-b34d-f810fe23c386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Costos']/parent::*</value>
+      <webElementGuid>f89f8dc9-4de9-4e4b-87a3-a8ae8a5af069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>d459dec7-1c83-4923-bb6c-1c37cc237edf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td/a</value>
+      <webElementGuid>64548f51-657a-4053-986e-1c68046049a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1.8.4-Crear_empresa_y_suario</name>
+   <name>1.8.4-Crear_empresa_y_usuario</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>214913ce-ff4a-487a-bb33-9f48b4576df2</testCaseGuid>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[15]/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/span</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[15]/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>17c89b36-c1f1-4447-b895-276695890ef9</webElementGuid>
+      <webElementGuid>23a8bb3b-dc4e-4273-85ba-6c0cfc3e87d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
-      <webElementGuid>fc36ec54-d1ec-4959-88a9-1f63eac306f9</webElementGuid>
+      <webElementGuid>fb25a0f4-bb0f-4dfa-adcb-bf5ce8c6296d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Diaz Blanco Guisell</value>
-      <webElementGuid>3712a24c-e810-42ae-aaa5-088726283f7c</webElementGuid>
+      <webElementGuid>54f3432b-bc33-40ba-90cd-7ec7ee90f830</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupFiltroEmpleado:tabla_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]/span[@class=&quot;valor_campo&quot;]</value>
-      <webElementGuid>2d8ddb94-f897-4420-bb1e-fa8e2219850b</webElementGuid>
+      <webElementGuid>92ce04dd-75e8-4a3b-8b2a-fb09a136f929</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_popupFiltroEmpleado:tabla_data']/tr/td[3]/span</value>
-      <webElementGuid>7eba16c7-3317-4cbd-a60d-bc5c74c2210e</webElementGuid>
+      <webElementGuid>afddf6ae-6b71-4d41-8994-fe6484d1c812</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado Laboral'])[1]/following::span[3]</value>
-      <webElementGuid>9f96c298-853f-4b0a-884b-d25cf1f06c31</webElementGuid>
+      <webElementGuid>085c1675-d583-4c24-86c3-43437fa63d0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Ingreso'])[1]/following::span[4]</value>
-      <webElementGuid>ff012cfb-fd6f-4078-8009-a8cb344d2878</webElementGuid>
+      <webElementGuid>abcb15c0-d8cc-46ed-a481-97c2fcc6c887</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CALIDAD'])[1]/preceding::span[1]</value>
-      <webElementGuid>eb7183de-a3d5-4819-813b-a2f0823acf04</webElementGuid>
+      <webElementGuid>6910aef5-9b1a-4f00-8f77-df0aa6b71c5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ACTIVO'])[1]/preceding::span[3]</value>
-      <webElementGuid>db93d52e-4f8f-47b2-b3a0-11ad47a03146</webElementGuid>
+      <webElementGuid>d4a459ba-faa8-4d84-ba89-699f3b05663f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Diaz Blanco Guisell']/parent::*</value>
-      <webElementGuid>74cd46f6-2a74-4be6-a59a-a4d47570c725</webElementGuid>
+      <webElementGuid>2d7d6937-0f7c-4e78-bc5c-bb8f237778b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/table/tbody/tr/td[3]/span</value>
-      <webElementGuid>d0a23bd5-704a-41bc-929d-14a36cffddc1</webElementGuid>
+      <webElementGuid>f62e989d-135f-446c-bd05-17234551f283</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
