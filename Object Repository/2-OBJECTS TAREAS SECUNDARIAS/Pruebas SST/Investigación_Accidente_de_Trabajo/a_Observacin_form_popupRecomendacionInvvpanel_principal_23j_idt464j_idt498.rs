@@ -6,11 +6,12 @@
    <elementGuidId>2309045e-4ce3-4606-9f99-2da3656c1e0e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//td[5]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//td[5]/a
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>3084b5c4-270c-4250-a03e-f2148796e552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupRecomendacionInvv:panel_principal_23:j_idt464:j_idt498</value>
+      <webElementGuid>17f59601-915d-444c-8e9a-3cd6feebce06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>27d7e5bb-1afb-4278-957b-9596fed5e5de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <webElementGuid>b1dad3a3-5052-4aed-9f74-d1b0ca7a03b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupRecomendacionInvv:panel_principal_23:j_idt464:j_idt498&quot;,f:&quot;form_popupRecomendacionInvv&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>63cbb3f0-d114-455e-a4ed-239cf41b56fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupRecomendacionInvv:panel_principal_23:j_idt464:j_idt498&quot;)</value>
+      <webElementGuid>633792b8-f54a-49a3-9653-fd17b942ddf9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupRecomendacionInvv:panel_principal_23:j_idt464:j_idt498']</value>
+      <webElementGuid>f683cc58-9e7a-42ca-8518-addb731e8a3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='form_popupRecomendacionInvv:panel_principal_23:j_idt464_foot']/tr/td[5]/a</value>
+      <webElementGuid>0e4d6f1d-95f4-45af-a1d0-e5e18c441518</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[41]</value>
+      <webElementGuid>bc201854-8cd4-4bcb-a172-960b91755c7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/a</value>
+      <webElementGuid>c4fbd846-89f2-424d-b9a3-3e10e486562f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

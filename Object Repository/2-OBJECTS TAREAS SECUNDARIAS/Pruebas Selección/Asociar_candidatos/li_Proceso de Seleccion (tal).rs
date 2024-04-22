@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+         <value>//body/span/ul/li/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
+      <webElementGuid>63f3cf04-d932-45c6-800b-f11d2dac0dac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>b3c0234a-85c8-40f6-8dd4-a9791666ccd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-item-label</name>
       <type>Main</type>
       <value>Proceso de Seleccion (tal)</value>
+      <webElementGuid>364145f9-af0e-4217-973d-9b63d4ad99a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-item-value</name>
       <type>Main</type>
       <value>Proceso de Seleccion (tal)</value>
+      <webElementGuid>7139d4d6-979c-4a87-8965-29abb0e986f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
+      <webElementGuid>a93b2eab-b61f-4d26-8383-1784f84437e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proceso de Seleccion (tal)</value>
+      <webElementGuid>ad696e4f-e255-4556-b3c4-46c18c3428ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>d5cafe96-e830-4bf8-bbc3-aa61b8af94a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+      <webElementGuid>156bf8d4-f48c-4f37-a0ab-feb947c4b3f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Regresar'])[1]/following::li[1]</value>
+      <webElementGuid>8d8ea84f-fb65-4167-8a11-332e84530f35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO RELACIONADA'])[9]/following::li[1]</value>
+      <webElementGuid>0274f0f6-e638-4263-ab65-35739d81bd81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Todo'])[1]/preceding::li[1]</value>
+      <webElementGuid>b01c52ee-c9a3-4585-9d70-e10cb691875e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='leccion (tal)']/parent::*</value>
+      <webElementGuid>0b3c5f0c-6e01-4d38-a95d-ea009ee7c51c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li</value>
+      <webElementGuid>d1831251-a903-4cff-a191-da4ac214d424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Proceso de Seleccion (tal)' or . = 'Proceso de Seleccion (tal)')]</value>
+      <webElementGuid>0873e737-5baf-429d-93d7-dc951e609d5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

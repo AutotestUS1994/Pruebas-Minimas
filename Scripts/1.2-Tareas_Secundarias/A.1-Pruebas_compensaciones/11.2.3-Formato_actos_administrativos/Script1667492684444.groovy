@@ -850,6 +850,9 @@ def verificar2023() {
     WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
         Keys.chord(Keys.ENTER))
 
+    WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/input_Bsqueda_form_parametroformatoconceptofiltro'), 
+        Keys.chord(Keys.ENTER))
+
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'), 
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Formato_actos_administrativos/td_2023'))

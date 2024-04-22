@@ -6,11 +6,11 @@
    <elementGuidId>90331746-fa12-4c95-a6ef-3798979d0147</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/span/div[1]/div[2]/table/tbody/tr[2]/td[2]/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/span/div[1]/div[2]/table/tbody/tr[2]/td[4]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5c3f14f3-e082-40ce-9359-aed24c79aeb2</webElementGuid>
+      <webElementGuid>a59cc5a0-2c25-4188-a86f-e86dd2829dbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:fechaps_input</value>
-      <webElementGuid>b851a5a9-7656-4e10-9c50-cb40a5e1fa73</webElementGuid>
+      <webElementGuid>6c12a57d-707d-4cab-9487-ae51ca565f72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:fechaps_input</value>
-      <webElementGuid>614dd116-6160-430c-aa0f-f612e68147a6</webElementGuid>
+      <webElementGuid>c2877425-491f-43ea-acc3-7e500f26f435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>55c0d74b-0891-4ca2-837d-fc4932d31592</webElementGuid>
+      <webElementGuid>14444d08-e32d-4d1f-a7b7-1fe5483211c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
-      <webElementGuid>eee21ef3-d254-4055-811b-30bd030556d0</webElementGuid>
+      <webElementGuid>95e7b2d5-504d-4b44-b1ac-face7847d6fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>c1784e04-ed0c-4337-b307-4cce4cfbd6a9</webElementGuid>
+      <webElementGuid>de998e7f-8a84-4593-a14e-1f87a17f225e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>57695053-9402-46c1-90cf-63bd7cf3c604</webElementGuid>
+      <webElementGuid>e04c9135-3280-4f85-9ccf-7c5ee0ea1bc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>07ad8888-7829-48aa-8e0e-636465e827ff</webElementGuid>
+      <webElementGuid>b5dee199-ac9a-48d3-98e0-cd5ff9e3c604</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtro_procesoseleccion:fechaps_input&quot;)</value>
-      <webElementGuid>0160954d-cceb-40e7-a393-9ca2b1395f11</webElementGuid>
+      <webElementGuid>364e76e8-be5a-40f9-bc6c-9c53aca876cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='filtro_procesoseleccion:fechaps_input']</value>
-      <webElementGuid>1d5efb10-0207-4886-b343-a278af0c9679</webElementGuid>
+      <webElementGuid>4921a0ef-7388-42c7-9cca-bcca6991b72f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='filtro_procesoseleccion:fechaps']/input</value>
-      <webElementGuid>edc789fc-77d7-4ece-9cb0-0fd64483c536</webElementGuid>
+      <webElementGuid>cb83191b-4ef5-480c-8136-1b102324d22b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[6]/span/input</value>
-      <webElementGuid>4f794b9a-5dc8-4e47-9068-a374a2b5913c</webElementGuid>
+      <webElementGuid>e731d88f-c654-4629-bb6e-9862fb22922d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'filtro_procesoseleccion:fechaps_input' and @name = 'filtro_procesoseleccion:fechaps_input' and @type = 'text']</value>
-      <webElementGuid>9357f93f-3267-4db6-997e-3f08387cb333</webElementGuid>
+      <webElementGuid>e3fe45f9-35ff-4e2b-b952-7b885d4def60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,7 +10,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/span/input</value>
+         <value>//td[4]/span/input
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>f2774256-005a-4149-92c3-28877f59719e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:fechaps_input</value>
+      <webElementGuid>5d8c7d7a-5c9a-45bc-8234-656dd1d56f9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>filtro_procesoseleccion:fechaps_input</value>
+      <webElementGuid>5a28c5b1-8341-4356-8c26-f092708569d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>faf044fd-85ee-4d0c-bed4-2660335f5b63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>097372ba-1a33-4e26-b843-2be76779b4ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>67733046-d87a-49fc-afda-2be536f74285</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>5fefda2f-7feb-4993-b537-4da579f17d46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>19112810-956d-4a4b-865d-9265cfb0052d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;filtro_procesoseleccion:fechaps_input&quot;)</value>
+      <webElementGuid>a4b50a1c-c9f6-41da-acb4-2f256e20d51a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='filtro_procesoseleccion:fechaps_input']</value>
+      <webElementGuid>3b50aa02-2b8f-4924-a665-11a210ea4021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='filtro_procesoseleccion:fechaps']/input</value>
+      <webElementGuid>9c5e21a8-aa43-4c9d-b13d-9a76517ba5ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/input</value>
+      <webElementGuid>0a0f1ad5-54c4-400e-aa29-a26ec5afdc55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'filtro_procesoseleccion:fechaps_input' and @name = 'filtro_procesoseleccion:fechaps_input' and @type = 'text']</value>
+      <webElementGuid>12a67b51-59a9-4cde-947f-54771e5ee402</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

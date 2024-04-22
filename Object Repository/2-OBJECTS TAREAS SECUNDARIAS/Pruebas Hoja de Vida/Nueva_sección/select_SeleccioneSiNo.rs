@@ -6,11 +6,12 @@
    <elementGuidId>0bcdf47b-6825-41ba-bb9a-e393f53139a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[9]/td[2]/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[10]/td[2]/select
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>6996417a-8e3f-48a5-9d7b-34ea8762d032</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>seccion_form:tab:novedaddirecta</value>
+      <webElementGuid>a71f9028-5b29-4a69-bae7-5867c6fd3e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>seccion_form:tab:novedaddirecta</value>
+      <webElementGuid>af406351-c6a5-49a8-bc7b-18c2051a3882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>82d45f63-c60e-4362-ae9d-51ed6d28a367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>7849d77c-b8fd-44d5-b0c0-278d625f21ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,6 +65,7 @@
 	Si
 	No
 </value>
+      <webElementGuid>f8654c5d-bbb8-4cee-9bdd-82f9a30cb558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,6 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;seccion_form:tab:novedaddirecta&quot;)</value>
+      <webElementGuid>9d95ab70-3c0b-4092-99f7-80b1d1444e8d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,6 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='seccion_form:tab:novedaddirecta']</value>
+      <webElementGuid>07e47d07-ffd1-4431-a026-b102c769f0dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='seccion_form:tab:j_idt67']/table/tbody/tr[9]/td[2]/select</value>
+      <webElementGuid>2d36390c-4f73-4570-902f-2df4ce1263a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Novedad Directa*'])[1]/following::select[1]</value>
+      <webElementGuid>824b3fbb-cf77-4259-a7b4-5b849faae463</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incluir Anexo*'])[1]/following::select[2]</value>
+      <webElementGuid>8a6068c3-b67d-428f-9f6c-4a2421f47080</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Externo'])[1]/preceding::select[1]</value>
+      <webElementGuid>9fdc186b-3a59-4806-ad8b-eeeb7e2bc53f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::select[1]</value>
+      <webElementGuid>9f1e3ba8-321d-42c4-9267-14241d97d5c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,5 +129,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td[2]/select</value>
+      <webElementGuid>df0897de-aeec-461c-b23f-46979211da01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

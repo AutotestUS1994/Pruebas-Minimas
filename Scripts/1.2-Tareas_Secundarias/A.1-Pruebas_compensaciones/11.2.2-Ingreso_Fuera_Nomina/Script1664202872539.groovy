@@ -236,6 +236,9 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/I
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/a_Continuar'))
 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/a_Aplicar'), 
+    0)
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/a_Aplicar'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Ingreso_Fuera_Nomina/a_Aceptar'))

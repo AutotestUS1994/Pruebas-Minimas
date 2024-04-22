@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>051e9804-c5b9-490f-995f-b33d01658da0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt653:j_idt654:j_idt656:j_idt756</value>
+      <webElementGuid>637d07f9-98f0-45f2-adf9-a97595f793c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b10082f0-bf94-4c86-aeef-ce51efd76af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>eb13ff0a-5ec0-4266-8b1f-f42be79169de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;j_idt653:j_idt654:j_idt656:j_idt756&quot;,f:&quot;j_idt653&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>d53e5daa-0d0c-4056-b30a-56fbc691cee0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Registro Citación </value>
+      <webElementGuid>8f69dcb1-ff1d-44e3-8056-87f0d9aaafd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt653:j_idt654:j_idt656:j_idt756&quot;)</value>
+      <webElementGuid>e3c66f5d-8171-4cd2-8fc4-f036c7895b67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt653:j_idt654:j_idt656:j_idt756']</value>
+      <webElementGuid>06413347-2c59-4f50-b930-201770ba3371</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt653:j_idt654:j_idt656:j_idt746']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>6417333f-8938-402c-bc8d-6465dbf6d77c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Registro Citación')]</value>
+      <webElementGuid>959b49fe-d53c-4663-95f0-c2e40bb93c99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Citacion'])[1]/following::a[2]</value>
+      <webElementGuid>7d888256-b314-4844-a2c4-c3ec05bd9f50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidato'])[1]/following::a[10]</value>
+      <webElementGuid>bc97b5de-09ac-4442-92bd-28a8aceb2c44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes'])[1]/preceding::a[7]</value>
+      <webElementGuid>1e33ce0f-623c-43c1-98db-7127ec48ee2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa'])[1]/preceding::a[11]</value>
+      <webElementGuid>93f351d6-7615-4a93-809d-dfdf2853e242</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Registro Citación']/parent::*</value>
+      <webElementGuid>c581e54c-08c8-45ef-b178-05566b1d5d42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[39]</value>
+      <webElementGuid>160a13f9-cd9e-42ad-a21b-b9260e8d31da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>5e635b4e-24b0-418e-96eb-11d0987425f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'j_idt653:j_idt654:j_idt656:j_idt756' and @href = '#' and (text() = 'Registro Citación ' or . = 'Registro Citación ')]</value>
+      <webElementGuid>519dbf92-8f2c-438d-a54d-abc694380542</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

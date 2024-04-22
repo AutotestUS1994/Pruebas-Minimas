@@ -75,12 +75,14 @@ if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/a_Control'))
 
-                zoom()
+               
 
                 if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/a_Efectuado_form_popupRecomendacionInvvpanel_principal_23tablaControl0j_idt460'), 
                     1)) {
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/a_Efectuado_form_popupRecomendacionInvvpanel_principal_23tablaControl0j_idt460'))
-
+					
+					zoom() 
+					
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Reporte_de_accidente_de_trabajo/label_Confirmacin'), 
                         FailureHandling.STOP_ON_FAILURE)
 

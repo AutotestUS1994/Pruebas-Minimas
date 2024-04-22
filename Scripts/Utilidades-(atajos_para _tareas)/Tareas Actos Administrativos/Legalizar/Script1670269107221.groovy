@@ -61,6 +61,8 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
 
     WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Continuar'))
 
+    WebUI.scrollToElement(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Aplicar'), 0)
+
     WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Aplicar'))
 
     if (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'), 1)) {
@@ -76,27 +78,23 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
 
         String subPuesto = ''
 
-
-        
         if (puesto == 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-            
+        } else if (TokenCount1 == 49) {
+            subPuesto = puesto.substring(43, 48)
+        } else if (TokenCount1 == 36) {
+            subPuesto = puesto.substring(29, 35)
+        } else {
+            println(TokenCount1)
+
+            WebUI.acceptAlert()
+
+            println(TokenCount1)
         }
-		else if (TokenCount1 == 49) {
-			subPuesto = puesto.substring(43, 48)
-		} else if (TokenCount1 == 36) {
-			subPuesto = puesto.substring(29, 35)
-			
-		} else {
-			println(TokenCount1)
-			
-			WebUI.acceptAlert()
-			
-			println(TokenCount1)
-		}
-		
-		if (puesto != 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
-			liberar(subPuesto)
-		}
+        
+        if (puesto != 'EL SISTEMA HA GENERADO EL ACTO ADMINISTRATIVO CORRECTAMENTE') {
+            liberar(subPuesto)
+        }
+        
         WebUI.setText(findTestObject('3-OBJECTS UTILIDADES/Legalizar/input_Empresa 1_form_templatej_idt24_input'), 'Actos Administrativos')
 
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/li_Planta Personal (tal)'))
@@ -139,6 +137,8 @@ while (WebUI.waitForElementVisible(findTestObject('3-OBJECTS UTILIDADES/Legaliza
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/td_Ingreso Definitivo Indefinido Salario Basico'))
 
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Continuar'))
+
+        WebUI.scrollToElement(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Aplicar'), 0)
 
         WebUI.click(findTestObject('3-OBJECTS UTILIDADES/Legalizar/a_Aplicar'))
 
@@ -201,13 +201,13 @@ def actualizar() {
 
     robot.keyPress(KeyEvent.VK_SHIFT)
 
-	robot.keyPress(KeyEvent.VK_R)
-	
-	robot.keyRelease(KeyEvent.VK_CONTROL)
-	
-	robot.keyRelease(KeyEvent.VK_SHIFT)
-    
-	robot.keyRelease(KeyEvent.VK_R)
+    robot.keyPress(KeyEvent.VK_R)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SHIFT)
+
+    robot.keyRelease(KeyEvent.VK_R)
 }
 
 def liberar(def subPuesto) {

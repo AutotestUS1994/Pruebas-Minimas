@@ -6,12 +6,11 @@
    <elementGuidId>11658164-bc1b-450a-9a29-cc4a6fb98636</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='form_ActosAdministrativos:tabla_principal_1:2:j_idt81']/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/table/tbody/tr/td[1]/table/tbody/tr[1]/td/table/tbody/tr/td/div/div/table/tbody/tr[3]/td/a[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>abacc2ba-e06b-4ee0-801d-184fe4724b9d</webElementGuid>
+      <webElementGuid>d4a6038b-3eb1-4a6c-b278-9b8643306367</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>label-accion-acto</value>
-      <webElementGuid>fe9ef3d9-91f5-4881-8b4d-d91d0b5c011c</webElementGuid>
+      <webElementGuid>28f1cd02-6392-49cc-a0da-7091eee00671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Legalizar</value>
-      <webElementGuid>677f6271-041e-4f2b-9550-e8f88ac62a76</webElementGuid>
+      <webElementGuid>9ad7e50e-3ee2-4c67-b3b1-7d058202bc2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_ActosAdministrativos:tabla_principal_1:2:j_idt81&quot;)/span[@class=&quot;label-accion-acto&quot;]</value>
-      <webElementGuid>173583d9-f689-41fa-8040-ec3b7a6516f3</webElementGuid>
+      <webElementGuid>4b9ab49b-055d-4990-b8cf-249a4366aeb9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='form_ActosAdministrativos:tabla_principal_1:2:j_idt81']/span</value>
-      <webElementGuid>bd0bc57b-c260-4b2a-9b89-328354d60425</webElementGuid>
+      <webElementGuid>73c8b43d-7725-4cf6-897b-6a6755af6194</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Eliminar'])[1]/following::span[1]</value>
-      <webElementGuid>431f1850-7dba-446e-a81b-a492b21721c5</webElementGuid>
+      <webElementGuid>2987e708-cb3d-4c94-99a5-b0fb4bf2c934</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Elaborar'])[1]/following::span[2]</value>
-      <webElementGuid>a911923f-5193-4199-b085-ea63768eab22</webElementGuid>
+      <webElementGuid>a03c3f38-8d80-4980-9203-2e586ab2786d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modificar'])[1]/preceding::span[1]</value>
-      <webElementGuid>d3a6ad7e-618d-47ee-b7b1-74a6651b929a</webElementGuid>
+      <webElementGuid>fd515b7a-34b3-435b-a675-7354f21e8699</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::span[8]</value>
-      <webElementGuid>a952d2ad-6f4d-4546-9673-6c91550930ba</webElementGuid>
+      <webElementGuid>4cfeaec6-cf39-4f40-ad02-c58e22c7a306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Legalizar']/parent::*</value>
-      <webElementGuid>c3b524fb-174a-4280-8620-d8deaaf4c8a0</webElementGuid>
+      <webElementGuid>bfc7543d-4ef4-4083-b842-663cec88bc60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/a[2]/span</value>
-      <webElementGuid>964de1ac-3d1c-449d-8c79-dbd9a82cc92d</webElementGuid>
+      <webElementGuid>3a822837-1901-4e3a-a174-a79a9e653b01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Legalizar' or . = 'Legalizar')]</value>
-      <webElementGuid>5d990b1f-449f-4c5d-abb5-fe5056cc4bb4</webElementGuid>
+      <webElementGuid>4a37a63f-fa4b-40a9-b4a3-c97ff66e98df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

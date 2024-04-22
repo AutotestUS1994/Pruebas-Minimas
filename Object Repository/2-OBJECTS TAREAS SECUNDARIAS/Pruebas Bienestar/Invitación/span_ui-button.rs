@@ -6,12 +6,12 @@
    <elementGuidId>92b2a9fd-b324-40b5-91ae-625a499f73fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[5]/div/div[2]/div[2]/div/div/div[1]/table/thead/tr/th[1]/span/center/table/tbody/tr/td[2]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ui-button-text.ui-c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[5]/div/div[2]/div[2]/div/div/div[1]/table/thead/tr/th[1]/span/table/tbody/tr/td[2]/span/button/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>49198670-91e7-40d1-9345-e5a22224d6ee</webElementGuid>
+      <webElementGuid>41e02e62-9832-4cfc-9a63-414d10063ec6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-button-text ui-c</value>
-      <webElementGuid>f017e293-09aa-4d7e-aaac-ad3bb481cda5</webElementGuid>
+      <webElementGuid>0601a69e-6c9c-45fb-a279-7f7ae70ac10b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ui-button</value>
-      <webElementGuid>ec0a01bf-63be-4290-b246-2aff21a1d0dd</webElementGuid>
+      <webElementGuid>0eb0dd69-29ed-4f93-b096-f26f486cce43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;invitacionEventosPopupForm:j_idt1366:j_idt1370:j_idt1381_button&quot;)/span[@class=&quot;ui-button-text ui-c&quot;]</value>
-      <webElementGuid>c4c7ff25-776d-44b3-9218-d5080cc647a8</webElementGuid>
+      <webElementGuid>6ed6e21c-2d53-40c5-89c1-71b839e98711</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='invitacionEventosPopupForm:j_idt1366:j_idt1370:j_idt1381_button']/span[2]</value>
-      <webElementGuid>ca025cf7-f19e-4078-aa0d-d495ced6398e</webElementGuid>
+      <webElementGuid>0a6badbc-7725-4814-9d18-33eda82734a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[2]/following::span[4]</value>
-      <webElementGuid>ad1c922c-4931-4853-a05a-6c434ab974fb</webElementGuid>
+      <webElementGuid>2434a59e-0dab-4a9e-a1c4-41e10f21c076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Campo'])[1]/following::span[4]</value>
-      <webElementGuid>22ecc247-ac5a-46d3-a08c-679284cdc239</webElementGuid>
+      <webElementGuid>72baa784-dc5c-4982-8ce6-7bf89da06de4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[2]/preceding::span[1]</value>
-      <webElementGuid>f0a2d261-b8cd-4912-b667-cbd376fc75f9</webElementGuid>
+      <webElementGuid>bcfa8dc3-2a86-4669-916f-550c9d468059</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empleado'])[1]/preceding::span[2]</value>
-      <webElementGuid>224c104b-b269-47af-abd8-88d8d1685f9d</webElementGuid>
+      <webElementGuid>0b453c35-d403-4c00-8d13-2ba956c71cd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='ui-button']/parent::*</value>
-      <webElementGuid>90708eec-f1e4-4ed0-840b-b604fd3e137b</webElementGuid>
+      <webElementGuid>bc643c05-9c5c-4d33-a5e5-52bdfdf99306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span[2]</value>
-      <webElementGuid>3efb2ee8-c450-40e0-b5fc-568cf997acde</webElementGuid>
+      <webElementGuid>a3f2444d-0f68-41c9-ba5d-c27e836f70ff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

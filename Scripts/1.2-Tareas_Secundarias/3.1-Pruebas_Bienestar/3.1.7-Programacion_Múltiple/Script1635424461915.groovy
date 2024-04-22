@@ -27,8 +27,6 @@ Number Dia = ((today.format('dd')) as Integer)
 
 Number Mes = ((today.format('MM')) as Integer)
 
-String Mes1 = today.format('MM')
-
 Number MesN = ((today.format('MM')) as Integer)
 
 Number Año = ((today.format('yyyy')) as Integer)
@@ -38,109 +36,34 @@ Number AñoN = ((today.format('yyyy')) as Integer)
 /*-----------------------------------------------*/
 Number sumaD = Dia + 10
 
-Number sumaM = Mes + 0
+Number sumaM = Mes + 1
 
 Number sumaA = Año + 1
 
-if ((Dia < 30) || (Dia > 31)) {
-    Dia = (Dia - 30)
-
-    MesN = (MesN + 1)
-}
-
 /*--------------------------*/
-if (Mes >= 10) {
-    String suma1 = { 
-        '0' + Mes
-    }
-} else {
-    Mes
-}
-
-/*--------------------------*/
-if (sumaM < 10) {
-    String sumaM0 = '0' + sumaM
-} else {
-    sumaM
-}
-
-/*--------------------------*/
-/*if (sumaD > 30) {
-    sumaD = (sumaD - Dia)
-
-    Mes = sumaM
-} else {
-    sumaD
-
-    Mes
-}
-
 if (sumaD > 30) {
-    sumaD = 9
-}
-*/
-if(sumaD > 30) {
 	sumaD = (sumaD - Dia)
+
+	Mes = sumaM
+} else {
+	sumaD
+
+	Mes
 }
 
-if(MesN <= Mes) {
-	Mes= MesN + 1
-}
 /*--------------------------*/
 if (sumaM > 12) {
-    Año = sumaA
+	Año = sumaA
 
-    Mes = 1
+	Mes = 1
 }
 
 /*---------------------------*/
-Number Dia0 = Dia + 1
-
-Number restaD0 = sumaD - 1
-
-/*----------------------------*/
-if (Dia0 > 30) {
-    Dia0 = (Dia0 - Dia)
-
-    MesN = sumaM
-} else {
-    Dia0
-
-    MesN
-}
-
-if(Dia0 <= sumaD) {
-	Dia0 = sumaD
-}
-
-/*----------------------------*/
-if (restaD0 < 1) {
-    restaD0 = 1
-
-    Mes = (Mes - 1)
-} else {
-    restaD0
-
-    Mes
-}
-
-/*----------------------------*/
-def FechaI = (((Dia + '/') + MesN) + '/') + AñoN
+String FechaI = (((Dia + '/') + MesN) + '/') + AñoN
 
 String FechaF = (((sumaD + '/') + Mes) + '/') + Año
 
-String FechaI0 = (((Dia0 + '/') + MesN) + '/') + AñoN
-
-String FechaF0 = (((restaD0 + '/') + Mes) + '/') + Año
-
-println(FechaI)
-
-println(FechaF)
-
-println(FechaI0)
-
-println(FechaF0)
-
+/*----------------------------------------------------*/
 /*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -248,23 +171,24 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Pro
 
 WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
     0)
-
+//Antes FechaI0
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupfechaInicialPop_input'), 
-    FechaI0)
+    FechaI)
 
 WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
     0)
-
+//Antes FechaF0
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopuppMEFechaTerminaPopup_input'), 
-    FechaF0)
+    FechaF)
 
 if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'), 
     1)) {
     String result0 = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/div_Formato de fecha no valido'))
 
     if (result0 == 'Formato de fecha no valido.') {
+		//Antes FechaF0
         WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/input_Inscripcin Inicial_popupMomentoEvento_formpMEInscripcionInicia_input'), 
-            FechaF0)
+            FechaF)
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Programacion_Múltiple/a_Horario_popupMomentoEvento_formtablaMomentoEventoHorarioPopupj_idt1579'), 
             FailureHandling.STOP_ON_FAILURE)

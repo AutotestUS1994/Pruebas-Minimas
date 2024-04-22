@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div/table/tbody/tr/td[2]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/div/div[2]/div[2]/div/div/div/table[1]/tbody/tr[1]/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>67a45579-c3dc-452a-8cb6-5402d5eed223</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grupoEvento:panel_principal_2:codigo</value>
+      <webElementGuid>b64ce949-4fe5-4ac7-a1ec-f88799765680</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>cf2358f7-bdbd-40ed-b704-993a4174b386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>grupoEvento:panel_principal_2:codigo</value>
+      <webElementGuid>10c28d59-950b-4b41-8c7d-c0e91f7d0670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>d44ddcc4-7c68-4c6e-a7a6-63625870fcd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>264eb2e2-0b87-4ace-9ba4-632f41e0b80a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:panel_principal_2:codigo&quot;)</value>
+      <webElementGuid>eab1d15e-43a3-4736-9832-bf6ff025f1c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='grupoEvento:panel_principal_2:codigo']</value>
+      <webElementGuid>81d273d8-63cd-4392-bc53-2e224a57ab6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grupoEvento:panel_principal_2:j_idt323']/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>a654fb1c-c723-47e3-93e9-796a4b8ed9b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>093b2114-6a9a-45b3-bda3-c15d6211f94d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

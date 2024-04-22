@@ -6,11 +6,12 @@
    <elementGuidId>6bd9a514-84e7-4da1-9c97-6bd801b7fdec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[10]/td[2]/input</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[11]/td[2]/input
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>fd980550-a765-44c6-9603-c67a8e4ca0d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>seccion_form:tab:externo</value>
+      <webElementGuid>d353a133-c160-4096-96f5-05c3b19fe012</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>c9adf5e3-1bc4-4771-b7b4-614beb419708</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>seccion_form:tab:externo</value>
+      <webElementGuid>c3288ed0-e0a8-4412-8f30-18fd0156d309</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>f0f2ff6a-ebe3-46c2-9fb4-688ddfe7dde4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
+      <webElementGuid>c5461f9f-85ce-45a5-ad17-0e8266b711c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;seccion_form:tab:externo&quot;)</value>
+      <webElementGuid>1e9860d1-fe1b-4936-a65f-cb2265e5d85d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='seccion_form:tab:externo']</value>
+      <webElementGuid>20832675-a5d9-4a5e-98a8-b33fa938816b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='seccion_form:tab:j_idt67']/table/tbody/tr[10]/td[2]/input</value>
+      <webElementGuid>25663293-5d09-46d8-8d67-c4b3f8ddcb1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[10]/td[2]/input</value>
+      <webElementGuid>6206ad1d-3efc-4e3b-b682-b82d9e991e4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

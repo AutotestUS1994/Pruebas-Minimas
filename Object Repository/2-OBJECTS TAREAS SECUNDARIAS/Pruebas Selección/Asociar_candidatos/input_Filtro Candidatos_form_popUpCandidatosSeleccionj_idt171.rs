@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[24]/div/div[2]/div[2]/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[25]/div/div[2]/div[2]/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>62efec3e-6fce-453c-81f2-d51892570abe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popUpCandidatosSeleccion:j_idt171</value>
+      <webElementGuid>7b01c9c9-ce65-432b-b501-70c02877b43c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popUpCandidatosSeleccion:j_idt171</value>
+      <webElementGuid>b1544ad8-16f5-4085-9580-f9549b506495</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>1524d071-81a8-451a-9a2f-f7a088a453e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>A A A</value>
+      <webElementGuid>007b29fa-f737-4d92-a787-5ca187b1468c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-hover ui-state-focus</value>
+      <webElementGuid>3550828f-015f-4173-b59a-6f1e69190a7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>size</name>
       <type>Main</type>
       <value>30</value>
+      <webElementGuid>bd6f98ad-6184-4c23-92a6-730dc6b5a3cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popUpCandidatosSeleccion:j_idt171&quot;,e:&quot;valueChange&quot;,f:&quot;form_popUpCandidatosSeleccion&quot;,p:&quot;form_popUpCandidatosSeleccion:j_idt171&quot;,u:&quot;form_popUpCandidatosSeleccion&quot;});</value>
+      <webElementGuid>854157ea-d513-4497-904b-3e3d583be3e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>82d1bcb3-1fca-4b36-918c-eaebf9f5eac3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>3d04223a-13ec-44c3-8d55-5d8523bd7525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>596e95d3-bb1f-4ded-8d83-019eff89933e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popUpCandidatosSeleccion:j_idt171&quot;)</value>
+      <webElementGuid>27b04985-0b41-467a-8c67-36e9b5ff9bdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popUpCandidatosSeleccion:j_idt171']</value>
+      <webElementGuid>04627135-5ef0-42e7-95bc-2dc3dce6f923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popUpCandidatosSeleccion:dialog_popupCandidatosSeleccion_content']/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>512c0511-6b55-40ef-bc85-740b82344397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[24]/div/div[2]/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>3cec80a3-449b-4b4b-bebd-affb2aeeb810</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_popUpCandidatosSeleccion:j_idt171' and @name = 'form_popUpCandidatosSeleccion:j_idt171' and @type = 'text']</value>
+      <webElementGuid>70bb8cf6-5a6b-4527-9f40-e64c3652124e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

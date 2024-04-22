@@ -6,11 +6,11 @@
    <elementGuidId>bb9a9c84-1f68-4bde-babc-a19aab14c6db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[3]/td/table/tbody/tr/td[2]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//tr[2]/td/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>de44eff9-0a5f-4829-a798-c12f0d100090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupHorarioBean:j_idt1834</value>
+      <webElementGuid>d61262c2-5f6e-4201-ba46-38a4958cbcd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>fc2a9e25-a812-4ff2-b504-7593b4b499c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn-miniadicionar</value>
+      <webElementGuid>719c605d-f36b-44ec-bbe8-d580666de66e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupHorarioBean:j_idt1834&quot;,f:&quot;form_popupHorarioBean&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>629e3619-601e-4860-8ed8-41b2d65e5946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupHorarioBean:j_idt1834&quot;)</value>
+      <webElementGuid>a2639fff-0dee-4b0a-bb95-2ff1d4c495aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupHorarioBean:j_idt1834']</value>
+      <webElementGuid>d95e392b-830e-4001-90cf-d92ca0a9d384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupHorarioBean:j_idt1814_content']/div[2]/table/tbody/tr[3]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>9eae3114-1672-4b4d-a12f-46f3bda96dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[60]</value>
+      <webElementGuid>ceee3584-c25a-43a9-89c0-4efb6d0728ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>5cfdf434-d388-4d9c-ad2e-355fc67f39c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

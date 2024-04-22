@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div/table/tbody/tr[2]/td[2]/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/span/span/form/div/div[2]/div[2]/div/div/div/table[1]/tbody/tr[2]/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>827d35a7-224e-48ec-9aa1-83e73890f723</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grupoEvento:panel_principal_2:pGNombre</value>
+      <webElementGuid>23abf94e-81aa-4499-b7f2-a1e926153eff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>1e4fc899-55b5-4c46-b708-db34eb9cab6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>grupoEvento:panel_principal_2:pGNombre</value>
+      <webElementGuid>f9358e24-f534-44a9-bb8c-5da1d7790126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>613587a6-59f6-41d0-94a4-b41a6624fcf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grupoEvento:panel_principal_2:pGNombre&quot;)</value>
+      <webElementGuid>df9ce9a9-f61e-4023-8208-a40ea5aa7fa1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='grupoEvento:panel_principal_2:pGNombre']</value>
+      <webElementGuid>64f6dcb7-9610-4b05-8388-c5fe77968cba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='grupoEvento:panel_principal_2:j_idt323']/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>748841d3-7bc6-4181-bedc-8f8f62bd705b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,5 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>51afa020-4d2c-4e5c-bed1-c642bdacf8c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

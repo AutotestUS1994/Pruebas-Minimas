@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[7]/td[2]/input
+         <value>//tr[6]/td[2]/input
 </value>
       </entry>
    </selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>233cb110-b50c-4b03-bbe1-4098b5228ded</webElementGuid>
+      <webElementGuid>c9e344ff-3192-4fa6-8d45-cf353937cad4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoEventos:pIPosicion</value>
-      <webElementGuid>e6aa7d87-2c3d-45f1-8bdf-0f0e35daef50</webElementGuid>
+      <webElementGuid>554758eb-5823-42b8-b8de-ed7e9a88897e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cec99d90-2d65-4802-8a15-1f85891e8410</webElementGuid>
+      <webElementGuid>1512f6e9-3c3d-439c-9d53-d29c4fe9ecf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formListadoEventos:pIPosicion</value>
-      <webElementGuid>3b953963-170f-41a0-bfb2-5afa54bd50e9</webElementGuid>
+      <webElementGuid>2e43c241-b1e6-4b84-9d63-a5c3c40d4ffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>5596cbbb-8749-4ef8-9072-0ae065d0b376</webElementGuid>
+      <webElementGuid>36c2f111-6010-4ace-b643-cdb55d2b853d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>755eca72-991c-4211-af23-9f8e28dd1444</webElementGuid>
+      <webElementGuid>7f706461-b64c-4379-86ac-78bedd2b58eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
-      <webElementGuid>b1eb9d15-d741-4f8a-afe0-7328e9c912d7</webElementGuid>
+      <webElementGuid>418d0c58-1cff-4aad-a8c9-82168a43c0bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEventos:pIPosicion&quot;)</value>
-      <webElementGuid>bfb307db-4603-400c-bb9e-e83a35b33a5f</webElementGuid>
+      <webElementGuid>c2839726-4a6d-4703-bafd-b2a1c30b5cc4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formListadoEventos:pIPosicion']</value>
-      <webElementGuid>19346c72-56ce-44ef-b630-709778cb6297</webElementGuid>
+      <webElementGuid>f85c1c37-f73e-4a5e-9809-f18661bdf5ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formListadoEventos:j_idt150_content']/div[2]/table/tbody/tr[8]/td[2]/input</value>
-      <webElementGuid>de4bdfcc-39df-4037-a0a1-03caa42215e2</webElementGuid>
+      <webElementGuid>76959af0-75f1-4899-a56c-cb73cb75a2ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/input</value>
-      <webElementGuid>c4e9ea7d-2177-43f5-8a7e-c9d21932cb04</webElementGuid>
+      <webElementGuid>5d2f4c7a-5d87-45c8-a2f0-1e42cd7c2345</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -28,15 +28,23 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/td_01072021'))
 
-    WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
-        0)
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
+        1)) {
 
-    WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
-
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar'))
-
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'))
-
+	    WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
+	    
+	    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'), 
+	        1)) {
+	        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'))
+	    } else if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar'), 
+	        1)) {
+	        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/Aplicar/a_Aceptar'))
+	    } else {
+	        println('Al reversar no encuentra el cuadro de confirmación')
+	
+	        WebUI.acceptAlert()
+	    }
+    }
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), 
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), FailureHandling.STOP_ON_FAILURE)
@@ -52,13 +60,24 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
     1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Nuevo'))
 } else {
-    WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
-        0)
+    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'), 
+        1)) {
 
-    WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
-
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
-
+	    WebUI.doubleClick(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Reversar'))
+	
+		if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'),
+			1)) {
+		    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Si'))
+		}
+		else if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'),
+			1)) {
+	    	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Aceptar'))
+		}
+		else {
+			println("Al reversar, no encontró en la confirmación ni Si ni Aceptar")
+		}
+	}
+	
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), 
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Prueba Control De Tiempo/liquidación/a_Continuar'), FailureHandling.STOP_ON_FAILURE)

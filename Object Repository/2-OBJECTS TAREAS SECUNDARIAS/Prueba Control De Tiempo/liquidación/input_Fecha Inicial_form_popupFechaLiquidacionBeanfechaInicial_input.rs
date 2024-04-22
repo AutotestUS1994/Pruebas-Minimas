@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[1]/div[3]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[2]/div/div[2]/div[2]/table[1]/tbody/tr[2]/td[2]/span/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[2]/div/div[2]/div[2]/table[1]/tbody/tr[2]/td[2]/span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5467ae8f-33fa-4b59-9a4b-50c2ba750197</webElementGuid>
+      <webElementGuid>e6bbcd3f-56ca-4c08-8190-1a5eab5d5ff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupFechaLiquidacionBean:fechaInicial_input</value>
-      <webElementGuid>d7f75dd9-de94-4079-9760-e503320d115c</webElementGuid>
+      <webElementGuid>49d885b4-296a-4849-875c-99b74256b30d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupFechaLiquidacionBean:fechaInicial_input</value>
-      <webElementGuid>32dff41b-b0bf-4170-be1f-2da12bbf04e7</webElementGuid>
+      <webElementGuid>128d852b-00cb-40ac-9d48-9db2e770890a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0d157f70-34bb-4ebd-b916-ca039b5afa5c</webElementGuid>
+      <webElementGuid>e2cecf4a-0d6b-4a38-9f12-77404f13c4f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>02/07/2019</value>
-      <webElementGuid>7ab30ef1-f95c-4357-a8d4-65cbef3ca149</webElementGuid>
+      <webElementGuid>b69e03da-13e5-4e76-8fc9-7a36a6dfe3d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
-      <webElementGuid>f444d3ef-b958-4d78-882b-4cc416168073</webElementGuid>
+      <webElementGuid>ef64d6af-4f0c-4ba8-8ab4-f6296cce1d0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>f280ffb6-a5c0-4640-b46e-bc0735dcc2d1</webElementGuid>
+      <webElementGuid>15dae6da-78aa-435d-a354-5e4ea3c2699c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>21eb6d8e-c892-4e91-9743-2a374b9c956e</webElementGuid>
+      <webElementGuid>d0acfe85-1266-4eae-a375-2d3683b5a13f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d1f53415-ee43-4b76-a95c-b8b6ec3c3c0b</webElementGuid>
+      <webElementGuid>56929644-f05e-4f8d-bed1-2a1bf2c320fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupFechaLiquidacionBean:fechaInicial_input&quot;)</value>
-      <webElementGuid>3c2f2a09-1636-495c-bbc4-cb5728d2f81a</webElementGuid>
+      <webElementGuid>5d8b8e7f-5bdd-4f4a-8418-a1b1366d3da3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popupFechaLiquidacionBean:fechaInicial_input']</value>
-      <webElementGuid>b70e1b9a-fb97-4ca1-9555-4c0720ba1aa2</webElementGuid>
+      <webElementGuid>d8618eb2-3326-48c4-99a6-a8e776a1d84a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_popupFechaLiquidacionBean:fechaInicial']/input</value>
-      <webElementGuid>d035a067-02f8-438f-8ca5-f7e49d4b94ee</webElementGuid>
+      <webElementGuid>2e988160-f599-4bb3-a520-9a7349c57fc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/table/tbody/tr/td[2]/span/input</value>
-      <webElementGuid>92a2d176-95f0-4ea9-90b6-52745d657daa</webElementGuid>
+      <webElementGuid>efbe2d12-563f-49c4-9792-56e84e60a7f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'form_popupFechaLiquidacionBean:fechaInicial_input' and @name = 'form_popupFechaLiquidacionBean:fechaInicial_input' and @type = 'text']</value>
-      <webElementGuid>800dcc9a-be19-41dc-b608-862fd4556f5c</webElementGuid>
+      <webElementGuid>0df36684-d2cb-401f-b5d5-306b4fdb87b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

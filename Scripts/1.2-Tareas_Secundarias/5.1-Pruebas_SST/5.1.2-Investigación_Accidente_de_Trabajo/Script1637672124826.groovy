@@ -24,7 +24,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 
 WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.executeJavaScript('document.body.style.zoom=\'98%\'', null)
+//WebUI.executeJavaScript('document.body.style.zoom=\'98%\'', null)
 
 WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/input_Informes de Accidentes e Incidentes de Trabajo_form_templatej_idt24_input'), 
     0)
@@ -262,11 +262,18 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigaci
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo (1)/textarea_Observacin_form_popupRecomendacionInvvpanel_principal_23j_idt464obserSeguim'), 
     'Prueba')
 
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/input_Fecha_j_idt1827tabInvestigacionAccidentadoj_idt19322fecha_input'),
+	'01/07/2021')
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Observacin_form_popupRecomendacionInvvpanel_principal_23j_idt464j_idt498'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Accion'))
 
+WebUI.delay(2)
+
 zoom()
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas SST/Investigación_Accidente_de_Trabajo/a_Actualizar'))
 

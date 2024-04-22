@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
 
 Date today = new Date()
 
@@ -65,7 +67,7 @@ String FechaF = (((sumaD + '/') + Mes) + '/') + Año
 
 /*----------------------------------------------------*/
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
-
+zoom()
 if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'), 
     1)) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_Prueba-S'))
@@ -76,11 +78,9 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_TEST FB_form_costoEventolistaCostoEvento0j_idt663'))
 
-        println('estoy aqui2')
-
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar -1'))
     }
-    
+	
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Momento Eventos'))
 
     if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/td_02112021'), 
@@ -91,16 +91,32 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             1)) {
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1582'))
 
-            println('estoy aqui1')
-
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar'))
         }
+		
         
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
 
-        println('estoy aqui 3')
-
-        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
+		String confirmacion
+		
+		if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/label_confirmacion'), 1)) {
+			
+			confirmacion = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/label_confirmacion'))
+			
+		} else if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/label_confirmacionDEL'), 1)) {
+			
+			confirmacion = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/label_confirmacionDEL'))
+			
+		}
+		
+		if(confirmacion.contains('Existe un grupo')) {
+			
+			WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
+			
+			WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/span_cerrarPopup'))
+		} else if(confirmacion.contains('eliminar el registro')) {
+			WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar0'))
+		}
     }
     
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/div_Evaluacin'))
@@ -136,8 +152,7 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Grupo_pestaa'))
 
             /*-------------------------------------------------------------------------------------*/
-            println('estoy aqui 4')
-
+            
             WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar0'), 
                 30)
 
@@ -162,8 +177,6 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/div_Datos Evento'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Publicacin'))
-
-    println('estoy aqui 5')
 
     if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_http'), 
         1)) {
@@ -213,14 +226,10 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar Eliminar 0'))
 
-        println('estoy aqui 6')
-
         WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'), 
             1)
     }
     
-    println('estoy aqui 7')
-
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
 	
 	
@@ -275,8 +284,6 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
                 FailureHandling.STOP_ON_FAILURE)
         }
         
-        println('estoy aqui 8')
-
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_AAA'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/span_Si_eliminar_AAA'))
@@ -346,13 +353,9 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_MAR-MIE 0500-0600_popupMomentoEvento_formtablaMomentoEventoHorarioPopup0j_idt1586'), 
                 FailureHandling.STOP_ON_FAILURE)
 
-            println('estoy aqui 9')
-
             WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE0'))
         }
-        
-        println('estoy aqui 10')
-
+       
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar_momentoE'))
 
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar_momentoE'))
@@ -406,8 +409,6 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
         1)) {
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_No Diligenciada_formEventoEvaluacionpanel_eventotablaEvaluacion0j_idt885'))
 
-        println('estoy aqui 11')
-
         WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar_eliminar evento'))
     }
     
@@ -431,8 +432,6 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Registro0'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Eliminar'))
-
-    println('ojala si')
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Crear_un_Evento/a_Aceptar2'))
 }
@@ -582,6 +581,14 @@ if (Result == 'Se guardo satisfactoriamente.') {
 }
 
 def zoom() {
-    WebUI.executeJavaScript('document.body.style.zoom=\'80%\'', null)
+    Robot robot = new Robot()
+
+    robot.keyPress(KeyEvent.VK_CONTROL)
+
+    robot.keyPress(KeyEvent.VK_SUBTRACT)
+
+    robot.keyRelease(KeyEvent.VK_CONTROL)
+
+    robot.keyRelease(KeyEvent.VK_SUBTRACT)
 }
 

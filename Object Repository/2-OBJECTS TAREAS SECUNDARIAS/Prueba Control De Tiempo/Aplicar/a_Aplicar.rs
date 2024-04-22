@@ -6,11 +6,11 @@
    <elementGuidId>632c9ed9-ccbd-4a02-bebd-d72156d9ceb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[3]/tbody/tr/td/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/div/form/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[3]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>346b89e4-afda-4a52-920f-0ef78d011a28</webElementGuid>
+      <webElementGuid>faee3990-148f-4d17-b6aa-b1c2fd5eb4cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921</value>
-      <webElementGuid>abd1b34c-6386-459c-ac58-9e96974302b1</webElementGuid>
+      <webElementGuid>f640f33a-8f78-46c5-9be4-6f6efdd39dd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>c2f8b4ba-13ab-41eb-80b3-589e4443cd74</webElementGuid>
+      <webElementGuid>c736fd75-108d-4a18-b684-24f77a97d8f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
-      <webElementGuid>707bf7b0-f5b8-4aea-b35b-7c1fccf272a3</webElementGuid>
+      <webElementGuid>fd232af8-dbb3-4008-b4ca-4cbbb5bad682</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921&quot;,f:&quot;form_detalleLiquidacionTiempos&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args){;}});return false;</value>
-      <webElementGuid>4ef8178a-57c2-4016-a403-6085fae484a1</webElementGuid>
+      <webElementGuid>c2408e38-6b6b-4458-950f-e27aaabc685a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aplicar </value>
-      <webElementGuid>46dcd63f-608e-48fa-baf9-47eace02b1b0</webElementGuid>
+      <webElementGuid>e9362a5e-f90b-44e3-b02f-9efd7c4c984d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921&quot;)</value>
-      <webElementGuid>49297fb3-43e9-4fdc-afc1-d2a0d7b0d8d5</webElementGuid>
+      <webElementGuid>d520c64e-a899-4286-aee4-fc9d7c276477</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921']</value>
-      <webElementGuid>b859ad01-a6e6-403b-806d-4d89196e90e9</webElementGuid>
+      <webElementGuid>02ab8101-39c0-4b12-816c-4ecf28292ef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt906']/table[3]/tbody/tr/td/a</value>
-      <webElementGuid>2e569b5d-f1fd-4e69-8a1e-3cb5b3e1a011</webElementGuid>
+      <webElementGuid>6b9cd6b0-c2b5-42cd-9072-ec41bbea6375</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Aplicar')])[2]</value>
-      <webElementGuid>baac65b9-a9dc-440d-907d-1443e4396816</webElementGuid>
+      <webElementGuid>674e106e-8495-4c1a-a7a9-af568ab7f09d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar'])[1]/following::a[3]</value>
-      <webElementGuid>d4b37788-2252-44a3-b0d9-68b1404ce93a</webElementGuid>
+      <webElementGuid>c35f896a-5bb6-4cde-b6fa-595c89e21abc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[9]</value>
-      <webElementGuid>20b0ec7d-bbac-4add-9213-7cf9aa71c6ae</webElementGuid>
+      <webElementGuid>d62d794f-2a8a-4bb0-913c-ac9683e5ea91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Inicial'])[1]/preceding::a[2]</value>
-      <webElementGuid>0e23373e-e168-4bc1-a6e5-6a9bcde7acf7</webElementGuid>
+      <webElementGuid>093c3e73-7eaf-4053-be11-dae7b35a8b93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Final'])[1]/preceding::a[2]</value>
-      <webElementGuid>138562ce-1efd-4b54-b4d3-9d651d76c316</webElementGuid>
+      <webElementGuid>70ed2c53-b520-43d8-ad7d-7a131421fca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aplicar']/parent::*</value>
-      <webElementGuid>8df0862e-1eb9-4112-8543-6d87838c81bf</webElementGuid>
+      <webElementGuid>80b3a52a-37c1-42db-8e39-3c47f195403c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[26]</value>
-      <webElementGuid>30d8ec75-1dbf-4f32-a4d5-d75dc0f68d5a</webElementGuid>
+      <webElementGuid>8cd3fc69-d1d4-4500-aaf1-6090e8d4b1a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td/a</value>
-      <webElementGuid>71445865-f8d8-4d17-9c7d-1fac34eaa75d</webElementGuid>
+      <webElementGuid>e5c0df1f-5ff9-417d-bca4-f65a004f79ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_detalleLiquidacionTiempos:j_idt85:j_idt87:j_idt921' and @href = '#' and (text() = 'Aplicar ' or . = 'Aplicar ')]</value>
-      <webElementGuid>02c0566d-4ab9-4974-9066-af5ea262c83d</webElementGuid>
+      <webElementGuid>6f181824-123f-4f1a-8016-32f5998b854c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
