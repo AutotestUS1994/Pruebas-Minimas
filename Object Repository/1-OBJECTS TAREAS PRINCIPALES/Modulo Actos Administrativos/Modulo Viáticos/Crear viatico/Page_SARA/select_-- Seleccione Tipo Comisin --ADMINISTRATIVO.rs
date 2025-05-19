@@ -6,11 +6,11 @@
    <elementGuidId>5db62edc-3be6-44d3-8525-fec9ed9f8912</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[6]/td[2]/table/tbody/tr/td/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[6]/td[2]/table/tbody/tr/td/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>935d1621-db6c-42b0-9c02-87b7801aa83f</webElementGuid>
+      <webElementGuid>2dc87135-b73b-4605-8551-91b59b37f283</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:TipoComision</value>
-      <webElementGuid>c3d67731-9c0d-4493-9c3d-1fd7e4296801</webElementGuid>
+      <webElementGuid>87e24638-a669-49a6-804d-46390fc90e45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleviaticos:TipoComision</value>
-      <webElementGuid>43847824-5546-4e9b-9055-a19594af90f5</webElementGuid>
+      <webElementGuid>0d4948eb-fd16-4937-b4ba-5a97d5660786</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>06414c3e-cf62-45dc-9766-c7d24925db20</webElementGuid>
+      <webElementGuid>23b59f17-b13a-4f86-b218-fb4fa4b095bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>3f21e74f-bddd-43d7-bd80-a821b89c03b8</webElementGuid>
+      <webElementGuid>026d5c07-716d-41de-b3a8-671f3be222fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
 	OPERATIVO
 	SUPERVISIÓN
 </value>
-      <webElementGuid>0c142960-466e-48ac-a83d-4b84246ec24a</webElementGuid>
+      <webElementGuid>7d63cc2a-71fa-4cd8-a118-71f91229e85b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:TipoComision&quot;)</value>
-      <webElementGuid>86b0263e-af77-46c8-8c45-df92846ff4bf</webElementGuid>
+      <webElementGuid>1f039581-dee3-4035-bda0-cbfb033b1840</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_detalleviaticos:TipoComision']</value>
-      <webElementGuid>43abf3c5-0483-4b69-b33b-44e6020ef73b</webElementGuid>
+      <webElementGuid>ac19e8a7-9303-40fa-9d9f-1cf646af4e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[5]/td[2]/table/tbody/tr/td/select</value>
-      <webElementGuid>24f834e1-71e7-444e-80fc-f3c905ddfed7</webElementGuid>
+      <webElementGuid>241b2ee0-d513-46ad-970c-4c6b3a272602</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión*'])[1]/following::select[1]</value>
-      <webElementGuid>8341ec32-1e65-473b-b75e-d5787dbe898f</webElementGuid>
+      <webElementGuid>36e06cf2-bde9-4c8d-82f6-73dd3bdc0779</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Destino*'])[1]/following::select[2]</value>
-      <webElementGuid>6de63e29-6c9d-4f43-a237-5de4778aeb59</webElementGuid>
+      <webElementGuid>2af0d535-f6e4-443c-b25d-7965c0f47dca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambito*'])[1]/preceding::select[1]</value>
-      <webElementGuid>6a435aaa-37b5-40ca-aafe-0472882d9e25</webElementGuid>
+      <webElementGuid>194398b7-fe7d-4888-9054-513484543445</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rubro*'])[1]/preceding::select[2]</value>
-      <webElementGuid>2cc6607b-71df-46cb-b652-13e171d80ee3</webElementGuid>
+      <webElementGuid>c75ae508-24d5-454a-a353-7ab4374eb486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[2]/table/tbody/tr/td/select</value>
-      <webElementGuid>3ae9ecd3-e979-4b7f-b8a5-43747f014766</webElementGuid>
+      <webElementGuid>0ce708b2-e78f-4534-81bd-82ef4370bfc7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

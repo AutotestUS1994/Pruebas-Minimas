@@ -10,8 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/div/div/table/tbody/tr[7]/td[3]
-</value>
+         <value>//div[2]/div[2]/div/div/table/tbody/tr[1]/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ff81e0d1-0fa8-4637-b16e-eb2109cdfb43</webElementGuid>
+      <webElementGuid>13f8be2b-e20d-48ad-beb1-13561cfee4e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>dfcc633a-1075-4573-b0a2-ccdae1dbb354</webElementGuid>
+      <webElementGuid>e15ae182-5f65-4f50-b2d5-37128b52fd27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>. . .</value>
-      <webElementGuid>f6f964d1-9d54-4a9f-82ac-b8ef1562f714</webElementGuid>
+      <webElementGuid>695e8b1d-56b1-4dcd-988b-c1dfb78b6636</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupFiltroEmpleado:tabla_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[3]</value>
-      <webElementGuid>3d5bd6b4-ede4-4e7b-aec9-ee8d8ffb64f6</webElementGuid>
+      <webElementGuid>935490bb-da3f-4b3b-a705-81c56bd4611b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_popupFiltroEmpleado:tabla_data']/tr/td[3]</value>
-      <webElementGuid>b2ede340-405d-4783-8b7d-d323b64a5884</webElementGuid>
+      <webElementGuid>32df786f-9850-4129-97b2-d2c1f8151bd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado Laboral'])[1]/following::td[3]</value>
-      <webElementGuid>08b6cbd3-fff5-4a15-9f43-3f7aa73b0897</webElementGuid>
+      <webElementGuid>9235339c-c8a5-4225-ade7-e7de60812a52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Ingreso'])[1]/following::td[3]</value>
-      <webElementGuid>f253ab1c-c625-40fe-8e2f-044b1e5919af</webElementGuid>
+      <webElementGuid>d6f84ac9-fea0-49c1-9c36-14cf38802f5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PENSIONADOS BASE'])[1]/preceding::td[1]</value>
-      <webElementGuid>757d3f16-859a-485d-a63c-04a745f3306a</webElementGuid>
+      <webElementGuid>4e82421c-4ff6-4866-a154-96ef5a68e95a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>cea1d360-4e28-449a-af1e-25e213c0176a</webElementGuid>
+      <webElementGuid>c09f6745-542a-45b1-9ea1-9f708f7c2f9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

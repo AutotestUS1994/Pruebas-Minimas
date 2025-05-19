@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Prueba']/parent::*</value>
+         <value>//div[2]/div/table/tbody/tr[5]/td[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>edf07930-3334-4d99-bf13-1f5d8c5b8809</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>06d45f5d-b27a-4a83-8b35-cb2d42f358c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Prueba</value>
+      <webElementGuid>f9fa2345-2b2d-47b6-b835-dc5b0f7f8d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEvento:tablaEventos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[4]</value>
+      <webElementGuid>bdd25ccc-d768-4b83-baea-032ca6c96db1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formListadoEvento:tablaEventos_data']/tr[5]/td[4]</value>
+      <webElementGuid>ee2ae927-1eec-4d36-9953-f462f74fb299</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pruebas De Sara'])[1]/following::td[1]</value>
+      <webElementGuid>dd874870-44ba-4d73-8df1-79a9c1b18e3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Programado'])[5]/following::td[4]</value>
+      <webElementGuid>32857ec8-bb65-4d0b-a98c-02e331a6f1c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOGOTA'])[5]/preceding::td[1]</value>
+      <webElementGuid>8d667687-94d6-4d55-8ade-f24356c796f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A A A'])[1]/preceding::td[6]</value>
+      <webElementGuid>e5d3df60-70e3-45c7-8a8b-68d3b86b85d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Prueba']/parent::*</value>
+      <webElementGuid>ecd56751-b8aa-458c-b1ea-9b1164609791</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr[5]/td[4]</value>
+      <webElementGuid>7b35d570-87fd-4ab2-bcd0-7d0540c62f43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Prueba' or . = 'Prueba')]</value>
+      <webElementGuid>7ba74479-bf92-46a9-898d-041229f00df7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

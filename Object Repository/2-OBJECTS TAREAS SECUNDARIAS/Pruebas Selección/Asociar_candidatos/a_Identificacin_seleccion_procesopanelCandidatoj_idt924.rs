@@ -6,11 +6,11 @@
    <elementGuidId>9c69c450-9418-45b2-9541-80285f750795</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/table/tbody/tr/td/div/div/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//td/table/tbody/tr/td[3]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>7fea60e0-1865-46c7-9886-44285efbe04f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>seleccion_proceso:panelCandidato:j_idt924</value>
+      <webElementGuid>575466da-20db-4d5b-876a-edf958773420</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>e6f8f390-23a5-4356-8a89-29b49e16debf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>93ebf4aa-54c1-401e-921d-b07756dcfbfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;seleccion_proceso:panelCandidato:j_idt924&quot;,f:&quot;seleccion_proceso&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>302bf7f2-b713-422e-b7c9-a215e4c836f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;seleccion_proceso:panelCandidato:j_idt924&quot;)</value>
+      <webElementGuid>1fe48c17-25b0-4bb5-be11-bb0bf02c03e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='seleccion_proceso:panelCandidato:j_idt924']</value>
+      <webElementGuid>eb13c344-af45-481b-84b0-f14ded2580e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='seleccion_proceso:panelCandidato:tabCandidato']/table/tbody/tr/td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>02ab9703-4303-4b0f-8472-0ffb6c156662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[51]</value>
+      <webElementGuid>c65d9eaf-9bf0-4f20-a775-5b2ad9581827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td[3]/a</value>
+      <webElementGuid>28cc970d-a093-47a2-a865-65236eef32be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'seleccion_proceso:panelCandidato:j_idt924' and @href = '#']</value>
+      <webElementGuid>2d6d425f-d5f3-44bb-a1f8-9973af9bfb60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

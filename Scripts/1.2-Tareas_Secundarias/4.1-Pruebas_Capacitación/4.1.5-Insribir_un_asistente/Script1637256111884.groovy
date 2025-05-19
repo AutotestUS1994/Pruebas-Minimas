@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-
 WebUI.comment('PENDIENTE POR REPARAR FALLA SE PUEDE EJECUTAR PERO FALLA')
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo Control Evento Capacitacion'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -74,13 +73,11 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas c
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccionePrueba'), 
     '1')
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/select_SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 
-    '1')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/input_Nombres_formAsistenteEventopanelTabAsistenteEvennombresAsistente'), 
+    'prueba')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/textarea_Observacin_formAsistenteEventopanelTabAsistenteEvenobservacion'), 
     'Pruebas')
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Guardar'))
 
-//WebElement element = WebUiCommonHelper.findWebElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Inscribir_un_asistente/a_Guardar'),30)
-//WebUI.executeJavaScript('arguments[0].click()', Arrays.asList())

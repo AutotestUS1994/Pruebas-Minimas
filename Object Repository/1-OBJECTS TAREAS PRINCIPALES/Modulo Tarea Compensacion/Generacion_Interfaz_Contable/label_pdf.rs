@@ -6,11 +6,11 @@
    <elementGuidId>adad660e-4a9d-4f4f-942f-188defdaa3f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='pdf']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[2]/td/table/tbody/tr[1]/td[3]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>fcf34611-f0e8-4c58-860b-4362440a589c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupManejoReporte_form:tipoReporte:2</value>
+      <webElementGuid>93e4c699-8dab-4111-b2fd-e56e9e0c82fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> pdf</value>
+      <webElementGuid>a7257adf-e7c7-4175-a526-124eb9f14ea2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupManejoReporte_form:tipoReporte&quot;)/tbody[1]/tr[3]/td[1]/label[1]</value>
+      <webElementGuid>7a9d847f-f55c-44cf-b8bb-c166344bb8d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupManejoReporte_form:tipoReporte']/tbody/tr[3]/td/label</value>
+      <webElementGuid>6bd64f6a-2f7d-47aa-9dd9-424a0e426c35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='html'])[1]/following::label[1]</value>
+      <webElementGuid>0a4cf2fb-b5a1-4de6-b14e-035e9cefe45c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='csv'])[1]/following::label[2]</value>
+      <webElementGuid>da7958eb-bef0-4875-8424-242325f2a29c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='txt'])[1]/preceding::label[1]</value>
+      <webElementGuid>a1e33804-ab06-4d6c-945b-66085f39cf16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='xls'])[1]/preceding::label[2]</value>
+      <webElementGuid>e8a76f50-7d4d-49d3-8fbc-a1f5ff5989fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='pdf']/parent::*</value>
+      <webElementGuid>6af1462b-0433-4db0-aa21-890c4e93493c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/label</value>
+      <webElementGuid>1d8a65cb-2868-48a2-aa6e-730c97e408bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

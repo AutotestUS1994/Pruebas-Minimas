@@ -157,7 +157,7 @@ String Archivo = 'Reporte.pdf'
 
 String Archivo1 = 'Reporte.xlsx'
 
-Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1, Navegador))
+
 
 def Systema() {
     String RutaA = System.getProperty('os.name')

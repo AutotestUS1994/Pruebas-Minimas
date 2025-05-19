@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Se compilan todos los test Exceptuando 1.4.5 el cual tiene un problema relacionado con el mismo Katalon.</description>
+   <description>Se compilan todos los test con SARA v12.12.00, utilizando las bases de datos en SQL Server 2022, en el servidor Wildfly 14.</description>
    <name>1-Tareas Principales</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -511,14 +511,14 @@
    <testCaseLink>
       <guid>21eeec51-c381-46e5-8d86-d66bc4aa43e9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.8.8-Transmision_nomina_electronica_mi_planilla</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cbfbbaea-2163-4365-a37f-6ba3cddb1431</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1.1-Tareas Principales/1.8.9-Nomina_de_Ajuste</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

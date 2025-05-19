@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/select[2]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/select[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>0da1d6ac-0397-43f0-82b5-c208fd1c98aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupProgramarEvento_form:estadoAsistente</value>
+      <webElementGuid>e07c638e-0912-497c-8c70-8e18d7ba3822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupProgramarEvento_form:estadoAsistente</value>
+      <webElementGuid>b0bb8c6a-accd-4e6f-b92b-a02da6d343d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>27fb477f-e377-4039-ab05-ed35169f1d7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>35dd8958-3ef9-423d-b34b-fb374eb72127</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;popupProgramarEvento_form&quot;,p:&quot;popupProgramarEvento_form&quot;,u:&quot;popupProgramarEvento_form&quot;});</value>
+      <webElementGuid>5b9fb32f-4de9-47de-879f-41863139805f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,6 +76,7 @@
 	NO APROBADO
 	NO ASISTIO
 </value>
+      <webElementGuid>edad4e92-56bb-43e0-b6d2-b82a32d1da57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +84,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupProgramarEvento_form:estadoAsistente&quot;)</value>
+      <webElementGuid>4c2dcccb-83e0-4e02-b434-66486b693bd5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +92,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='popupProgramarEvento_form:estadoAsistente']</value>
+      <webElementGuid>f8a3a03d-c1ff-48bb-b3de-0b321e02374b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +100,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupProgramarEvento_form:j_idt1235_content']/select[2]</value>
+      <webElementGuid>32e94e6e-7995-4298-af4d-f2ae4828fc36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado:'])[2]/following::select[1]</value>
+      <webElementGuid>cc23c8ad-96a3-49af-ad17-6fc572904901</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación:'])[2]/following::select[2]</value>
+      <webElementGuid>b0e8717f-54fe-4c94-94d2-9830aacca814</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[2]/preceding::select[1]</value>
+      <webElementGuid>b249f812-02f8-4e83-b2a4-324ebce6b683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[3]/preceding::select[1]</value>
+      <webElementGuid>13119358-11ef-4d80-b3b5-beaab396d53a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +140,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[9]/div/div[2]/select[2]</value>
+      <webElementGuid>5b1d6fa6-51e3-4478-a7a3-f9cbb6fc6516</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -140,7 +140,7 @@ println(rutaA)
 
 String Archivo = 'Reporte_Nomina_Electrónica.xlsx'
 
-Assert.assertTrue(archivoDescargado(rutaA, Archivo))
+Assert.assertTrue(archivoDescargado(rutaA, Archivo)) //  WebUI.delay(1)
 
 def Systema() {
     String RutaA = System.getProperty('os.name')
@@ -158,8 +158,6 @@ boolean archivoDescargado(String rutaA, String Archivo) {
     System.out.println(dirContenidos)
 
     for (int i = 0; i < dirContenidos.length; i++) {
-        WebUI.delay(1)
-
         if ((dirContenidos[i]).getName().equals(Archivo)) {
             (dirContenidos[i]).delete()
 
@@ -172,7 +170,5 @@ boolean archivoDescargado(String rutaA, String Archivo) {
             return true
         }
     }
-    
-    return false
 }
 

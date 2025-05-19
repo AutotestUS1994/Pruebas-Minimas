@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/table/tbody/tr/td/input</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>40fd7d5b-61db-4b8f-bb5c-b988380cf82b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formPopUpUnidad:descripciones</value>
+      <webElementGuid>545e9aa9-63d5-4071-be24-7fee939e484a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formPopUpUnidad:descripciones</value>
+      <webElementGuid>2648b07e-0969-4b6b-a352-9cb99da325d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>b600f6df-c500-476e-93d6-cd1bc36fef7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ace_valor_campo_estandar ui-state-focus ui-state-hover</value>
+      <webElementGuid>bf66c363-e500-4b3e-af7f-ea108419b63a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>size</name>
       <type>Main</type>
       <value>25</value>
+      <webElementGuid>39605cad-a716-4619-8c4f-77723cba07e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formPopUpUnidad:descripciones&quot;,e:&quot;valueChange&quot;,f:&quot;formPopUpUnidad&quot;,p:&quot;formPopUpUnidad:descripciones&quot;,u:&quot;formPopUpUnidad:tabla_Ventanas&quot;});</value>
+      <webElementGuid>8c2d33fc-080b-4e34-a24d-8518cd894a2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>1ac489fd-4f20-4b24-9a0c-26b1cb85af21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>dd28632a-668c-45a2-a4ec-2c24700ab4e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>2180b635-c59a-4ad0-8bee-6ac2fe7afc6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formPopUpUnidad:descripciones&quot;)</value>
+      <webElementGuid>69dc1618-0c67-44a3-972b-d2e9951507b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formPopUpUnidad:descripciones']</value>
+      <webElementGuid>5b2a627d-595d-49db-b214-45a22694a5ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formPopUpUnidad:j_idt651_content']/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>adfb85c1-5c33-4f22-a73e-9a064d5006bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>213bd5d6-62c1-4d99-9c09-9fddb7131ef7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'formPopUpUnidad:descripciones' and @name = 'formPopUpUnidad:descripciones' and @type = 'text']</value>
+      <webElementGuid>8eb60932-72bd-4a95-8680-a0bec07bc915</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

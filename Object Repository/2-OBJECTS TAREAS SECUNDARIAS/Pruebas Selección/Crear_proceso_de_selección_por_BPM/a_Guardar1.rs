@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[7]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[8]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>03df484c-896b-4470-b276-dacd8566e4ce</webElementGuid>
+      <webElementGuid>b017c95c-801c-405f-934e-5fdf929b60be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupEtapaSeleccion_form:j_idt2092</value>
-      <webElementGuid>7e8d478b-35ee-4ac6-987b-c580c12d961c</webElementGuid>
+      <webElementGuid>f3130b32-6871-403e-9d85-615da0b0ceeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e13933f9-17b7-452a-8167-e09bddc6018a</webElementGuid>
+      <webElementGuid>dd664163-61f5-4606-935c-52cad9087eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
-      <webElementGuid>ac154f16-57fa-4da8-9b77-9c3183d0ca04</webElementGuid>
+      <webElementGuid>02862d28-950a-4adc-8f5a-e8a4431d01e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupEtapaSeleccion_form:j_idt2092&quot;,f:&quot;popupEtapaSeleccion_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>aa63b02a-92c7-475a-a404-f634abca175f</webElementGuid>
+      <webElementGuid>8b0c9c80-3183-4844-94ef-4e8baa0283e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
-      <webElementGuid>64b5ae5c-ba1b-4b4d-b524-65e610318780</webElementGuid>
+      <webElementGuid>b2878a7a-7878-45a7-8c56-457087732f5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupEtapaSeleccion_form:j_idt2092&quot;)</value>
-      <webElementGuid>0e123d25-b475-4a14-bc04-bd689c867315</webElementGuid>
+      <webElementGuid>7ec12b5d-c234-4bcd-9e41-15690d7b6e85</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupEtapaSeleccion_form:j_idt2092']</value>
-      <webElementGuid>8efb3420-f808-4174-ac97-46eb36c2af53</webElementGuid>
+      <webElementGuid>c0d62970-5c62-4948-9485-e7e8add30d24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupEtapaSeleccion_form:j_idt2069_content']/div[2]/table[2]/tbody/tr/td/a</value>
-      <webElementGuid>1f037518-52e8-4fe2-9142-300c460f82c5</webElementGuid>
+      <webElementGuid>427328b8-e248-4a53-b4ac-ab4e880c2580</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
-      <webElementGuid>c8b7fdc0-8dc7-4263-ae66-48a4dd288395</webElementGuid>
+      <webElementGuid>c0f63836-aa05-4900-9b9d-03f98c0e64a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluación Artística'])[1]/following::a[1]</value>
-      <webElementGuid>5d13b920-9cf9-45b0-b771-260143eb2a6c</webElementGuid>
+      <webElementGuid>f0bcc506-eca8-44bd-8f8b-0266d87279c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INFORME FINAL'])[1]/following::a[1]</value>
-      <webElementGuid>d8cc54ae-3226-4a8a-8808-75f4adaeeff1</webElementGuid>
+      <webElementGuid>e11ac054-22d4-4dd8-8881-e776b2d63110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Medio Selección'])[1]/preceding::a[2]</value>
-      <webElementGuid>325d7b25-e0b6-4098-9076-ceea2bb82880</webElementGuid>
+      <webElementGuid>fd88dc74-9a3f-43fd-b0e9-c0eefcaffa69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clase de Prueba*'])[1]/preceding::a[2]</value>
-      <webElementGuid>913f5bc7-e403-4aa9-85bd-f387d565c6a2</webElementGuid>
+      <webElementGuid>090632ad-9f5a-4f82-af2e-59afe83f6379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
-      <webElementGuid>d08da837-0cee-4f51-92c4-db422ec5f9a9</webElementGuid>
+      <webElementGuid>5eb0a9dc-00da-48f8-9da0-f51f0ff68f1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[69]</value>
-      <webElementGuid>f7a6979c-56dc-4deb-8b99-b66ffe834bcc</webElementGuid>
+      <webElementGuid>8cc506f5-9c9e-46cb-8d17-4e27be433f22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[7]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
-      <webElementGuid>13f0af50-5619-42ea-ab9b-7f9e4260af7a</webElementGuid>
+      <webElementGuid>aac5ce17-8f56-4a22-a86b-c779247f9157</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupEtapaSeleccion_form:j_idt2092' and @href = '#' and (text() = 'Guardar' or . = 'Guardar')]</value>
-      <webElementGuid>257e66ec-8a3a-4573-9d26-b31e4188b40c</webElementGuid>
+      <webElementGuid>ce0b4050-e96d-44b8-9b99-70330590e3e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

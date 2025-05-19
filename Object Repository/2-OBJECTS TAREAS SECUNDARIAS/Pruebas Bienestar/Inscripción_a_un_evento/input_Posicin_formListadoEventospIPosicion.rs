@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[6]/td[2]/input
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/div/div[2]/div[2]/table[1]/tbody/tr[7]/td[2]/input
 </value>
       </entry>
    </selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c9e344ff-3192-4fa6-8d45-cf353937cad4</webElementGuid>
+      <webElementGuid>4c4e992e-3feb-4868-86d5-040eb2ec5be4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formListadoEventos:pIPosicion</value>
-      <webElementGuid>554758eb-5823-42b8-b8de-ed7e9a88897e</webElementGuid>
+      <webElementGuid>f0fa0ac8-b3a0-4e40-bd2d-57d56c4e098f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1512f6e9-3c3d-439c-9d53-d29c4fe9ecf0</webElementGuid>
+      <webElementGuid>19464a29-e0ab-4c69-91b7-7c1cce197b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formListadoEventos:pIPosicion</value>
-      <webElementGuid>2e43c241-b1e6-4b84-9d63-a5c3c40d4ffa</webElementGuid>
+      <webElementGuid>69666497-5ee8-4265-89a8-5f5d2da5c79e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>36c2f111-6010-4ace-b643-cdb55d2b853d</webElementGuid>
+      <webElementGuid>c0c70c10-4c0d-4139-8376-bb2e733c9b5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>7f706461-b64c-4379-86ac-78bedd2b58eb</webElementGuid>
+      <webElementGuid>4335d6cc-77d9-4690-9f0f-53bb4d40e557</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
-      <webElementGuid>418d0c58-1cff-4aad-a8c9-82168a43c0bb</webElementGuid>
+      <webElementGuid>a7b66819-982a-44f4-8d92-d2903aebaf36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEventos:pIPosicion&quot;)</value>
-      <webElementGuid>c2839726-4a6d-4703-bafd-b2a1c30b5cc4</webElementGuid>
+      <webElementGuid>c50e7476-a4ac-4df6-b3ad-95159ac5bfd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='formListadoEventos:pIPosicion']</value>
-      <webElementGuid>f85c1c37-f73e-4a5e-9809-f18661bdf5ea</webElementGuid>
+      <webElementGuid>8beaafd8-d513-4768-99a8-75f045e95a10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formListadoEventos:j_idt150_content']/div[2]/table/tbody/tr[8]/td[2]/input</value>
-      <webElementGuid>76959af0-75f1-4899-a56c-cb73cb75a2ec</webElementGuid>
+      <webElementGuid>b0e391ee-b185-424d-b3c5-dafabe84c485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/input</value>
-      <webElementGuid>5d2f4c7a-5d87-45c8-a2f0-1e42cd7c2345</webElementGuid>
+      <webElementGuid>f9265270-d441-4733-b614-57f22ad63e21</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

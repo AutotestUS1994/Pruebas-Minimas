@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value> //tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr/td/span/input</value>
+         <value>
+//tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr/td[1]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>111c734f-49de-4893-be56-a1dca2d72c01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt835:6:fecha_input</value>
+      <webElementGuid>95ef5c51-277b-44a8-8d85-6f738c743a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>hojaVida:seccion:j_idt835:6:fecha_input</value>
+      <webElementGuid>d0b8bd76-deeb-4145-a85c-a1244a1348d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>01753183-446a-4a39-a0e3-bc32ee92645c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>0d29de5d-8474-4d5b-a5b8-e3e487a3feb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>8</value>
+      <webElementGuid>6f306ab4-f28a-4d71-90cf-682bd9f63878</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>2ed775fe-3c2b-47d7-867f-f170ec5d287f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>6885f468-0be1-443c-95ee-475798a1996e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>808ac82f-12e5-4655-b3d7-43f56d684306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;hojaVida:seccion:j_idt835:6:fecha_input&quot;)</value>
+      <webElementGuid>f3ad1fd2-e290-49dc-afeb-ce24afabca52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='hojaVida:seccion:j_idt835:6:fecha_input']</value>
+      <webElementGuid>493506f7-0540-4515-acf8-279d2c1a5289</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='hojaVida:seccion:j_idt835:6:fecha']/input</value>
+      <webElementGuid>4cc30ff3-39d7-4965-ba42-eebbc2b463d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr/td/span/input</value>
+      <webElementGuid>8b9b258e-0a27-4e40-bf13-cf89183d7b4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/table[2]/tbody/tr/td/a</value>
+         <value>//span[contains(text(),'Actualizar')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>cbba0e8e-6d1e-4345-b109-8fc19aec8cf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>datosPuestoTrabajo_form:j_idt957</value>
+      <webElementGuid>1cb8afac-a409-45ea-be71-76f4947b7226</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>98bbc438-8551-4beb-a593-db1a3d2372f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
+      <webElementGuid>2f87bff4-d50b-4222-ab20-2f2cd8d7fa0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;datosPuestoTrabajo_form:j_idt957&quot;,f:&quot;datosPuestoTrabajo_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>1b96cb6d-4119-48d2-a3a6-16cf2ef64f0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Actualizar</value>
+      <webElementGuid>a9304886-315b-419f-b51e-83300444dd48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;datosPuestoTrabajo_form:j_idt957&quot;)</value>
+      <webElementGuid>910493f0-4af2-488a-9bdc-17d76428a623</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='datosPuestoTrabajo_form:j_idt957']</value>
+      <webElementGuid>de9603bf-0d19-45ee-ad7c-9206914c19be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='datosPuestoTrabajo_form:detalle']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>c571655b-ec0d-40d5-b071-79bfe28f1532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::a[1]</value>
+      <webElementGuid>35d9fd57-4983-48d2-a1bd-336c0dcfa73f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/following::a[1]</value>
+      <webElementGuid>81eece19-b4df-460b-bcaa-1b33084635eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Eliminar'])[1]/preceding::a[1]</value>
+      <webElementGuid>19aea413-581b-4704-954e-8d8262758908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[31]</value>
+      <webElementGuid>da733ebc-9f62-4291-a5f7-d1fb357022bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>4de8efb9-62e6-41f6-ba44-8662cc7eb205</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'datosPuestoTrabajo_form:j_idt957' and @href = '#' and (text() = 'Actualizar' or . = 'Actualizar')]</value>
+      <webElementGuid>54252eed-8b2e-4ed5-b0b2-8bd71dce42c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

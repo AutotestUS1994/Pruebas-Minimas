@@ -40,7 +40,7 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
     String Mes = leerMes
 
-    while (Mes != 'enero de 2021') {
+    while (Mes != 'Enero De 2021') {
         WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/span_Modo_fc-icon fc-icon-left-single-arrow_regresarMes'), 
             FailureHandling.STOP_ON_FAILURE)
 
@@ -78,7 +78,7 @@ String leerMes = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modu
 
 String Mes = leerMes
 
-while (Mes != 'enero de 2021') {
+while (Mes != 'Enero De 2021') {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/span_Modo_fc-icon fc-icon-left-single-arrow_regresarMes'), 
         FailureHandling.STOP_ON_FAILURE)
 
@@ -87,8 +87,6 @@ while (Mes != 'enero de 2021') {
     Mes = Mes1
 }
 
-String Result = WebUI.getText(findTestObject('3-OBJECTS UTILIDADES/Alerta/Alerta'))
-
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/td_dom_fc-day fc-widget-content fc-fri fc-future_31-dic-2021'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/a_Aceptar0'))
@@ -96,13 +94,9 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensaci
 WebUI.scrollToElement(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/div_0 FESTIVO'), 
     0)
 
-if (Result == 'Registro Actualizado') {
-    String Resultado = 'PRUEBAS OK'
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/a_FESTIVO'))
 
-    
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/a_Eliminar Registro'))
 
-    WebUI.closeBrowser()
-} else {
-    WebUI.acceptAlert()
-}
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Compensacion/Crear_Días_Festivos/a_Aceptar'))
 

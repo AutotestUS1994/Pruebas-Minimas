@@ -100,8 +100,10 @@ def crearUsuario() {
 	
 	WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/a_Nuevo'))
 
+	/*WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Sesin_usuarioformatablogin'),
+		fecha())*/
 	WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Sesin_usuarioformatablogin'),
-		fecha())
+		'PruebasKatalon')
 
 	WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/Crear_Usuario,_contraseña,_Accesos_Particulares/input_Documento_usuarioformatabdocumento'),
 		identificacion())

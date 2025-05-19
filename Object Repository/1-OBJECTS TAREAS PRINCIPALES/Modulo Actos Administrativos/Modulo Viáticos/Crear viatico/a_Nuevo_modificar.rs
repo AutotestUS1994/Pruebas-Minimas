@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Nuevo')]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>c4282bbe-9951-44ae-92a1-81f99ace1d83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoviaticos:j_idt110</value>
+      <webElementGuid>f4bd58a4-86f2-4a5f-ab64-3312dcd317f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>4608d2a2-2f81-4147-811e-c4d58a3ca0ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
+      <webElementGuid>2328d607-6d08-47c3-a095-2dc692cf5f70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_listadoviaticos:j_idt110&quot;,f:&quot;form_listadoviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>99151caa-013f-4f8f-bb26-0fd95c5413e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nuevo</value>
+      <webElementGuid>7c067e5c-7451-40d9-b001-27f9865bf1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:j_idt110&quot;)</value>
+      <webElementGuid>8c768b85-7391-4ce9-aedc-c67778f06727</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_listadoviaticos:j_idt110']</value>
+      <webElementGuid>3905d0b9-eb1d-4766-8bd6-36034bcd6127</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_listadoviaticos']/a</value>
+      <webElementGuid>631d31e2-c1e7-42c0-9c0d-4bbf068c0789</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Nuevo')]</value>
+      <webElementGuid>7e608a3f-3b22-4910-ad32-9d76f54fb665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Derogada'])[9]/following::a[1]</value>
+      <webElementGuid>40cbafcd-855e-4981-9b5b-d148b1735f5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diaz Blanco Guisell'])[10]/following::a[1]</value>
+      <webElementGuid>91ba1f90-fecd-4f87-9b1d-7d1351932d38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Viáticos'])[1]/preceding::a[2]</value>
+      <webElementGuid>d004748d-5ca3-4626-b858-7e40bdfe4679</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Acción'])[1]/preceding::a[2]</value>
+      <webElementGuid>51cf28eb-ac95-4801-b346-775a9e9c16f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
+      <webElementGuid>712145fe-3b29-4b50-bacd-8fb99625c854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[30]</value>
+      <webElementGuid>695f0572-08d0-411c-b917-8901c56ec7cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/a</value>
+      <webElementGuid>34dfb5e3-f093-4c43-8627-499fd04e7b29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'form_listadoviaticos:j_idt110' and @href = '#' and (text() = 'Nuevo' or . = 'Nuevo')]</value>
+      <webElementGuid>ac81f992-2ebe-495a-9702-b0f15d89fffd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

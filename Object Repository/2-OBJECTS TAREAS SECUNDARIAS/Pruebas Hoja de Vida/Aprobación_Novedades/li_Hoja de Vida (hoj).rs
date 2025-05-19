@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Listado Hojas de Vida (hoj)</name>
+   <name>li_Hoja de Vida (hoj)</name>
    <tag></tag>
    <elementGuidId>43ffa930-289c-46fa-926b-945f3fe779b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span/ul/li</value>
+         <value>//span/ul/li[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
+      <webElementGuid>711e8e62-5508-45e7-8b42-d074092b18a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight</value>
+      <webElementGuid>555766a2-abbd-4540-9172-7291ed652070</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>data-item-label</name>
       <type>Main</type>
       <value>Listado Hojas de Vida (hoj)</value>
+      <webElementGuid>497f4635-45c7-4750-8c75-1ee9433fea8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>data-item-value</name>
       <type>Main</type>
       <value>Listado Hojas de Vida (hoj)</value>
+      <webElementGuid>0667ddda-1d49-4bd8-9ebc-c5fb3ee54547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
+      <webElementGuid>96dcc198-a946-4166-9d05-4aa1d63b3526</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Listado Hojas de Vida (hoj)</value>
+      <webElementGuid>66d35e9e-91c5-46b3-9ca5-8a22afbda9c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_template:j_idt24_panel&quot;)/ul[@class=&quot;ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset&quot;]/li[@class=&quot;ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight&quot;]</value>
+      <webElementGuid>f586a8a9-b426-4b9e-a692-46e2cb88c0d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_template:j_idt24_panel']/ul/li</value>
+      <webElementGuid>bd420a95-9987-4530-b06e-b9b381c3318a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::li[1]</value>
+      <webElementGuid>8bab43b8-054a-44f2-bfd3-b3eacac7b646</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[2]/following::li[1]</value>
+      <webElementGuid>9d01e715-3e4e-4829-bf1d-180fcffd7056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::li[1]</value>
+      <webElementGuid>64c9e64d-f255-449e-ad7c-7f0389059b59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='de Vida (hoj)']/parent::*</value>
+      <webElementGuid>268cdfd3-0998-488a-b9ef-abed648282a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li</value>
+      <webElementGuid>74797364-16e6-4b83-b19a-33d03aa4b70c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Prueba']/parent::*</value>
+         <value>//div[2]/div/table/tbody/tr[5]/td[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>8bdc12e9-332f-4a6a-8633-fa6e94496a6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>5fce6b83-174d-4939-9a04-e7d19b9ae1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Prueba</value>
+      <webElementGuid>e1ff2b94-4110-40c0-9e98-b6fff0f169a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formListadoEvento:tablaEventos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[4]</value>
+      <webElementGuid>637744ad-d06a-4402-b1cd-3057282ec83a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formListadoEvento:tablaEventos_data']/tr[5]/td[4]</value>
+      <webElementGuid>b1f04092-afda-4648-88cf-c58117ff06c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pruebas De Sara'])[1]/following::td[1]</value>
+      <webElementGuid>d307a223-f989-4b90-8042-3671cc6a31a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Programado'])[5]/following::td[4]</value>
+      <webElementGuid>2a8984c7-dd9c-4338-87c8-c4881adb5647</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOGOTA'])[5]/preceding::td[1]</value>
+      <webElementGuid>a9897ae1-6ac2-4381-8611-a20f1282ebb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A A A'])[1]/preceding::td[6]</value>
+      <webElementGuid>fd30816f-edbd-4b80-9ce8-d16a1c68e158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Prueba']/parent::*</value>
+      <webElementGuid>693f8b5e-e074-4467-9510-79b88594c9b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/table/tbody/tr[5]/td[4]</value>
+      <webElementGuid>3ab6b3e2-327f-4faf-a721-0db15ff40340</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

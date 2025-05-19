@@ -6,12 +6,12 @@
    <elementGuidId>a4d4b7de-a767-4e2f-b950-8b8588f54b50</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[5]/td[7]/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.fc-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'FESTIVO')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>8f03fbf9-d108-44e5-929b-a4ad447b6906</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fc-content</value>
+      <webElementGuid>f4887d60-2932-436f-9448-675f3e28f91a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0 FESTIVO</value>
+      <webElementGuid>87836598-c625-4e7c-a339-f3b1a16c7dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;calendario&quot;)/div[@class=&quot;fc-view-container&quot;]/div[@class=&quot;fc-view fc-month-view fc-basic-view&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;fc-widget-content&quot;]/div[@class=&quot;fc-day-grid-container&quot;]/div[@class=&quot;fc-day-grid&quot;]/div[@class=&quot;fc-row fc-week fc-widget-content&quot;]/div[@class=&quot;fc-content-skeleton&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;fc-event-container&quot;]/a[@class=&quot;fc-day-grid-event fc-event fc-start fc-end fc-draggable&quot;]/div[@class=&quot;fc-content&quot;]</value>
+      <webElementGuid>ca781fc9-e4ea-4d09-9ef3-90da8077643a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='calendario']/div[2]/div/table/tbody/tr/td/div/div/div[5]/div[2]/table/tbody/tr/td[5]/a/div</value>
+      <webElementGuid>f5cbe535-98c4-42ac-897f-2b5a78c4ca5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dom.'])[1]/following::div[18]</value>
+      <webElementGuid>041dd254-f08e-4871-b793-047d36b8bbb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sáb.'])[1]/following::div[18]</value>
+      <webElementGuid>f950baf8-aa5e-458e-ad44-20fc386feb13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Evento'])[1]/preceding::div[6]</value>
+      <webElementGuid>823094b8-48e0-4e4a-9c7e-c50987e1091d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div</value>
+      <webElementGuid>ba18e3f6-e728-4774-91b4-63b06491792e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

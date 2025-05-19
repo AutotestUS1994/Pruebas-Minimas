@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Prueba Proceso Selección Etapa Proceso']/parent::*</value>
+         <value>//tr[9]/td</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e3554094-7464-4898-8219-4ea34ce86510</webElementGuid>
+      <webElementGuid>f3c2141d-fcc9-4e6f-b9e6-f99266e99fa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>05f53de9-cf78-46b9-b80a-ba10875f9797</webElementGuid>
+      <webElementGuid>0e2dedae-be2f-4db9-96e5-80b211ce8025</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PRUEBA</value>
-      <webElementGuid>1a80326c-e767-4bcf-ba31-5090bf33806a</webElementGuid>
+      <webElementGuid>d4f31cfd-2ccf-48ac-b950-a6f6e265648c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCitacion_form:listaEtapas_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable ui-state-highlight fila_tabla_ace ui-state-hover&quot;]/td[1]</value>
-      <webElementGuid>6715d051-bc82-4168-8c8a-fa1428d171e4</webElementGuid>
+      <webElementGuid>573ce0c5-9027-4a44-994e-3d91da3f37f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='popupCitacion_form:listaEtapas_data']/tr[9]/td</value>
-      <webElementGuid>59bc177b-0c00-4859-9367-b38e1651ec97</webElementGuid>
+      <webElementGuid>f3947860-13d6-442c-89c1-d0afbb8769b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contratación'])[1]/following::td[1]</value>
-      <webElementGuid>f3370e7a-d586-427b-99d5-137e0318106b</webElementGuid>
+      <webElementGuid>243b9538-76ce-4078-b12d-5c45bd6616ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Entrevista Jefe Inmediato'])[1]/following::td[2]</value>
-      <webElementGuid>3b3ddd59-0782-4d83-a193-fffc13607987</webElementGuid>
+      <webElementGuid>41344445-d86f-4a99-8b78-ff13dad73716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Proceso Selección Etapa Proceso'])[1]/preceding::td[1]</value>
-      <webElementGuid>b186ed4f-e7a5-4197-a80c-79ab10b42cd8</webElementGuid>
+      <webElementGuid>08a28c9a-6969-4074-9499-84667d0a3d14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Solicitud Competencia Selección'])[1]/preceding::td[3]</value>
-      <webElementGuid>be5e3610-2601-4e7c-98b5-e9e595bd267c</webElementGuid>
+      <webElementGuid>893a451c-9784-44ec-9906-99f6b0ad3244</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PRUEBA']/parent::*</value>
-      <webElementGuid>46be4b3f-4827-4bea-94dd-a8bf96d41116</webElementGuid>
+      <webElementGuid>b847e37f-7301-44ea-8f8a-60d422c7eb98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td</value>
-      <webElementGuid>43f4d44a-f22a-41ac-a253-aa490c04279e</webElementGuid>
+      <webElementGuid>ea247f4b-d6c7-4094-b949-55464bf2a3cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'PRUEBA' or . = 'PRUEBA')]</value>
-      <webElementGuid>003163a5-eeb6-4024-88a7-6196a1cd8dd4</webElementGuid>
+      <webElementGuid>77ff6186-226e-41e0-9f3a-e386f0736337</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

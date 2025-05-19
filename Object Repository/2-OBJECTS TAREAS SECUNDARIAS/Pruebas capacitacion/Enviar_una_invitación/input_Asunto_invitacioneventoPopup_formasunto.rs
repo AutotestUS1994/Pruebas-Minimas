@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[3]/tbody/tr/td[2]/input</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[16]/div/div[2]/div[2]/table[2]/tbody/tr/td[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>09fa4ca3-d26c-449a-973c-4801eb870c40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>invitacioneventoPopup_form:asunto</value>
+      <webElementGuid>323677b2-e1f1-42bc-bd9d-ab87a0c22000</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>52fa261b-f94e-4927-af1e-f063e3f9a4b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>invitacioneventoPopup_form:asunto</value>
+      <webElementGuid>949f0407-e728-4601-931c-19c3a536ec31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>d6235fd7-cd30-405b-82a2-6aea78f1dc90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;invitacioneventoPopup_form:asunto&quot;)</value>
+      <webElementGuid>02c848c6-b5d0-429d-a471-56345860e259</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='invitacioneventoPopup_form:asunto']</value>
+      <webElementGuid>facf7e18-aff4-4724-b34c-dfd4084c21dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='invitacioneventoPopup_form:j_idt1572_content']/div[2]/table[3]/tbody/tr/td[2]/input</value>
+      <webElementGuid>558719af-3a09-45ce-a1aa-bdfd9d379633</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,5 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[3]/tbody/tr/td[2]/input</value>
+      <webElementGuid>3e8135e8-59fb-4a61-930e-6caa62fd8929</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[7]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/input</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[8]/div/div[2]/div[2]/table[1]/tbody/tr[2]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>bcbac1da-9925-4a68-bb7d-0c8ddcf0bbb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupEtapaSeleccion_form:orden</value>
+      <webElementGuid>3f967f27-1588-4602-95dd-0cf7419549bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>4e6085f6-c346-4f12-b2fe-2e219d79e811</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupEtapaSeleccion_form:orden</value>
+      <webElementGuid>1e42b5b4-a6c9-41e3-aa9f-0309a4bd717a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>b76aecde-2edc-4c10-b9f6-371a48ba20b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>ace0c681-0dee-42bb-94ec-8ceb43163ccd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>a8759ee2-5882-4f23-9cee-50186d65c9cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupEtapaSeleccion_form:orden&quot;)</value>
+      <webElementGuid>843ba220-3699-455f-a8e3-f8a89b30877b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupEtapaSeleccion_form:orden']</value>
+      <webElementGuid>4ee9181b-f129-4b0b-8581-caf6a4ac765e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupEtapaSeleccion_form:j_idt2069_content']/div[2]/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>4887d6f4-f3b5-4eeb-a6dd-36d2a8520d3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[7]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>dc1c55e7-f6c8-4667-bd9f-7e47af0fdfb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'popupEtapaSeleccion_form:orden' and @type = 'text' and @name = 'popupEtapaSeleccion_form:orden']</value>
+      <webElementGuid>6d546231-0cd1-4304-8a52-12230937906f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

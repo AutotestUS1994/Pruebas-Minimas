@@ -6,12 +6,11 @@
    <elementGuidId>aab7b25b-e57b-40b1-9213-94033beee6e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//td[2]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>90c3d044-726d-447d-a9b2-fb405b247874</webElementGuid>
+      <webElementGuid>99e608cc-f6ae-4dbb-895c-8f599ef0b226</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>listado_correo:j_idt71</value>
-      <webElementGuid>5057db4d-de1f-496f-8928-47ab91759e54</webElementGuid>
+      <webElementGuid>66c332e5-9bba-4110-a23a-466d359aa75f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2d269aec-a402-43ea-a7e2-61ea75aeb8d7</webElementGuid>
+      <webElementGuid>46114826-50e6-4c7c-a69a-a2d648bd3d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>listado_correo:j_idt71</value>
-      <webElementGuid>563806c5-bb11-421e-b89f-de137f6629ee</webElementGuid>
+      <webElementGuid>c7703dab-1971-4a60-bd31-f37078afb311</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Generar Claves Usuario</value>
-      <webElementGuid>ff083a45-ee2d-42c6-a60a-ae114e469e2a</webElementGuid>
+      <webElementGuid>896b3344-b2e8-401e-aec9-e234720ad475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>82dfdb1c-f509-4d7b-b44e-3badeaf29832</webElementGuid>
+      <webElementGuid>e8daf50f-761a-4f7d-9422-cc7807262bdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>69b86f66-ff01-49c1-b8d3-2398d1d85afe</webElementGuid>
+      <webElementGuid>b272cb1a-1d86-4d6b-bafc-e55a51c071cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>size</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>18e0db6a-f96b-4de0-b5c6-5ce280e56fcb</webElementGuid>
+      <webElementGuid>e2655bed-eb79-4d6b-aa4e-63bbc9814195</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;valueChange&quot;,f:&quot;listado_correo&quot;,p:&quot;listado_correo:j_idt71&quot;,u:&quot;areaAplicacion&quot;});</value>
-      <webElementGuid>3bfb134c-604e-4d3a-bb4e-a059a03c2ed5</webElementGuid>
+      <webElementGuid>17b6131a-5de9-41eb-a30e-5c07805e18f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listado_correo:j_idt71&quot;)</value>
-      <webElementGuid>a23fa486-3572-4e4e-9186-3cce5ff38a62</webElementGuid>
+      <webElementGuid>01bca29c-a3b7-409c-92ec-053ec39ebdd2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='listado_correo:j_idt71']</value>
-      <webElementGuid>65bf1bec-6665-4e2f-ae0b-15fc951403d9</webElementGuid>
+      <webElementGuid>a1228426-f655-4e95-99e0-1d7468ca173d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='listado_correo:panelFiltro_content']/table/tbody/tr[2]/td[2]/input</value>
-      <webElementGuid>eae4602d-6e45-40a4-b0eb-1ac6e948ec79</webElementGuid>
+      <webElementGuid>7168b72b-a2a8-4a59-ae4c-8684cefc219b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/input</value>
-      <webElementGuid>e071a405-3f78-406d-977d-b422964d8167</webElementGuid>
+      <webElementGuid>7633b4ad-28af-426f-80f1-a69d5b903207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'listado_correo:j_idt71' and @type = 'text' and @name = 'listado_correo:j_idt71']</value>
-      <webElementGuid>4addd8c1-58a8-4c6e-9ce8-33abb35d2208</webElementGuid>
+      <webElementGuid>ae7a8e19-3b49-499f-a003-1bf4e8323f1f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -52,7 +52,18 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
 				
 				}else {
 					WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_6'))
-					WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+					if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'),
+						1)) {
+						WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+					} else {
+						WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/a_6'))
+						if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'),
+							1)) {
+							WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Crear_un_requerimiento_según_motivo_y_formato/span_PRUEBA'))
+						} else {
+							println("No esta el registro en la página 7")
+						}
+					}
 				}
 			}
 			

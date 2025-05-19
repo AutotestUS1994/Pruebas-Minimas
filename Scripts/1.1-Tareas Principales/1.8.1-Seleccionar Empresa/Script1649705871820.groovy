@@ -176,13 +176,12 @@ if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pru
                     1)) {
                     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_SARA_usuarioformatabtabla_roles0j_idt151'))
 
-
-                    if(WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Aceptar_Acceso particular'), 
-                        1))
-                    {
-                    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Aceptar_Acceso particular'))
+                    if (WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Aceptar_Acceso particular'), 
+                        1)) {
+                        WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Aceptar_Acceso particular'))
+                    } else {
+                        break
                     }
-					else {break}
                 }
                 
                 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Seguridad/6.1.7-Seleccionar Empresa/a_Informacin'))

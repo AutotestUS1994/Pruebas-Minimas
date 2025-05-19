@@ -6,11 +6,11 @@
    <elementGuidId>883a0dad-25db-4fc5-87c9-750e58e5e670</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Listado Hojas de Vida')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//ul/li[1]/ul/li[6]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>6a6d3584-6ff4-4eee-8a8f-c489ffa36f9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>0dd47394-921c-4bf8-aa9f-f5809997ed4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.ab('j_idt39:main',event,'click','@this',0,{'params':{'co.com.unionsoluciones.custommenu.url':'d78b9a08a27e4b339ac9fddb97fca918'}}); return false</value>
+      <webElementGuid>4ac105a5-b8a8-44cb-bc0f-b5f7d0e05ca2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Listado Hojas de Vida</value>
+      <webElementGuid>fb15c104-0355-4f25-bb3b-93fc64c8ed3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt39:main&quot;)/ul[@class=&quot;us-main-menu&quot;]/li[@class=&quot;principales&quot;]/ul[1]/li[@class=&quot;principales&quot;]/a[1]</value>
+      <webElementGuid>6892fced-cdc5-4f2b-ac70-e583697cff8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.ab('j_idt39:main',event,'click','@this',0,{'params':{'co.com.unionsoluciones.custommenu.url':'d78b9a08a27e4b339ac9fddb97fca918'}}); return false&quot;]</value>
+      <webElementGuid>70f3b8df-022d-4ca4-9afd-a94520462056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='j_idt39:main']/ul/li[3]/ul/li[4]/a</value>
+      <webElementGuid>a4feed35-c81f-4afc-b169-486a2402af5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Listado Hojas de Vida')]</value>
+      <webElementGuid>df39cc20-9200-4da8-a62b-8748e5d0069d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nueva Hoja Vida'])[1]/following::a[5]</value>
+      <webElementGuid>1818a160-0f58-441a-805a-0e23f7a58f96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parametros de Formularios'])[1]/following::a[9]</value>
+      <webElementGuid>de8bcc30-d9ec-42b3-9620-a1daa9499e44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='bienvenido a'])[1]/preceding::a[9]</value>
+      <webElementGuid>b2566a55-dab4-4cc5-a6f0-bb1c89fe5d97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoja de Vida'])[2]/preceding::a[9]</value>
+      <webElementGuid>06b9062d-2f0b-42d4-86d9-ade437dd6a04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Listado Hojas de Vida']/parent::*</value>
+      <webElementGuid>f14616e1-939d-4853-8eab-e48d592335a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[29]</value>
+      <webElementGuid>e21317c9-0fd0-400c-abf8-eb9fa70aa1b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,5 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li[4]/a</value>
+      <webElementGuid>e4bffcaa-fd83-4516-a210-658d5ddefa48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

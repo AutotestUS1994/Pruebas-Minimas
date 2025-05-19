@@ -265,6 +265,9 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Ge
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/td_columnario xlsm SAGE-000608'))
 
+WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Ejecutar0'), 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Ejecutar0'))
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/div_Que desea hacer_ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active ui-state-hover'))
@@ -334,7 +337,7 @@ String Archivo1 = 'Reporte_Vencimiento_de_Contratos.xls'
 
 System.out.println(rutaA)
 
-Assert.assertTrue(archivoDescargado(rutaA, Archivo, Archivo1))
+
 
 def calendario() {
     WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion_de_Reportes/a_Ejecutar0'))

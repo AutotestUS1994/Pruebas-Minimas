@@ -61,13 +61,13 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas c
     1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_SeleccioneAula InteligenteSala de JuntasSalon ExternoSalon Principal'), 
-    4)
+    1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_SeleccionePRUEBA DE MODULO'), 
     1)
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/select_Seleccione23913781ALMANZA ROSAS SILVISGUISELLGUTIERREZ ALVAREZ FERNANDA LUCIA'), 
-    1)
+    2)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Programar_un_evento/a_Guardar'))
 

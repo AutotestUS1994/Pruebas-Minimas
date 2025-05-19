@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Eliminar')])[2]</value>
+         <value>//div[2]/table[2]/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>92669a28-de5e-4ceb-9bf5-a4e6bf25bce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>817d5bbb-792d-488e-a2fc-342a00ed2965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>mojarra.jsfcljs(document.getElementById('form_popupfuentecampo'),{'form_popupfuentecampo:j_idt352':'form_popupfuentecampo:j_idt352'},'');return false</value>
+      <webElementGuid>3e5aae4f-6de9-487d-8cb9-01082906e0e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>us-boton us-large btn-eliminar</value>
+      <webElementGuid>716702fc-5ef6-41fa-a0d1-256a217b5c08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Eliminar</value>
+      <webElementGuid>0c74e4cf-d82c-4ce6-b2c5-11d812d501a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupfuentecampo:j_idt318_content&quot;)/div[@class=&quot;popupBody&quot;]/table[2]/tbody[1]/tr[1]/td[2]/a[@class=&quot;us-boton us-large btn-eliminar&quot;]</value>
+      <webElementGuid>cddd3d3f-ccb7-486d-9f2a-e92f4410ae92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@onclick=&quot;mojarra.jsfcljs(document.getElementById('form_popupfuentecampo'),{'form_popupfuentecampo:j_idt352':'form_popupfuentecampo:j_idt352'},'');return false&quot;]</value>
+      <webElementGuid>f4abb4c2-93b6-4a1b-9805-201fb7d8e732</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_popupfuentecampo:j_idt318_content']/div[2]/table[2]/tbody/tr/td[2]/a</value>
+      <webElementGuid>e3abde64-d388-470e-b2df-5c96d7246bd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Eliminar')])[2]</value>
+      <webElementGuid>5c9869cb-44d6-4e10-9ba5-93bc219a7bd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Obligatorio*'])[1]/following::a[2]</value>
+      <webElementGuid>2868b99b-a7be-4351-b64a-3129941e7052</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Homologación'])[1]/following::a[2]</value>
+      <webElementGuid>60149ea2-4b45-4443-8e08-6d20b8ec4093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
+      <webElementGuid>bf0a2b7e-7281-4499-819b-e3d9de334d05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
+      <webElementGuid>381027ac-eb46-4a52-a336-e8940b24c236</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[44]</value>
+      <webElementGuid>8d1ae3e4-9872-48da-aca1-c9717ad0801b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table[2]/tbody/tr/td[2]/a</value>
+      <webElementGuid>afd3d82b-67af-4d5e-a930-f3b706421082</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,5 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Eliminar' or . = 'Eliminar')]</value>
+      <webElementGuid>50893175-fba1-4d21-a95c-cdf4f470d53e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

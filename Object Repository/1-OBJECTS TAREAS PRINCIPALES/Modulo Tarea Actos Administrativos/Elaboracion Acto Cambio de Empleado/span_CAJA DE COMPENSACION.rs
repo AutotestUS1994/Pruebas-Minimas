@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[6]/td/span</value>
+         <value>//tr[6]/td[1]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>26d0c9d3-02bd-491b-af14-537f89840d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>aefd034f-9827-4926-ac91-e6975ec05d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CAJA DE COMPENSACION</value>
+      <webElementGuid>a99a7248-22ab-4e91-8339-7cd22a890298</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_actoIngreso:j_idt1057_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-odd ui-datatable-selectable fila_tabla_ace&quot;]/td[1]/span[@class=&quot;valor_campo&quot;]</value>
+      <webElementGuid>2d8e4133-ed33-4b51-8888-d5eee9c6c72d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_actoIngreso:j_idt1057_data']/tr[6]/td/span</value>
+      <webElementGuid>eeca6350-5443-44f9-8e46-82e5f2bf288e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PAGO DE NOMINA'])[1]/following::span[3]</value>
+      <webElementGuid>95fce19c-4e14-49a0-8112-cff3d62e511e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogota'])[4]/following::span[4]</value>
+      <webElementGuid>bf4b21a6-4787-4b0e-993b-eae53c728b1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ccf - Compensar'])[1]/preceding::span[1]</value>
+      <webElementGuid>ffca4226-ee10-471e-af42-7925f672f710</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bogota'])[5]/preceding::span[2]</value>
+      <webElementGuid>74e4b0e6-4dab-4ea1-acf4-efe73a468cd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CAJA DE COMPENSACION']/parent::*</value>
+      <webElementGuid>2f99f39e-a485-4e6b-8536-a967a83db924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/span</value>
+      <webElementGuid>fd075678-795f-422e-a5de-8b757d9e22c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

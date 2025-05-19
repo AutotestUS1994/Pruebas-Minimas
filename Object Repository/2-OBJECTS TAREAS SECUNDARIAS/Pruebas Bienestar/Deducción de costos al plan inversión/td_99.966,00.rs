@@ -6,11 +6,11 @@
    <elementGuidId>2751c6f5-c633-41cf-bc1e-dc33d1515147</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='99.966,00']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='PRUEBA INVERSION'])[4]/following::td[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
+      <webElementGuid>aac80099-c5a1-4f7a-ac5f-b02d75e0b9f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
+      <webElementGuid>41aa4ec1-27d6-434a-89d2-c16a8b724715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>99.966,00</value>
+      <webElementGuid>d836a522-8e67-4fab-8348-43b7fae39a0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_planDeInversionbienestar:spawn_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-highlight&quot;]/td[6]</value>
+      <webElementGuid>e64225e6-58e6-4005-bade-a3e104461fc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='form_planDeInversionbienestar:spawn_data']/tr[3]/td[6]</value>
+      <webElementGuid>5a25dd25-f4a3-41c0-912e-6a3459f931cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Abierto'])[3]/following::td[2]</value>
+      <webElementGuid>84fd06c3-219c-4fcc-a527-fe2da508157e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PRUEBA INVERSION'])[4]/following::td[4]</value>
+      <webElementGuid>e3265ae4-846b-46c0-aece-58023c9a2868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Plan Inversión Alimen 7'])[1]/preceding::td[2]</value>
+      <webElementGuid>07424769-972e-40ab-844e-e26299153e50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prueba Plan Inversión decimales'])[2]/preceding::td[3]</value>
+      <webElementGuid>39a7c0e6-5bef-45ce-8e04-bee00fa6aa62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='99.966,00']/parent::*</value>
+      <webElementGuid>ef85581f-60b9-417e-9414-403fa2320eb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[6]</value>
+      <webElementGuid>429846b9-e7f9-42da-9aa2-115462ac56f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

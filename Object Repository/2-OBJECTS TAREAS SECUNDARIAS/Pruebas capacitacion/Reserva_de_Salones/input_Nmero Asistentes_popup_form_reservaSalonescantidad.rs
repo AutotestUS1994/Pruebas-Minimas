@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[5]/input</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[2]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/table/tbody/tr/td[7]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>13a073ed-edaa-4d86-8759-e07c915dde36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popup_form_reservaSalones:cantidad</value>
+      <webElementGuid>df4726ee-113c-4da7-b935-be1e1fabd941</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>838d316d-9ccf-4a9d-8317-e8614ef7c211</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popup_form_reservaSalones:cantidad</value>
+      <webElementGuid>d379be31-7686-43be-a4d4-841dc4ae905d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>d0b5aa9f-f2a8-41be-b620-3e0dfd1a9c0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>3d2552c6-acd6-4447-a3c4-c53033395a2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return entero(event);</value>
+      <webElementGuid>9b946cfb-9783-4ce6-b151-6f6999551401</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popup_form_reservaSalones:cantidad&quot;)</value>
+      <webElementGuid>4df64e44-9cd3-440f-98b8-473aff192a73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popup_form_reservaSalones:cantidad']</value>
+      <webElementGuid>515eebcd-0f47-4743-80be-19af65624423</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popup_form_reservaSalones:j_idt150_content']/div[2]/table/tbody/tr[4]/td[2]/table/tbody/tr/td[5]/input</value>
+      <webElementGuid>a0723d7b-1a48-41fb-8b72-076e1b89481e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/input</value>
+      <webElementGuid>5fbd2c60-8035-4ec7-9448-68cd5aadb0fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

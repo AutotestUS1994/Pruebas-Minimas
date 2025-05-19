@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='listado_nominaelectronica:j_idt94']</value>
+         <value>//a[contains(text(),'Nuevo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b3c82590-6cbc-4923-b840-e4f265f99259</webElementGuid>
+      <webElementGuid>68d3f4cb-bb1c-4a36-b3da-5217795ea8ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>listado_nominaelectronica:j_idt94</value>
-      <webElementGuid>93573c36-7bf4-4fc3-9f46-a41867c41918</webElementGuid>
+      <webElementGuid>8cc08a29-c741-41a9-901c-cc086892aed1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>90023784-e2aa-4e68-a1af-3f3507d752a2</webElementGuid>
+      <webElementGuid>1ae72e0e-2a8a-4f63-b908-a0d045968511</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-nuevo</value>
-      <webElementGuid>b8a93106-075d-42ae-b4e6-b0f16134152a</webElementGuid>
+      <webElementGuid>7f184c39-4b6e-4f72-a77e-83c57d198231</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;listado_nominaelectronica:j_idt94&quot;,f:&quot;listado_nominaelectronica&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>c1e32b3f-caac-48ce-9bc8-92b5d3455612</webElementGuid>
+      <webElementGuid>775fe746-c4db-481d-a1c2-5b079087eb65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nuevo</value>
-      <webElementGuid>91d42003-b9b7-494e-a0dc-f3040c143f41</webElementGuid>
+      <webElementGuid>717ac499-8f27-4c2e-865c-765abb4d08b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;listado_nominaelectronica:j_idt94&quot;)</value>
-      <webElementGuid>6b5b3765-73f1-47dd-a2e5-50d38239bbaa</webElementGuid>
+      <webElementGuid>b74a762f-7c49-4c07-b56e-17df75f11ff7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='listado_nominaelectronica:j_idt94']</value>
-      <webElementGuid>2e08a2a4-5f28-4044-915b-88a8a709729a</webElementGuid>
+      <webElementGuid>0d2eaee2-5df8-4c7f-8e78-68cedb1f5860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='listado_nominaelectronica']/table/tbody/tr[3]/td/table/tbody/tr/td/a</value>
-      <webElementGuid>e308792b-f632-40a0-8384-257180a29607</webElementGuid>
+      <webElementGuid>1538d0e3-a969-4b94-8024-39d6774017ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Nuevo')]</value>
-      <webElementGuid>4e13d352-1281-404a-a113-ea35bb4b985c</webElementGuid>
+      <webElementGuid>ede3fd26-08a2-403f-9bff-d1fbbe4b75a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transmision satisfactoria'])[5]/following::a[1]</value>
-      <webElementGuid>879c2eb9-5dc5-448f-98a4-6c779555a521</webElementGuid>
+      <webElementGuid>6b96860e-3980-4797-98f2-2345a4032ecb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nómina Individual'])[4]/following::a[1]</value>
-      <webElementGuid>7ae491a5-b7cb-48b2-a696-d0d0d7aa0526</webElementGuid>
+      <webElementGuid>12cbd0b5-d0aa-4047-aabe-f3be49c9ac71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::a[2]</value>
-      <webElementGuid>6ef9f0c9-00c1-48b9-b983-99e47e21e89e</webElementGuid>
+      <webElementGuid>e62a97e3-30f5-4f2f-b4a0-2baae17f155d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Si'])[1]/preceding::a[2]</value>
-      <webElementGuid>da48e3c9-f316-4cf7-a2e7-cb8dc4ff06e4</webElementGuid>
+      <webElementGuid>52703dc8-cd0c-4566-824f-43b99db59b7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Nuevo']/parent::*</value>
-      <webElementGuid>99d225c9-7766-43ea-9f7f-73b6fdc2c5fa</webElementGuid>
+      <webElementGuid>99344b38-0f95-476e-bf9c-16f1d0645176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
-      <webElementGuid>2546835c-495e-4dc8-bccb-a55e5eeb1fac</webElementGuid>
+      <webElementGuid>2253f05c-290a-45ee-9450-eac11dbbedf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td/a</value>
-      <webElementGuid>717aeedb-5c42-4dc1-8c34-67b72950dd08</webElementGuid>
+      <webElementGuid>cda8e547-cf70-44fd-9c8d-ba7cd8aefbec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'listado_nominaelectronica:j_idt94' and @href = '#' and (text() = 'Nuevo' or . = 'Nuevo')]</value>
-      <webElementGuid>c369978a-ee7c-4ac2-8eca-89e49fdd0242</webElementGuid>
+      <webElementGuid>83e3dc39-c91b-4304-b6dd-f33f4e52bb8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

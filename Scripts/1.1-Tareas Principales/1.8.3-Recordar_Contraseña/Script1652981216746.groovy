@@ -182,7 +182,7 @@ WebUI.sendKeys(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara Ge
 
 Number Contador = 0
 
-while (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Prueba_Contrasea'), 
+/*while (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_Prueba_Contrasea'), 
     1)) {
     WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/span_20052022 0949'))
 
@@ -252,46 +252,50 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
             WebUI.acceptAlert()
         }
     }
-}
+}*/
+/*if (Result1 == 'Señor usuario, se ha remitido un correo electrónico al correo asociado.') {*/
+String i = GlobalVariable.G_Login
 
-if (Result1 == 'Señor usuario, se ha remitido un correo electrónico al correo asociado.') {
-    String i = GlobalVariable.G_Login
+WebUI.openBrowser(i)
 
-    WebUI.openBrowser(i)
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario1'), 
+    'Prueba')
 
-    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginusuario1'), 
-        'Prueba')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword1'), 
+    'saraadmin1')
 
-    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Olvide Mi Clave_loginpassword1'), 
-        'saraadmin1')
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Ingresar1'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Ingresar1'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_No_cerrar_menu'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_No_cerrar_menu'))
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_No_j_idt44password'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_No_j_idt44password'))
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Nueva Clave_usuarioforma_cambiarClavepasswordNuevo'), 
+    'saraadmin2')
 
-    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Nueva Clave_usuarioforma_cambiarClavepasswordNuevo'), 
-        'saraadmin2')
+WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Ingrese Login o Correo_form_recordarClaveloginEmail - Copy'), 
+    'saraadmin2')
 
-    WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/input_Confirmar Clave_usuarioforma_cambiarClavepasswordConfirma'), 
-        'saraadmin2')
+WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Actualizar1'))
 
-    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/a_Actualizar1'))
+String Result2 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/p_Se actualiz Clave'))
 
-    String Result2 = WebUI.getText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Recordar_Contraseña/p_Se actualiz Clave'))
+if (Result2 == 'Se actualizó Clave...') {
+    String Resultado = 'PRUEBA OK'
 
-    if (Result2 == 'Se actualizó Clave...') {
-        String Resultado = 'PRUEBA OK'
+    WebUI.closeBrowser() /*}*/
+} else {
+    WebUI.acceptAlert()
 
-        WebUI.closeBrowser()
-    } else {
-        WebUI.acceptAlert()
-    }
+    System.out.println('RESULTADO2 ES:', Result2)
 }
 
 def Fecha() {
     Date today = new Date()
+
+    use(groovy.time.TimeCategory, { 
+            today = (today + 1.day)
+        })
 
     String Fecha = today.format('dd/MM/yyyy')
 

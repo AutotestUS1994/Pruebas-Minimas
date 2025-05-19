@@ -19,7 +19,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 String identificacion = ((WebUI.callTestCase(findTestCase('1.1-Tareas Principales/1.1.1-Crear Nueva Hoja de Vida'), [:], 
         FailureHandling.STOP_ON_FAILURE)) as String)
-
+//String identificacion = 8239091;
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Tareas Actos Administrativos/Tarea Actos Administrativos'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Etapas Por Asistente')]</value>
+         <value>//a[contains(text(),'Etapa Por Asistente')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>b98ee195-4c2e-47c1-a300-c5cff64ba738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt653:j_idt654:j_idt656:j_idt761</value>
+      <webElementGuid>b606c8a8-6104-4474-8ede-c2d517c7c64b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6c424c06-73df-47d4-bed6-de3103cdcbc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>b7adfa13-b128-4af2-86fd-dde9d748ad7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;j_idt653:j_idt654:j_idt656:j_idt761&quot;,f:&quot;j_idt653&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>0a041f9a-c4aa-4b33-9581-974bdc8326b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Etapas Por Asistente </value>
+      <webElementGuid>5fb08639-b516-444b-b98d-53ab7aee7376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt653:j_idt654:j_idt656:j_idt761&quot;)</value>
+      <webElementGuid>e5bb10ad-b7fd-4518-b370-87a40c7341eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt653:j_idt654:j_idt656:j_idt761']</value>
+      <webElementGuid>3e00a57c-5e5c-457d-b592-457ce4e72bc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt653:j_idt654:j_idt656:j_idt741']/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>659b0d05-85e8-4fc5-8cca-df3906b2ea1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Etapas Por Asistente')]</value>
+      <webElementGuid>c9f0f39c-61f0-47ef-b26d-0b2ab351627d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Citacion'])[1]/following::a[3]</value>
+      <webElementGuid>ef7d4699-30e7-462b-a498-3be9aefc02ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidato'])[1]/following::a[11]</value>
+      <webElementGuid>fa07673b-92d2-4148-83bd-8a1eb7b64078</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes'])[1]/preceding::a[6]</value>
+      <webElementGuid>080a805a-33fb-4239-ad30-888031e08626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Empresa'])[1]/preceding::a[10]</value>
+      <webElementGuid>f567f063-47e9-450c-8f8c-692e6b4058c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Etapas Por Asistente']/parent::*</value>
+      <webElementGuid>b45a4af2-da23-470e-a46c-ddc2d509513c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[60]</value>
+      <webElementGuid>a614c8d4-03f5-4cc2-8f63-4e8a8ba7afe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/table[3]/tbody/tr/td/a</value>
+      <webElementGuid>e4b5e5e6-2461-4d73-ae63-ebb214a91470</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'j_idt653:j_idt654:j_idt656:j_idt761' and @href = '#' and (text() = 'Etapas Por Asistente ' or . = 'Etapas Por Asistente ')]</value>
+      <webElementGuid>1c99fa85-4cb4-47a6-9fef-55063295d945</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

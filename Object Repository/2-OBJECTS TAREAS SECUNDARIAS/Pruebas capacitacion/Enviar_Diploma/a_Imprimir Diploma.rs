@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Imprimir Diploma']/parent::*</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[1]/form/table/tbody/tr[1]/td/div/div[4]/table[8]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>4af9e171-a291-4017-99a1-3645fa62cdad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt147:j_idt148:j_idt150:j_idt2189</value>
+      <webElementGuid>2faf1438-942c-45c4-86ee-d98bd25ce3a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>911d5b93-9e9b-4b73-b5d7-a9f09175d53b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>8fce1dca-7ba7-405c-9f74-bb22e7a505e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;j_idt147:j_idt148:j_idt150:j_idt2189&quot;,f:&quot;j_idt147&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>fdfa509f-53fe-4b67-993a-84e46c1aadec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Imprimir Diploma </value>
+      <webElementGuid>d8a54dfc-c865-43c3-b0f2-a3e13173b87f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt147:j_idt148:j_idt150:j_idt2189&quot;)</value>
+      <webElementGuid>4831fa0f-c80d-4398-8ef6-679f836baa62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt147:j_idt148:j_idt150:j_idt2189']</value>
+      <webElementGuid>f04757ee-e397-410b-b171-bfcca98b10d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt147:j_idt148:j_idt150:j_idt2149']/table[8]/tbody/tr/td/a</value>
+      <webElementGuid>eb65acba-2957-42e1-86d0-1dbd862f17a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Imprimir Diploma')]</value>
+      <webElementGuid>574b02fe-57c0-49aa-a0bf-67fbb1b7cdbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asistentes'])[1]/following::a[8]</value>
+      <webElementGuid>465da073-3ff3-4dbe-bbf7-3e504f61f11a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupos'])[1]/following::a[9]</value>
+      <webElementGuid>9d57d7e0-4b71-49e8-a156-9838a0302878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recursos'])[1]/preceding::a[1]</value>
+      <webElementGuid>7f13eba0-24eb-49f4-b1b4-ecb29df9ac5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Costo'])[1]/preceding::a[2]</value>
+      <webElementGuid>8a66cdd7-0744-46c9-9c86-28bfcad7c9b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Imprimir Diploma']/parent::*</value>
+      <webElementGuid>e9efdd85-4acf-4693-9190-b53f4fcb792a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[36]</value>
+      <webElementGuid>c138594c-ea2e-4fc7-b530-9ba6a1705532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[8]/tbody/tr/td/a</value>
+      <webElementGuid>517bc031-e94d-4e17-8e1e-89569aa37830</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'j_idt147:j_idt148:j_idt150:j_idt2189' and @href = '#' and (text() = 'Imprimir Diploma ' or . = 'Imprimir Diploma ')]</value>
+      <webElementGuid>07d742c5-d979-470e-8c3b-eac26aef31f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

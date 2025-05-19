@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Registro')])[3]</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[1]/form/table/tbody/tr[1]/td/div/div[4]/table[2]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>3adaadba-ab6e-4770-93fd-6c87d8f7c72f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt147:j_idt148:j_idt150:j_idt2159</value>
+      <webElementGuid>7445224e-b6d4-4680-ae0b-f1908967cd59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>a15a8f37-50ac-414d-82da-4bf0fe3fd2ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>0c37f777-68c6-4a14-9813-b538753f6a4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;j_idt147:j_idt148:j_idt150:j_idt2159&quot;,f:&quot;j_idt147&quot;,u:&quot;areaAplicacion&quot;,onco:function(xhr,status,args,data){;}});return false;</value>
+      <webElementGuid>201200b9-93be-453c-899d-ef331b08872b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Registro   </value>
+      <webElementGuid>2f3c28c9-ded5-440b-92ae-7737a99890b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt147:j_idt148:j_idt150:j_idt2159&quot;)</value>
+      <webElementGuid>d3f84270-f518-4298-a63d-63daf0a85620</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt147:j_idt148:j_idt150:j_idt2159']</value>
+      <webElementGuid>ba2deb4b-cf6d-49e7-bb74-094023a0cde5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt147:j_idt148:j_idt150:j_idt2149']/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>49c51fad-13a4-4139-9e6e-aa2994a8a041</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Registro')])[3]</value>
+      <webElementGuid>69c195bd-cb3b-4b1b-930e-e04deb0aa846</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Asistentes'])[1]/following::a[2]</value>
+      <webElementGuid>d4b48951-6eb3-4c50-b350-857f5ebf624a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupos'])[1]/following::a[3]</value>
+      <webElementGuid>6fc66429-4e57-4f20-9a1e-224b7d178250</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recursos'])[1]/preceding::a[7]</value>
+      <webElementGuid>cc693d3d-368e-4b5b-8ce7-fc80973cbc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Costo'])[1]/preceding::a[8]</value>
+      <webElementGuid>8f847b75-05a1-456f-83fc-b3a3520ddb1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[30]</value>
+      <webElementGuid>a66165bc-e4f2-479e-b592-3431357dd2a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>fa3856b7-e245-4e0e-b67b-535e266029b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'j_idt147:j_idt148:j_idt150:j_idt2159' and @href = '#' and (text() = 'Registro   ' or . = 'Registro   ')]</value>
+      <webElementGuid>c6142afd-c514-4307-a7f3-13a77e36ee07</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

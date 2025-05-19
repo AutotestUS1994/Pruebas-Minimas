@@ -177,9 +177,11 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 }
 
 //String creado para redireccionar  los archivos requeridos por el test//
-String ra = ''
+//String ra = ''
 
-String ruta2 = Systema(ra) + 'saraapp.png'
+//String ruta2 = Systema(ra) + 'saraapp.png'
+
+String ruta2 = Systema() + 'saraapp.png'
 
 println(ruta2)
 

@@ -6,11 +6,11 @@
    <elementGuidId>b1c49d23-0b6f-469a-836a-8aa125c39ea6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[5]/td[2]/select</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[5]/td[2]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>22f2c74c-bb2e-4185-a0bc-81ac1fbec85b</webElementGuid>
+      <webElementGuid>7f607599-90ef-49f5-b256-bd3046af26d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:Destino</value>
-      <webElementGuid>4b14660f-b5f3-497b-afc4-57784e863ebc</webElementGuid>
+      <webElementGuid>51381575-60c0-400f-a937-bc0a9034abb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleviaticos:Destino</value>
-      <webElementGuid>2c58d6cb-c391-4d8b-af63-695371139319</webElementGuid>
+      <webElementGuid>e836361b-c5e7-4a69-901f-bb15cec97f64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>03a1fc68-203c-4529-af58-cdbf8c311cd9</webElementGuid>
+      <webElementGuid>bf625011-7720-4e6d-90a2-0c2ff4058aad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>20c38e08-8340-4849-b05c-fab80ce495b0</webElementGuid>
+      <webElementGuid>585b2431-418a-4b6b-a497-b080a0077bf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
 	Mexico
 	NACIONAL
 </value>
-      <webElementGuid>0988db15-f6f9-4e7f-8705-5a4aa40f1dd7</webElementGuid>
+      <webElementGuid>17f5932f-6a34-49de-8234-dd562767fe12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:Destino&quot;)</value>
-      <webElementGuid>902c7926-5adc-41be-8a3c-1c821d61172d</webElementGuid>
+      <webElementGuid>7834cda0-2f0c-47ba-9be0-803795ded6c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_detalleviaticos:Destino']</value>
-      <webElementGuid>a75c82a0-c23a-4fb0-8ac5-eecb50c30ac5</webElementGuid>
+      <webElementGuid>ce7e7350-dd1d-4757-9b0b-63a43d8001db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/table/tbody/tr/td/select</value>
-      <webElementGuid>c2b1a535-b44b-46a7-837c-4ad95ce003c6</webElementGuid>
+      <webElementGuid>7c637fd8-67cc-4007-9a19-d0a5eea6591a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Destino*'])[1]/following::select[1]</value>
-      <webElementGuid>e064d32f-4b03-4612-88e6-32b3d568a091</webElementGuid>
+      <webElementGuid>c73f0273-aa22-4025-9dbc-4e4a6e31e541</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/following::select[1]</value>
-      <webElementGuid>4e4f1578-91f8-4672-99cc-b0f8e558ab25</webElementGuid>
+      <webElementGuid>bd181f77-f8f2-42de-b755-d9d876686db0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Comisión*'])[1]/preceding::select[1]</value>
-      <webElementGuid>418d587c-53a0-4320-bc2f-8218addca1c7</webElementGuid>
+      <webElementGuid>9e7379f3-a9bc-4d04-9fd4-646c4c957c6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambito*'])[1]/preceding::select[2]</value>
-      <webElementGuid>338c0270-e8b9-47d0-92b6-b8d2023704d5</webElementGuid>
+      <webElementGuid>039a9f6d-4f95-4df7-bc0a-a1145a6abefd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>9d222867-9f19-486d-b6c4-62c6b997b60a</webElementGuid>
+      <webElementGuid>c99ec2e0-de90-4109-b582-e428ecf9d158</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

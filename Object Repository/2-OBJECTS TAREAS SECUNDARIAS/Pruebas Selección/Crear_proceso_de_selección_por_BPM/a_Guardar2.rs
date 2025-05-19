@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[8]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[9]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>85e5cb0d-fd33-4bd8-b297-ae200f353589</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupMedioSeleccion_form:j_idt2118</value>
+      <webElementGuid>6907a949-b880-445b-b823-8fd32ccf2d62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>2c4d653b-8bac-479f-baad-d232df1cfd95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-actualizar</value>
+      <webElementGuid>d0250042-d200-4e39-9be0-29e40abbe0c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;popupMedioSeleccion_form:j_idt2118&quot;,f:&quot;popupMedioSeleccion_form&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>26455ed2-5f7a-4988-8d1d-a601fe7c89c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
+      <webElementGuid>3c34cf92-3ab5-4cb7-8bf7-1ba421b21434</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupMedioSeleccion_form:j_idt2118&quot;)</value>
+      <webElementGuid>b81e96e1-485d-45d9-867e-4e7101600284</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='popupMedioSeleccion_form:j_idt2118']</value>
+      <webElementGuid>31270bdc-cb6c-4434-9f87-ce4339047614</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupMedioSeleccion_form:j_idt2098_content']/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>fcb4b67d-7d0f-473f-9762-d7d596e28bb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Guardar')]</value>
+      <webElementGuid>e4b4fa80-f815-4f3d-a159-c9105818331b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Máximo*'])[1]/following::a[1]</value>
+      <webElementGuid>91f3253e-3e45-4917-86d6-8f3f75aa982a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mínimo*'])[1]/following::a[1]</value>
+      <webElementGuid>5bf50752-c8cf-4823-8a20-890d956f7820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identificación'])[1]/preceding::a[2]</value>
+      <webElementGuid>d8516c43-5cf2-4d71-b2cb-ebb7ce20b2f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre'])[1]/preceding::a[2]</value>
+      <webElementGuid>6ff10690-2969-42f9-947c-9f2dc1ac034a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>6ecfda22-c8f1-4ec8-a9e9-c798dff9a56b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[62]</value>
+      <webElementGuid>0b32c802-7b0c-4a91-bee8-f3be0087e0a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[8]/div/div[2]/div[2]/table[2]/tbody/tr/td/a</value>
+      <webElementGuid>5e0898b4-355a-4950-aafc-252cf9a87203</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,5 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'popupMedioSeleccion_form:j_idt2118' and @href = '#' and (text() = 'Guardar' or . = 'Guardar')]</value>
+      <webElementGuid>6b43d91e-f6a2-4b59-8c0b-0d5d1bf61c4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

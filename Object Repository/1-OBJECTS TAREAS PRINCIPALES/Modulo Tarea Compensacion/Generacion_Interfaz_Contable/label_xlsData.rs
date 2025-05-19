@@ -6,11 +6,11 @@
    <elementGuidId>6d5dcbc4-27b6-4b33-973e-54dd802ebde2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='xlsData']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr[2]/td/table/tbody/tr[2]/td[3]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>1d243342-9a42-45f2-9fbc-6be36e50263b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupManejoReporte_form:tipoReporte:5</value>
+      <webElementGuid>0123d742-862b-42c7-be04-55f8f1733f31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> xlsData</value>
+      <webElementGuid>bb8374c0-8487-42c5-8ddd-d07fc1d04e78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupManejoReporte_form:tipoReporte&quot;)/tbody[1]/tr[6]/td[1]/label[1]</value>
+      <webElementGuid>b4431388-2806-4c5e-a68c-85947b79ed65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupManejoReporte_form:tipoReporte']/tbody/tr[6]/td/label</value>
+      <webElementGuid>76fd2791-bbe1-492e-9b59-4e43f91e36ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='xls'])[1]/following::label[1]</value>
+      <webElementGuid>c01e36a3-aa07-4310-8379-c618992bc176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='txt'])[1]/following::label[2]</value>
+      <webElementGuid>f57534ac-391f-4472-ac69-532bb8e0661c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='xml'])[1]/preceding::label[1]</value>
+      <webElementGuid>514eb7c5-bfaa-4e14-9ce3-3ba8684f1875</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>840246e3-74dd-4c78-8dce-46de06f3df70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='xlsData']/parent::*</value>
+      <webElementGuid>687b22ea-9bfd-4a2f-a9fd-eecf91cf5b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/label</value>
+      <webElementGuid>38e88661-8659-4c21-9938-26b122070d2d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

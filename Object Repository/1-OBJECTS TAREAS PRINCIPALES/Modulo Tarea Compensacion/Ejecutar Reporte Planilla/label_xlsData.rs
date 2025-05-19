@@ -6,11 +6,11 @@
    <elementGuidId>957bc75a-ea62-403d-82f8-8a857d13baed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='xlsData']/parent::*</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr[2]/td[2]/div/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
+      <webElementGuid>44890ed3-9f49-4f9a-8dc2-3b50d64d953e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>for</name>
       <type>Main</type>
       <value>popupManejoReporte_form:tipoReporte:5</value>
+      <webElementGuid>db747976-785f-4da1-add4-24962b09cc06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> xlsData</value>
+      <webElementGuid>be7845dc-5843-423b-809e-5aaa2df20af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupManejoReporte_form:tipoReporte&quot;)/tbody[1]/tr[6]/td[1]/label[1]</value>
+      <webElementGuid>76fcf7f0-4b1a-4f2e-87f3-e6af54145980</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='popupManejoReporte_form:tipoReporte']/tbody/tr[6]/td/label</value>
+      <webElementGuid>1f077975-2dd1-4fad-b9f4-c77ef16f285a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='xls'])[1]/following::label[1]</value>
+      <webElementGuid>21b723e4-766e-408c-bd7a-0403c1aed581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='txt'])[1]/following::label[2]</value>
+      <webElementGuid>1c2920d6-e9e4-4b5a-8ab5-70c221b20782</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='xml'])[1]/preceding::label[1]</value>
+      <webElementGuid>4eaec657-81bb-497d-83b6-94f43764c38e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[2]</value>
+      <webElementGuid>e55814f7-1c0e-4bd6-9e89-ea0c108af960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='xlsData']/parent::*</value>
+      <webElementGuid>a111c97a-c34c-4a87-8cc2-29451f58669b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/label</value>
+      <webElementGuid>7a271a3b-ac9f-4926-b109-6383718e72c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/table/tbody/tr/td/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[9]/td[2]/table/tbody/tr/td/table/tbody/tr/td/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>511aeca4-85e6-4b2e-a838-24adb6f7e3bf</webElementGuid>
+      <webElementGuid>d2118ca8-cbe6-40e1-89e2-46bdfa043bc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5c8f4da5-f643-43c6-b51c-22d2100ff63c</webElementGuid>
+      <webElementGuid>82e4e567-c558-4808-9b5f-f614ed542817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popup_nominaelectronicaajsute:j_idt868</value>
-      <webElementGuid>f02c987c-42d4-45d1-9c94-51a7e78ed251</webElementGuid>
+      <webElementGuid>3cfcc6ee-59d7-437c-8e3a-8e4f51855b4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
-      <webElementGuid>e713347a-543c-45cd-ba9b-bd16d67a9e92</webElementGuid>
+      <webElementGuid>5b8f60f5-0963-4cd7-9a8e-d751bf7f21a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popup_nominaelectronicaajsute:j_idt863_content&quot;)/div[@class=&quot;popupBody&quot;]/table[1]/tbody[1]/tr[1]/td[1]/input[@class=&quot;caja_texto&quot;]</value>
-      <webElementGuid>a331ebfb-76ea-4fcf-bb8a-d0d3b6c3ff5c</webElementGuid>
+      <webElementGuid>5a99117f-6ddf-4a0c-a51b-f36cb75393d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='popup_nominaelectronicaajsute:j_idt868']</value>
-      <webElementGuid>e2eae15b-4250-4d97-aa1a-a4bdd1d7217f</webElementGuid>
+      <webElementGuid>ff715c55-e5ae-48c4-ac6e-51c031efdc88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popup_nominaelectronicaajsute:j_idt863_content']/div[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>21825d30-8cf9-4bb4-a00b-902341828503</webElementGuid>
+      <webElementGuid>3036987f-8589-4631-afb9-181e319c834a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/table/tbody/tr/td/input</value>
-      <webElementGuid>145199ec-f860-4500-ac31-05fe5fa5f5f4</webElementGuid>
+      <webElementGuid>ff81508d-177e-4514-a153-597de202afde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'popup_nominaelectronicaajsute:j_idt868']</value>
-      <webElementGuid>e63a00fa-8f5c-42a7-8752-ae2cb0818452</webElementGuid>
+      <webElementGuid>ce3675f8-4b23-411d-9ccb-df866cf04306</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

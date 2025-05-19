@@ -36,7 +36,7 @@ WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas S
     1)
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
-    '659')
+    '876')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
     Keys.chord(Keys.ENTER))
@@ -78,13 +78,13 @@ WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(element))
 /*----------------------------------------------------------------------------*/
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/a_Identificacin_seleccion_procesopanelCandidatoj_idt924'))
 
-WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Filtro Candidatos_form_popUpCandidatosSeleccionj_idt171'), 
-    'A A A')
+WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/span_A A A'), 'A A A')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Filtro Candidatos_form_popUpCandidatosSeleccionj_idt171'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/span_A A A'))
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/span_A A A - seleccionar'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Comprobar Parametros/a_Guardar'))
 

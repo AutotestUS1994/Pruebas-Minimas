@@ -6,12 +6,11 @@
    <elementGuidId>ad66fddd-305f-4266-b79e-207f4eb80393</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td[2]/a
-</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[8]/td[2]/table/tbody/tr/td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>82981184-10df-4275-8647-eece5b7b1a18</webElementGuid>
+      <webElementGuid>5315e35f-334a-4fa5-9205-bf5ed9c433eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:j_idt1295</value>
-      <webElementGuid>da90ccd0-80da-4a1b-9136-5cee5004b609</webElementGuid>
+      <webElementGuid>2e77abcd-c402-4b74-8f5e-de6bbf507b77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e3e7e490-8d38-406c-9efc-3979b05e1fd4</webElementGuid>
+      <webElementGuid>cf0aafea-38f8-4187-abf7-3f3cc2dc0931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
-      <webElementGuid>5379d74f-1751-46c7-bdb3-97a45b2bdb55</webElementGuid>
+      <webElementGuid>d084c99a-9105-41f1-8a81-fc6b71c5b348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleviaticos:j_idt1295&quot;,f:&quot;form_detalleviaticos&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
-      <webElementGuid>c9eddb50-d4c8-4f00-a602-65b18d445bb9</webElementGuid>
+      <webElementGuid>c35c1ce8-f7c7-4e47-93c5-4fc1f6708a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:j_idt1295&quot;)</value>
-      <webElementGuid>15476a7f-52cb-4fb2-9afc-e113cfe559f2</webElementGuid>
+      <webElementGuid>a2bbce47-af1c-4a4c-8b18-3590a5c797e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleviaticos:j_idt1295']</value>
-      <webElementGuid>ea273f9e-eced-4bb5-a63f-2ecfca6ef900</webElementGuid>
+      <webElementGuid>815e41d3-b085-4a8a-821c-4e403d2b0fea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='form_detalleviaticos:contenido_tabla']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[7]/td[2]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>db67e0e6-e0f8-4d3f-8e6d-c1fd51008f4c</webElementGuid>
+      <webElementGuid>f2d8055f-e003-4807-a317-156f923ccda5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[25]</value>
-      <webElementGuid>2cf3ee51-b708-43a4-8e52-b0a7176f9b26</webElementGuid>
+      <webElementGuid>aa6d9dd8-7444-43d3-9ca3-4cb33fc07dfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>8fb86fe4-6ec7-49b8-844e-b1621028a443</webElementGuid>
+      <webElementGuid>9afce224-133b-48b0-a097-522614d570a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

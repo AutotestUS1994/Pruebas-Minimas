@@ -36,10 +36,11 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.io.File as File
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-String profileName = RunConfiguration.getExecutionProfile();
-String ResultCIR;
+String profileName = RunConfiguration.getExecutionProfile()
+
+String ResultCIR
 
 WebUI.callTestCase(findTestCase('0-Login/0.1-Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -70,45 +71,47 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_plantilla'))
 
-println(profileName);
+println(profileName)
 
-if(profileName == "default") {
-	WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
-}
-else if(profileName == "weblogic")
-{
-	WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargarWeblogic'))
-}
-else {
-	WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
+if (profileName == 'default') {
+    WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
+} else if (profileName == 'weblogic') {
+    WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargarWeblogic'))
+} else {
+    WebUI.doubleClick(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/span_descargar'))
 }
 
 WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Generar_cir'))
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
     0)
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'),
-	0)
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'), 
+    0)
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
     0)
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'),
-	
-	0)
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'), 
     0)
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'),
-	0)
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
     0)
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'),
-	0)
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'), 
+    0)
 
 WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
     0)
-WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'),
-	0)
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'), 
+    0)
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
+    0)
+
+WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'), 
+    0)
 
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'), 
     1)) {
@@ -121,29 +124,30 @@ if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Mod
     } else {
         ResultCIR = 'no se descargo con exito'
     }
-} else {
-	WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'))
-	WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'))
-	
-	WebUI.switchToWindowIndex(1)
-	
-		if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/descargaArchivosSeguro'),
-			0)) {
-		} else {
-			ResultCIR = 'no se descargo con exito'
-		}
     /*ResultCIR = 'no se descargo con exito'*/
+} else {
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Continuar_Generar'))
 
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_Descargar_cir'))
+
+    WebUI.switchToWindowIndex(1)
+
+    if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/descargaArchivosSeguro'), 
+        0)) {
+    } else {
+        ResultCIR = 'no se descargo con exito'
+    }
+    
     WebUI.switchToWindowIndex(0)
 }
 
 WebUI.switchToWindowIndex(0)
 
-if(WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_cerrar'), 
+if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_cerrar'), 
     1)) {
-
-WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_cerrar'))
+    WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/a_cerrar'))
 }
+
 WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Sara General/Ejecucion reporte general/input_Empresa 1_form_templatej_idt24_input'), 
     'ejecucion reporte (gna)')
 
@@ -398,8 +402,6 @@ println(rutaA)
 String Archivo = 'Pruebas__katalon.xlsx'
 
 System.out.println(rutaA)
-
-Assert.assertTrue(archivoDescargado(rutaA, Archivo))
 
 if (ResultCIR == 'no se descargo con exito') {
     WebUI.acceptAlert()

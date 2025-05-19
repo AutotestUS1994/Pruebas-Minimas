@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[7]/td[2]/select</value>
+         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[3]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>2d42a82e-4832-4726-8dd7-de39bcb4bdf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>diaeventoPopup_form:instructor</value>
+      <webElementGuid>b325a82f-ce67-4468-956e-62f7a4333402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>diaeventoPopup_form:instructor</value>
+      <webElementGuid>5ee81b48-525c-4bac-9dac-2630d8958a76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
+      <webElementGuid>fce44c2c-d70e-4a8e-b510-a49518b182ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>416110b5-a174-4314-89b2-881d9c653d52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
 	GUISELL
 	GUTIERREZ ALVAREZ FERNANDA LUCIA
 </value>
+      <webElementGuid>1133fcda-5955-4b64-9af3-1673274da299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;diaeventoPopup_form:instructor&quot;)</value>
+      <webElementGuid>a2fab30a-aa44-422d-b6b7-cd07d1da5767</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='diaeventoPopup_form:instructor']</value>
+      <webElementGuid>dd656bc9-4e85-4adc-9273-ff7acd6da281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='diaeventoPopup_form:dialog_popupDiaEvento_content']/div[2]/table/tbody/tr[7]/td[2]/select</value>
+      <webElementGuid>6a2609cd-695e-46b4-9eb2-d0e9d707cbb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructor*'])[1]/following::select[1]</value>
+      <webElementGuid>ac2be8c6-0540-4b7a-b30a-345407e36cea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tema*'])[1]/following::select[2]</value>
+      <webElementGuid>4a011df4-497d-4996-a75c-3cfb6446c484</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Programa'])[1]/preceding::select[1]</value>
+      <webElementGuid>c7914bfa-273f-426f-8865-0e5c809ef139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[1]/preceding::select[1]</value>
+      <webElementGuid>20eb6bbe-7079-49ad-8f64-49067f15d06a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/select</value>
+      <webElementGuid>c5b83dbb-cd1c-4d72-a750-130cb7279947</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
