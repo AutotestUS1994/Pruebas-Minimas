@@ -165,6 +165,9 @@ if (Es10 == Imagen) {
 
 WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo bienestar-eventos'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_Prueba-S-SH'), 
+    1)
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/td_Prueba-S-SH'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Publicación del evento/a_Publicacin'))
@@ -178,9 +181,7 @@ if (WebUI.waitForElementClickable(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/P
 
 //String creado para redireccionar  los archivos requeridos por el test//
 //String ra = ''
-
 //String ruta2 = Systema(ra) + 'saraapp.png'
-
 String ruta2 = Systema() + 'saraapp.png'
 
 println(ruta2)

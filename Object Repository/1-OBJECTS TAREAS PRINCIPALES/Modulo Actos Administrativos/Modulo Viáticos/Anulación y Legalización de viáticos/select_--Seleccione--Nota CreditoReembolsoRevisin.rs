@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td/table/tbody/tr/td[2]/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[9]/div/div[2]/div[2]/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>b8aef710-032e-4e03-85c6-63e61d4f487f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupReutilizarCostoviatico:tipoCancelacion</value>
+      <webElementGuid>4f9357b9-8fcc-40bc-b8f0-33f1a0b18658</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupReutilizarCostoviatico:tipoCancelacion</value>
+      <webElementGuid>8667ac99-b8c3-4525-a53a-f849828e7424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>e202ccea-b2c3-44e0-8580-2b0c228c7a4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>c9e87512-43a8-4f6e-ac72-904ffee91148</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;form_popupReutilizarCostoviatico&quot;,p:&quot;form_popupReutilizarCostoviatico&quot;,u:&quot;form_popupReutilizarCostoviatico&quot;});</value>
+      <webElementGuid>a17877bd-359b-42f5-8004-2075a704c1ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +73,7 @@
 	Reembolso
 	Revisión
 </value>
+      <webElementGuid>73ca39a0-a304-4073-b746-44f4fc51db3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupReutilizarCostoviatico:tipoCancelacion&quot;)</value>
+      <webElementGuid>4e74c250-8667-4b07-9c32-c3968c2ba896</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_popupReutilizarCostoviatico:tipoCancelacion']</value>
+      <webElementGuid>69979355-d629-4a83-855d-c7c2299c67b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_popupReutilizarCostoviatico:panelDatos']/tbody/tr/td/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>e074841d-1057-4cae-9809-a3361c3ddfe0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Cancelación*'])[1]/following::select[1]</value>
+      <webElementGuid>2a1d6c87-97a6-4a4c-a669-5fc21a389dfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No se encontró registros'])[1]/following::select[1]</value>
+      <webElementGuid>cb23200e-b946-405e-8c16-28b568a0cbdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha*'])[2]/preceding::select[1]</value>
+      <webElementGuid>0c1933b1-29a6-4fee-97a4-70438398419d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ui-button'])[1]/preceding::select[1]</value>
+      <webElementGuid>03eef857-f78b-4fe4-83a8-a568b745d7f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,5 +137,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/table/tbody/tr/td[2]/select</value>
+      <webElementGuid>097a5001-33d8-4fd0-a7fb-7d76ef8d5112</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

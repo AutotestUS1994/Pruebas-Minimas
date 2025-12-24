@@ -7,7 +7,9 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='form_detalleviaticos:FechaNumero_input']</value>
+         <value>
+
+//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/form/div/span/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>c289b41a-9955-49c4-b320-a7bde2644bd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleviaticos:FechaNumero_input</value>
+      <webElementGuid>bcdaf8ba-b65f-4d02-991a-7a4b14126d65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +39,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleviaticos:FechaNumero_input</value>
+      <webElementGuid>f792550e-e290-4686-89d4-ce47dd2ca4ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>ffba0e07-ef80-4651-bbdb-56564ddd209a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>e274d297-a7c8-4b74-84d1-20a8a55b1471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +63,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>55de61ee-ee04-49c1-ac39-a719eb33d332</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +71,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>c7b63711-874e-4c34-a611-672b4d465bb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +79,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b500db0a-7870-4a92-a0d9-dbf26d9237fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleviaticos:FechaNumero_input&quot;)</value>
+      <webElementGuid>457d89ac-9729-4dec-815d-18f48f555040</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_detalleviaticos:FechaNumero_input']</value>
+      <webElementGuid>e0a9432c-5040-4525-ba93-01048b8a21b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_detalleviaticos:FechaNumero']/input</value>
+      <webElementGuid>9a98a084-09b6-49db-b405-b8bacc91cf67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +111,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span/input</value>
+      <webElementGuid>8cd2f9f6-6e45-429c-8000-52ecce96e4bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

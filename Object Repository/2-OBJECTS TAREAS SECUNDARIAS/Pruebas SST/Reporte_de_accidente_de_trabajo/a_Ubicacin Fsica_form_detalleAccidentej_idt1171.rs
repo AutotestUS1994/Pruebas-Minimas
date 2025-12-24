@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[5]/table/tbody/tr/td[2]/a</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/div/span/form[1]/table[1]/tbody/tr[3]/td[4]/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>fb7bc035-8e16-4927-a6a7-1feffd8f6ad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleAccidente:j_idt1171</value>
+      <webElementGuid>07fb09d6-fe60-4b6d-81e6-d4a14435f204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>f909e395-a08e-4e51-b858-c148cfa66177</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>687c34a4-5dd2-43d8-87b4-85b8643e886a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_detalleAccidente:j_idt1171&quot;,f:&quot;form_detalleAccidente&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>22f09512-3201-43c0-9324-dcbc5ee82561</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleAccidente:j_idt1171&quot;)</value>
+      <webElementGuid>142a9cc5-76f1-4448-b738-1e3200b41db3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_detalleAccidente:j_idt1171']</value>
+      <webElementGuid>80bfb4e5-ffd6-443b-bd1f-bb229aec2c46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_detalleAccidente']/table/tbody/tr[3]/td[5]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>5cdcd26b-7329-4572-936b-6317150b77ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[26]</value>
+      <webElementGuid>8af677ef-82bc-4224-8688-719beb065f1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>333b4bb0-5a5c-4ed6-82ce-3aaea6f4c92c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='PLANTA']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Planta']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>939b9b6a-29b9-42d8-8715-099335406671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>titulo_campo</value>
+      <webElementGuid>a1db70a1-4f15-408c-884e-f6954c90d3fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PLANTA</value>
+      <webElementGuid>a192baec-a536-40ae-a7fb-ced8214f18d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;invitacioneventoPopup_form:j_idt1577:1:j_idt1579&quot;)/span[@class=&quot;titulo_campo&quot;]</value>
+      <webElementGuid>fdb4bb35-d97f-4d75-8629-96300638e6f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,6 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='invitacioneventoPopup_form:j_idt1577:1:j_idt1579']/span</value>
+      <webElementGuid>56a65b06-aa90-4233-8735-73fc29d5c8d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NECESIDAD'])[1]/following::span[1]</value>
+      <webElementGuid>3da1f8f7-6ac5-48d9-9c66-a3f060b6f2f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invitación'])[2]/following::span[3]</value>
+      <webElementGuid>459f64c0-3cd7-466d-94a8-46e7b772f7fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Todo'])[1]/preceding::span[3]</value>
+      <webElementGuid>2d8cf37a-cc89-45a6-83c5-c639851fea1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ninguno'])[1]/preceding::span[4]</value>
+      <webElementGuid>cfd25713-6569-4c8f-99a6-3fcca5360942</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PLANTA']/parent::*</value>
+      <webElementGuid>e8e09123-10b4-436e-b915-bddeb9ac3d96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,5 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/a/span</value>
+      <webElementGuid>9092c578-adce-4708-aaad-588689320d4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

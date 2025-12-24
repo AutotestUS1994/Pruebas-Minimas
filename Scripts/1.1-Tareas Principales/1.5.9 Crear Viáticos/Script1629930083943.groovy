@@ -418,10 +418,10 @@ if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/M
         0)
 
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Inicial_form_popupprogramacionviaticospestaniasfechainicial_input'), 
-        '01/07/2021')
+        '26/10/2021')
 
     WebUI.setText(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Actos Administrativos/Modulo Viáticos/Crear viatico/input_Fecha Final_form_popupprogramacionviaticospestaniasfechafinal_input'), 
-        '01/10/2021')
+        '31/10/2021')
 
     WebUI.comment('Prueba de destino en programacion')
 

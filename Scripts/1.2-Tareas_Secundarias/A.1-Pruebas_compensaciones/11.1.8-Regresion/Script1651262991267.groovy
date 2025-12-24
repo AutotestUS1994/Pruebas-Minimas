@@ -145,7 +145,7 @@ WebUI.waitForElementVisible(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas
 
 String SecondResult = WebUI.getText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/div_Regresion aplicada satifactoriamente'))
 
-if (SecondResult == 'Regresion aplicada satifactoriamente.') {
+if (SecondResult.contains('Regresion aplicada')) {
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Continuar3'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Imprimir'))
@@ -164,7 +164,7 @@ if (SecondResult == 'Regresion aplicada satifactoriamente.') {
     WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/select_SeleccionePeriodo AbonadoPeriodo CerradoPeriodo en ProcesoPeriodo no Generado'), 
         3)
 
-    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/div_Estado_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
+    WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/div_CheckboxSelectAllReg'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Compensación/Regresion/a_Reliquidacion'))
 

@@ -43,6 +43,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtr
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_Regresar'))
 
+WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Prueba-S-SH'), 1)
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/td_Prueba-S-SH'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Filtro_de_Asistentes_S-(solicitante)/a_DirigidoA'))

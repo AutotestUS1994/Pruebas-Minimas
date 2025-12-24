@@ -6,11 +6,11 @@
    <elementGuidId>2c98ec1b-fdfe-41ad-9802-ae6f9e6a4547</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table[2]/tbody/tr/td[2]/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[6]/td[5]/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[9]/td[2]/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>004de68e-21e1-4987-ae67-f8a32256ab87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:tipoperiodo</value>
+      <webElementGuid>781189c7-d7d0-4151-bba0-feb5c3a9bc5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:tipoperiodo</value>
+      <webElementGuid>7fe2d0d6-8a00-4b17-8e56-e948ac7e42aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>806d1691-0e50-4427-8aad-a5f97b9af83d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>6c46555f-c13f-4d06-a573-6b90cae2649d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,6 +71,7 @@
 	NOMINA QUINCENAL
 	NOMINA SEMANAL
 </value>
+      <webElementGuid>39c86fa5-727b-4a86-9202-befb5b34f08b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,6 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_contratacion:panelTab:tipoperiodo&quot;)</value>
+      <webElementGuid>ad5cd7ac-bd13-40a3-983d-66e209090f68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,6 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_contratacion:panelTab:tipoperiodo']</value>
+      <webElementGuid>58e66c80-c7d7-4f7e-a43f-612abca6d1bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_contratacion:panelTab:panelDatos']/tbody/tr[9]/td[2]/select</value>
+      <webElementGuid>4bd97a81-f660-4068-8a0f-2fddf9894fba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Periodo*'])[1]/following::select[1]</value>
+      <webElementGuid>c304fe82-b9de-4227-8c43-cc5e02780610</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Turno*'])[1]/following::select[2]</value>
+      <webElementGuid>f2ea9e38-4756-448c-a3a9-6f1cf264866e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sueldo*'])[1]/preceding::select[1]</value>
+      <webElementGuid>19920923-bec0-4d75-aa04-40df0daac68f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sueldo Total*'])[1]/preceding::select[1]</value>
+      <webElementGuid>c212d88e-c63f-4b2d-b95d-183668031def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,5 +135,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[9]/td[2]/select</value>
+      <webElementGuid>77d6bb1e-0d90-46c5-897f-52d4687298d6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

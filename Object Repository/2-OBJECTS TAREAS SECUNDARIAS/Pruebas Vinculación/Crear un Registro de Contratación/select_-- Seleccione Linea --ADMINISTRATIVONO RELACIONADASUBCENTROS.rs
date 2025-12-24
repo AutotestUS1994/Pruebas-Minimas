@@ -6,11 +6,11 @@
    <elementGuidId>bc9b98dc-411f-4b67-a936-acf4c1d2b8fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table[2]/tbody/tr/td[2]/table/tbody/tr/td/div/div/div/table[1]/tbody/tr[7]/td[5]/select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[6]/td[5]/select</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>78b031be-125a-4c65-abc7-878daad584d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:linea</value>
+      <webElementGuid>1d03bccd-36cb-404e-bbe8-b2b717ea6a79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:linea</value>
+      <webElementGuid>9e0c7b1c-fec7-4831-99f1-6171073da0aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo</value>
+      <webElementGuid>9ab3a505-094a-4c83-a6d7-eea7d50eadab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>c08c0c14-c950-4c05-8a57-b6bbd1ecfc60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,6 +65,7 @@
 	NO RELACIONADA
 	SUBCENTROS
 </value>
+      <webElementGuid>4737a449-3119-48a3-aa4e-01900fd1bc77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_contratacion:panelTab:linea&quot;)</value>
+      <webElementGuid>6772b32d-a028-47f8-ae62-62869bce79f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,6 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_contratacion:panelTab:linea']</value>
+      <webElementGuid>bd2f6777-6262-493a-9ede-6970823675d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_contratacion:panelTab:panelDatos']/tbody/tr[6]/td[5]/select</value>
+      <webElementGuid>ff8cd12d-a01c-4c37-9f44-2b57b0d9e2ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Línea *'])[1]/following::select[1]</value>
+      <webElementGuid>d1ca955e-91bf-4b22-a137-7b9792be44b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Zona Económica*'])[1]/following::select[1]</value>
+      <webElementGuid>59d3a72c-5661-407b-b855-b57f9998ccc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Centro Costo*'])[1]/preceding::select[1]</value>
+      <webElementGuid>fe9953dd-45d6-44eb-8345-3639aa1c6b7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jefe Inmediato'])[1]/preceding::select[1]</value>
+      <webElementGuid>d84cac73-e076-4762-b861-0f795cc98668</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,5 +129,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td[5]/select</value>
+      <webElementGuid>28a34d39-ec03-4027-adc1-ac18ef40b54e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

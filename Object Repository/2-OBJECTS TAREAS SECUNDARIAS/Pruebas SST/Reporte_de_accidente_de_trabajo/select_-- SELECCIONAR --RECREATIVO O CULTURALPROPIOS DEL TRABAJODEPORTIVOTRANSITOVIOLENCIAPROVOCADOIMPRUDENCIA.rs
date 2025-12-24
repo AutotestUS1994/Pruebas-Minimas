@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[4]/td[5]/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/div/span/form[1]/table[1]/tbody/tr[4]/td[4]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>804fd893-fc21-436a-9ede-682beb0fde90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_detalleAccidente:tipoaccidente</value>
+      <webElementGuid>bc1a7adb-f66c-4c50-bca1-860525a030b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_detalleAccidente:tipoaccidente</value>
+      <webElementGuid>897bc967-6c18-4954-8e2b-3b3b8a2f05a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>67e77bd1-f280-48fa-a172-f460c76182fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>123997f4-1c1c-4a9d-8ee1-9f3bae41f92b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +69,7 @@
 	PROVOCADO
 	IMPRUDENCIA
 </value>
+      <webElementGuid>d209aa89-6756-41e1-a095-99de638e7300</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_detalleAccidente:tipoaccidente&quot;)</value>
+      <webElementGuid>385f84b3-f58d-4cd5-b8f3-8d72e57a0577</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='form_detalleAccidente:tipoaccidente']</value>
+      <webElementGuid>55f702b1-0861-4166-8f20-f3ad8ab31557</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form_detalleAccidente']/table/tbody/tr[4]/td[5]/select</value>
+      <webElementGuid>354dabca-94fe-48ef-ba38-17a323613375</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Accidente*'])[1]/following::select[1]</value>
+      <webElementGuid>cf072cc6-c1fd-46dc-82d9-9d339be539e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Obligatorio'])[3]/following::select[1]</value>
+      <webElementGuid>ec36dda8-649f-4cd5-8ddf-d97a932e1535</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Obligatorio'])[4]/preceding::select[1]</value>
+      <webElementGuid>8c881223-f75f-4e77-963a-db100ce4c8a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='¿El Accidente Ocurrió al Interior de la Empresa?*'])[1]/preceding::select[1]</value>
+      <webElementGuid>ef5855a8-42b5-4476-beae-951b4d7d5640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +133,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[5]/select</value>
+      <webElementGuid>e3d5fc0e-2a76-49e0-aa24-50d30e3dea76</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

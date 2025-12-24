@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='INDISPENSABLE']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Indispensable']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d0064f27-1cc6-4e2b-b452-d15ba1e72c06</webElementGuid>
+      <webElementGuid>8a672c21-7c7d-4759-b9f3-9596bce7908e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>gridcell</value>
-      <webElementGuid>15d4c3db-8048-4796-b35a-4ba152d3ccb5</webElementGuid>
+      <webElementGuid>ec0aae53-bc3e-4c0d-82d2-0c3afaaff8be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>INDISPENSABLE</value>
-      <webElementGuid>a72b5052-8790-492f-9bfe-e3968a1d4a6c</webElementGuid>
+      <webElementGuid>0d3c1edc-b389-4a68-b867-c62d194b229b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formRecursoLogistico:panel_recursos:tabla_recursos_data&quot;)/tr[@class=&quot;ui-widget-content ui-datatable-even ui-datatable-selectable fila_tabla_ace ui-state-hover&quot;]/td[2]</value>
-      <webElementGuid>e5bfcdc3-1097-4025-a5da-a371730d64d8</webElementGuid>
+      <webElementGuid>84b13a77-5efb-4a67-9dfc-fe310957180e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='formRecursoLogistico:panel_recursos:tabla_recursos_data']/tr/td[2]</value>
-      <webElementGuid>5fafe0fe-8f42-4e9e-90b8-10077039fd51</webElementGuid>
+      <webElementGuid>144b4cdb-1a44-400a-8f1c-33ce400060d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DVD'])[1]/following::td[1]</value>
-      <webElementGuid>791ac933-2379-49f3-b80b-61364aa2012d</webElementGuid>
+      <webElementGuid>e5fb819f-10cd-4017-a8a8-1b5eb065777f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Necesidad'])[1]/following::td[2]</value>
-      <webElementGuid>2fa84d78-0744-48fb-94a0-272435530b7d</webElementGuid>
+      <webElementGuid>c29c225c-371f-4b22-8aca-5b38f72ede1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Programa'])[1]/preceding::td[12]</value>
-      <webElementGuid>ac4c2ad4-7394-4e9d-a712-68a978b97fb0</webElementGuid>
+      <webElementGuid>78320406-d9c3-4c65-b393-50223a81499b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[1]/preceding::td[12]</value>
-      <webElementGuid>31744711-69fe-4084-8608-418b54221e11</webElementGuid>
+      <webElementGuid>56038e89-1253-4376-a160-a231e3945c4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='INDISPENSABLE']/parent::*</value>
-      <webElementGuid>682b1892-1cb9-4e72-a0ba-23a7a3f9baa6</webElementGuid>
+      <webElementGuid>96cc9fb3-5ccf-4bae-a8e7-0fbf925c205d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>af4d405a-b130-4855-bcdb-69bd5a3ac18c</webElementGuid>
+      <webElementGuid>c31f0cc0-3a26-4165-bc73-5312c7563235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'INDISPENSABLE' or . = 'INDISPENSABLE')]</value>
-      <webElementGuid>417481a2-e04f-40d3-92f1-a1138bf967ea</webElementGuid>
+      <webElementGuid>8513a183-507a-43af-a4a3-c142eca64a24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

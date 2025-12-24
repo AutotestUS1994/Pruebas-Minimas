@@ -7,7 +7,9 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[2]/input</value>
+         <value>
+//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/table/tbody/tr/td[3]/span/input
+</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1e9d5bcc-20e8-4696-b614-ff03a48b68a4</webElementGuid>
+      <webElementGuid>359e7013-7317-4cbd-a3db-b2a697bcc18d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_listadoviaticos:fechaViat_input</value>
-      <webElementGuid>28104b7e-9ab8-4499-bc1e-7e9bb266881d</webElementGuid>
+      <webElementGuid>e5ff74f2-77ed-4d5b-b673-af63c011282b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +39,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_listadoviaticos:fechaViat_input</value>
-      <webElementGuid>0dc48bfd-6cef-4a6b-b11a-9a95c561d7d5</webElementGuid>
+      <webElementGuid>29cf8a54-628f-43de-bc13-94cbc7104219</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9b4f1f61-efbe-4692-acd9-197e209c5273</webElementGuid>
+      <webElementGuid>3886b776-6f53-4af3-bb7e-9dfc634a061d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
-      <webElementGuid>f3bd3d76-cf9b-4524-9c29-5d78528c07b1</webElementGuid>
+      <webElementGuid>cd000854-ed69-46c5-a1c2-f3391c875a9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +63,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>cffddef2-2cbe-4f27-99b8-7348a9274a88</webElementGuid>
+      <webElementGuid>a06ce6d3-3438-40e1-b997-096bfa5ebc0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +71,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4fa2cbc2-023f-4e21-9812-e9dbb1b07f39</webElementGuid>
+      <webElementGuid>7ca5cf57-e966-43f6-9550-8d4c2b5572fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +79,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f1d50550-3c73-4a1d-8cc3-285f26dee01f</webElementGuid>
+      <webElementGuid>d2c88ac8-788d-42bb-b61c-15dc7e1301d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_listadoviaticos:fechaViat_input&quot;)</value>
-      <webElementGuid>3929e996-59ea-469a-9b9f-18e461a13e70</webElementGuid>
+      <webElementGuid>a7e97bc6-4573-4838-8803-649a71b782cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_listadoviaticos:fechaViat_input']</value>
-      <webElementGuid>53d62471-da1d-46c9-9c10-01bf6d924440</webElementGuid>
+      <webElementGuid>4ad2ef9e-6fc3-4424-ad32-5221479f5f69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_listadoviaticos:fechaViat']/input</value>
-      <webElementGuid>ff595a9d-5c50-49a4-ba59-263aae9f3b48</webElementGuid>
+      <webElementGuid>240304f7-f45d-4a56-bf75-e434f37498c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +111,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span/input</value>
-      <webElementGuid>44841a41-046f-4a11-9ede-ea5a35d9f8f2</webElementGuid>
+      <webElementGuid>fd8d3ece-b07d-483e-b2e6-136af2536564</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

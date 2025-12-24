@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/div/div/span/input</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[4]/td/table/tbody/tr/td/form/div/div[2]/div[2]/div/div[1]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>1e48a19e-0069-4685-84bc-6acd54756c1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>file</value>
+      <webElementGuid>d81e919d-4e77-4d69-b684-869e2a214b19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupCargarArchivoForm:inputFileName_input</value>
+      <webElementGuid>d9651b80-be7f-4991-bece-b775c9a3c473</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupCargarArchivoForm:inputFileName_input</value>
+      <webElementGuid>2cc9412e-a434-4fc0-ade0-fce0147f61b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
+      <webElementGuid>a76c605e-7c8a-495c-9546-40a04fa97a5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>b732fb47-3323-4135-a48e-a99ab0a25024</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupCargarArchivoForm:inputFileName_input&quot;)</value>
+      <webElementGuid>a23d5825-85c8-4404-98f3-86d0022ff96d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupCargarArchivoForm:inputFileName_input']</value>
+      <webElementGuid>c42e3ad3-b2bf-46e8-ba64-e31d57f4cc62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popupCargarArchivoForm:inputFileName']/div/span/input</value>
+      <webElementGuid>79996df7-9895-41ad-996e-ed4e79cdb7ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/div/span/input</value>
+      <webElementGuid>8b558fd6-222a-4e5d-b46e-083bb0d01705</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

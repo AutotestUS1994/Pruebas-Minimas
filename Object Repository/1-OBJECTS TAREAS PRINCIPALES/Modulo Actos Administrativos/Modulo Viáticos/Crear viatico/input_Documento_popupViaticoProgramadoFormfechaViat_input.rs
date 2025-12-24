@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[3]/span/input</value>
+         <value>//input[@id='popupViaticoProgramadoForm:fechaViat_input']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>7edabf23-ddc3-41bf-b1b0-9f63851e16ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>popupViaticoProgramadoForm:fechaViat_input</value>
+      <webElementGuid>070ee6d8-e8ba-4d59-ad8c-e94d6640b639</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>popupViaticoProgramadoForm:fechaViat_input</value>
+      <webElementGuid>53b52961-188e-4ea5-a549-6918e34c53dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>8bcf4f55-775e-4d75-93f5-be1fb96017d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-hover ui-state-focus</value>
+      <webElementGuid>b7c468d1-024a-4494-bf14-1a2f769f3ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>8319f849-9a5b-4187-a852-8f68d6dfcd4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>a4202eef-a5e0-4f29-b1c8-b747d1a9b8f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>8427ef3a-b28e-4a7f-8281-257cc16eb4ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popupViaticoProgramadoForm:fechaViat_input&quot;)</value>
+      <webElementGuid>31a7e2cc-4d2c-4698-a404-6f14a710f613</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='popupViaticoProgramadoForm:fechaViat_input']</value>
+      <webElementGuid>6102ac58-ac2b-428f-a121-5e585fc3d5f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='popupViaticoProgramadoForm:fechaViat']/input</value>
+      <webElementGuid>906cd968-580d-4d5a-8156-1f918c6eb35e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/span/input</value>
+      <webElementGuid>52078825-ba06-43f5-8e93-a63e8f0ff24e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'popupViaticoProgramadoForm:fechaViat_input' and @name = 'popupViaticoProgramadoForm:fechaViat_input' and @type = 'text']</value>
+      <webElementGuid>015ed395-4466-4e89-b183-a20afd17a80a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

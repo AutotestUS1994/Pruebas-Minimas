@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[3]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[3]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>2d42a82e-4832-4726-8dd7-de39bcb4bdf4</webElementGuid>
+      <webElementGuid>da14e5fa-d849-4506-a37e-9f17efbc53c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>diaeventoPopup_form:instructor</value>
-      <webElementGuid>b325a82f-ce67-4468-956e-62f7a4333402</webElementGuid>
+      <webElementGuid>8d79824d-5bba-4d62-941b-d109e4b6effc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>diaeventoPopup_form:instructor</value>
-      <webElementGuid>5ee81b48-525c-4bac-9dac-2630d8958a76</webElementGuid>
+      <webElementGuid>c9a18476-b8f5-4b5d-9dad-f6ad1f613639</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valor_campo_estandar</value>
-      <webElementGuid>fce44c2c-d70e-4a8e-b510-a49518b182ff</webElementGuid>
+      <webElementGuid>577be111-3be8-45c6-b338-d73991ee6966</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>416110b5-a174-4314-89b2-881d9c653d52</webElementGuid>
+      <webElementGuid>f13f1b27-6af0-4fcf-b751-58ff2bbf2f13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
 	GUISELL
 	GUTIERREZ ALVAREZ FERNANDA LUCIA
 </value>
-      <webElementGuid>1133fcda-5955-4b64-9af3-1673274da299</webElementGuid>
+      <webElementGuid>a7f785c7-0782-47c6-aa85-c380ab9272be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;diaeventoPopup_form:instructor&quot;)</value>
-      <webElementGuid>a2fab30a-aa44-422d-b6b7-cd07d1da5767</webElementGuid>
+      <webElementGuid>0d8f5b7f-232c-462e-ad9f-e4b3ceffb71d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='diaeventoPopup_form:instructor']</value>
-      <webElementGuid>dd656bc9-4e85-4adc-9273-ff7acd6da281</webElementGuid>
+      <webElementGuid>c735a5a5-ed27-4552-91a0-e54a889754b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='diaeventoPopup_form:dialog_popupDiaEvento_content']/div[2]/table/tbody/tr[7]/td[2]/select</value>
-      <webElementGuid>6a2609cd-695e-46b4-9eb2-d0e9d707cbb4</webElementGuid>
+      <webElementGuid>6efadc66-d889-431a-9045-a6aeac25b6c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructor*'])[1]/following::select[1]</value>
-      <webElementGuid>ac2be8c6-0540-4b7a-b30a-345407e36cea</webElementGuid>
+      <webElementGuid>ec29b99d-f309-4d5d-9f18-9be4a0550601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tema*'])[1]/following::select[2]</value>
-      <webElementGuid>4a011df4-497d-4996-a75c-3cfb6446c484</webElementGuid>
+      <webElementGuid>5d4dd0d2-5042-4f01-a7ef-39a28eaf59da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Programa'])[1]/preceding::select[1]</value>
-      <webElementGuid>c7914bfa-273f-426f-8865-0e5c809ef139</webElementGuid>
+      <webElementGuid>c4e51e7d-c12c-4658-bcc4-160e52701498</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento'])[1]/preceding::select[1]</value>
-      <webElementGuid>20eb6bbe-7079-49ad-8f64-49067f15d06a</webElementGuid>
+      <webElementGuid>5ae099fe-924e-4ba2-848f-f5739dfa8e2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/select</value>
-      <webElementGuid>c5b83dbb-cd1c-4d72-a750-130cb7279947</webElementGuid>
+      <webElementGuid>ba54a0b6-15e0-4fb5-b793-e5dac852b475</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

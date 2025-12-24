@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[5]/select</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/form/table/tbody/tr[1]/td/table/tbody/tr[2]/td[5]/table/tbody/tr/td/select</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>0bfcd027-2daa-4c37-87d8-0fab178ef280</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formRegistroEvento:estado</value>
+      <webElementGuid>23113c9c-3046-4d98-aa79-5f0d53bd1dd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>formRegistroEvento:estado</value>
+      <webElementGuid>3808b3a9-6ce8-4b54-90e8-3edea7295323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>caja_texto</value>
+      <webElementGuid>bd98f2c8-f2b8-43f2-b729-9cbac375c086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>059f46ed-8ba7-4ad4-a525-5a4d34cfa9fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +66,7 @@
 	Finalizado
 	Programado
 </value>
+      <webElementGuid>c28bc4bf-9872-4916-8c99-1de7b949af81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formRegistroEvento:estado&quot;)</value>
+      <webElementGuid>dbb57090-93d0-437c-89ca-98cc138b33ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='formRegistroEvento:estado']</value>
+      <webElementGuid>d53cab99-cef7-469e-80c6-cf911edc668f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formRegistroEvento:panelDatos']/tbody/tr[2]/td[5]/select</value>
+      <webElementGuid>799af560-374e-4d3a-8a38-2bd43fa97ee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado*'])[1]/following::select[1]</value>
+      <webElementGuid>dcbf156f-9db8-435f-ab01-ad8cd304bc99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo Evento Capacitación*'])[1]/following::select[1]</value>
+      <webElementGuid>5916cd01-6c03-432a-9d0c-91461cd69ae7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan de Inversión*'])[1]/preceding::select[1]</value>
+      <webElementGuid>7600673a-c5d7-44f3-ba31-2df729790012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Rango*'])[1]/preceding::select[1]</value>
+      <webElementGuid>32381cd6-bdbb-472c-8e32-d4a7063af99f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,5 +130,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[5]/select</value>
+      <webElementGuid>2e6d2425-8f00-44fb-9e61-307b44b20e2d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

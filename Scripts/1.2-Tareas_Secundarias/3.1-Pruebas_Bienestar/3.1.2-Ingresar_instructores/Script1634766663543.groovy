@@ -21,6 +21,7 @@ WebUI.callTestCase(findTestCase('Utilidades-(atajos_para _tareas)/Modulos/Modulo
 
 if (WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'), 
     1)) {
+	WebUI.scrollToElement(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'), 1)
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/td_Prueba'))
 
     WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Bienestar/Ingresar instructores/a_Instructores'))

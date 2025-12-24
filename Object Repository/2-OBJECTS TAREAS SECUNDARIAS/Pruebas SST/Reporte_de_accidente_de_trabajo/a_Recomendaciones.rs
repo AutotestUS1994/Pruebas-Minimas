@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Recomendaciones')]</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/div/table/tbody/tr/td/table/tbody/tr/td[1]/form/table/tbody/tr/td/table/tbody/tr[1]/td/div/div[2]/table[4]/tbody/tr/td/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>abfcdab6-8240-4cf0-a0a0-a1f46749e342</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt1130:j_idt1132:j_idt1134:j_idt1580</value>
+      <webElementGuid>5d8268f3-4106-4513-81bb-d49c27c934a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>b6a3303b-f635-4fac-a930-d216d75118c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget</value>
+      <webElementGuid>5fc4176c-2384-43c5-8d46-475f71b08347</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.addSubmitParam('j_idt1130',{'j_idt1130:j_idt1132:j_idt1134:j_idt1580':'j_idt1130:j_idt1132:j_idt1134:j_idt1580'}).submit('j_idt1130');return false;</value>
+      <webElementGuid>c0377e64-155e-4f5b-a284-e426895fa3bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Recomendaciones </value>
+      <webElementGuid>0a1f74b6-6a1c-44c9-9f45-1f753b6b6eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt1130:j_idt1132:j_idt1134:j_idt1580&quot;)</value>
+      <webElementGuid>7cbfe129-cd94-4b53-89e0-7d6a4dead826</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='j_idt1130:j_idt1132:j_idt1134:j_idt1580']</value>
+      <webElementGuid>5b294c60-1eda-409a-a7bb-00bad1f47ef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='j_idt1130:j_idt1132:j_idt1134:j_idt1135']/table[4]/tbody/tr/td/a</value>
+      <webElementGuid>aa9212aa-762e-4d7a-b43f-c847efad929c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Recomendaciones')]</value>
+      <webElementGuid>083e04f1-e2e4-40ad-b493-043ae21d8fe4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menú Accidente'])[1]/following::a[4]</value>
+      <webElementGuid>844837f3-d723-450d-935b-69ce1e744117</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Actos Administrativos'])[1]/following::a[10]</value>
+      <webElementGuid>b44e9cb7-00db-4c16-aaef-e09167bd0337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accidente'])[2]/preceding::a[2]</value>
+      <webElementGuid>c0486923-d10a-408c-9be2-49bfe0c8cc12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sede*'])[1]/preceding::a[2]</value>
+      <webElementGuid>35f294f7-beb8-4ff7-b7fb-362cf7c486b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Recomendaciones']/parent::*</value>
+      <webElementGuid>6efcef4d-9e1b-4f25-8033-9d2ddb654145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[27]</value>
+      <webElementGuid>5552ddf7-bdea-4ce1-b5f9-6df0771b7bb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//table[4]/tbody/tr/td/a</value>
+      <webElementGuid>322b4051-a4a9-448a-bd39-af97661daa61</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

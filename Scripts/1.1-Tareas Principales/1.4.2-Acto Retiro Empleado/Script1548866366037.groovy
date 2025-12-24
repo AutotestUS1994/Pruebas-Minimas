@@ -87,10 +87,10 @@ WebUI.click(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Admi
 if (WebUI.waitForElementVisible(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/p_No existen datos'), 
     1)) {
     WebUI.closeBrowser()
-} else {
+}/* else {
     WebUI.acceptAlert()
 }
-
+*/
 def Elaborar() {
     if (WebUI.waitForElementClickable(findTestObject('1-OBJECTS TAREAS PRINCIPALES/Modulo Tarea Actos Administrativos/Acto Retiro Empleado/span_terminacion de contrato'), 
         1)) {

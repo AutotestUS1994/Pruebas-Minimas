@@ -91,7 +91,7 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/
     '2000000')
 
 WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/select_12kataloonkataloonNOMINA CATORCENALNOMINA CATORCENALNOMINA MENSUALNOMINA QUINCENALNOMINA SEMANAL'), 
-    '8')
+    '2')
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/input_Sueldo_form_contratacionpanelTabasignacion'), 
     '1000000')
@@ -115,7 +115,7 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Cr
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/span_Cargo_btn_popupInformacion'))
 
 WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/input_Cargo_popupCargo_Formj_idt1354'), 
-    'ABOGADO')
+    '20139')
 
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Vinculación/Crear un Registro de Contratación/input_Cargo_popupCargo_Formj_idt1354'), 
     Keys.chord(Keys.ENTER))

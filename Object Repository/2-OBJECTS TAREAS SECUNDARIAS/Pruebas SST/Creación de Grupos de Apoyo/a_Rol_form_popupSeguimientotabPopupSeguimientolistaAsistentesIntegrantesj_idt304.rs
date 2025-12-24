@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tfoot/tr/td/a</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[3]/div/div[2]/div[2]/div/div[2]/div/div/table/tfoot/tr/td[1]/table/tbody/tr[1]/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>f653ad67-b462-4593-b62a-79ade78b8b23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupSeguimiento:tabPopupSeguimiento:listaAsistentesIntegrantes:j_idt304</value>
+      <webElementGuid>13c0df77-6ee9-4548-845b-08f79589747c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>65026803-9040-4048-b6d2-d304e89a8b7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>bbc27a95-76e7-4441-8bd6-98ded298cf95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_popupSeguimiento:tabPopupSeguimiento:listaAsistentesIntegrantes:j_idt304&quot;,f:&quot;form_popupSeguimiento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>9279a264-cc4b-4071-99eb-47c0baf53990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupSeguimiento:tabPopupSeguimiento:listaAsistentesIntegrantes:j_idt304&quot;)</value>
+      <webElementGuid>61b50297-a0d6-4586-9675-8954bb5e2b69</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_popupSeguimiento:tabPopupSeguimiento:listaAsistentesIntegrantes:j_idt304']</value>
+      <webElementGuid>b17acae8-8829-4bfa-a18b-d4954571a67b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tfoot[@id='form_popupSeguimiento:tabPopupSeguimiento:listaAsistentesIntegrantes_foot']/tr/td/a</value>
+      <webElementGuid>5a01179b-48cd-4506-a85e-ec5a9df2876c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[42]</value>
+      <webElementGuid>418351c6-63a8-4199-9ea7-a61002d227d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tfoot/tr/td/a</value>
+      <webElementGuid>7c034523-2d8a-45cf-8353-943f633da76a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

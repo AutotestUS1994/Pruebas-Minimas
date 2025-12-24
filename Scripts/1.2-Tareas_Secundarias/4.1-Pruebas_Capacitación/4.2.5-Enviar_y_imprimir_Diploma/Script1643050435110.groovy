@@ -44,8 +44,17 @@ WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/En
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/div_Almanza Novoa John Alexandre_ui-chkbox-box ui-widget ui-corner-all ui-state-default ui-state-hover'))
 
-WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 
-    5)
+if(WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePrueba1pruebaGRUPO'), 1)) {
+	WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePrueba1pruebaGRUPO'),
+		1)
+	
+}
+
+if(WebUI.waitForElementPresent(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'), 1)) {
+	WebUI.selectOptionByIndex(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/select_--SeleccionePrueba1pruebaPRUEBA PLAN CAPACITACIONPRUEBA SILVIA'),
+		5)
+	
+}
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas capacitacion/Enviar_Diploma/a_Aceptar'))
 

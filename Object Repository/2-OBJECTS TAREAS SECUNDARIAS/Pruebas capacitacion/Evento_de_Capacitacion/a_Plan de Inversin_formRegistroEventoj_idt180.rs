@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/table/tbody/tr/td[2]/a</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/span/form/table/tbody/tr[1]/td/table/tbody/tr[3]/td[2]/table/tbody/tr/td[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>b7390cf4-d2f1-4c37-865f-3358d6d6291c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>formRegistroEvento:j_idt180</value>
+      <webElementGuid>1e14d943-4ad2-4227-acf4-df1df4450b2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>bd74c071-f7f7-4580-9bd1-39cf2cb4c7c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget btn_popupInformacion</value>
+      <webElementGuid>e6801e18-2d23-47df-b5b6-75e076ebc728</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;formRegistroEvento:j_idt180&quot;,f:&quot;formRegistroEvento&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>1ac8520b-d68a-4908-8322-1b58d3576bb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formRegistroEvento:j_idt180&quot;)</value>
+      <webElementGuid>86e30aa0-32f8-4989-8367-cc5af4cf338d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='formRegistroEvento:j_idt180']</value>
+      <webElementGuid>5779e643-7198-4042-8b76-ae532c1a191e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='formRegistroEvento:panelDatos']/tbody/tr[3]/td[2]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>1a1d4f5b-00ae-4ddc-a7a9-87961de064e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
+      <webElementGuid>893bee24-0584-4a09-8108-ab1ca26a670a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,5 +93,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>b6ad8947-1e89-4b57-b665-6d5a7c205d1d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>8e9d89c4-e083-487f-820c-8d8a990987a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[1]/table[2]/tbody/tr/td[2]/table/tbody/tr/td/div/div/div/table[3]/tbody/tr[6]/td/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Anular Proceso')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>61cca4cd-0510-4ed5-b827-7cc54aad6e23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_contratacion:panelTab:j_idt280</value>
+      <webElementGuid>2060e2cc-0e1e-4c04-9bc8-0ea4edbecfbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>e605e74e-27f6-4767-bfc3-033e8ea6aae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,6 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-commandlink ui-widget us-boton btn-negar</value>
+      <webElementGuid>72f70079-cde8-4938-94f5-1fa3304c00a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PrimeFaces.ab({s:&quot;form_contratacion:panelTab:j_idt280&quot;,f:&quot;form_contratacion&quot;,u:&quot;areaAplicacion&quot;});return false;</value>
+      <webElementGuid>eaea7791-86e2-43ac-ac5e-f9e118e2442e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,6 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Anular Proceso</value>
+      <webElementGuid>845941ff-0eed-4e99-aa2c-c03a209e323a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_contratacion:panelTab:j_idt280&quot;)</value>
+      <webElementGuid>a405643b-7f9f-47f0-8d44-a0c1ce00c4c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='form_contratacion:panelTab:j_idt280']</value>
+      <webElementGuid>413f18b7-ee74-43f7-ba6c-be9291c62110</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='form_contratacion:panelTab:anulacion']/tbody/tr[6]/td/a</value>
+      <webElementGuid>f809456a-88ca-4a67-82e8-6dd6274a46c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +93,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Anular Proceso')]</value>
+      <webElementGuid>8b8c5cd7-555c-4ad3-8958-7f6fa137650f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Archivo*'])[1]/following::a[1]</value>
+      <webElementGuid>68898807-3749-452d-bcd0-0b171714bf47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Motivo*'])[1]/following::a[1]</value>
+      <webElementGuid>06f67df0-6039-49f3-b3ea-c21621533aa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Acto'])[1]/preceding::a[2]</value>
+      <webElementGuid>fc011a53-6d6c-4545-a02c-ecf3b2abf5e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ver'])[1]/preceding::a[3]</value>
+      <webElementGuid>2e2920c5-bfd0-45f1-90fe-579d955a9b87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Anular Proceso']/parent::*</value>
+      <webElementGuid>57ac5bdb-036a-4b30-8467-fd42f6e757a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +141,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[39]</value>
+      <webElementGuid>49123dce-d477-4a37-9663-c2ecfbfb3be1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,5 +149,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[6]/td/a</value>
+      <webElementGuid>bbc1377d-dbb9-4e80-9764-1cb9508be0bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

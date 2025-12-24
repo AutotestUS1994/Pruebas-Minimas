@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[2]/table/tbody/tr/td[2]/textarea</value>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/div/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr/td/div/span/form/div/div/div/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/textarea</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>9cfe05f3-aa2b-4041-bf0d-774be1925caf</webElementGuid>
+      <webElementGuid>5d364ccd-f31b-4246-8b64-eca182b3e5c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>id</name>
       <type>Main</type>
       <value>j_idt1827:tabInvestigacionAccidentado:areaTrabajo</value>
-      <webElementGuid>f7afb767-7b99-4563-889c-9bcd0cc1b58d</webElementGuid>
+      <webElementGuid>a12b4cbf-6b6f-4170-86cb-0a583e258cad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>j_idt1827:tabInvestigacionAccidentado:areaTrabajo</value>
-      <webElementGuid>801d935a-3b26-4fc2-9850-a5d69ec8695a</webElementGuid>
+      <webElementGuid>bec8e271-df35-45f3-bacf-b0a62e6e85b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all caja_texto ui-inputtextarea-resizable ui-state-focus</value>
-      <webElementGuid>eac72898-5003-4fa0-a77b-0a03a09ed68f</webElementGuid>
+      <webElementGuid>035f9695-55b8-484f-909e-75a9eed34a16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>f218bf28-53f5-47ad-b69e-c34efa738a79</webElementGuid>
+      <webElementGuid>7bddeecc-6bc2-445a-a948-1ea8453637b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>c08fac1e-837b-4fe9-9670-60ea09d776ad</webElementGuid>
+      <webElementGuid>a654c0a1-7361-4610-b619-e6bbfe3dde7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2147483647</value>
-      <webElementGuid>67722899-5438-4cb7-a284-7e0ce44ffcd9</webElementGuid>
+      <webElementGuid>bc730df7-4256-4cdc-a7fe-824d70371a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return texto (event,this.value,4000);</value>
-      <webElementGuid>8f9f3a71-c854-4cba-a45e-e93237dc1e1c</webElementGuid>
+      <webElementGuid>bfecdb8c-114f-47e1-8757-cb426db3b0b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>11221a66-13f2-40ff-a7a1-003f6f7ac641</webElementGuid>
+      <webElementGuid>c9bea352-b1ef-4033-b193-5bbebac0a5e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8b4b5079-110a-4921-86f9-ff13f8c1b916</webElementGuid>
+      <webElementGuid>b82a6045-ecd1-4332-a529-d0e88e1072aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6628f6a6-ae23-42cf-8e50-f79ec7bcf222</webElementGuid>
+      <webElementGuid>605965d1-791f-4e71-b1f7-ffe5e26b38e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>aria-multiline</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d56d5e4e-9fe9-40c6-93af-a1c84f969718</webElementGuid>
+      <webElementGuid>1dc14f50-f75f-4081-ae13-01e131adcda9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;j_idt1827:tabInvestigacionAccidentado:areaTrabajo&quot;)</value>
-      <webElementGuid>ea52ae62-1ae8-494a-a8ae-d80153379de6</webElementGuid>
+      <webElementGuid>6233a2ea-694a-4cd9-a43d-d67f51626627</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='j_idt1827:tabInvestigacionAccidentado:areaTrabajo']</value>
-      <webElementGuid>94c2a33d-3e4e-4dd2-9c0d-5a9208c220a2</webElementGuid>
+      <webElementGuid>d9e4bf0c-9a22-425f-b894-0360ff3cdca4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='j_idt1827:tabInvestigacionAccidentado:panelPrincipal']/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/textarea</value>
-      <webElementGuid>ec69d65f-f7c7-477c-b71f-03a5e06182f5</webElementGuid>
+      <webElementGuid>ff6830e5-2a8b-45eb-a8f8-65da9753bac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/table/tbody/tr/td[2]/textarea</value>
-      <webElementGuid>835c8206-a1fd-4c54-9876-cde75cac36a0</webElementGuid>
+      <webElementGuid>cd3b6f3d-5b3c-4a24-a85c-aed9c6076558</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--SeleccionePrueba1pruebaGRUPO</name>
+   <tag></tag>
+   <elementGuidId>c10d5d76-d07c-4dc1-b2c7-2b8a5e96595c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[12]/div/div[2]/div[2]/table[2]/tbody/tr/td[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>04313dc2-bc74-4793-9e14-0a7d829135ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>form_filtro_Empleados:planInversion</value>
+      <webElementGuid>1b7fe1e5-731a-49a5-90b5-d338cf738266</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>form_filtro_Empleados:planInversion</value>
+      <webElementGuid>578e942a-c6d0-461e-85cf-6d96af3af5c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>valor_campo_estandar</value>
+      <webElementGuid>e108af91-ff8d-4c33-95c5-05276d4d5618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>50b6c005-5273-45c9-8696-c75a7d206eeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>	--Seleccione
+	Prueba
+	1
+	prueba
+	PRUEBA PLAN CAPACITACION
+	PRUEBA SILVIA
+</value>
+      <webElementGuid>03ff7f61-3b2f-4b49-9f9c-d9c43c1d9e35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_filtro_Empleados:planInversion&quot;)</value>
+      <webElementGuid>d1f45e0a-2cbb-4ce6-9958-e0869bf95006</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='form_filtro_Empleados:planInversion']</value>
+      <webElementGuid>f05d85d5-0158-4362-810a-e8b816673d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='form_filtro_Empleados:j_idt1388_content']/div[2]/table[3]/tbody/tr/td[2]/select</value>
+      <webElementGuid>e4433eb0-5dea-4af8-8e05-543002f21cbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan de Inversión*'])[1]/following::select[1]</value>
+      <webElementGuid>3634c36b-8244-4005-826a-47ba9146ffc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo*'])[1]/following::select[2]</value>
+      <webElementGuid>c735d508-d8d9-4e71-923b-887e2877a6a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Listado Empleados'])[1]/preceding::select[1]</value>
+      <webElementGuid>b5495ccb-ad4b-45f2-a0e9-20d0d69b4862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Almanza Novoa John Alexandre'])[1]/preceding::select[1]</value>
+      <webElementGuid>affab3eb-d750-4c0b-9127-a3b0641d1c08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table[3]/tbody/tr/td[2]/select</value>
+      <webElementGuid>e5fea729-00fc-427b-8abc-92a24759e6ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'form_filtro_Empleados:planInversion' and @name = 'form_filtro_Empleados:planInversion' and (text() = '	--Seleccione
+	Prueba
+	1
+	prueba
+	PRUEBA PLAN CAPACITACION
+	PRUEBA SILVIA
+' or . = '	--Seleccione
+	Prueba
+	1
+	prueba
+	PRUEBA PLAN CAPACITACION
+	PRUEBA SILVIA
+')]</value>
+      <webElementGuid>6f067d01-e57b-4d71-b6f9-5c00f2cfd148</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

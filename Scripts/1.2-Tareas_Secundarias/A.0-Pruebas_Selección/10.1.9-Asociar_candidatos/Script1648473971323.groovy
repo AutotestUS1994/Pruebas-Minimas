@@ -41,6 +41,8 @@ WebUI.setText(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/As
 WebUI.sendKeys(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/input_Fecha Inicial_filtro_procesoseleccionfechaps_input'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/CheckActivo'))
+
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/td_8028     - Analista De Sistemas'))
 
 WebUI.click(findTestObject('2-OBJECTS TAREAS SECUNDARIAS/Pruebas Selección/Asociar_candidatos/div_Citacion'))

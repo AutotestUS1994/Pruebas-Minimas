@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td[2]/span/input</value>
+         <value>
+//body/div[1]/div[4]/div/table/tbody/tr[3]/td/table/tbody/tr/td/div/form[8]/div/div[2]/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/span/input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ce177f05-cec8-400a-95da-3fae624d35b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>form_popupViaticoCierreDesembolso:fecha_input</value>
+      <webElementGuid>ac4343ac-96f5-4ece-a677-21a77aeb08e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>form_popupViaticoCierreDesembolso:fecha_input</value>
+      <webElementGuid>edccee9a-f565-4103-96c0-9560df32da9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>317e5dde-9c9f-4ccd-ab9d-29ebd0464185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker ui-state-focus</value>
+      <webElementGuid>3cd39909-7d66-42bc-9304-12034bbbdfdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,6 +62,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
+      <webElementGuid>7e553850-9eb2-44f3-82fe-e8249795cf19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,6 +70,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>f06cbab5-e7a9-407a-846c-eae70e49fdbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,6 +78,7 @@
       <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>8f74d224-89b9-41ae-8037-a572ec64db5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,6 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form_popupViaticoCierreDesembolso:fecha_input&quot;)</value>
+      <webElementGuid>d6cc31e2-f471-4013-ac3e-1175c69a0755</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,6 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='form_popupViaticoCierreDesembolso:fecha_input']</value>
+      <webElementGuid>a9975e67-605b-4c67-b536-5c241520992d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='form_popupViaticoCierreDesembolso:fecha']/input</value>
+      <webElementGuid>94d076f0-bf09-4a6b-94ac-cac26fbbaec6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,5 +110,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/span/input</value>
+      <webElementGuid>1e73b6b8-71a1-4b59-9e8b-d9a85a8b5f74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
