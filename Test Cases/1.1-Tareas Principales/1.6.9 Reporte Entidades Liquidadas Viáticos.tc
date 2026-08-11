@@ -4,5 +4,6 @@
    <name>1.6.9 Reporte Entidades Liquidadas Viáticos</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c62807c9-6043-48ea-a56a-8d162710f620</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>1.7.6-Generacion_Interfaz_Contable</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>91d59115-5952-4798-bad9-7a07fa56f8d2</testCaseGuid>
 </TestCaseEntity>
